@@ -10,9 +10,10 @@ I am summary text.
 2. What celestial body will be 0.5 astronomical units away from Earth in the next 24 months?
 3. What are the 5 closest celestial bodies that contains iron?
 4. What are the 5 celestial bodies within 0.5au of Earth that could result in the most profit?5. 
-6. 
-7. 
-8. 
+5. How long will a celestial body be within 0.5au of Earth?
+6. When will a celestial body enter within 0.5au of Earth?
+7. When will a celestial body exit a 0.5au range from Earth?
+8. What is the travel time to "the asteroid"?
 9. 
 10. 
 ... etc  
