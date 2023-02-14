@@ -6,11 +6,10 @@ I am summary text.
 3. Why is making a KG interesting (or important) for the use-case?
 
 #  Competency Questions
-1. 
-2. 
-3. 
-4. 
-5. 
+1. What minerals can be found in Apollo Asteroid Belt?
+2. What celestial body will be 0.5 astronomical units away from Earth in the next 24 months?
+3. What are the 5 closest celestial bodies that contains iron?
+4. What are the 5 celestial bodies within 0.5au of Earth that could result in the most profit?5. 
 6. 
 7. 
 8. 
