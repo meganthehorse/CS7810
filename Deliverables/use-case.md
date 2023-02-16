@@ -6,26 +6,25 @@ I am summary text.
 3. Why is making a KG interesting (or important) for the use-case?
 
 #  Competency Questions
-1. What minerals can be found in Apollo Asteroid Belt?  
-2. What celestial body will be 0.5 astronomical units away from Earth in the next 24 months?
-3. What are the 5 closest celestial bodies that contain iron?
-4. What are the 5 celestial bodies within 0.5au of Earth that could result in the most profit?  
-5. How long will a celestial body be within 0.5au of Earth?
-6. When will a celestial body enter within 0.5au of Earth?
-7. When will a celestial body exit a 0.5au range from Earth?
-8. What is the travel time to "the asteroid"?
-9. What celestial body has the highest confidence of an accurate trajectory?
-10. Based on current trajectory, can we accomplish the mining mission in 6 months?
-11. How much planning time is available until the celestial body is within 0.5au of Earth?
-... etc  
+1. What are the top 5 minerals that can be found in the Apollo Asteroid Belt?  
+2. What are the 10 closest asteroids that will be within 0.5 astronomical units from Earth in the next 24 months?
+3. What are the 5 closest asteroids that contain iron?
+4. What are the 3 most potentially profitable asteroids within 0.75au of Earth?  
+5. When will 162173 Ryugu enter within 1au of Earth?
+6. How long will 162173 Ryugu be within 1au of Earth?
+7. When will a 162173 Ryugu exit a 1au range from Earth?
+8. What is the estimated travel time to 162173 Ryugu?
+9. Which 5 asteroids have the highest confidence of an accurate trajectory and are within 2au of Earth?
+10. Based on current trajectory of 162173 Ryugu, can we accomplish the mining mission in 8 months?
+11. How much planning time is available until the 162173 Ryugu is within 1au of Earth?
 
 #  Potential Datasets
 1. The Orbital Debris Ontology:  https://rrovetto.github.io/The-Orbital-Debris-Ontology/  
-2. NASA Namespaces:  https://pds.nasa.gov/datastandards/training/documents/Namespaces%20in%20PDS4.pdf, https://pds.nasa.gov/, Maybe https://pds-geosciences.wustl.edu/
-3. SpaceX Launch Data:  https://www.kaggle.com/datasets/scoleman/spacex-launch-data/code
+2. NASA Namespaces:  https://pds.nasa.gov/datastandards/training/documents/Namespaces%20in%20PDS4.pdf, https://pds.nasa.gov/
+3. Asterank: https://www.asterank.com/
 4. Astrology Ontology: https://www.astro.umd.edu/~eshaya/astro-onto/ontologies/astronomy.html
 5. Publication Dataset:  https://www.astromat.org/collections/ucla-cosmochemistry-database/
-... etc  
+6. NASA Small Body Database: https://ssd.jpl.nasa.gov/tools/sbdb_lookup.html#/  
 
 # Space Ontology Resources:
 1. Space Object Ontology:  https://philarchive.org/archive/ROVSOO
