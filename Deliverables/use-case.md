@@ -20,11 +20,11 @@ I am summary text.
 
 #  Potential Datasets
 1. The Orbital Debris Ontology:  https://rrovetto.github.io/The-Orbital-Debris-Ontology/  
-2. NASA Namespaces:  https://pds.nasa.gov/datastandards/training/documents/Namespaces%20in%20PDS4.pdf, https://pds.nasa.gov/, Maybe https://pds-geosciences.wustl.edu/
-3. SpaceX Launch Data:  https://www.kaggle.com/datasets/scoleman/spacex-launch-data/code
+2. NASA Namespaces:  https://pds.nasa.gov/datastandards/training/documents/Namespaces%20in%20PDS4.pdf, https://pds.nasa.gov/
+3. Asterank: https://www.asterank.com/
 4. Astrology Ontology: https://www.astro.umd.edu/~eshaya/astro-onto/ontologies/astronomy.html
 5. Publication Dataset:  https://www.astromat.org/collections/ucla-cosmochemistry-database/
-... etc  
+6. NASA Small Body Database: https://ssd.jpl.nasa.gov/tools/sbdb_lookup.html#/  
 
 # Space Ontology Resources:
 1. Space Object Ontology:  https://philarchive.org/archive/ROVSOO
