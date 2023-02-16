@@ -1,7 +1,10 @@
 # Narrative
 The rich minerals on Earth remain a non-renewable resource for humans as they continue to refine the currently available resources to build products from everyday use items to hardware for technological advances. Due to the limited availability of rich minerals, humans will eventually need to branch out from Earth to other planetary bodies for mineral excavations. SOL Of Life plans to support the missions of space exploration and research by providing a tool to query collected data of asteroids within Sol, our solar system. Users of our tool could range anywhere from government entities, researchers, analysts, other space research institutions, and space enthusiasts. 
+
 The available research and data can be cumbersome to navigate through. A knowledge graph is interesting in the case of mining in space because it is an uncharted frontier. There are so many questions that are difficult to answer surrounding the viability and cost. A knowledge graph would provide a method for answering those questions without the need for a specialized analyst to go out and make the various connections themselves from the existing research and data.
+
 Our focus is on asteroids that can be found within approximately 2AU of Earth because of their potential for containing valuable minerals and a wealth of existing data. As defined by NASA, an asteroid exists as a space rock that orbits the sun with a size between 10 meters and 530 kilometers. 
+
 Open source data provided by researchers and institutions such as Neil deGrasse Tyson, NASA, and Space Force, can be re-purposed into a knowledge graph to provide insight into excavation missions. With all of the data gathered together, the knowledge graph helps to filter the information into a readable state. Data that includes celestial body mineralogy predicted from infrared readings combined with data of the body’s trajectory path could be used together for humans to plan space missions in order to send out spacecrafts for mining expeditions. We also hope to serve humans of Planet Earth against celestial bodies that may be on a course for impact into the planet.
 
 #  Competency Questions
