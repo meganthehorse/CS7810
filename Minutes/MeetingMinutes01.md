@@ -21,3 +21,10 @@
 
 ###  03:  Ask Cogan about AstroMat:  Publication-into-Data
 - Brandon
+
+###  04:  Review of CQ
+- Ryan
+
+###  05:  Review of Narrative
+- Megan & Brandon
+
