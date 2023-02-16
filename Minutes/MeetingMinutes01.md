@@ -38,7 +38,9 @@
 - Done: 2/16
 
 ###  06: Finalize Narrative Section
-- Megan 
+- Megan
+- Done: 2/16
 
 ###  07: Ask Cogan about Patterns and Modules expectations and form group assignments for next week
 - Ryan
+- Done: 2/16
