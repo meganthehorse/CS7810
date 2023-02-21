@@ -10,4 +10,5 @@
   - Profit
     - Accessibility, distance/au & mineral composition
   - Mineral Composition
+  - Thing
 
