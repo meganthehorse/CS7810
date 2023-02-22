@@ -20,7 +20,7 @@ Open source data provided by researchers and institutions such as Neil deGrasse 
 10. Based on current trajectory of 162173 Ryugu, where will 162173 Ryugu be in 8 months?
 11. How much time is available until the 162173 Ryugu is within 1au of Earth?
 
-#  Potential Datasets
+#  Potential Datasets & Existing Ontologies
 1. The Orbital Debris Ontology:  https://rrovetto.github.io/The-Orbital-Debris-Ontology/  
 2. NASA Namespaces:  https://pds.nasa.gov/datastandards/training/documents/Namespaces%20in%20PDS4.pdf, https://pds.nasa.gov/
 3. Asterank: https://www.asterank.com/
@@ -28,10 +28,10 @@ Open source data provided by researchers and institutions such as Neil deGrasse 
 5. Publication Dataset:  https://www.astromat.org/collections/ucla-cosmochemistry-database/
 6. NASA Small Body Database: https://ssd.jpl.nasa.gov/tools/sbdb_lookup.html#/  
 
-# Space Ontology Resources:
+# Space Ontology Reference Resources:
 1. Space Object Ontology:  https://philarchive.org/archive/ROVSOO
 2. Ontology of Astronomical Object Types: https://www.ivoa.net/documents/Notes/AstrObjectOntology/20100117/NOTE-AstrObjectOntology-1.3-20100117.html
-3. Space Orbital Trajectory Data: https://arxiv.org/vc/arxiv/papers/1704/1704.01014v1.pdf
+2. Space Orbital Trajectory Data: https://arxiv.org/vc/arxiv/papers/1704/1704.01014v1.pdf
 
 # Other Space Resources
 1. Space Mineralogy: https://www.researchgate.net/publication/  272521659_Mineralogy_and_Surface_Composition_of_Asteroids
