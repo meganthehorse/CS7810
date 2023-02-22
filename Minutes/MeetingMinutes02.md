@@ -6,7 +6,14 @@
 * Ryan Miller 
 
 ##  Agenda
-2/21/2023
+2/21/2023:
+- Identify primary classes
+- Getting key notions from our competency questions
+
+2/23/2023:
+- Figure out how to represent trajectory
+- Identify patterns which can be used to model key notions
+- 
 
 ##  Notes/Comments
 - Identify a thorough list of key notions. For each key notion, explain your rationale
@@ -23,5 +30,27 @@
 
 - Please make sure your final commit with all requested content is completed by 11:59 pm 03/05/23.
 
-
 ##  Action Items
+###  01:  Refinement of competency questions
+- Ryan
+- Done: 2/21
+
+###  02:  Identify primary classes
+- assigned to everyone
+- Done: 2/21
+
+###  03:  Ask Cogan how to represent spacial/temporal data
+- assigned to everyone
+- Done: 2/21
+
+###  04:  Review ontology references
+- assigned to everyone
+- Done: 
+
+###  05:  Generate schema template
+- assigned to everyone
+- Done: 
+
+###  06:  Get csv datasets
+- assigned to everyone
+- Done: 
