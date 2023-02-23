@@ -10,15 +10,21 @@ Group work for WSU CS7810 - Metadata Representation Languages
 5. Add axioms for each module
 6. Assemble modules together and revise naming conventions for classes, properties, and individual names
 7. Add axioms which involve several modules and review
-8. Create OWL files with Protege and CoModIDE plug-in
+8. Create OWL/RDF files with Protege and CoModIDE plug-in
 
 # Deliverables
 1. Narrative and Use Case
 2. Review Gathered Data
 3. Identify Key Notions and Patterns
-4. Assemble Schema Diagrams in /schema-diagrams
-    a. PROV-O
+4. Assemble Schema Diagrams with yEd; store in /schema-diagrams
+    a. PROV-O; NameStub, AgentRole
+    b. QUDT, MODL, ODP
 5. Axiomatization of individual modules
 6. Revision of Schema Diagrams and Naming Conventions
 7. Axiomatization of collective modules
 8. Protege & CoModIDE
+9. Triplification with Python:
+    a. Load CSV
+    b. Init KG
+    c. graph.add(  )
+    d. graph.serialize => format: turtle
