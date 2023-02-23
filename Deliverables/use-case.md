@@ -8,17 +8,18 @@ Our focus is on asteroids that can be found within approximately 2AU of Earth be
 Open source data provided by researchers and institutions such as Neil deGrasse Tyson, NASA, and Space Force, can be re-purposed into a knowledge graph to provide insight into excavation missions. With all of the data gathered together, the knowledge graph helps to filter the information into a readable state. Data that includes celestial body mineralogy predicted from infrared readings combined with data of the body’s trajectory path could be used together for humans to plan space missions in order to send out spacecrafts for mining expeditions. We also hope to serve humans of Planet Earth against celestial bodies that may be on a course for impact into the planet.
 
 #  Competency Questions
-1. What are the top 5 minerals that can be found in the Apollo Asteroid Belt?  
-2. What are the 10 closest asteroids that will be within 0.5 astronomical units from Earth in the next 24 months?
-3. What are the 5 closest asteroids that contain iron?
-4. What are the 3 most potentially profitable asteroids within 0.75au of Earth?  
-5. When will 162173 Ryugu enter within 1au of Earth?
-6. How long will 162173 Ryugu be within 1au of Earth?
-7. When will a 162173 Ryugu exit a 1au range from Earth?
-8. What is the estimated travel time to 162173 Ryugu assuming a travel speed of 26,000kph?
-9. Which 5 asteroids have the highest confidence of an accurate trajectory and are within 2au of Earth?
-10. Based on current trajectory of 162173 Ryugu, where will 162173 Ryugu be in 8 months?
-11. How much time is available until the 162173 Ryugu is within 1au of Earth?
+1. What are the top 3 most frequently occuring minerals within 1.5 astronomical units from Earth?
+2. what are the top 5 most occuring asteroid types within 1.5au from Earth  
+3. What are the 10 closest asteroids that will be be within 0.5au from Earth in the next 24 months?
+4. What are the 5 closest asteroids that contain iron?
+5. What are the 3 most potentially profitable asteroids within 0.75au of Earth?  
+6. When will 162173 Ryugu enter within 1au of Earth?
+7. How long will 162173 Ryugu be within 1au of Earth?
+8. When will a 162173 Ryugu exit a 1au range from Earth?
+~~8. What is the estimated travel time to 162173 Ryugu assuming a travel speed of 26,000kph?~~
+~~9. Which 5 asteroids have the highest confidence of an accurate trajectory and are within 2au of Earth?~~
+9. Based on current trajectory of 162173 Ryugu, where will 162173 Ryugu be in 8 months?
+10. How much time is available until the 162173 Ryugu is within 1au of Earth?
 
 #  Potential Datasets & Existing Ontologies
 1. The Orbital Debris Ontology:  https://rrovetto.github.io/The-Orbital-Debris-Ontology/  
@@ -32,6 +33,8 @@ Open source data provided by researchers and institutions such as Neil deGrasse 
 1. Space Object Ontology:  https://philarchive.org/archive/ROVSOO
 2. Ontology of Astronomical Object Types: https://www.ivoa.net/documents/Notes/AstrObjectOntology/20100117/NOTE-AstrObjectOntology-1.3-20100117.html
 2. Space Orbital Trajectory Data: https://arxiv.org/vc/arxiv/papers/1704/1704.01014v1.pdf
+3. Ontology Entry for Asteroid: https://www.astro.umd.edu/~eshaya/astro-onto/classes/asteroid.html
+
 
 # Other Space Resources
 1. Space Mineralogy: https://www.researchgate.net/publication/  272521659_Mineralogy_and_Surface_Composition_of_Asteroids
