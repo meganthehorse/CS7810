@@ -54,3 +54,7 @@
 ###  06:  Get csv datasets
 - assigned to everyone
 - Done: 2/22
+
+###  07:  Define Trajectory Pattern based on Orbital Data
+- 
+- Done:
