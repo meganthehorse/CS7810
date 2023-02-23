@@ -37,7 +37,7 @@
 
 ###  02:  Identify primary classes
 - assigned to everyone
-- Done: 2/21
+- Done: 
 
 ###  03:  Ask Cogan how to represent spacial/temporal data
 - assigned to everyone
@@ -53,4 +53,4 @@
 
 ###  06:  Get csv datasets
 - assigned to everyone
-- Done: 
+- Done: 2/22
