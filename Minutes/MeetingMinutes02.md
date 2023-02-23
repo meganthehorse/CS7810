@@ -13,7 +13,7 @@
 2/23/2023:
 - Figure out how to represent trajectory
 - Identify patterns which can be used to model key notions
-- 
+- Assigned and discussed action items 5-7
 
 ##  Notes/Comments
 - Identify a thorough list of key notions. For each key notion, explain your rationale
@@ -37,7 +37,7 @@
 
 ###  02:  Identify primary classes
 - assigned to everyone
-- Done: 
+- Done: 2/23
 
 ###  03:  Ask Cogan how to represent spacial/temporal data
 - assigned to everyone
@@ -45,7 +45,7 @@
 
 ###  04:  Review ontology references
 - assigned to everyone
-- Done: 
+- Done: 2/23
 
 ###  05:  Generate schema template
 - assigned:  Brandon
