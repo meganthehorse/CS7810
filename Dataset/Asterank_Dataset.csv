@@ -1,0 +1,301 @@
+Name,Type,a (AU),e,Value ($),Est. Profit ($),Δv (km/s),MOID (AU),Group
+Ryugu,Cg,1.190,0.190,82.76 billion,30.08 billion,4.663,0.000638,APO (PHA)
+1989 ML,X,1.272,0.137,13.94 billion,4.38 billion,4.889,0.082029,AMO
+Nereus,Xe,1.489,0.360,4.71 billion,1.39 billion,4.987,0.003153,APO (PHA)
+Bennu,B,1.126,0.204,669.96 million,185.00 million,5.096,0.003223,APO (PHA)
+Didymos,Xk,1.644,0.384,62.25 billion,16.41 billion,5.162,0.039777,APO (PHA)
+2011 UW158,Xc,1.621,0.376,6.69 billion,1.74 billion,5.189,0.002914,APO (PHA)
+Anteros,L,1.430,0.256,5.57 trillion,1.25 trillion,5.440,0.062212,AMO
+2001 CC21,L,1.032,0.219,147.04 billion,29.77 billion,5.636,0.083067,APO
+1992 TC,X,1.566,0.292,84.01 billion,16.78 billion,5.648,0.167212,AMO
+2001 SG10,X,1.449,0.424,3.05 billion,544.48 million,5.880,0.017183,APO (PHA)
+2002 DO3,X,1.860,0.499,334.44 million,59.03 million,5.896,0.029415,APO (PHA)
+2000 CE59,L,1.137,0.167,10.65 billion,1.80 billion,6.015,0.008298,APO (PHA)
+1995 BC2,X,1.917,0.430,78.87 billion,13.22 billion,6.010,0.135685,AMO
+1991 DB,C,1.715,0.402,168.20 billion,26.68 billion,6.146,0.102803,AMO
+2000 RW37,C,1.248,0.250,29.27 billion,4.53 billion,6.225,0.008221,APO (PHA)
+1998 UT18,C,1.404,0.329,644.70 billion,99.62 billion,6.221,0.037188,APO (PHA)
+Seleucus,K,2.033,0.456,33.52 trillion,5.02 trillion,6.289,0.102357,AMO
+1998 KU2,Cb,2.252,0.553,80.32 trillion,11.95 trillion,6.302,0.060029,APO
+1989 UQ,B,0.915,0.265,600.73 billion,87.58 billion,6.402,0.013980,ATE (PHA)
+1999 KV4,B,1.540,0.371,25.68 trillion,3.73 trillion,6.384,0.172981,APO
+1988 XB,B,1.468,0.482,217.07 billion,31.31 billion,6.411,0.006611,APO (PHA)
+1997 RT,O,2.247,0.524,174.31 billion,24.24 billion,6.498,0.059847,AMO
+1997 XF11,Xk,1.443,0.484,383.99 billion,52.97 billion,6.548,0.000531,APO (PHA)
+1996 FG3,C,1.054,0.350,1.33 trillion,181.34 billion,6.607,0.028342,APO (PHA)
+1992 QN,X,1.190,0.359,253.70 billion,34.53 billion,6.601,0.132115,APO
+2001 TY44,X,2.358,0.522,3.50 billion,473.52 million,6.583,0.148551,AMO
+1999 JV6,Xk,1.008,0.311,12.03 billion,1.59 billion,6.700,0.031786,APO (PHA)
+2002 EA,L,1.378,0.423,672.12 million,87.43 million,6.747,0.035610,APO
+2001 HK31,X,2.437,0.575,1.33 billion,172.64 million,6.725,0.117916,AMO
+2005 YU55,C,1.157,0.431,49.84 billion,6.23 billion,6.907,0.000467,APO (PHA)
+1992 BF,Xc,0.908,0.272,2.90 billion,357.67 million,6.982,0.062737,ATE
+2001 PD1,K,2.234,0.458,646.08 billion,80.77 billion,6.859,0.239755,AMO
+Lucianotesi,Xc,1.325,0.118,53.17 billion,6.49 billion,6.988,0.248206,AMO
+2002 CS11,X,2.019,0.404,766.16 million,94.41 million,6.921,0.220314,AMO
+1992 NA,C,2.398,0.555,4.55 trillion,547.95 billion,7.005,0.063013,AMO
+2002 AV,K,2.470,0.659,17.79 billion,2.14 billion,7.023,0.019524,APO (PHA)
+2002 BM26,X,1.833,0.444,77.75 billion,9.25 billion,7.074,0.032462,AMO (PHA)
+1999 NC43,Q,1.759,0.579,2.61 billion,307.19 million,7.131,0.024621,APO (PHA)
+2000 CO101,Xk,1.076,0.090,29.27 billion,3.39 billion,7.237,0.021957,APO (PHA)
+Dionysus,Cb,2.199,0.542,2.62 trillion,304.03 billion,7.181,0.020620,APO (PHA)
+1999 CF9,Q,1.773,0.600,152.75 million,17.52 million,7.248,0.018825,APO (PHA)
+2002 AH29,K,2.409,0.561,7.77 billion,892.46 million,7.212,0.110300,AMO
+1986 DA,M,2.822,0.582,4.25 trillion,484.74 billion,7.229,0.190995,AMO
+1996 BZ3,X,2.644,0.527,73.17 billion,8.35 billion,7.236,0.275839,AMO
+Davidharvey,C,2.850,0.589,53.90 trillion,6.14 trillion,7.238,0.203700,AMO
+2001 HA8,C,2.386,0.529,1.51 trillion,169.29 billion,7.314,0.121856,AMO
+Apollo,Q,1.470,0.560,805.03 million,88.36 million,7.484,0.025757,APO (PHA)
+2000 LC16,Xk,2.735,0.553,4.23 trillion,472.54 billion,7.335,0.212293,AMO
+2001 WH2,X,2.042,0.427,4.62 billion,497.31 million,7.544,0.195226,AMO
+2000 WC67,X,2.692,0.574,296.27 billion,32.10 billion,7.492,0.232789,AMO
+1998 HT31,C,2.512,0.693,10.42 billion,1.11 billion,7.585,0.031156,APO (PHA)
+2000 WJ10,Xk,2.069,0.459,3.50 billion,373.22 million,7.602,0.190025,AMO
+Atlantis,L,2.251,0.335,48.69 trillion,5.22 trillion,7.550,0.491807,MCA
+2001 HW15,X,1.525,0.253,3.50 billion,362.50 million,7.801,0.133584,AMO
+1999 VN6,C,1.733,0.370,62.78 billion,6.50 billion,7.787,0.168070,AMO
+2001 XS1,Cb,2.670,0.556,125.08 billion,13.16 billion,7.653,0.204889,AMO
+Eger,Xe,1.404,0.354,442.75 billion,44.76 billion,7.961,0.079032,APO
+Calingasta,Cb,2.195,0.389,20.76 trillion,2.15 trillion,7.762,0.332804,MCA
+Vishnu,O,1.060,0.444,242.46 billion,23.25 billion,8.358,0.019393,APO (PHA)
+2000 BG19,X,2.658,0.561,727.45 billion,74.68 billion,7.797,0.277888,AMO
+Zao,X,2.103,0.423,1.60 trillion,161.92 billion,7.888,0.245362,AMO
+1999 SE10,X,3.216,0.619,5.30 billion,546.90 million,7.752,0.232981,AMO
+1999 JM8,X,2.726,0.641,45.00 trillion,4.58 trillion,7.858,0.024720,APO (PHA)
+1994 AH2,O,2.537,0.707,21.02 trillion,2.11 trillion,7.952,0.101523,APO
+2000 WL10,Xc,3.141,0.717,92.39 billion,9.31 billion,7.908,0.065028,APO
+2000 BM19,O,0.740,0.359,914.79 billion,73.15 billion,9.951,0.083090,ATE
+1997 US9,Q,1.053,0.282,67.65 million,6.01 million,8.943,0.249018,APO
+2001 SJ262,C,2.945,0.575,30.61 billion,3.04 billion,7.984,0.258586,AMO
+1997 SE5,T,3.759,0.661,76.10 million,7.64 million,7.903,0.271512,AMO
+Ra-Shalom,Xc,0.832,0.437,1.76 trillion,130.81 billion,10.649,0.150112,ATE
+1997 AQ18,C,1.147,0.465,329.46 billion,28.82 billion,9.071,0.186643,APO
+1999 HF1,X,0.819,0.463,9.21 trillion,556.48 billion,13.130,0.173457,ATE
+1999 YK5,X,0.829,0.558,7.66 trillion,475.65 billion,12.768,0.114081,ATE
+1999 JD6,K,0.883,0.633,4.77 trillion,254.72 billion,14.847,0.048097,ATE (PHA)
+2000 WO107,X,0.912,0.781,17.40 billion,725.99 million,18.996,0.003075,ATE (PHA)
+1997 AC11,Xc,0.913,0.368,2.92 billion,170.33 million,13.580,0.103694,ATE
+2000 EA107,Q,0.930,0.456,1.06 billion,61.22 million,13.755,0.161775,ATE
+2000 CK33,Xk,0.968,0.415,63.73 billion,4.55 billion,11.089,0.125383,ATE
+Poseidon,O,1.835,0.679,38.13 trillion,3.50 trillion,8.627,0.194222,APO
+2002 DH2,Ch,2.051,0.541,20.79 billion,1.96 billion,8.409,0.070741,APO
+2001 YK4,X,2.656,0.776,314.94 billion,29.75 billion,8.372,0.064345,APO
+Cruithne,Q,0.998,0.515,2.12 billion,117.69 million,14.237,0.070852,ATE
+1999 FB,Q,1.180,0.607,175.38 million,14.15 million,9.799,0.197574,APO
+2002 DY3,Xk,1.492,0.274,48.34 billion,4.31 billion,8.856,0.143475,AMO
+Izhdubar,Q,1.007,0.266,801.64 million,24.81 million,25.539,0.145265,APO
+2001 XS30,Xc,1.165,0.828,139.84 billion,7.00 billion,15.785,0.302990,APO
+2000 YH66,Xk,1.173,0.744,73.17 billion,4.62 billion,12.510,0.164470,APO
+David Hughes,Xe,1.726,0.149,12.14 trillion,1.11 trillion,8.637,0.553546,MCA
+Phaethon,B,1.271,0.890,>100 trillion,5.30 trillion,15.347,0.020192,APO (PHA)
+2000 CN33,X,2.601,0.586,16.01 billion,1.51 billion,8.344,0.094403,AMO
+Bede,Xc,1.774,0.284,11.47 trillion,1.04 trillion,8.662,0.351907,AMO
+Gressmann,B,2.220,0.192,81.81 trillion,7.76 trillion,8.317,0.781724,MBA
+1995 BL2,L,1.235,0.504,261.02 billion,19.86 billion,10.365,0.375960,APO
+2000 BJ19,Q,1.292,0.764,2.78 billion,150.11 million,14.597,0.389692,APO
+2001 UY4,X,1.453,0.788,252.55 billion,18.59 billion,10.701,0.026137,APO (PHA)
+2000 WK10,X,1.479,0.702,48.34 billion,3.77 billion,10.098,0.022761,APO (PHA)
+2002 AU5,X,2.020,0.754,145.99 billion,12.69 billion,9.055,0.135793,APO
+Tantalus,Q,1.290,0.299,1.07 billion,35.86 million,23.460,0.043465,APO (PHA)
+Tapio,B,2.299,0.245,>100 trillion,>100 trillion,8.464,0.731415,MBA
+Heracles,O,1.834,0.772,>100 trillion,30.33 trillion,9.636,0.058402,APO
+Sigurd,K,1.392,0.375,32.74 trillion,2.02 trillion,12.716,0.118482,APO
+Munroe,X,2.202,0.136,5.40 trillion,495.45 billion,8.563,0.885403,MBA
+Orchis,C,2.419,0.259,>100 trillion,>100 trillion,8.476,0.809220,MBA
+Pyotr Pervyj,C,2.331,0.203,>100 trillion,51.16 trillion,8.520,0.852253,MBA
+1991 WA,Q,1.575,0.643,698.20 million,37.97 million,14.434,0.193285,APO
+2002 AD9,L,1.773,0.809,1.54 trillion,88.50 billion,13.653,0.409705,APO
+1991 AM,Q,1.698,0.695,2.42 billion,155.32 million,12.226,0.397203,APO
+1974 MA,Q,1.786,0.762,5.55 billion,295.91 million,14.699,0.161869,APO
+Yakhontovia,X,2.610,0.324,95.95 trillion,8.86 trillion,8.496,0.776512,MBA
+Lilliputia,Cb,2.313,0.171,>100 trillion,17.98 trillion,8.645,0.927667,MBA
+Syringa,Xk,2.629,0.344,>100 trillion,>100 trillion,8.533,0.748952,MBA
+Bryantsev,Cgh,2.453,0.238,>100 trillion,18.78 trillion,8.597,0.874962,MBA
+1991 XB,K,2.952,0.587,323.81 billion,29.41 billion,8.626,0.236104,AMO
+2002 BP26,X,1.697,0.394,16.01 billion,1.23 billion,10.201,0.056726,AMO
+2000 YO29,C,1.815,0.694,754.75 billion,31.53 billion,18.756,0.335340,APO
+Toyota,Xk,2.220,0.117,>100 trillion,9.91 trillion,8.754,0.978827,MBA
+Rudra,B,1.740,0.229,90.46 trillion,7.32 trillion,9.678,0.484550,MCA
+Leonardo,B,2.351,0.180,>100 trillion,66.78 trillion,8.672,0.926910,MBA
+Mukai,X,2.184,0.091,85.23 trillion,7.59 trillion,8.796,1.004210,MBA
+Olmstead,L,2.366,0.300,76.85 trillion,6.90 trillion,8.727,0.695380,MCA
+2001 TX16,X,3.579,0.598,23.04 trillion,2.14 trillion,8.434,0.473576,OMB
+Eichhorn,Cb,2.335,0.193,38.37 trillion,3.45 trillion,8.709,0.869192,MBA
+Parvulesco,C,2.426,0.220,>100 trillion,13.12 trillion,8.667,0.909882,MBA
+Beatty,Cgh,2.387,0.191,>100 trillion,25.12 trillion,8.690,0.947972,MBA
+Boznemcova,O,2.540,0.297,>100 trillion,97.88 trillion,8.650,0.776509,MBA
+Storeria,Ch,2.365,0.287,>100 trillion,83.06 trillion,8.775,0.682309,MBA
+Swann,Ch,2.389,0.258,>100 trillion,60.29 trillion,8.761,0.808239,MBA
+Nora,C,2.342,0.230,>100 trillion,>100 trillion,8.791,0.792721,MBA
+Horky,C,2.401,0.190,>100 trillion,20.84 trillion,8.734,0.959272,MBA
+1994 EF2,Q,2.293,0.516,304.77 million,26.04 million,9.158,0.247184,AMO
+Amy,C,2.172,0.025,>100 trillion,20.69 trillion,8.937,1.123430,MBA
+Leetsungdao,T,2.392,0.307,604.51 million,53.60 million,8.823,0.692678,MCA
+Sigrid,Xc,2.430,0.201,>100 trillion,>100 trillion,8.742,0.929813,MBA
+Berry,C,2.287,0.154,>100 trillion,>100 trillion,8.860,0.956195,MBA
+Lunacharsky,B,2.355,0.161,>100 trillion,>100 trillion,8.797,0.961447,MBA
+Tangshan,Cb,2.281,0.122,>100 trillion,>100 trillion,8.874,1.010760,MBA
+A'Hearn,C,2.377,0.168,64.58 trillion,5.74 trillion,8.799,0.991214,MBA
+1998 ST49,Q,2.308,0.595,231.20 million,19.20 million,9.415,0.055571,APO
+Fowler,Cb,2.330,0.153,69.31 trillion,6.13 trillion,8.842,0.989774,MBA
+Tiflis,L,2.329,0.221,>100 trillion,>100 trillion,8.879,0.802062,MBA
+Tatianina,Xc,2.358,0.194,5.10 trillion,450.42 billion,8.851,0.902866,MBA
+Dugan,B,2.314,0.205,>100 trillion,60.19 trillion,8.908,0.872874,MBA
+Kani,C,2.429,0.199,>100 trillion,>100 trillion,8.812,0.948288,MBA
+Amaravella,X,2.274,0.079,7.77 trillion,677.75 billion,8.956,1.087150,MBA
+Peraga,Ch,2.374,0.153,>100 trillion,>100 trillion,8.871,1.024850,MBA
+Lacadiera,Xk,2.251,0.095,>100 trillion,>100 trillion,8.989,1.022800,MBA
+Maisica,B,2.365,0.158,32.64 trillion,2.87 trillion,8.885,0.990058,MBA
+Kaho,Ch,2.400,0.274,>100 trillion,89.25 trillion,8.920,0.728648,MBA
+1980 RC1,C,2.458,0.200,>100 trillion,>100 trillion,8.827,0.965319,MBA
+Vernadskij,B,2.429,0.180,>100 trillion,>100 trillion,8.845,0.982494,MBA
+Chukotka,C,2.456,0.194,>100 trillion,>100 trillion,8.844,0.967543,MBA
+Komendantov,Xc,2.468,0.209,32.49 trillion,2.86 trillion,8.868,0.961573,MBA
+Paavo Nurmi,C,2.466,0.191,>100 trillion,>100 trillion,8.863,0.996427,MBA
+Horn-d'Arturo,Ch,2.628,0.277,>100 trillion,>100 trillion,8.782,0.909576,MBA
+Makharadze,C,2.461,0.188,>100 trillion,>100 trillion,8.870,0.986015,MBA
+Levitan,B,2.361,0.127,>100 trillion,>100 trillion,8.954,1.077530,MBA
+Sequoia,Xk,1.934,0.095,39.31 trillion,3.12 trillion,9.835,0.811874,IMB
+Popov,B,2.339,0.111,>100 trillion,64.96 trillion,8.986,1.094440,MBA
+Lilio,C,2.371,0.157,>100 trillion,76.53 trillion,8.985,1.003270,MBA
+Madreteresa,Cgh,2.400,0.239,>100 trillion,85.82 trillion,9.008,0.851237,MBA
+Gregory,B,2.467,0.186,>100 trillion,33.06 trillion,8.905,1.005660,MBA
+Appenzella,C,2.450,0.179,>100 trillion,>100 trillion,8.921,1.016700,MBA
+Capek,C,2.541,0.272,>100 trillion,19.89 trillion,8.897,0.845107,MBA
+Heckmann,C,2.435,0.163,>100 trillion,>100 trillion,8.955,1.024630,MBA
+Jo-Ann,C,2.451,0.166,>100 trillion,>100 trillion,8.953,1.027390,MBA
+1995 WQ5,Ch,2.347,0.414,3.00 trillion,250.04 billion,9.374,0.538128,MCA
+Salli,X,2.398,0.241,>100 trillion,>100 trillion,9.071,0.816384,MBA
+Aurelia,C,2.598,0.251,>100 trillion,>100 trillion,8.876,0.931765,MBA
+Clifford,Cb,2.010,0.204,68.11 trillion,5.34 trillion,9.947,0.615049,MCA
+Jekhovsky,C,2.687,0.319,>100 trillion,>100 trillion,8.873,0.827211,MBA
+1992 UB,X,3.105,0.568,766.16 billion,66.98 billion,8.920,0.441195,MCA
+Kenos,M,1.909,0.168,39.19 trillion,2.81 trillion,10.885,0.710759,MCA
+Seilandfarm,L,2.264,0.019,>100 trillion,16.22 trillion,9.223,1.237400,MBA
+1999 CW8,B,2.236,0.599,217.07 billion,14.58 billion,11.605,0.231602,APO
+Stearns,Xe,1.884,0.132,14.73 trillion,970.17 billion,11.835,0.629586,MCA
+Sazava,C,2.452,0.163,>100 trillion,>100 trillion,9.033,1.038110,MBA
+Ostro,Xe,1.892,0.067,13.29 trillion,894.63 billion,11.582,0.796210,IMB
+Barto,C,2.459,0.158,>100 trillion,>100 trillion,9.042,1.070840,MBA
+Einstein,Xe,1.934,0.099,8.24 trillion,591.00 billion,10.866,0.767434,IMB
+Ops,Xc,2.291,0.085,9.07 trillion,762.76 billion,9.266,1.093990,MBA
+Jennifer,Xe,1.915,0.142,84.01 trillion,5.50 trillion,11.904,0.667503,MCA
+Paola,B,2.468,0.153,>100 trillion,>100 trillion,9.054,1.105650,MBA
+Geichenko,C,2.452,0.148,>100 trillion,40.08 trillion,9.076,1.090390,MBA
+Hungaria,Xe,1.944,0.074,93.54 trillion,6.61 trillion,11.021,0.833343,IMB
+2002 CE26,C,2.233,0.561,33.39 trillion,1.70 trillion,15.275,0.096733,APO
+Billmclaughlin,Xc,2.353,0.143,>100 trillion,13.11 trillion,9.239,1.010850,MBA
+Roberta,B,2.475,0.173,>100 trillion,>100 trillion,9.085,1.033480,MBA
+Kagamigawa,Xc,2.351,0.070,60.28 trillion,5.09 trillion,9.227,1.172320,MBA
+Kanaya,Ch,2.345,0.168,>100 trillion,>100 trillion,9.302,0.979082,MBA
+Sayers,B,2.349,0.147,>100 trillion,88.15 trillion,9.288,1.012470,MBA
+Limpopo,Xc,2.354,0.155,>100 trillion,39.57 trillion,9.289,1.011410,MBA
+Robeson,C,2.342,0.146,>100 trillion,>100 trillion,9.310,1.010490,MBA
+Dwornik,M,1.954,0.043,6.23 trillion,419.14 billion,11.569,0.907345,IMB
+Devosa,X,2.383,0.137,>100 trillion,>100 trillion,9.249,1.090620,MBA
+Reaves,X,2.368,0.133,>100 trillion,18.38 trillion,9.277,1.058180,MBA
+Dunham,C,2.463,0.135,>100 trillion,>100 trillion,9.137,1.122480,MBA
+Nansenia,Ch,2.312,0.106,>100 trillion,>100 trillion,9.371,1.073700,MBA
+Walkure,C,2.486,0.161,>100 trillion,>100 trillion,9.131,1.096970,MBA
+Viola,C,2.474,0.146,>100 trillion,>100 trillion,9.143,1.131360,MBA
+Betulia,C,2.197,0.488,>100 trillion,6.93 trillion,17.060,0.135315,AMO
+Wielen,Xc,2.285,0.064,20.52 trillion,1.69 trillion,9.428,1.132170,MBA
+Oskar,C,2.445,0.129,>100 trillion,>100 trillion,9.190,1.147600,MBA
+Aenna,Xe,2.464,0.164,>100 trillion,8.89 trillion,9.193,1.049140,MBA
+Fredegundis,X,2.573,0.219,>100 trillion,>100 trillion,9.099,1.025040,MBA
+Riema,Xe,1.979,0.039,12.81 trillion,801.24 billion,12.448,0.911444,IMB
+Eichsfeldia,Ch,2.345,0.071,>100 trillion,>100 trillion,9.358,1.180810,MBA
+Thais,T,2.431,0.242,12.08 billion,1.01 billion,9.338,0.873401,MBA
+Onizaki,Xe,2.346,0.109,>100 trillion,15.41 trillion,9.408,1.074570,MBA
+Newell,Xc,2.402,0.111,32.68 trillion,2.73 trillion,9.320,1.159340,MBA
+Portlandia,Xk,2.373,0.110,>100 trillion,>100 trillion,9.391,1.133440,MBA
+Alvema,Xc,2.786,0.313,>100 trillion,32.91 trillion,9.027,0.931584,MBA
+Hamburga,C,2.551,0.173,>100 trillion,>100 trillion,9.163,1.126520,MBA
+Sarema,C,2.482,0.134,>100 trillion,>100 trillion,9.244,1.165720,MBA
+NOT,T,2.400,0.096,875.46 million,72.92 million,9.343,1.188580,MBA
+Tatry,C,2.351,0.077,>100 trillion,53.10 trillion,9.473,1.204450,MBA
+Rebekka,C,2.400,0.158,>100 trillion,>100 trillion,9.434,1.025900,MBA
+Drakonia,M,2.436,0.135,>100 trillion,42.78 trillion,9.365,1.099660,MBA
+Boury,C,2.324,0.046,>100 trillion,24.16 trillion,9.557,1.245740,MBA
+Bilkis,C,2.431,0.128,>100 trillion,>100 trillion,9.375,1.133820,MBA
+Zelinda,Ch,2.297,0.231,>100 trillion,>100 trillion,9.855,0.804655,MBA
+d'Alembert,C,2.711,0.292,>100 trillion,>100 trillion,9.162,0.917839,MBA
+Lindelof,X,2.763,0.283,>100 trillion,93.95 trillion,9.098,0.993047,MBA
+Lindbloom,Xc,2.399,0.080,73.10 trillion,6.00 trillion,9.469,1.196860,MBA
+Arpola,Xc,2.328,0.042,>100 trillion,8.53 trillion,9.654,1.255340,MBA
+Tercidina,Ch,2.326,0.061,>100 trillion,>100 trillion,9.679,1.210670,MBA
+Braille,Q,2.342,0.433,2.78 billion,197.73 million,10.931,0.315151,MCA
+Brangane,K,2.587,0.220,>100 trillion,>100 trillion,9.298,1.032840,MBA
+Sanguin,Ch,2.319,0.114,>100 trillion,>100 trillion,9.810,1.043580,MBA
+Opik,Ch,2.304,0.360,24.54 trillion,1.76 trillion,10.838,0.495097,MCA
+Iva,M,2.851,0.300,>100 trillion,>100 trillion,9.104,0.993900,MBA
+Idelsonia,Cgh,2.716,0.295,>100 trillion,>100 trillion,9.263,0.910033,MBA
+2001 UC5,X,2.743,0.627,879.67 million,62.42 million,10.955,0.059866,AMO
+Tsubetsu,X,2.401,0.067,63.39 trillion,5.12 trillion,9.613,1.233310,MBA
+Osiris,C,2.435,0.063,>100 trillion,>100 trillion,9.530,1.304450,MBA
+Gaoshiqi,Xk,2.410,0.050,>100 trillion,9.33 trillion,9.591,1.276010,MBA
+1996 TE11,Xc,2.570,0.473,1.68 trillion,128.40 billion,10.175,0.585323,MCA
+Lyyli,X,2.591,0.407,>100 trillion,>100 trillion,9.774,0.687971,MCA
+1988 AA5,Cb,2.796,0.283,>100 trillion,81.57 trillion,9.194,1.015040,MBA
+Lambrecht,Xc,2.473,0.072,>100 trillion,53.59 trillion,9.527,1.307880,MBA
+Spicer,Xc,2.697,0.234,>100 trillion,56.48 trillion,9.278,1.080790,MBA
+Titius,Xc,2.419,0.064,>100 trillion,33.48 trillion,9.671,1.266480,MBA
+Misa,Cg,2.657,0.181,>100 trillion,>100 trillion,9.292,1.192040,MBA
+Thia,Ch,2.585,0.243,>100 trillion,>100 trillion,9.493,0.977069,MBA
+Seifert,Xk,2.609,0.253,>100 trillion,44.24 trillion,9.468,0.989422,MBA
+Kridsadaporn,C,3.113,0.574,>100 trillion,26.80 trillion,9.548,0.522162,MCA
+Dolores,Cb,2.701,0.237,>100 trillion,>100 trillion,9.301,1.050750,MBA
+Barbarossa,X,2.568,0.201,>100 trillion,50.98 trillion,9.479,1.037500,MBA
+Daisetsuzan,Xc,2.436,0.070,77.84 trillion,6.25 trillion,9.672,1.259480,MBA
+Smiley,Cgh,2.734,0.262,>100 trillion,>100 trillion,9.297,1.046310,MBA
+Thernoe,K,2.769,0.238,>100 trillion,>100 trillion,9.234,1.124930,MBA
+Flagsymphony,Ch,2.778,0.288,>100 trillion,>100 trillion,9.299,0.991621,MBA
+Decaro,Cb,2.608,0.270,>100 trillion,73.51 trillion,9.553,0.961449,MBA
+Strattonia,C,2.683,0.214,>100 trillion,>100 trillion,9.351,1.123260,MBA
+Lilith,X,2.663,0.196,>100 trillion,93.59 trillion,9.366,1.153130,MBA
+Edburga,X,2.586,0.341,>100 trillion,>100 trillion,9.850,0.795395,MBA
+Durrell,C,2.728,0.252,>100 trillion,>100 trillion,9.358,1.040750,MBA
+Antwerpia,C,2.686,0.234,>100 trillion,>100 trillion,9.419,1.075270,MBA
+Brixia,Ch,2.741,0.282,>100 trillion,>100 trillion,9.418,0.993845,MBA
+Tokio,M,2.652,0.223,>100 trillion,>100 trillion,9.484,1.071290,MBA
+Ludibunda,K,2.746,0.238,>100 trillion,>100 trillion,9.360,1.095740,MBA
+Johnmills,C,2.737,0.272,>100 trillion,90.13 trillion,9.449,1.004770,MBA
+Bower,C,2.572,0.150,>100 trillion,>100 trillion,9.619,1.216870,MBA
+Afra,X,2.640,0.223,>100 trillion,>100 trillion,9.573,1.089790,MBA
+Zwetana,Cb,2.569,0.211,>100 trillion,>100 trillion,9.732,1.045990,MBA
+Endymion,Ch,2.568,0.129,>100 trillion,>100 trillion,9.635,1.259720,MBA
+Nicole,C,2.568,0.114,>100 trillion,>100 trillion,9.625,1.266420,MBA
+Vienna,K,2.635,0.247,>100 trillion,>100 trillion,9.662,1.001150,MBA
+Buda,L,2.472,0.148,>100 trillion,>100 trillion,9.968,1.129840,MBA
+Tamara,C,2.317,0.190,>100 trillion,>100 trillion,,0.943952,MBA
+Nasi,Cgh,2.729,0.252,>100 trillion,>100 trillion,9.488,1.070020,MBA
+Victoria,L,2.334,0.220,9.64 billion,623.30 million,,0.824953,MBA
+Amherstia,X,2.682,0.272,>100 trillion,>100 trillion,9.618,0.992689,MBA
+Tarkovskij,C,2.474,0.190,>100 trillion,>100 trillion,10.078,1.021380,MBA
+Desiderata,C,2.597,0.314,>100 trillion,>100 trillion,9.974,0.833017,MBA
+Westphalia,Ch,2.431,0.144,>100 trillion,>100 trillion,10.178,1.080700,MBA
+Austria,Xe,2.286,0.085,>100 trillion,>100 trillion,,1.091580,MBA
+Roxane,Xe,2.287,0.085,>100 trillion,55.01 trillion,,1.081810,MBA
+Hedda,Ch,2.284,0.029,>100 trillion,>100 trillion,,1.208350,MBA
+Milton,Xe,2.585,0.315,>100 trillion,15.52 trillion,10.077,0.773466,MBA
+Backlunda,C,2.436,0.119,>100 trillion,>100 trillion,10.174,1.196400,MBA
+Klio,Ch,2.362,0.236,>100 trillion,>100 trillion,,0.797648,MBA
+Beira,B,2.733,0.490,>100 trillion,57.73 trillion,10.689,0.638135,MCA
+Henrika,C,2.712,0.206,>100 trillion,>100 trillion,9.496,1.142220,MBA
+Liguria,C,2.756,0.240,>100 trillion,>100 trillion,9.470,1.127000,MBA
+Amalia,Ch,2.358,0.222,>100 trillion,>100 trillion,,0.832825,MBA
+Ruanda,X,2.751,0.188,>100 trillion,75.17 trillion,9.425,1.217760,MBA
+Giovannipratesi,Ch,2.792,0.237,>100 trillion,>100 trillion,9.427,1.145870,MBA
+Pamina,Ch,2.738,0.213,>100 trillion,>100 trillion,9.486,1.166980,MBA
+Alemannia,M,2.592,0.120,>100 trillion,>100 trillion,9.692,1.291090,MBA
+Brubeck,B,2.643,0.204,>100 trillion,>100 trillion,9.687,1.141570,MBA
+Caprera,C,2.720,0.219,>100 trillion,>100 trillion,9.558,1.154910,MBA
+Boliviana,X,2.574,0.187,>100 trillion,>100 trillion,9.870,1.103520,MBA
+Mathieu,X,2.766,0.305,>100 trillion,28.07 trillion,9.640,0.904124,MBA
+Erigone,Ch,2.367,0.191,17.33 billion,1.12 billion,,0.936616,MBA
+Prymno,X,2.332,0.089,>100 trillion,>100 trillion,,1.136230,MBA
+Lampetia,Xc,2.779,0.330,>100 trillion,>100 trillion,9.682,0.916795,MBA
+Dora,Ch,2.793,0.236,>100 trillion,>100 trillion,9.463,1.133680,MBA
+Fanny,Ch,2.771,0.213,>100 trillion,>100 trillion,9.468,1.171750,MBA
+Ostrovskij,Xk,2.750,0.190,>100 trillion,25.22 trillion,9.485,1.246100,MBA
+Sarita,X,2.634,0.320,>100 trillion,>100 trillion,10.110,0.811397,MBA
