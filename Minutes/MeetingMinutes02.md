@@ -55,8 +55,8 @@
 - assigned to everyone
 - Done: 2/22
 
-###  07:  Define Trajectory Pattern based on Orbital Data
-- 
+###  07:  Define dataset for Trajectory Pattern for top 10 cost effective
+- assigned to:  Ryan
 - Done:
 
 ###  08:  Define mineral composition dataset per asteroid type
