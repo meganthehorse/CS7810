@@ -48,7 +48,7 @@
 - Done: 
 
 ###  05:  Generate schema template
-- assigned to everyone
+- assigned:  Brandon
 - Done: 
 
 ###  06:  Get csv datasets
@@ -57,4 +57,8 @@
 
 ###  07:  Define Trajectory Pattern based on Orbital Data
 - 
+- Done:
+
+###  08:  Define mineral composition dataset per asteroid type
+- assigned to:  Megan
 - Done:
