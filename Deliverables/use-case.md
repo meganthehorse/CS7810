@@ -20,6 +20,7 @@ Open source data provided by researchers and institutions such as Neil deGrasse 
 10. How much time is available until the 162173 Ryugu is within 1au of Earth?
 
 ~~8. What is the estimated travel time to 162173 Ryugu assuming a travel speed of 26,000kph?~~
+
 ~~9. Which 5 asteroids have the highest confidence of an accurate trajectory and are within 2au of Earth?~~
 
 #  Potential Datasets & Existing Ontologies
