@@ -1,14 +1,12 @@
 #  Key Notions
 ##  Identified Classes
-- SpatialTemporal
-- Time
-- Location
-
-- Asteroid
-  - Name: xsd:String
-  - DistanceFromEarth, Astronomical Unit
-  - Profit
-    - Accessibility, distance/au & mineral composition
-  - Mineral Composition
-  - Thing
-
+- Asteroid: owl:Role; http://ontologydesignpatterns.org/wiki/Submissions:AgentRole
+  - Name; xsd:String
+  - Mass, Length, Width; xsd:double
+  - DistanceFromEarth, Astronomical Unit; xsd:double
+  - Profit; xsd:double
+  - Mineral Composition->Element; owl:Role/Thing
+  - Orbit; Trajectory:  http://ontologydesignpatterns.org/wiki/Submissions:Trajectory
+    - Trajectory -> Segment
+    -            -> Fix ^
+      - TimeEntity; SpatioTemporalEntity
