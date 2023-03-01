@@ -55,9 +55,9 @@
 - assigned to everyone
 - Done: 2/22
 
-###  07:  Define dataset for Trajectory Pattern for top 10 cost effective
+###  07:  Define dataset for asteroid distances
 - assigned to:  Ryan
-- Done:
+- Done: 3/1
 
 ###  08:  Define mineral composition dataset per asteroid type
 - assigned to:  Megan
