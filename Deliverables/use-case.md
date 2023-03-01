@@ -24,19 +24,25 @@ Open source data provided by researchers and institutions such as Neil deGrasse 
 ~~9. Which 5 asteroids have the highest confidence of an accurate trajectory and are within 2au of Earth?~~
 
 #  Potential Datasets & Existing Ontologies
-1. The Orbital Debris Ontology:  https://rrovetto.github.io/The-Orbital-Debris-Ontology/  
-2. NASA Namespaces:  https://pds.nasa.gov/datastandards/training/documents/Namespaces%20in%20PDS4.pdf, https://pds.nasa.gov/
+1. The Orbital Debris Ontology: https://rrovetto.github.io/The-Orbital-Debris-Ontology/  
+2. NASA Namespaces: https://pds.nasa.gov/datastandards/training/documents/Namespaces%20in%20PDS4.pdf, https://pds.nasa.gov/
 3. Asterank: https://www.asterank.com/
 4. Astrology Ontology: https://www.astro.umd.edu/~eshaya/astro-onto/ontologies/astronomy.html
-5. Publication Dataset:  https://www.astromat.org/collections/ucla-cosmochemistry-database/
+5. Publication Dataset: https://www.astromat.org/collections/ucla-cosmochemistry-database/
 6. NASA Small Body Database: https://ssd.jpl.nasa.gov/tools/sbdb_lookup.html#/  
 
 # Space Ontology Reference Resources:
-1. Space Object Ontology:  https://philarchive.org/archive/ROVSOO
+1. Space Object Ontology: https://philarchive.org/archive/ROVSOO
 2. Ontology of Astronomical Object Types: https://www.ivoa.net/documents/Notes/AstrObjectOntology/20100117/NOTE-AstrObjectOntology-1.3-20100117.html
 2. Space Orbital Trajectory Data: https://arxiv.org/vc/arxiv/papers/1704/1704.01014v1.pdf
 3. Ontology Entry for Asteroid: https://www.astro.umd.edu/~eshaya/astro-onto/classes/asteroid.html
 
+# Asteroid Types and Composition Resources:
+1. Asterank Composition: https://www.asterank.com/#composition
+2. NASA Asteroids in-depth: https://solarsystem.nasa.gov/asteroids-comets-and-meteors/asteroids/in-depth/
+3. An extension of the Bus asteroid taxonomy into the near-infrared: https://hal.science/hal-00545286/file/PEER_stage2_10.1016%252Fj.icarus.2009.02.005.pdf
+4. Asteroid Taxonomy Classification: https://www.researchgate.net/figure/Asteroid-taxonomy-classification-I_fig1_261499766
+5. Bus-DeMeo taxonomy: http://smass.mit.edu/busdemeoclass.html
 
 # Other Space Resources
 1. Space Mineralogy: https://www.researchgate.net/publication/  272521659_Mineralogy_and_Surface_Composition_of_Asteroids
