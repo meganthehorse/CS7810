@@ -61,4 +61,4 @@
 
 ###  08:  Define mineral composition dataset per asteroid type
 - assigned to:  Megan
-- Done:
+- Done: 2/28
