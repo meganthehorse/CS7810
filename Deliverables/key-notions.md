@@ -16,7 +16,7 @@
 ## Potential Key-Notions (needs discussed)
 
 ###  Asteroid  
-An Asteroid is represented by NASA as an object that orbits the sun of the Sol Solar System measuring 33 feet (10 meters) to 329 miles (530 kilometers).  The Asteroid as a key-notion can be derived as an OWL AgentRole when viewed alongside other celestial bodies found in space.  For the SOL of Life, the Asteroid represents an entity that provides a profit for exomining operations.
+An Asteroid is represented by NASA as an object that orbits the sun of the Sol Solar System measuring 33 feet (10 meters) to 329 miles (530 kilometers).  The Asteroid as a key-notion can be derived as an OWL AgentRole when used alongside other celestial bodies found in space.  For the SOL of Life, the only celestial body to be concerned with is Asteroid; therefore, the derived understanding begins with an OWL Thing consisting of multiple properties; such as, measurable components of mass and size.  Researchers have also predicted properties that benefit exomining operations such as the average profit gained after a mining excavation with consideration of the available valuable materials.
 
 - Asteroid  
   - The asteroid is the focus of the knowledge graph, combining all other key notions.  
@@ -34,7 +34,7 @@ The end-goal of SOL of Life is to provide insight for whether an Asteroid is wit
   - The distance estimate is included under orbital properties and ties together a month, year, and estimated distance from earth  
 
 ###  AsteroidClassification (rather simply Classification)
-The derived mineralogy of an Asteroid is a prediction based from infrared readings as traveling to each individual asteroid remains an unrealistic task.  As such, infrared reflections and readings are compared for similarities against known Earth minerals and denote the components from the Asteroid's surface.  The infrared data has been collected to formulate classifications based on similarity of readings.  SOL of Life utilizes the SMASS classification labels in order to connect an Asteroid to the elemental composition.
+The derived mineralogy of an Asteroid is a prediction based from infrared readings as traveling to each individual asteroid remains an unrealistic task.  As such, infrared reflections and readings are compared for similarities against known Earth minerals and denote the components from the Asteroid's surface.  The infrared data has been collected to formulate classifications based on similarity of readings.  SOL of Life utilizes the SMASS classification labels in order to connect an Asteroid to the predicted elemental composition.
 
 
 ##  Dataset
