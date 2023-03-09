@@ -42,4 +42,4 @@ Source:  [SBDB](https://ssd.jpl.nasa.gov/tools/sbdb_query.html)
 - Asterank.com adopts from SBDB's dataset for individual celestial bodies among plenty of columns.  SOL of Life will contain a subset of the SBDB dataset to specify information on solely Asteroids.
 
 Source:  [Sky Live](https://theskylive.com/)
-- Historical and Predictive measurements of celestial bodies given their orbital trajectory can be recorded through the Sky Live tool.
+- Historical and Predictive measurements of celestial bodies given their orbital trajectory can be recorded from the Sky Live tool.
