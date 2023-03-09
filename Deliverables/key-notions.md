@@ -1,22 +1,8 @@
 #  Key Notions
 ##  Identified Classes
-- Asteroid: owl:Role; http://ontologydesignpatterns.org/wiki/Submissions:AgentRole
-  - Name; xsd:String
-  - Mass, Length, Width; xsd:double
-  - DistanceFromEarth, Astronomical Unit; xsd:double
-  - Profit; xsd:double
-  - Asteroid Type -> Mineral Composition->Element; owl:Role/Thing
-  - Orbit; Trajectory:  http://ontologydesignpatterns.org/wiki/Submissions:Trajectory
-    - Trajectory -> Segment
-    -            -> Fix ^
-      - TimeEntity; SpatioTemporalEntity
-
-* Will require review of sbdb columns
-
-## Potential Key-Notions (needs discussed)
 
 ###  Asteroid  
-An Asteroid is represented by NASA as an object that orbits the sun of the Sol Solar System measuring 33 feet (10 meters) to 329 miles (530 kilometers).  The Asteroid as a key-notion can be derived as an OWL AgentRole when used alongside other celestial bodies found in space.  For the SOL of Life, the only celestial body to be concerned with is Asteroid; therefore, the derived understanding begins with an OWL Thing consisting of multiple properties; such as, measurable components of mass and size.  Researchers have also predicted properties that benefit exomining operations such as the average profit gained after a mining excavation with consideration of the available valuable materials.
+An Asteroid is represented by NASA as an object that orbits the sun of the Sol Solar System measuring 33 feet (10 meters) to 329 miles (530 kilometers).  The Asteroid as a key-notion can be derived as an OWL AgentRole when used alongside other celestial bodies found in space.  For the SOL of Life, the only celestial body to be concerned with is Asteroid; therefore, the derived understanding begins with an OWL Thing consisting of multiple properties; such as, labeled naming conventions and quantitative measurable components of velocity, semi-major axis, and minimum orbit intersection distance.  Researchers have also predicted properties that benefit exomining operations such as the average profit gained after a mining excavation with consideration of the available valuable materials.
 
 - Asteroid  
   - The asteroid is the focus of the knowledge graph, combining all other key notions.  
