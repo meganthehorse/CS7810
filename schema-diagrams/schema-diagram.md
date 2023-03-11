@@ -6,13 +6,13 @@
 
 
 ## Asteroid
-![image](asteroid/asteroid.jpg)  
+![image](./asteroid/asteroid.jpg)  
 
 ## AsteroidClassification
-![image](classification/asteroidclassification.jpg)  
+![image](./classification/asteroidclassification.jpg)  
 
 ## DistanceRecording
-![image](distancerecording/distancerecording.jpg)
+![image](./distancerecording/distancerecording.jpg)
 
 ## All-Together
-![image](all-together/all-together.jpg)
+![image](./all-together/all-together.jpg)
