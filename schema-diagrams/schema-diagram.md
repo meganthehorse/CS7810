@@ -12,7 +12,7 @@
 ![image](./classification/asteroid-classification.jpg)  
 
 ## DistanceRecording
-![image](./distancerecording/distance-recording.jpg)
+![image](./distance-recording/distance-recording.jpg)
 
 ## All-Together
 ![image](./all-together/all-together.jpg)
