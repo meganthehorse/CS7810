@@ -24,7 +24,5 @@
 - Coordinate schema-diagrams/ as requested in new Pilot posting
 - Finish recording SkyLive dataset
     - Only 9 available asteroid
+- Semi-Major Axis it utilized to sort "most accessible" asteroid on Asterank from a worst-case basis
 
-###  XX:  [Task]
-- Assignee(s):  
-- Done:  

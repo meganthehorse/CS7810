@@ -2,22 +2,12 @@
 ##  Identified Classes
 
 ###  Asteroid  
-An Asteroid is represented by NASA as an object that orbits the sun of the Sol Solar System measuring 33 feet (10 meters) to 329 miles (530 kilometers).  The Asteroid as a key-notion can be derived as an OWL AgentRole when used alongside other celestial bodies found in space.  For the SOL of Life, the only celestial body to be concerned with is Asteroid; therefore, the derived understanding begins with an OWL Thing consisting of multiple properties; such as, labeled naming conventions and quantitative measurable components of velocity, semi-major axis, and minimum orbit intersection distance.  Researchers have also predicted properties that benefit exomining operations such as the average profit gained after a mining excavation with consideration of the available valuable materials.
+The domain of space objects are broken into three subcategories: Artificial Space Objects, Space Weather Phenomena, and Natural Space Objects.  Asteroids exist as a Natural Space Object where object can be further defined as a masterial object.  An Asteroid is represented by NASA as an object that orbits the sun of the Sol Solar System measuring 33 feet (10 meters) to 329 miles (530 kilometers).
 
-- Asteroid  
-  - The asteroid is the focus of the knowledge graph, combining all other key notions.  
+Within the domain of Celestial Bodies, The Asteroid can be derived as an OWL AgentRole when used alongside other celestial bodies found in space.  For the SOL of Life, the only celestial body to be concerned with is Asteroid; therefore, the derived understanding begins with an OWL Thing consisting of multiple properties; such as, labeled naming conventions and quantitative measurable components of velocity, semi-major axis, and minimum orbit intersection distance.  Researchers have also predicted properties that benefit exomining operations such as the average profit gained after a mining excavation with consideration of the available valuable materials.
 
-- Assigned_Properties
-  - The asteroid has a set of human-assigned properties that are used to characterize and define the asteroid.  These include the "worth" metrics and "identification" properties.  The "worth" metrics include estimated profit and estimated total value.  The "identification" metrics include asteroid name and classification.
-
-###  AsteroidDistances (DistanceRecording, DistanceSnapshots?)
-The end-goal of SOL of Life is to provide insight for whether an Asteroid is within a means of distance for exomining companies to travel to for mineral extraction operations.  As such, the spatial coordinates of an Asteroid is less important than the actual distance from Earth, which acts as a baseline for exomining operations.  The distance from Earth is collected for the months of January and July over a range of years to which can be used within the query
-
-- Orbital_Properties
-  - The asteroid has properties related to it's spacial orbit.  These properties include average velocity, average distance from earth, and a list of estimates for the asteroids' distance from earth at a given date. 
-
-- Distance_Estimate
-  - The distance estimate is included under orbital properties and ties together a month, year, and estimated distance from earth  
+###  DistanceRecording
+The end-goal of SOL of Life is to provide insight for whether an Asteroid is within a means of distance for exomining companies to travel to for mineral extraction operations.  As such, the spatial coordinates of an Asteroid is less important than the actual distance from Earth, which acts as a baseline for exomining operations.  The distance from Earth is collected every quarter in a 10 year range.  An Asteroid can be further defined as a Near-Earth Asteroid
 
 ###  AsteroidClassification (rather simply Classification)
 The derived mineralogy of an Asteroid is a prediction based from infrared readings as traveling to each individual asteroid remains an unrealistic task.  As such, infrared reflections and readings are compared for similarities against known Earth minerals and denote the components from the Asteroid's surface.  The infrared data has been collected to formulate classifications based on similarity of readings.  SOL of Life utilizes the SMASS classification labels in order to connect an Asteroid to the predicted elemental composition.
@@ -29,3 +19,8 @@ Source:  [SBDB](https://ssd.jpl.nasa.gov/tools/sbdb_query.html)
 
 Source:  [Sky Live](https://theskylive.com/)
 - Historical and Predictive measurements of celestial bodies given their orbital trajectory can be recorded from the Sky Live tool.
+
+##  DataTypes
+Source:  [Unified Code for Units of Measure in RDF:  cdt:ucum](https://hal.science/hal-01885337/document)
+Source: [rdfs: label](https://www.w3.org/2000/01/rdf-schema#label)
+Source: [QUDT](https://www.qudt.org/)
