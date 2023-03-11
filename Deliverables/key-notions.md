@@ -10,7 +10,7 @@ Within the domain of Celestial Bodies, The Asteroid can be derived as an OWL Age
 The end-goal of SOL of Life is to provide insight for whether an Asteroid is within a means of distance for exomining companies to travel to for mineral extraction operations.  As such, the spatial coordinates of an Asteroid is less important than the actual distance from Earth, which acts as a baseline for exomining operations.  The distance from Earth is collected every quarter in a 10 year range.  An Asteroid can be further defined as a Near-Earth Asteroid
 
 ###  AsteroidClassification (rather simply Classification)
-The derived mineralogy of an Asteroid is a prediction based from infrared readings as traveling to each individual asteroid remains an unrealistic task.  As such, infrared reflections and readings are compared for similarities against known Earth minerals and denote the components from the Asteroid's surface.  The infrared data has been collected to formulate classifications based on similarity of readings.  SOL of Life utilizes the SMASS classification labels in order to connect an Asteroid to the predicted elemental composition.
+The derived elemental composition of an Asteroid is a prediction based from infrared readings as traveling to each individual asteroid remains an unrealistic task.  As such, infrared reflections and readings are compared for similarities against known Earth elements and denote the components from the Asteroid's surface.  The infrared data has been collected to formulate classifications based on similarity of readings.  SOL of Life utilizes the SMASS classification labels in order to connect an Asteroid to the predicted elemental composition.
 
 
 ##  Dataset
@@ -24,3 +24,4 @@ Source:  [Sky Live](https://theskylive.com/)
 Source:  [Unified Code for Units of Measure in RDF:  cdt:ucum](https://hal.science/hal-01885337/document)
 Source: [rdfs: label](https://www.w3.org/2000/01/rdf-schema#label)
 Source: [QUDT](https://www.qudt.org/)
+Source: [DBOntology for Chemical Elements:  dbo:ChemicalElement](https://dbpedia.org/ontology/ChemicalElement)

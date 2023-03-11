@@ -1,10 +1,18 @@
 # Table of Contents
-1. [Example](#example)
-2. [Example2](#example2)
+1. [Asteroid Schema](#Asteroid)
+2. [Classification Schema](#AsteroidClassification)
+2. [DistanceRecording Schema](#DistanceRecording)
+2. [All-Together Schema](#All-Together)
 
 
-## Example
-[image](link)  
+## Asteroid
+![image](asteroid/asteroid.jpg)  
 
-## Example2
-[image](link)  
+## AsteroidClassification
+![image](classification/asteroidclassification.jpg)  
+
+## DistanceRecording
+![image](distancerecording/distancerecording.jpg)
+
+## All-Together
+![image](all-together/all-together.jpg)
