@@ -9,10 +9,10 @@
 ![image](./asteroid/asteroid.jpg)  
 
 ## AsteroidClassification
-![image](./classification/asteroidclassification.jpg)  
+![image](./classification/asteroid-classification.jpg)  
 
 ## DistanceRecording
-![image](./distancerecording/distancerecording.jpg)
+![image](./distancerecording/distance-recording.jpg)
 
 ## All-Together
 ![image](./all-together/all-together.jpg)
