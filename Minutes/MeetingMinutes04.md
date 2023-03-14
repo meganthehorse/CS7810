@@ -4,3 +4,7 @@
     - solution y is from elliptical function f on args a b c
     - fill in self-created excel sheet with above function.  New dataset based on an orbit function 
 - schedule/time investment discussion 
+
+- PROV-O of measurable and observable properties
+- Find formula to calculate distanceFromEarth
+- Dataset
