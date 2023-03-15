@@ -1,12 +1,16 @@
 # Table of Contents
-1. [Asteroid Schema](#Asteroid)
-2. [Classification Schema](#AsteroidClassification)
-2. [DistanceRecording Schema](#DistanceRecording)
-2. [All-Together Schema](#All-Together)
+1. [Asteroid Schema](#asteroid-and-observations)
+2. [ObservableProperiy Instances](#observableproperty-instances)
+3. [Classification Schema](#asteroidclassification)
+4. [DistanceRecording Schema](#distancerecording)
+5. [All-Together Schema](#all-together)
 
 
-## Asteroid
+## Asteroid and Observations
 ![image](./asteroid/asteroid.jpg)  
+
+## ObservableProperty Instances
+![image](./observable-property/observable-property.jpg)  
 
 ## AsteroidClassification
 ![image](./classification/asteroid-classification.jpg)  
