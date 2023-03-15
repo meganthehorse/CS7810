@@ -27,7 +27,7 @@ Open source data provided by researchers and institutions such as Neil deGrasse 
 1. The Orbital Debris Ontology: https://rrovetto.github.io/The-Orbital-Debris-Ontology/  
 2. NASA Namespaces: https://pds.nasa.gov/datastandards/training/documents/Namespaces%20in%20PDS4.pdf, https://pds.nasa.gov/
 3. Asterank: https://www.asterank.com/
-4. Astrology Ontology: https://www.astro.umd.edu/~eshaya/astro-onto/ontologies/astronomy.html
+4. Astronomy Ontology: https://www.astro.umd.edu/~eshaya/astro-onto/ontologies/astronomy.html
 5. Publication Dataset: https://www.astromat.org/collections/ucla-cosmochemistry-database/
 6. NASA Small Body Database: https://ssd.jpl.nasa.gov/tools/sbdb_lookup.html#/  
 7. Detailed Asteroid Information: https://theskylive.com/
