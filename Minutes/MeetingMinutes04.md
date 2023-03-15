@@ -22,3 +22,4 @@
     - Function to calculate distance from Earth based on "location"?
         - Do we adjust scope to be relative to Sun as point (0,0,0) as it is the center of solar system?
 - Ryan:  Data gathering / standardization from SBDB (NASA) and MP3C.  Where are the differences other than a rounding of values? 
+- Brandon:  Rough draft of SOSA Patterns into existing schema diagrams
