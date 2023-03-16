@@ -15,8 +15,15 @@ The derived elemental composition of an Asteroid is a prediction based from infr
 
 
 ##  Dataset  
-Source:  [SBDB](https://ssd.jpl.nasa.gov/tools/sbdb_query.html)  
-- Asterank.com adopts from SBDB's dataset for individual celestial bodies among plenty of columns.  SOL of Life will contain a subset of the SBDB dataset to specify information on solely Asteroids.
+
+Source:  [Nasa-JPL: SBDB](https://ssd.jpl.nasa.gov/tools/sbdb_query.html)  
+- Nasa-JPL Small Body Database (SBDB) serves as a well established and primary source for data on asteroids as well as other "small bodies".  The SBDB includes extensive information on orbital, physical, and historical properties.  SOL of Life will utilize the SBDB for data relating to orbital properties for asteroids.  
+
+Source: [Asterrank](https://www.asterank.com/)
+- Asterank is built atop Nasa's Small Body Database to provide asteroid orbital data as well as estimates for asteroid value and distance metrics.  SOL of Life will contain a subset of Asterrank's data focusing on asteroid worth and distance metrics.
+
+Source: [MP3C](https://mp3c.oca.eu/)
+- Similar to the Nasa-JPL Small Body Database, MP3C Asteroid Database also serves as a source for physcial and orbital data on asteroids.  MP3C's database is maintained by the Observatoire de la Côte d'Azur and includes measurements and observations on the orbital and physical properties of asteroids.  SOL of Life will utilize the MP3C's database as a secondary source for orbital data on asteroids.  
 
 Source:  [Sky Live](https://theskylive.com/)
 - Historical and Predictive measurements of celestial bodies given their orbital trajectory can be recorded from the Sky Live tool.
