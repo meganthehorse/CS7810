@@ -1,0 +1,40 @@
+Shared properties (Nasa-JPL and MP3C):
+
+number - asteroid identification number
+e - Orbital eccentricity
+a - semi-major axis
+q - perihelion distance
+i - inclination; angle with respect to x-y ecliptic plane
+node - longitude of the ascending node
+peri (nasa jpl), ω (mp3c) - argument of perihelion
+M (nasa jpl) - Mean anomaly 
+m (mp3c) - Mean anomaly at the epoch
+tp - time of perihelion passage
+period - sidereal orbital period
+n - mean daily motion
+Q - aphelion distance
+
+
+MP3C Specific: 
+
+Epoch
+n obs - Number of observations (MPC)
+n opp - Number of oppositions (MPC)
+Year First Observed
+Year Last Observed
+rms - RMS residual
+G - Slope parameter
+H- Absolute magnitude
+Mass
+D - Diameter
+1/D - Inverse Diameter
+(1/D) err - Inverse Diameter Error
+pV - Geometric visible albedo
+
+Asterrank Specific: 
+
+Type, Group - Asteroid classifications
+Value - Asterrank's estimated value
+Est. Profit - Asterrank's estimated profit
+Δv - Average velocity
+MOID - Minimum orbit intersection distance
