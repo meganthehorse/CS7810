@@ -31,6 +31,7 @@ Open source data provided by researchers and institutions such as Neil deGrasse 
 5. Publication Dataset: https://www.astromat.org/collections/ucla-cosmochemistry-database/
 6. NASA Small Body Database: https://ssd.jpl.nasa.gov/tools/sbdb_lookup.html#/  
 7. Detailed Asteroid Information: https://theskylive.com/
+8. MP3C Asteroid Database: https://mp3c.oca.eu/
 
 # Space Ontology Reference Resources:
 1. Space Object Ontology: https://philarchive.org/archive/ROVSOO
