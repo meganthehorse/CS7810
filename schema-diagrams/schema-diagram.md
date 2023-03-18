@@ -15,11 +15,14 @@
 ## AsteroidClassification
 ![image](./classification/asteroid-classification.jpg)  
 
-## DistanceRecording
-![image](./distance-recording/distance-recording.jpg)
+## DistanceRecord
+![image](./distance-recording/distance.jpg)
 
 ## EntityWithProvenance
 ![image](./entity-with-provenance/provenance.jpg)
+
+## Result
+![image](./result/Result.jpg)
 
 ## All-Together
 ![image](./all-together/all-together.jpg)
