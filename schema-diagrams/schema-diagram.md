@@ -13,13 +13,13 @@
 ![image](./observable-property/observable-property.jpg)  
 
 ## AsteroidClassification
-![image](./classification/asteroid-classification.jpg)  
+![image](./asteroid-classification/asteroid-classification.jpg)  
 
 ## DistanceRecord
-![image](./distance-recording/distance.jpg)
+![image](./distance-record/distance-record.jpg)
 
 ## EntityWithProvenance
-![image](./entity-with-provenance/provenance.jpg)
+![image](./entity-with-provenance/entity-with-provenance.jpg)
 
 ## Result
 ![image](./result/Result.jpg)
