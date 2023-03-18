@@ -6,10 +6,10 @@
 5. [All-Together Schema](#all-together)
 
 
-## Asteroid and Observations
+## Asteroid
 ![image](./asteroid/asteroid.jpg)  
 
-## ObservableProperty Instances
+## Observation
 ![image](./observable-property/observable-property.jpg)  
 
 ## AsteroidClassification
@@ -17,6 +17,9 @@
 
 ## DistanceRecording
 ![image](./distance-recording/distance-recording.jpg)
+
+## EntityWithProvenance
+![image](./entity-with-provenance/provenance.jpg)
 
 ## All-Together
 ![image](./all-together/all-together.jpg)
