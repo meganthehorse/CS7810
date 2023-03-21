@@ -40,6 +40,8 @@ Source:  [Sky Live](https://theskylive.com/)
 - Historical and Predictive measurements of celestial bodies given their orbital trajectory can be recorded from the Sky Live tool.
 
 ##  SOSA Pattern
+Source: [MODL Library](https://github.com/kastle-lab/modular-ontology-design-library/tree/master/modl)  
+Source: [PROV-O](https://www.w3.org/TR/prov-o/)  
 Source: [SOSA](https://www.w3.org/TR/vocab-ssn/)  
 
 ##  DataTypes  
