@@ -43,7 +43,7 @@ Source:  [Sky Live](https://theskylive.com/)
 Source: [SOSA](https://www.w3.org/TR/vocab-ssn/)  
 
 ##  DataTypes  
-Source:  [Unified Code for Units of Measure in RDF:  cdt:ucum](https://hal.science/hal-01885337/document)
-Source: [rdfs: label](https://www.w3.org/2000/01/rdf-schema#label)
-Source: [QUDT](https://www.qudt.org/)
-Source: [DBOntology for Chemical Elements:  dbo:ChemicalElement](https://dbpedia.org/ontology/ChemicalElement)
+Source:  [Unified Code for Units of Measure in RDF:  cdt:ucum](https://hal.science/hal-01885337/document)  
+Source: [rdfs: label](https://www.w3.org/2000/01/rdf-schema#label)  
+Source: [QUDT](https://www.qudt.org/)  
+Source: [DBOntology for Chemical Elements:  dbo:ChemicalElement](https://dbpedia.org/ontology/ChemicalElement)  
