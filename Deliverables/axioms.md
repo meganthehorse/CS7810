@@ -1,35 +1,55 @@
-# List of Axiomatizations
-# Table of Contents
-1. [Asteroid Schema](#Asteroid)
-2. [AsteroidClassification Schema](#AsteroidClassification)
-3. [DistanceRecord Schema](#DistanceRecord)
-4. [EntityWithProvenance](#EntityWithProvenance)
-6. [Observation Schema](#Observation)
-7. [Result Schema](#Result)
-8. [All-Together Schema](#all-together)
+# SOL of Life
+
+![All Together](/schema-diagrams/all-together/all-together.jpg)  
 
 ## Asteroid
-- Asteroid is a subclass of Feature of Interest  
-- NearEarthAsteroid is a subclass of Asteroid (that has a semi-major axis less than x au)
+![Asteroids](/schema-diagrams/asteroid/asteroid.jpg)  
+
+### Axioms
+* `axiom in manchester syntax` <br />
+Asteroid is a subclass of Feature of Interest  
+* `axiom in manchester syntax` <br />
+NearEarthAsteroid is a subclass of Asteroid (that has a semi-major axis less than x au)
 
 ## AsteroidClassification
-- AsteroidClassification is a subclass of EntityWithProvenance
+![Asteroid Classification Types](/schema-diagrams/asteroid-classification/asteroid-classification.jpg)
+
+### Axioms
+* `axiom in manchester syntax` <br />
+AsteroidClassification is a subclass of EntityWithProvenance  
 
 ## DistanceRecord
-- DistanceRecord is a subclass of EntityWithProvenance
+![image](/schema-diagrams/distance-record/distance-record.jpg)
 
-## EntityWithProvenance
-- TO BE ADOPTED by MODL
+### Axioms
+*  `axiom in manchester`  
+DistanceRecord is a subclass of EntityWithProvenance
 
-## Observation
-- Observation is a subclass of EntityWithProvenance 
-- Observation has at least one ObservableProperty
-- Observation has at least one Result
+## Entity With Provenance
+![image](/schema-diagrams/entity-with-provenance/entity-with-provenance.jpg)
 
-## Result
-- TO BE ADOPTED by MODL
-- Result has at least one Quantity
-- Quantity has at least one QuantityKind
-- 
+###  Axioms
+*  `axiom in manchester`  
+TO BE ADOPTED by MODL  
 
-## All-Together
+##  Observation
+![image](/schema-diagrams/observation/observation.jpg)  
+
+###  Axioms
+*  `axiom in manchester`  
+Observation is a subclass of EntityWithProvenance  
+*  `axiom in manchester`  
+Observation has at least one ObservableProperty  
+*  `axiom in manchester`  
+Observation has at least one Result  
+
+##  Result
+![image](/schema-diagrams/result/Result.jpg)
+
+###  Axioms
+*  `axiom in manchester`  
+TO BE ADOPTED by MODL  
+*  `axiom in manchester`  
+Result has at least one Quantity  
+*  `axiom in manchester`  
+Quantity has at least one QuantityKind  
