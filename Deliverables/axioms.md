@@ -30,7 +30,7 @@ DistanceRecord is a subclass of EntityWithProvenance
 
 ###  Axioms
 *  `axiom in manchester`  
-TO BE ADOPTED by MODL  
+TO BE ADOPTED by [MODL](https://docs.enslaved.org/ontology/v2/Enslaved_Documentation_V2_0-2.pdf)  
 
 ##  Observation
 ![image](/schema-diagrams/observation/observation.jpg)  
