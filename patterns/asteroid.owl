@@ -28,44 +28,101 @@
 #    Object Properties
 #################################################################
 
-###  http://www.semanticweb.org/soloflife/asteroid#hasAsteroidClassification
+###  http://www.semanticweb.org/soloflife/asteroid/hasAsteroidClassification
 :hasAsteroidClassification rdf:type owl:ObjectProperty .
 
 
-###  http://www.semanticweb.org/soloflife/asteroid#hasCommonName
-:hasCommonName rdf:type owl:ObjectProperty .
-
-
-###  http://www.semanticweb.org/soloflife/asteroid#hasDiscoveryName
-:hasDiscoveryName rdf:type owl:ObjectProperty .
-
-
-###  http://www.semanticweb.org/soloflife/asteroid#hasDistanceRecord
+###  http://www.semanticweb.org/soloflife/asteroid/hasDistanceRecord
 :hasDistanceRecord rdf:type owl:ObjectProperty .
 
 
-###  http://www.semanticweb.org/soloflife/asteroid#hasNumericID
-:hasNumericID rdf:type owl:ObjectProperty .
-
-
-###  http://www.semanticweb.org/soloflife/asteroid#hasObservation
+###  http://www.semanticweb.org/soloflife/asteroid/hasObservation
 :hasObservation rdf:type owl:ObjectProperty .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://www.semanticweb.org/soloflife/asteroid#hasCommonName
+:hasCommonName rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/soloflife/asteroid#hasDiscoveryName
+:hasDiscoveryName rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/soloflife/asteroid#hasNumericID
+:hasNumericID rdf:type owl:DatatypeProperty ;
+              rdfs:subPropertyOf owl:topDataProperty .
 
 
 #################################################################
 #    Classes
 #################################################################
 
-###  http://www.semanticweb.org/soloflife/asteroid#Asteroid
+###  http://www.semanticweb.org/soloflife/asteroid/Asteroid
 :Asteroid rdf:type owl:Class ;
-          rdfs:subClassOf :FeatureOfInterest ;
+          rdfs:subClassOf :FeatureOfInterest ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty :hasAsteroidClassification ;
+                            owl:allValuesFrom :AsteroidClassification
+                          ] ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty :hasDistanceRecord ;
+                            owl:allValuesFrom :DistanceRecord
+                          ] ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty :hasObservation ;
+                            owl:allValuesFrom :Observation
+                          ] ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty :hasDistanceRecord ;
+                            owl:minQualifiedCardinality "0"^^xsd:nonNegativeInteger ;
+                            owl:onClass :DistanceRecord
+                          ] ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty :hasObservation ;
+                            owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                            owl:onClass :Observation
+                          ] ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty :hasAsteroidClassification ;
+                            owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                            owl:onClass :AsteroidClassification
+                          ] ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty :hasCommonName ;
+                            owl:allValuesFrom rdfs:Literal
+                          ] ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty :hasDiscoveryName ;
+                            owl:allValuesFrom rdfs:Literal
+                          ] ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty :hasNumericID ;
+                            owl:allValuesFrom xsd:int
+                          ] ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty :hasDiscoveryName ;
+                            owl:cardinality "1"^^xsd:nonNegativeInteger
+                          ] ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty :hasNumericID ;
+                            owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                            owl:onDataRange xsd:int
+                          ] ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty :hasCommonName ;
+                            owl:maxCardinality "1"^^xsd:nonNegativeInteger
+                          ] ;
           <http://ontologydesignpatterns.org/opla-sd#entityPosition> [ <http://ontologydesignpatterns.org/opla-sd#entityPositionX> "83.28617399760802"^^xsd:double ;
                                                                        <http://ontologydesignpatterns.org/opla-sd#entityPositionY> "209.45958597949033"^^xsd:double ;
                                                                        rdfs:comment "This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view."@en
                                                                      ] .
 
 
-###  http://www.semanticweb.org/soloflife/asteroid#AsteroidClassification
+###  http://www.semanticweb.org/soloflife/asteroid/AsteroidClassification
 :AsteroidClassification rdf:type owl:Class ;
                         <http://ontologydesignpatterns.org/opla-sd#entityPosition> [ <http://ontologydesignpatterns.org/opla-sd#entityPositionX> "104.39140675278827"^^xsd:double ;
                                                                                      <http://ontologydesignpatterns.org/opla-sd#entityPositionY> "226.23666712533154"^^xsd:double ;
@@ -73,7 +130,7 @@
                                                                                    ] .
 
 
-###  http://www.semanticweb.org/soloflife/asteroid#DistanceRecord
+###  http://www.semanticweb.org/soloflife/asteroid/DistanceRecord
 :DistanceRecord rdf:type owl:Class ;
                 <http://ontologydesignpatterns.org/opla-sd#entityPosition> [ <http://ontologydesignpatterns.org/opla-sd#entityPositionX> "3.0207552213721205"^^xsd:double ;
                                                                              <http://ontologydesignpatterns.org/opla-sd#entityPositionY> "21.655444720181638"^^xsd:double ;
@@ -81,7 +138,7 @@
                                                                            ] .
 
 
-###  http://www.semanticweb.org/soloflife/asteroid#FeatureOfInterest
+###  http://www.semanticweb.org/soloflife/asteroid/FeatureOfInterest
 :FeatureOfInterest rdf:type owl:Class ;
                    <http://ontologydesignpatterns.org/opla-sd#entityPosition> [ <http://ontologydesignpatterns.org/opla-sd#entityPositionX> "59.41005300054614"^^xsd:double ;
                                                                                 <http://ontologydesignpatterns.org/opla-sd#entityPositionY> "59.83809722702954"^^xsd:double ;
@@ -89,7 +146,7 @@
                                                                               ] .
 
 
-###  http://www.semanticweb.org/soloflife/asteroid#NearEarthAsteroid
+###  http://www.semanticweb.org/soloflife/asteroid/NearEarthAsteroid
 :NearEarthAsteroid rdf:type owl:Class ;
                    rdfs:subClassOf :Asteroid ;
                    <http://ontologydesignpatterns.org/opla-sd#entityPosition> [ <http://ontologydesignpatterns.org/opla-sd#entityPositionX> "163.76978121503177"^^xsd:double ;
@@ -98,7 +155,7 @@
                                                                               ] .
 
 
-###  http://www.semanticweb.org/soloflife/asteroid#Observation
+###  http://www.semanticweb.org/soloflife/asteroid/Observation
 :Observation rdf:type owl:Class ;
              <http://ontologydesignpatterns.org/opla-sd#entityPosition> [ <http://ontologydesignpatterns.org/opla-sd#entityPositionX> "261.68531858202675"^^xsd:double ;
                                                                           <http://ontologydesignpatterns.org/opla-sd#entityPositionY> "267.7800206096892"^^xsd:double ;
