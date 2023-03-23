@@ -10,6 +10,12 @@
 Asteroid is a subclass of Feature of Interest  
 * `axiom in manchester syntax` <br />
 NearEarthAsteroid is a subclass of Asteroid (that has a semi-major axis less than x au)
+* `axiom in manchester syntax` <br />
+
+* `axiom in manchester syntax` <br />
+
+* `axiom in manchester syntax` <br />
+  
 
 ## AsteroidClassification
 ![Asteroid Classification Types](/schema-diagrams/asteroid-classification/asteroid-classification.jpg)
@@ -17,6 +23,10 @@ NearEarthAsteroid is a subclass of Asteroid (that has a semi-major axis less tha
 ### Axioms
 * `axiom in manchester syntax` <br />
 AsteroidClassification is a subclass of EntityWithProvenance  
+* `axiom in manchester syntax` <br />
+  
+* `axiom in manchester syntax` <br />
+  
 
 ## DistanceRecord
 ![image](/schema-diagrams/distance-record/distance-record.jpg)
@@ -24,7 +34,11 @@ AsteroidClassification is a subclass of EntityWithProvenance
 ### Axioms
 *  `axiom in manchester`  
 DistanceRecord is a subclass of EntityWithProvenance
-
+* `axiom in manchester syntax` <br />
+  
+* `axiom in manchester syntax` <br />
+  
+  
 ## Entity With Provenance
 ![image](/schema-diagrams/entity-with-provenance/entity-with-provenance.jpg)
 
