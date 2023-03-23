@@ -1,52 +1,116 @@
-@prefix : <http://www.semanticweb.org/bddave/ontologies/2023/2/untitled-ontology-28/> .
+@prefix : <http://www.semanticweb.org/soloflife/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@base <http://www.semanticweb.org/bddave/ontologies/2023/2/untitled-ontology-28/> .
+@base <http://www.semanticweb.org/soloflife/asteroid-classification> .
 
 <http://www.semanticweb.org/soloflife/asteroid-classification> rdf:type owl:Ontology .
+
+#################################################################
+#    Datatypes
+#################################################################
+
+###  http://dbpedia.org/ontology/ChemicalElement
+<http://dbpedia.org/ontology/ChemicalElement> rdf:type rdfs:Datatype .
+
 
 #################################################################
 #    Object Properties
 #################################################################
 
-###  http://www.semanticweb.org/soloflife/asteroid-classification#hasElement
-:hasElement rdf:type owl:ObjectProperty .
+###  http://www.semanticweb.org/soloflife/derivesFrom
+<http://www.semanticweb.org/soloflife/derivesFrom> rdf:type owl:ObjectProperty .
 
 
-###  http://www.semanticweb.org/soloflife/asteroid-classification#hasElementalComposition
-:hasElementalComposition rdf:type owl:ObjectProperty .
+###  http://www.semanticweb.org/soloflife/hasElement
+<http://www.semanticweb.org/soloflife/hasElement> rdf:type owl:ObjectProperty .
 
 
-###  http://www.semanticweb.org/soloflife/asteroid-classification#hasLabel
-:hasLabel rdf:type owl:ObjectProperty .
+###  http://www.semanticweb.org/soloflife/hasElementalComposition
+<http://www.semanticweb.org/soloflife/hasElementalComposition> rdf:type owl:ObjectProperty .
 
 
-###  http://www.semanticweb.org/soloflife/asteroid-classification#hasSMASSIIClass
-:hasSMASSIIClass rdf:type owl:ObjectProperty .
+###  http://www.semanticweb.org/soloflife/hasLabel
+<http://www.semanticweb.org/soloflife/hasLabel> rdf:type owl:ObjectProperty .
+
+
+###  http://www.semanticweb.org/soloflife/hasSMASSIIClass
+<http://www.semanticweb.org/soloflife/hasSMASSIIClass> rdf:type owl:ObjectProperty .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://www.semanticweb.org/soloflife/hasElement
+<http://www.semanticweb.org/soloflife/hasElement> rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/soloflife/hasLabel
+<http://www.semanticweb.org/soloflife/hasLabel> rdf:type owl:DatatypeProperty .
 
 
 #################################################################
 #    Classes
 #################################################################
 
-###  http://www.semanticweb.org/soloflife/asteroid-classification#AsteroidClassification
+###  http://www.semanticweb.org/soloflife/AsteroidClassification
 :AsteroidClassification rdf:type owl:Class ;
-                        rdfs:subClassOf :EntityWithProvenance .
+                        rdfs:subClassOf :EntityWithProvenance ,
+                                        [ rdf:type owl:Restriction ;
+                                          owl:onProperty <http://www.semanticweb.org/soloflife/hasSMASSIIClass> ;
+                                          owl:allValuesFrom :SMASSIIClass
+                                        ] ,
+                                        [ rdf:type owl:Restriction ;
+                                          owl:onProperty <http://www.semanticweb.org/soloflife/hasSMASSIIClass> ;
+                                          owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                          owl:onClass :SMASSIIClass
+                                        ] .
 
 
-###  http://www.semanticweb.org/soloflife/asteroid-classification#ElementalComposition
-:ElementalComposition rdf:type owl:Class .
+###  http://www.semanticweb.org/soloflife/ElementalComposition
+:ElementalComposition rdf:type owl:Class ;
+                      rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                        owl:onProperty <http://www.semanticweb.org/soloflife/derivesFrom> ;
+                                        owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                        owl:onClass :SMASSIIClass
+                                      ] ,
+                                      [ rdf:type owl:Restriction ;
+                                        owl:onProperty <http://www.semanticweb.org/soloflife/hasElement> ;
+                                        owl:allValuesFrom <http://dbpedia.org/ontology/ChemicalElement>
+                                      ] ,
+                                      [ rdf:type owl:Restriction ;
+                                        owl:onProperty <http://www.semanticweb.org/soloflife/hasElement> ;
+                                        owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                        owl:onDataRange <http://dbpedia.org/ontology/ChemicalElement>
+                                      ] .
 
 
-###  http://www.semanticweb.org/soloflife/asteroid-classification#EntityWithProvenance
+###  http://www.semanticweb.org/soloflife/EntityWithProvenance
 :EntityWithProvenance rdf:type owl:Class .
 
 
-###  http://www.semanticweb.org/soloflife/asteroid-classification#SMASSIIClass
-:SMASSIIClass rdf:type owl:Class .
+###  http://www.semanticweb.org/soloflife/SMASSIIClass
+:SMASSIIClass rdf:type owl:Class ;
+              rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                owl:onProperty <http://www.semanticweb.org/soloflife/hasElementalComposition> ;
+                                owl:allValuesFrom :ElementalComposition
+                              ] ,
+                              [ rdf:type owl:Restriction ;
+                                owl:onProperty <http://www.semanticweb.org/soloflife/hasElementalComposition> ;
+                                owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                owl:onClass :ElementalComposition
+                              ] ,
+                              [ rdf:type owl:Restriction ;
+                                owl:onProperty <http://www.semanticweb.org/soloflife/hasLabel> ;
+                                owl:cardinality "1"^^xsd:nonNegativeInteger
+                              ] ,
+                              [ rdf:type owl:Restriction ;
+                                owl:onProperty <http://www.semanticweb.org/soloflife/hasLabel> ;
+                                owl:allValuesFrom rdfs:Literal
+                              ] .
 
 
-###  Generated by the OWL API (version 4.5.25.2023-02-15T19:15:49Z) https://github.com/owlcs/owlapi
+###  Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi
