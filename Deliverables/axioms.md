@@ -94,6 +94,14 @@ Every EntityWithProvenance is attributed to exactly 1 agent.
 Every ProvenanceActivity is performed by an agent.
 * `ProvenanceActivity SubClassOf performedBy exactly 1 Agent` <br />
 Every ProvenanceActivity is performed by exactly 1 agent.
+*  `ProvenanceActivity SubClassOf hasDescription exactly 1 xsd:string` <br />
+Every ProvenanceActivity has exactly 1 description, which is represented as a string.
+*  `ProvenanceActivity SubClassOf hasDescription only xsd:string` <br />
+Every ProvenanceActivity has a description, which is represented as a string.
+*  `Agent SubClassOf hasName exactly 1 xsd:string` <br />
+Every Agent has exactly 1 name, which is represented as a string.
+*  `Agent SubClassOf hasName only xsd:string` <br />
+Every Agent has a name, which is represented as a string.
 
 
 ## Observation
