@@ -57,19 +57,19 @@
                                owl:allValuesFrom :Asteroid
                              ] ,
                              [ rdf:type owl:Restriction ;
+                               owl:onProperty :hasFeatureOfInterest ;
+                               owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                               owl:onClass :Asteroid
+                             ] ,
+                             [ rdf:type owl:Restriction ;
                                owl:onProperty :hasObservableProperty ;
-                               owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                               owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
                                owl:onClass :ObservableProperty
                              ] ,
                              [ rdf:type owl:Restriction ;
                                owl:onProperty :hasResult ;
-                               owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
-                               owl:onClass :Result
-                             ] ,
-                             [ rdf:type owl:Restriction ;
-                               owl:onProperty :hasFeatureOfInterest ;
                                owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
-                               owl:onClass :Asteroid
+                               owl:onClass :Result
                              ] .
 
 
