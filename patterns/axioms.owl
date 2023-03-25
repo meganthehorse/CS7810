@@ -6,7 +6,7 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @base <http://www.semanticweb.org/soloflife> .
 
-<http://www.semanticweb.org/soloflife/result> rdf:type owl:Ontology .
+<http://www.semanticweb.org/soloflife/> rdf:type owl:Ontology .
 
 #################################################################
 #    Datatypes
