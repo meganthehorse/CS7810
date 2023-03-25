@@ -1,10 +1,10 @@
-@prefix : <http://www.semanticweb.org/bddave/ontologies/2023/2/untitled-ontology-42/> .
+@prefix : <http://www.semanticweb.org/soloflife> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@base <http://www.semanticweb.org/bddave/ontologies/2023/2/untitled-ontology-42/> .
+@base <http://www.semanticweb.org/soloflife> .
 
 <http://www.semanticweb.org/soloflife/result> rdf:type owl:Ontology .
 
@@ -20,436 +20,436 @@
 #    Object Properties
 #################################################################
 
-###  http://www.semanticweb.org/soloflife/result#attributedTo
-:attributedTo rdf:type owl:ObjectProperty .
+###  http://www.semanticweb.org/bddave/ontologies/2023/2/untitled-ontology-42/attributedTo
+<http://www.semanticweb.org/bddave/ontologies/2023/2/untitled-ontology-42/attributedTo> rdf:type owl:ObjectProperty .
 
 
-###  http://www.semanticweb.org/soloflife/result#derivesFrom
-:derivesFrom rdf:type owl:ObjectProperty .
+###  http://www.semanticweb.org/bddave/ontologies/2023/2/untitled-ontology-42/derivesFrom
+<http://www.semanticweb.org/bddave/ontologies/2023/2/untitled-ontology-42/derivesFrom> rdf:type owl:ObjectProperty .
 
 
-###  http://www.semanticweb.org/soloflife/result#generatedBy
-:generatedBy rdf:type owl:ObjectProperty .
+###  http://www.semanticweb.org/bddave/ontologies/2023/2/untitled-ontology-42/generatedBy
+<http://www.semanticweb.org/bddave/ontologies/2023/2/untitled-ontology-42/generatedBy> rdf:type owl:ObjectProperty .
 
 
-###  http://www.semanticweb.org/soloflife/result#hasAsteroidClassification
-:hasAsteroidClassification rdf:type owl:ObjectProperty .
+###  http://www.semanticweb.org/bddave/ontologies/2023/2/untitled-ontology-42/hasAsteroidClassification
+<http://www.semanticweb.org/bddave/ontologies/2023/2/untitled-ontology-42/hasAsteroidClassification> rdf:type owl:ObjectProperty .
 
 
-###  http://www.semanticweb.org/soloflife/result#hasDistanceRecord
-:hasDistanceRecord rdf:type owl:ObjectProperty .
+###  http://www.semanticweb.org/bddave/ontologies/2023/2/untitled-ontology-42/hasDistanceRecord
+<http://www.semanticweb.org/bddave/ontologies/2023/2/untitled-ontology-42/hasDistanceRecord> rdf:type owl:ObjectProperty .
 
 
-###  http://www.semanticweb.org/soloflife/result#hasElementalComposition
-:hasElementalComposition rdf:type owl:ObjectProperty .
+###  http://www.semanticweb.org/bddave/ontologies/2023/2/untitled-ontology-42/hasElementalComposition
+<http://www.semanticweb.org/bddave/ontologies/2023/2/untitled-ontology-42/hasElementalComposition> rdf:type owl:ObjectProperty .
 
 
-###  http://www.semanticweb.org/soloflife/result#hasFeatureOfInterest
-:hasFeatureOfInterest rdf:type owl:ObjectProperty .
+###  http://www.semanticweb.org/bddave/ontologies/2023/2/untitled-ontology-42/hasFeatureOfInterest
+<http://www.semanticweb.org/bddave/ontologies/2023/2/untitled-ontology-42/hasFeatureOfInterest> rdf:type owl:ObjectProperty .
 
 
-###  http://www.semanticweb.org/soloflife/result#hasObservableProperty
-:hasObservableProperty rdf:type owl:ObjectProperty .
+###  http://www.semanticweb.org/bddave/ontologies/2023/2/untitled-ontology-42/hasObservableProperty
+<http://www.semanticweb.org/bddave/ontologies/2023/2/untitled-ontology-42/hasObservableProperty> rdf:type owl:ObjectProperty .
 
 
-###  http://www.semanticweb.org/soloflife/result#hasObservation
-:hasObservation rdf:type owl:ObjectProperty .
+###  http://www.semanticweb.org/bddave/ontologies/2023/2/untitled-ontology-42/hasObservation
+<http://www.semanticweb.org/bddave/ontologies/2023/2/untitled-ontology-42/hasObservation> rdf:type owl:ObjectProperty .
 
 
-###  http://www.semanticweb.org/soloflife/result#hasQuantity
-:hasQuantity rdf:type owl:ObjectProperty .
+###  http://www.semanticweb.org/bddave/ontologies/2023/2/untitled-ontology-42/hasQuantity
+<http://www.semanticweb.org/bddave/ontologies/2023/2/untitled-ontology-42/hasQuantity> rdf:type owl:ObjectProperty .
 
 
-###  http://www.semanticweb.org/soloflife/result#hasQuantityKind
-:hasQuantityKind rdf:type owl:ObjectProperty .
+###  http://www.semanticweb.org/bddave/ontologies/2023/2/untitled-ontology-42/hasQuantityKind
+<http://www.semanticweb.org/bddave/ontologies/2023/2/untitled-ontology-42/hasQuantityKind> rdf:type owl:ObjectProperty .
 
 
-###  http://www.semanticweb.org/soloflife/result#hasQuantityValue
-:hasQuantityValue rdf:type owl:ObjectProperty .
+###  http://www.semanticweb.org/bddave/ontologies/2023/2/untitled-ontology-42/hasQuantityValue
+<http://www.semanticweb.org/bddave/ontologies/2023/2/untitled-ontology-42/hasQuantityValue> rdf:type owl:ObjectProperty .
 
 
-###  http://www.semanticweb.org/soloflife/result#hasResult
-:hasResult rdf:type owl:ObjectProperty .
+###  http://www.semanticweb.org/bddave/ontologies/2023/2/untitled-ontology-42/hasResult
+<http://www.semanticweb.org/bddave/ontologies/2023/2/untitled-ontology-42/hasResult> rdf:type owl:ObjectProperty .
 
 
-###  http://www.semanticweb.org/soloflife/result#hasSMASSIIClass
-:hasSMASSIIClass rdf:type owl:ObjectProperty .
+###  http://www.semanticweb.org/bddave/ontologies/2023/2/untitled-ontology-42/hasSMASSIIClass
+<http://www.semanticweb.org/bddave/ontologies/2023/2/untitled-ontology-42/hasSMASSIIClass> rdf:type owl:ObjectProperty .
 
 
-###  http://www.semanticweb.org/soloflife/result#hasTemporalExtent
-:hasTemporalExtent rdf:type owl:ObjectProperty .
+###  http://www.semanticweb.org/bddave/ontologies/2023/2/untitled-ontology-42/hasTemporalExtent
+<http://www.semanticweb.org/bddave/ontologies/2023/2/untitled-ontology-42/hasTemporalExtent> rdf:type owl:ObjectProperty .
 
 
-###  http://www.semanticweb.org/soloflife/result#hasUnit
-:hasUnit rdf:type owl:ObjectProperty .
+###  http://www.semanticweb.org/bddave/ontologies/2023/2/untitled-ontology-42/hasUnit
+<http://www.semanticweb.org/bddave/ontologies/2023/2/untitled-ontology-42/hasUnit> rdf:type owl:ObjectProperty .
 
 
-###  http://www.semanticweb.org/soloflife/result#performedBy
-:performedBy rdf:type owl:ObjectProperty .
+###  http://www.semanticweb.org/bddave/ontologies/2023/2/untitled-ontology-42/performedBy
+<http://www.semanticweb.org/bddave/ontologies/2023/2/untitled-ontology-42/performedBy> rdf:type owl:ObjectProperty .
 
 
 #################################################################
 #    Data properties
 #################################################################
 
-###  http://www.semanticweb.org/soloflife/result#hasCommonName
-:hasCommonName rdf:type owl:DatatypeProperty .
+###  http://www.semanticweb.org/bddave/ontologies/2023/2/untitled-ontology-42/hasCommonName
+<http://www.semanticweb.org/bddave/ontologies/2023/2/untitled-ontology-42/hasCommonName> rdf:type owl:DatatypeProperty .
 
 
-###  http://www.semanticweb.org/soloflife/result#hasDescription
-:hasDescription rdf:type owl:DatatypeProperty .
+###  http://www.semanticweb.org/bddave/ontologies/2023/2/untitled-ontology-42/hasDescription
+<http://www.semanticweb.org/bddave/ontologies/2023/2/untitled-ontology-42/hasDescription> rdf:type owl:DatatypeProperty .
 
 
-###  http://www.semanticweb.org/soloflife/result#hasDiscoveryName
-:hasDiscoveryName rdf:type owl:DatatypeProperty .
+###  http://www.semanticweb.org/bddave/ontologies/2023/2/untitled-ontology-42/hasDiscoveryName
+<http://www.semanticweb.org/bddave/ontologies/2023/2/untitled-ontology-42/hasDiscoveryName> rdf:type owl:DatatypeProperty .
 
 
-###  http://www.semanticweb.org/soloflife/result#hasElement
-:hasElement rdf:type owl:DatatypeProperty .
+###  http://www.semanticweb.org/bddave/ontologies/2023/2/untitled-ontology-42/hasElement
+<http://www.semanticweb.org/bddave/ontologies/2023/2/untitled-ontology-42/hasElement> rdf:type owl:DatatypeProperty .
 
 
-###  http://www.semanticweb.org/soloflife/result#hasLabel
-:hasLabel rdf:type owl:DatatypeProperty .
+###  http://www.semanticweb.org/bddave/ontologies/2023/2/untitled-ontology-42/hasLabel
+<http://www.semanticweb.org/bddave/ontologies/2023/2/untitled-ontology-42/hasLabel> rdf:type owl:DatatypeProperty .
 
 
-###  http://www.semanticweb.org/soloflife/result#hasName
-:hasName rdf:type owl:DatatypeProperty .
+###  http://www.semanticweb.org/bddave/ontologies/2023/2/untitled-ontology-42/hasName
+<http://www.semanticweb.org/bddave/ontologies/2023/2/untitled-ontology-42/hasName> rdf:type owl:DatatypeProperty .
 
 
-###  http://www.semanticweb.org/soloflife/result#hasNumericID
-:hasNumericID rdf:type owl:DatatypeProperty .
+###  http://www.semanticweb.org/bddave/ontologies/2023/2/untitled-ontology-42/hasNumericID
+<http://www.semanticweb.org/bddave/ontologies/2023/2/untitled-ontology-42/hasNumericID> rdf:type owl:DatatypeProperty .
 
 
-###  http://www.semanticweb.org/soloflife/result#hasNumericValue
-:hasNumericValue rdf:type owl:DatatypeProperty .
+###  http://www.semanticweb.org/bddave/ontologies/2023/2/untitled-ontology-42/hasNumericValue
+<http://www.semanticweb.org/bddave/ontologies/2023/2/untitled-ontology-42/hasNumericValue> rdf:type owl:DatatypeProperty .
 
 
-###  http://www.semanticweb.org/soloflife/result#recordedAt
-:recordedAt rdf:type owl:DatatypeProperty .
+###  http://www.semanticweb.org/bddave/ontologies/2023/2/untitled-ontology-42/recordedAt
+<http://www.semanticweb.org/bddave/ontologies/2023/2/untitled-ontology-42/recordedAt> rdf:type owl:DatatypeProperty .
 
 
 #################################################################
 #    Classes
 #################################################################
 
-###  http://www.semanticweb.org/soloflife/result#Agent
-:Agent rdf:type owl:Class ;
-       rdfs:subClassOf [ rdf:type owl:Restriction ;
-                         owl:onProperty :hasName ;
-                         owl:allValuesFrom xsd:string
-                       ] ,
-                       [ rdf:type owl:Restriction ;
-                         owl:onProperty :hasName ;
-                         owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
-                         owl:onDataRange xsd:string
-                       ] .
+###  http://www.semanticweb.org/bddave/ontologies/2023/2/untitled-ontology-42/Agent
+<http://www.semanticweb.org/bddave/ontologies/2023/2/untitled-ontology-42/Agent> rdf:type owl:Class ;
+                                                                                 rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                                                                                   owl:onProperty <http://www.semanticweb.org/bddave/ontologies/2023/2/untitled-ontology-42/hasName> ;
+                                                                                                   owl:allValuesFrom xsd:string
+                                                                                                 ] ,
+                                                                                                 [ rdf:type owl:Restriction ;
+                                                                                                   owl:onProperty <http://www.semanticweb.org/bddave/ontologies/2023/2/untitled-ontology-42/hasName> ;
+                                                                                                   owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                                                                   owl:onDataRange xsd:string
+                                                                                                 ] .
 
 
-###  http://www.semanticweb.org/soloflife/result#Asteroid
-:Asteroid rdf:type owl:Class ;
-          rdfs:subClassOf :FeatureOfInterest ,
-                          [ rdf:type owl:Restriction ;
-                            owl:onProperty :hasAsteroidClassification ;
-                            owl:allValuesFrom :AsteroidClassification
-                          ] ,
-                          [ rdf:type owl:Restriction ;
-                            owl:onProperty :hasDistanceRecord ;
-                            owl:allValuesFrom :DistanceRecord
-                          ] ,
-                          [ rdf:type owl:Restriction ;
-                            owl:onProperty :hasObservation ;
-                            owl:allValuesFrom :Observation
-                          ] ,
-                          [ rdf:type owl:Restriction ;
-                            owl:onProperty :hasDistanceRecord ;
-                            owl:minQualifiedCardinality "0"^^xsd:nonNegativeInteger ;
-                            owl:onClass :DistanceRecord
-                          ] ,
-                          [ rdf:type owl:Restriction ;
-                            owl:onProperty :hasObservation ;
-                            owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
-                            owl:onClass :Observation
-                          ] ,
-                          [ rdf:type owl:Restriction ;
-                            owl:onProperty :hasAsteroidClassification ;
-                            owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
-                            owl:onClass :AsteroidClassification
-                          ] ,
-                          [ rdf:type owl:Restriction ;
-                            owl:onProperty :hasCommonName ;
-                            owl:allValuesFrom rdfs:Literal
-                          ] ,
-                          [ rdf:type owl:Restriction ;
-                            owl:onProperty :hasDiscoveryName ;
-                            owl:allValuesFrom rdfs:Literal
-                          ] ,
-                          [ rdf:type owl:Restriction ;
-                            owl:onProperty :hasNumericID ;
-                            owl:allValuesFrom xsd:int
-                          ] ,
-                          [ rdf:type owl:Restriction ;
-                            owl:onProperty :hasDiscoveryName ;
-                            owl:cardinality "1"^^xsd:nonNegativeInteger
-                          ] ,
-                          [ rdf:type owl:Restriction ;
-                            owl:onProperty :hasNumericID ;
-                            owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
-                            owl:onDataRange xsd:int
-                          ] ,
-                          [ rdf:type owl:Restriction ;
-                            owl:onProperty :hasCommonName ;
-                            owl:maxCardinality "1"^^xsd:nonNegativeInteger
-                          ] .
+###  http://www.semanticweb.org/bddave/ontologies/2023/2/untitled-ontology-42/Asteroid
+<http://www.semanticweb.org/bddave/ontologies/2023/2/untitled-ontology-42/Asteroid> rdf:type owl:Class ;
+                                                                                    rdfs:subClassOf <http://www.semanticweb.org/bddave/ontologies/2023/2/untitled-ontology-42/FeatureOfInterest> ,
+                                                                                                    [ rdf:type owl:Restriction ;
+                                                                                                      owl:onProperty <http://www.semanticweb.org/bddave/ontologies/2023/2/untitled-ontology-42/hasAsteroidClassification> ;
+                                                                                                      owl:allValuesFrom <http://www.semanticweb.org/bddave/ontologies/2023/2/untitled-ontology-42/AsteroidClassification>
+                                                                                                    ] ,
+                                                                                                    [ rdf:type owl:Restriction ;
+                                                                                                      owl:onProperty <http://www.semanticweb.org/bddave/ontologies/2023/2/untitled-ontology-42/hasDistanceRecord> ;
+                                                                                                      owl:allValuesFrom <http://www.semanticweb.org/bddave/ontologies/2023/2/untitled-ontology-42/DistanceRecord>
+                                                                                                    ] ,
+                                                                                                    [ rdf:type owl:Restriction ;
+                                                                                                      owl:onProperty <http://www.semanticweb.org/bddave/ontologies/2023/2/untitled-ontology-42/hasObservation> ;
+                                                                                                      owl:allValuesFrom <http://www.semanticweb.org/bddave/ontologies/2023/2/untitled-ontology-42/Observation>
+                                                                                                    ] ,
+                                                                                                    [ rdf:type owl:Restriction ;
+                                                                                                      owl:onProperty <http://www.semanticweb.org/bddave/ontologies/2023/2/untitled-ontology-42/hasDistanceRecord> ;
+                                                                                                      owl:minQualifiedCardinality "0"^^xsd:nonNegativeInteger ;
+                                                                                                      owl:onClass <http://www.semanticweb.org/bddave/ontologies/2023/2/untitled-ontology-42/DistanceRecord>
+                                                                                                    ] ,
+                                                                                                    [ rdf:type owl:Restriction ;
+                                                                                                      owl:onProperty <http://www.semanticweb.org/bddave/ontologies/2023/2/untitled-ontology-42/hasObservation> ;
+                                                                                                      owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                                                                      owl:onClass <http://www.semanticweb.org/bddave/ontologies/2023/2/untitled-ontology-42/Observation>
+                                                                                                    ] ,
+                                                                                                    [ rdf:type owl:Restriction ;
+                                                                                                      owl:onProperty <http://www.semanticweb.org/bddave/ontologies/2023/2/untitled-ontology-42/hasAsteroidClassification> ;
+                                                                                                      owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                                                                      owl:onClass <http://www.semanticweb.org/bddave/ontologies/2023/2/untitled-ontology-42/AsteroidClassification>
+                                                                                                    ] ,
+                                                                                                    [ rdf:type owl:Restriction ;
+                                                                                                      owl:onProperty <http://www.semanticweb.org/bddave/ontologies/2023/2/untitled-ontology-42/hasCommonName> ;
+                                                                                                      owl:allValuesFrom rdfs:Literal
+                                                                                                    ] ,
+                                                                                                    [ rdf:type owl:Restriction ;
+                                                                                                      owl:onProperty <http://www.semanticweb.org/bddave/ontologies/2023/2/untitled-ontology-42/hasDiscoveryName> ;
+                                                                                                      owl:allValuesFrom rdfs:Literal
+                                                                                                    ] ,
+                                                                                                    [ rdf:type owl:Restriction ;
+                                                                                                      owl:onProperty <http://www.semanticweb.org/bddave/ontologies/2023/2/untitled-ontology-42/hasNumericID> ;
+                                                                                                      owl:allValuesFrom xsd:int
+                                                                                                    ] ,
+                                                                                                    [ rdf:type owl:Restriction ;
+                                                                                                      owl:onProperty <http://www.semanticweb.org/bddave/ontologies/2023/2/untitled-ontology-42/hasDiscoveryName> ;
+                                                                                                      owl:cardinality "1"^^xsd:nonNegativeInteger
+                                                                                                    ] ,
+                                                                                                    [ rdf:type owl:Restriction ;
+                                                                                                      owl:onProperty <http://www.semanticweb.org/bddave/ontologies/2023/2/untitled-ontology-42/hasNumericID> ;
+                                                                                                      owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                                                                      owl:onDataRange xsd:int
+                                                                                                    ] ,
+                                                                                                    [ rdf:type owl:Restriction ;
+                                                                                                      owl:onProperty <http://www.semanticweb.org/bddave/ontologies/2023/2/untitled-ontology-42/hasCommonName> ;
+                                                                                                      owl:maxCardinality "1"^^xsd:nonNegativeInteger
+                                                                                                    ] .
 
 
-###  http://www.semanticweb.org/soloflife/result#AsteroidClassification
-:AsteroidClassification rdf:type owl:Class ;
-                        rdfs:subClassOf :EntityWithProvenance ,
-                                        [ rdf:type owl:Restriction ;
-                                          owl:onProperty :hasSMASSIIClass ;
-                                          owl:allValuesFrom :SMASSIIClass
-                                        ] ,
-                                        [ rdf:type owl:Restriction ;
-                                          owl:onProperty :hasSMASSIIClass ;
-                                          owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
-                                          owl:onClass :SMASSIIClass
-                                        ] .
+###  http://www.semanticweb.org/bddave/ontologies/2023/2/untitled-ontology-42/AsteroidClassification
+<http://www.semanticweb.org/bddave/ontologies/2023/2/untitled-ontology-42/AsteroidClassification> rdf:type owl:Class ;
+                                                                                                  rdfs:subClassOf <http://www.semanticweb.org/bddave/ontologies/2023/2/untitled-ontology-42/EntityWithProvenance> ,
+                                                                                                                  [ rdf:type owl:Restriction ;
+                                                                                                                    owl:onProperty <http://www.semanticweb.org/bddave/ontologies/2023/2/untitled-ontology-42/hasSMASSIIClass> ;
+                                                                                                                    owl:allValuesFrom <http://www.semanticweb.org/bddave/ontologies/2023/2/untitled-ontology-42/SMASSIIClass>
+                                                                                                                  ] ,
+                                                                                                                  [ rdf:type owl:Restriction ;
+                                                                                                                    owl:onProperty <http://www.semanticweb.org/bddave/ontologies/2023/2/untitled-ontology-42/hasSMASSIIClass> ;
+                                                                                                                    owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                                                                                    owl:onClass <http://www.semanticweb.org/bddave/ontologies/2023/2/untitled-ontology-42/SMASSIIClass>
+                                                                                                                  ] .
 
 
-###  http://www.semanticweb.org/soloflife/result#DistanceRecord
-:DistanceRecord rdf:type owl:Class ;
-                rdfs:subClassOf :EntityWithProvenance ,
-                                [ rdf:type owl:Restriction ;
-                                  owl:onProperty :hasResult ;
-                                  owl:someValuesFrom :Result
-                                ] ,
-                                [ rdf:type owl:Restriction ;
-                                  owl:onProperty :hasResult ;
-                                  owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
-                                  owl:onClass :Result
-                                ] ,
-                                [ rdf:type owl:Restriction ;
-                                  owl:onProperty :hasTemporalExtent ;
-                                  owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
-                                  owl:onClass :TemporalExtent
-                                ] .
+###  http://www.semanticweb.org/bddave/ontologies/2023/2/untitled-ontology-42/DistanceRecord
+<http://www.semanticweb.org/bddave/ontologies/2023/2/untitled-ontology-42/DistanceRecord> rdf:type owl:Class ;
+                                                                                          rdfs:subClassOf <http://www.semanticweb.org/bddave/ontologies/2023/2/untitled-ontology-42/EntityWithProvenance> ,
+                                                                                                          [ rdf:type owl:Restriction ;
+                                                                                                            owl:onProperty <http://www.semanticweb.org/bddave/ontologies/2023/2/untitled-ontology-42/hasResult> ;
+                                                                                                            owl:someValuesFrom <http://www.semanticweb.org/bddave/ontologies/2023/2/untitled-ontology-42/Result>
+                                                                                                          ] ,
+                                                                                                          [ rdf:type owl:Restriction ;
+                                                                                                            owl:onProperty <http://www.semanticweb.org/bddave/ontologies/2023/2/untitled-ontology-42/hasResult> ;
+                                                                                                            owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                                                                            owl:onClass <http://www.semanticweb.org/bddave/ontologies/2023/2/untitled-ontology-42/Result>
+                                                                                                          ] ,
+                                                                                                          [ rdf:type owl:Restriction ;
+                                                                                                            owl:onProperty <http://www.semanticweb.org/bddave/ontologies/2023/2/untitled-ontology-42/hasTemporalExtent> ;
+                                                                                                            owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                                                                            owl:onClass <http://www.semanticweb.org/bddave/ontologies/2023/2/untitled-ontology-42/TemporalExtent>
+                                                                                                          ] .
 
 
-###  http://www.semanticweb.org/soloflife/result#EconomicProperty
-:EconomicProperty rdf:type owl:Class ;
-                  rdfs:subClassOf :ObservableProperty .
+###  http://www.semanticweb.org/bddave/ontologies/2023/2/untitled-ontology-42/EconomicProperty
+<http://www.semanticweb.org/bddave/ontologies/2023/2/untitled-ontology-42/EconomicProperty> rdf:type owl:Class ;
+                                                                                            rdfs:subClassOf <http://www.semanticweb.org/bddave/ontologies/2023/2/untitled-ontology-42/ObservableProperty> .
 
 
-###  http://www.semanticweb.org/soloflife/result#ElementalComposition
-:ElementalComposition rdf:type owl:Class ;
-                      rdfs:subClassOf [ rdf:type owl:Restriction ;
-                                        owl:onProperty :derivesFrom ;
-                                        owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
-                                        owl:onClass :SMASSIIClass
-                                      ] ,
-                                      [ rdf:type owl:Restriction ;
-                                        owl:onProperty :hasElement ;
-                                        owl:allValuesFrom <http://dbpedia.org/ontology/ChemicalElement>
-                                      ] ,
-                                      [ rdf:type owl:Restriction ;
-                                        owl:onProperty :hasElement ;
-                                        owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
-                                        owl:onDataRange <http://dbpedia.org/ontology/ChemicalElement>
-                                      ] .
+###  http://www.semanticweb.org/bddave/ontologies/2023/2/untitled-ontology-42/ElementalComposition
+<http://www.semanticweb.org/bddave/ontologies/2023/2/untitled-ontology-42/ElementalComposition> rdf:type owl:Class ;
+                                                                                                rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                                                                                                  owl:onProperty <http://www.semanticweb.org/bddave/ontologies/2023/2/untitled-ontology-42/derivesFrom> ;
+                                                                                                                  owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                                                                                  owl:onClass <http://www.semanticweb.org/bddave/ontologies/2023/2/untitled-ontology-42/SMASSIIClass>
+                                                                                                                ] ,
+                                                                                                                [ rdf:type owl:Restriction ;
+                                                                                                                  owl:onProperty <http://www.semanticweb.org/bddave/ontologies/2023/2/untitled-ontology-42/hasElement> ;
+                                                                                                                  owl:allValuesFrom <http://dbpedia.org/ontology/ChemicalElement>
+                                                                                                                ] ,
+                                                                                                                [ rdf:type owl:Restriction ;
+                                                                                                                  owl:onProperty <http://www.semanticweb.org/bddave/ontologies/2023/2/untitled-ontology-42/hasElement> ;
+                                                                                                                  owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                                                                                  owl:onDataRange <http://dbpedia.org/ontology/ChemicalElement>
+                                                                                                                ] .
 
 
-###  http://www.semanticweb.org/soloflife/result#EntityWithProvenance
-:EntityWithProvenance rdf:type owl:Class ;
-                      rdfs:subClassOf [ rdf:type owl:Restriction ;
-                                        owl:onProperty :attributedTo ;
-                                        owl:allValuesFrom :Agent
-                                      ] ,
-                                      [ rdf:type owl:Restriction ;
-                                        owl:onProperty :attributedTo ;
-                                        owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
-                                        owl:onClass :Agent
-                                      ] ,
-                                      [ rdf:type owl:Restriction ;
-                                        owl:onProperty :recordedAt ;
-                                        owl:allValuesFrom xsd:dateTime
-                                      ] ,
-                                      [ rdf:type owl:Restriction ;
-                                        owl:onProperty :recordedAt ;
-                                        owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
-                                        owl:onDataRange xsd:dateTime
-                                      ] .
+###  http://www.semanticweb.org/bddave/ontologies/2023/2/untitled-ontology-42/EntityWithProvenance
+<http://www.semanticweb.org/bddave/ontologies/2023/2/untitled-ontology-42/EntityWithProvenance> rdf:type owl:Class ;
+                                                                                                rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                                                                                                  owl:onProperty <http://www.semanticweb.org/bddave/ontologies/2023/2/untitled-ontology-42/attributedTo> ;
+                                                                                                                  owl:allValuesFrom <http://www.semanticweb.org/bddave/ontologies/2023/2/untitled-ontology-42/Agent>
+                                                                                                                ] ,
+                                                                                                                [ rdf:type owl:Restriction ;
+                                                                                                                  owl:onProperty <http://www.semanticweb.org/bddave/ontologies/2023/2/untitled-ontology-42/attributedTo> ;
+                                                                                                                  owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                                                                                  owl:onClass <http://www.semanticweb.org/bddave/ontologies/2023/2/untitled-ontology-42/Agent>
+                                                                                                                ] ,
+                                                                                                                [ rdf:type owl:Restriction ;
+                                                                                                                  owl:onProperty <http://www.semanticweb.org/bddave/ontologies/2023/2/untitled-ontology-42/recordedAt> ;
+                                                                                                                  owl:allValuesFrom xsd:dateTime
+                                                                                                                ] ,
+                                                                                                                [ rdf:type owl:Restriction ;
+                                                                                                                  owl:onProperty <http://www.semanticweb.org/bddave/ontologies/2023/2/untitled-ontology-42/recordedAt> ;
+                                                                                                                  owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                                                                                  owl:onDataRange xsd:dateTime
+                                                                                                                ] .
 
 
-###  http://www.semanticweb.org/soloflife/result#FeatureOfInterest
-:FeatureOfInterest rdf:type owl:Class .
+###  http://www.semanticweb.org/bddave/ontologies/2023/2/untitled-ontology-42/FeatureOfInterest
+<http://www.semanticweb.org/bddave/ontologies/2023/2/untitled-ontology-42/FeatureOfInterest> rdf:type owl:Class .
 
 
-###  http://www.semanticweb.org/soloflife/result#NearEarthAsteroid
-:NearEarthAsteroid rdf:type owl:Class ;
-                   rdfs:subClassOf :Asteroid .
+###  http://www.semanticweb.org/bddave/ontologies/2023/2/untitled-ontology-42/NearEarthAsteroid
+<http://www.semanticweb.org/bddave/ontologies/2023/2/untitled-ontology-42/NearEarthAsteroid> rdf:type owl:Class ;
+                                                                                             rdfs:subClassOf <http://www.semanticweb.org/bddave/ontologies/2023/2/untitled-ontology-42/Asteroid> .
 
 
-###  http://www.semanticweb.org/soloflife/result#ObservableProperty
-:ObservableProperty rdf:type owl:Class .
+###  http://www.semanticweb.org/bddave/ontologies/2023/2/untitled-ontology-42/ObservableProperty
+<http://www.semanticweb.org/bddave/ontologies/2023/2/untitled-ontology-42/ObservableProperty> rdf:type owl:Class .
 
 
-###  http://www.semanticweb.org/soloflife/result#Observation
-:Observation rdf:type owl:Class ;
-             rdfs:subClassOf :EntityWithProvenance ,
-                             [ rdf:type owl:Restriction ;
-                               owl:onProperty :hasResult ;
-                               owl:someValuesFrom :Result
-                             ] ,
-                             [ rdf:type owl:Restriction ;
-                               owl:onProperty :hasFeatureOfInterest ;
-                               owl:allValuesFrom :Asteroid
-                             ] ,
-                             [ rdf:type owl:Restriction ;
-                               owl:onProperty :hasFeatureOfInterest ;
-                               owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
-                               owl:onClass :Asteroid
-                             ] ,
-                             [ rdf:type owl:Restriction ;
-                               owl:onProperty :hasObservableProperty ;
-                               owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
-                               owl:onClass :ObservableProperty
-                             ] ,
-                             [ rdf:type owl:Restriction ;
-                               owl:onProperty :hasResult ;
-                               owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
-                               owl:onClass :Result
-                             ] .
+###  http://www.semanticweb.org/bddave/ontologies/2023/2/untitled-ontology-42/Observation
+<http://www.semanticweb.org/bddave/ontologies/2023/2/untitled-ontology-42/Observation> rdf:type owl:Class ;
+                                                                                       rdfs:subClassOf <http://www.semanticweb.org/bddave/ontologies/2023/2/untitled-ontology-42/EntityWithProvenance> ,
+                                                                                                       [ rdf:type owl:Restriction ;
+                                                                                                         owl:onProperty <http://www.semanticweb.org/bddave/ontologies/2023/2/untitled-ontology-42/hasResult> ;
+                                                                                                         owl:someValuesFrom <http://www.semanticweb.org/bddave/ontologies/2023/2/untitled-ontology-42/Result>
+                                                                                                       ] ,
+                                                                                                       [ rdf:type owl:Restriction ;
+                                                                                                         owl:onProperty <http://www.semanticweb.org/bddave/ontologies/2023/2/untitled-ontology-42/hasFeatureOfInterest> ;
+                                                                                                         owl:allValuesFrom <http://www.semanticweb.org/bddave/ontologies/2023/2/untitled-ontology-42/Asteroid>
+                                                                                                       ] ,
+                                                                                                       [ rdf:type owl:Restriction ;
+                                                                                                         owl:onProperty <http://www.semanticweb.org/bddave/ontologies/2023/2/untitled-ontology-42/hasFeatureOfInterest> ;
+                                                                                                         owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                                                                         owl:onClass <http://www.semanticweb.org/bddave/ontologies/2023/2/untitled-ontology-42/Asteroid>
+                                                                                                       ] ,
+                                                                                                       [ rdf:type owl:Restriction ;
+                                                                                                         owl:onProperty <http://www.semanticweb.org/bddave/ontologies/2023/2/untitled-ontology-42/hasObservableProperty> ;
+                                                                                                         owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                                                                         owl:onClass <http://www.semanticweb.org/bddave/ontologies/2023/2/untitled-ontology-42/ObservableProperty>
+                                                                                                       ] ,
+                                                                                                       [ rdf:type owl:Restriction ;
+                                                                                                         owl:onProperty <http://www.semanticweb.org/bddave/ontologies/2023/2/untitled-ontology-42/hasResult> ;
+                                                                                                         owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                                                                         owl:onClass <http://www.semanticweb.org/bddave/ontologies/2023/2/untitled-ontology-42/Result>
+                                                                                                       ] .
 
 
-###  http://www.semanticweb.org/soloflife/result#OrbitalProperty
-:OrbitalProperty rdf:type owl:Class ;
-                 rdfs:subClassOf :ObservableProperty .
+###  http://www.semanticweb.org/bddave/ontologies/2023/2/untitled-ontology-42/OrbitalProperty
+<http://www.semanticweb.org/bddave/ontologies/2023/2/untitled-ontology-42/OrbitalProperty> rdf:type owl:Class ;
+                                                                                           rdfs:subClassOf <http://www.semanticweb.org/bddave/ontologies/2023/2/untitled-ontology-42/ObservableProperty> .
 
 
-###  http://www.semanticweb.org/soloflife/result#PhysicalProperty
-:PhysicalProperty rdf:type owl:Class ;
-                  rdfs:subClassOf :ObservableProperty .
+###  http://www.semanticweb.org/bddave/ontologies/2023/2/untitled-ontology-42/PhysicalProperty
+<http://www.semanticweb.org/bddave/ontologies/2023/2/untitled-ontology-42/PhysicalProperty> rdf:type owl:Class ;
+                                                                                            rdfs:subClassOf <http://www.semanticweb.org/bddave/ontologies/2023/2/untitled-ontology-42/ObservableProperty> .
 
 
-###  http://www.semanticweb.org/soloflife/result#ProvenanceActivity
-:ProvenanceActivity rdf:type owl:Class ;
-                    rdfs:subClassOf [ rdf:type owl:Restriction ;
-                                      owl:onProperty :performedBy ;
-                                      owl:allValuesFrom :Agent
-                                    ] ,
-                                    [ rdf:type owl:Restriction ;
-                                      owl:onProperty :performedBy ;
-                                      owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
-                                      owl:onClass :Agent
-                                    ] ,
-                                    [ rdf:type owl:Restriction ;
-                                      owl:onProperty :hasDescription ;
-                                      owl:allValuesFrom xsd:string
-                                    ] ,
-                                    [ rdf:type owl:Restriction ;
-                                      owl:onProperty :hasDescription ;
-                                      owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
-                                      owl:onDataRange xsd:string
-                                    ] .
+###  http://www.semanticweb.org/bddave/ontologies/2023/2/untitled-ontology-42/ProvenanceActivity
+<http://www.semanticweb.org/bddave/ontologies/2023/2/untitled-ontology-42/ProvenanceActivity> rdf:type owl:Class ;
+                                                                                              rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                                                                                                owl:onProperty <http://www.semanticweb.org/bddave/ontologies/2023/2/untitled-ontology-42/performedBy> ;
+                                                                                                                owl:allValuesFrom <http://www.semanticweb.org/bddave/ontologies/2023/2/untitled-ontology-42/Agent>
+                                                                                                              ] ,
+                                                                                                              [ rdf:type owl:Restriction ;
+                                                                                                                owl:onProperty <http://www.semanticweb.org/bddave/ontologies/2023/2/untitled-ontology-42/performedBy> ;
+                                                                                                                owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                                                                                owl:onClass <http://www.semanticweb.org/bddave/ontologies/2023/2/untitled-ontology-42/Agent>
+                                                                                                              ] ,
+                                                                                                              [ rdf:type owl:Restriction ;
+                                                                                                                owl:onProperty <http://www.semanticweb.org/bddave/ontologies/2023/2/untitled-ontology-42/hasDescription> ;
+                                                                                                                owl:allValuesFrom xsd:string
+                                                                                                              ] ,
+                                                                                                              [ rdf:type owl:Restriction ;
+                                                                                                                owl:onProperty <http://www.semanticweb.org/bddave/ontologies/2023/2/untitled-ontology-42/hasDescription> ;
+                                                                                                                owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                                                                                owl:onDataRange xsd:string
+                                                                                                              ] .
 
 
-###  http://www.semanticweb.org/soloflife/result#Quantity
-:Quantity rdf:type owl:Class ;
-          rdfs:subClassOf [ rdf:type owl:Restriction ;
-                            owl:onProperty :hasQuantityKind ;
-                            owl:allValuesFrom :QuantityKind
-                          ] ,
-                          [ rdf:type owl:Restriction ;
-                            owl:onProperty :hasQuantityValue ;
-                            owl:allValuesFrom :QuantityValue
-                          ] ,
-                          [ rdf:type owl:Restriction ;
-                            owl:onProperty :hasQuantityKind ;
-                            owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
-                            owl:onClass :QuantityKind
-                          ] ,
-                          [ rdf:type owl:Restriction ;
-                            owl:onProperty :hasQuantityValue ;
-                            owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
-                            owl:onClass :QuantityValue
-                          ] .
+###  http://www.semanticweb.org/bddave/ontologies/2023/2/untitled-ontology-42/Quantity
+<http://www.semanticweb.org/bddave/ontologies/2023/2/untitled-ontology-42/Quantity> rdf:type owl:Class ;
+                                                                                    rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                                                                                      owl:onProperty <http://www.semanticweb.org/bddave/ontologies/2023/2/untitled-ontology-42/hasQuantityKind> ;
+                                                                                                      owl:allValuesFrom <http://www.semanticweb.org/bddave/ontologies/2023/2/untitled-ontology-42/QuantityKind>
+                                                                                                    ] ,
+                                                                                                    [ rdf:type owl:Restriction ;
+                                                                                                      owl:onProperty <http://www.semanticweb.org/bddave/ontologies/2023/2/untitled-ontology-42/hasQuantityValue> ;
+                                                                                                      owl:allValuesFrom <http://www.semanticweb.org/bddave/ontologies/2023/2/untitled-ontology-42/QuantityValue>
+                                                                                                    ] ,
+                                                                                                    [ rdf:type owl:Restriction ;
+                                                                                                      owl:onProperty <http://www.semanticweb.org/bddave/ontologies/2023/2/untitled-ontology-42/hasQuantityKind> ;
+                                                                                                      owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                                                                      owl:onClass <http://www.semanticweb.org/bddave/ontologies/2023/2/untitled-ontology-42/QuantityKind>
+                                                                                                    ] ,
+                                                                                                    [ rdf:type owl:Restriction ;
+                                                                                                      owl:onProperty <http://www.semanticweb.org/bddave/ontologies/2023/2/untitled-ontology-42/hasQuantityValue> ;
+                                                                                                      owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                                                                      owl:onClass <http://www.semanticweb.org/bddave/ontologies/2023/2/untitled-ontology-42/QuantityValue>
+                                                                                                    ] .
 
 
-###  http://www.semanticweb.org/soloflife/result#QuantityKind
-:QuantityKind rdf:type owl:Class .
+###  http://www.semanticweb.org/bddave/ontologies/2023/2/untitled-ontology-42/QuantityKind
+<http://www.semanticweb.org/bddave/ontologies/2023/2/untitled-ontology-42/QuantityKind> rdf:type owl:Class .
 
 
-###  http://www.semanticweb.org/soloflife/result#QuantityValue
-:QuantityValue rdf:type owl:Class ;
-               rdfs:subClassOf [ rdf:type owl:Restriction ;
-                                 owl:onProperty :hasUnit ;
-                                 owl:allValuesFrom :Unit
-                               ] ,
-                               [ rdf:type owl:Restriction ;
-                                 owl:onProperty :hasUnit ;
-                                 owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
-                                 owl:onClass :Unit
-                               ] ,
-                               [ rdf:type owl:Restriction ;
-                                 owl:onProperty :hasNumericValue ;
-                                 owl:allValuesFrom xsd:double
-                               ] ,
-                               [ rdf:type owl:Restriction ;
-                                 owl:onProperty :hasNumericValue ;
-                                 owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
-                                 owl:onDataRange xsd:double
-                               ] .
+###  http://www.semanticweb.org/bddave/ontologies/2023/2/untitled-ontology-42/QuantityValue
+<http://www.semanticweb.org/bddave/ontologies/2023/2/untitled-ontology-42/QuantityValue> rdf:type owl:Class ;
+                                                                                         rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                                                                                           owl:onProperty <http://www.semanticweb.org/bddave/ontologies/2023/2/untitled-ontology-42/hasUnit> ;
+                                                                                                           owl:allValuesFrom <http://www.semanticweb.org/bddave/ontologies/2023/2/untitled-ontology-42/Unit>
+                                                                                                         ] ,
+                                                                                                         [ rdf:type owl:Restriction ;
+                                                                                                           owl:onProperty <http://www.semanticweb.org/bddave/ontologies/2023/2/untitled-ontology-42/hasUnit> ;
+                                                                                                           owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                                                                           owl:onClass <http://www.semanticweb.org/bddave/ontologies/2023/2/untitled-ontology-42/Unit>
+                                                                                                         ] ,
+                                                                                                         [ rdf:type owl:Restriction ;
+                                                                                                           owl:onProperty <http://www.semanticweb.org/bddave/ontologies/2023/2/untitled-ontology-42/hasNumericValue> ;
+                                                                                                           owl:allValuesFrom xsd:double
+                                                                                                         ] ,
+                                                                                                         [ rdf:type owl:Restriction ;
+                                                                                                           owl:onProperty <http://www.semanticweb.org/bddave/ontologies/2023/2/untitled-ontology-42/hasNumericValue> ;
+                                                                                                           owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                                                                           owl:onDataRange xsd:double
+                                                                                                         ] .
 
 
-###  http://www.semanticweb.org/soloflife/result#Result
-:Result rdf:type owl:Class ;
-        rdfs:subClassOf [ rdf:type owl:Restriction ;
-                          owl:onProperty :hasQuantity ;
-                          owl:allValuesFrom :Quantity
-                        ] ,
-                        [ rdf:type owl:Restriction ;
-                          owl:onProperty :hasQuantity ;
-                          owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
-                          owl:onClass :Quantity
-                        ] .
+###  http://www.semanticweb.org/bddave/ontologies/2023/2/untitled-ontology-42/Result
+<http://www.semanticweb.org/bddave/ontologies/2023/2/untitled-ontology-42/Result> rdf:type owl:Class ;
+                                                                                  rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                                                                                    owl:onProperty <http://www.semanticweb.org/bddave/ontologies/2023/2/untitled-ontology-42/hasQuantity> ;
+                                                                                                    owl:allValuesFrom <http://www.semanticweb.org/bddave/ontologies/2023/2/untitled-ontology-42/Quantity>
+                                                                                                  ] ,
+                                                                                                  [ rdf:type owl:Restriction ;
+                                                                                                    owl:onProperty <http://www.semanticweb.org/bddave/ontologies/2023/2/untitled-ontology-42/hasQuantity> ;
+                                                                                                    owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                                                                    owl:onClass <http://www.semanticweb.org/bddave/ontologies/2023/2/untitled-ontology-42/Quantity>
+                                                                                                  ] .
 
 
-###  http://www.semanticweb.org/soloflife/result#SMASSIIClass
-:SMASSIIClass rdf:type owl:Class ;
-              rdfs:subClassOf [ rdf:type owl:Restriction ;
-                                owl:onProperty :hasElementalComposition ;
-                                owl:allValuesFrom :ElementalComposition
-                              ] ,
-                              [ rdf:type owl:Restriction ;
-                                owl:onProperty :hasElementalComposition ;
-                                owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
-                                owl:onClass :ElementalComposition
-                              ] ,
-                              [ rdf:type owl:Restriction ;
-                                owl:onProperty :hasLabel ;
-                                owl:allValuesFrom rdfs:Literal
-                              ] ,
-                              [ rdf:type owl:Restriction ;
-                                owl:onProperty :hasLabel ;
-                                owl:cardinality "1"^^xsd:nonNegativeInteger
-                              ] .
+###  http://www.semanticweb.org/bddave/ontologies/2023/2/untitled-ontology-42/SMASSIIClass
+<http://www.semanticweb.org/bddave/ontologies/2023/2/untitled-ontology-42/SMASSIIClass> rdf:type owl:Class ;
+                                                                                        rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                                                                                          owl:onProperty <http://www.semanticweb.org/bddave/ontologies/2023/2/untitled-ontology-42/hasElementalComposition> ;
+                                                                                                          owl:allValuesFrom <http://www.semanticweb.org/bddave/ontologies/2023/2/untitled-ontology-42/ElementalComposition>
+                                                                                                        ] ,
+                                                                                                        [ rdf:type owl:Restriction ;
+                                                                                                          owl:onProperty <http://www.semanticweb.org/bddave/ontologies/2023/2/untitled-ontology-42/hasElementalComposition> ;
+                                                                                                          owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                                                                          owl:onClass <http://www.semanticweb.org/bddave/ontologies/2023/2/untitled-ontology-42/ElementalComposition>
+                                                                                                        ] ,
+                                                                                                        [ rdf:type owl:Restriction ;
+                                                                                                          owl:onProperty <http://www.semanticweb.org/bddave/ontologies/2023/2/untitled-ontology-42/hasLabel> ;
+                                                                                                          owl:allValuesFrom rdfs:Literal
+                                                                                                        ] ,
+                                                                                                        [ rdf:type owl:Restriction ;
+                                                                                                          owl:onProperty <http://www.semanticweb.org/bddave/ontologies/2023/2/untitled-ontology-42/hasLabel> ;
+                                                                                                          owl:cardinality "1"^^xsd:nonNegativeInteger
+                                                                                                        ] .
 
 
-###  http://www.semanticweb.org/soloflife/result#TemporalExtent
-:TemporalExtent rdf:type owl:Class ;
-                rdfs:subClassOf [ rdf:type owl:Restriction ;
-                                  owl:onProperty :recordedAt ;
-                                  owl:allValuesFrom xsd:dateTime
-                                ] ,
-                                [ rdf:type owl:Restriction ;
-                                  owl:onProperty :recordedAt ;
-                                  owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
-                                  owl:onDataRange xsd:dateTime
-                                ] .
+###  http://www.semanticweb.org/bddave/ontologies/2023/2/untitled-ontology-42/TemporalExtent
+<http://www.semanticweb.org/bddave/ontologies/2023/2/untitled-ontology-42/TemporalExtent> rdf:type owl:Class ;
+                                                                                          rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                                                                                            owl:onProperty <http://www.semanticweb.org/bddave/ontologies/2023/2/untitled-ontology-42/recordedAt> ;
+                                                                                                            owl:allValuesFrom xsd:dateTime
+                                                                                                          ] ,
+                                                                                                          [ rdf:type owl:Restriction ;
+                                                                                                            owl:onProperty <http://www.semanticweb.org/bddave/ontologies/2023/2/untitled-ontology-42/recordedAt> ;
+                                                                                                            owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                                                                            owl:onDataRange xsd:dateTime
+                                                                                                          ] .
 
 
-###  http://www.semanticweb.org/soloflife/result#Unit
-:Unit rdf:type owl:Class .
+###  http://www.semanticweb.org/bddave/ontologies/2023/2/untitled-ontology-42/Unit
+<http://www.semanticweb.org/bddave/ontologies/2023/2/untitled-ontology-42/Unit> rdf:type owl:Class .
 
 
 ###  Generated by the OWL API (version 4.5.25.2023-02-15T19:15:49Z) https://github.com/owlcs/owlapi
