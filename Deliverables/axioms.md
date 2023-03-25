@@ -74,9 +74,9 @@ Every DistanceRecord has some result.
 Every DistanceRecord has exactly 1 result.
 * `DistanceRecord SubClassOf hasTemportalExtent only TemporalExtent` <br />
 Every DistanceRecord has a temporal extent.
-* `DistanceRecord SubClassOf hasTemportalExtent exactly 1 TemporalExtent` <br />  
+* `DistanceRecord SubClassOf hasTemportalExtent exactly 1 TemporalExtent` <br />
 Every DistanceRecord has exactly 1 temporal extent.
-  
+
 
 ## Entity With Provenance
 ![image](/schema-diagrams/entity-with-provenance/entity-with-provenance.jpg)
