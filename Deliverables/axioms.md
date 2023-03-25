@@ -8,6 +8,20 @@
 ### Axioms
 * `Asteroid SubClassOf FeatureOfInterest` <br />
 Every Asteroid has a feature of interest.
+* `NearEarthAsteroid SubClassOf Asteroid` <br />
+Every NearEarthAsteroid is an asteroid.
+* `Asteroid SubClassOf hasNumericID only xsd:int` <br />
+Every Asteroid has a numeric ID, which is represented as an integer. 
+* `Asteroid SubClassOf hasNumericID exactly 1 xsd:int` <br />
+Every Asteroid has exactly 1 numeric ID, which is represented as an integer. 
+* `Asteroid SubClassOf hasCommonName only rdfs:Literal` <br />
+Every Asteroid has a common name, which is represented as a literal. 
+* `Asteroid SubClassOf hasCommonName max 1 rdfs:Literal` <br />
+Every Asteroid has at maximum 1 common name, which is represented as a literal. 
+* `Asteroid SubClassOf hasDiscoveryName only rdfs:Literal` <br />
+Every Asteroid has a discovery name, which is represented as a literal.
+* `Asteroid SubClassOf hasDiscoveryName exactly 1 rdfs:Literal` <br />
+Every Asteroid has exactly 1 discovery name.
 * `Asteroid SubClassOf hasAsteroidClassification only AsteroidClassification` <br />
 Every Asteroid has an asteroid classification.
 * `Asteroid SubClassOf hasAsteroidClassification exactly 1 AsteroidClassification` <br />
