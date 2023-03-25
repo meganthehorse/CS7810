@@ -1,0 +1,544 @@
+@prefix : <http://www.semanticweb.org/soloflife/axioms#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.semanticweb.org/soloflife/axioms> .
+
+<http://www.semanticweb.org/soloflife/axioms> rdf:type owl:Ontology .
+
+#################################################################
+#    Annotation properties
+#################################################################
+
+###  http://ontologydesignpatterns.org/opla-sd#entityPosition
+<http://ontologydesignpatterns.org/opla-sd#entityPosition> rdf:type owl:AnnotationProperty .
+
+
+###  http://ontologydesignpatterns.org/opla-sd#entityPositionX
+<http://ontologydesignpatterns.org/opla-sd#entityPositionX> rdf:type owl:AnnotationProperty .
+
+
+###  http://ontologydesignpatterns.org/opla-sd#entityPositionY
+<http://ontologydesignpatterns.org/opla-sd#entityPositionY> rdf:type owl:AnnotationProperty .
+
+
+#################################################################
+#    Datatypes
+#################################################################
+
+###  http://dbpedia.org/ontology/ChemicalElement
+<http://dbpedia.org/ontology/ChemicalElement> rdf:type rdfs:Datatype .
+
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://www.semanticweb.org/soloflife/attributedTo
+<http://www.semanticweb.org/soloflife/attributedTo> rdf:type owl:ObjectProperty .
+
+
+###  http://www.semanticweb.org/soloflife/derivesFrom
+<http://www.semanticweb.org/soloflife/derivesFrom> rdf:type owl:ObjectProperty .
+
+
+###  http://www.semanticweb.org/soloflife/generatedBy
+<http://www.semanticweb.org/soloflife/generatedBy> rdf:type owl:ObjectProperty ;
+                                                   rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/soloflife/hasElementalComposition
+<http://www.semanticweb.org/soloflife/hasElementalComposition> rdf:type owl:ObjectProperty .
+
+
+###  http://www.semanticweb.org/soloflife/hasFeatureOfInterest
+<http://www.semanticweb.org/soloflife/hasFeatureOfInterest> rdf:type owl:ObjectProperty .
+
+
+###  http://www.semanticweb.org/soloflife/hasObservableProperty
+<http://www.semanticweb.org/soloflife/hasObservableProperty> rdf:type owl:ObjectProperty .
+
+
+###  http://www.semanticweb.org/soloflife/hasQuantity
+<http://www.semanticweb.org/soloflife/hasQuantity> rdf:type owl:ObjectProperty .
+
+
+###  http://www.semanticweb.org/soloflife/hasQuantityKind
+<http://www.semanticweb.org/soloflife/hasQuantityKind> rdf:type owl:ObjectProperty .
+
+
+###  http://www.semanticweb.org/soloflife/hasQuantityValue
+<http://www.semanticweb.org/soloflife/hasQuantityValue> rdf:type owl:ObjectProperty .
+
+
+###  http://www.semanticweb.org/soloflife/hasResult
+<http://www.semanticweb.org/soloflife/hasResult> rdf:type owl:ObjectProperty .
+
+
+###  http://www.semanticweb.org/soloflife/hasSMASSIIClass
+<http://www.semanticweb.org/soloflife/hasSMASSIIClass> rdf:type owl:ObjectProperty .
+
+
+###  http://www.semanticweb.org/soloflife/hasTemportalExtent
+<http://www.semanticweb.org/soloflife/hasTemportalExtent> rdf:type owl:ObjectProperty .
+
+
+###  http://www.semanticweb.org/soloflife/hasUnit
+<http://www.semanticweb.org/soloflife/hasUnit> rdf:type owl:ObjectProperty .
+
+
+###  http://www.semanticweb.org/soloflife/performedBy
+<http://www.semanticweb.org/soloflife/performedBy> rdf:type owl:ObjectProperty ;
+                                                   rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/soloflife/asteroid/hasAsteroidClassification
+<http://www.semanticweb.org/soloflife/asteroid/hasAsteroidClassification> rdf:type owl:ObjectProperty .
+
+
+###  http://www.semanticweb.org/soloflife/asteroid/hasDistanceRecord
+<http://www.semanticweb.org/soloflife/asteroid/hasDistanceRecord> rdf:type owl:ObjectProperty .
+
+
+###  http://www.semanticweb.org/soloflife/asteroid/hasObservation
+<http://www.semanticweb.org/soloflife/asteroid/hasObservation> rdf:type owl:ObjectProperty .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://www.semanticweb.org/soloflife/hasDescription
+<http://www.semanticweb.org/soloflife/hasDescription> rdf:type owl:DatatypeProperty ;
+                                                      rdfs:subPropertyOf owl:topDataProperty .
+
+
+###  http://www.semanticweb.org/soloflife/hasElement
+<http://www.semanticweb.org/soloflife/hasElement> rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/soloflife/hasLabel
+<http://www.semanticweb.org/soloflife/hasLabel> rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/soloflife/hasName
+<http://www.semanticweb.org/soloflife/hasName> rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/soloflife/hasNumericValue
+<http://www.semanticweb.org/soloflife/hasNumericValue> rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/soloflife/recordedAt
+<http://www.semanticweb.org/soloflife/recordedAt> rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/soloflife/asteroid/hasCommonName
+<http://www.semanticweb.org/soloflife/asteroid/hasCommonName> rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/soloflife/asteroid/hasDiscoveryName
+<http://www.semanticweb.org/soloflife/asteroid/hasDiscoveryName> rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/soloflife/asteroid/hasNumericID
+<http://www.semanticweb.org/soloflife/asteroid/hasNumericID> rdf:type owl:DatatypeProperty ;
+                                                             rdfs:subPropertyOf owl:topDataProperty .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.semanticweb.org/soloflife/Agent
+<http://www.semanticweb.org/soloflife/Agent> rdf:type owl:Class ;
+                                             rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                                               owl:onProperty <http://www.semanticweb.org/soloflife/hasName> ;
+                                                               owl:allValuesFrom xsd:string
+                                                             ] ,
+                                                             [ rdf:type owl:Restriction ;
+                                                               owl:onProperty <http://www.semanticweb.org/soloflife/hasName> ;
+                                                               owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                               owl:onDataRange xsd:string
+                                                             ] .
+
+
+###  http://www.semanticweb.org/soloflife/Asteroid
+<http://www.semanticweb.org/soloflife/Asteroid> rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/soloflife/AsteroidClassification
+<http://www.semanticweb.org/soloflife/AsteroidClassification> rdf:type owl:Class ;
+                                                              rdfs:subClassOf <http://www.semanticweb.org/soloflife/EntityWithProvenance> ,
+                                                                              [ rdf:type owl:Restriction ;
+                                                                                owl:onProperty <http://www.semanticweb.org/soloflife/hasSMASSIIClass> ;
+                                                                                owl:allValuesFrom <http://www.semanticweb.org/soloflife/SMASSIIClass>
+                                                                              ] ,
+                                                                              [ rdf:type owl:Restriction ;
+                                                                                owl:onProperty <http://www.semanticweb.org/soloflife/hasSMASSIIClass> ;
+                                                                                owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                                                owl:onClass <http://www.semanticweb.org/soloflife/SMASSIIClass>
+                                                                              ] .
+
+
+###  http://www.semanticweb.org/soloflife/DistanceRecord
+<http://www.semanticweb.org/soloflife/DistanceRecord> rdf:type owl:Class ;
+                                                      rdfs:subClassOf <http://www.semanticweb.org/soloflife/EntityWithProvenance> ,
+                                                                      [ rdf:type owl:Restriction ;
+                                                                        owl:onProperty <http://www.semanticweb.org/soloflife/hasResult> ;
+                                                                        owl:someValuesFrom <http://www.semanticweb.org/soloflife/Result>
+                                                                      ] ,
+                                                                      [ rdf:type owl:Restriction ;
+                                                                        owl:onProperty <http://www.semanticweb.org/soloflife/hasTemportalExtent> ;
+                                                                        owl:allValuesFrom <http://www.semanticweb.org/soloflife/TemporalExtent>
+                                                                      ] ,
+                                                                      [ rdf:type owl:Restriction ;
+                                                                        owl:onProperty <http://www.semanticweb.org/soloflife/hasResult> ;
+                                                                        owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                                        owl:onClass <http://www.semanticweb.org/soloflife/Result>
+                                                                      ] ,
+                                                                      [ rdf:type owl:Restriction ;
+                                                                        owl:onProperty <http://www.semanticweb.org/soloflife/hasTemportalExtent> ;
+                                                                        owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                                        owl:onClass <http://www.semanticweb.org/soloflife/TemporalExtent>
+                                                                      ] .
+
+
+###  http://www.semanticweb.org/soloflife/EconomicProperty
+<http://www.semanticweb.org/soloflife/EconomicProperty> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://www.semanticweb.org/soloflife/ObservableProperty> .
+
+
+###  http://www.semanticweb.org/soloflife/ElementalComposition
+<http://www.semanticweb.org/soloflife/ElementalComposition> rdf:type owl:Class ;
+                                                            rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                                                              owl:onProperty <http://www.semanticweb.org/soloflife/derivesFrom> ;
+                                                                              owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                                              owl:onClass <http://www.semanticweb.org/soloflife/SMASSIIClass>
+                                                                            ] ,
+                                                                            [ rdf:type owl:Restriction ;
+                                                                              owl:onProperty <http://www.semanticweb.org/soloflife/hasElement> ;
+                                                                              owl:allValuesFrom <http://dbpedia.org/ontology/ChemicalElement>
+                                                                            ] ,
+                                                                            [ rdf:type owl:Restriction ;
+                                                                              owl:onProperty <http://www.semanticweb.org/soloflife/hasElement> ;
+                                                                              owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                                              owl:onDataRange <http://dbpedia.org/ontology/ChemicalElement>
+                                                                            ] .
+
+
+###  http://www.semanticweb.org/soloflife/EntityWithProvenance
+<http://www.semanticweb.org/soloflife/EntityWithProvenance> rdf:type owl:Class ;
+                                                            rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                                                              owl:onProperty <http://www.semanticweb.org/soloflife/attributedTo> ;
+                                                                              owl:allValuesFrom <http://www.semanticweb.org/soloflife/Agent>
+                                                                            ] ,
+                                                                            [ rdf:type owl:Restriction ;
+                                                                              owl:onProperty <http://www.semanticweb.org/soloflife/generatedBy> ;
+                                                                              owl:allValuesFrom <http://www.semanticweb.org/soloflife/ProvenanceActivity>
+                                                                            ] ,
+                                                                            [ rdf:type owl:Restriction ;
+                                                                              owl:onProperty <http://www.semanticweb.org/soloflife/attributedTo> ;
+                                                                              owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                                              owl:onClass <http://www.semanticweb.org/soloflife/Agent>
+                                                                            ] ,
+                                                                            [ rdf:type owl:Restriction ;
+                                                                              owl:onProperty <http://www.semanticweb.org/soloflife/generatedBy> ;
+                                                                              owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                                              owl:onClass <http://www.semanticweb.org/soloflife/ProvenanceActivity>
+                                                                            ] .
+
+
+###  http://www.semanticweb.org/soloflife/ObservableProperty
+<http://www.semanticweb.org/soloflife/ObservableProperty> rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/soloflife/Observation
+<http://www.semanticweb.org/soloflife/Observation> rdf:type owl:Class ;
+                                                   rdfs:subClassOf <http://www.semanticweb.org/soloflife/EntityWithProvenance> ,
+                                                                   [ rdf:type owl:Restriction ;
+                                                                     owl:onProperty <http://www.semanticweb.org/soloflife/hasResult> ;
+                                                                     owl:someValuesFrom <http://www.semanticweb.org/soloflife/Result>
+                                                                   ] ,
+                                                                   [ rdf:type owl:Restriction ;
+                                                                     owl:onProperty <http://www.semanticweb.org/soloflife/hasFeatureOfInterest> ;
+                                                                     owl:allValuesFrom <http://www.semanticweb.org/soloflife/Asteroid>
+                                                                   ] ,
+                                                                   [ rdf:type owl:Restriction ;
+                                                                     owl:onProperty <http://www.semanticweb.org/soloflife/hasFeatureOfInterest> ;
+                                                                     owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                                     owl:onClass <http://www.semanticweb.org/soloflife/Asteroid>
+                                                                   ] ,
+                                                                   [ rdf:type owl:Restriction ;
+                                                                     owl:onProperty <http://www.semanticweb.org/soloflife/hasObservableProperty> ;
+                                                                     owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                                     owl:onClass <http://www.semanticweb.org/soloflife/ObservableProperty>
+                                                                   ] ,
+                                                                   [ rdf:type owl:Restriction ;
+                                                                     owl:onProperty <http://www.semanticweb.org/soloflife/hasResult> ;
+                                                                     owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                                     owl:onClass <http://www.semanticweb.org/soloflife/Result>
+                                                                   ] .
+
+
+###  http://www.semanticweb.org/soloflife/OrbitalProperty
+<http://www.semanticweb.org/soloflife/OrbitalProperty> rdf:type owl:Class ;
+                                                       rdfs:subClassOf <http://www.semanticweb.org/soloflife/ObservableProperty> .
+
+
+###  http://www.semanticweb.org/soloflife/PhysicalProperty
+<http://www.semanticweb.org/soloflife/PhysicalProperty> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://www.semanticweb.org/soloflife/ObservableProperty> .
+
+
+###  http://www.semanticweb.org/soloflife/ProvenanceActivity
+<http://www.semanticweb.org/soloflife/ProvenanceActivity> rdf:type owl:Class ;
+                                                          rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                                                            owl:onProperty <http://www.semanticweb.org/soloflife/performedBy> ;
+                                                                            owl:allValuesFrom <http://www.semanticweb.org/soloflife/Agent>
+                                                                          ] ,
+                                                                          [ rdf:type owl:Restriction ;
+                                                                            owl:onProperty <http://www.semanticweb.org/soloflife/performedBy> ;
+                                                                            owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                                            owl:onClass <http://www.semanticweb.org/soloflife/Agent>
+                                                                          ] ,
+                                                                          [ rdf:type owl:Restriction ;
+                                                                            owl:onProperty <http://www.semanticweb.org/soloflife/hasDescription> ;
+                                                                            owl:allValuesFrom xsd:string
+                                                                          ] ,
+                                                                          [ rdf:type owl:Restriction ;
+                                                                            owl:onProperty <http://www.semanticweb.org/soloflife/hasDescription> ;
+                                                                            owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                                            owl:onDataRange xsd:string
+                                                                          ] .
+
+
+###  http://www.semanticweb.org/soloflife/Quantity
+<http://www.semanticweb.org/soloflife/Quantity> rdf:type owl:Class ;
+                                                rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                                                  owl:onProperty <http://www.semanticweb.org/soloflife/hasQuantityKind> ;
+                                                                  owl:allValuesFrom <http://www.semanticweb.org/soloflife/QuantityKind>
+                                                                ] ,
+                                                                [ rdf:type owl:Restriction ;
+                                                                  owl:onProperty <http://www.semanticweb.org/soloflife/hasQuantityValue> ;
+                                                                  owl:allValuesFrom <http://www.semanticweb.org/soloflife/QuantityValue>
+                                                                ] ,
+                                                                [ rdf:type owl:Restriction ;
+                                                                  owl:onProperty <http://www.semanticweb.org/soloflife/hasQuantityKind> ;
+                                                                  owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                                  owl:onClass <http://www.semanticweb.org/soloflife/QuantityKind>
+                                                                ] ,
+                                                                [ rdf:type owl:Restriction ;
+                                                                  owl:onProperty <http://www.semanticweb.org/soloflife/hasQuantityValue> ;
+                                                                  owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                                  owl:onClass <http://www.semanticweb.org/soloflife/QuantityValue>
+                                                                ] ;
+                                                <http://ontologydesignpatterns.org/opla-sd#entityPosition> [ <http://ontologydesignpatterns.org/opla-sd#entityPositionX> "166.88497955429705"^^xsd:double ;
+                                                                                                             <http://ontologydesignpatterns.org/opla-sd#entityPositionY> "286.7253354723771"^^xsd:double ;
+                                                                                                             rdfs:comment "This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view."@en
+                                                                                                           ] .
+
+
+###  http://www.semanticweb.org/soloflife/QuantityKind
+<http://www.semanticweb.org/soloflife/QuantityKind> rdf:type owl:Class ;
+                                                    <http://ontologydesignpatterns.org/opla-sd#entityPosition> [ <http://ontologydesignpatterns.org/opla-sd#entityPositionX> "211.62994433139966"^^xsd:double ;
+                                                                                                                 <http://ontologydesignpatterns.org/opla-sd#entityPositionY> "19.424617042681927"^^xsd:double ;
+                                                                                                                 rdfs:comment "This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view."@en
+                                                                                                               ] .
+
+
+###  http://www.semanticweb.org/soloflife/QuantityValue
+<http://www.semanticweb.org/soloflife/QuantityValue> rdf:type owl:Class ;
+                                                     rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                                                       owl:onProperty <http://www.semanticweb.org/soloflife/hasUnit> ;
+                                                                       owl:allValuesFrom <http://www.semanticweb.org/soloflife/Unit>
+                                                                     ] ,
+                                                                     [ rdf:type owl:Restriction ;
+                                                                       owl:onProperty <http://www.semanticweb.org/soloflife/hasUnit> ;
+                                                                       owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                                       owl:onClass <http://www.semanticweb.org/soloflife/Unit>
+                                                                     ] ,
+                                                                     [ rdf:type owl:Restriction ;
+                                                                       owl:onProperty <http://www.semanticweb.org/soloflife/hasNumericValue> ;
+                                                                       owl:allValuesFrom xsd:double
+                                                                     ] ,
+                                                                     [ rdf:type owl:Restriction ;
+                                                                       owl:onProperty <http://www.semanticweb.org/soloflife/hasNumericValue> ;
+                                                                       owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                                       owl:onDataRange xsd:double
+                                                                     ] ;
+                                                     <http://ontologydesignpatterns.org/opla-sd#entityPosition> [ <http://ontologydesignpatterns.org/opla-sd#entityPositionX> "230.59420582979283"^^xsd:double ;
+                                                                                                                  <http://ontologydesignpatterns.org/opla-sd#entityPositionY> "202.65044728706675"^^xsd:double ;
+                                                                                                                  rdfs:comment "This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view."@en
+                                                                                                                ] .
+
+
+###  http://www.semanticweb.org/soloflife/Result
+<http://www.semanticweb.org/soloflife/Result> rdf:type owl:Class ;
+                                              rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                                                owl:onProperty <http://www.semanticweb.org/soloflife/hasQuantity> ;
+                                                                owl:allValuesFrom <http://www.semanticweb.org/soloflife/Quantity>
+                                                              ] ,
+                                                              [ rdf:type owl:Restriction ;
+                                                                owl:onProperty <http://www.semanticweb.org/soloflife/hasQuantity> ;
+                                                                owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                                owl:onClass <http://www.semanticweb.org/soloflife/Quantity>
+                                                              ] ;
+                                              <http://ontologydesignpatterns.org/opla-sd#entityPosition> [ <http://ontologydesignpatterns.org/opla-sd#entityPositionX> "181.0966783368854"^^xsd:double ;
+                                                                                                           <http://ontologydesignpatterns.org/opla-sd#entityPositionY> "191.94715172725847"^^xsd:double ;
+                                                                                                           rdfs:comment "This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view."@en
+                                                                                                         ] .
+
+
+###  http://www.semanticweb.org/soloflife/SMASSIIClass
+<http://www.semanticweb.org/soloflife/SMASSIIClass> rdf:type owl:Class ;
+                                                    rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                                                      owl:onProperty <http://www.semanticweb.org/soloflife/hasElementalComposition> ;
+                                                                      owl:allValuesFrom <http://www.semanticweb.org/soloflife/ElementalComposition>
+                                                                    ] ,
+                                                                    [ rdf:type owl:Restriction ;
+                                                                      owl:onProperty <http://www.semanticweb.org/soloflife/hasElementalComposition> ;
+                                                                      owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                                      owl:onClass <http://www.semanticweb.org/soloflife/ElementalComposition>
+                                                                    ] ,
+                                                                    [ rdf:type owl:Restriction ;
+                                                                      owl:onProperty <http://www.semanticweb.org/soloflife/hasLabel> ;
+                                                                      owl:allValuesFrom rdfs:Literal
+                                                                    ] ,
+                                                                    [ rdf:type owl:Restriction ;
+                                                                      owl:onProperty <http://www.semanticweb.org/soloflife/hasLabel> ;
+                                                                      owl:cardinality "1"^^xsd:nonNegativeInteger
+                                                                    ] .
+
+
+###  http://www.semanticweb.org/soloflife/TemporalExtent
+<http://www.semanticweb.org/soloflife/TemporalExtent> rdf:type owl:Class ;
+                                                      rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                                                        owl:onProperty <http://www.semanticweb.org/soloflife/recordedAt> ;
+                                                                        owl:allValuesFrom xsd:dateTime
+                                                                      ] ,
+                                                                      [ rdf:type owl:Restriction ;
+                                                                        owl:onProperty <http://www.semanticweb.org/soloflife/recordedAt> ;
+                                                                        owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                                        owl:onDataRange xsd:dateTime
+                                                                      ] .
+
+
+###  http://www.semanticweb.org/soloflife/Unit
+<http://www.semanticweb.org/soloflife/Unit> rdf:type owl:Class ;
+                                            <http://ontologydesignpatterns.org/opla-sd#entityPosition> [ <http://ontologydesignpatterns.org/opla-sd#entityPositionX> "130.969287577639"^^xsd:double ;
+                                                                                                         <http://ontologydesignpatterns.org/opla-sd#entityPositionY> "227.20419566500595"^^xsd:double ;
+                                                                                                         rdfs:comment "This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view."@en
+                                                                                                       ] .
+
+
+###  http://www.semanticweb.org/soloflife/asteroid/Asteroid
+<http://www.semanticweb.org/soloflife/asteroid/Asteroid> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://www.semanticweb.org/soloflife/asteroid/FeatureOfInterest> ,
+                                                                         [ rdf:type owl:Restriction ;
+                                                                           owl:onProperty <http://www.semanticweb.org/soloflife/asteroid/hasAsteroidClassification> ;
+                                                                           owl:allValuesFrom <http://www.semanticweb.org/soloflife/asteroid/AsteroidClassification>
+                                                                         ] ,
+                                                                         [ rdf:type owl:Restriction ;
+                                                                           owl:onProperty <http://www.semanticweb.org/soloflife/asteroid/hasDistanceRecord> ;
+                                                                           owl:allValuesFrom <http://www.semanticweb.org/soloflife/asteroid/DistanceRecord>
+                                                                         ] ,
+                                                                         [ rdf:type owl:Restriction ;
+                                                                           owl:onProperty <http://www.semanticweb.org/soloflife/asteroid/hasObservation> ;
+                                                                           owl:allValuesFrom <http://www.semanticweb.org/soloflife/asteroid/Observation>
+                                                                         ] ,
+                                                                         [ rdf:type owl:Restriction ;
+                                                                           owl:onProperty <http://www.semanticweb.org/soloflife/asteroid/hasDistanceRecord> ;
+                                                                           owl:minQualifiedCardinality "0"^^xsd:nonNegativeInteger ;
+                                                                           owl:onClass <http://www.semanticweb.org/soloflife/asteroid/DistanceRecord>
+                                                                         ] ,
+                                                                         [ rdf:type owl:Restriction ;
+                                                                           owl:onProperty <http://www.semanticweb.org/soloflife/asteroid/hasObservation> ;
+                                                                           owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                                           owl:onClass <http://www.semanticweb.org/soloflife/asteroid/Observation>
+                                                                         ] ,
+                                                                         [ rdf:type owl:Restriction ;
+                                                                           owl:onProperty <http://www.semanticweb.org/soloflife/asteroid/hasAsteroidClassification> ;
+                                                                           owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                                           owl:onClass <http://www.semanticweb.org/soloflife/asteroid/AsteroidClassification>
+                                                                         ] ,
+                                                                         [ rdf:type owl:Restriction ;
+                                                                           owl:onProperty <http://www.semanticweb.org/soloflife/asteroid/hasCommonName> ;
+                                                                           owl:allValuesFrom rdfs:Literal
+                                                                         ] ,
+                                                                         [ rdf:type owl:Restriction ;
+                                                                           owl:onProperty <http://www.semanticweb.org/soloflife/asteroid/hasDiscoveryName> ;
+                                                                           owl:allValuesFrom rdfs:Literal
+                                                                         ] ,
+                                                                         [ rdf:type owl:Restriction ;
+                                                                           owl:onProperty <http://www.semanticweb.org/soloflife/asteroid/hasNumericID> ;
+                                                                           owl:allValuesFrom xsd:int
+                                                                         ] ,
+                                                                         [ rdf:type owl:Restriction ;
+                                                                           owl:onProperty <http://www.semanticweb.org/soloflife/asteroid/hasDiscoveryName> ;
+                                                                           owl:cardinality "1"^^xsd:nonNegativeInteger
+                                                                         ] ,
+                                                                         [ rdf:type owl:Restriction ;
+                                                                           owl:onProperty <http://www.semanticweb.org/soloflife/asteroid/hasNumericID> ;
+                                                                           owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                                           owl:onDataRange xsd:int
+                                                                         ] ,
+                                                                         [ rdf:type owl:Restriction ;
+                                                                           owl:onProperty <http://www.semanticweb.org/soloflife/asteroid/hasCommonName> ;
+                                                                           owl:maxCardinality "1"^^xsd:nonNegativeInteger
+                                                                         ] ;
+                                                         <http://ontologydesignpatterns.org/opla-sd#entityPosition> [ <http://ontologydesignpatterns.org/opla-sd#entityPositionX> "83.28617399760802"^^xsd:double ;
+                                                                                                                      <http://ontologydesignpatterns.org/opla-sd#entityPositionY> "209.45958597949033"^^xsd:double ;
+                                                                                                                      rdfs:comment "This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view."@en
+                                                                                                                    ] .
+
+
+###  http://www.semanticweb.org/soloflife/asteroid/AsteroidClassification
+<http://www.semanticweb.org/soloflife/asteroid/AsteroidClassification> rdf:type owl:Class ;
+                                                                       <http://ontologydesignpatterns.org/opla-sd#entityPosition> [ <http://ontologydesignpatterns.org/opla-sd#entityPositionX> "104.39140675278827"^^xsd:double ;
+                                                                                                                                    <http://ontologydesignpatterns.org/opla-sd#entityPositionY> "226.23666712533154"^^xsd:double ;
+                                                                                                                                    rdfs:comment "This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view."@en
+                                                                                                                                  ] .
+
+
+###  http://www.semanticweb.org/soloflife/asteroid/DistanceRecord
+<http://www.semanticweb.org/soloflife/asteroid/DistanceRecord> rdf:type owl:Class ;
+                                                               <http://ontologydesignpatterns.org/opla-sd#entityPosition> [ <http://ontologydesignpatterns.org/opla-sd#entityPositionX> "3.0207552213721205"^^xsd:double ;
+                                                                                                                            <http://ontologydesignpatterns.org/opla-sd#entityPositionY> "21.655444720181638"^^xsd:double ;
+                                                                                                                            rdfs:comment "This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view."@en
+                                                                                                                          ] .
+
+
+###  http://www.semanticweb.org/soloflife/asteroid/FeatureOfInterest
+<http://www.semanticweb.org/soloflife/asteroid/FeatureOfInterest> rdf:type owl:Class ;
+                                                                  <http://ontologydesignpatterns.org/opla-sd#entityPosition> [ <http://ontologydesignpatterns.org/opla-sd#entityPositionX> "59.41005300054614"^^xsd:double ;
+                                                                                                                               <http://ontologydesignpatterns.org/opla-sd#entityPositionY> "59.83809722702954"^^xsd:double ;
+                                                                                                                               rdfs:comment "This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view."@en
+                                                                                                                             ] .
+
+
+###  http://www.semanticweb.org/soloflife/asteroid/NearEarthAsteroid
+<http://www.semanticweb.org/soloflife/asteroid/NearEarthAsteroid> rdf:type owl:Class ;
+                                                                  rdfs:subClassOf <http://www.semanticweb.org/soloflife/asteroid/Asteroid> ;
+                                                                  <http://ontologydesignpatterns.org/opla-sd#entityPosition> [ <http://ontologydesignpatterns.org/opla-sd#entityPositionX> "163.76978121503177"^^xsd:double ;
+                                                                                                                               <http://ontologydesignpatterns.org/opla-sd#entityPositionY> "4.952885977502763"^^xsd:double ;
+                                                                                                                               rdfs:comment "This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view."@en
+                                                                                                                             ] .
+
+
+###  http://www.semanticweb.org/soloflife/asteroid/Observation
+<http://www.semanticweb.org/soloflife/asteroid/Observation> rdf:type owl:Class ;
+                                                            <http://ontologydesignpatterns.org/opla-sd#entityPosition> [ <http://ontologydesignpatterns.org/opla-sd#entityPositionX> "261.68531858202675"^^xsd:double ;
+                                                                                                                         <http://ontologydesignpatterns.org/opla-sd#entityPositionY> "267.7800206096892"^^xsd:double ;
+                                                                                                                         rdfs:comment "This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view."@en
+                                                                                                                       ] .
+
+
+[ <http://ontologydesignpatterns.org/opla-sd#entityPositionX> "46.58111588777884"^^xsd:double ;
+  <http://ontologydesignpatterns.org/opla-sd#entityPositionY> "124.93855808252245"^^xsd:double ;
+  rdfs:comment "This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view."@en
+] .
+
+###  Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi
