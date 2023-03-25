@@ -57,6 +57,10 @@
                                owl:allValuesFrom :Asteroid
                              ] ,
                              [ rdf:type owl:Restriction ;
+                               owl:onProperty :hasObservableProperty ;
+                               owl:allValuesFrom :ObservableProperty
+                             ] ,
+                             [ rdf:type owl:Restriction ;
                                owl:onProperty :hasFeatureOfInterest ;
                                owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
                                owl:onClass :Asteroid
