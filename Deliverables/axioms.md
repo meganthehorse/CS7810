@@ -112,6 +112,8 @@ Every Agent has a name, which is represented as a string.
 Every Observation has a feature of interest, which is an asteroid.
 * `Observation SubClassOf hasFeatureOfInterest exactly 1 Asteroid` <br />
 Every Observation has exactly 1 feature of interest, which is an asteroid.
+* `Observation SubClassOf hasObservableProperty only ObservableProperty` <br />
+Every Observation has an observable property.
 * `Observation SubClassOf hasObservableProperty exactly 1 ObservableProperty` <br />
 Every Observation has exactly 1 observable property.
 * `Observation SubClassOf hasResult some Result` <br />
