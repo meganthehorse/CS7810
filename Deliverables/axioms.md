@@ -6,42 +6,42 @@
 ![Asteroids](/schema-diagrams/asteroid/asteroid.jpg)  
 
 ### Axioms
+* `Asteroid SubClassOf FeatureOfInterest` <br />
+Every Asteroid has a feature of interest.
 * `Asteroid SubClassOf hasAsteroidClassification only AsteroidClassification` <br />
 Every Asteroid has an asteroid classification.
 * `Asteroid SubClassOf hasAsteroidClassification exactly 1 AsteroidClassification` <br />
 Every Asteroid has exactly 1 asteroid classification.
-* `Asteroid SubClassOf hasDistanceRecord min 0 DistanceRecord` <br />
-Every Asteroid has at minimum one distance record.
 * `Asteroid SubClassOf hasDistanceRecord only DistanceRecord` <br />
 Every Asteroid has a distance record.
-* `Asteroid SubClassOf FeatureOfInterest` <br />
-Every Asteroid has a feature of interest.
+* `Asteroid SubClassOf hasDistanceRecord min 0 DistanceRecord` <br />
+Every Asteroid has at minimum one distance record.
 * `Asteroid SubClassOf hasObservation only Observation` <br />
 Every Asteroid has an observation.
 * `Asteroid SubClassOf hasObservation min 1 Observation` <br />
 Every Asteroid has at minimum one observation.
-  
+
 
 ## AsteroidClassification
 ![Asteroid Classification Types](/schema-diagrams/asteroid-classification/asteroid-classification.jpg)
 
 ### Axioms
-* `ElementalComposition SubClassOf hasElement min 1 dbo:ChemicalElement` <br />
-Every ElementalComposition has at minimum one element, which is represented as a chemical element.
-* `ElementalComposition SubClassOf derivesFrom min 1 SMASSIIClass` <br />
-Every ElementalComposition is derived from at minimum 1 SMASII class.
-* `ElementalComposition SubClassOf hasElement only dbo:ChemicalElement` <br />
-Every ElementalComposition has an element, which is represented as a chemical element.
-* `SMASSIIClass SubClassOf hasElementalComposition exactly 1 ElementalComposition` <br />
-Every SMASSIIClass has exactly 1 elemental composition.
-* `SMASSIIClass SubClassOf hasElementalComposition only ElementalComposition` <br />
-Every SMASIIClass has an elemental composition.
 * `AsteroidClassification SubClassOf EntityWithProvenance` <br />
 Every AsteroidClassification is an entity with provenance.
-* `AsteroidClassification SubClassOf hasSMASSIIClass exactly 1 SMASSIIClass` <br />
-Every AsteroidClassification has exactly 1 SMASSII class.
 * `AsteroidClassification SubClassOf hasSMASSIIClass only SMASSIIClass` <br />
 Every AsteroidClassification has a SMASSII class.
+* `AsteroidClassification SubClassOf hasSMASSIIClass exactly 1 SMASSIIClass` <br />
+Every AsteroidClassification has exactly 1 SMASSII class.
+* `ElementalComposition SubClassOf hasElement only dbo:ChemicalElement` <br />
+Every ElementalComposition has an element, which is represented as a chemical element.
+* `ElementalComposition SubClassOf derivesFrom min 1 SMASSIIClass` <br />
+Every ElementalComposition is derived from at minimum 1 SMASII class.
+* `ElementalComposition SubClassOf hasElement min 1 dbo:ChemicalElement` <br />
+Every ElementalComposition has at minimum one element, which is represented as a chemical element.
+* `SMASSIIClass SubClassOf hasElementalComposition only ElementalComposition` <br />
+Every SMASIIClass has an elemental composition.
+* `SMASSIIClass SubClassOf hasElementalComposition exactly 1 ElementalComposition` <br />
+Every SMASSIIClass has exactly 1 elemental composition.
 * `SMASSIIClass SubClassOf hasLabel only rdfs:Literal` <br />
 Every SMASSIIClass has a label, which is represented as a literal.
 * `SMASSIIClass SubClassOf hasLabel exactly 1 rdfs:Literal` <br />
@@ -52,16 +52,16 @@ Every SMASSIIClass has exactly 1 label, which is represented as a literal.
 ![image](/schema-diagrams/distance-record/distance-record.jpg)
 
 ### Axioms
+* `DistanceRecord SubClassOf EntityWithProvenance` <br />
+Every DistanceRecord is an entity with provenance.
 * `DistanceRecord SubClassOf hasResult some Result` <br />
 Every DistanceRecord has some result.
 * `DistanceRecord SubClassOf hasResult exactly 1 Result` <br />
 Every DistanceRecord has exactly 1 result.
-* `DistanceRecord SubClassOf hasTemportalExtent exactly 1 TemporalExtent` <br />  
-Every DistanceRecord has exactly 1 temporal extent.
-* `DistanceRecord SubClassOf EntityWithProvenance` <br />
-Every DistanceRecord is an entity with provenance.
 * `DistanceRecord SubClassOf hasTemportalExtent only TemporalExtent` <br />
 Every DistanceRecord has a temporal extent.
+* `DistanceRecord SubClassOf hasTemportalExtent exactly 1 TemporalExtent` <br />  
+Every DistanceRecord has exactly 1 temporal extent.
   
 
 ## Entity With Provenance
@@ -86,16 +86,16 @@ Every ProvenanceActivity is performed by exactly 1 agent.
 ![image](/schema-diagrams/observation/observation.jpg)  
 
 ### Axioms
-* `Observation SubClassOf hasObservableProperty exactly 1 ObservableProperty` <br />
-Every Observation has exactly 1 observable property.
-* `Observation SubClassOf hasResult exactly 1 Result` <br />
-Every Observation has exactly 1 result.
-* `Observation SubClassOf hasFeatureOfInterest exactly 1 Asteroid` <br />
-Every Observation has exactly 1 feature of interest, which is an asteroid.
 * `Observation SubClassOf hasFeatureOfInterest only Asteroid` <br />
 Every Observation has a feature of interest, which is an asteroid.
+* `Observation SubClassOf hasFeatureOfInterest exactly 1 Asteroid` <br />
+Every Observation has exactly 1 feature of interest, which is an asteroid.
+* `Observation SubClassOf hasObservableProperty exactly 1 ObservableProperty` <br />
+Every Observation has exactly 1 observable property.
 * `Observation SubClassOf hasResult some Result` <br />
 Every Observation has some result.
+* `Observation SubClassOf hasResult exactly 1 Result` <br />
+Every Observation has exactly 1 result.
 * `Observation SubClassOf EntityWithProvenance` <br />
 Every Observation is an entity with provenance.
 * `EconomicProperty SubClassOf ObservableProperty` <br />
@@ -110,24 +110,23 @@ Every PhysicalProperty is an observable property.
 ![image](/schema-diagrams/result/Result.jpg)
 
 ### Axioms
-*  `Quantity SubClassOf hasQuantityKind only QuantityKind` <br />
-Every Quantity has only one quantity kind.
-*  `Quantity SubClassOf hasQuantityValue exactly 1 QuantityValue` <br />
-Every Quantity has exactly 1 quantity value.
 *  `Quantity SubClassOf hasQuantityValue only QuantityValue` <br />
 Every Quantity has a quantity value.
+*  `Quantity SubClassOf hasQuantityKind only QuantityKind` <br />
+Every Quantity has only one quantity kind.
 *  `Quantity SubClassOf hasQuantityKind exactly 1 QuantityKind` <br />
 Every Quantity has exactly 1 quantity kind.
-*  `Result SubClassOf hasQuantity exactly 1 Quantity` <br />
-Every Result has exactly 1 quantity.
 *  `Result SubClassOf hasQuantity only Quantity` <br />
 Every Result has a quantity.
+*  `Quantity SubClassOf hasQuantityValue exactly 1 QuantityValue` <br />
+Every Quantity has exactly 1 quantity value.
+*  `Result SubClassOf hasQuantity exactly 1 Quantity` <br />
+Every Result has exactly 1 quantity.
 *  `QuantityValue SubClassOf hasNumericValue only xsd:double` <br />
 Every QuantityValue has a numeric value, which is represented as a double.
 *  `QuantityValue SubClassOf hasUnit only Unit` <br />
 Every QuantityValue has a unit.
-*  `QuantityValue SubClassOf hasNumericValue exactly 1 xsd:double` <br />
-Every QuantityValue has exactly 1 numeric value, which is represented as a double.
 *  `QuantityValue SubClassOf hasUnit exactly 1 Unit` <br />
 Every QuantityValue has exactly 1 unit.
-
+*  `QuantityValue SubClassOf hasNumericValue exactly 1 xsd:double` <br />
+Every QuantityValue has exactly 1 numeric value, which is represented as a double.
