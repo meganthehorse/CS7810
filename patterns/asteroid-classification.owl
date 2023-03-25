@@ -21,23 +21,15 @@
 #################################################################
 
 ###  http://www.semanticweb.org/soloflife/derivesFrom
-<http://www.semanticweb.org/soloflife/derivesFrom> rdf:type owl:ObjectProperty .
-
-
-###  http://www.semanticweb.org/soloflife/hasElement
-<http://www.semanticweb.org/soloflife/hasElement> rdf:type owl:ObjectProperty .
+:derivesFrom rdf:type owl:ObjectProperty .
 
 
 ###  http://www.semanticweb.org/soloflife/hasElementalComposition
-<http://www.semanticweb.org/soloflife/hasElementalComposition> rdf:type owl:ObjectProperty .
-
-
-###  http://www.semanticweb.org/soloflife/hasLabel
-<http://www.semanticweb.org/soloflife/hasLabel> rdf:type owl:ObjectProperty .
+:hasElementalComposition rdf:type owl:ObjectProperty .
 
 
 ###  http://www.semanticweb.org/soloflife/hasSMASSIIClass
-<http://www.semanticweb.org/soloflife/hasSMASSIIClass> rdf:type owl:ObjectProperty .
+:hasSMASSIIClass rdf:type owl:ObjectProperty .
 
 
 #################################################################
@@ -45,11 +37,11 @@
 #################################################################
 
 ###  http://www.semanticweb.org/soloflife/hasElement
-<http://www.semanticweb.org/soloflife/hasElement> rdf:type owl:DatatypeProperty .
+:hasElement rdf:type owl:DatatypeProperty .
 
 
 ###  http://www.semanticweb.org/soloflife/hasLabel
-<http://www.semanticweb.org/soloflife/hasLabel> rdf:type owl:DatatypeProperty .
+:hasLabel rdf:type owl:DatatypeProperty .
 
 
 #################################################################
@@ -60,11 +52,11 @@
 :AsteroidClassification rdf:type owl:Class ;
                         rdfs:subClassOf :EntityWithProvenance ,
                                         [ rdf:type owl:Restriction ;
-                                          owl:onProperty <http://www.semanticweb.org/soloflife/hasSMASSIIClass> ;
+                                          owl:onProperty :hasSMASSIIClass ;
                                           owl:allValuesFrom :SMASSIIClass
                                         ] ,
                                         [ rdf:type owl:Restriction ;
-                                          owl:onProperty <http://www.semanticweb.org/soloflife/hasSMASSIIClass> ;
+                                          owl:onProperty :hasSMASSIIClass ;
                                           owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
                                           owl:onClass :SMASSIIClass
                                         ] .
@@ -73,16 +65,16 @@
 ###  http://www.semanticweb.org/soloflife/ElementalComposition
 :ElementalComposition rdf:type owl:Class ;
                       rdfs:subClassOf [ rdf:type owl:Restriction ;
-                                        owl:onProperty <http://www.semanticweb.org/soloflife/derivesFrom> ;
+                                        owl:onProperty :derivesFrom ;
                                         owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
                                         owl:onClass :SMASSIIClass
                                       ] ,
                                       [ rdf:type owl:Restriction ;
-                                        owl:onProperty <http://www.semanticweb.org/soloflife/hasElement> ;
+                                        owl:onProperty :hasElement ;
                                         owl:allValuesFrom <http://dbpedia.org/ontology/ChemicalElement>
                                       ] ,
                                       [ rdf:type owl:Restriction ;
-                                        owl:onProperty <http://www.semanticweb.org/soloflife/hasElement> ;
+                                        owl:onProperty :hasElement ;
                                         owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
                                         owl:onDataRange <http://dbpedia.org/ontology/ChemicalElement>
                                       ] .
@@ -95,21 +87,21 @@
 ###  http://www.semanticweb.org/soloflife/SMASSIIClass
 :SMASSIIClass rdf:type owl:Class ;
               rdfs:subClassOf [ rdf:type owl:Restriction ;
-                                owl:onProperty <http://www.semanticweb.org/soloflife/hasElementalComposition> ;
+                                owl:onProperty :hasElementalComposition ;
                                 owl:allValuesFrom :ElementalComposition
                               ] ,
                               [ rdf:type owl:Restriction ;
-                                owl:onProperty <http://www.semanticweb.org/soloflife/hasElementalComposition> ;
+                                owl:onProperty :hasElementalComposition ;
                                 owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
                                 owl:onClass :ElementalComposition
                               ] ,
                               [ rdf:type owl:Restriction ;
-                                owl:onProperty <http://www.semanticweb.org/soloflife/hasLabel> ;
-                                owl:cardinality "1"^^xsd:nonNegativeInteger
+                                owl:onProperty :hasLabel ;
+                                owl:allValuesFrom rdfs:Literal
                               ] ,
                               [ rdf:type owl:Restriction ;
-                                owl:onProperty <http://www.semanticweb.org/soloflife/hasLabel> ;
-                                owl:allValuesFrom rdfs:Literal
+                                owl:onProperty :hasLabel ;
+                                owl:cardinality "1"^^xsd:nonNegativeInteger
                               ] .
 
 
