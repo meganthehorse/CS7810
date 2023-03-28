@@ -3,7 +3,7 @@
 ![All Together](/schema-diagrams/all-together/all-together.jpg)  
 
 ## Asteroid
-![Asteroids](/schema-diagrams/asteroid/Asteroid.jpg)  
+![Asteroids](/schema-diagrams/asteroid/asteroid.jpg)  
 
 ### Axioms
 1. * `Asteroid SubClassOf FeatureOfInterest` <br />
@@ -130,22 +130,22 @@ Every PhysicalProperty is an Observable Property.
 
 ### Axioms
 1. *  `Quantity SubClassOf hasQuantityValue only QuantityValue` <br />
-Every Quantity has a Quantity Value.
+Every Quantity has a Quantity Value as only QuantityValues.
 2. *  `Quantity SubClassOf hasQuantityKind only QuantityKind` <br />
-Every Quantity has a Quantity Kind.
+Every Quantity has a Quantity Kind as only QuantityKinds.
 3. *  `Quantity SubClassOf hasQuantityKind exactly 1 QuantityKind` <br />
 Every Quantity has exactly 1 Quantity Kind.
 4. *  `Result SubClassOf hasQuantity only Quantity` <br />
-Every Result has a Quantity.
+Every Result has a Quantity as only Quantities.
 5. *  `Quantity SubClassOf hasQuantityValue exactly 1 QuantityValue` <br />
 Every Quantity has exactly 1 Quantity Value.
 6. *  `Result SubClassOf hasQuantity exactly 1 Quantity` <br />
 Every Result has exactly 1 Quantity.
 7. *  `QuantityValue SubClassOf hasNumericValue only xsd:double` <br />
-Every QuantityValue has a Numeric Value, which is represented as a double.
-8. *  `QuantityValue SubClassOf hasUnit only Unit` <br />
-Every QuantityValue has a Unit.
-9. *  `QuantityValue SubClassOf hasUnit exactly 1 Unit` <br />
+Every QuantityValue has a Numeric Value, which is only represented as an xsd:double.
+8. *  `QuantityValue SubClassOf hasNumericValue exactly 1 xsd:double` <br />
+Every QuantityValue has exactly 1 Numeric Value.
+9. *  `QuantityValue SubClassOf hasUnit only Unit` <br />
+Every QuantityValue has a Unit as only Units.
+10. *  `QuantityValue SubClassOf hasUnit exactly 1 Unit` <br />
 Every QuantityValue has exactly 1 Unit.
-10. *  `QuantityValue SubClassOf hasNumericValue exactly 1 xsd:double` <br />
-Every QuantityValue has exactly 1 Numeric Value, which is represented as an xsd:double.
