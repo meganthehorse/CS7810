@@ -1,0 +1,21 @@
+@prefix sol-ont: <http://semanticweb.org/soloflife/lod/ontology/> .
+@prefix solr: <http://semanticweb.org/soloflife/lod/resource/> .
+
+solr:Bennu a sol-ont:Asteroid .
+
+solr:Didymos a sol-ont:Asteroid .
+
+solr:Egeria a sol-ont:Asteroid .
+
+solr:Fortuna a sol-ont:Asteroid .
+
+solr:Hygiea a sol-ont:Asteroid .
+
+solr:Pallas a sol-ont:Asteroid .
+
+solr:Psyche a sol-ont:Asteroid .
+
+solr:Ryugu a sol-ont:Asteroid .
+
+solr:Sylvia a sol-ont:Asteroid .
+

@@ -10,7 +10,7 @@ data_path = "./Dataset"
 output_path = "./output"
 
 # Prefixes
-name_space = "http://www.semanticweb.org/soloflife/"
+name_space = "http://semanticweb.org/soloflife/"
 pfs = {
 "solr": Namespace(f"{name_space}lod/resource/"),
 "sol-ont": Namespace(f"{name_space}lod/ontology/"),
@@ -61,14 +61,21 @@ graph = init_kg()
 
 #  Load in Asteroid_Distances.csv
 asteroid_distances_file = os.path.join(data_path, "Asteroid_Distances.csv")
-# print(f"Debugging Path: {asteroid_distances_file}")
 distance_df = pd.read_csv(asteroid_distances_file, header=0)
 #  Pairing Column Labels to prefix dictionary
 asteroid_op_uris = dict()
-for name in distance_df['Name']:  # for each name row 
-    for asteroid_op_name in asteroid_op_names:  # for each column label
-        asteroid_op_uri = pfs["solr"][f"soloflife.{asteroid_op_name}"]
-        asteroid_op_uris[asteroid_op_name] = asteroid_op_uri
+# for asteroid_op_name in asteroid_op_names:  # for each column label
+#     asteroid_op_uri = pfs["solr"][f"soloflife.{asteroid_op_name}"]
+#     asteroid_op_uris[asteroid_op_name] = asteroid_op_uri
 
-    output_file = os.path.join(output_path, f"{name}.ttl")
-    temp = graph.serialize(format="turtle", encoding="utf-8", destination=output_file)
+for i in range(len(distance_df["Name"])):  
+    asteroid_uri = pfs["solr"][f"{distance_df['Name'][i]}"]
+    print("Debug: " + asteroid_uri)
+    for col in asteroid_op_names:    
+        graph.add( (asteroid_uri, a, pfs["sol-ont"]["Asteroid"]))
+        
+        # print(distance_df[col][i])
+        #  Link URI to each Asteroid
+
+output_file = os.path.join(output_path, f"SOL_Asteroid.ttl")
+temp = graph.serialize(format="turtle", encoding="utf-8", destination=output_file)
