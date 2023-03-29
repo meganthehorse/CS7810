@@ -42,21 +42,21 @@ Every Asteroid has at minimum 1 Observation.
 1. * `AsteroidClassification SubClassOf EntityWithProvenance` <br />
 Every AsteroidClassification is an Entity With Provenance .
 2. * `AsteroidClassification SubClassOf hasSMASSIIClass only SMASSIIClass` <br />
-Every AsteroidClassification has a SMASSII Class as only SMASSII Classifications.
+The scoped range of hasSMASSIIClass, scoped by AsteroidClassification, is SMASSIIClass.
 3. * `AsteroidClassification SubClassOf hasSMASSIIClass exactly 1 SMASSIIClass` <br />
 Every AsteroidClassification has exactly 1 SMASSII Class.
 4. * `ElementalComposition SubClassOf derivesFrom min 1 SMASSIIClass` <br />
 Every ElementalComposition is derived from at minimum 1 SMASSII Class.
 5. * `ElementalComposition SubClassOf hasElement only dbo:ChemicalElement` <br />
-Every ElementalComposition has an Element, which is only represented as a dbo:ChemicalElement.
+The scoped range of hasElement, scoped by ElementalComposition, is dbo:ChemicalElement.
 6. * `ElementalComposition SubClassOf hasElement min 1 dbo:ChemicalElement` <br />
 Every ElementalComposition has at minimum 1 Element.
 7. * `SMASSIIClass SubClassOf hasElementalComposition only ElementalComposition` <br />
-Every SMASIIClass has an ElementalComposition as only an ElementalCompositions.
+The scoped range of hasElementalComposition, scoped by SMASSIIClass, is ElementalComposition.
 8. * `SMASSIIClass SubClassOf hasElementalComposition exactly 1 ElementalComposition` <br />
 Every SMASSIIClass has exactly 1 ElementalComposition.
 9. * `SMASSIIClass SubClassOf hasLabel only rdfs:Literal` <br />
-Every SMASSIIClass has a Label, which is only represented as a rdfs:Literal.
+The scoped range of hasLabel, scoped by SMASSIIClass, is an rdfs:Literal.
 10. * `SMASSIIClass SubClassOf hasLabel exactly 1 rdfs:Literal` <br />
 Every SMASSIIClass has exactly 1 Label.
   
