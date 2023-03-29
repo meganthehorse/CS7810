@@ -29,7 +29,7 @@ Every Asteroid has exactly 1 AsteroidClassification.
 11. * `Asteroid SubClassOf hasDistanceRecord only DistanceRecord` <br />
 Every Asteroid has a DistanceRecord as only DistanceRecords.
 12. * `Asteroid SubClassOf hasDistanceRecord min 0 DistanceRecord` <br />
-Every Asteroid has at minimum 1 DistanceRecord.
+Every Asteroid has at minimum 0 DistanceRecord.
 13. * `Asteroid SubClassOf hasObservation only Observation` <br />
 Every Asteroid has an Observation as only Observations.
 14. * `Asteroid SubClassOf hasObservation min 1 Observation` <br />
