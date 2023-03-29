@@ -72,7 +72,7 @@ for i in range(len(distance_df["Name"])):
     asteroid_uri = pfs["solr"][f"{distance_df['Name'][i]}"]
     print("Debug: " + asteroid_uri)
     for col in asteroid_op_names:    
-        graph.add( (asteroid_uri, a, pfs["sol-ont"]["Asteroid"]))
+        graph.add( (asteroid_uri, a, pfs["sol-ont"]["hasCommonName"]))
         
         # print(distance_df[col][i])
         #  Link URI to each Asteroid
