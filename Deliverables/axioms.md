@@ -46,7 +46,7 @@ Every AsteroidClassification has a SMASSII Class as only SMASSII Classifications
 3. * `AsteroidClassification SubClassOf hasSMASSIIClass exactly 1 SMASSIIClass` <br />
 Every AsteroidClassification has exactly 1 SMASSII Class.
 4. * `ElementalComposition SubClassOf derivesFrom min 1 SMASSIIClass` <br />
-Every ElementalComposition is derived from at minimum 1 SMASII Class.
+Every ElementalComposition is derived from at minimum 1 SMASSII Class.
 5. * `ElementalComposition SubClassOf hasElement only dbo:ChemicalElement` <br />
 Every ElementalComposition has an Element, which is only represented as a dbo:ChemicalElement.
 6. * `ElementalComposition SubClassOf hasElement min 1 dbo:ChemicalElement` <br />
@@ -145,6 +145,8 @@ Every QuantityValue has exactly 1 Numeric Value.
 Every QuantityValue has a Unit as only Units.
 10. *  `QuantityValue SubClassOf hasUnit exactly 1 Unit` <br />
 Every QuantityValue has exactly 1 Unit.
+11. *  `Result SubClassOf  inverse (hasResult) exactly 1 (Observation or DistanceRecord)`
+Every Result belongs to exactly 1 Observation or DistanceRecord.
 
 ### Remarks
 * A result can be associated with a DistanceRecord or an Observation
