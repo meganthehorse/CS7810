@@ -11,27 +11,27 @@ Every Asteroid is a Feature of Interest.
 2. * `NearEarthAsteroid SubClassOf Asteroid` <br />
 Every NearEarthAsteroid is an Asteroid.
 3. * `Asteroid SubClassOf hasNumericID only xsd:int` <br />
-Every Asteroid has a Numeric ID, which is only represented as an xsd:integer. 
+The scoped range of hasNumericID, scoped by Asteroid, is an xsd:integer.
 4. * `Asteroid SubClassOf hasNumericID exactly 1 xsd:int` <br />
 Every Asteroid has exactly 1 Numeric ID. 
 5. * `Asteroid SubClassOf hasCommonName only rdfs:Literal` <br />
-Every Asteroid has a Common Name, which is only represented as an rdfs:Literal. 
+The scoped range of hasCommonName, scoped by Asteroid, is an rdfs:Literal
 6. * `Asteroid SubClassOf hasCommonName max 1 rdfs:Literal` <br />
 Every Asteroid has at maximum 1 Common Name. 
 7. * `Asteroid SubClassOf hasDiscoveryName only rdfs:Literal` <br />
-Every Asteroid has a Discovery Name, which is only represented as an rdfs:Literal.
+The scoped range of hasDiscoveryName, scoped by Asteroid, is an rdfs:Literal
 8. * `Asteroid SubClassOf hasDiscoveryName exactly 1 rdfs:Literal` <br />
 Every Asteroid has exactly 1 Discovery Name.
 9. * `Asteroid SubClassOf hasAsteroidClassification only AsteroidClassification` <br />
-Every Asteroid has an AsteroidClassification as only AsteroidClassifications.
+The scoped range of hasAsteroidClassification, scoped by Asteroid, is AsteroidClassification
 10. * `Asteroid SubClassOf hasAsteroidClassification exactly 1 AsteroidClassification` <br />
 Every Asteroid has exactly 1 AsteroidClassification.
 11. * `Asteroid SubClassOf hasDistanceRecord only DistanceRecord` <br />
-Every Asteroid has a DistanceRecord as only DistanceRecords.
+The scoped range of hasDistanceRecord, scoped by Asteroid, is DistanceRecord
 12. * `Asteroid SubClassOf hasDistanceRecord min 0 DistanceRecord` <br />
 Every Asteroid has at minimum 0 DistanceRecord.
 13. * `Asteroid SubClassOf hasObservation only Observation` <br />
-Every Asteroid has an Observation as only Observations.
+The scoped range of hasObservation, scoped by Asteroid, is Observation
 14. * `Asteroid SubClassOf hasObservation min 1 Observation` <br />
 Every Asteroid has at minimum 1 Observation.
 
