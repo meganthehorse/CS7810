@@ -66,13 +66,11 @@ Every SMASSIIClass has exactly 1 Label.
 ### Axioms
 1. * `DistanceRecord SubClassOf EntityWithProvenance` <br />
 Every DistanceRecord is an Entity With Provenance.
-2. * `DistanceRecord SubClassOf hasResult some Result` <br />
-// Every DistanceRecord is able to have a Result.
-3. * `DistanceRecord SubClassOf hasResult exactly 1 Result` <br />
+2. * `DistanceRecord SubClassOf hasResult exactly 1 Result` <br />
 Every DistanceRecord has exactly 1 Result.
-4. * `DistanceRecord SubClassOf hasTemportalExtent only TemporalExtent` <br />
+3. * `DistanceRecord SubClassOf hasTemportalExtent only TemporalExtent` <br />
 Every DistanceRecord has a Temporal Extent as only Temporal Extents.
-5. * `DistanceRecord SubClassOf hasTemportalExtent exactly 1 TemporalExtent` <br />
+4. * `DistanceRecord SubClassOf hasTemportalExtent exactly 1 TemporalExtent` <br />
 Every DistanceRecord has exactly 1 Temporal Extent.
 
 ## Entity With Provenance 
@@ -112,17 +110,15 @@ Every Observation has exactly 1 Feature of Interest, which is an Asteroid.
 Every Observation has an ObservableProperty as only ObservableProperties.
 4. * `Observation SubClassOf hasObservableProperty exactly 1 ObservableProperty` <br />
 Every Observation has exactly 1 ObservableProperty.
-5. * `Observation SubClassOf hasResult some Result` <br />
-//Every Observation has some Result.
-6. * `Observation SubClassOf hasResult exactly 1 Result` <br />
+5. * `Observation SubClassOf hasResult exactly 1 Result` <br />
 Every Observation has exactly 1 Result.
-7. * `Observation SubClassOf EntityWithProvenance` <br />
+6. * `Observation SubClassOf EntityWithProvenance` <br />
 Every Observation is an Entity With Provenance.
-8. * `EconomicProperty SubClassOf ObservableProperty` <br />
+7. * `EconomicProperty SubClassOf ObservableProperty` <br />
 Every EconomicProperty is an Observable Property.
-9. * `OrbitalProperty SubClassOf ObservableProperty` <br />
+8. * `OrbitalProperty SubClassOf ObservableProperty` <br />
 Every OrbitalProperty is an Observable Property.
-10. * `PhysicalProperty SubClassOf ObservableProperty` <br />
+9. * `PhysicalProperty SubClassOf ObservableProperty` <br />
 Every PhysicalProperty is an Observable Property.
 
 ## Result
@@ -149,3 +145,6 @@ Every QuantityValue has exactly 1 Numeric Value.
 Every QuantityValue has a Unit as only Units.
 10. *  `QuantityValue SubClassOf hasUnit exactly 1 Unit` <br />
 Every QuantityValue has exactly 1 Unit.
+
+### Remarks
+* A result can be associated with a DistanceRecord or an Observation
