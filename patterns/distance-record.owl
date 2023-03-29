@@ -36,10 +36,6 @@
 :DistanceRecord rdf:type owl:Class ;
                 rdfs:subClassOf :EntityWithProvenance ,
                                 [ rdf:type owl:Restriction ;
-                                  owl:onProperty :hasResult ;
-                                  owl:someValuesFrom :Result
-                                ] ,
-                                [ rdf:type owl:Restriction ;
                                   owl:onProperty :hasTemporalExtent ;
                                   owl:allValuesFrom :TemporalExtent
                                 ] ,
