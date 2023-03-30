@@ -70,7 +70,7 @@ Every DistanceRecord is an Entity With Provenance.
 Every DistanceRecord has exactly 1 Result.
 3. * `DistanceRecord SubClassOf hasTemporalExtent only TemporalExtent` <br />
 The scoped range of hasTemporalExtent, scoped by DistanceRecord, is TemporalExtent.
-4. * `DistanceRecord SubClassOf hasTemportalExtent exactly 1 TemporalExtent` <br />
+4. * `DistanceRecord SubClassOf hasTemporalExtent exactly 1 TemporalExtent` <br />
 Every DistanceRecord has exactly 1 Temporal Extent.
 
 ## Entity With Provenance 
