@@ -23,7 +23,7 @@
 ![image](./observation/observation.jpg)  
 
 ## Result
-![image](./result/Result.jpg)
+![image](./result/result.jpg)
 
 ## All-Together
 ![image](./all-together/all-together.jpg)
