@@ -72,10 +72,10 @@ Every DistanceRecord has exactly 1 Result.
 The scoped range of hasTemporalExtent, scoped by DistanceRecord, is TemporalExtent.
 4. * `DistanceRecord SubClassOf hasTemporalExtent exactly 1 TemporalExtent` <br />
 Every DistanceRecord has exactly 1 Temporal Extent.
-5. * `TemporalExtent SubClassOf recordedAt only xsd:dateTime`
-The scoped range of recordedAt, scoped by TemporalExtent, is an xsd:date.
-6. * `TemporalExtent SubClassOf recordedAt exactly 1 xsd:dateTime`
-Every TemporalExtent has exactly 1 xsd:date.
+5. * `TemporalExtent SubClassOf recordedAt only xsd:dateTime` <br />
+The scoped range of recordedAt, scoped by TemporalExtent, is an xsd:date.  
+6. * `TemporalExtent SubClassOf recordedAt exactly 1 xsd:dateTime` <br />
+Every TemporalExtent has exactly 1 xsd:date.  
 
 ## Entity With Provenance 
 ![image](/schema-diagrams/entity-with-provenance/entity-with-provenance.jpg)
