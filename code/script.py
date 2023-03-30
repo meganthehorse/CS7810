@@ -35,21 +35,9 @@ def init_kg(prefixes=pfs):
     for prefix in pfs:
         kg.bind(prefix, pfs[prefix])
     return kg
+
 # rdf:type shortcut
-a = pfs["rdf"]["type"]
-
-#  Load Asteroid Data into a pandas df
-
-#  Asteroid Column Labels
-asteroid_op_names = ['Name',
-                     'JAN23','MAY23','AUG23','NOV23',
-                     'JAN24','MAY24','AUG24','NOV24',
-                     'JAN25','MAY25','AUG25','NOV25',
-                     'JAN26','MAY26','AUG26','NOV26',
-                     'JAN27','MAY27','AUG27','NOV27',
-                     'JAN28','MAY28','AUG28','NOV28',
-                     'JAN29','MAY29','AUG29','NOV29',
-                     'JAN30','MAY30','AUG30','NOV30']
+a = pfs["rdf"]["type"] #isA prefix/relationship
 
 # Initialize an empty graph
 graph = init_kg()
@@ -60,22 +48,45 @@ graph = init_kg()
 #     graph.parse(f)
 
 #  Load in Asteroid_Distances.csv
-asteroid_distances_file = os.path.join(data_path, "Asteroid_Distances.csv")
-distance_df = pd.read_csv(asteroid_distances_file, header=0)
-#  Pairing Column Labels to prefix dictionary
-asteroid_op_uris = dict()
-# for asteroid_op_name in asteroid_op_names:  # for each column label
-#     asteroid_op_uri = pfs["solr"][f"soloflife.{asteroid_op_name}"]
-#     asteroid_op_uris[asteroid_op_name] = asteroid_op_uri
+asteroid_distances_path = os.path.join(data_path, "Asteroid_Distances.csv")
+with open(asteroid_distances_path, "r") as inputF:
+    lines = [line.strip() for line in inputF.readlines()]
+    header = (lines[0].strip()).split(",")    
 
-for i in range(len(distance_df["Name"])):  
-    asteroid_uri = pfs["solr"][f"{distance_df['Name'][i]}"]
-    print("Debug: " + asteroid_uri)
-    for col in asteroid_op_names:    
-        graph.add( (asteroid_uri, a, pfs["sol-ont"]["hasCommonName"]))
-        
-        # print(distance_df[col][i])
-        #  Link URI to each Asteroid
+# for line in lines[1:]:
+# lets just look at 1 asteroid...
+for line in lines[1:2]:
+    split = line.split(",")
+    name = split[0]
+    #  Mint the individual Asteroid
+    asteroid_uri = pfs["solr"][f"Asteroid.{name}"] 
+    #  Declare the Asteroid Concept to the SOL Ontology
+    graph.add( (asteroid_uri, a, pfs["sol-ont"]["Asteroid"]) )
+    graph.add( (asteroid_uri, a, pfs["sosa"]["FeatureOfInterest"]) )
+    index = 1  # Index for header column
+    for distances in split[1:]:
+        monthyear = header[index]
+        #  Mint the individual distance record per asteroid
+        distance_record_uri = pfs["solr"][f"DistanceRecord.{name}.{monthyear}"]
+        #  Declare the individual DR Concept to the SOL Ontology
+        graph.add( (distance_record_uri, a, pfs["sol-ont"]["DistanceRecord"]) )
+        #  Result->Quantity->QuantityKind (au)
+        #                  ->QuantityValue (actual recording)
+        #  Mint the Result and Quantity Nodes
+        result_uri = pfs["solr"][f"Result.{name}.{monthyear}"]
+        quantity_uri = pfs["modl"][f"Result.Quantity.{name}.{monthyear}"]
+        quantity_kind_uri = pfs["modl"][f"Quantity.QuantityKind.{name}.{monthyear}"]
+        quantity_value_uri = pfs["modl"][f"Quantity.QuantityValue.{name}.{monthyear}"]
+        #  Declare the Result schema into the SOL Ontology      
+        graph.add( () )        
+
+        #  Mint the Time
+        time_uri = pfs["solr"][f"time.{name}.{monthyear}"]
+        #  Connect the Asteroid Concept to the DR Concept
+        graph.add( (asteroid_uri, pfs["sol-ont"]["hasDistanceRecord"], distance_record_uri) )
+        index+=1  #  next column
+
+
 
 output_file = os.path.join(output_path, f"SOL_Asteroid.ttl")
 temp = graph.serialize(format="turtle", encoding="utf-8", destination=output_file)
