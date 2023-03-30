@@ -1,0 +1,37 @@
+@prefix modl: <https://archive.org/services/purl/purl/modular_ontology_design_library> .
+@prefix qudt: <http://qudt.org/schema/qudt/> .
+@prefix sol-ont: <http://semanticweb.org/soloflife/lod/ontology/> .
+@prefix solr: <http://semanticweb.org/soloflife/lod/resource/> .
+@prefix soqk: <http://qudt.org/vocab/quantitykind/> .
+@prefix sosa: <http://www.w3.org/ns/sosa/> .
+@prefix time: <http://www.w3.org/2006/time#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+solr:Asteroid.Ryugu a sol-ont:Asteroid,
+        sosa:FeatureOfInterest ;
+    sol-ont:hasDistanceRecord solr:DistanceRecord.Ryugu.JAN23 .
+
+sol-ont:Quantity.QuantityKind.Ryugu.JAN23 a modl:QuantityKind .
+
+sol-ont:Quantity.QuantityValue.Ryugu.JAN23 a modl:QuantityValue ;
+    qudt:hasUnit sol-ont:QuantityValue.Unit.Ryugu.JAN23 .
+
+sol-ont:QuantityValue.NumericValue.Ryugu.JAN23 soqk:hasNumericValue sol-ont:QuantityValue.NumericValue.Ryugu.JAN23 ;
+    xsd:double 2.38984e+00 .
+
+sol-ont:QuantityValue.Unit.Ryugu.JAN23 a modl:Unit,
+        "au"^^soqk:Distance .
+
+sol-ont:Result.Quantity.Ryugu.JAN23 a modl:Quantity ;
+    qudt:hasQuantityKind sol-ont:Quantity.QuantityKind.Ryugu.JAN23,
+        "Distance"^^soqk:Distance ;
+    qudt:hasQuantityValue sol-ont:Quantity.QuantityValue.Ryugu.JAN23 .
+
+solr:DistanceRecord.Ryugu.JAN23 a sol-ont:DistanceRecord ;
+    sol-ont:hasResult solr:Result.Ryugu.JAN23 ;
+    sol-ont:hasTemporalExtent solr:time.Ryugu.JAN23 .
+
+solr:Result.Ryugu.JAN23 qudt:hasQuantity sol-ont:Result.Quantity.Ryugu.JAN23 .
+
+solr:time.Ryugu.JAN23 sol-ont:recordedAt "JAN23"^^time:MonthOfYear .
+
