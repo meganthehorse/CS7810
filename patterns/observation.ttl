@@ -1,26 +1,26 @@
-@prefix : <http://www.semanticweb.org/soloflife/> .
+@prefix : <http://www.soloflife.org/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@base <http://www.semanticweb.org/soloflife/> .
+@base <http://www.soloflife.org/> .
 
-<http://www.semanticweb.org/soloflife/observation> rdf:type owl:Ontology .
+<http://www.soloflife.org/observation> rdf:type owl:Ontology .
 
 #################################################################
 #    Object Properties
 #################################################################
 
-###  http://www.semanticweb.org/soloflife/hasFeatureOfInterest
+###  http://www.soloflife.org/hasFeatureOfInterest
 :hasFeatureOfInterest rdf:type owl:ObjectProperty .
 
 
-###  http://www.semanticweb.org/soloflife/hasObservableProperty
+###  http://www.soloflife.org/hasObservableProperty
 :hasObservableProperty rdf:type owl:ObjectProperty .
 
 
-###  http://www.semanticweb.org/soloflife/hasResult
+###  http://www.soloflife.org/hasResult
 :hasResult rdf:type owl:ObjectProperty .
 
 
@@ -28,24 +28,24 @@
 #    Classes
 #################################################################
 
-###  http://www.semanticweb.org/soloflife/Asteroid
+###  http://www.soloflife.org/Asteroid
 :Asteroid rdf:type owl:Class .
 
 
-###  http://www.semanticweb.org/soloflife/EconomicProperty
+###  http://www.soloflife.org/EconomicProperty
 :EconomicProperty rdf:type owl:Class ;
                   rdfs:subClassOf :ObservableProperty .
 
 
-###  http://www.semanticweb.org/soloflife/EntityWithProvenance
+###  http://www.soloflife.org/EntityWithProvenance
 :EntityWithProvenance rdf:type owl:Class .
 
 
-###  http://www.semanticweb.org/soloflife/ObservableProperty
+###  http://www.soloflife.org/ObservableProperty
 :ObservableProperty rdf:type owl:Class .
 
 
-###  http://www.semanticweb.org/soloflife/Observation
+###  http://www.soloflife.org/Observation
 :Observation rdf:type owl:Class ;
              rdfs:subClassOf :EntityWithProvenance ,
                              [ rdf:type owl:Restriction ;
@@ -73,17 +73,17 @@
                              ] .
 
 
-###  http://www.semanticweb.org/soloflife/OrbitalProperty
+###  http://www.soloflife.org/OrbitalProperty
 :OrbitalProperty rdf:type owl:Class ;
                  rdfs:subClassOf :ObservableProperty .
 
 
-###  http://www.semanticweb.org/soloflife/PhysicalProperty
+###  http://www.soloflife.org/PhysicalProperty
 :PhysicalProperty rdf:type owl:Class ;
                   rdfs:subClassOf :ObservableProperty .
 
 
-###  http://www.semanticweb.org/soloflife/Result
+###  http://www.soloflife.org/Result
 :Result rdf:type owl:Class ;
         rdfs:subClassOf [ rdf:type owl:Restriction ;
                           owl:onProperty [ owl:inverseOf :hasResult

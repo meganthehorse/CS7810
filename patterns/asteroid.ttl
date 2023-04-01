@@ -1,12 +1,12 @@
-@prefix : <http://www.semanticweb.org/soloflife/asteroid/> .
+@prefix : <http://www.soloflife.org/asteroid/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@base <http://www.semanticweb.org/soloflife/asteroid/> .
+@base <http://www.soloflife.org/asteroid/> .
 
-<http://www.semanticweb.org/soloflife/asteroid> rdf:type owl:Ontology .
+<http://www.soloflife.org/asteroid> rdf:type owl:Ontology .
 
 #################################################################
 #    Annotation properties
@@ -28,15 +28,15 @@
 #    Object Properties
 #################################################################
 
-###  http://www.semanticweb.org/soloflife/asteroid/hasAsteroidClassification
+###  http://www.soloflife.org/asteroid/hasAsteroidClassification
 :hasAsteroidClassification rdf:type owl:ObjectProperty .
 
 
-###  http://www.semanticweb.org/soloflife/asteroid/hasDistanceRecord
+###  http://www.soloflife.org/asteroid/hasDistanceRecord
 :hasDistanceRecord rdf:type owl:ObjectProperty .
 
 
-###  http://www.semanticweb.org/soloflife/asteroid/hasObservation
+###  http://www.soloflife.org/asteroid/hasObservation
 :hasObservation rdf:type owl:ObjectProperty .
 
 
@@ -44,15 +44,15 @@
 #    Data properties
 #################################################################
 
-###  http://www.semanticweb.org/soloflife/asteroid#hasCommonName
+###  http://www.soloflife.org/asteroid#hasCommonName
 :hasCommonName rdf:type owl:DatatypeProperty .
 
 
-###  http://www.semanticweb.org/soloflife/asteroid#hasDiscoveryName
+###  http://www.soloflife.org/asteroid#hasDiscoveryName
 :hasDiscoveryName rdf:type owl:DatatypeProperty .
 
 
-###  http://www.semanticweb.org/soloflife/asteroid#hasNumericID
+###  http://www.soloflife.org/asteroid#hasNumericID
 :hasNumericID rdf:type owl:DatatypeProperty ;
               rdfs:subPropertyOf owl:topDataProperty .
 
@@ -61,7 +61,7 @@
 #    Classes
 #################################################################
 
-###  http://www.semanticweb.org/soloflife/asteroid/Asteroid
+###  http://www.soloflife.org/asteroid/Asteroid
 :Asteroid rdf:type owl:Class ;
           rdfs:subClassOf :FeatureOfInterest ,
                           [ rdf:type owl:Restriction ;
@@ -122,7 +122,7 @@
                                                                      ] .
 
 
-###  http://www.semanticweb.org/soloflife/asteroid/AsteroidClassification
+###  http://www.soloflife.org/asteroid/AsteroidClassification
 :AsteroidClassification rdf:type owl:Class ;
                         <http://ontologydesignpatterns.org/opla-sd#entityPosition> [ <http://ontologydesignpatterns.org/opla-sd#entityPositionX> "104.39140675278827"^^xsd:double ;
                                                                                      <http://ontologydesignpatterns.org/opla-sd#entityPositionY> "226.23666712533154"^^xsd:double ;
@@ -130,7 +130,7 @@
                                                                                    ] .
 
 
-###  http://www.semanticweb.org/soloflife/asteroid/DistanceRecord
+###  http://www.soloflife.org/asteroid/DistanceRecord
 :DistanceRecord rdf:type owl:Class ;
                 <http://ontologydesignpatterns.org/opla-sd#entityPosition> [ <http://ontologydesignpatterns.org/opla-sd#entityPositionX> "3.0207552213721205"^^xsd:double ;
                                                                              <http://ontologydesignpatterns.org/opla-sd#entityPositionY> "21.655444720181638"^^xsd:double ;
@@ -138,7 +138,7 @@
                                                                            ] .
 
 
-###  http://www.semanticweb.org/soloflife/asteroid/FeatureOfInterest
+###  http://www.soloflife.org/asteroid/FeatureOfInterest
 :FeatureOfInterest rdf:type owl:Class ;
                    <http://ontologydesignpatterns.org/opla-sd#entityPosition> [ <http://ontologydesignpatterns.org/opla-sd#entityPositionX> "59.41005300054614"^^xsd:double ;
                                                                                 <http://ontologydesignpatterns.org/opla-sd#entityPositionY> "59.83809722702954"^^xsd:double ;
@@ -146,7 +146,7 @@
                                                                               ] .
 
 
-###  http://www.semanticweb.org/soloflife/asteroid/NearEarthAsteroid
+###  http://www.soloflife.org/asteroid/NearEarthAsteroid
 :NearEarthAsteroid rdf:type owl:Class ;
                    rdfs:subClassOf :Asteroid ;
                    <http://ontologydesignpatterns.org/opla-sd#entityPosition> [ <http://ontologydesignpatterns.org/opla-sd#entityPositionX> "163.76978121503177"^^xsd:double ;
@@ -155,7 +155,7 @@
                                                                               ] .
 
 
-###  http://www.semanticweb.org/soloflife/asteroid/Observation
+###  http://www.soloflife.org/asteroid/Observation
 :Observation rdf:type owl:Class ;
              <http://ontologydesignpatterns.org/opla-sd#entityPosition> [ <http://ontologydesignpatterns.org/opla-sd#entityPositionX> "261.68531858202675"^^xsd:double ;
                                                                           <http://ontologydesignpatterns.org/opla-sd#entityPositionY> "267.7800206096892"^^xsd:double ;
