@@ -78,32 +78,32 @@ SELECT * WHERE {
 
 **Bridged Datasets:** Asteroid_Distances.csv, Asterank_Dataset.csv
 
-## Top 5 Most Occurring Asteroid Types
+## Ryugu Arriving
 **Competency Question:** "When will 162173 Ryugu enter within 1au of Earth?"
 
 **Bridged Datasets:** Asteroid_Distances.csv
 
-## Top 5 Most Occurring Asteroid Types
+## Ryugu Length of Stay
 **Competency Question:** "How long will 162173 Ryugu be within 1au of Earth?"
 
 **Bridged Datasets:** Asteroid_Distances.csv
 
-## Top 5 Most Occurring Asteroid Types
+## Ryugu Departing
 **Competency Question:** "When will a 162173 Ryugu exit a 1au range from Earth?"
 
 **Bridged Datasets:** Asteroid_Distances.csv
 
-## Top 5 Most Occurring Asteroid Types
+## Ryugu Distance After Range
 **Competency Question:** "Based on current trajectory of 162173 Ryugu, how far from Earth will 162173 Ryugu be in 8 months?"
 
 **Bridged Datasets:** Asteroid_Distances.csv
 
-## Top 5 Most Occurring Asteroid Types
+## Planning for Ryugu
 **Competency Question:** "How much time is available until the 162173 Ryugu is within 1au of Earth?"
 
 **Bridged Datasets:** Asteroid_Distances.csv
 
-## Top 5 Most Occurring Asteroid Types
+## Iron Arrival
 **Competency Question:** "Which asteroid is the first to come within 0.5au of Earth that contains iron?"
 
 **Bridged Datasets:** Asteroid_Distances.csv, Summary_of_Asteroid_Taxonomic_Classes.csv
