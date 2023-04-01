@@ -71,7 +71,6 @@ for line in lines[1:]:  # for each asteroid
     asteroid_uri = pfs["solr"][f"Asteroid.{name}"] 
     #  Declare the Asteroid Concept to the SOL Ontology
     graph.add( (asteroid_uri, a, pfs["sol-ont"]["Asteroid"]) )
-    graph.add( (asteroid_uri, a, pfs["sosa"]["FeatureOfInterest"]) )
     index = 1  # Index for header column
     for distance in split[1:]:   # for each column per asteroid
         if(str(distance) == ""): 
@@ -86,25 +85,24 @@ for line in lines[1:]:  # for each asteroid
 
         #  Mint the Result and Quantity Nodes
         result_uri = pfs["solr"][f"Result.{name}.{monthyear}"]
-        quantity_uri = pfs["sol-ont"][f"Quantity.{name}.{monthyear}"]
-        graph.add( (quantity_uri, a, pfs["modl"]["Quantity"]) )
-        quantity_kind_uri = pfs["sol-ont"][f"QuantityKind.{name}.{monthyear}"]
-        graph.add( (quantity_kind_uri, a, pfs["modl"]["QuantityKind"]) )
-        quantity_value_uri = pfs["sol-ont"][f"QuantityValue.{name}.{monthyear}"]
-        graph.add( (quantity_value_uri, a, pfs["modl"]["QuantityValue"]) )
-        unit_uri = pfs["sol-ont"][f"Unit.{name}.{monthyear}"]
-        graph.add( (unit_uri, a, pfs["modl"]["Unit"]) )
-        value_uri = pfs["sol-ont"][f"NumericValue.{name}.{monthyear}"]
+        quantity_uri = pfs["solr"][f"Quantity.{name}.{monthyear}"]
+        graph.add( (quantity_uri, a, pfs["sol-ont"]["Quantity"]) )
+        # quantity_kind_uri = pfs["solr"][f"QuantityKind.{name}.{monthyear}"]
+        # graph.add( (quantity_kind_uri, a, pfs["sol-ont"]["QuantityKind"]) )
+        quantity_value_uri = pfs["solr"][f"QuantityValue.{name}.{monthyear}"]
+        graph.add( (quantity_value_uri, a, pfs["sol-ont"]["QuantityValue"]) )
+        # unit_uri = pfs["solr"][f"Unit.{name}.{monthyear}"]
+        # graph.add( (unit_uri, a, pfs["sol-ont"]["Unit"]) )
+        value_uri = pfs["solr"][f"NumericValue.{name}.{monthyear}"]
 
         #  Declare the Result schema into the SOL Ontology      
         graph.add( (result_uri, pfs["sol-ont"]["hasQuantity"], quantity_uri) )
-        graph.add( (quantity_uri, pfs["sol-ont"]["hasQuantityKind"], quantity_kind_uri) ) 
+        # graph.add( (quantity_uri, pfs["sol-ont"]["hasQuantityKind"], quantity_kind_uri) ) 
         graph.add( (quantity_uri, pfs["sol-ont"]["hasQuantityKind"], Literal("Distance", datatype=pfs["sol-qk"]["Distance"])) )
 
         graph.add( (quantity_uri, pfs["sol-ont"]["hasQuantityValue"], quantity_value_uri) )        
-        graph.add( (quantity_value_uri, pfs["sol-ont"]["hasUnit"], unit_uri) )
-        #  TODO:  Is this how you handle URI's for data values?
-        graph.add( (unit_uri, a, Literal("au", datatype=pfs["sol-unit"]["au"])) )
+        # graph.add( (unit_uri, a, Literal("au", datatype=pfs["sol-unit"]["au"])) )
+        graph.add( (quantity_value_uri, pfs["sol-ont"]["hasUnit"], Literal("au", datatype=pfs["sol-unit"]["au"])) )
         graph.add( (value_uri, pfs["sol-ont"]["hasNumericValue"], Literal(distance, datatype=XSD.double)) ) 
         
         #  Add TemporalExtent Triple to SOL Ontology
