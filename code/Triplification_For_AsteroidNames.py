@@ -53,8 +53,8 @@ with open(asteroid_distances_path, "r") as inputF:
     lines = [line.strip() for line in inputF.readlines()]
     header = (lines[0].strip()).split(",")    
 
-# for line in lines[1:10]:
-for line in lines[1:200000]:  # for each asteroid
+# for line in lines[1:100000]:  # for each asteroid
+for line in lines[100001:200000]:  # for each asteroid
     split = line.split(",")
     numericID = split[1].replace(" ", "_")
     asteroid_uri = pfs["solr"][f"Asteroid.{numericID}"]
@@ -80,6 +80,5 @@ for line in lines[1:200000]:  # for each asteroid
     #  Mint the individual Asteroid
     graph.add( (asteroid_uri, hasNumericID, Literal(numericID, datatype=XSD.string)) )
     graph.add( (asteroid_uri, hasDiscoveryName, Literal(discoveryName, datatype=XSD.string)) )
-
-output_file = os.path.join(output_path, f"SOL_Asteroid_Names.ttl")
+output_file = os.path.join(output_path, f"SOL_Asteroid_Names_2.ttl")
 temp = graph.serialize(format="turtle", encoding="utf-8", destination=output_file)
