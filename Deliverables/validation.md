@@ -109,8 +109,8 @@ SELECT * WHERE {
 **Bridged Datasets:** Asteroid_Distances.csv, Summary_of_Asteroid_Taxonomic_Classes.csv
 
 ### Remarks
-`Asterank_Dataset.csv`:  refers to the `JPL_SBDB` dataset with Asterank's evaluation on Asteroid value and profitability
-`Asteroid_Distances.csv`:  refers to a subset of available Asteroids from `SkyLive`
-`Summary_of_Asteroid_Taxonomic_Classes.csv`:  refers to the [Asteroid Spectral Types](https://en.wikipedia.org/wiki/Asteroid_spectral_types)
-`mp3c_dataset.csv`:  refers to a subset of MP3c's dataset of Asteroids
-`nasajpl_sbdl.csv`:  refers to a subset of NASA's JPL_SBDB dataset of Asteroids
+- `Asterank_Dataset.csv`:  refers to the `JPL_SBDB` dataset with Asterank's evaluation on Asteroid value and profitability
+- `Asteroid_Distances.csv`:  refers to a subset of available Asteroids from `SkyLive`
+- `Summary_of_Asteroid_Taxonomic_Classes.csv`:  refers to the [Asteroid Spectral Types](https://en.wikipedia.org/wiki/Asteroid_spectral_types)
+- `mp3c_dataset.csv`:  refers to a subset of MP3c's dataset of Asteroids
+- `nasajpl_sbdl.csv`:  refers to a subset of NASA's JPL_SBDB dataset of Asteroids
