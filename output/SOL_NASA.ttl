@@ -1,0 +1,4659 @@
+@prefix sol-ont: <http://soloflife.org/lod/ontology/> .
+@prefix sol-qk: <http://soloflife.org/lod/quantitykinds> .
+@prefix sol-unit: <http://soloflife.org/lod/units> .
+@prefix solr: <http://soloflife.org/lod/resource/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+solr:D_Observation.10 sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:D_Activity.10 ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.10 ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.D_Observation.10 ;
+    sol-ont:hasResult solr:Result.D_Observation.10 .
+
+solr:D_Observation.101955 sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:D_Activity.101955 ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.101955 ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.D_Observation.101955 ;
+    sol-ont:hasResult solr:Result.D_Observation.101955 .
+
+solr:D_Observation.10302 sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:D_Activity.10302 ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.10302 ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.D_Observation.10302 ;
+    sol-ont:hasResult solr:Result.D_Observation.10302 .
+
+solr:D_Observation.13 sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:D_Activity.13 ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.13 ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.D_Observation.13 ;
+    sol-ont:hasResult solr:Result.D_Observation.13 .
+
+solr:D_Observation.16 sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:D_Activity.16 ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.16 ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.D_Observation.16 ;
+    sol-ont:hasResult solr:Result.D_Observation.16 .
+
+solr:D_Observation.162173 sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:D_Activity.162173 ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.162173 ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.D_Observation.162173 ;
+    sol-ont:hasResult solr:Result.D_Observation.162173 .
+
+solr:D_Observation.19 sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:D_Activity.19 ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.19 ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.D_Observation.19 ;
+    sol-ont:hasResult solr:Result.D_Observation.19 .
+
+solr:D_Observation.1943 sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:D_Activity.1943 ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.1943 ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.D_Observation.1943 ;
+    sol-ont:hasResult solr:Result.D_Observation.1943 .
+
+solr:D_Observation.2 sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:D_Activity.2 ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.2 ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.D_Observation.2 ;
+    sol-ont:hasResult solr:Result.D_Observation.2 .
+
+solr:D_Observation.436724 sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:D_Activity.436724 ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.436724 ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.D_Observation.436724 ;
+    sol-ont:hasResult solr:Result.D_Observation.436724 .
+
+solr:D_Observation.4660 sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:D_Activity.4660 ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.4660 ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.D_Observation.4660 ;
+    sol-ont:hasResult solr:Result.D_Observation.4660 .
+
+solr:D_Observation.65803 sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:D_Activity.65803 ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.65803 ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.D_Observation.65803 ;
+    sol-ont:hasResult solr:Result.D_Observation.65803 .
+
+solr:D_Observation.7474 sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:D_Activity.7474 ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.7474 ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.D_Observation.7474 ;
+    sol-ont:hasResult solr:Result.D_Observation.7474 .
+
+solr:D_Observation.87 sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:D_Activity.87 ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.87 ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.D_Observation.87 ;
+    sol-ont:hasResult solr:Result.D_Observation.87 .
+
+solr:D_Observation.98943 sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:D_Activity.98943 ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.98943 ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.D_Observation.98943 ;
+    sol-ont:hasResult solr:Result.D_Observation.98943 .
+
+solr:M_Observation.10 sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:M_Activity.10 ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.10 ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.M_Observation.10 ;
+    sol-ont:hasResult solr:Result.M_Observation.10 .
+
+solr:M_Observation.101955 sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:M_Activity.101955 ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.101955 ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.M_Observation.101955 ;
+    sol-ont:hasResult solr:Result.M_Observation.101955 .
+
+solr:M_Observation.10302 sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:M_Activity.10302 ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.10302 ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.M_Observation.10302 ;
+    sol-ont:hasResult solr:Result.M_Observation.10302 .
+
+solr:M_Observation.13 sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:M_Activity.13 ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.13 ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.M_Observation.13 ;
+    sol-ont:hasResult solr:Result.M_Observation.13 .
+
+solr:M_Observation.16 sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:M_Activity.16 ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.16 ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.M_Observation.16 ;
+    sol-ont:hasResult solr:Result.M_Observation.16 .
+
+solr:M_Observation.162173 sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:M_Activity.162173 ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.162173 ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.M_Observation.162173 ;
+    sol-ont:hasResult solr:Result.M_Observation.162173 .
+
+solr:M_Observation.19 sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:M_Activity.19 ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.19 ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.M_Observation.19 ;
+    sol-ont:hasResult solr:Result.M_Observation.19 .
+
+solr:M_Observation.1943 sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:M_Activity.1943 ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.1943 ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.M_Observation.1943 ;
+    sol-ont:hasResult solr:Result.M_Observation.1943 .
+
+solr:M_Observation.2 sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:M_Activity.2 ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.2 ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.M_Observation.2 ;
+    sol-ont:hasResult solr:Result.M_Observation.2 .
+
+solr:M_Observation.436724 sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:M_Activity.436724 ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.436724 ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.M_Observation.436724 ;
+    sol-ont:hasResult solr:Result.M_Observation.436724 .
+
+solr:M_Observation.4660 sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:M_Activity.4660 ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.4660 ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.M_Observation.4660 ;
+    sol-ont:hasResult solr:Result.M_Observation.4660 .
+
+solr:M_Observation.65803 sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:M_Activity.65803 ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.65803 ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.M_Observation.65803 ;
+    sol-ont:hasResult solr:Result.M_Observation.65803 .
+
+solr:M_Observation.7474 sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:M_Activity.7474 ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.7474 ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.M_Observation.7474 ;
+    sol-ont:hasResult solr:Result.M_Observation.7474 .
+
+solr:M_Observation.87 sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:M_Activity.87 ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.87 ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.M_Observation.87 ;
+    sol-ont:hasResult solr:Result.M_Observation.87 .
+
+solr:M_Observation.98943 sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:M_Activity.98943 ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.98943 ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.M_Observation.98943 ;
+    sol-ont:hasResult solr:Result.M_Observation.98943 .
+
+solr:Q_Observation.10 sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:Q_Activity.10 ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.10 ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.Q_Observation.10 ;
+    sol-ont:hasResult solr:Result.Q_Observation.10 .
+
+solr:Q_Observation.101955 sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:Q_Activity.101955 ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.101955 ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.Q_Observation.101955 ;
+    sol-ont:hasResult solr:Result.Q_Observation.101955 .
+
+solr:Q_Observation.10302 sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:Q_Activity.10302 ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.10302 ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.Q_Observation.10302 ;
+    sol-ont:hasResult solr:Result.Q_Observation.10302 .
+
+solr:Q_Observation.13 sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:Q_Activity.13 ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.13 ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.Q_Observation.13 ;
+    sol-ont:hasResult solr:Result.Q_Observation.13 .
+
+solr:Q_Observation.16 sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:Q_Activity.16 ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.16 ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.Q_Observation.16 ;
+    sol-ont:hasResult solr:Result.Q_Observation.16 .
+
+solr:Q_Observation.162173 sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:Q_Activity.162173 ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.162173 ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.Q_Observation.162173 ;
+    sol-ont:hasResult solr:Result.Q_Observation.162173 .
+
+solr:Q_Observation.19 sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:Q_Activity.19 ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.19 ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.Q_Observation.19 ;
+    sol-ont:hasResult solr:Result.Q_Observation.19 .
+
+solr:Q_Observation.1943 sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:Q_Activity.1943 ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.1943 ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.Q_Observation.1943 ;
+    sol-ont:hasResult solr:Result.Q_Observation.1943 .
+
+solr:Q_Observation.2 sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:Q_Activity.2 ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.2 ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.Q_Observation.2 ;
+    sol-ont:hasResult solr:Result.Q_Observation.2 .
+
+solr:Q_Observation.436724 sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:Q_Activity.436724 ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.436724 ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.Q_Observation.436724 ;
+    sol-ont:hasResult solr:Result.Q_Observation.436724 .
+
+solr:Q_Observation.4660 sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:Q_Activity.4660 ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.4660 ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.Q_Observation.4660 ;
+    sol-ont:hasResult solr:Result.Q_Observation.4660 .
+
+solr:Q_Observation.65803 sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:Q_Activity.65803 ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.65803 ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.Q_Observation.65803 ;
+    sol-ont:hasResult solr:Result.Q_Observation.65803 .
+
+solr:Q_Observation.7474 sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:Q_Activity.7474 ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.7474 ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.Q_Observation.7474 ;
+    sol-ont:hasResult solr:Result.Q_Observation.7474 .
+
+solr:Q_Observation.87 sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:Q_Activity.87 ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.87 ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.Q_Observation.87 ;
+    sol-ont:hasResult solr:Result.Q_Observation.87 .
+
+solr:Q_Observation.98943 sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:Q_Activity.98943 ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.98943 ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.Q_Observation.98943 ;
+    sol-ont:hasResult solr:Result.Q_Observation.98943 .
+
+solr:QuantityValue.D_Observation.10 a sol-ont:QuantityValue .
+
+solr:QuantityValue.D_Observation.101955 a sol-ont:QuantityValue .
+
+solr:QuantityValue.D_Observation.10302 a sol-ont:QuantityValue .
+
+solr:QuantityValue.D_Observation.13 a sol-ont:QuantityValue .
+
+solr:QuantityValue.D_Observation.16 a sol-ont:QuantityValue .
+
+solr:QuantityValue.D_Observation.162173 a sol-ont:QuantityValue .
+
+solr:QuantityValue.D_Observation.19 a sol-ont:QuantityValue .
+
+solr:QuantityValue.D_Observation.1943 a sol-ont:QuantityValue .
+
+solr:QuantityValue.D_Observation.2 a sol-ont:QuantityValue .
+
+solr:QuantityValue.D_Observation.436724 a sol-ont:QuantityValue .
+
+solr:QuantityValue.D_Observation.4660 a sol-ont:QuantityValue .
+
+solr:QuantityValue.D_Observation.65803 a sol-ont:QuantityValue .
+
+solr:QuantityValue.D_Observation.7474 a sol-ont:QuantityValue .
+
+solr:QuantityValue.D_Observation.87 a sol-ont:QuantityValue .
+
+solr:QuantityValue.D_Observation.98943 a sol-ont:QuantityValue .
+
+solr:QuantityValue.M_Observation.10 a sol-ont:QuantityValue .
+
+solr:QuantityValue.M_Observation.101955 a sol-ont:QuantityValue .
+
+solr:QuantityValue.M_Observation.10302 a sol-ont:QuantityValue .
+
+solr:QuantityValue.M_Observation.13 a sol-ont:QuantityValue .
+
+solr:QuantityValue.M_Observation.16 a sol-ont:QuantityValue .
+
+solr:QuantityValue.M_Observation.162173 a sol-ont:QuantityValue .
+
+solr:QuantityValue.M_Observation.19 a sol-ont:QuantityValue .
+
+solr:QuantityValue.M_Observation.1943 a sol-ont:QuantityValue .
+
+solr:QuantityValue.M_Observation.2 a sol-ont:QuantityValue .
+
+solr:QuantityValue.M_Observation.436724 a sol-ont:QuantityValue .
+
+solr:QuantityValue.M_Observation.4660 a sol-ont:QuantityValue .
+
+solr:QuantityValue.M_Observation.65803 a sol-ont:QuantityValue .
+
+solr:QuantityValue.M_Observation.7474 a sol-ont:QuantityValue .
+
+solr:QuantityValue.M_Observation.87 a sol-ont:QuantityValue .
+
+solr:QuantityValue.M_Observation.98943 a sol-ont:QuantityValue .
+
+solr:QuantityValue.Q_Observation.10 a sol-ont:QuantityValue .
+
+solr:QuantityValue.Q_Observation.101955 a sol-ont:QuantityValue .
+
+solr:QuantityValue.Q_Observation.10302 a sol-ont:QuantityValue .
+
+solr:QuantityValue.Q_Observation.13 a sol-ont:QuantityValue .
+
+solr:QuantityValue.Q_Observation.16 a sol-ont:QuantityValue .
+
+solr:QuantityValue.Q_Observation.162173 a sol-ont:QuantityValue .
+
+solr:QuantityValue.Q_Observation.19 a sol-ont:QuantityValue .
+
+solr:QuantityValue.Q_Observation.1943 a sol-ont:QuantityValue .
+
+solr:QuantityValue.Q_Observation.2 a sol-ont:QuantityValue .
+
+solr:QuantityValue.Q_Observation.436724 a sol-ont:QuantityValue .
+
+solr:QuantityValue.Q_Observation.4660 a sol-ont:QuantityValue .
+
+solr:QuantityValue.Q_Observation.65803 a sol-ont:QuantityValue .
+
+solr:QuantityValue.Q_Observation.7474 a sol-ont:QuantityValue .
+
+solr:QuantityValue.Q_Observation.87 a sol-ont:QuantityValue .
+
+solr:QuantityValue.Q_Observation.98943 a sol-ont:QuantityValue .
+
+solr:QuantityValue.a_Observation.10 a sol-ont:QuantityValue .
+
+solr:QuantityValue.a_Observation.101955 a sol-ont:QuantityValue .
+
+solr:QuantityValue.a_Observation.10302 a sol-ont:QuantityValue .
+
+solr:QuantityValue.a_Observation.13 a sol-ont:QuantityValue .
+
+solr:QuantityValue.a_Observation.16 a sol-ont:QuantityValue .
+
+solr:QuantityValue.a_Observation.162173 a sol-ont:QuantityValue .
+
+solr:QuantityValue.a_Observation.19 a sol-ont:QuantityValue .
+
+solr:QuantityValue.a_Observation.1943 a sol-ont:QuantityValue .
+
+solr:QuantityValue.a_Observation.2 a sol-ont:QuantityValue .
+
+solr:QuantityValue.a_Observation.436724 a sol-ont:QuantityValue .
+
+solr:QuantityValue.a_Observation.4660 a sol-ont:QuantityValue .
+
+solr:QuantityValue.a_Observation.65803 a sol-ont:QuantityValue .
+
+solr:QuantityValue.a_Observation.7474 a sol-ont:QuantityValue .
+
+solr:QuantityValue.a_Observation.87 a sol-ont:QuantityValue .
+
+solr:QuantityValue.a_Observation.98943 a sol-ont:QuantityValue .
+
+solr:QuantityValue.e_Observation.10 a sol-ont:QuantityValue .
+
+solr:QuantityValue.e_Observation.101955 a sol-ont:QuantityValue .
+
+solr:QuantityValue.e_Observation.10302 a sol-ont:QuantityValue .
+
+solr:QuantityValue.e_Observation.13 a sol-ont:QuantityValue .
+
+solr:QuantityValue.e_Observation.16 a sol-ont:QuantityValue .
+
+solr:QuantityValue.e_Observation.162173 a sol-ont:QuantityValue .
+
+solr:QuantityValue.e_Observation.19 a sol-ont:QuantityValue .
+
+solr:QuantityValue.e_Observation.1943 a sol-ont:QuantityValue .
+
+solr:QuantityValue.e_Observation.2 a sol-ont:QuantityValue .
+
+solr:QuantityValue.e_Observation.436724 a sol-ont:QuantityValue .
+
+solr:QuantityValue.e_Observation.4660 a sol-ont:QuantityValue .
+
+solr:QuantityValue.e_Observation.65803 a sol-ont:QuantityValue .
+
+solr:QuantityValue.e_Observation.7474 a sol-ont:QuantityValue .
+
+solr:QuantityValue.e_Observation.87 a sol-ont:QuantityValue .
+
+solr:QuantityValue.e_Observation.98943 a sol-ont:QuantityValue .
+
+solr:QuantityValue.i_Observation.10 a sol-ont:QuantityValue .
+
+solr:QuantityValue.i_Observation.101955 a sol-ont:QuantityValue .
+
+solr:QuantityValue.i_Observation.10302 a sol-ont:QuantityValue .
+
+solr:QuantityValue.i_Observation.13 a sol-ont:QuantityValue .
+
+solr:QuantityValue.i_Observation.16 a sol-ont:QuantityValue .
+
+solr:QuantityValue.i_Observation.162173 a sol-ont:QuantityValue .
+
+solr:QuantityValue.i_Observation.19 a sol-ont:QuantityValue .
+
+solr:QuantityValue.i_Observation.1943 a sol-ont:QuantityValue .
+
+solr:QuantityValue.i_Observation.2 a sol-ont:QuantityValue .
+
+solr:QuantityValue.i_Observation.436724 a sol-ont:QuantityValue .
+
+solr:QuantityValue.i_Observation.4660 a sol-ont:QuantityValue .
+
+solr:QuantityValue.i_Observation.65803 a sol-ont:QuantityValue .
+
+solr:QuantityValue.i_Observation.7474 a sol-ont:QuantityValue .
+
+solr:QuantityValue.i_Observation.87 a sol-ont:QuantityValue .
+
+solr:QuantityValue.i_Observation.98943 a sol-ont:QuantityValue .
+
+solr:QuantityValue.n_Observation.10 a sol-ont:QuantityValue .
+
+solr:QuantityValue.n_Observation.101955 a sol-ont:QuantityValue .
+
+solr:QuantityValue.n_Observation.10302 a sol-ont:QuantityValue .
+
+solr:QuantityValue.n_Observation.13 a sol-ont:QuantityValue .
+
+solr:QuantityValue.n_Observation.16 a sol-ont:QuantityValue .
+
+solr:QuantityValue.n_Observation.162173 a sol-ont:QuantityValue .
+
+solr:QuantityValue.n_Observation.19 a sol-ont:QuantityValue .
+
+solr:QuantityValue.n_Observation.1943 a sol-ont:QuantityValue .
+
+solr:QuantityValue.n_Observation.2 a sol-ont:QuantityValue .
+
+solr:QuantityValue.n_Observation.436724 a sol-ont:QuantityValue .
+
+solr:QuantityValue.n_Observation.4660 a sol-ont:QuantityValue .
+
+solr:QuantityValue.n_Observation.65803 a sol-ont:QuantityValue .
+
+solr:QuantityValue.n_Observation.7474 a sol-ont:QuantityValue .
+
+solr:QuantityValue.n_Observation.87 a sol-ont:QuantityValue .
+
+solr:QuantityValue.n_Observation.98943 a sol-ont:QuantityValue .
+
+solr:QuantityValue.node_Observation.10 a sol-ont:QuantityValue .
+
+solr:QuantityValue.node_Observation.101955 a sol-ont:QuantityValue .
+
+solr:QuantityValue.node_Observation.10302 a sol-ont:QuantityValue .
+
+solr:QuantityValue.node_Observation.13 a sol-ont:QuantityValue .
+
+solr:QuantityValue.node_Observation.16 a sol-ont:QuantityValue .
+
+solr:QuantityValue.node_Observation.162173 a sol-ont:QuantityValue .
+
+solr:QuantityValue.node_Observation.19 a sol-ont:QuantityValue .
+
+solr:QuantityValue.node_Observation.1943 a sol-ont:QuantityValue .
+
+solr:QuantityValue.node_Observation.2 a sol-ont:QuantityValue .
+
+solr:QuantityValue.node_Observation.436724 a sol-ont:QuantityValue .
+
+solr:QuantityValue.node_Observation.4660 a sol-ont:QuantityValue .
+
+solr:QuantityValue.node_Observation.65803 a sol-ont:QuantityValue .
+
+solr:QuantityValue.node_Observation.7474 a sol-ont:QuantityValue .
+
+solr:QuantityValue.node_Observation.87 a sol-ont:QuantityValue .
+
+solr:QuantityValue.node_Observation.98943 a sol-ont:QuantityValue .
+
+solr:QuantityValue.peri_Observation.10 a sol-ont:QuantityValue .
+
+solr:QuantityValue.peri_Observation.101955 a sol-ont:QuantityValue .
+
+solr:QuantityValue.peri_Observation.10302 a sol-ont:QuantityValue .
+
+solr:QuantityValue.peri_Observation.13 a sol-ont:QuantityValue .
+
+solr:QuantityValue.peri_Observation.16 a sol-ont:QuantityValue .
+
+solr:QuantityValue.peri_Observation.162173 a sol-ont:QuantityValue .
+
+solr:QuantityValue.peri_Observation.19 a sol-ont:QuantityValue .
+
+solr:QuantityValue.peri_Observation.1943 a sol-ont:QuantityValue .
+
+solr:QuantityValue.peri_Observation.2 a sol-ont:QuantityValue .
+
+solr:QuantityValue.peri_Observation.436724 a sol-ont:QuantityValue .
+
+solr:QuantityValue.peri_Observation.4660 a sol-ont:QuantityValue .
+
+solr:QuantityValue.peri_Observation.65803 a sol-ont:QuantityValue .
+
+solr:QuantityValue.peri_Observation.7474 a sol-ont:QuantityValue .
+
+solr:QuantityValue.peri_Observation.87 a sol-ont:QuantityValue .
+
+solr:QuantityValue.peri_Observation.98943 a sol-ont:QuantityValue .
+
+solr:QuantityValue.period_y_Observation.10 a sol-ont:QuantityValue .
+
+solr:QuantityValue.period_y_Observation.101955 a sol-ont:QuantityValue .
+
+solr:QuantityValue.period_y_Observation.10302 a sol-ont:QuantityValue .
+
+solr:QuantityValue.period_y_Observation.13 a sol-ont:QuantityValue .
+
+solr:QuantityValue.period_y_Observation.16 a sol-ont:QuantityValue .
+
+solr:QuantityValue.period_y_Observation.162173 a sol-ont:QuantityValue .
+
+solr:QuantityValue.period_y_Observation.19 a sol-ont:QuantityValue .
+
+solr:QuantityValue.period_y_Observation.1943 a sol-ont:QuantityValue .
+
+solr:QuantityValue.period_y_Observation.2 a sol-ont:QuantityValue .
+
+solr:QuantityValue.period_y_Observation.436724 a sol-ont:QuantityValue .
+
+solr:QuantityValue.period_y_Observation.4660 a sol-ont:QuantityValue .
+
+solr:QuantityValue.period_y_Observation.65803 a sol-ont:QuantityValue .
+
+solr:QuantityValue.period_y_Observation.7474 a sol-ont:QuantityValue .
+
+solr:QuantityValue.period_y_Observation.87 a sol-ont:QuantityValue .
+
+solr:QuantityValue.period_y_Observation.98943 a sol-ont:QuantityValue .
+
+solr:QuantityValue.q_Observation.10 a sol-ont:QuantityValue .
+
+solr:QuantityValue.q_Observation.101955 a sol-ont:QuantityValue .
+
+solr:QuantityValue.q_Observation.10302 a sol-ont:QuantityValue .
+
+solr:QuantityValue.q_Observation.13 a sol-ont:QuantityValue .
+
+solr:QuantityValue.q_Observation.16 a sol-ont:QuantityValue .
+
+solr:QuantityValue.q_Observation.162173 a sol-ont:QuantityValue .
+
+solr:QuantityValue.q_Observation.19 a sol-ont:QuantityValue .
+
+solr:QuantityValue.q_Observation.1943 a sol-ont:QuantityValue .
+
+solr:QuantityValue.q_Observation.2 a sol-ont:QuantityValue .
+
+solr:QuantityValue.q_Observation.436724 a sol-ont:QuantityValue .
+
+solr:QuantityValue.q_Observation.4660 a sol-ont:QuantityValue .
+
+solr:QuantityValue.q_Observation.65803 a sol-ont:QuantityValue .
+
+solr:QuantityValue.q_Observation.7474 a sol-ont:QuantityValue .
+
+solr:QuantityValue.q_Observation.87 a sol-ont:QuantityValue .
+
+solr:QuantityValue.q_Observation.98943 a sol-ont:QuantityValue .
+
+solr:a_Observation.10 sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:a_Activity.10 ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.10 ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.a_Observation.10 ;
+    sol-ont:hasResult solr:Result.a_Observation.10 .
+
+solr:a_Observation.101955 sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:a_Activity.101955 ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.101955 ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.a_Observation.101955 ;
+    sol-ont:hasResult solr:Result.a_Observation.101955 .
+
+solr:a_Observation.10302 sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:a_Activity.10302 ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.10302 ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.a_Observation.10302 ;
+    sol-ont:hasResult solr:Result.a_Observation.10302 .
+
+solr:a_Observation.13 sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:a_Activity.13 ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.13 ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.a_Observation.13 ;
+    sol-ont:hasResult solr:Result.a_Observation.13 .
+
+solr:a_Observation.16 sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:a_Activity.16 ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.16 ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.a_Observation.16 ;
+    sol-ont:hasResult solr:Result.a_Observation.16 .
+
+solr:a_Observation.162173 sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:a_Activity.162173 ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.162173 ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.a_Observation.162173 ;
+    sol-ont:hasResult solr:Result.a_Observation.162173 .
+
+solr:a_Observation.19 sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:a_Activity.19 ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.19 ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.a_Observation.19 ;
+    sol-ont:hasResult solr:Result.a_Observation.19 .
+
+solr:a_Observation.1943 sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:a_Activity.1943 ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.1943 ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.a_Observation.1943 ;
+    sol-ont:hasResult solr:Result.a_Observation.1943 .
+
+solr:a_Observation.2 sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:a_Activity.2 ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.2 ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.a_Observation.2 ;
+    sol-ont:hasResult solr:Result.a_Observation.2 .
+
+solr:a_Observation.436724 sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:a_Activity.436724 ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.436724 ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.a_Observation.436724 ;
+    sol-ont:hasResult solr:Result.a_Observation.436724 .
+
+solr:a_Observation.4660 sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:a_Activity.4660 ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.4660 ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.a_Observation.4660 ;
+    sol-ont:hasResult solr:Result.a_Observation.4660 .
+
+solr:a_Observation.65803 sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:a_Activity.65803 ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.65803 ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.a_Observation.65803 ;
+    sol-ont:hasResult solr:Result.a_Observation.65803 .
+
+solr:a_Observation.7474 sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:a_Activity.7474 ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.7474 ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.a_Observation.7474 ;
+    sol-ont:hasResult solr:Result.a_Observation.7474 .
+
+solr:a_Observation.87 sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:a_Activity.87 ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.87 ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.a_Observation.87 ;
+    sol-ont:hasResult solr:Result.a_Observation.87 .
+
+solr:a_Observation.98943 sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:a_Activity.98943 ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.98943 ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.a_Observation.98943 ;
+    sol-ont:hasResult solr:Result.a_Observation.98943 .
+
+solr:e_Observation.10 sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:e_Activity.10 ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.10 ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.e_Observation.10 ;
+    sol-ont:hasResult solr:Result.e_Observation.10 .
+
+solr:e_Observation.101955 sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:e_Activity.101955 ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.101955 ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.e_Observation.101955 ;
+    sol-ont:hasResult solr:Result.e_Observation.101955 .
+
+solr:e_Observation.10302 sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:e_Activity.10302 ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.10302 ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.e_Observation.10302 ;
+    sol-ont:hasResult solr:Result.e_Observation.10302 .
+
+solr:e_Observation.13 sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:e_Activity.13 ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.13 ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.e_Observation.13 ;
+    sol-ont:hasResult solr:Result.e_Observation.13 .
+
+solr:e_Observation.16 sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:e_Activity.16 ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.16 ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.e_Observation.16 ;
+    sol-ont:hasResult solr:Result.e_Observation.16 .
+
+solr:e_Observation.162173 sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:e_Activity.162173 ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.162173 ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.e_Observation.162173 ;
+    sol-ont:hasResult solr:Result.e_Observation.162173 .
+
+solr:e_Observation.19 sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:e_Activity.19 ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.19 ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.e_Observation.19 ;
+    sol-ont:hasResult solr:Result.e_Observation.19 .
+
+solr:e_Observation.1943 sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:e_Activity.1943 ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.1943 ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.e_Observation.1943 ;
+    sol-ont:hasResult solr:Result.e_Observation.1943 .
+
+solr:e_Observation.2 sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:e_Activity.2 ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.2 ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.e_Observation.2 ;
+    sol-ont:hasResult solr:Result.e_Observation.2 .
+
+solr:e_Observation.436724 sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:e_Activity.436724 ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.436724 ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.e_Observation.436724 ;
+    sol-ont:hasResult solr:Result.e_Observation.436724 .
+
+solr:e_Observation.4660 sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:e_Activity.4660 ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.4660 ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.e_Observation.4660 ;
+    sol-ont:hasResult solr:Result.e_Observation.4660 .
+
+solr:e_Observation.65803 sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:e_Activity.65803 ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.65803 ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.e_Observation.65803 ;
+    sol-ont:hasResult solr:Result.e_Observation.65803 .
+
+solr:e_Observation.7474 sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:e_Activity.7474 ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.7474 ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.e_Observation.7474 ;
+    sol-ont:hasResult solr:Result.e_Observation.7474 .
+
+solr:e_Observation.87 sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:e_Activity.87 ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.87 ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.e_Observation.87 ;
+    sol-ont:hasResult solr:Result.e_Observation.87 .
+
+solr:e_Observation.98943 sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:e_Activity.98943 ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.98943 ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.e_Observation.98943 ;
+    sol-ont:hasResult solr:Result.e_Observation.98943 .
+
+solr:i_Observation.10 sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:i_Activity.10 ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.10 ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.i_Observation.10 ;
+    sol-ont:hasResult solr:Result.i_Observation.10 .
+
+solr:i_Observation.101955 sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:i_Activity.101955 ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.101955 ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.i_Observation.101955 ;
+    sol-ont:hasResult solr:Result.i_Observation.101955 .
+
+solr:i_Observation.10302 sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:i_Activity.10302 ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.10302 ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.i_Observation.10302 ;
+    sol-ont:hasResult solr:Result.i_Observation.10302 .
+
+solr:i_Observation.13 sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:i_Activity.13 ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.13 ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.i_Observation.13 ;
+    sol-ont:hasResult solr:Result.i_Observation.13 .
+
+solr:i_Observation.16 sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:i_Activity.16 ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.16 ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.i_Observation.16 ;
+    sol-ont:hasResult solr:Result.i_Observation.16 .
+
+solr:i_Observation.162173 sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:i_Activity.162173 ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.162173 ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.i_Observation.162173 ;
+    sol-ont:hasResult solr:Result.i_Observation.162173 .
+
+solr:i_Observation.19 sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:i_Activity.19 ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.19 ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.i_Observation.19 ;
+    sol-ont:hasResult solr:Result.i_Observation.19 .
+
+solr:i_Observation.1943 sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:i_Activity.1943 ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.1943 ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.i_Observation.1943 ;
+    sol-ont:hasResult solr:Result.i_Observation.1943 .
+
+solr:i_Observation.2 sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:i_Activity.2 ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.2 ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.i_Observation.2 ;
+    sol-ont:hasResult solr:Result.i_Observation.2 .
+
+solr:i_Observation.436724 sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:i_Activity.436724 ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.436724 ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.i_Observation.436724 ;
+    sol-ont:hasResult solr:Result.i_Observation.436724 .
+
+solr:i_Observation.4660 sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:i_Activity.4660 ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.4660 ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.i_Observation.4660 ;
+    sol-ont:hasResult solr:Result.i_Observation.4660 .
+
+solr:i_Observation.65803 sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:i_Activity.65803 ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.65803 ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.i_Observation.65803 ;
+    sol-ont:hasResult solr:Result.i_Observation.65803 .
+
+solr:i_Observation.7474 sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:i_Activity.7474 ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.7474 ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.i_Observation.7474 ;
+    sol-ont:hasResult solr:Result.i_Observation.7474 .
+
+solr:i_Observation.87 sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:i_Activity.87 ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.87 ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.i_Observation.87 ;
+    sol-ont:hasResult solr:Result.i_Observation.87 .
+
+solr:i_Observation.98943 sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:i_Activity.98943 ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.98943 ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.i_Observation.98943 ;
+    sol-ont:hasResult solr:Result.i_Observation.98943 .
+
+solr:n_Observation.10 sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:n_Activity.10 ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.10 ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.n_Observation.10 ;
+    sol-ont:hasResult solr:Result.n_Observation.10 .
+
+solr:n_Observation.101955 sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:n_Activity.101955 ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.101955 ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.n_Observation.101955 ;
+    sol-ont:hasResult solr:Result.n_Observation.101955 .
+
+solr:n_Observation.10302 sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:n_Activity.10302 ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.10302 ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.n_Observation.10302 ;
+    sol-ont:hasResult solr:Result.n_Observation.10302 .
+
+solr:n_Observation.13 sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:n_Activity.13 ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.13 ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.n_Observation.13 ;
+    sol-ont:hasResult solr:Result.n_Observation.13 .
+
+solr:n_Observation.16 sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:n_Activity.16 ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.16 ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.n_Observation.16 ;
+    sol-ont:hasResult solr:Result.n_Observation.16 .
+
+solr:n_Observation.162173 sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:n_Activity.162173 ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.162173 ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.n_Observation.162173 ;
+    sol-ont:hasResult solr:Result.n_Observation.162173 .
+
+solr:n_Observation.19 sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:n_Activity.19 ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.19 ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.n_Observation.19 ;
+    sol-ont:hasResult solr:Result.n_Observation.19 .
+
+solr:n_Observation.1943 sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:n_Activity.1943 ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.1943 ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.n_Observation.1943 ;
+    sol-ont:hasResult solr:Result.n_Observation.1943 .
+
+solr:n_Observation.2 sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:n_Activity.2 ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.2 ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.n_Observation.2 ;
+    sol-ont:hasResult solr:Result.n_Observation.2 .
+
+solr:n_Observation.436724 sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:n_Activity.436724 ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.436724 ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.n_Observation.436724 ;
+    sol-ont:hasResult solr:Result.n_Observation.436724 .
+
+solr:n_Observation.4660 sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:n_Activity.4660 ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.4660 ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.n_Observation.4660 ;
+    sol-ont:hasResult solr:Result.n_Observation.4660 .
+
+solr:n_Observation.65803 sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:n_Activity.65803 ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.65803 ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.n_Observation.65803 ;
+    sol-ont:hasResult solr:Result.n_Observation.65803 .
+
+solr:n_Observation.7474 sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:n_Activity.7474 ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.7474 ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.n_Observation.7474 ;
+    sol-ont:hasResult solr:Result.n_Observation.7474 .
+
+solr:n_Observation.87 sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:n_Activity.87 ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.87 ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.n_Observation.87 ;
+    sol-ont:hasResult solr:Result.n_Observation.87 .
+
+solr:n_Observation.98943 sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:n_Activity.98943 ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.98943 ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.n_Observation.98943 ;
+    sol-ont:hasResult solr:Result.n_Observation.98943 .
+
+solr:node_Observation.10 sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:node_Activity.10 ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.10 ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.node_Observation.10 ;
+    sol-ont:hasResult solr:Result.node_Observation.10 .
+
+solr:node_Observation.101955 sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:node_Activity.101955 ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.101955 ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.node_Observation.101955 ;
+    sol-ont:hasResult solr:Result.node_Observation.101955 .
+
+solr:node_Observation.10302 sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:node_Activity.10302 ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.10302 ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.node_Observation.10302 ;
+    sol-ont:hasResult solr:Result.node_Observation.10302 .
+
+solr:node_Observation.13 sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:node_Activity.13 ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.13 ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.node_Observation.13 ;
+    sol-ont:hasResult solr:Result.node_Observation.13 .
+
+solr:node_Observation.16 sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:node_Activity.16 ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.16 ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.node_Observation.16 ;
+    sol-ont:hasResult solr:Result.node_Observation.16 .
+
+solr:node_Observation.162173 sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:node_Activity.162173 ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.162173 ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.node_Observation.162173 ;
+    sol-ont:hasResult solr:Result.node_Observation.162173 .
+
+solr:node_Observation.19 sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:node_Activity.19 ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.19 ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.node_Observation.19 ;
+    sol-ont:hasResult solr:Result.node_Observation.19 .
+
+solr:node_Observation.1943 sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:node_Activity.1943 ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.1943 ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.node_Observation.1943 ;
+    sol-ont:hasResult solr:Result.node_Observation.1943 .
+
+solr:node_Observation.2 sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:node_Activity.2 ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.2 ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.node_Observation.2 ;
+    sol-ont:hasResult solr:Result.node_Observation.2 .
+
+solr:node_Observation.436724 sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:node_Activity.436724 ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.436724 ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.node_Observation.436724 ;
+    sol-ont:hasResult solr:Result.node_Observation.436724 .
+
+solr:node_Observation.4660 sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:node_Activity.4660 ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.4660 ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.node_Observation.4660 ;
+    sol-ont:hasResult solr:Result.node_Observation.4660 .
+
+solr:node_Observation.65803 sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:node_Activity.65803 ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.65803 ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.node_Observation.65803 ;
+    sol-ont:hasResult solr:Result.node_Observation.65803 .
+
+solr:node_Observation.7474 sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:node_Activity.7474 ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.7474 ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.node_Observation.7474 ;
+    sol-ont:hasResult solr:Result.node_Observation.7474 .
+
+solr:node_Observation.87 sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:node_Activity.87 ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.87 ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.node_Observation.87 ;
+    sol-ont:hasResult solr:Result.node_Observation.87 .
+
+solr:node_Observation.98943 sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:node_Activity.98943 ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.98943 ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.node_Observation.98943 ;
+    sol-ont:hasResult solr:Result.node_Observation.98943 .
+
+solr:peri_Observation.10 sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:peri_Activity.10 ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.10 ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.peri_Observation.10 ;
+    sol-ont:hasResult solr:Result.peri_Observation.10 .
+
+solr:peri_Observation.101955 sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:peri_Activity.101955 ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.101955 ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.peri_Observation.101955 ;
+    sol-ont:hasResult solr:Result.peri_Observation.101955 .
+
+solr:peri_Observation.10302 sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:peri_Activity.10302 ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.10302 ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.peri_Observation.10302 ;
+    sol-ont:hasResult solr:Result.peri_Observation.10302 .
+
+solr:peri_Observation.13 sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:peri_Activity.13 ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.13 ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.peri_Observation.13 ;
+    sol-ont:hasResult solr:Result.peri_Observation.13 .
+
+solr:peri_Observation.16 sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:peri_Activity.16 ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.16 ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.peri_Observation.16 ;
+    sol-ont:hasResult solr:Result.peri_Observation.16 .
+
+solr:peri_Observation.162173 sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:peri_Activity.162173 ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.162173 ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.peri_Observation.162173 ;
+    sol-ont:hasResult solr:Result.peri_Observation.162173 .
+
+solr:peri_Observation.19 sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:peri_Activity.19 ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.19 ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.peri_Observation.19 ;
+    sol-ont:hasResult solr:Result.peri_Observation.19 .
+
+solr:peri_Observation.1943 sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:peri_Activity.1943 ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.1943 ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.peri_Observation.1943 ;
+    sol-ont:hasResult solr:Result.peri_Observation.1943 .
+
+solr:peri_Observation.2 sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:peri_Activity.2 ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.2 ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.peri_Observation.2 ;
+    sol-ont:hasResult solr:Result.peri_Observation.2 .
+
+solr:peri_Observation.436724 sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:peri_Activity.436724 ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.436724 ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.peri_Observation.436724 ;
+    sol-ont:hasResult solr:Result.peri_Observation.436724 .
+
+solr:peri_Observation.4660 sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:peri_Activity.4660 ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.4660 ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.peri_Observation.4660 ;
+    sol-ont:hasResult solr:Result.peri_Observation.4660 .
+
+solr:peri_Observation.65803 sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:peri_Activity.65803 ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.65803 ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.peri_Observation.65803 ;
+    sol-ont:hasResult solr:Result.peri_Observation.65803 .
+
+solr:peri_Observation.7474 sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:peri_Activity.7474 ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.7474 ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.peri_Observation.7474 ;
+    sol-ont:hasResult solr:Result.peri_Observation.7474 .
+
+solr:peri_Observation.87 sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:peri_Activity.87 ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.87 ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.peri_Observation.87 ;
+    sol-ont:hasResult solr:Result.peri_Observation.87 .
+
+solr:peri_Observation.98943 sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:peri_Activity.98943 ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.98943 ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.peri_Observation.98943 ;
+    sol-ont:hasResult solr:Result.peri_Observation.98943 .
+
+solr:period_y_Observation.10 sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:period_y_Activity.10 ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.10 ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.period_y_Observation.10 ;
+    sol-ont:hasResult solr:Result.period_y_Observation.10 .
+
+solr:period_y_Observation.101955 sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:period_y_Activity.101955 ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.101955 ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.period_y_Observation.101955 ;
+    sol-ont:hasResult solr:Result.period_y_Observation.101955 .
+
+solr:period_y_Observation.10302 sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:period_y_Activity.10302 ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.10302 ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.period_y_Observation.10302 ;
+    sol-ont:hasResult solr:Result.period_y_Observation.10302 .
+
+solr:period_y_Observation.13 sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:period_y_Activity.13 ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.13 ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.period_y_Observation.13 ;
+    sol-ont:hasResult solr:Result.period_y_Observation.13 .
+
+solr:period_y_Observation.16 sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:period_y_Activity.16 ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.16 ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.period_y_Observation.16 ;
+    sol-ont:hasResult solr:Result.period_y_Observation.16 .
+
+solr:period_y_Observation.162173 sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:period_y_Activity.162173 ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.162173 ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.period_y_Observation.162173 ;
+    sol-ont:hasResult solr:Result.period_y_Observation.162173 .
+
+solr:period_y_Observation.19 sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:period_y_Activity.19 ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.19 ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.period_y_Observation.19 ;
+    sol-ont:hasResult solr:Result.period_y_Observation.19 .
+
+solr:period_y_Observation.1943 sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:period_y_Activity.1943 ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.1943 ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.period_y_Observation.1943 ;
+    sol-ont:hasResult solr:Result.period_y_Observation.1943 .
+
+solr:period_y_Observation.2 sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:period_y_Activity.2 ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.2 ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.period_y_Observation.2 ;
+    sol-ont:hasResult solr:Result.period_y_Observation.2 .
+
+solr:period_y_Observation.436724 sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:period_y_Activity.436724 ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.436724 ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.period_y_Observation.436724 ;
+    sol-ont:hasResult solr:Result.period_y_Observation.436724 .
+
+solr:period_y_Observation.4660 sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:period_y_Activity.4660 ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.4660 ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.period_y_Observation.4660 ;
+    sol-ont:hasResult solr:Result.period_y_Observation.4660 .
+
+solr:period_y_Observation.65803 sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:period_y_Activity.65803 ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.65803 ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.period_y_Observation.65803 ;
+    sol-ont:hasResult solr:Result.period_y_Observation.65803 .
+
+solr:period_y_Observation.7474 sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:period_y_Activity.7474 ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.7474 ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.period_y_Observation.7474 ;
+    sol-ont:hasResult solr:Result.period_y_Observation.7474 .
+
+solr:period_y_Observation.87 sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:period_y_Activity.87 ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.87 ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.period_y_Observation.87 ;
+    sol-ont:hasResult solr:Result.period_y_Observation.87 .
+
+solr:period_y_Observation.98943 sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:period_y_Activity.98943 ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.98943 ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.period_y_Observation.98943 ;
+    sol-ont:hasResult solr:Result.period_y_Observation.98943 .
+
+solr:q_Observation.10 sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:q_Activity.10 ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.10 ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.q_Observation.10 ;
+    sol-ont:hasResult solr:Result.q_Observation.10 .
+
+solr:q_Observation.101955 sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:q_Activity.101955 ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.101955 ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.q_Observation.101955 ;
+    sol-ont:hasResult solr:Result.q_Observation.101955 .
+
+solr:q_Observation.10302 sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:q_Activity.10302 ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.10302 ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.q_Observation.10302 ;
+    sol-ont:hasResult solr:Result.q_Observation.10302 .
+
+solr:q_Observation.13 sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:q_Activity.13 ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.13 ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.q_Observation.13 ;
+    sol-ont:hasResult solr:Result.q_Observation.13 .
+
+solr:q_Observation.16 sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:q_Activity.16 ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.16 ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.q_Observation.16 ;
+    sol-ont:hasResult solr:Result.q_Observation.16 .
+
+solr:q_Observation.162173 sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:q_Activity.162173 ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.162173 ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.q_Observation.162173 ;
+    sol-ont:hasResult solr:Result.q_Observation.162173 .
+
+solr:q_Observation.19 sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:q_Activity.19 ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.19 ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.q_Observation.19 ;
+    sol-ont:hasResult solr:Result.q_Observation.19 .
+
+solr:q_Observation.1943 sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:q_Activity.1943 ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.1943 ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.q_Observation.1943 ;
+    sol-ont:hasResult solr:Result.q_Observation.1943 .
+
+solr:q_Observation.2 sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:q_Activity.2 ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.2 ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.q_Observation.2 ;
+    sol-ont:hasResult solr:Result.q_Observation.2 .
+
+solr:q_Observation.436724 sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:q_Activity.436724 ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.436724 ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.q_Observation.436724 ;
+    sol-ont:hasResult solr:Result.q_Observation.436724 .
+
+solr:q_Observation.4660 sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:q_Activity.4660 ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.4660 ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.q_Observation.4660 ;
+    sol-ont:hasResult solr:Result.q_Observation.4660 .
+
+solr:q_Observation.65803 sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:q_Activity.65803 ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.65803 ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.q_Observation.65803 ;
+    sol-ont:hasResult solr:Result.q_Observation.65803 .
+
+solr:q_Observation.7474 sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:q_Activity.7474 ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.7474 ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.q_Observation.7474 ;
+    sol-ont:hasResult solr:Result.q_Observation.7474 .
+
+solr:q_Observation.87 sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:q_Activity.87 ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.87 ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.q_Observation.87 ;
+    sol-ont:hasResult solr:Result.q_Observation.87 .
+
+solr:q_Observation.98943 sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:q_Activity.98943 ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.98943 ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.q_Observation.98943 ;
+    sol-ont:hasResult solr:Result.q_Observation.98943 .
+
+solr:D_Activity.10 sol-ont:hasDescription "Diameter"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.NASA-JPL .
+
+solr:D_Activity.101955 sol-ont:hasDescription "Diameter"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.NASA-JPL .
+
+solr:D_Activity.10302 sol-ont:hasDescription "Diameter"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.NASA-JPL .
+
+solr:D_Activity.13 sol-ont:hasDescription "Diameter"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.NASA-JPL .
+
+solr:D_Activity.16 sol-ont:hasDescription "Diameter"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.NASA-JPL .
+
+solr:D_Activity.162173 sol-ont:hasDescription "Diameter"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.NASA-JPL .
+
+solr:D_Activity.19 sol-ont:hasDescription "Diameter"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.NASA-JPL .
+
+solr:D_Activity.1943 sol-ont:hasDescription "Diameter"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.NASA-JPL .
+
+solr:D_Activity.2 sol-ont:hasDescription "Diameter"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.NASA-JPL .
+
+solr:D_Activity.436724 sol-ont:hasDescription "Diameter"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.NASA-JPL .
+
+solr:D_Activity.4660 sol-ont:hasDescription "Diameter"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.NASA-JPL .
+
+solr:D_Activity.65803 sol-ont:hasDescription "Diameter"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.NASA-JPL .
+
+solr:D_Activity.7474 sol-ont:hasDescription "Diameter"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.NASA-JPL .
+
+solr:D_Activity.87 sol-ont:hasDescription "Diameter"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.NASA-JPL .
+
+solr:D_Activity.98943 sol-ont:hasDescription "Diameter"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.NASA-JPL .
+
+solr:M_Activity.10 sol-ont:hasDescription "Mean Anomaly"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.NASA-JPL .
+
+solr:M_Activity.101955 sol-ont:hasDescription "Mean Anomaly"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.NASA-JPL .
+
+solr:M_Activity.10302 sol-ont:hasDescription "Mean Anomaly"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.NASA-JPL .
+
+solr:M_Activity.13 sol-ont:hasDescription "Mean Anomaly"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.NASA-JPL .
+
+solr:M_Activity.16 sol-ont:hasDescription "Mean Anomaly"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.NASA-JPL .
+
+solr:M_Activity.162173 sol-ont:hasDescription "Mean Anomaly"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.NASA-JPL .
+
+solr:M_Activity.19 sol-ont:hasDescription "Mean Anomaly"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.NASA-JPL .
+
+solr:M_Activity.1943 sol-ont:hasDescription "Mean Anomaly"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.NASA-JPL .
+
+solr:M_Activity.2 sol-ont:hasDescription "Mean Anomaly"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.NASA-JPL .
+
+solr:M_Activity.436724 sol-ont:hasDescription "Mean Anomaly"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.NASA-JPL .
+
+solr:M_Activity.4660 sol-ont:hasDescription "Mean Anomaly"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.NASA-JPL .
+
+solr:M_Activity.65803 sol-ont:hasDescription "Mean Anomaly"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.NASA-JPL .
+
+solr:M_Activity.7474 sol-ont:hasDescription "Mean Anomaly"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.NASA-JPL .
+
+solr:M_Activity.87 sol-ont:hasDescription "Mean Anomaly"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.NASA-JPL .
+
+solr:M_Activity.98943 sol-ont:hasDescription "Mean Anomaly"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.NASA-JPL .
+
+solr:NumericValue.D_Observation.10 sol-ont:hasNumericValue 4.0712e+02 ;
+    sol-ont:hasUnit solr:Unit.D_Observation.10 .
+
+solr:NumericValue.D_Observation.101955 sol-ont:hasNumericValue 4.82e-01 ;
+    sol-ont:hasUnit solr:Unit.D_Observation.101955 .
+
+solr:NumericValue.D_Observation.10302 sol-ont:hasNumericValue "N/A"^^xsd:string ;
+    sol-ont:hasUnit solr:Unit.D_Observation.10302 .
+
+solr:NumericValue.D_Observation.13 sol-ont:hasNumericValue 2.02636e+02 ;
+    sol-ont:hasUnit solr:Unit.D_Observation.13 .
+
+solr:NumericValue.D_Observation.16 sol-ont:hasNumericValue 2.26e+02 ;
+    sol-ont:hasUnit solr:Unit.D_Observation.16 .
+
+solr:NumericValue.D_Observation.162173 sol-ont:hasNumericValue 8.96e-01 ;
+    sol-ont:hasUnit solr:Unit.D_Observation.162173 .
+
+solr:NumericValue.D_Observation.19 sol-ont:hasNumericValue 2e+02 ;
+    sol-ont:hasUnit solr:Unit.D_Observation.19 .
+
+solr:NumericValue.D_Observation.1943 sol-ont:hasNumericValue 2.3e+00 ;
+    sol-ont:hasUnit solr:Unit.D_Observation.1943 .
+
+solr:NumericValue.D_Observation.2 sol-ont:hasNumericValue 5.13e+02 ;
+    sol-ont:hasUnit solr:Unit.D_Observation.2 .
+
+solr:NumericValue.D_Observation.436724 sol-ont:hasNumericValue "N/A"^^xsd:string ;
+    sol-ont:hasUnit solr:Unit.D_Observation.436724 .
+
+solr:NumericValue.D_Observation.4660 sol-ont:hasNumericValue 3.3e-01 ;
+    sol-ont:hasUnit solr:Unit.D_Observation.4660 .
+
+solr:NumericValue.D_Observation.65803 sol-ont:hasNumericValue 7.8e-01 ;
+    sol-ont:hasUnit solr:Unit.D_Observation.65803 .
+
+solr:NumericValue.D_Observation.7474 sol-ont:hasNumericValue "N/A"^^xsd:string ;
+    sol-ont:hasUnit solr:Unit.D_Observation.7474 .
+
+solr:NumericValue.D_Observation.87 sol-ont:hasNumericValue 3.80449e+00 ;
+    sol-ont:hasUnit solr:Unit.D_Observation.87 .
+
+solr:NumericValue.D_Observation.98943 sol-ont:hasNumericValue "N/A"^^xsd:string ;
+    sol-ont:hasUnit solr:Unit.D_Observation.98943 .
+
+solr:NumericValue.M_Observation.10 sol-ont:hasNumericValue 3.973549e+01 ;
+    sol-ont:hasUnit solr:Unit.M_Observation.10 .
+
+solr:NumericValue.M_Observation.101955 sol-ont:hasNumericValue 1.01704e+02 ;
+    sol-ont:hasUnit solr:Unit.M_Observation.101955 .
+
+solr:NumericValue.M_Observation.10302 sol-ont:hasNumericValue 1.551315e+02 ;
+    sol-ont:hasUnit solr:Unit.M_Observation.10302 .
+
+solr:NumericValue.M_Observation.13 sol-ont:hasNumericValue 1.618386e+02 ;
+    sol-ont:hasUnit solr:Unit.M_Observation.13 .
+
+solr:NumericValue.M_Observation.16 sol-ont:hasNumericValue 2.038192e+02 ;
+    sol-ont:hasUnit solr:Unit.M_Observation.16 .
+
+solr:NumericValue.M_Observation.162173 sol-ont:hasNumericValue 2.323502e+02 ;
+    sol-ont:hasUnit solr:Unit.M_Observation.162173 .
+
+solr:NumericValue.M_Observation.19 sol-ont:hasNumericValue 1.982549e+02 ;
+    sol-ont:hasUnit solr:Unit.M_Observation.19 .
+
+solr:NumericValue.M_Observation.1943 sol-ont:hasNumericValue 4.43629e+01 ;
+    sol-ont:hasUnit solr:Unit.M_Observation.1943 .
+
+solr:NumericValue.M_Observation.2 sol-ont:hasNumericValue 3.578494e+02 ;
+    sol-ont:hasUnit solr:Unit.M_Observation.2 .
+
+solr:NumericValue.M_Observation.436724 sol-ont:hasNumericValue 2.475124e+02 ;
+    sol-ont:hasUnit solr:Unit.M_Observation.436724 .
+
+solr:NumericValue.M_Observation.4660 sol-ont:hasNumericValue 2.252152e+02 ;
+    sol-ont:hasUnit solr:Unit.M_Observation.4660 .
+
+solr:NumericValue.M_Observation.65803 sol-ont:hasNumericValue 5.909022e+01 ;
+    sol-ont:hasUnit solr:Unit.M_Observation.65803 .
+
+solr:NumericValue.M_Observation.7474 sol-ont:hasNumericValue 1.876768e+02 ;
+    sol-ont:hasUnit solr:Unit.M_Observation.7474 .
+
+solr:NumericValue.M_Observation.87 sol-ont:hasNumericValue 3.045279e+02 ;
+    sol-ont:hasUnit solr:Unit.M_Observation.87 .
+
+solr:NumericValue.M_Observation.98943 sol-ont:hasNumericValue 2.808562e+02 ;
+    sol-ont:hasUnit solr:Unit.M_Observation.98943 .
+
+solr:NumericValue.Q_Observation.10 sol-ont:hasNumericValue 3.489241e+00 ;
+    sol-ont:hasUnit solr:Unit.Q_Observation.10 .
+
+solr:NumericValue.Q_Observation.101955 sol-ont:hasNumericValue 1.355888e+00 ;
+    sol-ont:hasUnit solr:Unit.Q_Observation.101955 .
+
+solr:NumericValue.Q_Observation.10302 sol-ont:hasNumericValue 1.447057e+00 ;
+    sol-ont:hasUnit solr:Unit.Q_Observation.10302 .
+
+solr:NumericValue.Q_Observation.13 sol-ont:hasNumericValue 2.796073e+00 ;
+    sol-ont:hasUnit solr:Unit.Q_Observation.13 .
+
+solr:NumericValue.Q_Observation.16 sol-ont:hasNumericValue 3.316324e+00 ;
+    sol-ont:hasUnit solr:Unit.Q_Observation.16 .
+
+solr:NumericValue.Q_Observation.162173 sol-ont:hasNumericValue 1.418531e+00 ;
+    sol-ont:hasUnit solr:Unit.Q_Observation.162173 .
+
+solr:NumericValue.Q_Observation.19 sol-ont:hasNumericValue 2.826748e+00 ;
+    sol-ont:hasUnit solr:Unit.Q_Observation.19 .
+
+solr:NumericValue.Q_Observation.1943 sol-ont:hasNumericValue 1.796616e+00 ;
+    sol-ont:hasUnit solr:Unit.Q_Observation.1943 .
+
+solr:NumericValue.Q_Observation.2 sol-ont:hasNumericValue 3.406881e+00 ;
+    sol-ont:hasUnit solr:Unit.Q_Observation.2 .
+
+solr:NumericValue.Q_Observation.436724 sol-ont:hasNumericValue 2.230463e+00 ;
+    sol-ont:hasUnit solr:Unit.Q_Observation.436724 .
+
+solr:NumericValue.Q_Observation.4660 sol-ont:hasNumericValue 2.017813e+00 ;
+    sol-ont:hasUnit solr:Unit.Q_Observation.4660 .
+
+solr:NumericValue.Q_Observation.65803 sol-ont:hasNumericValue 2.272102e+00 ;
+    sol-ont:hasUnit solr:Unit.Q_Observation.65803 .
+
+solr:NumericValue.Q_Observation.7474 sol-ont:hasNumericValue 2.023261e+00 ;
+    sol-ont:hasUnit solr:Unit.Q_Observation.7474 .
+
+solr:NumericValue.Q_Observation.87 sol-ont:hasNumericValue 3.80449e+00 ;
+    sol-ont:hasUnit solr:Unit.Q_Observation.87 .
+
+solr:NumericValue.Q_Observation.98943 sol-ont:hasNumericValue 1.258531e+00 ;
+    sol-ont:hasUnit solr:Unit.Q_Observation.98943 .
+
+solr:NumericValue.a_Observation.10 sol-ont:hasNumericValue 3.140181e+00 ;
+    sol-ont:hasUnit solr:Unit.a_Observation.10 .
+
+solr:NumericValue.a_Observation.101955 sol-ont:hasNumericValue 1.126391e+00 ;
+    sol-ont:hasUnit solr:Unit.a_Observation.101955 .
+
+solr:NumericValue.a_Observation.10302 sol-ont:hasNumericValue 1.272793e+00 ;
+    sol-ont:hasUnit solr:Unit.a_Observation.10302 .
+
+solr:NumericValue.a_Observation.13 sol-ont:hasNumericValue 2.575575e+00 ;
+    sol-ont:hasUnit solr:Unit.a_Observation.13 .
+
+solr:NumericValue.a_Observation.16 sol-ont:hasNumericValue 2.924145e+00 ;
+    sol-ont:hasUnit solr:Unit.a_Observation.16 .
+
+solr:NumericValue.a_Observation.162173 sol-ont:hasNumericValue 1.190952e+00 ;
+    sol-ont:hasUnit solr:Unit.a_Observation.162173 .
+
+solr:NumericValue.a_Observation.19 sol-ont:hasNumericValue 2.442682e+00 ;
+    sol-ont:hasUnit solr:Unit.a_Observation.19 .
+
+solr:NumericValue.a_Observation.1943 sol-ont:hasNumericValue 1.430389e+00 ;
+    sol-ont:hasUnit solr:Unit.a_Observation.1943 .
+
+solr:NumericValue.a_Observation.2 sol-ont:hasNumericValue 2.769632e+00 ;
+    sol-ont:hasUnit solr:Unit.a_Observation.2 .
+
+solr:NumericValue.a_Observation.436724 sol-ont:hasNumericValue 1.620717e+00 ;
+    sol-ont:hasUnit solr:Unit.a_Observation.436724 .
+
+solr:NumericValue.a_Observation.4660 sol-ont:hasNumericValue 1.485023e+00 ;
+    sol-ont:hasUnit solr:Unit.a_Observation.4660 .
+
+solr:NumericValue.a_Observation.65803 sol-ont:hasNumericValue 1.642544e+00 ;
+    sol-ont:hasUnit solr:Unit.a_Observation.65803 .
+
+solr:NumericValue.a_Observation.7474 sol-ont:hasNumericValue 1.565741e+00 ;
+    sol-ont:hasUnit solr:Unit.a_Observation.7474 .
+
+solr:NumericValue.a_Observation.87 sol-ont:hasNumericValue 3.4777e+00 ;
+    sol-ont:hasUnit solr:Unit.a_Observation.87 .
+
+solr:NumericValue.a_Observation.98943 sol-ont:hasNumericValue 1.032226e+00 ;
+    sol-ont:hasUnit solr:Unit.a_Observation.98943 .
+
+solr:NumericValue.e_Observation.10 sol-ont:hasNumericValue 1.11159e-01 ;
+    sol-ont:hasUnit solr:Unit.e_Observation.10 .
+
+solr:NumericValue.e_Observation.101955 sol-ont:hasNumericValue 2.037451e-01 ;
+    sol-ont:hasUnit solr:Unit.e_Observation.101955 .
+
+solr:NumericValue.e_Observation.10302 sol-ont:hasNumericValue 1.369146e-01 ;
+    sol-ont:hasUnit solr:Unit.e_Observation.10302 .
+
+solr:NumericValue.e_Observation.13 sol-ont:hasNumericValue 8.561105e-02 ;
+    sol-ont:hasUnit solr:Unit.e_Observation.13 .
+
+solr:NumericValue.e_Observation.16 sol-ont:hasNumericValue 1.341174e-01 ;
+    sol-ont:hasUnit solr:Unit.e_Observation.16 .
+
+solr:NumericValue.e_Observation.162173 sol-ont:hasNumericValue 1.910898e-01 ;
+    sol-ont:hasUnit solr:Unit.e_Observation.162173 .
+
+solr:NumericValue.e_Observation.19 sol-ont:hasNumericValue 1.572313e-01 ;
+    sol-ont:hasUnit solr:Unit.e_Observation.19 .
+
+solr:NumericValue.e_Observation.1943 sol-ont:hasNumericValue 2.560326e-01 ;
+    sol-ont:hasUnit solr:Unit.e_Observation.1943 .
+
+solr:NumericValue.e_Observation.2 sol-ont:hasNumericValue 2.300844e-01 ;
+    sol-ont:hasUnit solr:Unit.e_Observation.2 .
+
+solr:NumericValue.e_Observation.436724 sol-ont:hasNumericValue 3.762201e-01 ;
+    sol-ont:hasUnit solr:Unit.e_Observation.436724 .
+
+solr:NumericValue.e_Observation.4660 sol-ont:hasNumericValue 3.587754e-01 ;
+    sol-ont:hasUnit solr:Unit.e_Observation.4660 .
+
+solr:NumericValue.e_Observation.65803 sol-ont:hasNumericValue 3.832817e-01 ;
+    sol-ont:hasUnit solr:Unit.e_Observation.65803 .
+
+solr:NumericValue.e_Observation.7474 sol-ont:hasNumericValue 2.922064e-01 ;
+    sol-ont:hasUnit solr:Unit.e_Observation.7474 .
+
+solr:NumericValue.e_Observation.87 sol-ont:hasNumericValue 9.396728e-02 ;
+    sol-ont:hasUnit solr:Unit.e_Observation.87 .
+
+solr:NumericValue.e_Observation.98943 sol-ont:hasNumericValue 2.192398e-01 ;
+    sol-ont:hasUnit solr:Unit.e_Observation.98943 .
+
+solr:NumericValue.i_Observation.10 sol-ont:hasNumericValue 3.831728e+00 ;
+    sol-ont:hasUnit solr:Unit.i_Observation.10 .
+
+solr:NumericValue.i_Observation.101955 sol-ont:hasNumericValue 6.034944e+00 ;
+    sol-ont:hasUnit solr:Unit.i_Observation.101955 .
+
+solr:NumericValue.i_Observation.10302 sol-ont:hasNumericValue 4.378652e+00 ;
+    sol-ont:hasUnit solr:Unit.i_Observation.10302 .
+
+solr:NumericValue.i_Observation.13 sol-ont:hasNumericValue 1.653668e+01 ;
+    sol-ont:hasUnit solr:Unit.i_Observation.13 .
+
+solr:NumericValue.i_Observation.16 sol-ont:hasNumericValue 3.096845e+00 ;
+    sol-ont:hasUnit solr:Unit.i_Observation.16 .
+
+solr:NumericValue.i_Observation.162173 sol-ont:hasNumericValue 5.866179e+00 ;
+    sol-ont:hasUnit solr:Unit.i_Observation.162173 .
+
+solr:NumericValue.i_Observation.19 sol-ont:hasNumericValue 1.57341e+00 ;
+    sol-ont:hasUnit solr:Unit.i_Observation.19 .
+
+solr:NumericValue.i_Observation.1943 sol-ont:hasNumericValue 8.706154e+00 ;
+    sol-ont:hasUnit solr:Unit.i_Observation.1943 .
+
+solr:NumericValue.i_Observation.2 sol-ont:hasNumericValue 3.492703e+01 ;
+    sol-ont:hasUnit solr:Unit.i_Observation.2 .
+
+solr:NumericValue.i_Observation.436724 sol-ont:hasNumericValue 4.570993e+00 ;
+    sol-ont:hasUnit solr:Unit.i_Observation.436724 .
+
+solr:NumericValue.i_Observation.4660 sol-ont:hasNumericValue 1.453737e+00 ;
+    sol-ont:hasUnit solr:Unit.i_Observation.4660 .
+
+solr:NumericValue.i_Observation.65803 sol-ont:hasNumericValue 3.414109e+00 ;
+    sol-ont:hasUnit solr:Unit.i_Observation.65803 .
+
+solr:NumericValue.i_Observation.7474 sol-ont:hasNumericValue 7.087578e+00 ;
+    sol-ont:hasUnit solr:Unit.i_Observation.7474 .
+
+solr:NumericValue.i_Observation.87 sol-ont:hasNumericValue 1.087984e+01 ;
+    sol-ont:hasUnit solr:Unit.i_Observation.87 .
+
+solr:NumericValue.i_Observation.98943 sol-ont:hasNumericValue 4.806716e+00 ;
+    sol-ont:hasUnit solr:Unit.i_Observation.98943 .
+
+solr:NumericValue.n_Observation.10 sol-ont:hasNumericValue 1.771218e-01 ;
+    sol-ont:hasUnit solr:Unit.n_Observation.10 .
+
+solr:NumericValue.n_Observation.101955 sol-ont:hasNumericValue 8.244613e-01 ;
+    sol-ont:hasUnit solr:Unit.n_Observation.101955 .
+
+solr:NumericValue.n_Observation.10302 sol-ont:hasNumericValue 6.863847e-01 ;
+    sol-ont:hasUnit solr:Unit.n_Observation.10302 .
+
+solr:NumericValue.n_Observation.13 sol-ont:hasNumericValue 2.384474e-01 ;
+    sol-ont:hasUnit solr:Unit.n_Observation.13 .
+
+solr:NumericValue.n_Observation.16 sol-ont:hasNumericValue 1.971087e-01 ;
+    sol-ont:hasUnit solr:Unit.n_Observation.16 .
+
+solr:NumericValue.n_Observation.162173 sol-ont:hasNumericValue 7.583378e-01 ;
+    sol-ont:hasUnit solr:Unit.n_Observation.162173 .
+
+solr:NumericValue.n_Observation.19 sol-ont:hasNumericValue 2.581688e-01 ;
+    sol-ont:hasUnit solr:Unit.n_Observation.19 .
+
+solr:NumericValue.n_Observation.1943 sol-ont:hasNumericValue 5.761329e-01 ;
+    sol-ont:hasUnit solr:Unit.n_Observation.1943 .
+
+solr:NumericValue.n_Observation.2 sol-ont:hasNumericValue 2.138312e-01 ;
+    sol-ont:hasUnit solr:Unit.n_Observation.2 .
+
+solr:NumericValue.n_Observation.436724 sol-ont:hasNumericValue 4.776868e-01 ;
+    sol-ont:hasUnit solr:Unit.n_Observation.436724 .
+
+solr:NumericValue.n_Observation.4660 sol-ont:hasNumericValue 5.446333e-01 ;
+    sol-ont:hasUnit solr:Unit.n_Observation.4660 .
+
+solr:NumericValue.n_Observation.65803 sol-ont:hasNumericValue 4.681967e-01 ;
+    sol-ont:hasUnit solr:Unit.n_Observation.65803 .
+
+solr:NumericValue.n_Observation.7474 sol-ont:hasNumericValue 5.03065e-01 ;
+    sol-ont:hasUnit solr:Unit.n_Observation.7474 .
+
+solr:NumericValue.n_Observation.87 sol-ont:hasNumericValue 1.519728e-01 ;
+    sol-ont:hasUnit solr:Unit.n_Observation.87 .
+
+solr:NumericValue.n_Observation.98943 sol-ont:hasNumericValue 9.398134e-01 ;
+    sol-ont:hasUnit solr:Unit.n_Observation.98943 .
+
+solr:NumericValue.node_Observation.10 sol-ont:hasNumericValue 2.831732e+02 ;
+    sol-ont:hasUnit solr:Unit.node_Observation.10 .
+
+solr:NumericValue.node_Observation.101955 sol-ont:hasNumericValue 2.060866e+00 ;
+    sol-ont:hasUnit solr:Unit.node_Observation.101955 .
+
+solr:NumericValue.node_Observation.10302 sol-ont:hasNumericValue 1.042814e+02 ;
+    sol-ont:hasUnit solr:Unit.node_Observation.10302 .
+
+solr:NumericValue.node_Observation.13 sol-ont:hasNumericValue 4.320839e+01 ;
+    sol-ont:hasUnit solr:Unit.node_Observation.13 .
+
+solr:NumericValue.node_Observation.16 sol-ont:hasNumericValue 1.500308e+02 ;
+    sol-ont:hasUnit solr:Unit.node_Observation.16 .
+
+solr:NumericValue.node_Observation.162173 sol-ont:hasNumericValue 2.513013e+02 ;
+    sol-ont:hasUnit solr:Unit.node_Observation.162173 .
+
+solr:NumericValue.node_Observation.19 sol-ont:hasNumericValue 2.110343e+02 ;
+    sol-ont:hasUnit solr:Unit.node_Observation.19 .
+
+solr:NumericValue.node_Observation.1943 sol-ont:hasNumericValue 2.463069e+02 ;
+    sol-ont:hasUnit solr:Unit.node_Observation.1943 .
+
+solr:NumericValue.node_Observation.2 sol-ont:hasNumericValue 1.729181e+02 ;
+    sol-ont:hasUnit solr:Unit.node_Observation.2 .
+
+solr:NumericValue.node_Observation.436724 sol-ont:hasNumericValue 2.859766e+02 ;
+    sol-ont:hasUnit solr:Unit.node_Observation.436724 .
+
+solr:NumericValue.node_Observation.4660 sol-ont:hasNumericValue 3.131381e+02 ;
+    sol-ont:hasUnit solr:Unit.node_Observation.4660 .
+
+solr:NumericValue.node_Observation.65803 sol-ont:hasNumericValue 7.299109e+01 ;
+    sol-ont:hasUnit solr:Unit.node_Observation.65803 .
+
+solr:NumericValue.node_Observation.7474 sol-ont:hasNumericValue 8.860908e+01 ;
+    sol-ont:hasUnit solr:Unit.node_Observation.7474 .
+
+solr:NumericValue.node_Observation.87 sol-ont:hasNumericValue 7.301038e+01 ;
+    sol-ont:hasUnit solr:Unit.node_Observation.87 .
+
+solr:NumericValue.node_Observation.98943 sol-ont:hasNumericValue 7.551921e+01 ;
+    sol-ont:hasUnit solr:Unit.node_Observation.98943 .
+
+solr:NumericValue.peri_Observation.10 sol-ont:hasNumericValue 3.124867e+02 ;
+    sol-ont:hasUnit solr:Unit.peri_Observation.10 .
+
+solr:NumericValue.peri_Observation.101955 sol-ont:hasNumericValue 6.622306e+01 ;
+    sol-ont:hasUnit solr:Unit.peri_Observation.101955 .
+
+solr:NumericValue.peri_Observation.10302 sol-ont:hasNumericValue 1.83624e+02 ;
+    sol-ont:hasUnit solr:Unit.peri_Observation.10302 .
+
+solr:NumericValue.peri_Observation.13 sol-ont:hasNumericValue 7.990611e+01 ;
+    sol-ont:hasUnit solr:Unit.peri_Observation.13 .
+
+solr:NumericValue.peri_Observation.16 sol-ont:hasNumericValue 2.293282e+02 ;
+    sol-ont:hasUnit solr:Unit.peri_Observation.16 .
+
+solr:NumericValue.peri_Observation.162173 sol-ont:hasNumericValue 2.116069e+02 ;
+    sol-ont:hasUnit solr:Unit.peri_Observation.162173 .
+
+solr:NumericValue.peri_Observation.19 sol-ont:hasNumericValue 1.825434e+02 ;
+    sol-ont:hasUnit solr:Unit.peri_Observation.19 .
+
+solr:NumericValue.peri_Observation.1943 sol-ont:hasNumericValue 3.383586e+02 ;
+    sol-ont:hasUnit solr:Unit.peri_Observation.1943 .
+
+solr:NumericValue.peri_Observation.2 sol-ont:hasNumericValue 3.108648e+02 ;
+    sol-ont:hasUnit solr:Unit.peri_Observation.2 .
+
+solr:NumericValue.peri_Observation.436724 sol-ont:hasNumericValue 8.795544e+00 ;
+    sol-ont:hasUnit solr:Unit.peri_Observation.436724 .
+
+solr:NumericValue.peri_Observation.4660 sol-ont:hasNumericValue 1.6e+02 ;
+    sol-ont:hasUnit solr:Unit.peri_Observation.4660 .
+
+solr:NumericValue.peri_Observation.65803 sol-ont:hasNumericValue 3.195616e+02 ;
+    sol-ont:hasUnit solr:Unit.peri_Observation.65803 .
+
+solr:NumericValue.peri_Observation.7474 sol-ont:hasNumericValue 2.756459e+02 ;
+    sol-ont:hasUnit solr:Unit.peri_Observation.7474 .
+
+solr:NumericValue.peri_Observation.87 sol-ont:hasNumericValue 2.642882e+02 ;
+    sol-ont:hasUnit solr:Unit.peri_Observation.87 .
+
+solr:NumericValue.peri_Observation.98943 sol-ont:hasNumericValue 1.794407e+02 ;
+    sol-ont:hasUnit solr:Unit.peri_Observation.98943 .
+
+solr:NumericValue.period_y_Observation.10 sol-ont:hasNumericValue 5.564681e+00 ;
+    sol-ont:hasUnit solr:Unit.period_y_Observation.10 .
+
+solr:NumericValue.period_y_Observation.101955 sol-ont:hasNumericValue 1.195479e+00 ;
+    sol-ont:hasUnit solr:Unit.period_y_Observation.101955 .
+
+solr:NumericValue.period_y_Observation.10302 sol-ont:hasNumericValue 1.435968e+00 ;
+    sol-ont:hasUnit solr:Unit.period_y_Observation.10302 .
+
+solr:NumericValue.period_y_Observation.13 sol-ont:hasNumericValue 4.133516e+00 ;
+    sol-ont:hasUnit solr:Unit.period_y_Observation.13 .
+
+solr:NumericValue.period_y_Observation.16 sol-ont:hasNumericValue 5.000421e+00 ;
+    sol-ont:hasUnit solr:Unit.period_y_Observation.16 .
+
+solr:NumericValue.period_y_Observation.162173 sol-ont:hasNumericValue 1.299719e+00 ;
+    sol-ont:hasUnit solr:Unit.period_y_Observation.162173 .
+
+solr:NumericValue.period_y_Observation.19 sol-ont:hasNumericValue 3.81776e+00 ;
+    sol-ont:hasUnit solr:Unit.period_y_Observation.19 .
+
+solr:NumericValue.period_y_Observation.1943 sol-ont:hasNumericValue 1.710762e+00 ;
+    sol-ont:hasUnit solr:Unit.period_y_Observation.1943 .
+
+solr:NumericValue.period_y_Observation.2 sol-ont:hasNumericValue 4.609366e+00 ;
+    sol-ont:hasUnit solr:Unit.period_y_Observation.2 .
+
+solr:NumericValue.period_y_Observation.436724 sol-ont:hasNumericValue 2.063332e+00 ;
+    sol-ont:hasUnit solr:Unit.period_y_Observation.436724 .
+
+solr:NumericValue.period_y_Observation.4660 sol-ont:hasNumericValue 1.809706e+00 ;
+    sol-ont:hasUnit solr:Unit.period_y_Observation.4660 .
+
+solr:NumericValue.period_y_Observation.65803 sol-ont:hasNumericValue 2.105154e+00 ;
+    sol-ont:hasUnit solr:Unit.period_y_Observation.65803 .
+
+solr:NumericValue.period_y_Observation.7474 sol-ont:hasNumericValue 1.959242e+00 ;
+    sol-ont:hasUnit solr:Unit.period_y_Observation.7474 .
+
+solr:NumericValue.period_y_Observation.87 sol-ont:hasNumericValue 6.485543e+00 ;
+    sol-ont:hasUnit solr:Unit.period_y_Observation.87 .
+
+solr:NumericValue.period_y_Observation.98943 sol-ont:hasNumericValue 1.048747e+00 ;
+    sol-ont:hasUnit solr:Unit.period_y_Observation.98943 .
+
+solr:NumericValue.q_Observation.10 sol-ont:hasNumericValue 2.791122e+00 ;
+    sol-ont:hasUnit solr:Unit.q_Observation.10 .
+
+solr:NumericValue.q_Observation.101955 sol-ont:hasNumericValue 8.968944e-01 ;
+    sol-ont:hasUnit solr:Unit.q_Observation.101955 .
+
+solr:NumericValue.q_Observation.10302 sol-ont:hasNumericValue 1.098529e+00 ;
+    sol-ont:hasUnit solr:Unit.q_Observation.10302 .
+
+solr:NumericValue.q_Observation.13 sol-ont:hasNumericValue 2.355078e+00 ;
+    sol-ont:hasUnit solr:Unit.q_Observation.13 .
+
+solr:NumericValue.q_Observation.16 sol-ont:hasNumericValue 2.531966e+00 ;
+    sol-ont:hasUnit solr:Unit.q_Observation.16 .
+
+solr:NumericValue.q_Observation.162173 sol-ont:hasNumericValue 9.633731e-01 ;
+    sol-ont:hasUnit solr:Unit.q_Observation.162173 .
+
+solr:NumericValue.q_Observation.19 sol-ont:hasNumericValue 2.058616e+00 ;
+    sol-ont:hasUnit solr:Unit.q_Observation.19 .
+
+solr:NumericValue.q_Observation.1943 sol-ont:hasNumericValue 1.064163e+00 ;
+    sol-ont:hasUnit solr:Unit.q_Observation.1943 .
+
+solr:NumericValue.q_Observation.2 sol-ont:hasNumericValue 2.132383e+00 ;
+    sol-ont:hasUnit solr:Unit.q_Observation.2 .
+
+solr:NumericValue.q_Observation.436724 sol-ont:hasNumericValue 1.010971e+00 ;
+    sol-ont:hasUnit solr:Unit.q_Observation.436724 .
+
+solr:NumericValue.q_Observation.4660 sol-ont:hasNumericValue 9.522335e-01 ;
+    sol-ont:hasUnit solr:Unit.q_Observation.4660 .
+
+solr:NumericValue.q_Observation.65803 sol-ont:hasNumericValue 1.012987e+00 ;
+    sol-ont:hasUnit solr:Unit.q_Observation.65803 .
+
+solr:NumericValue.q_Observation.7474 sol-ont:hasNumericValue 1.108222e+00 ;
+    sol-ont:hasUnit solr:Unit.q_Observation.7474 .
+
+solr:NumericValue.q_Observation.87 sol-ont:hasNumericValue 3.15091e+00 ;
+    sol-ont:hasUnit solr:Unit.q_Observation.87 .
+
+solr:NumericValue.q_Observation.98943 sol-ont:hasNumericValue 8.059213e-01 ;
+    sol-ont:hasUnit solr:Unit.q_Observation.98943 .
+
+solr:OrbitalProperty.D_Observation.10 a sol-ont:ObservableProperty .
+
+solr:OrbitalProperty.D_Observation.101955 a sol-ont:ObservableProperty .
+
+solr:OrbitalProperty.D_Observation.10302 a sol-ont:ObservableProperty .
+
+solr:OrbitalProperty.D_Observation.13 a sol-ont:ObservableProperty .
+
+solr:OrbitalProperty.D_Observation.16 a sol-ont:ObservableProperty .
+
+solr:OrbitalProperty.D_Observation.162173 a sol-ont:ObservableProperty .
+
+solr:OrbitalProperty.D_Observation.19 a sol-ont:ObservableProperty .
+
+solr:OrbitalProperty.D_Observation.1943 a sol-ont:ObservableProperty .
+
+solr:OrbitalProperty.D_Observation.2 a sol-ont:ObservableProperty .
+
+solr:OrbitalProperty.D_Observation.436724 a sol-ont:ObservableProperty .
+
+solr:OrbitalProperty.D_Observation.4660 a sol-ont:ObservableProperty .
+
+solr:OrbitalProperty.D_Observation.65803 a sol-ont:ObservableProperty .
+
+solr:OrbitalProperty.D_Observation.7474 a sol-ont:ObservableProperty .
+
+solr:OrbitalProperty.D_Observation.87 a sol-ont:ObservableProperty .
+
+solr:OrbitalProperty.D_Observation.98943 a sol-ont:ObservableProperty .
+
+solr:OrbitalProperty.M_Observation.10 a sol-ont:ObservableProperty .
+
+solr:OrbitalProperty.M_Observation.101955 a sol-ont:ObservableProperty .
+
+solr:OrbitalProperty.M_Observation.10302 a sol-ont:ObservableProperty .
+
+solr:OrbitalProperty.M_Observation.13 a sol-ont:ObservableProperty .
+
+solr:OrbitalProperty.M_Observation.16 a sol-ont:ObservableProperty .
+
+solr:OrbitalProperty.M_Observation.162173 a sol-ont:ObservableProperty .
+
+solr:OrbitalProperty.M_Observation.19 a sol-ont:ObservableProperty .
+
+solr:OrbitalProperty.M_Observation.1943 a sol-ont:ObservableProperty .
+
+solr:OrbitalProperty.M_Observation.2 a sol-ont:ObservableProperty .
+
+solr:OrbitalProperty.M_Observation.436724 a sol-ont:ObservableProperty .
+
+solr:OrbitalProperty.M_Observation.4660 a sol-ont:ObservableProperty .
+
+solr:OrbitalProperty.M_Observation.65803 a sol-ont:ObservableProperty .
+
+solr:OrbitalProperty.M_Observation.7474 a sol-ont:ObservableProperty .
+
+solr:OrbitalProperty.M_Observation.87 a sol-ont:ObservableProperty .
+
+solr:OrbitalProperty.M_Observation.98943 a sol-ont:ObservableProperty .
+
+solr:OrbitalProperty.Q_Observation.10 a sol-ont:ObservableProperty .
+
+solr:OrbitalProperty.Q_Observation.101955 a sol-ont:ObservableProperty .
+
+solr:OrbitalProperty.Q_Observation.10302 a sol-ont:ObservableProperty .
+
+solr:OrbitalProperty.Q_Observation.13 a sol-ont:ObservableProperty .
+
+solr:OrbitalProperty.Q_Observation.16 a sol-ont:ObservableProperty .
+
+solr:OrbitalProperty.Q_Observation.162173 a sol-ont:ObservableProperty .
+
+solr:OrbitalProperty.Q_Observation.19 a sol-ont:ObservableProperty .
+
+solr:OrbitalProperty.Q_Observation.1943 a sol-ont:ObservableProperty .
+
+solr:OrbitalProperty.Q_Observation.2 a sol-ont:ObservableProperty .
+
+solr:OrbitalProperty.Q_Observation.436724 a sol-ont:ObservableProperty .
+
+solr:OrbitalProperty.Q_Observation.4660 a sol-ont:ObservableProperty .
+
+solr:OrbitalProperty.Q_Observation.65803 a sol-ont:ObservableProperty .
+
+solr:OrbitalProperty.Q_Observation.7474 a sol-ont:ObservableProperty .
+
+solr:OrbitalProperty.Q_Observation.87 a sol-ont:ObservableProperty .
+
+solr:OrbitalProperty.Q_Observation.98943 a sol-ont:ObservableProperty .
+
+solr:OrbitalProperty.a_Observation.10 a sol-ont:ObservableProperty .
+
+solr:OrbitalProperty.a_Observation.101955 a sol-ont:ObservableProperty .
+
+solr:OrbitalProperty.a_Observation.10302 a sol-ont:ObservableProperty .
+
+solr:OrbitalProperty.a_Observation.13 a sol-ont:ObservableProperty .
+
+solr:OrbitalProperty.a_Observation.16 a sol-ont:ObservableProperty .
+
+solr:OrbitalProperty.a_Observation.162173 a sol-ont:ObservableProperty .
+
+solr:OrbitalProperty.a_Observation.19 a sol-ont:ObservableProperty .
+
+solr:OrbitalProperty.a_Observation.1943 a sol-ont:ObservableProperty .
+
+solr:OrbitalProperty.a_Observation.2 a sol-ont:ObservableProperty .
+
+solr:OrbitalProperty.a_Observation.436724 a sol-ont:ObservableProperty .
+
+solr:OrbitalProperty.a_Observation.4660 a sol-ont:ObservableProperty .
+
+solr:OrbitalProperty.a_Observation.65803 a sol-ont:ObservableProperty .
+
+solr:OrbitalProperty.a_Observation.7474 a sol-ont:ObservableProperty .
+
+solr:OrbitalProperty.a_Observation.87 a sol-ont:ObservableProperty .
+
+solr:OrbitalProperty.a_Observation.98943 a sol-ont:ObservableProperty .
+
+solr:OrbitalProperty.e_Observation.10 a sol-ont:ObservableProperty .
+
+solr:OrbitalProperty.e_Observation.101955 a sol-ont:ObservableProperty .
+
+solr:OrbitalProperty.e_Observation.10302 a sol-ont:ObservableProperty .
+
+solr:OrbitalProperty.e_Observation.13 a sol-ont:ObservableProperty .
+
+solr:OrbitalProperty.e_Observation.16 a sol-ont:ObservableProperty .
+
+solr:OrbitalProperty.e_Observation.162173 a sol-ont:ObservableProperty .
+
+solr:OrbitalProperty.e_Observation.19 a sol-ont:ObservableProperty .
+
+solr:OrbitalProperty.e_Observation.1943 a sol-ont:ObservableProperty .
+
+solr:OrbitalProperty.e_Observation.2 a sol-ont:ObservableProperty .
+
+solr:OrbitalProperty.e_Observation.436724 a sol-ont:ObservableProperty .
+
+solr:OrbitalProperty.e_Observation.4660 a sol-ont:ObservableProperty .
+
+solr:OrbitalProperty.e_Observation.65803 a sol-ont:ObservableProperty .
+
+solr:OrbitalProperty.e_Observation.7474 a sol-ont:ObservableProperty .
+
+solr:OrbitalProperty.e_Observation.87 a sol-ont:ObservableProperty .
+
+solr:OrbitalProperty.e_Observation.98943 a sol-ont:ObservableProperty .
+
+solr:OrbitalProperty.i_Observation.10 a sol-ont:ObservableProperty .
+
+solr:OrbitalProperty.i_Observation.101955 a sol-ont:ObservableProperty .
+
+solr:OrbitalProperty.i_Observation.10302 a sol-ont:ObservableProperty .
+
+solr:OrbitalProperty.i_Observation.13 a sol-ont:ObservableProperty .
+
+solr:OrbitalProperty.i_Observation.16 a sol-ont:ObservableProperty .
+
+solr:OrbitalProperty.i_Observation.162173 a sol-ont:ObservableProperty .
+
+solr:OrbitalProperty.i_Observation.19 a sol-ont:ObservableProperty .
+
+solr:OrbitalProperty.i_Observation.1943 a sol-ont:ObservableProperty .
+
+solr:OrbitalProperty.i_Observation.2 a sol-ont:ObservableProperty .
+
+solr:OrbitalProperty.i_Observation.436724 a sol-ont:ObservableProperty .
+
+solr:OrbitalProperty.i_Observation.4660 a sol-ont:ObservableProperty .
+
+solr:OrbitalProperty.i_Observation.65803 a sol-ont:ObservableProperty .
+
+solr:OrbitalProperty.i_Observation.7474 a sol-ont:ObservableProperty .
+
+solr:OrbitalProperty.i_Observation.87 a sol-ont:ObservableProperty .
+
+solr:OrbitalProperty.i_Observation.98943 a sol-ont:ObservableProperty .
+
+solr:OrbitalProperty.n_Observation.10 a sol-ont:ObservableProperty .
+
+solr:OrbitalProperty.n_Observation.101955 a sol-ont:ObservableProperty .
+
+solr:OrbitalProperty.n_Observation.10302 a sol-ont:ObservableProperty .
+
+solr:OrbitalProperty.n_Observation.13 a sol-ont:ObservableProperty .
+
+solr:OrbitalProperty.n_Observation.16 a sol-ont:ObservableProperty .
+
+solr:OrbitalProperty.n_Observation.162173 a sol-ont:ObservableProperty .
+
+solr:OrbitalProperty.n_Observation.19 a sol-ont:ObservableProperty .
+
+solr:OrbitalProperty.n_Observation.1943 a sol-ont:ObservableProperty .
+
+solr:OrbitalProperty.n_Observation.2 a sol-ont:ObservableProperty .
+
+solr:OrbitalProperty.n_Observation.436724 a sol-ont:ObservableProperty .
+
+solr:OrbitalProperty.n_Observation.4660 a sol-ont:ObservableProperty .
+
+solr:OrbitalProperty.n_Observation.65803 a sol-ont:ObservableProperty .
+
+solr:OrbitalProperty.n_Observation.7474 a sol-ont:ObservableProperty .
+
+solr:OrbitalProperty.n_Observation.87 a sol-ont:ObservableProperty .
+
+solr:OrbitalProperty.n_Observation.98943 a sol-ont:ObservableProperty .
+
+solr:OrbitalProperty.node_Observation.10 a sol-ont:ObservableProperty .
+
+solr:OrbitalProperty.node_Observation.101955 a sol-ont:ObservableProperty .
+
+solr:OrbitalProperty.node_Observation.10302 a sol-ont:ObservableProperty .
+
+solr:OrbitalProperty.node_Observation.13 a sol-ont:ObservableProperty .
+
+solr:OrbitalProperty.node_Observation.16 a sol-ont:ObservableProperty .
+
+solr:OrbitalProperty.node_Observation.162173 a sol-ont:ObservableProperty .
+
+solr:OrbitalProperty.node_Observation.19 a sol-ont:ObservableProperty .
+
+solr:OrbitalProperty.node_Observation.1943 a sol-ont:ObservableProperty .
+
+solr:OrbitalProperty.node_Observation.2 a sol-ont:ObservableProperty .
+
+solr:OrbitalProperty.node_Observation.436724 a sol-ont:ObservableProperty .
+
+solr:OrbitalProperty.node_Observation.4660 a sol-ont:ObservableProperty .
+
+solr:OrbitalProperty.node_Observation.65803 a sol-ont:ObservableProperty .
+
+solr:OrbitalProperty.node_Observation.7474 a sol-ont:ObservableProperty .
+
+solr:OrbitalProperty.node_Observation.87 a sol-ont:ObservableProperty .
+
+solr:OrbitalProperty.node_Observation.98943 a sol-ont:ObservableProperty .
+
+solr:OrbitalProperty.peri_Observation.10 a sol-ont:ObservableProperty .
+
+solr:OrbitalProperty.peri_Observation.101955 a sol-ont:ObservableProperty .
+
+solr:OrbitalProperty.peri_Observation.10302 a sol-ont:ObservableProperty .
+
+solr:OrbitalProperty.peri_Observation.13 a sol-ont:ObservableProperty .
+
+solr:OrbitalProperty.peri_Observation.16 a sol-ont:ObservableProperty .
+
+solr:OrbitalProperty.peri_Observation.162173 a sol-ont:ObservableProperty .
+
+solr:OrbitalProperty.peri_Observation.19 a sol-ont:ObservableProperty .
+
+solr:OrbitalProperty.peri_Observation.1943 a sol-ont:ObservableProperty .
+
+solr:OrbitalProperty.peri_Observation.2 a sol-ont:ObservableProperty .
+
+solr:OrbitalProperty.peri_Observation.436724 a sol-ont:ObservableProperty .
+
+solr:OrbitalProperty.peri_Observation.4660 a sol-ont:ObservableProperty .
+
+solr:OrbitalProperty.peri_Observation.65803 a sol-ont:ObservableProperty .
+
+solr:OrbitalProperty.peri_Observation.7474 a sol-ont:ObservableProperty .
+
+solr:OrbitalProperty.peri_Observation.87 a sol-ont:ObservableProperty .
+
+solr:OrbitalProperty.peri_Observation.98943 a sol-ont:ObservableProperty .
+
+solr:OrbitalProperty.period_y_Observation.10 a sol-ont:ObservableProperty .
+
+solr:OrbitalProperty.period_y_Observation.101955 a sol-ont:ObservableProperty .
+
+solr:OrbitalProperty.period_y_Observation.10302 a sol-ont:ObservableProperty .
+
+solr:OrbitalProperty.period_y_Observation.13 a sol-ont:ObservableProperty .
+
+solr:OrbitalProperty.period_y_Observation.16 a sol-ont:ObservableProperty .
+
+solr:OrbitalProperty.period_y_Observation.162173 a sol-ont:ObservableProperty .
+
+solr:OrbitalProperty.period_y_Observation.19 a sol-ont:ObservableProperty .
+
+solr:OrbitalProperty.period_y_Observation.1943 a sol-ont:ObservableProperty .
+
+solr:OrbitalProperty.period_y_Observation.2 a sol-ont:ObservableProperty .
+
+solr:OrbitalProperty.period_y_Observation.436724 a sol-ont:ObservableProperty .
+
+solr:OrbitalProperty.period_y_Observation.4660 a sol-ont:ObservableProperty .
+
+solr:OrbitalProperty.period_y_Observation.65803 a sol-ont:ObservableProperty .
+
+solr:OrbitalProperty.period_y_Observation.7474 a sol-ont:ObservableProperty .
+
+solr:OrbitalProperty.period_y_Observation.87 a sol-ont:ObservableProperty .
+
+solr:OrbitalProperty.period_y_Observation.98943 a sol-ont:ObservableProperty .
+
+solr:OrbitalProperty.q_Observation.10 a sol-ont:ObservableProperty .
+
+solr:OrbitalProperty.q_Observation.101955 a sol-ont:ObservableProperty .
+
+solr:OrbitalProperty.q_Observation.10302 a sol-ont:ObservableProperty .
+
+solr:OrbitalProperty.q_Observation.13 a sol-ont:ObservableProperty .
+
+solr:OrbitalProperty.q_Observation.16 a sol-ont:ObservableProperty .
+
+solr:OrbitalProperty.q_Observation.162173 a sol-ont:ObservableProperty .
+
+solr:OrbitalProperty.q_Observation.19 a sol-ont:ObservableProperty .
+
+solr:OrbitalProperty.q_Observation.1943 a sol-ont:ObservableProperty .
+
+solr:OrbitalProperty.q_Observation.2 a sol-ont:ObservableProperty .
+
+solr:OrbitalProperty.q_Observation.436724 a sol-ont:ObservableProperty .
+
+solr:OrbitalProperty.q_Observation.4660 a sol-ont:ObservableProperty .
+
+solr:OrbitalProperty.q_Observation.65803 a sol-ont:ObservableProperty .
+
+solr:OrbitalProperty.q_Observation.7474 a sol-ont:ObservableProperty .
+
+solr:OrbitalProperty.q_Observation.87 a sol-ont:ObservableProperty .
+
+solr:OrbitalProperty.q_Observation.98943 a sol-ont:ObservableProperty .
+
+solr:Q_Activity.10 sol-ont:hasDescription "Aphelion Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.NASA-JPL .
+
+solr:Q_Activity.101955 sol-ont:hasDescription "Aphelion Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.NASA-JPL .
+
+solr:Q_Activity.10302 sol-ont:hasDescription "Aphelion Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.NASA-JPL .
+
+solr:Q_Activity.13 sol-ont:hasDescription "Aphelion Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.NASA-JPL .
+
+solr:Q_Activity.16 sol-ont:hasDescription "Aphelion Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.NASA-JPL .
+
+solr:Q_Activity.162173 sol-ont:hasDescription "Aphelion Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.NASA-JPL .
+
+solr:Q_Activity.19 sol-ont:hasDescription "Aphelion Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.NASA-JPL .
+
+solr:Q_Activity.1943 sol-ont:hasDescription "Aphelion Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.NASA-JPL .
+
+solr:Q_Activity.2 sol-ont:hasDescription "Aphelion Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.NASA-JPL .
+
+solr:Q_Activity.436724 sol-ont:hasDescription "Aphelion Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.NASA-JPL .
+
+solr:Q_Activity.4660 sol-ont:hasDescription "Aphelion Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.NASA-JPL .
+
+solr:Q_Activity.65803 sol-ont:hasDescription "Aphelion Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.NASA-JPL .
+
+solr:Q_Activity.7474 sol-ont:hasDescription "Aphelion Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.NASA-JPL .
+
+solr:Q_Activity.87 sol-ont:hasDescription "Aphelion Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.NASA-JPL .
+
+solr:Q_Activity.98943 sol-ont:hasDescription "Aphelion Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.NASA-JPL .
+
+solr:Quantity.D_Observation.10 a sol-ont:Quantity ;
+    sol-ont:hasQuantityKind solr:QuantityKind.D_Observation.10 ;
+    sol-ont:hasQuantityValue solr:NumericValue.D_Observation.10 .
+
+solr:Quantity.D_Observation.101955 a sol-ont:Quantity ;
+    sol-ont:hasQuantityKind solr:QuantityKind.D_Observation.101955 ;
+    sol-ont:hasQuantityValue solr:NumericValue.D_Observation.101955 .
+
+solr:Quantity.D_Observation.10302 a sol-ont:Quantity ;
+    sol-ont:hasQuantityKind solr:QuantityKind.D_Observation.10302 ;
+    sol-ont:hasQuantityValue solr:NumericValue.D_Observation.10302 .
+
+solr:Quantity.D_Observation.13 a sol-ont:Quantity ;
+    sol-ont:hasQuantityKind solr:QuantityKind.D_Observation.13 ;
+    sol-ont:hasQuantityValue solr:NumericValue.D_Observation.13 .
+
+solr:Quantity.D_Observation.16 a sol-ont:Quantity ;
+    sol-ont:hasQuantityKind solr:QuantityKind.D_Observation.16 ;
+    sol-ont:hasQuantityValue solr:NumericValue.D_Observation.16 .
+
+solr:Quantity.D_Observation.162173 a sol-ont:Quantity ;
+    sol-ont:hasQuantityKind solr:QuantityKind.D_Observation.162173 ;
+    sol-ont:hasQuantityValue solr:NumericValue.D_Observation.162173 .
+
+solr:Quantity.D_Observation.19 a sol-ont:Quantity ;
+    sol-ont:hasQuantityKind solr:QuantityKind.D_Observation.19 ;
+    sol-ont:hasQuantityValue solr:NumericValue.D_Observation.19 .
+
+solr:Quantity.D_Observation.1943 a sol-ont:Quantity ;
+    sol-ont:hasQuantityKind solr:QuantityKind.D_Observation.1943 ;
+    sol-ont:hasQuantityValue solr:NumericValue.D_Observation.1943 .
+
+solr:Quantity.D_Observation.2 a sol-ont:Quantity ;
+    sol-ont:hasQuantityKind solr:QuantityKind.D_Observation.2 ;
+    sol-ont:hasQuantityValue solr:NumericValue.D_Observation.2 .
+
+solr:Quantity.D_Observation.436724 a sol-ont:Quantity ;
+    sol-ont:hasQuantityKind solr:QuantityKind.D_Observation.436724 ;
+    sol-ont:hasQuantityValue solr:NumericValue.D_Observation.436724 .
+
+solr:Quantity.D_Observation.4660 a sol-ont:Quantity ;
+    sol-ont:hasQuantityKind solr:QuantityKind.D_Observation.4660 ;
+    sol-ont:hasQuantityValue solr:NumericValue.D_Observation.4660 .
+
+solr:Quantity.D_Observation.65803 a sol-ont:Quantity ;
+    sol-ont:hasQuantityKind solr:QuantityKind.D_Observation.65803 ;
+    sol-ont:hasQuantityValue solr:NumericValue.D_Observation.65803 .
+
+solr:Quantity.D_Observation.7474 a sol-ont:Quantity ;
+    sol-ont:hasQuantityKind solr:QuantityKind.D_Observation.7474 ;
+    sol-ont:hasQuantityValue solr:NumericValue.D_Observation.7474 .
+
+solr:Quantity.D_Observation.87 a sol-ont:Quantity ;
+    sol-ont:hasQuantityKind solr:QuantityKind.D_Observation.87 ;
+    sol-ont:hasQuantityValue solr:NumericValue.D_Observation.87 .
+
+solr:Quantity.D_Observation.98943 a sol-ont:Quantity ;
+    sol-ont:hasQuantityKind solr:QuantityKind.D_Observation.98943 ;
+    sol-ont:hasQuantityValue solr:NumericValue.D_Observation.98943 .
+
+solr:Quantity.M_Observation.10 a sol-ont:Quantity ;
+    sol-ont:hasQuantityKind solr:QuantityKind.M_Observation.10 ;
+    sol-ont:hasQuantityValue solr:NumericValue.M_Observation.10 .
+
+solr:Quantity.M_Observation.101955 a sol-ont:Quantity ;
+    sol-ont:hasQuantityKind solr:QuantityKind.M_Observation.101955 ;
+    sol-ont:hasQuantityValue solr:NumericValue.M_Observation.101955 .
+
+solr:Quantity.M_Observation.10302 a sol-ont:Quantity ;
+    sol-ont:hasQuantityKind solr:QuantityKind.M_Observation.10302 ;
+    sol-ont:hasQuantityValue solr:NumericValue.M_Observation.10302 .
+
+solr:Quantity.M_Observation.13 a sol-ont:Quantity ;
+    sol-ont:hasQuantityKind solr:QuantityKind.M_Observation.13 ;
+    sol-ont:hasQuantityValue solr:NumericValue.M_Observation.13 .
+
+solr:Quantity.M_Observation.16 a sol-ont:Quantity ;
+    sol-ont:hasQuantityKind solr:QuantityKind.M_Observation.16 ;
+    sol-ont:hasQuantityValue solr:NumericValue.M_Observation.16 .
+
+solr:Quantity.M_Observation.162173 a sol-ont:Quantity ;
+    sol-ont:hasQuantityKind solr:QuantityKind.M_Observation.162173 ;
+    sol-ont:hasQuantityValue solr:NumericValue.M_Observation.162173 .
+
+solr:Quantity.M_Observation.19 a sol-ont:Quantity ;
+    sol-ont:hasQuantityKind solr:QuantityKind.M_Observation.19 ;
+    sol-ont:hasQuantityValue solr:NumericValue.M_Observation.19 .
+
+solr:Quantity.M_Observation.1943 a sol-ont:Quantity ;
+    sol-ont:hasQuantityKind solr:QuantityKind.M_Observation.1943 ;
+    sol-ont:hasQuantityValue solr:NumericValue.M_Observation.1943 .
+
+solr:Quantity.M_Observation.2 a sol-ont:Quantity ;
+    sol-ont:hasQuantityKind solr:QuantityKind.M_Observation.2 ;
+    sol-ont:hasQuantityValue solr:NumericValue.M_Observation.2 .
+
+solr:Quantity.M_Observation.436724 a sol-ont:Quantity ;
+    sol-ont:hasQuantityKind solr:QuantityKind.M_Observation.436724 ;
+    sol-ont:hasQuantityValue solr:NumericValue.M_Observation.436724 .
+
+solr:Quantity.M_Observation.4660 a sol-ont:Quantity ;
+    sol-ont:hasQuantityKind solr:QuantityKind.M_Observation.4660 ;
+    sol-ont:hasQuantityValue solr:NumericValue.M_Observation.4660 .
+
+solr:Quantity.M_Observation.65803 a sol-ont:Quantity ;
+    sol-ont:hasQuantityKind solr:QuantityKind.M_Observation.65803 ;
+    sol-ont:hasQuantityValue solr:NumericValue.M_Observation.65803 .
+
+solr:Quantity.M_Observation.7474 a sol-ont:Quantity ;
+    sol-ont:hasQuantityKind solr:QuantityKind.M_Observation.7474 ;
+    sol-ont:hasQuantityValue solr:NumericValue.M_Observation.7474 .
+
+solr:Quantity.M_Observation.87 a sol-ont:Quantity ;
+    sol-ont:hasQuantityKind solr:QuantityKind.M_Observation.87 ;
+    sol-ont:hasQuantityValue solr:NumericValue.M_Observation.87 .
+
+solr:Quantity.M_Observation.98943 a sol-ont:Quantity ;
+    sol-ont:hasQuantityKind solr:QuantityKind.M_Observation.98943 ;
+    sol-ont:hasQuantityValue solr:NumericValue.M_Observation.98943 .
+
+solr:Quantity.Q_Observation.10 a sol-ont:Quantity ;
+    sol-ont:hasQuantityKind solr:QuantityKind.Q_Observation.10 ;
+    sol-ont:hasQuantityValue solr:NumericValue.Q_Observation.10 .
+
+solr:Quantity.Q_Observation.101955 a sol-ont:Quantity ;
+    sol-ont:hasQuantityKind solr:QuantityKind.Q_Observation.101955 ;
+    sol-ont:hasQuantityValue solr:NumericValue.Q_Observation.101955 .
+
+solr:Quantity.Q_Observation.10302 a sol-ont:Quantity ;
+    sol-ont:hasQuantityKind solr:QuantityKind.Q_Observation.10302 ;
+    sol-ont:hasQuantityValue solr:NumericValue.Q_Observation.10302 .
+
+solr:Quantity.Q_Observation.13 a sol-ont:Quantity ;
+    sol-ont:hasQuantityKind solr:QuantityKind.Q_Observation.13 ;
+    sol-ont:hasQuantityValue solr:NumericValue.Q_Observation.13 .
+
+solr:Quantity.Q_Observation.16 a sol-ont:Quantity ;
+    sol-ont:hasQuantityKind solr:QuantityKind.Q_Observation.16 ;
+    sol-ont:hasQuantityValue solr:NumericValue.Q_Observation.16 .
+
+solr:Quantity.Q_Observation.162173 a sol-ont:Quantity ;
+    sol-ont:hasQuantityKind solr:QuantityKind.Q_Observation.162173 ;
+    sol-ont:hasQuantityValue solr:NumericValue.Q_Observation.162173 .
+
+solr:Quantity.Q_Observation.19 a sol-ont:Quantity ;
+    sol-ont:hasQuantityKind solr:QuantityKind.Q_Observation.19 ;
+    sol-ont:hasQuantityValue solr:NumericValue.Q_Observation.19 .
+
+solr:Quantity.Q_Observation.1943 a sol-ont:Quantity ;
+    sol-ont:hasQuantityKind solr:QuantityKind.Q_Observation.1943 ;
+    sol-ont:hasQuantityValue solr:NumericValue.Q_Observation.1943 .
+
+solr:Quantity.Q_Observation.2 a sol-ont:Quantity ;
+    sol-ont:hasQuantityKind solr:QuantityKind.Q_Observation.2 ;
+    sol-ont:hasQuantityValue solr:NumericValue.Q_Observation.2 .
+
+solr:Quantity.Q_Observation.436724 a sol-ont:Quantity ;
+    sol-ont:hasQuantityKind solr:QuantityKind.Q_Observation.436724 ;
+    sol-ont:hasQuantityValue solr:NumericValue.Q_Observation.436724 .
+
+solr:Quantity.Q_Observation.4660 a sol-ont:Quantity ;
+    sol-ont:hasQuantityKind solr:QuantityKind.Q_Observation.4660 ;
+    sol-ont:hasQuantityValue solr:NumericValue.Q_Observation.4660 .
+
+solr:Quantity.Q_Observation.65803 a sol-ont:Quantity ;
+    sol-ont:hasQuantityKind solr:QuantityKind.Q_Observation.65803 ;
+    sol-ont:hasQuantityValue solr:NumericValue.Q_Observation.65803 .
+
+solr:Quantity.Q_Observation.7474 a sol-ont:Quantity ;
+    sol-ont:hasQuantityKind solr:QuantityKind.Q_Observation.7474 ;
+    sol-ont:hasQuantityValue solr:NumericValue.Q_Observation.7474 .
+
+solr:Quantity.Q_Observation.87 a sol-ont:Quantity ;
+    sol-ont:hasQuantityKind solr:QuantityKind.Q_Observation.87 ;
+    sol-ont:hasQuantityValue solr:NumericValue.Q_Observation.87 .
+
+solr:Quantity.Q_Observation.98943 a sol-ont:Quantity ;
+    sol-ont:hasQuantityKind solr:QuantityKind.Q_Observation.98943 ;
+    sol-ont:hasQuantityValue solr:NumericValue.Q_Observation.98943 .
+
+solr:Quantity.a_Observation.10 a sol-ont:Quantity ;
+    sol-ont:hasQuantityKind solr:QuantityKind.a_Observation.10 ;
+    sol-ont:hasQuantityValue solr:NumericValue.a_Observation.10 .
+
+solr:Quantity.a_Observation.101955 a sol-ont:Quantity ;
+    sol-ont:hasQuantityKind solr:QuantityKind.a_Observation.101955 ;
+    sol-ont:hasQuantityValue solr:NumericValue.a_Observation.101955 .
+
+solr:Quantity.a_Observation.10302 a sol-ont:Quantity ;
+    sol-ont:hasQuantityKind solr:QuantityKind.a_Observation.10302 ;
+    sol-ont:hasQuantityValue solr:NumericValue.a_Observation.10302 .
+
+solr:Quantity.a_Observation.13 a sol-ont:Quantity ;
+    sol-ont:hasQuantityKind solr:QuantityKind.a_Observation.13 ;
+    sol-ont:hasQuantityValue solr:NumericValue.a_Observation.13 .
+
+solr:Quantity.a_Observation.16 a sol-ont:Quantity ;
+    sol-ont:hasQuantityKind solr:QuantityKind.a_Observation.16 ;
+    sol-ont:hasQuantityValue solr:NumericValue.a_Observation.16 .
+
+solr:Quantity.a_Observation.162173 a sol-ont:Quantity ;
+    sol-ont:hasQuantityKind solr:QuantityKind.a_Observation.162173 ;
+    sol-ont:hasQuantityValue solr:NumericValue.a_Observation.162173 .
+
+solr:Quantity.a_Observation.19 a sol-ont:Quantity ;
+    sol-ont:hasQuantityKind solr:QuantityKind.a_Observation.19 ;
+    sol-ont:hasQuantityValue solr:NumericValue.a_Observation.19 .
+
+solr:Quantity.a_Observation.1943 a sol-ont:Quantity ;
+    sol-ont:hasQuantityKind solr:QuantityKind.a_Observation.1943 ;
+    sol-ont:hasQuantityValue solr:NumericValue.a_Observation.1943 .
+
+solr:Quantity.a_Observation.2 a sol-ont:Quantity ;
+    sol-ont:hasQuantityKind solr:QuantityKind.a_Observation.2 ;
+    sol-ont:hasQuantityValue solr:NumericValue.a_Observation.2 .
+
+solr:Quantity.a_Observation.436724 a sol-ont:Quantity ;
+    sol-ont:hasQuantityKind solr:QuantityKind.a_Observation.436724 ;
+    sol-ont:hasQuantityValue solr:NumericValue.a_Observation.436724 .
+
+solr:Quantity.a_Observation.4660 a sol-ont:Quantity ;
+    sol-ont:hasQuantityKind solr:QuantityKind.a_Observation.4660 ;
+    sol-ont:hasQuantityValue solr:NumericValue.a_Observation.4660 .
+
+solr:Quantity.a_Observation.65803 a sol-ont:Quantity ;
+    sol-ont:hasQuantityKind solr:QuantityKind.a_Observation.65803 ;
+    sol-ont:hasQuantityValue solr:NumericValue.a_Observation.65803 .
+
+solr:Quantity.a_Observation.7474 a sol-ont:Quantity ;
+    sol-ont:hasQuantityKind solr:QuantityKind.a_Observation.7474 ;
+    sol-ont:hasQuantityValue solr:NumericValue.a_Observation.7474 .
+
+solr:Quantity.a_Observation.87 a sol-ont:Quantity ;
+    sol-ont:hasQuantityKind solr:QuantityKind.a_Observation.87 ;
+    sol-ont:hasQuantityValue solr:NumericValue.a_Observation.87 .
+
+solr:Quantity.a_Observation.98943 a sol-ont:Quantity ;
+    sol-ont:hasQuantityKind solr:QuantityKind.a_Observation.98943 ;
+    sol-ont:hasQuantityValue solr:NumericValue.a_Observation.98943 .
+
+solr:Quantity.e_Observation.10 a sol-ont:Quantity ;
+    sol-ont:hasQuantityKind solr:QuantityKind.e_Observation.10 ;
+    sol-ont:hasQuantityValue solr:NumericValue.e_Observation.10 .
+
+solr:Quantity.e_Observation.101955 a sol-ont:Quantity ;
+    sol-ont:hasQuantityKind solr:QuantityKind.e_Observation.101955 ;
+    sol-ont:hasQuantityValue solr:NumericValue.e_Observation.101955 .
+
+solr:Quantity.e_Observation.10302 a sol-ont:Quantity ;
+    sol-ont:hasQuantityKind solr:QuantityKind.e_Observation.10302 ;
+    sol-ont:hasQuantityValue solr:NumericValue.e_Observation.10302 .
+
+solr:Quantity.e_Observation.13 a sol-ont:Quantity ;
+    sol-ont:hasQuantityKind solr:QuantityKind.e_Observation.13 ;
+    sol-ont:hasQuantityValue solr:NumericValue.e_Observation.13 .
+
+solr:Quantity.e_Observation.16 a sol-ont:Quantity ;
+    sol-ont:hasQuantityKind solr:QuantityKind.e_Observation.16 ;
+    sol-ont:hasQuantityValue solr:NumericValue.e_Observation.16 .
+
+solr:Quantity.e_Observation.162173 a sol-ont:Quantity ;
+    sol-ont:hasQuantityKind solr:QuantityKind.e_Observation.162173 ;
+    sol-ont:hasQuantityValue solr:NumericValue.e_Observation.162173 .
+
+solr:Quantity.e_Observation.19 a sol-ont:Quantity ;
+    sol-ont:hasQuantityKind solr:QuantityKind.e_Observation.19 ;
+    sol-ont:hasQuantityValue solr:NumericValue.e_Observation.19 .
+
+solr:Quantity.e_Observation.1943 a sol-ont:Quantity ;
+    sol-ont:hasQuantityKind solr:QuantityKind.e_Observation.1943 ;
+    sol-ont:hasQuantityValue solr:NumericValue.e_Observation.1943 .
+
+solr:Quantity.e_Observation.2 a sol-ont:Quantity ;
+    sol-ont:hasQuantityKind solr:QuantityKind.e_Observation.2 ;
+    sol-ont:hasQuantityValue solr:NumericValue.e_Observation.2 .
+
+solr:Quantity.e_Observation.436724 a sol-ont:Quantity ;
+    sol-ont:hasQuantityKind solr:QuantityKind.e_Observation.436724 ;
+    sol-ont:hasQuantityValue solr:NumericValue.e_Observation.436724 .
+
+solr:Quantity.e_Observation.4660 a sol-ont:Quantity ;
+    sol-ont:hasQuantityKind solr:QuantityKind.e_Observation.4660 ;
+    sol-ont:hasQuantityValue solr:NumericValue.e_Observation.4660 .
+
+solr:Quantity.e_Observation.65803 a sol-ont:Quantity ;
+    sol-ont:hasQuantityKind solr:QuantityKind.e_Observation.65803 ;
+    sol-ont:hasQuantityValue solr:NumericValue.e_Observation.65803 .
+
+solr:Quantity.e_Observation.7474 a sol-ont:Quantity ;
+    sol-ont:hasQuantityKind solr:QuantityKind.e_Observation.7474 ;
+    sol-ont:hasQuantityValue solr:NumericValue.e_Observation.7474 .
+
+solr:Quantity.e_Observation.87 a sol-ont:Quantity ;
+    sol-ont:hasQuantityKind solr:QuantityKind.e_Observation.87 ;
+    sol-ont:hasQuantityValue solr:NumericValue.e_Observation.87 .
+
+solr:Quantity.e_Observation.98943 a sol-ont:Quantity ;
+    sol-ont:hasQuantityKind solr:QuantityKind.e_Observation.98943 ;
+    sol-ont:hasQuantityValue solr:NumericValue.e_Observation.98943 .
+
+solr:Quantity.i_Observation.10 a sol-ont:Quantity ;
+    sol-ont:hasQuantityKind solr:QuantityKind.i_Observation.10 ;
+    sol-ont:hasQuantityValue solr:NumericValue.i_Observation.10 .
+
+solr:Quantity.i_Observation.101955 a sol-ont:Quantity ;
+    sol-ont:hasQuantityKind solr:QuantityKind.i_Observation.101955 ;
+    sol-ont:hasQuantityValue solr:NumericValue.i_Observation.101955 .
+
+solr:Quantity.i_Observation.10302 a sol-ont:Quantity ;
+    sol-ont:hasQuantityKind solr:QuantityKind.i_Observation.10302 ;
+    sol-ont:hasQuantityValue solr:NumericValue.i_Observation.10302 .
+
+solr:Quantity.i_Observation.13 a sol-ont:Quantity ;
+    sol-ont:hasQuantityKind solr:QuantityKind.i_Observation.13 ;
+    sol-ont:hasQuantityValue solr:NumericValue.i_Observation.13 .
+
+solr:Quantity.i_Observation.16 a sol-ont:Quantity ;
+    sol-ont:hasQuantityKind solr:QuantityKind.i_Observation.16 ;
+    sol-ont:hasQuantityValue solr:NumericValue.i_Observation.16 .
+
+solr:Quantity.i_Observation.162173 a sol-ont:Quantity ;
+    sol-ont:hasQuantityKind solr:QuantityKind.i_Observation.162173 ;
+    sol-ont:hasQuantityValue solr:NumericValue.i_Observation.162173 .
+
+solr:Quantity.i_Observation.19 a sol-ont:Quantity ;
+    sol-ont:hasQuantityKind solr:QuantityKind.i_Observation.19 ;
+    sol-ont:hasQuantityValue solr:NumericValue.i_Observation.19 .
+
+solr:Quantity.i_Observation.1943 a sol-ont:Quantity ;
+    sol-ont:hasQuantityKind solr:QuantityKind.i_Observation.1943 ;
+    sol-ont:hasQuantityValue solr:NumericValue.i_Observation.1943 .
+
+solr:Quantity.i_Observation.2 a sol-ont:Quantity ;
+    sol-ont:hasQuantityKind solr:QuantityKind.i_Observation.2 ;
+    sol-ont:hasQuantityValue solr:NumericValue.i_Observation.2 .
+
+solr:Quantity.i_Observation.436724 a sol-ont:Quantity ;
+    sol-ont:hasQuantityKind solr:QuantityKind.i_Observation.436724 ;
+    sol-ont:hasQuantityValue solr:NumericValue.i_Observation.436724 .
+
+solr:Quantity.i_Observation.4660 a sol-ont:Quantity ;
+    sol-ont:hasQuantityKind solr:QuantityKind.i_Observation.4660 ;
+    sol-ont:hasQuantityValue solr:NumericValue.i_Observation.4660 .
+
+solr:Quantity.i_Observation.65803 a sol-ont:Quantity ;
+    sol-ont:hasQuantityKind solr:QuantityKind.i_Observation.65803 ;
+    sol-ont:hasQuantityValue solr:NumericValue.i_Observation.65803 .
+
+solr:Quantity.i_Observation.7474 a sol-ont:Quantity ;
+    sol-ont:hasQuantityKind solr:QuantityKind.i_Observation.7474 ;
+    sol-ont:hasQuantityValue solr:NumericValue.i_Observation.7474 .
+
+solr:Quantity.i_Observation.87 a sol-ont:Quantity ;
+    sol-ont:hasQuantityKind solr:QuantityKind.i_Observation.87 ;
+    sol-ont:hasQuantityValue solr:NumericValue.i_Observation.87 .
+
+solr:Quantity.i_Observation.98943 a sol-ont:Quantity ;
+    sol-ont:hasQuantityKind solr:QuantityKind.i_Observation.98943 ;
+    sol-ont:hasQuantityValue solr:NumericValue.i_Observation.98943 .
+
+solr:Quantity.n_Observation.10 a sol-ont:Quantity ;
+    sol-ont:hasQuantityKind solr:QuantityKind.n_Observation.10 ;
+    sol-ont:hasQuantityValue solr:NumericValue.n_Observation.10 .
+
+solr:Quantity.n_Observation.101955 a sol-ont:Quantity ;
+    sol-ont:hasQuantityKind solr:QuantityKind.n_Observation.101955 ;
+    sol-ont:hasQuantityValue solr:NumericValue.n_Observation.101955 .
+
+solr:Quantity.n_Observation.10302 a sol-ont:Quantity ;
+    sol-ont:hasQuantityKind solr:QuantityKind.n_Observation.10302 ;
+    sol-ont:hasQuantityValue solr:NumericValue.n_Observation.10302 .
+
+solr:Quantity.n_Observation.13 a sol-ont:Quantity ;
+    sol-ont:hasQuantityKind solr:QuantityKind.n_Observation.13 ;
+    sol-ont:hasQuantityValue solr:NumericValue.n_Observation.13 .
+
+solr:Quantity.n_Observation.16 a sol-ont:Quantity ;
+    sol-ont:hasQuantityKind solr:QuantityKind.n_Observation.16 ;
+    sol-ont:hasQuantityValue solr:NumericValue.n_Observation.16 .
+
+solr:Quantity.n_Observation.162173 a sol-ont:Quantity ;
+    sol-ont:hasQuantityKind solr:QuantityKind.n_Observation.162173 ;
+    sol-ont:hasQuantityValue solr:NumericValue.n_Observation.162173 .
+
+solr:Quantity.n_Observation.19 a sol-ont:Quantity ;
+    sol-ont:hasQuantityKind solr:QuantityKind.n_Observation.19 ;
+    sol-ont:hasQuantityValue solr:NumericValue.n_Observation.19 .
+
+solr:Quantity.n_Observation.1943 a sol-ont:Quantity ;
+    sol-ont:hasQuantityKind solr:QuantityKind.n_Observation.1943 ;
+    sol-ont:hasQuantityValue solr:NumericValue.n_Observation.1943 .
+
+solr:Quantity.n_Observation.2 a sol-ont:Quantity ;
+    sol-ont:hasQuantityKind solr:QuantityKind.n_Observation.2 ;
+    sol-ont:hasQuantityValue solr:NumericValue.n_Observation.2 .
+
+solr:Quantity.n_Observation.436724 a sol-ont:Quantity ;
+    sol-ont:hasQuantityKind solr:QuantityKind.n_Observation.436724 ;
+    sol-ont:hasQuantityValue solr:NumericValue.n_Observation.436724 .
+
+solr:Quantity.n_Observation.4660 a sol-ont:Quantity ;
+    sol-ont:hasQuantityKind solr:QuantityKind.n_Observation.4660 ;
+    sol-ont:hasQuantityValue solr:NumericValue.n_Observation.4660 .
+
+solr:Quantity.n_Observation.65803 a sol-ont:Quantity ;
+    sol-ont:hasQuantityKind solr:QuantityKind.n_Observation.65803 ;
+    sol-ont:hasQuantityValue solr:NumericValue.n_Observation.65803 .
+
+solr:Quantity.n_Observation.7474 a sol-ont:Quantity ;
+    sol-ont:hasQuantityKind solr:QuantityKind.n_Observation.7474 ;
+    sol-ont:hasQuantityValue solr:NumericValue.n_Observation.7474 .
+
+solr:Quantity.n_Observation.87 a sol-ont:Quantity ;
+    sol-ont:hasQuantityKind solr:QuantityKind.n_Observation.87 ;
+    sol-ont:hasQuantityValue solr:NumericValue.n_Observation.87 .
+
+solr:Quantity.n_Observation.98943 a sol-ont:Quantity ;
+    sol-ont:hasQuantityKind solr:QuantityKind.n_Observation.98943 ;
+    sol-ont:hasQuantityValue solr:NumericValue.n_Observation.98943 .
+
+solr:Quantity.node_Observation.10 a sol-ont:Quantity ;
+    sol-ont:hasQuantityKind solr:QuantityKind.node_Observation.10 ;
+    sol-ont:hasQuantityValue solr:NumericValue.node_Observation.10 .
+
+solr:Quantity.node_Observation.101955 a sol-ont:Quantity ;
+    sol-ont:hasQuantityKind solr:QuantityKind.node_Observation.101955 ;
+    sol-ont:hasQuantityValue solr:NumericValue.node_Observation.101955 .
+
+solr:Quantity.node_Observation.10302 a sol-ont:Quantity ;
+    sol-ont:hasQuantityKind solr:QuantityKind.node_Observation.10302 ;
+    sol-ont:hasQuantityValue solr:NumericValue.node_Observation.10302 .
+
+solr:Quantity.node_Observation.13 a sol-ont:Quantity ;
+    sol-ont:hasQuantityKind solr:QuantityKind.node_Observation.13 ;
+    sol-ont:hasQuantityValue solr:NumericValue.node_Observation.13 .
+
+solr:Quantity.node_Observation.16 a sol-ont:Quantity ;
+    sol-ont:hasQuantityKind solr:QuantityKind.node_Observation.16 ;
+    sol-ont:hasQuantityValue solr:NumericValue.node_Observation.16 .
+
+solr:Quantity.node_Observation.162173 a sol-ont:Quantity ;
+    sol-ont:hasQuantityKind solr:QuantityKind.node_Observation.162173 ;
+    sol-ont:hasQuantityValue solr:NumericValue.node_Observation.162173 .
+
+solr:Quantity.node_Observation.19 a sol-ont:Quantity ;
+    sol-ont:hasQuantityKind solr:QuantityKind.node_Observation.19 ;
+    sol-ont:hasQuantityValue solr:NumericValue.node_Observation.19 .
+
+solr:Quantity.node_Observation.1943 a sol-ont:Quantity ;
+    sol-ont:hasQuantityKind solr:QuantityKind.node_Observation.1943 ;
+    sol-ont:hasQuantityValue solr:NumericValue.node_Observation.1943 .
+
+solr:Quantity.node_Observation.2 a sol-ont:Quantity ;
+    sol-ont:hasQuantityKind solr:QuantityKind.node_Observation.2 ;
+    sol-ont:hasQuantityValue solr:NumericValue.node_Observation.2 .
+
+solr:Quantity.node_Observation.436724 a sol-ont:Quantity ;
+    sol-ont:hasQuantityKind solr:QuantityKind.node_Observation.436724 ;
+    sol-ont:hasQuantityValue solr:NumericValue.node_Observation.436724 .
+
+solr:Quantity.node_Observation.4660 a sol-ont:Quantity ;
+    sol-ont:hasQuantityKind solr:QuantityKind.node_Observation.4660 ;
+    sol-ont:hasQuantityValue solr:NumericValue.node_Observation.4660 .
+
+solr:Quantity.node_Observation.65803 a sol-ont:Quantity ;
+    sol-ont:hasQuantityKind solr:QuantityKind.node_Observation.65803 ;
+    sol-ont:hasQuantityValue solr:NumericValue.node_Observation.65803 .
+
+solr:Quantity.node_Observation.7474 a sol-ont:Quantity ;
+    sol-ont:hasQuantityKind solr:QuantityKind.node_Observation.7474 ;
+    sol-ont:hasQuantityValue solr:NumericValue.node_Observation.7474 .
+
+solr:Quantity.node_Observation.87 a sol-ont:Quantity ;
+    sol-ont:hasQuantityKind solr:QuantityKind.node_Observation.87 ;
+    sol-ont:hasQuantityValue solr:NumericValue.node_Observation.87 .
+
+solr:Quantity.node_Observation.98943 a sol-ont:Quantity ;
+    sol-ont:hasQuantityKind solr:QuantityKind.node_Observation.98943 ;
+    sol-ont:hasQuantityValue solr:NumericValue.node_Observation.98943 .
+
+solr:Quantity.peri_Observation.10 a sol-ont:Quantity ;
+    sol-ont:hasQuantityKind solr:QuantityKind.peri_Observation.10 ;
+    sol-ont:hasQuantityValue solr:NumericValue.peri_Observation.10 .
+
+solr:Quantity.peri_Observation.101955 a sol-ont:Quantity ;
+    sol-ont:hasQuantityKind solr:QuantityKind.peri_Observation.101955 ;
+    sol-ont:hasQuantityValue solr:NumericValue.peri_Observation.101955 .
+
+solr:Quantity.peri_Observation.10302 a sol-ont:Quantity ;
+    sol-ont:hasQuantityKind solr:QuantityKind.peri_Observation.10302 ;
+    sol-ont:hasQuantityValue solr:NumericValue.peri_Observation.10302 .
+
+solr:Quantity.peri_Observation.13 a sol-ont:Quantity ;
+    sol-ont:hasQuantityKind solr:QuantityKind.peri_Observation.13 ;
+    sol-ont:hasQuantityValue solr:NumericValue.peri_Observation.13 .
+
+solr:Quantity.peri_Observation.16 a sol-ont:Quantity ;
+    sol-ont:hasQuantityKind solr:QuantityKind.peri_Observation.16 ;
+    sol-ont:hasQuantityValue solr:NumericValue.peri_Observation.16 .
+
+solr:Quantity.peri_Observation.162173 a sol-ont:Quantity ;
+    sol-ont:hasQuantityKind solr:QuantityKind.peri_Observation.162173 ;
+    sol-ont:hasQuantityValue solr:NumericValue.peri_Observation.162173 .
+
+solr:Quantity.peri_Observation.19 a sol-ont:Quantity ;
+    sol-ont:hasQuantityKind solr:QuantityKind.peri_Observation.19 ;
+    sol-ont:hasQuantityValue solr:NumericValue.peri_Observation.19 .
+
+solr:Quantity.peri_Observation.1943 a sol-ont:Quantity ;
+    sol-ont:hasQuantityKind solr:QuantityKind.peri_Observation.1943 ;
+    sol-ont:hasQuantityValue solr:NumericValue.peri_Observation.1943 .
+
+solr:Quantity.peri_Observation.2 a sol-ont:Quantity ;
+    sol-ont:hasQuantityKind solr:QuantityKind.peri_Observation.2 ;
+    sol-ont:hasQuantityValue solr:NumericValue.peri_Observation.2 .
+
+solr:Quantity.peri_Observation.436724 a sol-ont:Quantity ;
+    sol-ont:hasQuantityKind solr:QuantityKind.peri_Observation.436724 ;
+    sol-ont:hasQuantityValue solr:NumericValue.peri_Observation.436724 .
+
+solr:Quantity.peri_Observation.4660 a sol-ont:Quantity ;
+    sol-ont:hasQuantityKind solr:QuantityKind.peri_Observation.4660 ;
+    sol-ont:hasQuantityValue solr:NumericValue.peri_Observation.4660 .
+
+solr:Quantity.peri_Observation.65803 a sol-ont:Quantity ;
+    sol-ont:hasQuantityKind solr:QuantityKind.peri_Observation.65803 ;
+    sol-ont:hasQuantityValue solr:NumericValue.peri_Observation.65803 .
+
+solr:Quantity.peri_Observation.7474 a sol-ont:Quantity ;
+    sol-ont:hasQuantityKind solr:QuantityKind.peri_Observation.7474 ;
+    sol-ont:hasQuantityValue solr:NumericValue.peri_Observation.7474 .
+
+solr:Quantity.peri_Observation.87 a sol-ont:Quantity ;
+    sol-ont:hasQuantityKind solr:QuantityKind.peri_Observation.87 ;
+    sol-ont:hasQuantityValue solr:NumericValue.peri_Observation.87 .
+
+solr:Quantity.peri_Observation.98943 a sol-ont:Quantity ;
+    sol-ont:hasQuantityKind solr:QuantityKind.peri_Observation.98943 ;
+    sol-ont:hasQuantityValue solr:NumericValue.peri_Observation.98943 .
+
+solr:Quantity.period_y_Observation.10 a sol-ont:Quantity ;
+    sol-ont:hasQuantityKind solr:QuantityKind.period_y_Observation.10 ;
+    sol-ont:hasQuantityValue solr:NumericValue.period_y_Observation.10 .
+
+solr:Quantity.period_y_Observation.101955 a sol-ont:Quantity ;
+    sol-ont:hasQuantityKind solr:QuantityKind.period_y_Observation.101955 ;
+    sol-ont:hasQuantityValue solr:NumericValue.period_y_Observation.101955 .
+
+solr:Quantity.period_y_Observation.10302 a sol-ont:Quantity ;
+    sol-ont:hasQuantityKind solr:QuantityKind.period_y_Observation.10302 ;
+    sol-ont:hasQuantityValue solr:NumericValue.period_y_Observation.10302 .
+
+solr:Quantity.period_y_Observation.13 a sol-ont:Quantity ;
+    sol-ont:hasQuantityKind solr:QuantityKind.period_y_Observation.13 ;
+    sol-ont:hasQuantityValue solr:NumericValue.period_y_Observation.13 .
+
+solr:Quantity.period_y_Observation.16 a sol-ont:Quantity ;
+    sol-ont:hasQuantityKind solr:QuantityKind.period_y_Observation.16 ;
+    sol-ont:hasQuantityValue solr:NumericValue.period_y_Observation.16 .
+
+solr:Quantity.period_y_Observation.162173 a sol-ont:Quantity ;
+    sol-ont:hasQuantityKind solr:QuantityKind.period_y_Observation.162173 ;
+    sol-ont:hasQuantityValue solr:NumericValue.period_y_Observation.162173 .
+
+solr:Quantity.period_y_Observation.19 a sol-ont:Quantity ;
+    sol-ont:hasQuantityKind solr:QuantityKind.period_y_Observation.19 ;
+    sol-ont:hasQuantityValue solr:NumericValue.period_y_Observation.19 .
+
+solr:Quantity.period_y_Observation.1943 a sol-ont:Quantity ;
+    sol-ont:hasQuantityKind solr:QuantityKind.period_y_Observation.1943 ;
+    sol-ont:hasQuantityValue solr:NumericValue.period_y_Observation.1943 .
+
+solr:Quantity.period_y_Observation.2 a sol-ont:Quantity ;
+    sol-ont:hasQuantityKind solr:QuantityKind.period_y_Observation.2 ;
+    sol-ont:hasQuantityValue solr:NumericValue.period_y_Observation.2 .
+
+solr:Quantity.period_y_Observation.436724 a sol-ont:Quantity ;
+    sol-ont:hasQuantityKind solr:QuantityKind.period_y_Observation.436724 ;
+    sol-ont:hasQuantityValue solr:NumericValue.period_y_Observation.436724 .
+
+solr:Quantity.period_y_Observation.4660 a sol-ont:Quantity ;
+    sol-ont:hasQuantityKind solr:QuantityKind.period_y_Observation.4660 ;
+    sol-ont:hasQuantityValue solr:NumericValue.period_y_Observation.4660 .
+
+solr:Quantity.period_y_Observation.65803 a sol-ont:Quantity ;
+    sol-ont:hasQuantityKind solr:QuantityKind.period_y_Observation.65803 ;
+    sol-ont:hasQuantityValue solr:NumericValue.period_y_Observation.65803 .
+
+solr:Quantity.period_y_Observation.7474 a sol-ont:Quantity ;
+    sol-ont:hasQuantityKind solr:QuantityKind.period_y_Observation.7474 ;
+    sol-ont:hasQuantityValue solr:NumericValue.period_y_Observation.7474 .
+
+solr:Quantity.period_y_Observation.87 a sol-ont:Quantity ;
+    sol-ont:hasQuantityKind solr:QuantityKind.period_y_Observation.87 ;
+    sol-ont:hasQuantityValue solr:NumericValue.period_y_Observation.87 .
+
+solr:Quantity.period_y_Observation.98943 a sol-ont:Quantity ;
+    sol-ont:hasQuantityKind solr:QuantityKind.period_y_Observation.98943 ;
+    sol-ont:hasQuantityValue solr:NumericValue.period_y_Observation.98943 .
+
+solr:Quantity.q_Observation.10 a sol-ont:Quantity ;
+    sol-ont:hasQuantityKind solr:QuantityKind.q_Observation.10 ;
+    sol-ont:hasQuantityValue solr:NumericValue.q_Observation.10 .
+
+solr:Quantity.q_Observation.101955 a sol-ont:Quantity ;
+    sol-ont:hasQuantityKind solr:QuantityKind.q_Observation.101955 ;
+    sol-ont:hasQuantityValue solr:NumericValue.q_Observation.101955 .
+
+solr:Quantity.q_Observation.10302 a sol-ont:Quantity ;
+    sol-ont:hasQuantityKind solr:QuantityKind.q_Observation.10302 ;
+    sol-ont:hasQuantityValue solr:NumericValue.q_Observation.10302 .
+
+solr:Quantity.q_Observation.13 a sol-ont:Quantity ;
+    sol-ont:hasQuantityKind solr:QuantityKind.q_Observation.13 ;
+    sol-ont:hasQuantityValue solr:NumericValue.q_Observation.13 .
+
+solr:Quantity.q_Observation.16 a sol-ont:Quantity ;
+    sol-ont:hasQuantityKind solr:QuantityKind.q_Observation.16 ;
+    sol-ont:hasQuantityValue solr:NumericValue.q_Observation.16 .
+
+solr:Quantity.q_Observation.162173 a sol-ont:Quantity ;
+    sol-ont:hasQuantityKind solr:QuantityKind.q_Observation.162173 ;
+    sol-ont:hasQuantityValue solr:NumericValue.q_Observation.162173 .
+
+solr:Quantity.q_Observation.19 a sol-ont:Quantity ;
+    sol-ont:hasQuantityKind solr:QuantityKind.q_Observation.19 ;
+    sol-ont:hasQuantityValue solr:NumericValue.q_Observation.19 .
+
+solr:Quantity.q_Observation.1943 a sol-ont:Quantity ;
+    sol-ont:hasQuantityKind solr:QuantityKind.q_Observation.1943 ;
+    sol-ont:hasQuantityValue solr:NumericValue.q_Observation.1943 .
+
+solr:Quantity.q_Observation.2 a sol-ont:Quantity ;
+    sol-ont:hasQuantityKind solr:QuantityKind.q_Observation.2 ;
+    sol-ont:hasQuantityValue solr:NumericValue.q_Observation.2 .
+
+solr:Quantity.q_Observation.436724 a sol-ont:Quantity ;
+    sol-ont:hasQuantityKind solr:QuantityKind.q_Observation.436724 ;
+    sol-ont:hasQuantityValue solr:NumericValue.q_Observation.436724 .
+
+solr:Quantity.q_Observation.4660 a sol-ont:Quantity ;
+    sol-ont:hasQuantityKind solr:QuantityKind.q_Observation.4660 ;
+    sol-ont:hasQuantityValue solr:NumericValue.q_Observation.4660 .
+
+solr:Quantity.q_Observation.65803 a sol-ont:Quantity ;
+    sol-ont:hasQuantityKind solr:QuantityKind.q_Observation.65803 ;
+    sol-ont:hasQuantityValue solr:NumericValue.q_Observation.65803 .
+
+solr:Quantity.q_Observation.7474 a sol-ont:Quantity ;
+    sol-ont:hasQuantityKind solr:QuantityKind.q_Observation.7474 ;
+    sol-ont:hasQuantityValue solr:NumericValue.q_Observation.7474 .
+
+solr:Quantity.q_Observation.87 a sol-ont:Quantity ;
+    sol-ont:hasQuantityKind solr:QuantityKind.q_Observation.87 ;
+    sol-ont:hasQuantityValue solr:NumericValue.q_Observation.87 .
+
+solr:Quantity.q_Observation.98943 a sol-ont:Quantity ;
+    sol-ont:hasQuantityKind solr:QuantityKind.q_Observation.98943 ;
+    sol-ont:hasQuantityValue solr:NumericValue.q_Observation.98943 .
+
+solr:QuantityKind.D_Observation.10 a sol-ont:QuantityKind,
+        "D"^^sol-qk:D .
+
+solr:QuantityKind.D_Observation.101955 a sol-ont:QuantityKind,
+        "D"^^sol-qk:D .
+
+solr:QuantityKind.D_Observation.10302 a sol-ont:QuantityKind,
+        "D"^^sol-qk:D .
+
+solr:QuantityKind.D_Observation.13 a sol-ont:QuantityKind,
+        "D"^^sol-qk:D .
+
+solr:QuantityKind.D_Observation.16 a sol-ont:QuantityKind,
+        "D"^^sol-qk:D .
+
+solr:QuantityKind.D_Observation.162173 a sol-ont:QuantityKind,
+        "D"^^sol-qk:D .
+
+solr:QuantityKind.D_Observation.19 a sol-ont:QuantityKind,
+        "D"^^sol-qk:D .
+
+solr:QuantityKind.D_Observation.1943 a sol-ont:QuantityKind,
+        "D"^^sol-qk:D .
+
+solr:QuantityKind.D_Observation.2 a sol-ont:QuantityKind,
+        "D"^^sol-qk:D .
+
+solr:QuantityKind.D_Observation.436724 a sol-ont:QuantityKind,
+        "D"^^sol-qk:D .
+
+solr:QuantityKind.D_Observation.4660 a sol-ont:QuantityKind,
+        "D"^^sol-qk:D .
+
+solr:QuantityKind.D_Observation.65803 a sol-ont:QuantityKind,
+        "D"^^sol-qk:D .
+
+solr:QuantityKind.D_Observation.7474 a sol-ont:QuantityKind,
+        "D"^^sol-qk:D .
+
+solr:QuantityKind.D_Observation.87 a sol-ont:QuantityKind,
+        "D"^^sol-qk:D .
+
+solr:QuantityKind.D_Observation.98943 a sol-ont:QuantityKind,
+        "D"^^sol-qk:D .
+
+solr:QuantityKind.M_Observation.10 a sol-ont:QuantityKind,
+        "M"^^sol-qk:M .
+
+solr:QuantityKind.M_Observation.101955 a sol-ont:QuantityKind,
+        "M"^^sol-qk:M .
+
+solr:QuantityKind.M_Observation.10302 a sol-ont:QuantityKind,
+        "M"^^sol-qk:M .
+
+solr:QuantityKind.M_Observation.13 a sol-ont:QuantityKind,
+        "M"^^sol-qk:M .
+
+solr:QuantityKind.M_Observation.16 a sol-ont:QuantityKind,
+        "M"^^sol-qk:M .
+
+solr:QuantityKind.M_Observation.162173 a sol-ont:QuantityKind,
+        "M"^^sol-qk:M .
+
+solr:QuantityKind.M_Observation.19 a sol-ont:QuantityKind,
+        "M"^^sol-qk:M .
+
+solr:QuantityKind.M_Observation.1943 a sol-ont:QuantityKind,
+        "M"^^sol-qk:M .
+
+solr:QuantityKind.M_Observation.2 a sol-ont:QuantityKind,
+        "M"^^sol-qk:M .
+
+solr:QuantityKind.M_Observation.436724 a sol-ont:QuantityKind,
+        "M"^^sol-qk:M .
+
+solr:QuantityKind.M_Observation.4660 a sol-ont:QuantityKind,
+        "M"^^sol-qk:M .
+
+solr:QuantityKind.M_Observation.65803 a sol-ont:QuantityKind,
+        "M"^^sol-qk:M .
+
+solr:QuantityKind.M_Observation.7474 a sol-ont:QuantityKind,
+        "M"^^sol-qk:M .
+
+solr:QuantityKind.M_Observation.87 a sol-ont:QuantityKind,
+        "M"^^sol-qk:M .
+
+solr:QuantityKind.M_Observation.98943 a sol-ont:QuantityKind,
+        "M"^^sol-qk:M .
+
+solr:QuantityKind.Q_Observation.10 a sol-ont:QuantityKind,
+        "Q"^^sol-qk:Q .
+
+solr:QuantityKind.Q_Observation.101955 a sol-ont:QuantityKind,
+        "Q"^^sol-qk:Q .
+
+solr:QuantityKind.Q_Observation.10302 a sol-ont:QuantityKind,
+        "Q"^^sol-qk:Q .
+
+solr:QuantityKind.Q_Observation.13 a sol-ont:QuantityKind,
+        "Q"^^sol-qk:Q .
+
+solr:QuantityKind.Q_Observation.16 a sol-ont:QuantityKind,
+        "Q"^^sol-qk:Q .
+
+solr:QuantityKind.Q_Observation.162173 a sol-ont:QuantityKind,
+        "Q"^^sol-qk:Q .
+
+solr:QuantityKind.Q_Observation.19 a sol-ont:QuantityKind,
+        "Q"^^sol-qk:Q .
+
+solr:QuantityKind.Q_Observation.1943 a sol-ont:QuantityKind,
+        "Q"^^sol-qk:Q .
+
+solr:QuantityKind.Q_Observation.2 a sol-ont:QuantityKind,
+        "Q"^^sol-qk:Q .
+
+solr:QuantityKind.Q_Observation.436724 a sol-ont:QuantityKind,
+        "Q"^^sol-qk:Q .
+
+solr:QuantityKind.Q_Observation.4660 a sol-ont:QuantityKind,
+        "Q"^^sol-qk:Q .
+
+solr:QuantityKind.Q_Observation.65803 a sol-ont:QuantityKind,
+        "Q"^^sol-qk:Q .
+
+solr:QuantityKind.Q_Observation.7474 a sol-ont:QuantityKind,
+        "Q"^^sol-qk:Q .
+
+solr:QuantityKind.Q_Observation.87 a sol-ont:QuantityKind,
+        "Q"^^sol-qk:Q .
+
+solr:QuantityKind.Q_Observation.98943 a sol-ont:QuantityKind,
+        "Q"^^sol-qk:Q .
+
+solr:QuantityKind.a_Observation.10 a sol-ont:QuantityKind,
+        "a"^^sol-qk:a .
+
+solr:QuantityKind.a_Observation.101955 a sol-ont:QuantityKind,
+        "a"^^sol-qk:a .
+
+solr:QuantityKind.a_Observation.10302 a sol-ont:QuantityKind,
+        "a"^^sol-qk:a .
+
+solr:QuantityKind.a_Observation.13 a sol-ont:QuantityKind,
+        "a"^^sol-qk:a .
+
+solr:QuantityKind.a_Observation.16 a sol-ont:QuantityKind,
+        "a"^^sol-qk:a .
+
+solr:QuantityKind.a_Observation.162173 a sol-ont:QuantityKind,
+        "a"^^sol-qk:a .
+
+solr:QuantityKind.a_Observation.19 a sol-ont:QuantityKind,
+        "a"^^sol-qk:a .
+
+solr:QuantityKind.a_Observation.1943 a sol-ont:QuantityKind,
+        "a"^^sol-qk:a .
+
+solr:QuantityKind.a_Observation.2 a sol-ont:QuantityKind,
+        "a"^^sol-qk:a .
+
+solr:QuantityKind.a_Observation.436724 a sol-ont:QuantityKind,
+        "a"^^sol-qk:a .
+
+solr:QuantityKind.a_Observation.4660 a sol-ont:QuantityKind,
+        "a"^^sol-qk:a .
+
+solr:QuantityKind.a_Observation.65803 a sol-ont:QuantityKind,
+        "a"^^sol-qk:a .
+
+solr:QuantityKind.a_Observation.7474 a sol-ont:QuantityKind,
+        "a"^^sol-qk:a .
+
+solr:QuantityKind.a_Observation.87 a sol-ont:QuantityKind,
+        "a"^^sol-qk:a .
+
+solr:QuantityKind.a_Observation.98943 a sol-ont:QuantityKind,
+        "a"^^sol-qk:a .
+
+solr:QuantityKind.e_Observation.10 a sol-ont:QuantityKind,
+        "e"^^sol-qk:e .
+
+solr:QuantityKind.e_Observation.101955 a sol-ont:QuantityKind,
+        "e"^^sol-qk:e .
+
+solr:QuantityKind.e_Observation.10302 a sol-ont:QuantityKind,
+        "e"^^sol-qk:e .
+
+solr:QuantityKind.e_Observation.13 a sol-ont:QuantityKind,
+        "e"^^sol-qk:e .
+
+solr:QuantityKind.e_Observation.16 a sol-ont:QuantityKind,
+        "e"^^sol-qk:e .
+
+solr:QuantityKind.e_Observation.162173 a sol-ont:QuantityKind,
+        "e"^^sol-qk:e .
+
+solr:QuantityKind.e_Observation.19 a sol-ont:QuantityKind,
+        "e"^^sol-qk:e .
+
+solr:QuantityKind.e_Observation.1943 a sol-ont:QuantityKind,
+        "e"^^sol-qk:e .
+
+solr:QuantityKind.e_Observation.2 a sol-ont:QuantityKind,
+        "e"^^sol-qk:e .
+
+solr:QuantityKind.e_Observation.436724 a sol-ont:QuantityKind,
+        "e"^^sol-qk:e .
+
+solr:QuantityKind.e_Observation.4660 a sol-ont:QuantityKind,
+        "e"^^sol-qk:e .
+
+solr:QuantityKind.e_Observation.65803 a sol-ont:QuantityKind,
+        "e"^^sol-qk:e .
+
+solr:QuantityKind.e_Observation.7474 a sol-ont:QuantityKind,
+        "e"^^sol-qk:e .
+
+solr:QuantityKind.e_Observation.87 a sol-ont:QuantityKind,
+        "e"^^sol-qk:e .
+
+solr:QuantityKind.e_Observation.98943 a sol-ont:QuantityKind,
+        "e"^^sol-qk:e .
+
+solr:QuantityKind.i_Observation.10 a sol-ont:QuantityKind,
+        "i"^^sol-qk:i .
+
+solr:QuantityKind.i_Observation.101955 a sol-ont:QuantityKind,
+        "i"^^sol-qk:i .
+
+solr:QuantityKind.i_Observation.10302 a sol-ont:QuantityKind,
+        "i"^^sol-qk:i .
+
+solr:QuantityKind.i_Observation.13 a sol-ont:QuantityKind,
+        "i"^^sol-qk:i .
+
+solr:QuantityKind.i_Observation.16 a sol-ont:QuantityKind,
+        "i"^^sol-qk:i .
+
+solr:QuantityKind.i_Observation.162173 a sol-ont:QuantityKind,
+        "i"^^sol-qk:i .
+
+solr:QuantityKind.i_Observation.19 a sol-ont:QuantityKind,
+        "i"^^sol-qk:i .
+
+solr:QuantityKind.i_Observation.1943 a sol-ont:QuantityKind,
+        "i"^^sol-qk:i .
+
+solr:QuantityKind.i_Observation.2 a sol-ont:QuantityKind,
+        "i"^^sol-qk:i .
+
+solr:QuantityKind.i_Observation.436724 a sol-ont:QuantityKind,
+        "i"^^sol-qk:i .
+
+solr:QuantityKind.i_Observation.4660 a sol-ont:QuantityKind,
+        "i"^^sol-qk:i .
+
+solr:QuantityKind.i_Observation.65803 a sol-ont:QuantityKind,
+        "i"^^sol-qk:i .
+
+solr:QuantityKind.i_Observation.7474 a sol-ont:QuantityKind,
+        "i"^^sol-qk:i .
+
+solr:QuantityKind.i_Observation.87 a sol-ont:QuantityKind,
+        "i"^^sol-qk:i .
+
+solr:QuantityKind.i_Observation.98943 a sol-ont:QuantityKind,
+        "i"^^sol-qk:i .
+
+solr:QuantityKind.n_Observation.10 a sol-ont:QuantityKind,
+        "n"^^sol-qk:n .
+
+solr:QuantityKind.n_Observation.101955 a sol-ont:QuantityKind,
+        "n"^^sol-qk:n .
+
+solr:QuantityKind.n_Observation.10302 a sol-ont:QuantityKind,
+        "n"^^sol-qk:n .
+
+solr:QuantityKind.n_Observation.13 a sol-ont:QuantityKind,
+        "n"^^sol-qk:n .
+
+solr:QuantityKind.n_Observation.16 a sol-ont:QuantityKind,
+        "n"^^sol-qk:n .
+
+solr:QuantityKind.n_Observation.162173 a sol-ont:QuantityKind,
+        "n"^^sol-qk:n .
+
+solr:QuantityKind.n_Observation.19 a sol-ont:QuantityKind,
+        "n"^^sol-qk:n .
+
+solr:QuantityKind.n_Observation.1943 a sol-ont:QuantityKind,
+        "n"^^sol-qk:n .
+
+solr:QuantityKind.n_Observation.2 a sol-ont:QuantityKind,
+        "n"^^sol-qk:n .
+
+solr:QuantityKind.n_Observation.436724 a sol-ont:QuantityKind,
+        "n"^^sol-qk:n .
+
+solr:QuantityKind.n_Observation.4660 a sol-ont:QuantityKind,
+        "n"^^sol-qk:n .
+
+solr:QuantityKind.n_Observation.65803 a sol-ont:QuantityKind,
+        "n"^^sol-qk:n .
+
+solr:QuantityKind.n_Observation.7474 a sol-ont:QuantityKind,
+        "n"^^sol-qk:n .
+
+solr:QuantityKind.n_Observation.87 a sol-ont:QuantityKind,
+        "n"^^sol-qk:n .
+
+solr:QuantityKind.n_Observation.98943 a sol-ont:QuantityKind,
+        "n"^^sol-qk:n .
+
+solr:QuantityKind.node_Observation.10 a sol-ont:QuantityKind,
+        "node"^^sol-qk:node .
+
+solr:QuantityKind.node_Observation.101955 a sol-ont:QuantityKind,
+        "node"^^sol-qk:node .
+
+solr:QuantityKind.node_Observation.10302 a sol-ont:QuantityKind,
+        "node"^^sol-qk:node .
+
+solr:QuantityKind.node_Observation.13 a sol-ont:QuantityKind,
+        "node"^^sol-qk:node .
+
+solr:QuantityKind.node_Observation.16 a sol-ont:QuantityKind,
+        "node"^^sol-qk:node .
+
+solr:QuantityKind.node_Observation.162173 a sol-ont:QuantityKind,
+        "node"^^sol-qk:node .
+
+solr:QuantityKind.node_Observation.19 a sol-ont:QuantityKind,
+        "node"^^sol-qk:node .
+
+solr:QuantityKind.node_Observation.1943 a sol-ont:QuantityKind,
+        "node"^^sol-qk:node .
+
+solr:QuantityKind.node_Observation.2 a sol-ont:QuantityKind,
+        "node"^^sol-qk:node .
+
+solr:QuantityKind.node_Observation.436724 a sol-ont:QuantityKind,
+        "node"^^sol-qk:node .
+
+solr:QuantityKind.node_Observation.4660 a sol-ont:QuantityKind,
+        "node"^^sol-qk:node .
+
+solr:QuantityKind.node_Observation.65803 a sol-ont:QuantityKind,
+        "node"^^sol-qk:node .
+
+solr:QuantityKind.node_Observation.7474 a sol-ont:QuantityKind,
+        "node"^^sol-qk:node .
+
+solr:QuantityKind.node_Observation.87 a sol-ont:QuantityKind,
+        "node"^^sol-qk:node .
+
+solr:QuantityKind.node_Observation.98943 a sol-ont:QuantityKind,
+        "node"^^sol-qk:node .
+
+solr:QuantityKind.peri_Observation.10 a sol-ont:QuantityKind,
+        "peri"^^sol-qk:peri .
+
+solr:QuantityKind.peri_Observation.101955 a sol-ont:QuantityKind,
+        "peri"^^sol-qk:peri .
+
+solr:QuantityKind.peri_Observation.10302 a sol-ont:QuantityKind,
+        "peri"^^sol-qk:peri .
+
+solr:QuantityKind.peri_Observation.13 a sol-ont:QuantityKind,
+        "peri"^^sol-qk:peri .
+
+solr:QuantityKind.peri_Observation.16 a sol-ont:QuantityKind,
+        "peri"^^sol-qk:peri .
+
+solr:QuantityKind.peri_Observation.162173 a sol-ont:QuantityKind,
+        "peri"^^sol-qk:peri .
+
+solr:QuantityKind.peri_Observation.19 a sol-ont:QuantityKind,
+        "peri"^^sol-qk:peri .
+
+solr:QuantityKind.peri_Observation.1943 a sol-ont:QuantityKind,
+        "peri"^^sol-qk:peri .
+
+solr:QuantityKind.peri_Observation.2 a sol-ont:QuantityKind,
+        "peri"^^sol-qk:peri .
+
+solr:QuantityKind.peri_Observation.436724 a sol-ont:QuantityKind,
+        "peri"^^sol-qk:peri .
+
+solr:QuantityKind.peri_Observation.4660 a sol-ont:QuantityKind,
+        "peri"^^sol-qk:peri .
+
+solr:QuantityKind.peri_Observation.65803 a sol-ont:QuantityKind,
+        "peri"^^sol-qk:peri .
+
+solr:QuantityKind.peri_Observation.7474 a sol-ont:QuantityKind,
+        "peri"^^sol-qk:peri .
+
+solr:QuantityKind.peri_Observation.87 a sol-ont:QuantityKind,
+        "peri"^^sol-qk:peri .
+
+solr:QuantityKind.peri_Observation.98943 a sol-ont:QuantityKind,
+        "peri"^^sol-qk:peri .
+
+solr:QuantityKind.period_y_Observation.10 a sol-ont:QuantityKind,
+        "period_y"^^sol-qk:period_y .
+
+solr:QuantityKind.period_y_Observation.101955 a sol-ont:QuantityKind,
+        "period_y"^^sol-qk:period_y .
+
+solr:QuantityKind.period_y_Observation.10302 a sol-ont:QuantityKind,
+        "period_y"^^sol-qk:period_y .
+
+solr:QuantityKind.period_y_Observation.13 a sol-ont:QuantityKind,
+        "period_y"^^sol-qk:period_y .
+
+solr:QuantityKind.period_y_Observation.16 a sol-ont:QuantityKind,
+        "period_y"^^sol-qk:period_y .
+
+solr:QuantityKind.period_y_Observation.162173 a sol-ont:QuantityKind,
+        "period_y"^^sol-qk:period_y .
+
+solr:QuantityKind.period_y_Observation.19 a sol-ont:QuantityKind,
+        "period_y"^^sol-qk:period_y .
+
+solr:QuantityKind.period_y_Observation.1943 a sol-ont:QuantityKind,
+        "period_y"^^sol-qk:period_y .
+
+solr:QuantityKind.period_y_Observation.2 a sol-ont:QuantityKind,
+        "period_y"^^sol-qk:period_y .
+
+solr:QuantityKind.period_y_Observation.436724 a sol-ont:QuantityKind,
+        "period_y"^^sol-qk:period_y .
+
+solr:QuantityKind.period_y_Observation.4660 a sol-ont:QuantityKind,
+        "period_y"^^sol-qk:period_y .
+
+solr:QuantityKind.period_y_Observation.65803 a sol-ont:QuantityKind,
+        "period_y"^^sol-qk:period_y .
+
+solr:QuantityKind.period_y_Observation.7474 a sol-ont:QuantityKind,
+        "period_y"^^sol-qk:period_y .
+
+solr:QuantityKind.period_y_Observation.87 a sol-ont:QuantityKind,
+        "period_y"^^sol-qk:period_y .
+
+solr:QuantityKind.period_y_Observation.98943 a sol-ont:QuantityKind,
+        "period_y"^^sol-qk:period_y .
+
+solr:QuantityKind.q_Observation.10 a sol-ont:QuantityKind,
+        "q"^^sol-qk:q .
+
+solr:QuantityKind.q_Observation.101955 a sol-ont:QuantityKind,
+        "q"^^sol-qk:q .
+
+solr:QuantityKind.q_Observation.10302 a sol-ont:QuantityKind,
+        "q"^^sol-qk:q .
+
+solr:QuantityKind.q_Observation.13 a sol-ont:QuantityKind,
+        "q"^^sol-qk:q .
+
+solr:QuantityKind.q_Observation.16 a sol-ont:QuantityKind,
+        "q"^^sol-qk:q .
+
+solr:QuantityKind.q_Observation.162173 a sol-ont:QuantityKind,
+        "q"^^sol-qk:q .
+
+solr:QuantityKind.q_Observation.19 a sol-ont:QuantityKind,
+        "q"^^sol-qk:q .
+
+solr:QuantityKind.q_Observation.1943 a sol-ont:QuantityKind,
+        "q"^^sol-qk:q .
+
+solr:QuantityKind.q_Observation.2 a sol-ont:QuantityKind,
+        "q"^^sol-qk:q .
+
+solr:QuantityKind.q_Observation.436724 a sol-ont:QuantityKind,
+        "q"^^sol-qk:q .
+
+solr:QuantityKind.q_Observation.4660 a sol-ont:QuantityKind,
+        "q"^^sol-qk:q .
+
+solr:QuantityKind.q_Observation.65803 a sol-ont:QuantityKind,
+        "q"^^sol-qk:q .
+
+solr:QuantityKind.q_Observation.7474 a sol-ont:QuantityKind,
+        "q"^^sol-qk:q .
+
+solr:QuantityKind.q_Observation.87 a sol-ont:QuantityKind,
+        "q"^^sol-qk:q .
+
+solr:QuantityKind.q_Observation.98943 a sol-ont:QuantityKind,
+        "q"^^sol-qk:q .
+
+solr:Result.D_Observation.10 sol-ont:hasQuantity solr:Quantity.D_Observation.10 .
+
+solr:Result.D_Observation.101955 sol-ont:hasQuantity solr:Quantity.D_Observation.101955 .
+
+solr:Result.D_Observation.10302 sol-ont:hasQuantity solr:Quantity.D_Observation.10302 .
+
+solr:Result.D_Observation.13 sol-ont:hasQuantity solr:Quantity.D_Observation.13 .
+
+solr:Result.D_Observation.16 sol-ont:hasQuantity solr:Quantity.D_Observation.16 .
+
+solr:Result.D_Observation.162173 sol-ont:hasQuantity solr:Quantity.D_Observation.162173 .
+
+solr:Result.D_Observation.19 sol-ont:hasQuantity solr:Quantity.D_Observation.19 .
+
+solr:Result.D_Observation.1943 sol-ont:hasQuantity solr:Quantity.D_Observation.1943 .
+
+solr:Result.D_Observation.2 sol-ont:hasQuantity solr:Quantity.D_Observation.2 .
+
+solr:Result.D_Observation.436724 sol-ont:hasQuantity solr:Quantity.D_Observation.436724 .
+
+solr:Result.D_Observation.4660 sol-ont:hasQuantity solr:Quantity.D_Observation.4660 .
+
+solr:Result.D_Observation.65803 sol-ont:hasQuantity solr:Quantity.D_Observation.65803 .
+
+solr:Result.D_Observation.7474 sol-ont:hasQuantity solr:Quantity.D_Observation.7474 .
+
+solr:Result.D_Observation.87 sol-ont:hasQuantity solr:Quantity.D_Observation.87 .
+
+solr:Result.D_Observation.98943 sol-ont:hasQuantity solr:Quantity.D_Observation.98943 .
+
+solr:Result.M_Observation.10 sol-ont:hasQuantity solr:Quantity.M_Observation.10 .
+
+solr:Result.M_Observation.101955 sol-ont:hasQuantity solr:Quantity.M_Observation.101955 .
+
+solr:Result.M_Observation.10302 sol-ont:hasQuantity solr:Quantity.M_Observation.10302 .
+
+solr:Result.M_Observation.13 sol-ont:hasQuantity solr:Quantity.M_Observation.13 .
+
+solr:Result.M_Observation.16 sol-ont:hasQuantity solr:Quantity.M_Observation.16 .
+
+solr:Result.M_Observation.162173 sol-ont:hasQuantity solr:Quantity.M_Observation.162173 .
+
+solr:Result.M_Observation.19 sol-ont:hasQuantity solr:Quantity.M_Observation.19 .
+
+solr:Result.M_Observation.1943 sol-ont:hasQuantity solr:Quantity.M_Observation.1943 .
+
+solr:Result.M_Observation.2 sol-ont:hasQuantity solr:Quantity.M_Observation.2 .
+
+solr:Result.M_Observation.436724 sol-ont:hasQuantity solr:Quantity.M_Observation.436724 .
+
+solr:Result.M_Observation.4660 sol-ont:hasQuantity solr:Quantity.M_Observation.4660 .
+
+solr:Result.M_Observation.65803 sol-ont:hasQuantity solr:Quantity.M_Observation.65803 .
+
+solr:Result.M_Observation.7474 sol-ont:hasQuantity solr:Quantity.M_Observation.7474 .
+
+solr:Result.M_Observation.87 sol-ont:hasQuantity solr:Quantity.M_Observation.87 .
+
+solr:Result.M_Observation.98943 sol-ont:hasQuantity solr:Quantity.M_Observation.98943 .
+
+solr:Result.Q_Observation.10 sol-ont:hasQuantity solr:Quantity.Q_Observation.10 .
+
+solr:Result.Q_Observation.101955 sol-ont:hasQuantity solr:Quantity.Q_Observation.101955 .
+
+solr:Result.Q_Observation.10302 sol-ont:hasQuantity solr:Quantity.Q_Observation.10302 .
+
+solr:Result.Q_Observation.13 sol-ont:hasQuantity solr:Quantity.Q_Observation.13 .
+
+solr:Result.Q_Observation.16 sol-ont:hasQuantity solr:Quantity.Q_Observation.16 .
+
+solr:Result.Q_Observation.162173 sol-ont:hasQuantity solr:Quantity.Q_Observation.162173 .
+
+solr:Result.Q_Observation.19 sol-ont:hasQuantity solr:Quantity.Q_Observation.19 .
+
+solr:Result.Q_Observation.1943 sol-ont:hasQuantity solr:Quantity.Q_Observation.1943 .
+
+solr:Result.Q_Observation.2 sol-ont:hasQuantity solr:Quantity.Q_Observation.2 .
+
+solr:Result.Q_Observation.436724 sol-ont:hasQuantity solr:Quantity.Q_Observation.436724 .
+
+solr:Result.Q_Observation.4660 sol-ont:hasQuantity solr:Quantity.Q_Observation.4660 .
+
+solr:Result.Q_Observation.65803 sol-ont:hasQuantity solr:Quantity.Q_Observation.65803 .
+
+solr:Result.Q_Observation.7474 sol-ont:hasQuantity solr:Quantity.Q_Observation.7474 .
+
+solr:Result.Q_Observation.87 sol-ont:hasQuantity solr:Quantity.Q_Observation.87 .
+
+solr:Result.Q_Observation.98943 sol-ont:hasQuantity solr:Quantity.Q_Observation.98943 .
+
+solr:Result.a_Observation.10 sol-ont:hasQuantity solr:Quantity.a_Observation.10 .
+
+solr:Result.a_Observation.101955 sol-ont:hasQuantity solr:Quantity.a_Observation.101955 .
+
+solr:Result.a_Observation.10302 sol-ont:hasQuantity solr:Quantity.a_Observation.10302 .
+
+solr:Result.a_Observation.13 sol-ont:hasQuantity solr:Quantity.a_Observation.13 .
+
+solr:Result.a_Observation.16 sol-ont:hasQuantity solr:Quantity.a_Observation.16 .
+
+solr:Result.a_Observation.162173 sol-ont:hasQuantity solr:Quantity.a_Observation.162173 .
+
+solr:Result.a_Observation.19 sol-ont:hasQuantity solr:Quantity.a_Observation.19 .
+
+solr:Result.a_Observation.1943 sol-ont:hasQuantity solr:Quantity.a_Observation.1943 .
+
+solr:Result.a_Observation.2 sol-ont:hasQuantity solr:Quantity.a_Observation.2 .
+
+solr:Result.a_Observation.436724 sol-ont:hasQuantity solr:Quantity.a_Observation.436724 .
+
+solr:Result.a_Observation.4660 sol-ont:hasQuantity solr:Quantity.a_Observation.4660 .
+
+solr:Result.a_Observation.65803 sol-ont:hasQuantity solr:Quantity.a_Observation.65803 .
+
+solr:Result.a_Observation.7474 sol-ont:hasQuantity solr:Quantity.a_Observation.7474 .
+
+solr:Result.a_Observation.87 sol-ont:hasQuantity solr:Quantity.a_Observation.87 .
+
+solr:Result.a_Observation.98943 sol-ont:hasQuantity solr:Quantity.a_Observation.98943 .
+
+solr:Result.e_Observation.10 sol-ont:hasQuantity solr:Quantity.e_Observation.10 .
+
+solr:Result.e_Observation.101955 sol-ont:hasQuantity solr:Quantity.e_Observation.101955 .
+
+solr:Result.e_Observation.10302 sol-ont:hasQuantity solr:Quantity.e_Observation.10302 .
+
+solr:Result.e_Observation.13 sol-ont:hasQuantity solr:Quantity.e_Observation.13 .
+
+solr:Result.e_Observation.16 sol-ont:hasQuantity solr:Quantity.e_Observation.16 .
+
+solr:Result.e_Observation.162173 sol-ont:hasQuantity solr:Quantity.e_Observation.162173 .
+
+solr:Result.e_Observation.19 sol-ont:hasQuantity solr:Quantity.e_Observation.19 .
+
+solr:Result.e_Observation.1943 sol-ont:hasQuantity solr:Quantity.e_Observation.1943 .
+
+solr:Result.e_Observation.2 sol-ont:hasQuantity solr:Quantity.e_Observation.2 .
+
+solr:Result.e_Observation.436724 sol-ont:hasQuantity solr:Quantity.e_Observation.436724 .
+
+solr:Result.e_Observation.4660 sol-ont:hasQuantity solr:Quantity.e_Observation.4660 .
+
+solr:Result.e_Observation.65803 sol-ont:hasQuantity solr:Quantity.e_Observation.65803 .
+
+solr:Result.e_Observation.7474 sol-ont:hasQuantity solr:Quantity.e_Observation.7474 .
+
+solr:Result.e_Observation.87 sol-ont:hasQuantity solr:Quantity.e_Observation.87 .
+
+solr:Result.e_Observation.98943 sol-ont:hasQuantity solr:Quantity.e_Observation.98943 .
+
+solr:Result.i_Observation.10 sol-ont:hasQuantity solr:Quantity.i_Observation.10 .
+
+solr:Result.i_Observation.101955 sol-ont:hasQuantity solr:Quantity.i_Observation.101955 .
+
+solr:Result.i_Observation.10302 sol-ont:hasQuantity solr:Quantity.i_Observation.10302 .
+
+solr:Result.i_Observation.13 sol-ont:hasQuantity solr:Quantity.i_Observation.13 .
+
+solr:Result.i_Observation.16 sol-ont:hasQuantity solr:Quantity.i_Observation.16 .
+
+solr:Result.i_Observation.162173 sol-ont:hasQuantity solr:Quantity.i_Observation.162173 .
+
+solr:Result.i_Observation.19 sol-ont:hasQuantity solr:Quantity.i_Observation.19 .
+
+solr:Result.i_Observation.1943 sol-ont:hasQuantity solr:Quantity.i_Observation.1943 .
+
+solr:Result.i_Observation.2 sol-ont:hasQuantity solr:Quantity.i_Observation.2 .
+
+solr:Result.i_Observation.436724 sol-ont:hasQuantity solr:Quantity.i_Observation.436724 .
+
+solr:Result.i_Observation.4660 sol-ont:hasQuantity solr:Quantity.i_Observation.4660 .
+
+solr:Result.i_Observation.65803 sol-ont:hasQuantity solr:Quantity.i_Observation.65803 .
+
+solr:Result.i_Observation.7474 sol-ont:hasQuantity solr:Quantity.i_Observation.7474 .
+
+solr:Result.i_Observation.87 sol-ont:hasQuantity solr:Quantity.i_Observation.87 .
+
+solr:Result.i_Observation.98943 sol-ont:hasQuantity solr:Quantity.i_Observation.98943 .
+
+solr:Result.n_Observation.10 sol-ont:hasQuantity solr:Quantity.n_Observation.10 .
+
+solr:Result.n_Observation.101955 sol-ont:hasQuantity solr:Quantity.n_Observation.101955 .
+
+solr:Result.n_Observation.10302 sol-ont:hasQuantity solr:Quantity.n_Observation.10302 .
+
+solr:Result.n_Observation.13 sol-ont:hasQuantity solr:Quantity.n_Observation.13 .
+
+solr:Result.n_Observation.16 sol-ont:hasQuantity solr:Quantity.n_Observation.16 .
+
+solr:Result.n_Observation.162173 sol-ont:hasQuantity solr:Quantity.n_Observation.162173 .
+
+solr:Result.n_Observation.19 sol-ont:hasQuantity solr:Quantity.n_Observation.19 .
+
+solr:Result.n_Observation.1943 sol-ont:hasQuantity solr:Quantity.n_Observation.1943 .
+
+solr:Result.n_Observation.2 sol-ont:hasQuantity solr:Quantity.n_Observation.2 .
+
+solr:Result.n_Observation.436724 sol-ont:hasQuantity solr:Quantity.n_Observation.436724 .
+
+solr:Result.n_Observation.4660 sol-ont:hasQuantity solr:Quantity.n_Observation.4660 .
+
+solr:Result.n_Observation.65803 sol-ont:hasQuantity solr:Quantity.n_Observation.65803 .
+
+solr:Result.n_Observation.7474 sol-ont:hasQuantity solr:Quantity.n_Observation.7474 .
+
+solr:Result.n_Observation.87 sol-ont:hasQuantity solr:Quantity.n_Observation.87 .
+
+solr:Result.n_Observation.98943 sol-ont:hasQuantity solr:Quantity.n_Observation.98943 .
+
+solr:Result.node_Observation.10 sol-ont:hasQuantity solr:Quantity.node_Observation.10 .
+
+solr:Result.node_Observation.101955 sol-ont:hasQuantity solr:Quantity.node_Observation.101955 .
+
+solr:Result.node_Observation.10302 sol-ont:hasQuantity solr:Quantity.node_Observation.10302 .
+
+solr:Result.node_Observation.13 sol-ont:hasQuantity solr:Quantity.node_Observation.13 .
+
+solr:Result.node_Observation.16 sol-ont:hasQuantity solr:Quantity.node_Observation.16 .
+
+solr:Result.node_Observation.162173 sol-ont:hasQuantity solr:Quantity.node_Observation.162173 .
+
+solr:Result.node_Observation.19 sol-ont:hasQuantity solr:Quantity.node_Observation.19 .
+
+solr:Result.node_Observation.1943 sol-ont:hasQuantity solr:Quantity.node_Observation.1943 .
+
+solr:Result.node_Observation.2 sol-ont:hasQuantity solr:Quantity.node_Observation.2 .
+
+solr:Result.node_Observation.436724 sol-ont:hasQuantity solr:Quantity.node_Observation.436724 .
+
+solr:Result.node_Observation.4660 sol-ont:hasQuantity solr:Quantity.node_Observation.4660 .
+
+solr:Result.node_Observation.65803 sol-ont:hasQuantity solr:Quantity.node_Observation.65803 .
+
+solr:Result.node_Observation.7474 sol-ont:hasQuantity solr:Quantity.node_Observation.7474 .
+
+solr:Result.node_Observation.87 sol-ont:hasQuantity solr:Quantity.node_Observation.87 .
+
+solr:Result.node_Observation.98943 sol-ont:hasQuantity solr:Quantity.node_Observation.98943 .
+
+solr:Result.peri_Observation.10 sol-ont:hasQuantity solr:Quantity.peri_Observation.10 .
+
+solr:Result.peri_Observation.101955 sol-ont:hasQuantity solr:Quantity.peri_Observation.101955 .
+
+solr:Result.peri_Observation.10302 sol-ont:hasQuantity solr:Quantity.peri_Observation.10302 .
+
+solr:Result.peri_Observation.13 sol-ont:hasQuantity solr:Quantity.peri_Observation.13 .
+
+solr:Result.peri_Observation.16 sol-ont:hasQuantity solr:Quantity.peri_Observation.16 .
+
+solr:Result.peri_Observation.162173 sol-ont:hasQuantity solr:Quantity.peri_Observation.162173 .
+
+solr:Result.peri_Observation.19 sol-ont:hasQuantity solr:Quantity.peri_Observation.19 .
+
+solr:Result.peri_Observation.1943 sol-ont:hasQuantity solr:Quantity.peri_Observation.1943 .
+
+solr:Result.peri_Observation.2 sol-ont:hasQuantity solr:Quantity.peri_Observation.2 .
+
+solr:Result.peri_Observation.436724 sol-ont:hasQuantity solr:Quantity.peri_Observation.436724 .
+
+solr:Result.peri_Observation.4660 sol-ont:hasQuantity solr:Quantity.peri_Observation.4660 .
+
+solr:Result.peri_Observation.65803 sol-ont:hasQuantity solr:Quantity.peri_Observation.65803 .
+
+solr:Result.peri_Observation.7474 sol-ont:hasQuantity solr:Quantity.peri_Observation.7474 .
+
+solr:Result.peri_Observation.87 sol-ont:hasQuantity solr:Quantity.peri_Observation.87 .
+
+solr:Result.peri_Observation.98943 sol-ont:hasQuantity solr:Quantity.peri_Observation.98943 .
+
+solr:Result.period_y_Observation.10 sol-ont:hasQuantity solr:Quantity.period_y_Observation.10 .
+
+solr:Result.period_y_Observation.101955 sol-ont:hasQuantity solr:Quantity.period_y_Observation.101955 .
+
+solr:Result.period_y_Observation.10302 sol-ont:hasQuantity solr:Quantity.period_y_Observation.10302 .
+
+solr:Result.period_y_Observation.13 sol-ont:hasQuantity solr:Quantity.period_y_Observation.13 .
+
+solr:Result.period_y_Observation.16 sol-ont:hasQuantity solr:Quantity.period_y_Observation.16 .
+
+solr:Result.period_y_Observation.162173 sol-ont:hasQuantity solr:Quantity.period_y_Observation.162173 .
+
+solr:Result.period_y_Observation.19 sol-ont:hasQuantity solr:Quantity.period_y_Observation.19 .
+
+solr:Result.period_y_Observation.1943 sol-ont:hasQuantity solr:Quantity.period_y_Observation.1943 .
+
+solr:Result.period_y_Observation.2 sol-ont:hasQuantity solr:Quantity.period_y_Observation.2 .
+
+solr:Result.period_y_Observation.436724 sol-ont:hasQuantity solr:Quantity.period_y_Observation.436724 .
+
+solr:Result.period_y_Observation.4660 sol-ont:hasQuantity solr:Quantity.period_y_Observation.4660 .
+
+solr:Result.period_y_Observation.65803 sol-ont:hasQuantity solr:Quantity.period_y_Observation.65803 .
+
+solr:Result.period_y_Observation.7474 sol-ont:hasQuantity solr:Quantity.period_y_Observation.7474 .
+
+solr:Result.period_y_Observation.87 sol-ont:hasQuantity solr:Quantity.period_y_Observation.87 .
+
+solr:Result.period_y_Observation.98943 sol-ont:hasQuantity solr:Quantity.period_y_Observation.98943 .
+
+solr:Result.q_Observation.10 sol-ont:hasQuantity solr:Quantity.q_Observation.10 .
+
+solr:Result.q_Observation.101955 sol-ont:hasQuantity solr:Quantity.q_Observation.101955 .
+
+solr:Result.q_Observation.10302 sol-ont:hasQuantity solr:Quantity.q_Observation.10302 .
+
+solr:Result.q_Observation.13 sol-ont:hasQuantity solr:Quantity.q_Observation.13 .
+
+solr:Result.q_Observation.16 sol-ont:hasQuantity solr:Quantity.q_Observation.16 .
+
+solr:Result.q_Observation.162173 sol-ont:hasQuantity solr:Quantity.q_Observation.162173 .
+
+solr:Result.q_Observation.19 sol-ont:hasQuantity solr:Quantity.q_Observation.19 .
+
+solr:Result.q_Observation.1943 sol-ont:hasQuantity solr:Quantity.q_Observation.1943 .
+
+solr:Result.q_Observation.2 sol-ont:hasQuantity solr:Quantity.q_Observation.2 .
+
+solr:Result.q_Observation.436724 sol-ont:hasQuantity solr:Quantity.q_Observation.436724 .
+
+solr:Result.q_Observation.4660 sol-ont:hasQuantity solr:Quantity.q_Observation.4660 .
+
+solr:Result.q_Observation.65803 sol-ont:hasQuantity solr:Quantity.q_Observation.65803 .
+
+solr:Result.q_Observation.7474 sol-ont:hasQuantity solr:Quantity.q_Observation.7474 .
+
+solr:Result.q_Observation.87 sol-ont:hasQuantity solr:Quantity.q_Observation.87 .
+
+solr:Result.q_Observation.98943 sol-ont:hasQuantity solr:Quantity.q_Observation.98943 .
+
+solr:Unit.D_Observation.10 a sol-ont:Unit,
+        "km"^^sol-unit:km .
+
+solr:Unit.D_Observation.101955 a sol-ont:Unit,
+        "km"^^sol-unit:km .
+
+solr:Unit.D_Observation.10302 a sol-ont:Unit,
+        "km"^^sol-unit:km .
+
+solr:Unit.D_Observation.13 a sol-ont:Unit,
+        "km"^^sol-unit:km .
+
+solr:Unit.D_Observation.16 a sol-ont:Unit,
+        "km"^^sol-unit:km .
+
+solr:Unit.D_Observation.162173 a sol-ont:Unit,
+        "km"^^sol-unit:km .
+
+solr:Unit.D_Observation.19 a sol-ont:Unit,
+        "km"^^sol-unit:km .
+
+solr:Unit.D_Observation.1943 a sol-ont:Unit,
+        "km"^^sol-unit:km .
+
+solr:Unit.D_Observation.2 a sol-ont:Unit,
+        "km"^^sol-unit:km .
+
+solr:Unit.D_Observation.436724 a sol-ont:Unit,
+        "km"^^sol-unit:km .
+
+solr:Unit.D_Observation.4660 a sol-ont:Unit,
+        "km"^^sol-unit:km .
+
+solr:Unit.D_Observation.65803 a sol-ont:Unit,
+        "km"^^sol-unit:km .
+
+solr:Unit.D_Observation.7474 a sol-ont:Unit,
+        "km"^^sol-unit:km .
+
+solr:Unit.D_Observation.87 a sol-ont:Unit,
+        "km"^^sol-unit:km .
+
+solr:Unit.D_Observation.98943 a sol-ont:Unit,
+        "km"^^sol-unit:km .
+
+solr:Unit.M_Observation.10 a sol-ont:Unit,
+        "deg"^^sol-unit:deg .
+
+solr:Unit.M_Observation.101955 a sol-ont:Unit,
+        "deg"^^sol-unit:deg .
+
+solr:Unit.M_Observation.10302 a sol-ont:Unit,
+        "deg"^^sol-unit:deg .
+
+solr:Unit.M_Observation.13 a sol-ont:Unit,
+        "deg"^^sol-unit:deg .
+
+solr:Unit.M_Observation.16 a sol-ont:Unit,
+        "deg"^^sol-unit:deg .
+
+solr:Unit.M_Observation.162173 a sol-ont:Unit,
+        "deg"^^sol-unit:deg .
+
+solr:Unit.M_Observation.19 a sol-ont:Unit,
+        "deg"^^sol-unit:deg .
+
+solr:Unit.M_Observation.1943 a sol-ont:Unit,
+        "deg"^^sol-unit:deg .
+
+solr:Unit.M_Observation.2 a sol-ont:Unit,
+        "deg"^^sol-unit:deg .
+
+solr:Unit.M_Observation.436724 a sol-ont:Unit,
+        "deg"^^sol-unit:deg .
+
+solr:Unit.M_Observation.4660 a sol-ont:Unit,
+        "deg"^^sol-unit:deg .
+
+solr:Unit.M_Observation.65803 a sol-ont:Unit,
+        "deg"^^sol-unit:deg .
+
+solr:Unit.M_Observation.7474 a sol-ont:Unit,
+        "deg"^^sol-unit:deg .
+
+solr:Unit.M_Observation.87 a sol-ont:Unit,
+        "deg"^^sol-unit:deg .
+
+solr:Unit.M_Observation.98943 a sol-ont:Unit,
+        "deg"^^sol-unit:deg .
+
+solr:Unit.Q_Observation.10 a sol-ont:Unit,
+        "au"^^sol-unit:au .
+
+solr:Unit.Q_Observation.101955 a sol-ont:Unit,
+        "au"^^sol-unit:au .
+
+solr:Unit.Q_Observation.10302 a sol-ont:Unit,
+        "au"^^sol-unit:au .
+
+solr:Unit.Q_Observation.13 a sol-ont:Unit,
+        "au"^^sol-unit:au .
+
+solr:Unit.Q_Observation.16 a sol-ont:Unit,
+        "au"^^sol-unit:au .
+
+solr:Unit.Q_Observation.162173 a sol-ont:Unit,
+        "au"^^sol-unit:au .
+
+solr:Unit.Q_Observation.19 a sol-ont:Unit,
+        "au"^^sol-unit:au .
+
+solr:Unit.Q_Observation.1943 a sol-ont:Unit,
+        "au"^^sol-unit:au .
+
+solr:Unit.Q_Observation.2 a sol-ont:Unit,
+        "au"^^sol-unit:au .
+
+solr:Unit.Q_Observation.436724 a sol-ont:Unit,
+        "au"^^sol-unit:au .
+
+solr:Unit.Q_Observation.4660 a sol-ont:Unit,
+        "au"^^sol-unit:au .
+
+solr:Unit.Q_Observation.65803 a sol-ont:Unit,
+        "au"^^sol-unit:au .
+
+solr:Unit.Q_Observation.7474 a sol-ont:Unit,
+        "au"^^sol-unit:au .
+
+solr:Unit.Q_Observation.87 a sol-ont:Unit,
+        "au"^^sol-unit:au .
+
+solr:Unit.Q_Observation.98943 a sol-ont:Unit,
+        "au"^^sol-unit:au .
+
+solr:Unit.a_Observation.10 a sol-ont:Unit,
+        "au"^^sol-unit:au .
+
+solr:Unit.a_Observation.101955 a sol-ont:Unit,
+        "au"^^sol-unit:au .
+
+solr:Unit.a_Observation.10302 a sol-ont:Unit,
+        "au"^^sol-unit:au .
+
+solr:Unit.a_Observation.13 a sol-ont:Unit,
+        "au"^^sol-unit:au .
+
+solr:Unit.a_Observation.16 a sol-ont:Unit,
+        "au"^^sol-unit:au .
+
+solr:Unit.a_Observation.162173 a sol-ont:Unit,
+        "au"^^sol-unit:au .
+
+solr:Unit.a_Observation.19 a sol-ont:Unit,
+        "au"^^sol-unit:au .
+
+solr:Unit.a_Observation.1943 a sol-ont:Unit,
+        "au"^^sol-unit:au .
+
+solr:Unit.a_Observation.2 a sol-ont:Unit,
+        "au"^^sol-unit:au .
+
+solr:Unit.a_Observation.436724 a sol-ont:Unit,
+        "au"^^sol-unit:au .
+
+solr:Unit.a_Observation.4660 a sol-ont:Unit,
+        "au"^^sol-unit:au .
+
+solr:Unit.a_Observation.65803 a sol-ont:Unit,
+        "au"^^sol-unit:au .
+
+solr:Unit.a_Observation.7474 a sol-ont:Unit,
+        "au"^^sol-unit:au .
+
+solr:Unit.a_Observation.87 a sol-ont:Unit,
+        "au"^^sol-unit:au .
+
+solr:Unit.a_Observation.98943 a sol-ont:Unit,
+        "au"^^sol-unit:au .
+
+solr:Unit.e_Observation.10 a sol-ont:Unit,
+        "None"^^sol-unit:None .
+
+solr:Unit.e_Observation.101955 a sol-ont:Unit,
+        "None"^^sol-unit:None .
+
+solr:Unit.e_Observation.10302 a sol-ont:Unit,
+        "None"^^sol-unit:None .
+
+solr:Unit.e_Observation.13 a sol-ont:Unit,
+        "None"^^sol-unit:None .
+
+solr:Unit.e_Observation.16 a sol-ont:Unit,
+        "None"^^sol-unit:None .
+
+solr:Unit.e_Observation.162173 a sol-ont:Unit,
+        "None"^^sol-unit:None .
+
+solr:Unit.e_Observation.19 a sol-ont:Unit,
+        "None"^^sol-unit:None .
+
+solr:Unit.e_Observation.1943 a sol-ont:Unit,
+        "None"^^sol-unit:None .
+
+solr:Unit.e_Observation.2 a sol-ont:Unit,
+        "None"^^sol-unit:None .
+
+solr:Unit.e_Observation.436724 a sol-ont:Unit,
+        "None"^^sol-unit:None .
+
+solr:Unit.e_Observation.4660 a sol-ont:Unit,
+        "None"^^sol-unit:None .
+
+solr:Unit.e_Observation.65803 a sol-ont:Unit,
+        "None"^^sol-unit:None .
+
+solr:Unit.e_Observation.7474 a sol-ont:Unit,
+        "None"^^sol-unit:None .
+
+solr:Unit.e_Observation.87 a sol-ont:Unit,
+        "None"^^sol-unit:None .
+
+solr:Unit.e_Observation.98943 a sol-ont:Unit,
+        "None"^^sol-unit:None .
+
+solr:Unit.i_Observation.10 a sol-ont:Unit,
+        "deg"^^sol-unit:deg .
+
+solr:Unit.i_Observation.101955 a sol-ont:Unit,
+        "deg"^^sol-unit:deg .
+
+solr:Unit.i_Observation.10302 a sol-ont:Unit,
+        "deg"^^sol-unit:deg .
+
+solr:Unit.i_Observation.13 a sol-ont:Unit,
+        "deg"^^sol-unit:deg .
+
+solr:Unit.i_Observation.16 a sol-ont:Unit,
+        "deg"^^sol-unit:deg .
+
+solr:Unit.i_Observation.162173 a sol-ont:Unit,
+        "deg"^^sol-unit:deg .
+
+solr:Unit.i_Observation.19 a sol-ont:Unit,
+        "deg"^^sol-unit:deg .
+
+solr:Unit.i_Observation.1943 a sol-ont:Unit,
+        "deg"^^sol-unit:deg .
+
+solr:Unit.i_Observation.2 a sol-ont:Unit,
+        "deg"^^sol-unit:deg .
+
+solr:Unit.i_Observation.436724 a sol-ont:Unit,
+        "deg"^^sol-unit:deg .
+
+solr:Unit.i_Observation.4660 a sol-ont:Unit,
+        "deg"^^sol-unit:deg .
+
+solr:Unit.i_Observation.65803 a sol-ont:Unit,
+        "deg"^^sol-unit:deg .
+
+solr:Unit.i_Observation.7474 a sol-ont:Unit,
+        "deg"^^sol-unit:deg .
+
+solr:Unit.i_Observation.87 a sol-ont:Unit,
+        "deg"^^sol-unit:deg .
+
+solr:Unit.i_Observation.98943 a sol-ont:Unit,
+        "deg"^^sol-unit:deg .
+
+solr:Unit.n_Observation.10 a sol-ont:Unit,
+        "deg/d"^^<http://soloflife.org/lod/unitsdeg/d> .
+
+solr:Unit.n_Observation.101955 a sol-ont:Unit,
+        "deg/d"^^<http://soloflife.org/lod/unitsdeg/d> .
+
+solr:Unit.n_Observation.10302 a sol-ont:Unit,
+        "deg/d"^^<http://soloflife.org/lod/unitsdeg/d> .
+
+solr:Unit.n_Observation.13 a sol-ont:Unit,
+        "deg/d"^^<http://soloflife.org/lod/unitsdeg/d> .
+
+solr:Unit.n_Observation.16 a sol-ont:Unit,
+        "deg/d"^^<http://soloflife.org/lod/unitsdeg/d> .
+
+solr:Unit.n_Observation.162173 a sol-ont:Unit,
+        "deg/d"^^<http://soloflife.org/lod/unitsdeg/d> .
+
+solr:Unit.n_Observation.19 a sol-ont:Unit,
+        "deg/d"^^<http://soloflife.org/lod/unitsdeg/d> .
+
+solr:Unit.n_Observation.1943 a sol-ont:Unit,
+        "deg/d"^^<http://soloflife.org/lod/unitsdeg/d> .
+
+solr:Unit.n_Observation.2 a sol-ont:Unit,
+        "deg/d"^^<http://soloflife.org/lod/unitsdeg/d> .
+
+solr:Unit.n_Observation.436724 a sol-ont:Unit,
+        "deg/d"^^<http://soloflife.org/lod/unitsdeg/d> .
+
+solr:Unit.n_Observation.4660 a sol-ont:Unit,
+        "deg/d"^^<http://soloflife.org/lod/unitsdeg/d> .
+
+solr:Unit.n_Observation.65803 a sol-ont:Unit,
+        "deg/d"^^<http://soloflife.org/lod/unitsdeg/d> .
+
+solr:Unit.n_Observation.7474 a sol-ont:Unit,
+        "deg/d"^^<http://soloflife.org/lod/unitsdeg/d> .
+
+solr:Unit.n_Observation.87 a sol-ont:Unit,
+        "deg/d"^^<http://soloflife.org/lod/unitsdeg/d> .
+
+solr:Unit.n_Observation.98943 a sol-ont:Unit,
+        "deg/d"^^<http://soloflife.org/lod/unitsdeg/d> .
+
+solr:Unit.node_Observation.10 a sol-ont:Unit,
+        "deg"^^sol-unit:deg .
+
+solr:Unit.node_Observation.101955 a sol-ont:Unit,
+        "deg"^^sol-unit:deg .
+
+solr:Unit.node_Observation.10302 a sol-ont:Unit,
+        "deg"^^sol-unit:deg .
+
+solr:Unit.node_Observation.13 a sol-ont:Unit,
+        "deg"^^sol-unit:deg .
+
+solr:Unit.node_Observation.16 a sol-ont:Unit,
+        "deg"^^sol-unit:deg .
+
+solr:Unit.node_Observation.162173 a sol-ont:Unit,
+        "deg"^^sol-unit:deg .
+
+solr:Unit.node_Observation.19 a sol-ont:Unit,
+        "deg"^^sol-unit:deg .
+
+solr:Unit.node_Observation.1943 a sol-ont:Unit,
+        "deg"^^sol-unit:deg .
+
+solr:Unit.node_Observation.2 a sol-ont:Unit,
+        "deg"^^sol-unit:deg .
+
+solr:Unit.node_Observation.436724 a sol-ont:Unit,
+        "deg"^^sol-unit:deg .
+
+solr:Unit.node_Observation.4660 a sol-ont:Unit,
+        "deg"^^sol-unit:deg .
+
+solr:Unit.node_Observation.65803 a sol-ont:Unit,
+        "deg"^^sol-unit:deg .
+
+solr:Unit.node_Observation.7474 a sol-ont:Unit,
+        "deg"^^sol-unit:deg .
+
+solr:Unit.node_Observation.87 a sol-ont:Unit,
+        "deg"^^sol-unit:deg .
+
+solr:Unit.node_Observation.98943 a sol-ont:Unit,
+        "deg"^^sol-unit:deg .
+
+solr:Unit.peri_Observation.10 a sol-ont:Unit,
+        "deg"^^sol-unit:deg .
+
+solr:Unit.peri_Observation.101955 a sol-ont:Unit,
+        "deg"^^sol-unit:deg .
+
+solr:Unit.peri_Observation.10302 a sol-ont:Unit,
+        "deg"^^sol-unit:deg .
+
+solr:Unit.peri_Observation.13 a sol-ont:Unit,
+        "deg"^^sol-unit:deg .
+
+solr:Unit.peri_Observation.16 a sol-ont:Unit,
+        "deg"^^sol-unit:deg .
+
+solr:Unit.peri_Observation.162173 a sol-ont:Unit,
+        "deg"^^sol-unit:deg .
+
+solr:Unit.peri_Observation.19 a sol-ont:Unit,
+        "deg"^^sol-unit:deg .
+
+solr:Unit.peri_Observation.1943 a sol-ont:Unit,
+        "deg"^^sol-unit:deg .
+
+solr:Unit.peri_Observation.2 a sol-ont:Unit,
+        "deg"^^sol-unit:deg .
+
+solr:Unit.peri_Observation.436724 a sol-ont:Unit,
+        "deg"^^sol-unit:deg .
+
+solr:Unit.peri_Observation.4660 a sol-ont:Unit,
+        "deg"^^sol-unit:deg .
+
+solr:Unit.peri_Observation.65803 a sol-ont:Unit,
+        "deg"^^sol-unit:deg .
+
+solr:Unit.peri_Observation.7474 a sol-ont:Unit,
+        "deg"^^sol-unit:deg .
+
+solr:Unit.peri_Observation.87 a sol-ont:Unit,
+        "deg"^^sol-unit:deg .
+
+solr:Unit.peri_Observation.98943 a sol-ont:Unit,
+        "deg"^^sol-unit:deg .
+
+solr:Unit.period_y_Observation.10 a sol-ont:Unit,
+        "y"^^sol-unit:y .
+
+solr:Unit.period_y_Observation.101955 a sol-ont:Unit,
+        "y"^^sol-unit:y .
+
+solr:Unit.period_y_Observation.10302 a sol-ont:Unit,
+        "y"^^sol-unit:y .
+
+solr:Unit.period_y_Observation.13 a sol-ont:Unit,
+        "y"^^sol-unit:y .
+
+solr:Unit.period_y_Observation.16 a sol-ont:Unit,
+        "y"^^sol-unit:y .
+
+solr:Unit.period_y_Observation.162173 a sol-ont:Unit,
+        "y"^^sol-unit:y .
+
+solr:Unit.period_y_Observation.19 a sol-ont:Unit,
+        "y"^^sol-unit:y .
+
+solr:Unit.period_y_Observation.1943 a sol-ont:Unit,
+        "y"^^sol-unit:y .
+
+solr:Unit.period_y_Observation.2 a sol-ont:Unit,
+        "y"^^sol-unit:y .
+
+solr:Unit.period_y_Observation.436724 a sol-ont:Unit,
+        "y"^^sol-unit:y .
+
+solr:Unit.period_y_Observation.4660 a sol-ont:Unit,
+        "y"^^sol-unit:y .
+
+solr:Unit.period_y_Observation.65803 a sol-ont:Unit,
+        "y"^^sol-unit:y .
+
+solr:Unit.period_y_Observation.7474 a sol-ont:Unit,
+        "y"^^sol-unit:y .
+
+solr:Unit.period_y_Observation.87 a sol-ont:Unit,
+        "y"^^sol-unit:y .
+
+solr:Unit.period_y_Observation.98943 a sol-ont:Unit,
+        "y"^^sol-unit:y .
+
+solr:Unit.q_Observation.10 a sol-ont:Unit,
+        "au"^^sol-unit:au .
+
+solr:Unit.q_Observation.101955 a sol-ont:Unit,
+        "au"^^sol-unit:au .
+
+solr:Unit.q_Observation.10302 a sol-ont:Unit,
+        "au"^^sol-unit:au .
+
+solr:Unit.q_Observation.13 a sol-ont:Unit,
+        "au"^^sol-unit:au .
+
+solr:Unit.q_Observation.16 a sol-ont:Unit,
+        "au"^^sol-unit:au .
+
+solr:Unit.q_Observation.162173 a sol-ont:Unit,
+        "au"^^sol-unit:au .
+
+solr:Unit.q_Observation.19 a sol-ont:Unit,
+        "au"^^sol-unit:au .
+
+solr:Unit.q_Observation.1943 a sol-ont:Unit,
+        "au"^^sol-unit:au .
+
+solr:Unit.q_Observation.2 a sol-ont:Unit,
+        "au"^^sol-unit:au .
+
+solr:Unit.q_Observation.436724 a sol-ont:Unit,
+        "au"^^sol-unit:au .
+
+solr:Unit.q_Observation.4660 a sol-ont:Unit,
+        "au"^^sol-unit:au .
+
+solr:Unit.q_Observation.65803 a sol-ont:Unit,
+        "au"^^sol-unit:au .
+
+solr:Unit.q_Observation.7474 a sol-ont:Unit,
+        "au"^^sol-unit:au .
+
+solr:Unit.q_Observation.87 a sol-ont:Unit,
+        "au"^^sol-unit:au .
+
+solr:Unit.q_Observation.98943 a sol-ont:Unit,
+        "au"^^sol-unit:au .
+
+solr:a_Activity.10 sol-ont:hasDescription "Semi-Major Axis"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.NASA-JPL .
+
+solr:a_Activity.101955 sol-ont:hasDescription "Semi-Major Axis"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.NASA-JPL .
+
+solr:a_Activity.10302 sol-ont:hasDescription "Semi-Major Axis"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.NASA-JPL .
+
+solr:a_Activity.13 sol-ont:hasDescription "Semi-Major Axis"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.NASA-JPL .
+
+solr:a_Activity.16 sol-ont:hasDescription "Semi-Major Axis"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.NASA-JPL .
+
+solr:a_Activity.162173 sol-ont:hasDescription "Semi-Major Axis"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.NASA-JPL .
+
+solr:a_Activity.19 sol-ont:hasDescription "Semi-Major Axis"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.NASA-JPL .
+
+solr:a_Activity.1943 sol-ont:hasDescription "Semi-Major Axis"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.NASA-JPL .
+
+solr:a_Activity.2 sol-ont:hasDescription "Semi-Major Axis"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.NASA-JPL .
+
+solr:a_Activity.436724 sol-ont:hasDescription "Semi-Major Axis"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.NASA-JPL .
+
+solr:a_Activity.4660 sol-ont:hasDescription "Semi-Major Axis"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.NASA-JPL .
+
+solr:a_Activity.65803 sol-ont:hasDescription "Semi-Major Axis"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.NASA-JPL .
+
+solr:a_Activity.7474 sol-ont:hasDescription "Semi-Major Axis"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.NASA-JPL .
+
+solr:a_Activity.87 sol-ont:hasDescription "Semi-Major Axis"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.NASA-JPL .
+
+solr:a_Activity.98943 sol-ont:hasDescription "Semi-Major Axis"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.NASA-JPL .
+
+solr:e_Activity.10 sol-ont:hasDescription "Orbital Eccentricity"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.NASA-JPL .
+
+solr:e_Activity.101955 sol-ont:hasDescription "Orbital Eccentricity"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.NASA-JPL .
+
+solr:e_Activity.10302 sol-ont:hasDescription "Orbital Eccentricity"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.NASA-JPL .
+
+solr:e_Activity.13 sol-ont:hasDescription "Orbital Eccentricity"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.NASA-JPL .
+
+solr:e_Activity.16 sol-ont:hasDescription "Orbital Eccentricity"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.NASA-JPL .
+
+solr:e_Activity.162173 sol-ont:hasDescription "Orbital Eccentricity"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.NASA-JPL .
+
+solr:e_Activity.19 sol-ont:hasDescription "Orbital Eccentricity"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.NASA-JPL .
+
+solr:e_Activity.1943 sol-ont:hasDescription "Orbital Eccentricity"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.NASA-JPL .
+
+solr:e_Activity.2 sol-ont:hasDescription "Orbital Eccentricity"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.NASA-JPL .
+
+solr:e_Activity.436724 sol-ont:hasDescription "Orbital Eccentricity"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.NASA-JPL .
+
+solr:e_Activity.4660 sol-ont:hasDescription "Orbital Eccentricity"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.NASA-JPL .
+
+solr:e_Activity.65803 sol-ont:hasDescription "Orbital Eccentricity"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.NASA-JPL .
+
+solr:e_Activity.7474 sol-ont:hasDescription "Orbital Eccentricity"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.NASA-JPL .
+
+solr:e_Activity.87 sol-ont:hasDescription "Orbital Eccentricity"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.NASA-JPL .
+
+solr:e_Activity.98943 sol-ont:hasDescription "Orbital Eccentricity"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.NASA-JPL .
+
+solr:i_Activity.10 sol-ont:hasDescription "Inclination"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.NASA-JPL .
+
+solr:i_Activity.101955 sol-ont:hasDescription "Inclination"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.NASA-JPL .
+
+solr:i_Activity.10302 sol-ont:hasDescription "Inclination"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.NASA-JPL .
+
+solr:i_Activity.13 sol-ont:hasDescription "Inclination"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.NASA-JPL .
+
+solr:i_Activity.16 sol-ont:hasDescription "Inclination"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.NASA-JPL .
+
+solr:i_Activity.162173 sol-ont:hasDescription "Inclination"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.NASA-JPL .
+
+solr:i_Activity.19 sol-ont:hasDescription "Inclination"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.NASA-JPL .
+
+solr:i_Activity.1943 sol-ont:hasDescription "Inclination"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.NASA-JPL .
+
+solr:i_Activity.2 sol-ont:hasDescription "Inclination"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.NASA-JPL .
+
+solr:i_Activity.436724 sol-ont:hasDescription "Inclination"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.NASA-JPL .
+
+solr:i_Activity.4660 sol-ont:hasDescription "Inclination"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.NASA-JPL .
+
+solr:i_Activity.65803 sol-ont:hasDescription "Inclination"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.NASA-JPL .
+
+solr:i_Activity.7474 sol-ont:hasDescription "Inclination"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.NASA-JPL .
+
+solr:i_Activity.87 sol-ont:hasDescription "Inclination"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.NASA-JPL .
+
+solr:i_Activity.98943 sol-ont:hasDescription "Inclination"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.NASA-JPL .
+
+solr:n_Activity.10 sol-ont:hasDescription "Mean Motion"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.NASA-JPL .
+
+solr:n_Activity.101955 sol-ont:hasDescription "Mean Motion"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.NASA-JPL .
+
+solr:n_Activity.10302 sol-ont:hasDescription "Mean Motion"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.NASA-JPL .
+
+solr:n_Activity.13 sol-ont:hasDescription "Mean Motion"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.NASA-JPL .
+
+solr:n_Activity.16 sol-ont:hasDescription "Mean Motion"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.NASA-JPL .
+
+solr:n_Activity.162173 sol-ont:hasDescription "Mean Motion"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.NASA-JPL .
+
+solr:n_Activity.19 sol-ont:hasDescription "Mean Motion"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.NASA-JPL .
+
+solr:n_Activity.1943 sol-ont:hasDescription "Mean Motion"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.NASA-JPL .
+
+solr:n_Activity.2 sol-ont:hasDescription "Mean Motion"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.NASA-JPL .
+
+solr:n_Activity.436724 sol-ont:hasDescription "Mean Motion"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.NASA-JPL .
+
+solr:n_Activity.4660 sol-ont:hasDescription "Mean Motion"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.NASA-JPL .
+
+solr:n_Activity.65803 sol-ont:hasDescription "Mean Motion"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.NASA-JPL .
+
+solr:n_Activity.7474 sol-ont:hasDescription "Mean Motion"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.NASA-JPL .
+
+solr:n_Activity.87 sol-ont:hasDescription "Mean Motion"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.NASA-JPL .
+
+solr:n_Activity.98943 sol-ont:hasDescription "Mean Motion"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.NASA-JPL .
+
+solr:node_Activity.10 sol-ont:hasDescription "Longitude of the Ascending Node"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.NASA-JPL .
+
+solr:node_Activity.101955 sol-ont:hasDescription "Longitude of the Ascending Node"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.NASA-JPL .
+
+solr:node_Activity.10302 sol-ont:hasDescription "Longitude of the Ascending Node"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.NASA-JPL .
+
+solr:node_Activity.13 sol-ont:hasDescription "Longitude of the Ascending Node"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.NASA-JPL .
+
+solr:node_Activity.16 sol-ont:hasDescription "Longitude of the Ascending Node"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.NASA-JPL .
+
+solr:node_Activity.162173 sol-ont:hasDescription "Longitude of the Ascending Node"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.NASA-JPL .
+
+solr:node_Activity.19 sol-ont:hasDescription "Longitude of the Ascending Node"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.NASA-JPL .
+
+solr:node_Activity.1943 sol-ont:hasDescription "Longitude of the Ascending Node"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.NASA-JPL .
+
+solr:node_Activity.2 sol-ont:hasDescription "Longitude of the Ascending Node"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.NASA-JPL .
+
+solr:node_Activity.436724 sol-ont:hasDescription "Longitude of the Ascending Node"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.NASA-JPL .
+
+solr:node_Activity.4660 sol-ont:hasDescription "Longitude of the Ascending Node"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.NASA-JPL .
+
+solr:node_Activity.65803 sol-ont:hasDescription "Longitude of the Ascending Node"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.NASA-JPL .
+
+solr:node_Activity.7474 sol-ont:hasDescription "Longitude of the Ascending Node"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.NASA-JPL .
+
+solr:node_Activity.87 sol-ont:hasDescription "Longitude of the Ascending Node"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.NASA-JPL .
+
+solr:node_Activity.98943 sol-ont:hasDescription "Longitude of the Ascending Node"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.NASA-JPL .
+
+solr:peri_Activity.10 sol-ont:hasDescription "Argument of Perihelion"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.NASA-JPL .
+
+solr:peri_Activity.101955 sol-ont:hasDescription "Argument of Perihelion"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.NASA-JPL .
+
+solr:peri_Activity.10302 sol-ont:hasDescription "Argument of Perihelion"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.NASA-JPL .
+
+solr:peri_Activity.13 sol-ont:hasDescription "Argument of Perihelion"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.NASA-JPL .
+
+solr:peri_Activity.16 sol-ont:hasDescription "Argument of Perihelion"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.NASA-JPL .
+
+solr:peri_Activity.162173 sol-ont:hasDescription "Argument of Perihelion"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.NASA-JPL .
+
+solr:peri_Activity.19 sol-ont:hasDescription "Argument of Perihelion"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.NASA-JPL .
+
+solr:peri_Activity.1943 sol-ont:hasDescription "Argument of Perihelion"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.NASA-JPL .
+
+solr:peri_Activity.2 sol-ont:hasDescription "Argument of Perihelion"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.NASA-JPL .
+
+solr:peri_Activity.436724 sol-ont:hasDescription "Argument of Perihelion"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.NASA-JPL .
+
+solr:peri_Activity.4660 sol-ont:hasDescription "Argument of Perihelion"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.NASA-JPL .
+
+solr:peri_Activity.65803 sol-ont:hasDescription "Argument of Perihelion"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.NASA-JPL .
+
+solr:peri_Activity.7474 sol-ont:hasDescription "Argument of Perihelion"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.NASA-JPL .
+
+solr:peri_Activity.87 sol-ont:hasDescription "Argument of Perihelion"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.NASA-JPL .
+
+solr:peri_Activity.98943 sol-ont:hasDescription "Argument of Perihelion"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.NASA-JPL .
+
+solr:period_y_Activity.10 sol-ont:hasDescription "Orbital Period"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.NASA-JPL .
+
+solr:period_y_Activity.101955 sol-ont:hasDescription "Orbital Period"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.NASA-JPL .
+
+solr:period_y_Activity.10302 sol-ont:hasDescription "Orbital Period"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.NASA-JPL .
+
+solr:period_y_Activity.13 sol-ont:hasDescription "Orbital Period"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.NASA-JPL .
+
+solr:period_y_Activity.16 sol-ont:hasDescription "Orbital Period"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.NASA-JPL .
+
+solr:period_y_Activity.162173 sol-ont:hasDescription "Orbital Period"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.NASA-JPL .
+
+solr:period_y_Activity.19 sol-ont:hasDescription "Orbital Period"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.NASA-JPL .
+
+solr:period_y_Activity.1943 sol-ont:hasDescription "Orbital Period"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.NASA-JPL .
+
+solr:period_y_Activity.2 sol-ont:hasDescription "Orbital Period"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.NASA-JPL .
+
+solr:period_y_Activity.436724 sol-ont:hasDescription "Orbital Period"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.NASA-JPL .
+
+solr:period_y_Activity.4660 sol-ont:hasDescription "Orbital Period"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.NASA-JPL .
+
+solr:period_y_Activity.65803 sol-ont:hasDescription "Orbital Period"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.NASA-JPL .
+
+solr:period_y_Activity.7474 sol-ont:hasDescription "Orbital Period"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.NASA-JPL .
+
+solr:period_y_Activity.87 sol-ont:hasDescription "Orbital Period"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.NASA-JPL .
+
+solr:period_y_Activity.98943 sol-ont:hasDescription "Orbital Period"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.NASA-JPL .
+
+solr:q_Activity.10 sol-ont:hasDescription "Perihelion Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.NASA-JPL .
+
+solr:q_Activity.101955 sol-ont:hasDescription "Perihelion Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.NASA-JPL .
+
+solr:q_Activity.10302 sol-ont:hasDescription "Perihelion Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.NASA-JPL .
+
+solr:q_Activity.13 sol-ont:hasDescription "Perihelion Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.NASA-JPL .
+
+solr:q_Activity.16 sol-ont:hasDescription "Perihelion Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.NASA-JPL .
+
+solr:q_Activity.162173 sol-ont:hasDescription "Perihelion Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.NASA-JPL .
+
+solr:q_Activity.19 sol-ont:hasDescription "Perihelion Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.NASA-JPL .
+
+solr:q_Activity.1943 sol-ont:hasDescription "Perihelion Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.NASA-JPL .
+
+solr:q_Activity.2 sol-ont:hasDescription "Perihelion Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.NASA-JPL .
+
+solr:q_Activity.436724 sol-ont:hasDescription "Perihelion Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.NASA-JPL .
+
+solr:q_Activity.4660 sol-ont:hasDescription "Perihelion Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.NASA-JPL .
+
+solr:q_Activity.65803 sol-ont:hasDescription "Perihelion Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.NASA-JPL .
+
+solr:q_Activity.7474 sol-ont:hasDescription "Perihelion Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.NASA-JPL .
+
+solr:q_Activity.87 sol-ont:hasDescription "Perihelion Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.NASA-JPL .
+
+solr:q_Activity.98943 sol-ont:hasDescription "Perihelion Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.NASA-JPL .
+
+solr:Asteroid.10 a sol-ont:Asteroid .
+
+solr:Asteroid.101955 a sol-ont:Asteroid .
+
+solr:Asteroid.10302 a sol-ont:Asteroid .
+
+solr:Asteroid.13 a sol-ont:Asteroid .
+
+solr:Asteroid.16 a sol-ont:Asteroid .
+
+solr:Asteroid.162173 a sol-ont:Asteroid .
+
+solr:Asteroid.19 a sol-ont:Asteroid .
+
+solr:Asteroid.1943 a sol-ont:Asteroid .
+
+solr:Asteroid.2 a sol-ont:Asteroid .
+
+solr:Asteroid.436724 a sol-ont:Asteroid .
+
+solr:Asteroid.4660 a sol-ont:Asteroid .
+
+solr:Asteroid.65803 a sol-ont:Asteroid .
+
+solr:Asteroid.7474 a sol-ont:Asteroid .
+
+solr:Asteroid.87 a sol-ont:Asteroid .
+
+solr:Asteroid.98943 a sol-ont:Asteroid .
+
+sol-ont:Agent.NASA-JPL a sol-ont:Agent ;
+    sol-ont:hasName "NASA-JPL"^^xsd:string .
+
