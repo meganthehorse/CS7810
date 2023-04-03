@@ -8,6 +8,7 @@ from rdflib import OWL, RDF, RDFS, XSD, TIME
 #  Directory Path Parameters
 data_path = "./Dataset"
 output_path = "./output"
+FILE_COUNT = 25 # the higher the value, the more files but smaller
 
 # Prefixes
 name_space = "http://soloflife.org/"
@@ -32,6 +33,12 @@ pfs = {
 "qudt": Namespace("http://qudt.org/schema/qudt/"),
 }
 
+# rdf:type shortcut
+a = pfs["rdf"]["type"] #isA prefix/relationship
+hasNumericID = pfs["sol-ont"]["hasNumericID"]
+hasCommonName = pfs["sol-ont"]["hasCommonName"]
+hasDiscoveryName = pfs["sol-ont"]["hasDiscoveryName"]
+
 # Initialization shortcut
 def init_kg(prefixes=pfs):
     kg = Graph()
@@ -39,46 +46,76 @@ def init_kg(prefixes=pfs):
         kg.bind(prefix, pfs[prefix])
     return kg
 
-# rdf:type shortcut
-a = pfs["rdf"]["type"] #isA prefix/relationship
-hasNumericID = pfs["sol-ont"]["hasNumericID"]
-hasCommonName = pfs["sol-ont"]["hasCommonName"]
-hasDiscoveryName = pfs["sol-ont"]["hasDiscoveryName"]
-# Initialize an empty graph
-graph = init_kg()
+def triple_names():
+    asteroid_distances_path = os.path.join(data_path, "asteroid_name_reference.csv")
+    with open(asteroid_distances_path, "r") as inputF:
+        lines = [line.strip() for line in inputF.readlines()]
+        header = (lines[0].strip()).split(",")    
+
+    start = 1
+    next = 1
+    iter = int(len(lines)/FILE_COUNT)
+    for i in range(FILE_COUNT):
+        # Initialize an empty graph
+        graph = init_kg()
+        start = next
+        count=0
+        for row in range(start, (start+iter)):  # for each asteroid
+            if(row == len(lines)):
+                break
+            line = lines[row]
+            split = line.split(",")
+            numericID = split[3]
+            discoveryName = split[0]
+            #  Mint Asteroid
+            asteroid_uri = pfs["solr"][f"Asteroid.{discoveryName.replace(' ','_')}"]
+            graph.add( (asteroid_uri, a, pfs["sol-ont"]["Asteroid"]) )
+            if(split[4] != ""):  #  Add Common Name when available
+                commonName = split[4]
+                graph.add( (asteroid_uri, hasCommonName, Literal(commonName, datatype=XSD.string)) )
+
+            #  Add Numeric ID and DiscoveryName
+            graph.add( (asteroid_uri, hasNumericID, Literal(numericID, datatype=XSD.string)) )
+            graph.add( (asteroid_uri, hasDiscoveryName, Literal(discoveryName, datatype=XSD.string)) )
+            count+=1
+        print(f"File Count: {count}")
+        print(f"Last Processed: {discoveryName}")
+        output_file = os.path.join(output_path, f"SOL_Asteroid_Names_{i+1}.ttl")
+        temp = graph.serialize(format="turtle", encoding="utf-8", destination=output_file)
+        next = start+iter
 
 
-asteroid_distances_path = os.path.join(data_path, "sbdb_query_results.csv")
-with open(asteroid_distances_path, "r") as inputF:
-    lines = [line.strip() for line in inputF.readlines()]
-    header = (lines[0].strip()).split(",")    
+#  Integer Division Is Fun
+def triple_remainder():
+    # Initialize an empty graph
+    graph = init_kg()
 
-# for line in lines[1:100000]:  # for each asteroid
-for line in lines[100001:200000]:  # for each asteroid
-    split = line.split(",")
-    numericID = split[1].replace(" ", "_")
-    asteroid_uri = pfs["solr"][f"Asteroid.{numericID}"]
-    graph.add( (asteroid_uri, a, pfs["sol-ont"]["Asteroid"]) )
+    remainder_path = os.path.join(data_path, "names_remainder.csv")
+    with open(remainder_path, "r") as inputF:
+        lines = [line.strip() for line in inputF.readlines()]
+        header = (lines[0].strip()).split(",")    
+
+    count=0
+    for line in lines:
+        split = line.split(",")
+        numericID = split[3]
+        discoveryName = split[0]
+        #  Mint Asteroid
+        asteroid_uri = pfs["solr"][f"Asteroid.{discoveryName.replace(' ','_')}"]
+        graph.add( (asteroid_uri, a, pfs["sol-ont"]["Asteroid"]) )
+        if(split[4] != ""):  #  Add Common Name when available
+            commonName = split[4]
+            graph.add( (asteroid_uri, hasCommonName, Literal(commonName, datatype=XSD.string)) )
+
+        #  Add Numeric ID and DiscoveryName
+        graph.add( (asteroid_uri, hasNumericID, Literal(numericID, datatype=XSD.string)) )
+        graph.add( (asteroid_uri, hasDiscoveryName, Literal(discoveryName, datatype=XSD.string)) )
+        count+=1
+    print(f"File Count: {count}")
+    print(f"Last Processed: {discoveryName}")
+    output_file = os.path.join(output_path, f"SOL_Asteroid_Names_{FILE_COUNT+1}.ttl")
+    temp = graph.serialize(format="turtle", encoding="utf-8", destination=output_file)
 
 
-    split_fullName = split[0].split(" ")
-
-    if(len(split_fullName) == 4):
-        commonName = split_fullName[1]
-        graph.add( (asteroid_uri, hasCommonName, Literal(commonName, datatype=XSD.string)) )
-
-        discoveryName = str(split_fullName[2]) +" "+ str(split_fullName[3])
-        discoveryName = discoveryName.replace("(", "")
-        discoveryName = discoveryName.replace(")", "")
-    elif(len(split_fullName) == 3):
-        discoveryName = str(split_fullName[1]) +" "+ str(split_fullName[2])
-        discoveryName = discoveryName.replace("(", "")
-        discoveryName = discoveryName.replace(")", "")
-    # if(len(split_fullName)<4 ):
-    #     discoveryName = str(split_fullName[1]) +" "+ str(split_fullName[2])
-    # else:    
-    #  Mint the individual Asteroid
-    graph.add( (asteroid_uri, hasNumericID, Literal(numericID, datatype=XSD.string)) )
-    graph.add( (asteroid_uri, hasDiscoveryName, Literal(discoveryName, datatype=XSD.string)) )
-output_file = os.path.join(output_path, f"SOL_Asteroid_Names_2.ttl")
-temp = graph.serialize(format="turtle", encoding="utf-8", destination=output_file)
+triple_names()
+triple_remainder()
