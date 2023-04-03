@@ -4,63 +4,63 @@
 @prefix solr: <http://soloflife.org/lod/resource/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-solr:ProfitObservation.Ryugu sol-ont:attributedTo sol-ont:Agent.Asterank ;
-    sol-ont:generatedBy solr:ProfitActivity.Ryugu ;
-    sol-ont:hasFeatureOfInterest solr:Asteroid.Ryugu ;
-    sol-ont:hasObservableProperty solr:EconomicProperty.Profit.Ryugu ;
-    sol-ont:hasResult solr:Result.Profit.Ryugu .
+solr:ProfitObservation.1999_JU3 sol-ont:attributedTo sol-ont:Agent.Asterank ;
+    sol-ont:generatedBy solr:ProfitActivity.1999_JU3 ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.1999_JU3 ;
+    sol-ont:hasObservableProperty solr:EconomicProperty.Profit.1999_JU3 ;
+    sol-ont:hasResult solr:Result.Profit.1999_JU3 .
 
-solr:QuantityValue.Profit.Ryugu a sol-ont:QuantityValue .
+solr:QuantityValue.Profit.1999_JU3 a sol-ont:QuantityValue .
 
-solr:QuantityValue.Value.Ryugu a sol-ont:QuantityValue .
+solr:QuantityValue.Value.1999_JU3 a sol-ont:QuantityValue .
 
-solr:ValueObservation.Ryugu sol-ont:attributedTo sol-ont:Agent.Asterank ;
-    sol-ont:generatedBy solr:ValueActivity.Ryugu ;
-    sol-ont:hasFeatureOfInterest solr:Asteroid.Ryugu ;
-    sol-ont:hasObservableProperty solr:EconomicProperty.Value.Ryugu ;
-    sol-ont:hasResult solr:Result.Value.Ryugu .
+solr:ValueObservation.1999_JU3 sol-ont:attributedTo sol-ont:Agent.Asterank ;
+    sol-ont:generatedBy solr:ValueActivity.1999_JU3 ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.1999_JU3 ;
+    sol-ont:hasObservableProperty solr:EconomicProperty.Value.1999_JU3 ;
+    sol-ont:hasResult solr:Result.Value.1999_JU3 .
 
-solr:EconomicProperty.Profit.Ryugu a sol-ont:ObservableProperty .
+solr:EconomicProperty.Profit.1999_JU3 a sol-ont:ObservableProperty .
 
-solr:EconomicProperty.Value.Ryugu a sol-ont:ObservableProperty .
+solr:EconomicProperty.Value.1999_JU3 a sol-ont:ObservableProperty .
 
-solr:NumericValue.Profit.Ryugu sol-ont:hasNumericValue 8.276e+10 ;
-    sol-ont:hasUnit solr:Unit.Profit.Ryugu .
+solr:NumericValue.Profit.1999_JU3 sol-ont:hasNumericValue 3.008e+10 ;
+    sol-ont:hasUnit solr:Unit.Profit.1999_JU3 .
 
-solr:NumericValue.Value.Ryugu sol-ont:hasNumericValue 1.9e-01 ;
-    sol-ont:hasUnit solr:Unit.Value.Ryugu .
+solr:NumericValue.Value.1999_JU3 sol-ont:hasNumericValue 8.276e+10 ;
+    sol-ont:hasUnit solr:Unit.Value.1999_JU3 .
 
-solr:ProfitActivity.Ryugu sol-ont:hasDescription "Profit"^^xsd:string ;
+solr:ProfitActivity.1999_JU3 sol-ont:hasDescription "Profit"^^xsd:string ;
     sol-ont:performedBy sol-ont:Agent.Asterank .
 
-solr:Quantity.Profit.Ryugu a sol-ont:Quantity ;
-    sol-ont:hasQuantityKind solr:QuantityKind.Profit.Ryugu ;
-    sol-ont:hasQuantityValue solr:NumericValue.Profit.Ryugu .
+solr:Quantity.Profit.1999_JU3 a sol-ont:Quantity ;
+    sol-ont:hasQuantityKind solr:QuantityKind.Profit.1999_JU3 ;
+    sol-ont:hasQuantityValue solr:NumericValue.Profit.1999_JU3 .
 
-solr:Quantity.Value.Ryugu a sol-ont:Quantity ;
-    sol-ont:hasQuantityKind solr:QuantityKind.Value.Ryugu ;
-    sol-ont:hasQuantityValue solr:NumericValue.Value.Ryugu .
+solr:Quantity.Value.1999_JU3 a sol-ont:Quantity ;
+    sol-ont:hasQuantityKind solr:QuantityKind.Value.1999_JU3 ;
+    sol-ont:hasQuantityValue solr:NumericValue.Value.1999_JU3 .
 
-solr:QuantityKind.Profit.Ryugu a sol-ont:QuantityKind,
+solr:QuantityKind.Profit.1999_JU3 a sol-ont:QuantityKind,
         "Currency"^^sol-qk:Currency .
 
-solr:QuantityKind.Value.Ryugu a sol-ont:QuantityKind,
+solr:QuantityKind.Value.1999_JU3 a sol-ont:QuantityKind,
         "Currency"^^sol-qk:Currency .
 
-solr:Result.Profit.Ryugu sol-ont:hasQuantity solr:Quantity.Profit.Ryugu .
+solr:Result.Profit.1999_JU3 sol-ont:hasQuantity solr:Quantity.Profit.1999_JU3 .
 
-solr:Result.Value.Ryugu sol-ont:hasQuantity solr:Quantity.Value.Ryugu .
+solr:Result.Value.1999_JU3 sol-ont:hasQuantity solr:Quantity.Value.1999_JU3 .
 
-solr:Unit.Profit.Ryugu a sol-ont:Unit,
+solr:Unit.Profit.1999_JU3 a sol-ont:Unit,
         "USD"^^sol-unit:USD .
 
-solr:Unit.Value.Ryugu a sol-ont:Unit,
+solr:Unit.Value.1999_JU3 a sol-ont:Unit,
         "USD"^^sol-unit:USD .
 
-solr:ValueActivity.Ryugu sol-ont:hasDescription "Value"^^xsd:string ;
+solr:ValueActivity.1999_JU3 sol-ont:hasDescription "Value"^^xsd:string ;
     sol-ont:performedBy sol-ont:Agent.Asterank .
 
-solr:Asteroid.Ryugu a sol-ont:Asteroid .
+solr:Asteroid.1999_JU3 a sol-ont:Asteroid .
 
 sol-ont:Agent.Asterank a sol-ont:Agent ;
     sol-ont:hasName "SkyLive"^^xsd:string .
