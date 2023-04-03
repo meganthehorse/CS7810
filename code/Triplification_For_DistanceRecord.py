@@ -59,10 +59,9 @@ with open(asteroid_distances_path, "r") as inputF:
 agent_uri = pfs["sol-ont"]["Agent.SkyLive"]
 graph.add( (agent_uri, a, pfs["sol-ont"]["Agent"]) )
 graph.add( (agent_uri, pfs["sol-ont"]["hasName"], Literal("SkyLive", datatype=XSD.string)) )
-activity_uri = pfs["sol-ont"]["MeasuringDistanceActivity"]
-graph.add( (activity_uri, pfs["sol-ont"]["hasDescription"], Literal("Measuring Distance", datatype=XSD.string)) )
-
-graph.add( (activity_uri, pfs["sol-ont"]["performedBy"], agent_uri) )
+# activity_uri = pfs["sol-ont"]["MeasuringDistanceActivity"]
+# graph.add( (activity_uri, pfs["sol-ont"]["hasDescription"], Literal("Measuring Distance", datatype=XSD.string)) )
+# graph.add( (activity_uri, pfs["sol-ont"]["performedBy"], agent_uri) )
 
 for line in lines[1:]:  # for each asteroid
     split = line.split(",")
@@ -114,9 +113,14 @@ for line in lines[1:]:  # for each asteroid
         graph.add( (distance_record_uri, pfs["sol-ont"]["hasTemporalExtent"], time_uri) )
 
         #  Connect DR to EWP Relationships
+        activity_uri = pfs["sol-ont"][f"MeasuringDistanceActivity.{name}.{monthyear}"]
+        graph.add( (activity_uri, pfs["sol-ont"]["hasDescription"], Literal("Measuring Distance", datatype=XSD.string)) )
+        graph.add( (activity_uri, pfs["sol-ont"]["performedBy"], agent_uri) )
+
         graph.add( (distance_record_uri, pfs["sol-ont"]["attributedTo"], agent_uri) )
         graph.add( (distance_record_uri, pfs["sol-ont"]["generatedBy"], activity_uri) )
 
+        
         #  Connect DR to Asteroid
         graph.add( (asteroid_uri, pfs["sol-ont"]["hasDistanceRecord"], distance_record_uri) )
         index+=1  #  next monthyear column

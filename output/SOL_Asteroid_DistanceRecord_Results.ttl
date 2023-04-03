@@ -887,1731 +887,2595 @@ solr:NumericValue.A866_KA.NOV29 sol-ont:hasNumericValue 3.84394e+00 .
 
 solr:NumericValue.A866_KA.NOV30 sol-ont:hasNumericValue 2.64471e+00 .
 
+sol-ont:MeasuringDistanceActivity.1996_GT.AUG23 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.1996_GT.AUG24 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.1996_GT.AUG25 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.1996_GT.AUG26 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.1996_GT.AUG27 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.1996_GT.AUG28 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.1996_GT.AUG29 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.1996_GT.AUG30 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.1996_GT.JAN23 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.1996_GT.JAN24 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.1996_GT.JAN25 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.1996_GT.JAN26 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.1996_GT.JAN27 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.1996_GT.JAN28 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.1996_GT.JAN29 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.1996_GT.JAN30 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.1996_GT.MAY23 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.1996_GT.MAY24 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.1996_GT.MAY25 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.1996_GT.MAY26 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.1996_GT.MAY27 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.1996_GT.MAY28 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.1996_GT.MAY29 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.1996_GT.MAY30 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.1996_GT.NOV23 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.1996_GT.NOV24 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.1996_GT.NOV25 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.1996_GT.NOV26 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.1996_GT.NOV27 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.1996_GT.NOV28 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.1996_GT.NOV29 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.1996_GT.NOV30 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.1999_JU3.AUG23 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.1999_JU3.AUG24 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.1999_JU3.AUG25 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.1999_JU3.AUG26 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.1999_JU3.AUG27 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.1999_JU3.AUG28 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.1999_JU3.AUG29 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.1999_JU3.AUG30 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.1999_JU3.JAN23 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.1999_JU3.JAN24 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.1999_JU3.JAN25 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.1999_JU3.JAN26 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.1999_JU3.JAN27 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.1999_JU3.JAN28 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.1999_JU3.JAN29 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.1999_JU3.JAN30 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.1999_JU3.MAY23 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.1999_JU3.MAY24 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.1999_JU3.MAY25 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.1999_JU3.MAY26 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.1999_JU3.MAY27 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.1999_JU3.MAY28 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.1999_JU3.MAY29 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.1999_JU3.MAY30 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.1999_JU3.NOV23 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.1999_JU3.NOV24 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.1999_JU3.NOV25 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.1999_JU3.NOV26 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.1999_JU3.NOV27 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.1999_JU3.NOV28 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.1999_JU3.NOV29 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.1999_JU3.NOV30 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.1999_RQ36.AUG23 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.1999_RQ36.AUG24 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.1999_RQ36.AUG25 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.1999_RQ36.AUG26 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.1999_RQ36.AUG27 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.1999_RQ36.AUG28 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.1999_RQ36.AUG29 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.1999_RQ36.AUG30 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.1999_RQ36.JAN23 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.1999_RQ36.JAN24 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.1999_RQ36.JAN25 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.1999_RQ36.JAN26 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.1999_RQ36.JAN27 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.1999_RQ36.JAN28 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.1999_RQ36.JAN29 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.1999_RQ36.JAN30 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.1999_RQ36.MAY23 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.1999_RQ36.MAY24 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.1999_RQ36.MAY25 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.1999_RQ36.MAY26 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.1999_RQ36.MAY27 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.1999_RQ36.MAY28 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.1999_RQ36.MAY29 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.1999_RQ36.MAY30 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.1999_RQ36.NOV23 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.1999_RQ36.NOV24 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.1999_RQ36.NOV25 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.1999_RQ36.NOV26 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.1999_RQ36.NOV27 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.1999_RQ36.NOV28 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.1999_RQ36.NOV29 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.1999_RQ36.NOV30 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.A802_FA.AUG23 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.A802_FA.AUG24 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.A802_FA.AUG25 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.A802_FA.AUG26 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.A802_FA.AUG27 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.A802_FA.AUG28 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.A802_FA.AUG29 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.A802_FA.AUG30 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.A802_FA.JAN23 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.A802_FA.JAN24 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.A802_FA.JAN25 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.A802_FA.JAN26 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.A802_FA.JAN27 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.A802_FA.JAN28 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.A802_FA.JAN29 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.A802_FA.JAN30 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.A802_FA.MAY23 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.A802_FA.MAY24 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.A802_FA.MAY25 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.A802_FA.MAY26 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.A802_FA.MAY27 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.A802_FA.MAY28 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.A802_FA.MAY29 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.A802_FA.MAY30 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.A802_FA.NOV23 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.A802_FA.NOV24 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.A802_FA.NOV25 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.A802_FA.NOV26 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.A802_FA.NOV27 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.A802_FA.NOV28 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.A802_FA.NOV29 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.A802_FA.NOV30 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.A849_GA.AUG23 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.A849_GA.AUG24 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.A849_GA.AUG25 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.A849_GA.AUG26 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.A849_GA.AUG27 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.A849_GA.AUG28 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.A849_GA.AUG29 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.A849_GA.AUG30 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.A849_GA.JAN23 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.A849_GA.JAN24 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.A849_GA.JAN25 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.A849_GA.JAN26 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.A849_GA.JAN27 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.A849_GA.JAN28 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.A849_GA.JAN29 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.A849_GA.JAN30 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.A849_GA.MAY23 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.A849_GA.MAY24 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.A849_GA.MAY25 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.A849_GA.MAY26 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.A849_GA.MAY27 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.A849_GA.MAY28 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.A849_GA.MAY29 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.A849_GA.MAY30 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.A849_GA.NOV23 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.A849_GA.NOV24 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.A849_GA.NOV25 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.A849_GA.NOV26 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.A849_GA.NOV27 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.A849_GA.NOV28 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.A849_GA.NOV29 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.A849_GA.NOV30 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.A850_VA.AUG23 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.A850_VA.AUG24 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.A850_VA.AUG25 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.A850_VA.AUG26 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.A850_VA.AUG27 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.A850_VA.AUG28 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.A850_VA.AUG29 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.A850_VA.AUG30 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.A850_VA.JAN23 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.A850_VA.JAN24 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.A850_VA.JAN25 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.A850_VA.JAN26 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.A850_VA.JAN27 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.A850_VA.JAN28 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.A850_VA.JAN29 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.A850_VA.JAN30 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.A850_VA.MAY23 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.A850_VA.MAY24 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.A850_VA.MAY25 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.A850_VA.MAY26 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.A850_VA.MAY27 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.A850_VA.MAY28 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.A850_VA.MAY29 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.A850_VA.MAY30 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.A850_VA.NOV23 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.A850_VA.NOV24 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.A850_VA.NOV25 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.A850_VA.NOV26 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.A850_VA.NOV27 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.A850_VA.NOV28 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.A850_VA.NOV29 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.A850_VA.NOV30 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.A852_FA.AUG23 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.A852_FA.AUG24 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.A852_FA.AUG25 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.A852_FA.AUG26 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.A852_FA.AUG27 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.A852_FA.AUG28 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.A852_FA.AUG29 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.A852_FA.AUG30 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.A852_FA.JAN23 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.A852_FA.JAN24 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.A852_FA.JAN25 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.A852_FA.JAN26 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.A852_FA.JAN27 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.A852_FA.JAN28 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.A852_FA.JAN29 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.A852_FA.JAN30 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.A852_FA.MAY23 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.A852_FA.MAY24 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.A852_FA.MAY25 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.A852_FA.MAY26 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.A852_FA.MAY27 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.A852_FA.MAY28 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.A852_FA.MAY29 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.A852_FA.MAY30 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.A852_FA.NOV23 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.A852_FA.NOV24 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.A852_FA.NOV25 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.A852_FA.NOV26 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.A852_FA.NOV27 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.A852_FA.NOV28 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.A852_FA.NOV29 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.A852_FA.NOV30 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.A852_QA.AUG23 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.A852_QA.AUG24 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.A852_QA.AUG25 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.A852_QA.AUG26 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.A852_QA.AUG27 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.A852_QA.AUG28 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.A852_QA.AUG29 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.A852_QA.AUG30 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.A852_QA.JAN23 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.A852_QA.JAN24 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.A852_QA.JAN25 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.A852_QA.JAN26 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.A852_QA.JAN27 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.A852_QA.JAN28 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.A852_QA.JAN29 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.A852_QA.JAN30 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.A852_QA.MAY23 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.A852_QA.MAY24 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.A852_QA.MAY25 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.A852_QA.MAY26 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.A852_QA.MAY27 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.A852_QA.MAY28 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.A852_QA.MAY29 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.A852_QA.MAY30 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.A852_QA.NOV23 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.A852_QA.NOV24 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.A852_QA.NOV25 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.A852_QA.NOV26 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.A852_QA.NOV27 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.A852_QA.NOV28 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.A852_QA.NOV29 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.A852_QA.NOV30 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.A866_KA.AUG23 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.A866_KA.AUG24 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.A866_KA.AUG25 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.A866_KA.AUG26 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.A866_KA.AUG27 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.A866_KA.AUG28 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.A866_KA.AUG29 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.A866_KA.AUG30 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.A866_KA.JAN23 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.A866_KA.JAN24 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.A866_KA.JAN25 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.A866_KA.JAN26 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.A866_KA.JAN27 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.A866_KA.JAN28 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.A866_KA.JAN29 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.A866_KA.JAN30 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.A866_KA.MAY23 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.A866_KA.MAY24 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.A866_KA.MAY25 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.A866_KA.MAY26 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.A866_KA.MAY27 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.A866_KA.MAY28 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.A866_KA.MAY29 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.A866_KA.MAY30 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.A866_KA.NOV23 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.A866_KA.NOV24 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.A866_KA.NOV25 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.A866_KA.NOV26 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.A866_KA.NOV27 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.A866_KA.NOV28 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.A866_KA.NOV29 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
+sol-ont:MeasuringDistanceActivity.A866_KA.NOV30 sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.SkyLive .
+
 solr:DistanceRecord.1996_GT.AUG23 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.1996_GT.AUG23 ;
     sol-ont:hasResult solr:Result.1996_GT.AUG23 ;
     sol-ont:hasTemporalExtent solr:time.1996_GT.AUG23 .
 
 solr:DistanceRecord.1996_GT.AUG24 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.1996_GT.AUG24 ;
     sol-ont:hasResult solr:Result.1996_GT.AUG24 ;
     sol-ont:hasTemporalExtent solr:time.1996_GT.AUG24 .
 
 solr:DistanceRecord.1996_GT.AUG25 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.1996_GT.AUG25 ;
     sol-ont:hasResult solr:Result.1996_GT.AUG25 ;
     sol-ont:hasTemporalExtent solr:time.1996_GT.AUG25 .
 
 solr:DistanceRecord.1996_GT.AUG26 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.1996_GT.AUG26 ;
     sol-ont:hasResult solr:Result.1996_GT.AUG26 ;
     sol-ont:hasTemporalExtent solr:time.1996_GT.AUG26 .
 
 solr:DistanceRecord.1996_GT.AUG27 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.1996_GT.AUG27 ;
     sol-ont:hasResult solr:Result.1996_GT.AUG27 ;
     sol-ont:hasTemporalExtent solr:time.1996_GT.AUG27 .
 
 solr:DistanceRecord.1996_GT.AUG28 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.1996_GT.AUG28 ;
     sol-ont:hasResult solr:Result.1996_GT.AUG28 ;
     sol-ont:hasTemporalExtent solr:time.1996_GT.AUG28 .
 
 solr:DistanceRecord.1996_GT.AUG29 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.1996_GT.AUG29 ;
     sol-ont:hasResult solr:Result.1996_GT.AUG29 ;
     sol-ont:hasTemporalExtent solr:time.1996_GT.AUG29 .
 
 solr:DistanceRecord.1996_GT.AUG30 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.1996_GT.AUG30 ;
     sol-ont:hasResult solr:Result.1996_GT.AUG30 ;
     sol-ont:hasTemporalExtent solr:time.1996_GT.AUG30 .
 
 solr:DistanceRecord.1996_GT.JAN23 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.1996_GT.JAN23 ;
     sol-ont:hasResult solr:Result.1996_GT.JAN23 ;
     sol-ont:hasTemporalExtent solr:time.1996_GT.JAN23 .
 
 solr:DistanceRecord.1996_GT.JAN24 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.1996_GT.JAN24 ;
     sol-ont:hasResult solr:Result.1996_GT.JAN24 ;
     sol-ont:hasTemporalExtent solr:time.1996_GT.JAN24 .
 
 solr:DistanceRecord.1996_GT.JAN25 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.1996_GT.JAN25 ;
     sol-ont:hasResult solr:Result.1996_GT.JAN25 ;
     sol-ont:hasTemporalExtent solr:time.1996_GT.JAN25 .
 
 solr:DistanceRecord.1996_GT.JAN26 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.1996_GT.JAN26 ;
     sol-ont:hasResult solr:Result.1996_GT.JAN26 ;
     sol-ont:hasTemporalExtent solr:time.1996_GT.JAN26 .
 
 solr:DistanceRecord.1996_GT.JAN27 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.1996_GT.JAN27 ;
     sol-ont:hasResult solr:Result.1996_GT.JAN27 ;
     sol-ont:hasTemporalExtent solr:time.1996_GT.JAN27 .
 
 solr:DistanceRecord.1996_GT.JAN28 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.1996_GT.JAN28 ;
     sol-ont:hasResult solr:Result.1996_GT.JAN28 ;
     sol-ont:hasTemporalExtent solr:time.1996_GT.JAN28 .
 
 solr:DistanceRecord.1996_GT.JAN29 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.1996_GT.JAN29 ;
     sol-ont:hasResult solr:Result.1996_GT.JAN29 ;
     sol-ont:hasTemporalExtent solr:time.1996_GT.JAN29 .
 
 solr:DistanceRecord.1996_GT.JAN30 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.1996_GT.JAN30 ;
     sol-ont:hasResult solr:Result.1996_GT.JAN30 ;
     sol-ont:hasTemporalExtent solr:time.1996_GT.JAN30 .
 
 solr:DistanceRecord.1996_GT.MAY23 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.1996_GT.MAY23 ;
     sol-ont:hasResult solr:Result.1996_GT.MAY23 ;
     sol-ont:hasTemporalExtent solr:time.1996_GT.MAY23 .
 
 solr:DistanceRecord.1996_GT.MAY24 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.1996_GT.MAY24 ;
     sol-ont:hasResult solr:Result.1996_GT.MAY24 ;
     sol-ont:hasTemporalExtent solr:time.1996_GT.MAY24 .
 
 solr:DistanceRecord.1996_GT.MAY25 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.1996_GT.MAY25 ;
     sol-ont:hasResult solr:Result.1996_GT.MAY25 ;
     sol-ont:hasTemporalExtent solr:time.1996_GT.MAY25 .
 
 solr:DistanceRecord.1996_GT.MAY26 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.1996_GT.MAY26 ;
     sol-ont:hasResult solr:Result.1996_GT.MAY26 ;
     sol-ont:hasTemporalExtent solr:time.1996_GT.MAY26 .
 
 solr:DistanceRecord.1996_GT.MAY27 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.1996_GT.MAY27 ;
     sol-ont:hasResult solr:Result.1996_GT.MAY27 ;
     sol-ont:hasTemporalExtent solr:time.1996_GT.MAY27 .
 
 solr:DistanceRecord.1996_GT.MAY28 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.1996_GT.MAY28 ;
     sol-ont:hasResult solr:Result.1996_GT.MAY28 ;
     sol-ont:hasTemporalExtent solr:time.1996_GT.MAY28 .
 
 solr:DistanceRecord.1996_GT.MAY29 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.1996_GT.MAY29 ;
     sol-ont:hasResult solr:Result.1996_GT.MAY29 ;
     sol-ont:hasTemporalExtent solr:time.1996_GT.MAY29 .
 
 solr:DistanceRecord.1996_GT.MAY30 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.1996_GT.MAY30 ;
     sol-ont:hasResult solr:Result.1996_GT.MAY30 ;
     sol-ont:hasTemporalExtent solr:time.1996_GT.MAY30 .
 
 solr:DistanceRecord.1996_GT.NOV23 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.1996_GT.NOV23 ;
     sol-ont:hasResult solr:Result.1996_GT.NOV23 ;
     sol-ont:hasTemporalExtent solr:time.1996_GT.NOV23 .
 
 solr:DistanceRecord.1996_GT.NOV24 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.1996_GT.NOV24 ;
     sol-ont:hasResult solr:Result.1996_GT.NOV24 ;
     sol-ont:hasTemporalExtent solr:time.1996_GT.NOV24 .
 
 solr:DistanceRecord.1996_GT.NOV25 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.1996_GT.NOV25 ;
     sol-ont:hasResult solr:Result.1996_GT.NOV25 ;
     sol-ont:hasTemporalExtent solr:time.1996_GT.NOV25 .
 
 solr:DistanceRecord.1996_GT.NOV26 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.1996_GT.NOV26 ;
     sol-ont:hasResult solr:Result.1996_GT.NOV26 ;
     sol-ont:hasTemporalExtent solr:time.1996_GT.NOV26 .
 
 solr:DistanceRecord.1996_GT.NOV27 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.1996_GT.NOV27 ;
     sol-ont:hasResult solr:Result.1996_GT.NOV27 ;
     sol-ont:hasTemporalExtent solr:time.1996_GT.NOV27 .
 
 solr:DistanceRecord.1996_GT.NOV28 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.1996_GT.NOV28 ;
     sol-ont:hasResult solr:Result.1996_GT.NOV28 ;
     sol-ont:hasTemporalExtent solr:time.1996_GT.NOV28 .
 
 solr:DistanceRecord.1996_GT.NOV29 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.1996_GT.NOV29 ;
     sol-ont:hasResult solr:Result.1996_GT.NOV29 ;
     sol-ont:hasTemporalExtent solr:time.1996_GT.NOV29 .
 
 solr:DistanceRecord.1996_GT.NOV30 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.1996_GT.NOV30 ;
     sol-ont:hasResult solr:Result.1996_GT.NOV30 ;
     sol-ont:hasTemporalExtent solr:time.1996_GT.NOV30 .
 
 solr:DistanceRecord.1999_JU3.AUG23 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.1999_JU3.AUG23 ;
     sol-ont:hasResult solr:Result.1999_JU3.AUG23 ;
     sol-ont:hasTemporalExtent solr:time.1999_JU3.AUG23 .
 
 solr:DistanceRecord.1999_JU3.AUG24 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.1999_JU3.AUG24 ;
     sol-ont:hasResult solr:Result.1999_JU3.AUG24 ;
     sol-ont:hasTemporalExtent solr:time.1999_JU3.AUG24 .
 
 solr:DistanceRecord.1999_JU3.AUG25 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.1999_JU3.AUG25 ;
     sol-ont:hasResult solr:Result.1999_JU3.AUG25 ;
     sol-ont:hasTemporalExtent solr:time.1999_JU3.AUG25 .
 
 solr:DistanceRecord.1999_JU3.AUG26 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.1999_JU3.AUG26 ;
     sol-ont:hasResult solr:Result.1999_JU3.AUG26 ;
     sol-ont:hasTemporalExtent solr:time.1999_JU3.AUG26 .
 
 solr:DistanceRecord.1999_JU3.AUG27 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.1999_JU3.AUG27 ;
     sol-ont:hasResult solr:Result.1999_JU3.AUG27 ;
     sol-ont:hasTemporalExtent solr:time.1999_JU3.AUG27 .
 
 solr:DistanceRecord.1999_JU3.AUG28 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.1999_JU3.AUG28 ;
     sol-ont:hasResult solr:Result.1999_JU3.AUG28 ;
     sol-ont:hasTemporalExtent solr:time.1999_JU3.AUG28 .
 
 solr:DistanceRecord.1999_JU3.AUG29 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.1999_JU3.AUG29 ;
     sol-ont:hasResult solr:Result.1999_JU3.AUG29 ;
     sol-ont:hasTemporalExtent solr:time.1999_JU3.AUG29 .
 
 solr:DistanceRecord.1999_JU3.AUG30 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.1999_JU3.AUG30 ;
     sol-ont:hasResult solr:Result.1999_JU3.AUG30 ;
     sol-ont:hasTemporalExtent solr:time.1999_JU3.AUG30 .
 
 solr:DistanceRecord.1999_JU3.JAN23 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.1999_JU3.JAN23 ;
     sol-ont:hasResult solr:Result.1999_JU3.JAN23 ;
     sol-ont:hasTemporalExtent solr:time.1999_JU3.JAN23 .
 
 solr:DistanceRecord.1999_JU3.JAN24 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.1999_JU3.JAN24 ;
     sol-ont:hasResult solr:Result.1999_JU3.JAN24 ;
     sol-ont:hasTemporalExtent solr:time.1999_JU3.JAN24 .
 
 solr:DistanceRecord.1999_JU3.JAN25 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.1999_JU3.JAN25 ;
     sol-ont:hasResult solr:Result.1999_JU3.JAN25 ;
     sol-ont:hasTemporalExtent solr:time.1999_JU3.JAN25 .
 
 solr:DistanceRecord.1999_JU3.JAN26 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.1999_JU3.JAN26 ;
     sol-ont:hasResult solr:Result.1999_JU3.JAN26 ;
     sol-ont:hasTemporalExtent solr:time.1999_JU3.JAN26 .
 
 solr:DistanceRecord.1999_JU3.JAN27 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.1999_JU3.JAN27 ;
     sol-ont:hasResult solr:Result.1999_JU3.JAN27 ;
     sol-ont:hasTemporalExtent solr:time.1999_JU3.JAN27 .
 
 solr:DistanceRecord.1999_JU3.JAN28 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.1999_JU3.JAN28 ;
     sol-ont:hasResult solr:Result.1999_JU3.JAN28 ;
     sol-ont:hasTemporalExtent solr:time.1999_JU3.JAN28 .
 
 solr:DistanceRecord.1999_JU3.JAN29 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.1999_JU3.JAN29 ;
     sol-ont:hasResult solr:Result.1999_JU3.JAN29 ;
     sol-ont:hasTemporalExtent solr:time.1999_JU3.JAN29 .
 
 solr:DistanceRecord.1999_JU3.JAN30 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.1999_JU3.JAN30 ;
     sol-ont:hasResult solr:Result.1999_JU3.JAN30 ;
     sol-ont:hasTemporalExtent solr:time.1999_JU3.JAN30 .
 
 solr:DistanceRecord.1999_JU3.MAY23 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.1999_JU3.MAY23 ;
     sol-ont:hasResult solr:Result.1999_JU3.MAY23 ;
     sol-ont:hasTemporalExtent solr:time.1999_JU3.MAY23 .
 
 solr:DistanceRecord.1999_JU3.MAY24 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.1999_JU3.MAY24 ;
     sol-ont:hasResult solr:Result.1999_JU3.MAY24 ;
     sol-ont:hasTemporalExtent solr:time.1999_JU3.MAY24 .
 
 solr:DistanceRecord.1999_JU3.MAY25 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.1999_JU3.MAY25 ;
     sol-ont:hasResult solr:Result.1999_JU3.MAY25 ;
     sol-ont:hasTemporalExtent solr:time.1999_JU3.MAY25 .
 
 solr:DistanceRecord.1999_JU3.MAY26 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.1999_JU3.MAY26 ;
     sol-ont:hasResult solr:Result.1999_JU3.MAY26 ;
     sol-ont:hasTemporalExtent solr:time.1999_JU3.MAY26 .
 
 solr:DistanceRecord.1999_JU3.MAY27 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.1999_JU3.MAY27 ;
     sol-ont:hasResult solr:Result.1999_JU3.MAY27 ;
     sol-ont:hasTemporalExtent solr:time.1999_JU3.MAY27 .
 
 solr:DistanceRecord.1999_JU3.MAY28 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.1999_JU3.MAY28 ;
     sol-ont:hasResult solr:Result.1999_JU3.MAY28 ;
     sol-ont:hasTemporalExtent solr:time.1999_JU3.MAY28 .
 
 solr:DistanceRecord.1999_JU3.MAY29 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.1999_JU3.MAY29 ;
     sol-ont:hasResult solr:Result.1999_JU3.MAY29 ;
     sol-ont:hasTemporalExtent solr:time.1999_JU3.MAY29 .
 
 solr:DistanceRecord.1999_JU3.MAY30 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.1999_JU3.MAY30 ;
     sol-ont:hasResult solr:Result.1999_JU3.MAY30 ;
     sol-ont:hasTemporalExtent solr:time.1999_JU3.MAY30 .
 
 solr:DistanceRecord.1999_JU3.NOV23 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.1999_JU3.NOV23 ;
     sol-ont:hasResult solr:Result.1999_JU3.NOV23 ;
     sol-ont:hasTemporalExtent solr:time.1999_JU3.NOV23 .
 
 solr:DistanceRecord.1999_JU3.NOV24 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.1999_JU3.NOV24 ;
     sol-ont:hasResult solr:Result.1999_JU3.NOV24 ;
     sol-ont:hasTemporalExtent solr:time.1999_JU3.NOV24 .
 
 solr:DistanceRecord.1999_JU3.NOV25 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.1999_JU3.NOV25 ;
     sol-ont:hasResult solr:Result.1999_JU3.NOV25 ;
     sol-ont:hasTemporalExtent solr:time.1999_JU3.NOV25 .
 
 solr:DistanceRecord.1999_JU3.NOV26 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.1999_JU3.NOV26 ;
     sol-ont:hasResult solr:Result.1999_JU3.NOV26 ;
     sol-ont:hasTemporalExtent solr:time.1999_JU3.NOV26 .
 
 solr:DistanceRecord.1999_JU3.NOV27 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.1999_JU3.NOV27 ;
     sol-ont:hasResult solr:Result.1999_JU3.NOV27 ;
     sol-ont:hasTemporalExtent solr:time.1999_JU3.NOV27 .
 
 solr:DistanceRecord.1999_JU3.NOV28 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.1999_JU3.NOV28 ;
     sol-ont:hasResult solr:Result.1999_JU3.NOV28 ;
     sol-ont:hasTemporalExtent solr:time.1999_JU3.NOV28 .
 
 solr:DistanceRecord.1999_JU3.NOV29 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.1999_JU3.NOV29 ;
     sol-ont:hasResult solr:Result.1999_JU3.NOV29 ;
     sol-ont:hasTemporalExtent solr:time.1999_JU3.NOV29 .
 
 solr:DistanceRecord.1999_JU3.NOV30 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.1999_JU3.NOV30 ;
     sol-ont:hasResult solr:Result.1999_JU3.NOV30 ;
     sol-ont:hasTemporalExtent solr:time.1999_JU3.NOV30 .
 
 solr:DistanceRecord.1999_RQ36.AUG23 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.1999_RQ36.AUG23 ;
     sol-ont:hasResult solr:Result.1999_RQ36.AUG23 ;
     sol-ont:hasTemporalExtent solr:time.1999_RQ36.AUG23 .
 
 solr:DistanceRecord.1999_RQ36.AUG24 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.1999_RQ36.AUG24 ;
     sol-ont:hasResult solr:Result.1999_RQ36.AUG24 ;
     sol-ont:hasTemporalExtent solr:time.1999_RQ36.AUG24 .
 
 solr:DistanceRecord.1999_RQ36.AUG25 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.1999_RQ36.AUG25 ;
     sol-ont:hasResult solr:Result.1999_RQ36.AUG25 ;
     sol-ont:hasTemporalExtent solr:time.1999_RQ36.AUG25 .
 
 solr:DistanceRecord.1999_RQ36.AUG26 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.1999_RQ36.AUG26 ;
     sol-ont:hasResult solr:Result.1999_RQ36.AUG26 ;
     sol-ont:hasTemporalExtent solr:time.1999_RQ36.AUG26 .
 
 solr:DistanceRecord.1999_RQ36.AUG27 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.1999_RQ36.AUG27 ;
     sol-ont:hasResult solr:Result.1999_RQ36.AUG27 ;
     sol-ont:hasTemporalExtent solr:time.1999_RQ36.AUG27 .
 
 solr:DistanceRecord.1999_RQ36.AUG28 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.1999_RQ36.AUG28 ;
     sol-ont:hasResult solr:Result.1999_RQ36.AUG28 ;
     sol-ont:hasTemporalExtent solr:time.1999_RQ36.AUG28 .
 
 solr:DistanceRecord.1999_RQ36.AUG29 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.1999_RQ36.AUG29 ;
     sol-ont:hasResult solr:Result.1999_RQ36.AUG29 ;
     sol-ont:hasTemporalExtent solr:time.1999_RQ36.AUG29 .
 
 solr:DistanceRecord.1999_RQ36.AUG30 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.1999_RQ36.AUG30 ;
     sol-ont:hasResult solr:Result.1999_RQ36.AUG30 ;
     sol-ont:hasTemporalExtent solr:time.1999_RQ36.AUG30 .
 
 solr:DistanceRecord.1999_RQ36.JAN23 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.1999_RQ36.JAN23 ;
     sol-ont:hasResult solr:Result.1999_RQ36.JAN23 ;
     sol-ont:hasTemporalExtent solr:time.1999_RQ36.JAN23 .
 
 solr:DistanceRecord.1999_RQ36.JAN24 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.1999_RQ36.JAN24 ;
     sol-ont:hasResult solr:Result.1999_RQ36.JAN24 ;
     sol-ont:hasTemporalExtent solr:time.1999_RQ36.JAN24 .
 
 solr:DistanceRecord.1999_RQ36.JAN25 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.1999_RQ36.JAN25 ;
     sol-ont:hasResult solr:Result.1999_RQ36.JAN25 ;
     sol-ont:hasTemporalExtent solr:time.1999_RQ36.JAN25 .
 
 solr:DistanceRecord.1999_RQ36.JAN26 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.1999_RQ36.JAN26 ;
     sol-ont:hasResult solr:Result.1999_RQ36.JAN26 ;
     sol-ont:hasTemporalExtent solr:time.1999_RQ36.JAN26 .
 
 solr:DistanceRecord.1999_RQ36.JAN27 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.1999_RQ36.JAN27 ;
     sol-ont:hasResult solr:Result.1999_RQ36.JAN27 ;
     sol-ont:hasTemporalExtent solr:time.1999_RQ36.JAN27 .
 
 solr:DistanceRecord.1999_RQ36.JAN28 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.1999_RQ36.JAN28 ;
     sol-ont:hasResult solr:Result.1999_RQ36.JAN28 ;
     sol-ont:hasTemporalExtent solr:time.1999_RQ36.JAN28 .
 
 solr:DistanceRecord.1999_RQ36.JAN29 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.1999_RQ36.JAN29 ;
     sol-ont:hasResult solr:Result.1999_RQ36.JAN29 ;
     sol-ont:hasTemporalExtent solr:time.1999_RQ36.JAN29 .
 
 solr:DistanceRecord.1999_RQ36.JAN30 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.1999_RQ36.JAN30 ;
     sol-ont:hasResult solr:Result.1999_RQ36.JAN30 ;
     sol-ont:hasTemporalExtent solr:time.1999_RQ36.JAN30 .
 
 solr:DistanceRecord.1999_RQ36.MAY23 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.1999_RQ36.MAY23 ;
     sol-ont:hasResult solr:Result.1999_RQ36.MAY23 ;
     sol-ont:hasTemporalExtent solr:time.1999_RQ36.MAY23 .
 
 solr:DistanceRecord.1999_RQ36.MAY24 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.1999_RQ36.MAY24 ;
     sol-ont:hasResult solr:Result.1999_RQ36.MAY24 ;
     sol-ont:hasTemporalExtent solr:time.1999_RQ36.MAY24 .
 
 solr:DistanceRecord.1999_RQ36.MAY25 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.1999_RQ36.MAY25 ;
     sol-ont:hasResult solr:Result.1999_RQ36.MAY25 ;
     sol-ont:hasTemporalExtent solr:time.1999_RQ36.MAY25 .
 
 solr:DistanceRecord.1999_RQ36.MAY26 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.1999_RQ36.MAY26 ;
     sol-ont:hasResult solr:Result.1999_RQ36.MAY26 ;
     sol-ont:hasTemporalExtent solr:time.1999_RQ36.MAY26 .
 
 solr:DistanceRecord.1999_RQ36.MAY27 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.1999_RQ36.MAY27 ;
     sol-ont:hasResult solr:Result.1999_RQ36.MAY27 ;
     sol-ont:hasTemporalExtent solr:time.1999_RQ36.MAY27 .
 
 solr:DistanceRecord.1999_RQ36.MAY28 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.1999_RQ36.MAY28 ;
     sol-ont:hasResult solr:Result.1999_RQ36.MAY28 ;
     sol-ont:hasTemporalExtent solr:time.1999_RQ36.MAY28 .
 
 solr:DistanceRecord.1999_RQ36.MAY29 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.1999_RQ36.MAY29 ;
     sol-ont:hasResult solr:Result.1999_RQ36.MAY29 ;
     sol-ont:hasTemporalExtent solr:time.1999_RQ36.MAY29 .
 
 solr:DistanceRecord.1999_RQ36.MAY30 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.1999_RQ36.MAY30 ;
     sol-ont:hasResult solr:Result.1999_RQ36.MAY30 ;
     sol-ont:hasTemporalExtent solr:time.1999_RQ36.MAY30 .
 
 solr:DistanceRecord.1999_RQ36.NOV23 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.1999_RQ36.NOV23 ;
     sol-ont:hasResult solr:Result.1999_RQ36.NOV23 ;
     sol-ont:hasTemporalExtent solr:time.1999_RQ36.NOV23 .
 
 solr:DistanceRecord.1999_RQ36.NOV24 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.1999_RQ36.NOV24 ;
     sol-ont:hasResult solr:Result.1999_RQ36.NOV24 ;
     sol-ont:hasTemporalExtent solr:time.1999_RQ36.NOV24 .
 
 solr:DistanceRecord.1999_RQ36.NOV25 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.1999_RQ36.NOV25 ;
     sol-ont:hasResult solr:Result.1999_RQ36.NOV25 ;
     sol-ont:hasTemporalExtent solr:time.1999_RQ36.NOV25 .
 
 solr:DistanceRecord.1999_RQ36.NOV26 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.1999_RQ36.NOV26 ;
     sol-ont:hasResult solr:Result.1999_RQ36.NOV26 ;
     sol-ont:hasTemporalExtent solr:time.1999_RQ36.NOV26 .
 
 solr:DistanceRecord.1999_RQ36.NOV27 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.1999_RQ36.NOV27 ;
     sol-ont:hasResult solr:Result.1999_RQ36.NOV27 ;
     sol-ont:hasTemporalExtent solr:time.1999_RQ36.NOV27 .
 
 solr:DistanceRecord.1999_RQ36.NOV28 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.1999_RQ36.NOV28 ;
     sol-ont:hasResult solr:Result.1999_RQ36.NOV28 ;
     sol-ont:hasTemporalExtent solr:time.1999_RQ36.NOV28 .
 
 solr:DistanceRecord.1999_RQ36.NOV29 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.1999_RQ36.NOV29 ;
     sol-ont:hasResult solr:Result.1999_RQ36.NOV29 ;
     sol-ont:hasTemporalExtent solr:time.1999_RQ36.NOV29 .
 
 solr:DistanceRecord.1999_RQ36.NOV30 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.1999_RQ36.NOV30 ;
     sol-ont:hasResult solr:Result.1999_RQ36.NOV30 ;
     sol-ont:hasTemporalExtent solr:time.1999_RQ36.NOV30 .
 
 solr:DistanceRecord.A802_FA.AUG23 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.A802_FA.AUG23 ;
     sol-ont:hasResult solr:Result.A802_FA.AUG23 ;
     sol-ont:hasTemporalExtent solr:time.A802_FA.AUG23 .
 
 solr:DistanceRecord.A802_FA.AUG24 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.A802_FA.AUG24 ;
     sol-ont:hasResult solr:Result.A802_FA.AUG24 ;
     sol-ont:hasTemporalExtent solr:time.A802_FA.AUG24 .
 
 solr:DistanceRecord.A802_FA.AUG25 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.A802_FA.AUG25 ;
     sol-ont:hasResult solr:Result.A802_FA.AUG25 ;
     sol-ont:hasTemporalExtent solr:time.A802_FA.AUG25 .
 
 solr:DistanceRecord.A802_FA.AUG26 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.A802_FA.AUG26 ;
     sol-ont:hasResult solr:Result.A802_FA.AUG26 ;
     sol-ont:hasTemporalExtent solr:time.A802_FA.AUG26 .
 
 solr:DistanceRecord.A802_FA.AUG27 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.A802_FA.AUG27 ;
     sol-ont:hasResult solr:Result.A802_FA.AUG27 ;
     sol-ont:hasTemporalExtent solr:time.A802_FA.AUG27 .
 
 solr:DistanceRecord.A802_FA.AUG28 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.A802_FA.AUG28 ;
     sol-ont:hasResult solr:Result.A802_FA.AUG28 ;
     sol-ont:hasTemporalExtent solr:time.A802_FA.AUG28 .
 
 solr:DistanceRecord.A802_FA.AUG29 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.A802_FA.AUG29 ;
     sol-ont:hasResult solr:Result.A802_FA.AUG29 ;
     sol-ont:hasTemporalExtent solr:time.A802_FA.AUG29 .
 
 solr:DistanceRecord.A802_FA.AUG30 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.A802_FA.AUG30 ;
     sol-ont:hasResult solr:Result.A802_FA.AUG30 ;
     sol-ont:hasTemporalExtent solr:time.A802_FA.AUG30 .
 
 solr:DistanceRecord.A802_FA.JAN23 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.A802_FA.JAN23 ;
     sol-ont:hasResult solr:Result.A802_FA.JAN23 ;
     sol-ont:hasTemporalExtent solr:time.A802_FA.JAN23 .
 
 solr:DistanceRecord.A802_FA.JAN24 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.A802_FA.JAN24 ;
     sol-ont:hasResult solr:Result.A802_FA.JAN24 ;
     sol-ont:hasTemporalExtent solr:time.A802_FA.JAN24 .
 
 solr:DistanceRecord.A802_FA.JAN25 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.A802_FA.JAN25 ;
     sol-ont:hasResult solr:Result.A802_FA.JAN25 ;
     sol-ont:hasTemporalExtent solr:time.A802_FA.JAN25 .
 
 solr:DistanceRecord.A802_FA.JAN26 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.A802_FA.JAN26 ;
     sol-ont:hasResult solr:Result.A802_FA.JAN26 ;
     sol-ont:hasTemporalExtent solr:time.A802_FA.JAN26 .
 
 solr:DistanceRecord.A802_FA.JAN27 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.A802_FA.JAN27 ;
     sol-ont:hasResult solr:Result.A802_FA.JAN27 ;
     sol-ont:hasTemporalExtent solr:time.A802_FA.JAN27 .
 
 solr:DistanceRecord.A802_FA.JAN28 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.A802_FA.JAN28 ;
     sol-ont:hasResult solr:Result.A802_FA.JAN28 ;
     sol-ont:hasTemporalExtent solr:time.A802_FA.JAN28 .
 
 solr:DistanceRecord.A802_FA.JAN29 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.A802_FA.JAN29 ;
     sol-ont:hasResult solr:Result.A802_FA.JAN29 ;
     sol-ont:hasTemporalExtent solr:time.A802_FA.JAN29 .
 
 solr:DistanceRecord.A802_FA.JAN30 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.A802_FA.JAN30 ;
     sol-ont:hasResult solr:Result.A802_FA.JAN30 ;
     sol-ont:hasTemporalExtent solr:time.A802_FA.JAN30 .
 
 solr:DistanceRecord.A802_FA.MAY23 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.A802_FA.MAY23 ;
     sol-ont:hasResult solr:Result.A802_FA.MAY23 ;
     sol-ont:hasTemporalExtent solr:time.A802_FA.MAY23 .
 
 solr:DistanceRecord.A802_FA.MAY24 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.A802_FA.MAY24 ;
     sol-ont:hasResult solr:Result.A802_FA.MAY24 ;
     sol-ont:hasTemporalExtent solr:time.A802_FA.MAY24 .
 
 solr:DistanceRecord.A802_FA.MAY25 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.A802_FA.MAY25 ;
     sol-ont:hasResult solr:Result.A802_FA.MAY25 ;
     sol-ont:hasTemporalExtent solr:time.A802_FA.MAY25 .
 
 solr:DistanceRecord.A802_FA.MAY26 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.A802_FA.MAY26 ;
     sol-ont:hasResult solr:Result.A802_FA.MAY26 ;
     sol-ont:hasTemporalExtent solr:time.A802_FA.MAY26 .
 
 solr:DistanceRecord.A802_FA.MAY27 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.A802_FA.MAY27 ;
     sol-ont:hasResult solr:Result.A802_FA.MAY27 ;
     sol-ont:hasTemporalExtent solr:time.A802_FA.MAY27 .
 
 solr:DistanceRecord.A802_FA.MAY28 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.A802_FA.MAY28 ;
     sol-ont:hasResult solr:Result.A802_FA.MAY28 ;
     sol-ont:hasTemporalExtent solr:time.A802_FA.MAY28 .
 
 solr:DistanceRecord.A802_FA.MAY29 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.A802_FA.MAY29 ;
     sol-ont:hasResult solr:Result.A802_FA.MAY29 ;
     sol-ont:hasTemporalExtent solr:time.A802_FA.MAY29 .
 
 solr:DistanceRecord.A802_FA.MAY30 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.A802_FA.MAY30 ;
     sol-ont:hasResult solr:Result.A802_FA.MAY30 ;
     sol-ont:hasTemporalExtent solr:time.A802_FA.MAY30 .
 
 solr:DistanceRecord.A802_FA.NOV23 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.A802_FA.NOV23 ;
     sol-ont:hasResult solr:Result.A802_FA.NOV23 ;
     sol-ont:hasTemporalExtent solr:time.A802_FA.NOV23 .
 
 solr:DistanceRecord.A802_FA.NOV24 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.A802_FA.NOV24 ;
     sol-ont:hasResult solr:Result.A802_FA.NOV24 ;
     sol-ont:hasTemporalExtent solr:time.A802_FA.NOV24 .
 
 solr:DistanceRecord.A802_FA.NOV25 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.A802_FA.NOV25 ;
     sol-ont:hasResult solr:Result.A802_FA.NOV25 ;
     sol-ont:hasTemporalExtent solr:time.A802_FA.NOV25 .
 
 solr:DistanceRecord.A802_FA.NOV26 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.A802_FA.NOV26 ;
     sol-ont:hasResult solr:Result.A802_FA.NOV26 ;
     sol-ont:hasTemporalExtent solr:time.A802_FA.NOV26 .
 
 solr:DistanceRecord.A802_FA.NOV27 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.A802_FA.NOV27 ;
     sol-ont:hasResult solr:Result.A802_FA.NOV27 ;
     sol-ont:hasTemporalExtent solr:time.A802_FA.NOV27 .
 
 solr:DistanceRecord.A802_FA.NOV28 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.A802_FA.NOV28 ;
     sol-ont:hasResult solr:Result.A802_FA.NOV28 ;
     sol-ont:hasTemporalExtent solr:time.A802_FA.NOV28 .
 
 solr:DistanceRecord.A802_FA.NOV29 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.A802_FA.NOV29 ;
     sol-ont:hasResult solr:Result.A802_FA.NOV29 ;
     sol-ont:hasTemporalExtent solr:time.A802_FA.NOV29 .
 
 solr:DistanceRecord.A802_FA.NOV30 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.A802_FA.NOV30 ;
     sol-ont:hasResult solr:Result.A802_FA.NOV30 ;
     sol-ont:hasTemporalExtent solr:time.A802_FA.NOV30 .
 
 solr:DistanceRecord.A849_GA.AUG23 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.A849_GA.AUG23 ;
     sol-ont:hasResult solr:Result.A849_GA.AUG23 ;
     sol-ont:hasTemporalExtent solr:time.A849_GA.AUG23 .
 
 solr:DistanceRecord.A849_GA.AUG24 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.A849_GA.AUG24 ;
     sol-ont:hasResult solr:Result.A849_GA.AUG24 ;
     sol-ont:hasTemporalExtent solr:time.A849_GA.AUG24 .
 
 solr:DistanceRecord.A849_GA.AUG25 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.A849_GA.AUG25 ;
     sol-ont:hasResult solr:Result.A849_GA.AUG25 ;
     sol-ont:hasTemporalExtent solr:time.A849_GA.AUG25 .
 
 solr:DistanceRecord.A849_GA.AUG26 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.A849_GA.AUG26 ;
     sol-ont:hasResult solr:Result.A849_GA.AUG26 ;
     sol-ont:hasTemporalExtent solr:time.A849_GA.AUG26 .
 
 solr:DistanceRecord.A849_GA.AUG27 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.A849_GA.AUG27 ;
     sol-ont:hasResult solr:Result.A849_GA.AUG27 ;
     sol-ont:hasTemporalExtent solr:time.A849_GA.AUG27 .
 
 solr:DistanceRecord.A849_GA.AUG28 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.A849_GA.AUG28 ;
     sol-ont:hasResult solr:Result.A849_GA.AUG28 ;
     sol-ont:hasTemporalExtent solr:time.A849_GA.AUG28 .
 
 solr:DistanceRecord.A849_GA.AUG29 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.A849_GA.AUG29 ;
     sol-ont:hasResult solr:Result.A849_GA.AUG29 ;
     sol-ont:hasTemporalExtent solr:time.A849_GA.AUG29 .
 
 solr:DistanceRecord.A849_GA.AUG30 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.A849_GA.AUG30 ;
     sol-ont:hasResult solr:Result.A849_GA.AUG30 ;
     sol-ont:hasTemporalExtent solr:time.A849_GA.AUG30 .
 
 solr:DistanceRecord.A849_GA.JAN23 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.A849_GA.JAN23 ;
     sol-ont:hasResult solr:Result.A849_GA.JAN23 ;
     sol-ont:hasTemporalExtent solr:time.A849_GA.JAN23 .
 
 solr:DistanceRecord.A849_GA.JAN24 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.A849_GA.JAN24 ;
     sol-ont:hasResult solr:Result.A849_GA.JAN24 ;
     sol-ont:hasTemporalExtent solr:time.A849_GA.JAN24 .
 
 solr:DistanceRecord.A849_GA.JAN25 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.A849_GA.JAN25 ;
     sol-ont:hasResult solr:Result.A849_GA.JAN25 ;
     sol-ont:hasTemporalExtent solr:time.A849_GA.JAN25 .
 
 solr:DistanceRecord.A849_GA.JAN26 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.A849_GA.JAN26 ;
     sol-ont:hasResult solr:Result.A849_GA.JAN26 ;
     sol-ont:hasTemporalExtent solr:time.A849_GA.JAN26 .
 
 solr:DistanceRecord.A849_GA.JAN27 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.A849_GA.JAN27 ;
     sol-ont:hasResult solr:Result.A849_GA.JAN27 ;
     sol-ont:hasTemporalExtent solr:time.A849_GA.JAN27 .
 
 solr:DistanceRecord.A849_GA.JAN28 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.A849_GA.JAN28 ;
     sol-ont:hasResult solr:Result.A849_GA.JAN28 ;
     sol-ont:hasTemporalExtent solr:time.A849_GA.JAN28 .
 
 solr:DistanceRecord.A849_GA.JAN29 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.A849_GA.JAN29 ;
     sol-ont:hasResult solr:Result.A849_GA.JAN29 ;
     sol-ont:hasTemporalExtent solr:time.A849_GA.JAN29 .
 
 solr:DistanceRecord.A849_GA.JAN30 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.A849_GA.JAN30 ;
     sol-ont:hasResult solr:Result.A849_GA.JAN30 ;
     sol-ont:hasTemporalExtent solr:time.A849_GA.JAN30 .
 
 solr:DistanceRecord.A849_GA.MAY23 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.A849_GA.MAY23 ;
     sol-ont:hasResult solr:Result.A849_GA.MAY23 ;
     sol-ont:hasTemporalExtent solr:time.A849_GA.MAY23 .
 
 solr:DistanceRecord.A849_GA.MAY24 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.A849_GA.MAY24 ;
     sol-ont:hasResult solr:Result.A849_GA.MAY24 ;
     sol-ont:hasTemporalExtent solr:time.A849_GA.MAY24 .
 
 solr:DistanceRecord.A849_GA.MAY25 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.A849_GA.MAY25 ;
     sol-ont:hasResult solr:Result.A849_GA.MAY25 ;
     sol-ont:hasTemporalExtent solr:time.A849_GA.MAY25 .
 
 solr:DistanceRecord.A849_GA.MAY26 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.A849_GA.MAY26 ;
     sol-ont:hasResult solr:Result.A849_GA.MAY26 ;
     sol-ont:hasTemporalExtent solr:time.A849_GA.MAY26 .
 
 solr:DistanceRecord.A849_GA.MAY27 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.A849_GA.MAY27 ;
     sol-ont:hasResult solr:Result.A849_GA.MAY27 ;
     sol-ont:hasTemporalExtent solr:time.A849_GA.MAY27 .
 
 solr:DistanceRecord.A849_GA.MAY28 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.A849_GA.MAY28 ;
     sol-ont:hasResult solr:Result.A849_GA.MAY28 ;
     sol-ont:hasTemporalExtent solr:time.A849_GA.MAY28 .
 
 solr:DistanceRecord.A849_GA.MAY29 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.A849_GA.MAY29 ;
     sol-ont:hasResult solr:Result.A849_GA.MAY29 ;
     sol-ont:hasTemporalExtent solr:time.A849_GA.MAY29 .
 
 solr:DistanceRecord.A849_GA.MAY30 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.A849_GA.MAY30 ;
     sol-ont:hasResult solr:Result.A849_GA.MAY30 ;
     sol-ont:hasTemporalExtent solr:time.A849_GA.MAY30 .
 
 solr:DistanceRecord.A849_GA.NOV23 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.A849_GA.NOV23 ;
     sol-ont:hasResult solr:Result.A849_GA.NOV23 ;
     sol-ont:hasTemporalExtent solr:time.A849_GA.NOV23 .
 
 solr:DistanceRecord.A849_GA.NOV24 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.A849_GA.NOV24 ;
     sol-ont:hasResult solr:Result.A849_GA.NOV24 ;
     sol-ont:hasTemporalExtent solr:time.A849_GA.NOV24 .
 
 solr:DistanceRecord.A849_GA.NOV25 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.A849_GA.NOV25 ;
     sol-ont:hasResult solr:Result.A849_GA.NOV25 ;
     sol-ont:hasTemporalExtent solr:time.A849_GA.NOV25 .
 
 solr:DistanceRecord.A849_GA.NOV26 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.A849_GA.NOV26 ;
     sol-ont:hasResult solr:Result.A849_GA.NOV26 ;
     sol-ont:hasTemporalExtent solr:time.A849_GA.NOV26 .
 
 solr:DistanceRecord.A849_GA.NOV27 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.A849_GA.NOV27 ;
     sol-ont:hasResult solr:Result.A849_GA.NOV27 ;
     sol-ont:hasTemporalExtent solr:time.A849_GA.NOV27 .
 
 solr:DistanceRecord.A849_GA.NOV28 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.A849_GA.NOV28 ;
     sol-ont:hasResult solr:Result.A849_GA.NOV28 ;
     sol-ont:hasTemporalExtent solr:time.A849_GA.NOV28 .
 
 solr:DistanceRecord.A849_GA.NOV29 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.A849_GA.NOV29 ;
     sol-ont:hasResult solr:Result.A849_GA.NOV29 ;
     sol-ont:hasTemporalExtent solr:time.A849_GA.NOV29 .
 
 solr:DistanceRecord.A849_GA.NOV30 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.A849_GA.NOV30 ;
     sol-ont:hasResult solr:Result.A849_GA.NOV30 ;
     sol-ont:hasTemporalExtent solr:time.A849_GA.NOV30 .
 
 solr:DistanceRecord.A850_VA.AUG23 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.A850_VA.AUG23 ;
     sol-ont:hasResult solr:Result.A850_VA.AUG23 ;
     sol-ont:hasTemporalExtent solr:time.A850_VA.AUG23 .
 
 solr:DistanceRecord.A850_VA.AUG24 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.A850_VA.AUG24 ;
     sol-ont:hasResult solr:Result.A850_VA.AUG24 ;
     sol-ont:hasTemporalExtent solr:time.A850_VA.AUG24 .
 
 solr:DistanceRecord.A850_VA.AUG25 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.A850_VA.AUG25 ;
     sol-ont:hasResult solr:Result.A850_VA.AUG25 ;
     sol-ont:hasTemporalExtent solr:time.A850_VA.AUG25 .
 
 solr:DistanceRecord.A850_VA.AUG26 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.A850_VA.AUG26 ;
     sol-ont:hasResult solr:Result.A850_VA.AUG26 ;
     sol-ont:hasTemporalExtent solr:time.A850_VA.AUG26 .
 
 solr:DistanceRecord.A850_VA.AUG27 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.A850_VA.AUG27 ;
     sol-ont:hasResult solr:Result.A850_VA.AUG27 ;
     sol-ont:hasTemporalExtent solr:time.A850_VA.AUG27 .
 
 solr:DistanceRecord.A850_VA.AUG28 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.A850_VA.AUG28 ;
     sol-ont:hasResult solr:Result.A850_VA.AUG28 ;
     sol-ont:hasTemporalExtent solr:time.A850_VA.AUG28 .
 
 solr:DistanceRecord.A850_VA.AUG29 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.A850_VA.AUG29 ;
     sol-ont:hasResult solr:Result.A850_VA.AUG29 ;
     sol-ont:hasTemporalExtent solr:time.A850_VA.AUG29 .
 
 solr:DistanceRecord.A850_VA.AUG30 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.A850_VA.AUG30 ;
     sol-ont:hasResult solr:Result.A850_VA.AUG30 ;
     sol-ont:hasTemporalExtent solr:time.A850_VA.AUG30 .
 
 solr:DistanceRecord.A850_VA.JAN23 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.A850_VA.JAN23 ;
     sol-ont:hasResult solr:Result.A850_VA.JAN23 ;
     sol-ont:hasTemporalExtent solr:time.A850_VA.JAN23 .
 
 solr:DistanceRecord.A850_VA.JAN24 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.A850_VA.JAN24 ;
     sol-ont:hasResult solr:Result.A850_VA.JAN24 ;
     sol-ont:hasTemporalExtent solr:time.A850_VA.JAN24 .
 
 solr:DistanceRecord.A850_VA.JAN25 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.A850_VA.JAN25 ;
     sol-ont:hasResult solr:Result.A850_VA.JAN25 ;
     sol-ont:hasTemporalExtent solr:time.A850_VA.JAN25 .
 
 solr:DistanceRecord.A850_VA.JAN26 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.A850_VA.JAN26 ;
     sol-ont:hasResult solr:Result.A850_VA.JAN26 ;
     sol-ont:hasTemporalExtent solr:time.A850_VA.JAN26 .
 
 solr:DistanceRecord.A850_VA.JAN27 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.A850_VA.JAN27 ;
     sol-ont:hasResult solr:Result.A850_VA.JAN27 ;
     sol-ont:hasTemporalExtent solr:time.A850_VA.JAN27 .
 
 solr:DistanceRecord.A850_VA.JAN28 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.A850_VA.JAN28 ;
     sol-ont:hasResult solr:Result.A850_VA.JAN28 ;
     sol-ont:hasTemporalExtent solr:time.A850_VA.JAN28 .
 
 solr:DistanceRecord.A850_VA.JAN29 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.A850_VA.JAN29 ;
     sol-ont:hasResult solr:Result.A850_VA.JAN29 ;
     sol-ont:hasTemporalExtent solr:time.A850_VA.JAN29 .
 
 solr:DistanceRecord.A850_VA.JAN30 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.A850_VA.JAN30 ;
     sol-ont:hasResult solr:Result.A850_VA.JAN30 ;
     sol-ont:hasTemporalExtent solr:time.A850_VA.JAN30 .
 
 solr:DistanceRecord.A850_VA.MAY23 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.A850_VA.MAY23 ;
     sol-ont:hasResult solr:Result.A850_VA.MAY23 ;
     sol-ont:hasTemporalExtent solr:time.A850_VA.MAY23 .
 
 solr:DistanceRecord.A850_VA.MAY24 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.A850_VA.MAY24 ;
     sol-ont:hasResult solr:Result.A850_VA.MAY24 ;
     sol-ont:hasTemporalExtent solr:time.A850_VA.MAY24 .
 
 solr:DistanceRecord.A850_VA.MAY25 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.A850_VA.MAY25 ;
     sol-ont:hasResult solr:Result.A850_VA.MAY25 ;
     sol-ont:hasTemporalExtent solr:time.A850_VA.MAY25 .
 
 solr:DistanceRecord.A850_VA.MAY26 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.A850_VA.MAY26 ;
     sol-ont:hasResult solr:Result.A850_VA.MAY26 ;
     sol-ont:hasTemporalExtent solr:time.A850_VA.MAY26 .
 
 solr:DistanceRecord.A850_VA.MAY27 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.A850_VA.MAY27 ;
     sol-ont:hasResult solr:Result.A850_VA.MAY27 ;
     sol-ont:hasTemporalExtent solr:time.A850_VA.MAY27 .
 
 solr:DistanceRecord.A850_VA.MAY28 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.A850_VA.MAY28 ;
     sol-ont:hasResult solr:Result.A850_VA.MAY28 ;
     sol-ont:hasTemporalExtent solr:time.A850_VA.MAY28 .
 
 solr:DistanceRecord.A850_VA.MAY29 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.A850_VA.MAY29 ;
     sol-ont:hasResult solr:Result.A850_VA.MAY29 ;
     sol-ont:hasTemporalExtent solr:time.A850_VA.MAY29 .
 
 solr:DistanceRecord.A850_VA.MAY30 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.A850_VA.MAY30 ;
     sol-ont:hasResult solr:Result.A850_VA.MAY30 ;
     sol-ont:hasTemporalExtent solr:time.A850_VA.MAY30 .
 
 solr:DistanceRecord.A850_VA.NOV23 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.A850_VA.NOV23 ;
     sol-ont:hasResult solr:Result.A850_VA.NOV23 ;
     sol-ont:hasTemporalExtent solr:time.A850_VA.NOV23 .
 
 solr:DistanceRecord.A850_VA.NOV24 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.A850_VA.NOV24 ;
     sol-ont:hasResult solr:Result.A850_VA.NOV24 ;
     sol-ont:hasTemporalExtent solr:time.A850_VA.NOV24 .
 
 solr:DistanceRecord.A850_VA.NOV25 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.A850_VA.NOV25 ;
     sol-ont:hasResult solr:Result.A850_VA.NOV25 ;
     sol-ont:hasTemporalExtent solr:time.A850_VA.NOV25 .
 
 solr:DistanceRecord.A850_VA.NOV26 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.A850_VA.NOV26 ;
     sol-ont:hasResult solr:Result.A850_VA.NOV26 ;
     sol-ont:hasTemporalExtent solr:time.A850_VA.NOV26 .
 
 solr:DistanceRecord.A850_VA.NOV27 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.A850_VA.NOV27 ;
     sol-ont:hasResult solr:Result.A850_VA.NOV27 ;
     sol-ont:hasTemporalExtent solr:time.A850_VA.NOV27 .
 
 solr:DistanceRecord.A850_VA.NOV28 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.A850_VA.NOV28 ;
     sol-ont:hasResult solr:Result.A850_VA.NOV28 ;
     sol-ont:hasTemporalExtent solr:time.A850_VA.NOV28 .
 
 solr:DistanceRecord.A850_VA.NOV29 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.A850_VA.NOV29 ;
     sol-ont:hasResult solr:Result.A850_VA.NOV29 ;
     sol-ont:hasTemporalExtent solr:time.A850_VA.NOV29 .
 
 solr:DistanceRecord.A850_VA.NOV30 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.A850_VA.NOV30 ;
     sol-ont:hasResult solr:Result.A850_VA.NOV30 ;
     sol-ont:hasTemporalExtent solr:time.A850_VA.NOV30 .
 
 solr:DistanceRecord.A852_FA.AUG23 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.A852_FA.AUG23 ;
     sol-ont:hasResult solr:Result.A852_FA.AUG23 ;
     sol-ont:hasTemporalExtent solr:time.A852_FA.AUG23 .
 
 solr:DistanceRecord.A852_FA.AUG24 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.A852_FA.AUG24 ;
     sol-ont:hasResult solr:Result.A852_FA.AUG24 ;
     sol-ont:hasTemporalExtent solr:time.A852_FA.AUG24 .
 
 solr:DistanceRecord.A852_FA.AUG25 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.A852_FA.AUG25 ;
     sol-ont:hasResult solr:Result.A852_FA.AUG25 ;
     sol-ont:hasTemporalExtent solr:time.A852_FA.AUG25 .
 
 solr:DistanceRecord.A852_FA.AUG26 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.A852_FA.AUG26 ;
     sol-ont:hasResult solr:Result.A852_FA.AUG26 ;
     sol-ont:hasTemporalExtent solr:time.A852_FA.AUG26 .
 
 solr:DistanceRecord.A852_FA.AUG27 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.A852_FA.AUG27 ;
     sol-ont:hasResult solr:Result.A852_FA.AUG27 ;
     sol-ont:hasTemporalExtent solr:time.A852_FA.AUG27 .
 
 solr:DistanceRecord.A852_FA.AUG28 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.A852_FA.AUG28 ;
     sol-ont:hasResult solr:Result.A852_FA.AUG28 ;
     sol-ont:hasTemporalExtent solr:time.A852_FA.AUG28 .
 
 solr:DistanceRecord.A852_FA.AUG29 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.A852_FA.AUG29 ;
     sol-ont:hasResult solr:Result.A852_FA.AUG29 ;
     sol-ont:hasTemporalExtent solr:time.A852_FA.AUG29 .
 
 solr:DistanceRecord.A852_FA.AUG30 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.A852_FA.AUG30 ;
     sol-ont:hasResult solr:Result.A852_FA.AUG30 ;
     sol-ont:hasTemporalExtent solr:time.A852_FA.AUG30 .
 
 solr:DistanceRecord.A852_FA.JAN23 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.A852_FA.JAN23 ;
     sol-ont:hasResult solr:Result.A852_FA.JAN23 ;
     sol-ont:hasTemporalExtent solr:time.A852_FA.JAN23 .
 
 solr:DistanceRecord.A852_FA.JAN24 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.A852_FA.JAN24 ;
     sol-ont:hasResult solr:Result.A852_FA.JAN24 ;
     sol-ont:hasTemporalExtent solr:time.A852_FA.JAN24 .
 
 solr:DistanceRecord.A852_FA.JAN25 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.A852_FA.JAN25 ;
     sol-ont:hasResult solr:Result.A852_FA.JAN25 ;
     sol-ont:hasTemporalExtent solr:time.A852_FA.JAN25 .
 
 solr:DistanceRecord.A852_FA.JAN26 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.A852_FA.JAN26 ;
     sol-ont:hasResult solr:Result.A852_FA.JAN26 ;
     sol-ont:hasTemporalExtent solr:time.A852_FA.JAN26 .
 
 solr:DistanceRecord.A852_FA.JAN27 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.A852_FA.JAN27 ;
     sol-ont:hasResult solr:Result.A852_FA.JAN27 ;
     sol-ont:hasTemporalExtent solr:time.A852_FA.JAN27 .
 
 solr:DistanceRecord.A852_FA.JAN28 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.A852_FA.JAN28 ;
     sol-ont:hasResult solr:Result.A852_FA.JAN28 ;
     sol-ont:hasTemporalExtent solr:time.A852_FA.JAN28 .
 
 solr:DistanceRecord.A852_FA.JAN29 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.A852_FA.JAN29 ;
     sol-ont:hasResult solr:Result.A852_FA.JAN29 ;
     sol-ont:hasTemporalExtent solr:time.A852_FA.JAN29 .
 
 solr:DistanceRecord.A852_FA.JAN30 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.A852_FA.JAN30 ;
     sol-ont:hasResult solr:Result.A852_FA.JAN30 ;
     sol-ont:hasTemporalExtent solr:time.A852_FA.JAN30 .
 
 solr:DistanceRecord.A852_FA.MAY23 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.A852_FA.MAY23 ;
     sol-ont:hasResult solr:Result.A852_FA.MAY23 ;
     sol-ont:hasTemporalExtent solr:time.A852_FA.MAY23 .
 
 solr:DistanceRecord.A852_FA.MAY24 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.A852_FA.MAY24 ;
     sol-ont:hasResult solr:Result.A852_FA.MAY24 ;
     sol-ont:hasTemporalExtent solr:time.A852_FA.MAY24 .
 
 solr:DistanceRecord.A852_FA.MAY25 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.A852_FA.MAY25 ;
     sol-ont:hasResult solr:Result.A852_FA.MAY25 ;
     sol-ont:hasTemporalExtent solr:time.A852_FA.MAY25 .
 
 solr:DistanceRecord.A852_FA.MAY26 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.A852_FA.MAY26 ;
     sol-ont:hasResult solr:Result.A852_FA.MAY26 ;
     sol-ont:hasTemporalExtent solr:time.A852_FA.MAY26 .
 
 solr:DistanceRecord.A852_FA.MAY27 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.A852_FA.MAY27 ;
     sol-ont:hasResult solr:Result.A852_FA.MAY27 ;
     sol-ont:hasTemporalExtent solr:time.A852_FA.MAY27 .
 
 solr:DistanceRecord.A852_FA.MAY28 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.A852_FA.MAY28 ;
     sol-ont:hasResult solr:Result.A852_FA.MAY28 ;
     sol-ont:hasTemporalExtent solr:time.A852_FA.MAY28 .
 
 solr:DistanceRecord.A852_FA.MAY29 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.A852_FA.MAY29 ;
     sol-ont:hasResult solr:Result.A852_FA.MAY29 ;
     sol-ont:hasTemporalExtent solr:time.A852_FA.MAY29 .
 
 solr:DistanceRecord.A852_FA.MAY30 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.A852_FA.MAY30 ;
     sol-ont:hasResult solr:Result.A852_FA.MAY30 ;
     sol-ont:hasTemporalExtent solr:time.A852_FA.MAY30 .
 
 solr:DistanceRecord.A852_FA.NOV23 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.A852_FA.NOV23 ;
     sol-ont:hasResult solr:Result.A852_FA.NOV23 ;
     sol-ont:hasTemporalExtent solr:time.A852_FA.NOV23 .
 
 solr:DistanceRecord.A852_FA.NOV24 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.A852_FA.NOV24 ;
     sol-ont:hasResult solr:Result.A852_FA.NOV24 ;
     sol-ont:hasTemporalExtent solr:time.A852_FA.NOV24 .
 
 solr:DistanceRecord.A852_FA.NOV25 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.A852_FA.NOV25 ;
     sol-ont:hasResult solr:Result.A852_FA.NOV25 ;
     sol-ont:hasTemporalExtent solr:time.A852_FA.NOV25 .
 
 solr:DistanceRecord.A852_FA.NOV26 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.A852_FA.NOV26 ;
     sol-ont:hasResult solr:Result.A852_FA.NOV26 ;
     sol-ont:hasTemporalExtent solr:time.A852_FA.NOV26 .
 
 solr:DistanceRecord.A852_FA.NOV27 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.A852_FA.NOV27 ;
     sol-ont:hasResult solr:Result.A852_FA.NOV27 ;
     sol-ont:hasTemporalExtent solr:time.A852_FA.NOV27 .
 
 solr:DistanceRecord.A852_FA.NOV28 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.A852_FA.NOV28 ;
     sol-ont:hasResult solr:Result.A852_FA.NOV28 ;
     sol-ont:hasTemporalExtent solr:time.A852_FA.NOV28 .
 
 solr:DistanceRecord.A852_FA.NOV29 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.A852_FA.NOV29 ;
     sol-ont:hasResult solr:Result.A852_FA.NOV29 ;
     sol-ont:hasTemporalExtent solr:time.A852_FA.NOV29 .
 
 solr:DistanceRecord.A852_FA.NOV30 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.A852_FA.NOV30 ;
     sol-ont:hasResult solr:Result.A852_FA.NOV30 ;
     sol-ont:hasTemporalExtent solr:time.A852_FA.NOV30 .
 
 solr:DistanceRecord.A852_QA.AUG23 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.A852_QA.AUG23 ;
     sol-ont:hasResult solr:Result.A852_QA.AUG23 ;
     sol-ont:hasTemporalExtent solr:time.A852_QA.AUG23 .
 
 solr:DistanceRecord.A852_QA.AUG24 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.A852_QA.AUG24 ;
     sol-ont:hasResult solr:Result.A852_QA.AUG24 ;
     sol-ont:hasTemporalExtent solr:time.A852_QA.AUG24 .
 
 solr:DistanceRecord.A852_QA.AUG25 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.A852_QA.AUG25 ;
     sol-ont:hasResult solr:Result.A852_QA.AUG25 ;
     sol-ont:hasTemporalExtent solr:time.A852_QA.AUG25 .
 
 solr:DistanceRecord.A852_QA.AUG26 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.A852_QA.AUG26 ;
     sol-ont:hasResult solr:Result.A852_QA.AUG26 ;
     sol-ont:hasTemporalExtent solr:time.A852_QA.AUG26 .
 
 solr:DistanceRecord.A852_QA.AUG27 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.A852_QA.AUG27 ;
     sol-ont:hasResult solr:Result.A852_QA.AUG27 ;
     sol-ont:hasTemporalExtent solr:time.A852_QA.AUG27 .
 
 solr:DistanceRecord.A852_QA.AUG28 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.A852_QA.AUG28 ;
     sol-ont:hasResult solr:Result.A852_QA.AUG28 ;
     sol-ont:hasTemporalExtent solr:time.A852_QA.AUG28 .
 
 solr:DistanceRecord.A852_QA.AUG29 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.A852_QA.AUG29 ;
     sol-ont:hasResult solr:Result.A852_QA.AUG29 ;
     sol-ont:hasTemporalExtent solr:time.A852_QA.AUG29 .
 
 solr:DistanceRecord.A852_QA.AUG30 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.A852_QA.AUG30 ;
     sol-ont:hasResult solr:Result.A852_QA.AUG30 ;
     sol-ont:hasTemporalExtent solr:time.A852_QA.AUG30 .
 
 solr:DistanceRecord.A852_QA.JAN23 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.A852_QA.JAN23 ;
     sol-ont:hasResult solr:Result.A852_QA.JAN23 ;
     sol-ont:hasTemporalExtent solr:time.A852_QA.JAN23 .
 
 solr:DistanceRecord.A852_QA.JAN24 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.A852_QA.JAN24 ;
     sol-ont:hasResult solr:Result.A852_QA.JAN24 ;
     sol-ont:hasTemporalExtent solr:time.A852_QA.JAN24 .
 
 solr:DistanceRecord.A852_QA.JAN25 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.A852_QA.JAN25 ;
     sol-ont:hasResult solr:Result.A852_QA.JAN25 ;
     sol-ont:hasTemporalExtent solr:time.A852_QA.JAN25 .
 
 solr:DistanceRecord.A852_QA.JAN26 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.A852_QA.JAN26 ;
     sol-ont:hasResult solr:Result.A852_QA.JAN26 ;
     sol-ont:hasTemporalExtent solr:time.A852_QA.JAN26 .
 
 solr:DistanceRecord.A852_QA.JAN27 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.A852_QA.JAN27 ;
     sol-ont:hasResult solr:Result.A852_QA.JAN27 ;
     sol-ont:hasTemporalExtent solr:time.A852_QA.JAN27 .
 
 solr:DistanceRecord.A852_QA.JAN28 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.A852_QA.JAN28 ;
     sol-ont:hasResult solr:Result.A852_QA.JAN28 ;
     sol-ont:hasTemporalExtent solr:time.A852_QA.JAN28 .
 
 solr:DistanceRecord.A852_QA.JAN29 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.A852_QA.JAN29 ;
     sol-ont:hasResult solr:Result.A852_QA.JAN29 ;
     sol-ont:hasTemporalExtent solr:time.A852_QA.JAN29 .
 
 solr:DistanceRecord.A852_QA.JAN30 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.A852_QA.JAN30 ;
     sol-ont:hasResult solr:Result.A852_QA.JAN30 ;
     sol-ont:hasTemporalExtent solr:time.A852_QA.JAN30 .
 
 solr:DistanceRecord.A852_QA.MAY23 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.A852_QA.MAY23 ;
     sol-ont:hasResult solr:Result.A852_QA.MAY23 ;
     sol-ont:hasTemporalExtent solr:time.A852_QA.MAY23 .
 
 solr:DistanceRecord.A852_QA.MAY24 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.A852_QA.MAY24 ;
     sol-ont:hasResult solr:Result.A852_QA.MAY24 ;
     sol-ont:hasTemporalExtent solr:time.A852_QA.MAY24 .
 
 solr:DistanceRecord.A852_QA.MAY25 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.A852_QA.MAY25 ;
     sol-ont:hasResult solr:Result.A852_QA.MAY25 ;
     sol-ont:hasTemporalExtent solr:time.A852_QA.MAY25 .
 
 solr:DistanceRecord.A852_QA.MAY26 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.A852_QA.MAY26 ;
     sol-ont:hasResult solr:Result.A852_QA.MAY26 ;
     sol-ont:hasTemporalExtent solr:time.A852_QA.MAY26 .
 
 solr:DistanceRecord.A852_QA.MAY27 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.A852_QA.MAY27 ;
     sol-ont:hasResult solr:Result.A852_QA.MAY27 ;
     sol-ont:hasTemporalExtent solr:time.A852_QA.MAY27 .
 
 solr:DistanceRecord.A852_QA.MAY28 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.A852_QA.MAY28 ;
     sol-ont:hasResult solr:Result.A852_QA.MAY28 ;
     sol-ont:hasTemporalExtent solr:time.A852_QA.MAY28 .
 
 solr:DistanceRecord.A852_QA.MAY29 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.A852_QA.MAY29 ;
     sol-ont:hasResult solr:Result.A852_QA.MAY29 ;
     sol-ont:hasTemporalExtent solr:time.A852_QA.MAY29 .
 
 solr:DistanceRecord.A852_QA.MAY30 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.A852_QA.MAY30 ;
     sol-ont:hasResult solr:Result.A852_QA.MAY30 ;
     sol-ont:hasTemporalExtent solr:time.A852_QA.MAY30 .
 
 solr:DistanceRecord.A852_QA.NOV23 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.A852_QA.NOV23 ;
     sol-ont:hasResult solr:Result.A852_QA.NOV23 ;
     sol-ont:hasTemporalExtent solr:time.A852_QA.NOV23 .
 
 solr:DistanceRecord.A852_QA.NOV24 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.A852_QA.NOV24 ;
     sol-ont:hasResult solr:Result.A852_QA.NOV24 ;
     sol-ont:hasTemporalExtent solr:time.A852_QA.NOV24 .
 
 solr:DistanceRecord.A852_QA.NOV25 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.A852_QA.NOV25 ;
     sol-ont:hasResult solr:Result.A852_QA.NOV25 ;
     sol-ont:hasTemporalExtent solr:time.A852_QA.NOV25 .
 
 solr:DistanceRecord.A852_QA.NOV26 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.A852_QA.NOV26 ;
     sol-ont:hasResult solr:Result.A852_QA.NOV26 ;
     sol-ont:hasTemporalExtent solr:time.A852_QA.NOV26 .
 
 solr:DistanceRecord.A852_QA.NOV27 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.A852_QA.NOV27 ;
     sol-ont:hasResult solr:Result.A852_QA.NOV27 ;
     sol-ont:hasTemporalExtent solr:time.A852_QA.NOV27 .
 
 solr:DistanceRecord.A852_QA.NOV28 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.A852_QA.NOV28 ;
     sol-ont:hasResult solr:Result.A852_QA.NOV28 ;
     sol-ont:hasTemporalExtent solr:time.A852_QA.NOV28 .
 
 solr:DistanceRecord.A852_QA.NOV29 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.A852_QA.NOV29 ;
     sol-ont:hasResult solr:Result.A852_QA.NOV29 ;
     sol-ont:hasTemporalExtent solr:time.A852_QA.NOV29 .
 
 solr:DistanceRecord.A852_QA.NOV30 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.A852_QA.NOV30 ;
     sol-ont:hasResult solr:Result.A852_QA.NOV30 ;
     sol-ont:hasTemporalExtent solr:time.A852_QA.NOV30 .
 
 solr:DistanceRecord.A866_KA.AUG23 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.A866_KA.AUG23 ;
     sol-ont:hasResult solr:Result.A866_KA.AUG23 ;
     sol-ont:hasTemporalExtent solr:time.A866_KA.AUG23 .
 
 solr:DistanceRecord.A866_KA.AUG24 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.A866_KA.AUG24 ;
     sol-ont:hasResult solr:Result.A866_KA.AUG24 ;
     sol-ont:hasTemporalExtent solr:time.A866_KA.AUG24 .
 
 solr:DistanceRecord.A866_KA.AUG25 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.A866_KA.AUG25 ;
     sol-ont:hasResult solr:Result.A866_KA.AUG25 ;
     sol-ont:hasTemporalExtent solr:time.A866_KA.AUG25 .
 
 solr:DistanceRecord.A866_KA.AUG26 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.A866_KA.AUG26 ;
     sol-ont:hasResult solr:Result.A866_KA.AUG26 ;
     sol-ont:hasTemporalExtent solr:time.A866_KA.AUG26 .
 
 solr:DistanceRecord.A866_KA.AUG27 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.A866_KA.AUG27 ;
     sol-ont:hasResult solr:Result.A866_KA.AUG27 ;
     sol-ont:hasTemporalExtent solr:time.A866_KA.AUG27 .
 
 solr:DistanceRecord.A866_KA.AUG28 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.A866_KA.AUG28 ;
     sol-ont:hasResult solr:Result.A866_KA.AUG28 ;
     sol-ont:hasTemporalExtent solr:time.A866_KA.AUG28 .
 
 solr:DistanceRecord.A866_KA.AUG29 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.A866_KA.AUG29 ;
     sol-ont:hasResult solr:Result.A866_KA.AUG29 ;
     sol-ont:hasTemporalExtent solr:time.A866_KA.AUG29 .
 
 solr:DistanceRecord.A866_KA.AUG30 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.A866_KA.AUG30 ;
     sol-ont:hasResult solr:Result.A866_KA.AUG30 ;
     sol-ont:hasTemporalExtent solr:time.A866_KA.AUG30 .
 
 solr:DistanceRecord.A866_KA.JAN23 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.A866_KA.JAN23 ;
     sol-ont:hasResult solr:Result.A866_KA.JAN23 ;
     sol-ont:hasTemporalExtent solr:time.A866_KA.JAN23 .
 
 solr:DistanceRecord.A866_KA.JAN24 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.A866_KA.JAN24 ;
     sol-ont:hasResult solr:Result.A866_KA.JAN24 ;
     sol-ont:hasTemporalExtent solr:time.A866_KA.JAN24 .
 
 solr:DistanceRecord.A866_KA.JAN25 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.A866_KA.JAN25 ;
     sol-ont:hasResult solr:Result.A866_KA.JAN25 ;
     sol-ont:hasTemporalExtent solr:time.A866_KA.JAN25 .
 
 solr:DistanceRecord.A866_KA.JAN26 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.A866_KA.JAN26 ;
     sol-ont:hasResult solr:Result.A866_KA.JAN26 ;
     sol-ont:hasTemporalExtent solr:time.A866_KA.JAN26 .
 
 solr:DistanceRecord.A866_KA.JAN27 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.A866_KA.JAN27 ;
     sol-ont:hasResult solr:Result.A866_KA.JAN27 ;
     sol-ont:hasTemporalExtent solr:time.A866_KA.JAN27 .
 
 solr:DistanceRecord.A866_KA.JAN28 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.A866_KA.JAN28 ;
     sol-ont:hasResult solr:Result.A866_KA.JAN28 ;
     sol-ont:hasTemporalExtent solr:time.A866_KA.JAN28 .
 
 solr:DistanceRecord.A866_KA.JAN29 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.A866_KA.JAN29 ;
     sol-ont:hasResult solr:Result.A866_KA.JAN29 ;
     sol-ont:hasTemporalExtent solr:time.A866_KA.JAN29 .
 
 solr:DistanceRecord.A866_KA.JAN30 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.A866_KA.JAN30 ;
     sol-ont:hasResult solr:Result.A866_KA.JAN30 ;
     sol-ont:hasTemporalExtent solr:time.A866_KA.JAN30 .
 
 solr:DistanceRecord.A866_KA.MAY23 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.A866_KA.MAY23 ;
     sol-ont:hasResult solr:Result.A866_KA.MAY23 ;
     sol-ont:hasTemporalExtent solr:time.A866_KA.MAY23 .
 
 solr:DistanceRecord.A866_KA.MAY24 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.A866_KA.MAY24 ;
     sol-ont:hasResult solr:Result.A866_KA.MAY24 ;
     sol-ont:hasTemporalExtent solr:time.A866_KA.MAY24 .
 
 solr:DistanceRecord.A866_KA.MAY25 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.A866_KA.MAY25 ;
     sol-ont:hasResult solr:Result.A866_KA.MAY25 ;
     sol-ont:hasTemporalExtent solr:time.A866_KA.MAY25 .
 
 solr:DistanceRecord.A866_KA.MAY26 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.A866_KA.MAY26 ;
     sol-ont:hasResult solr:Result.A866_KA.MAY26 ;
     sol-ont:hasTemporalExtent solr:time.A866_KA.MAY26 .
 
 solr:DistanceRecord.A866_KA.MAY27 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.A866_KA.MAY27 ;
     sol-ont:hasResult solr:Result.A866_KA.MAY27 ;
     sol-ont:hasTemporalExtent solr:time.A866_KA.MAY27 .
 
 solr:DistanceRecord.A866_KA.MAY28 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.A866_KA.MAY28 ;
     sol-ont:hasResult solr:Result.A866_KA.MAY28 ;
     sol-ont:hasTemporalExtent solr:time.A866_KA.MAY28 .
 
 solr:DistanceRecord.A866_KA.MAY29 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.A866_KA.MAY29 ;
     sol-ont:hasResult solr:Result.A866_KA.MAY29 ;
     sol-ont:hasTemporalExtent solr:time.A866_KA.MAY29 .
 
 solr:DistanceRecord.A866_KA.MAY30 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.A866_KA.MAY30 ;
     sol-ont:hasResult solr:Result.A866_KA.MAY30 ;
     sol-ont:hasTemporalExtent solr:time.A866_KA.MAY30 .
 
 solr:DistanceRecord.A866_KA.NOV23 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.A866_KA.NOV23 ;
     sol-ont:hasResult solr:Result.A866_KA.NOV23 ;
     sol-ont:hasTemporalExtent solr:time.A866_KA.NOV23 .
 
 solr:DistanceRecord.A866_KA.NOV24 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.A866_KA.NOV24 ;
     sol-ont:hasResult solr:Result.A866_KA.NOV24 ;
     sol-ont:hasTemporalExtent solr:time.A866_KA.NOV24 .
 
 solr:DistanceRecord.A866_KA.NOV25 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.A866_KA.NOV25 ;
     sol-ont:hasResult solr:Result.A866_KA.NOV25 ;
     sol-ont:hasTemporalExtent solr:time.A866_KA.NOV25 .
 
 solr:DistanceRecord.A866_KA.NOV26 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.A866_KA.NOV26 ;
     sol-ont:hasResult solr:Result.A866_KA.NOV26 ;
     sol-ont:hasTemporalExtent solr:time.A866_KA.NOV26 .
 
 solr:DistanceRecord.A866_KA.NOV27 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.A866_KA.NOV27 ;
     sol-ont:hasResult solr:Result.A866_KA.NOV27 ;
     sol-ont:hasTemporalExtent solr:time.A866_KA.NOV27 .
 
 solr:DistanceRecord.A866_KA.NOV28 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.A866_KA.NOV28 ;
     sol-ont:hasResult solr:Result.A866_KA.NOV28 ;
     sol-ont:hasTemporalExtent solr:time.A866_KA.NOV28 .
 
 solr:DistanceRecord.A866_KA.NOV29 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.A866_KA.NOV29 ;
     sol-ont:hasResult solr:Result.A866_KA.NOV29 ;
     sol-ont:hasTemporalExtent solr:time.A866_KA.NOV29 .
 
 solr:DistanceRecord.A866_KA.NOV30 a sol-ont:DistanceRecord ;
     sol-ont:attributedTo sol-ont:Agent.SkyLive ;
-    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity ;
+    sol-ont:generatedBy sol-ont:MeasuringDistanceActivity.A866_KA.NOV30 ;
     sol-ont:hasResult solr:Result.A866_KA.NOV30 ;
     sol-ont:hasTemporalExtent solr:time.A866_KA.NOV30 .
 
@@ -5782,9 +6646,6 @@ solr:time.A866_KA.NOV28 sol-ont:recordedAt "NOV28"^^time:MonthOfYear .
 solr:time.A866_KA.NOV29 sol-ont:recordedAt "NOV29"^^time:MonthOfYear .
 
 solr:time.A866_KA.NOV30 sol-ont:recordedAt "NOV30"^^time:MonthOfYear .
-
-sol-ont:MeasuringDistanceActivity sol-ont:hasDescription "Measuring Distance"^^xsd:string ;
-    sol-ont:performedBy sol-ont:Agent.SkyLive .
 
 sol-ont:Agent.SkyLive a sol-ont:Agent ;
     sol-ont:hasName "SkyLive"^^xsd:string .
