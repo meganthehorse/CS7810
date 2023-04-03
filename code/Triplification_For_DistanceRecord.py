@@ -59,19 +59,17 @@ with open(asteroid_distances_path, "r") as inputF:
 agent_uri = pfs["sol-ont"]["Agent.SkyLive"]
 graph.add( (agent_uri, a, pfs["sol-ont"]["Agent"]) )
 graph.add( (agent_uri, pfs["sol-ont"]["hasName"], Literal("SkyLive", datatype=XSD.string)) )
-activity_uri = pfs["sol-ont"]["MeasuringDistanceActivity"]
-graph.add( (activity_uri, pfs["sol-ont"]["hasDescription"], Literal("Measuring Distance", datatype=XSD.string)) )
-
-graph.add( (activity_uri, pfs["sol-ont"]["performedBy"], agent_uri) )
+# activity_uri = pfs["sol-ont"]["MeasuringDistanceActivity"]
+# graph.add( (activity_uri, pfs["sol-ont"]["hasDescription"], Literal("Measuring Distance", datatype=XSD.string)) )
+# graph.add( (activity_uri, pfs["sol-ont"]["performedBy"], agent_uri) )
 
 for line in lines[1:]:  # for each asteroid
     split = line.split(",")
-    name = split[0]
+    name = split[0].replace(" ","_")
     #  Mint the individual Asteroid
     asteroid_uri = pfs["solr"][f"Asteroid.{name}"] 
     #  Declare the Asteroid Concept to the SOL Ontology
     graph.add( (asteroid_uri, a, pfs["sol-ont"]["Asteroid"]) )
-    graph.add( (asteroid_uri, a, pfs["sosa"]["FeatureOfInterest"]) )
     index = 1  # Index for header column
     for distance in split[1:]:   # for each column per asteroid
         if(str(distance) == ""): 
@@ -86,25 +84,24 @@ for line in lines[1:]:  # for each asteroid
 
         #  Mint the Result and Quantity Nodes
         result_uri = pfs["solr"][f"Result.{name}.{monthyear}"]
-        quantity_uri = pfs["sol-ont"][f"Quantity.{name}.{monthyear}"]
-        graph.add( (quantity_uri, a, pfs["modl"]["Quantity"]) )
-        quantity_kind_uri = pfs["sol-ont"][f"QuantityKind.{name}.{monthyear}"]
-        graph.add( (quantity_kind_uri, a, pfs["modl"]["QuantityKind"]) )
-        quantity_value_uri = pfs["sol-ont"][f"QuantityValue.{name}.{monthyear}"]
-        graph.add( (quantity_value_uri, a, pfs["modl"]["QuantityValue"]) )
-        unit_uri = pfs["sol-ont"][f"Unit.{name}.{monthyear}"]
-        graph.add( (unit_uri, a, pfs["modl"]["Unit"]) )
-        value_uri = pfs["sol-ont"][f"NumericValue.{name}.{monthyear}"]
+        quantity_uri = pfs["solr"][f"Quantity.{name}.{monthyear}"]
+        graph.add( (quantity_uri, a, pfs["sol-ont"]["Quantity"]) )
+        # quantity_kind_uri = pfs["solr"][f"QuantityKind.{name}.{monthyear}"]
+        # graph.add( (quantity_kind_uri, a, pfs["sol-ont"]["QuantityKind"]) )
+        quantity_value_uri = pfs["solr"][f"QuantityValue.{name}.{monthyear}"]
+        graph.add( (quantity_value_uri, a, pfs["sol-ont"]["QuantityValue"]) )
+        # unit_uri = pfs["solr"][f"Unit.{name}.{monthyear}"]
+        # graph.add( (unit_uri, a, pfs["sol-ont"]["Unit"]) )
+        value_uri = pfs["solr"][f"NumericValue.{name}.{monthyear}"]
 
         #  Declare the Result schema into the SOL Ontology      
         graph.add( (result_uri, pfs["sol-ont"]["hasQuantity"], quantity_uri) )
-        graph.add( (quantity_uri, pfs["sol-ont"]["hasQuantityKind"], quantity_kind_uri) ) 
+        # graph.add( (quantity_uri, pfs["sol-ont"]["hasQuantityKind"], quantity_kind_uri) ) 
         graph.add( (quantity_uri, pfs["sol-ont"]["hasQuantityKind"], Literal("Distance", datatype=pfs["sol-qk"]["Distance"])) )
 
         graph.add( (quantity_uri, pfs["sol-ont"]["hasQuantityValue"], quantity_value_uri) )        
-        graph.add( (quantity_value_uri, pfs["sol-ont"]["hasUnit"], unit_uri) )
-        #  TODO:  Is this how you handle URI's for data values?
-        graph.add( (unit_uri, a, Literal("au", datatype=pfs["sol-unit"]["au"])) )
+        # graph.add( (unit_uri, a, Literal("au", datatype=pfs["sol-unit"]["au"])) )
+        graph.add( (quantity_value_uri, pfs["sol-ont"]["hasUnit"], Literal("au", datatype=pfs["sol-unit"]["au"])) )
         graph.add( (value_uri, pfs["sol-ont"]["hasNumericValue"], Literal(distance, datatype=XSD.double)) ) 
         
         #  Add TemporalExtent Triple to SOL Ontology
@@ -116,9 +113,14 @@ for line in lines[1:]:  # for each asteroid
         graph.add( (distance_record_uri, pfs["sol-ont"]["hasTemporalExtent"], time_uri) )
 
         #  Connect DR to EWP Relationships
+        activity_uri = pfs["sol-ont"][f"MeasuringDistanceActivity.{name}.{monthyear}"]
+        graph.add( (activity_uri, pfs["sol-ont"]["hasDescription"], Literal("Measuring Distance", datatype=XSD.string)) )
+        graph.add( (activity_uri, pfs["sol-ont"]["performedBy"], agent_uri) )
+
         graph.add( (distance_record_uri, pfs["sol-ont"]["attributedTo"], agent_uri) )
         graph.add( (distance_record_uri, pfs["sol-ont"]["generatedBy"], activity_uri) )
 
+        
         #  Connect DR to Asteroid
         graph.add( (asteroid_uri, pfs["sol-ont"]["hasDistanceRecord"], distance_record_uri) )
         index+=1  #  next monthyear column
