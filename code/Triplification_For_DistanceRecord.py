@@ -66,7 +66,7 @@ graph.add( (activity_uri, pfs["sol-ont"]["performedBy"], agent_uri) )
 
 for line in lines[1:]:  # for each asteroid
     split = line.split(",")
-    name = split[0]
+    name = split[0].replace(" ","_")
     #  Mint the individual Asteroid
     asteroid_uri = pfs["solr"][f"Asteroid.{name}"] 
     #  Declare the Asteroid Concept to the SOL Ontology
