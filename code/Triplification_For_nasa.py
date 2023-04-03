@@ -31,14 +31,18 @@ pfs = {
 "qudt": Namespace("http://qudt.org/schema/qudt/"),
 }
 
-reference_IDs = ["e","a","q","i","node","peri","M","period_y","n","Q","D"]
+#reference_IDs = ["e","a","q","i","node","peri","M","period_y","n","Q","D"]
+reference_IDs = ["OrbitalEccentricity", "Semi-MajorAxis", "PerihelionDistance", 
+             "Inclination", "LongitudeOfAscendingNode", "ArgumentOfPerihelion",
+             "MeanAnomaly", "OrbitalPeriod", "MeanMotion", "AphelionDistance",
+             "Diameter"]
 
-reference = ["Orbital Eccentricity", "Semi-Major Axis", "Perihelion Distance", 
+reference_descriptions = ["Orbital Eccentricity", "Semi-Major Axis", "Perihelion Distance", 
              "Inclination", "Longitude of the Ascending Node", "Argument of Perihelion",
              "Mean Anomaly", "Orbital Period", "Mean Motion", "Aphelion Distance",
              "Diameter"]
 
-units = ["None", "au", "au", "deg","deg","deg","deg","y","deg/d","au","km"]
+units = ["None", "au", "au", "deg","deg","deg","deg","y","None","au","km"]
 
 # Initialization shortcut
 def init_kg(prefixes=pfs):
@@ -90,7 +94,7 @@ for line in lines[1:]:
         graph.add( (observable_property_uri, a, pfs["sol-ont"]["ObservableProperty"]) )
 
         activity_uri = pfs["solr"][f"{act_id}.{Asteroid_ID}"]
-        graph.add( (activity_uri, pfs["sol-ont"]["hasDescription"], Literal(f"{reference[index]}", datatype=XSD.string)) )
+        graph.add( (activity_uri, pfs["sol-ont"]["hasDescription"], Literal(f"{reference_descriptions[index]}", datatype=XSD.string)) )
         graph.add( (activity_uri, pfs["sol-ont"]["performedBy"], agent_uri) )
 
         #  Mint the Result and Quantity Nodes
@@ -124,10 +128,8 @@ for line in lines[1:]:
         graph.add( (unit_uri, a, Literal(f"{unit}", datatype=pfs["sol-unit"][f"{unit}"])) )
 
         value = tokens[index+3]
-        if value == '': 
-            graph.add( (value_uri, pfs["sol-ont"]["hasNumericValue"], Literal("N/A", datatype=XSD.string)) ) 
-        else:
-            graph.add( (value_uri, pfs["sol-ont"]["hasNumericValue"], Literal(tokens[index+3], datatype=XSD.double)) )
+        if value != '': 
+            graph.add( (value_uri, pfs["sol-ont"]["hasNumericValue"], Literal(tokens[index+3], datatype=XSD.double)) )             
         
         #  Connect Observation to EWP Relationships
         graph.add( (observation_uri, pfs["sol-ont"]["attributedTo"], agent_uri) )
