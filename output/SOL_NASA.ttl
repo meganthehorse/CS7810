@@ -904,336 +904,6 @@ solr:PerihelionDistance_Observation.98943 sol-ont:attributedTo sol-ont:Agent.NAS
     sol-ont:hasObservableProperty solr:OrbitalProperty.PerihelionDistance_Observation.98943 ;
     sol-ont:hasResult solr:Result.PerihelionDistance_Observation.98943 .
 
-solr:QuantityValue.AphelionDistance_Observation.10 a sol-ont:QuantityValue .
-
-solr:QuantityValue.AphelionDistance_Observation.101955 a sol-ont:QuantityValue .
-
-solr:QuantityValue.AphelionDistance_Observation.10302 a sol-ont:QuantityValue .
-
-solr:QuantityValue.AphelionDistance_Observation.13 a sol-ont:QuantityValue .
-
-solr:QuantityValue.AphelionDistance_Observation.16 a sol-ont:QuantityValue .
-
-solr:QuantityValue.AphelionDistance_Observation.162173 a sol-ont:QuantityValue .
-
-solr:QuantityValue.AphelionDistance_Observation.19 a sol-ont:QuantityValue .
-
-solr:QuantityValue.AphelionDistance_Observation.1943 a sol-ont:QuantityValue .
-
-solr:QuantityValue.AphelionDistance_Observation.2 a sol-ont:QuantityValue .
-
-solr:QuantityValue.AphelionDistance_Observation.436724 a sol-ont:QuantityValue .
-
-solr:QuantityValue.AphelionDistance_Observation.4660 a sol-ont:QuantityValue .
-
-solr:QuantityValue.AphelionDistance_Observation.65803 a sol-ont:QuantityValue .
-
-solr:QuantityValue.AphelionDistance_Observation.7474 a sol-ont:QuantityValue .
-
-solr:QuantityValue.AphelionDistance_Observation.87 a sol-ont:QuantityValue .
-
-solr:QuantityValue.AphelionDistance_Observation.98943 a sol-ont:QuantityValue .
-
-solr:QuantityValue.ArgumentOfPerihelion_Observation.10 a sol-ont:QuantityValue .
-
-solr:QuantityValue.ArgumentOfPerihelion_Observation.101955 a sol-ont:QuantityValue .
-
-solr:QuantityValue.ArgumentOfPerihelion_Observation.10302 a sol-ont:QuantityValue .
-
-solr:QuantityValue.ArgumentOfPerihelion_Observation.13 a sol-ont:QuantityValue .
-
-solr:QuantityValue.ArgumentOfPerihelion_Observation.16 a sol-ont:QuantityValue .
-
-solr:QuantityValue.ArgumentOfPerihelion_Observation.162173 a sol-ont:QuantityValue .
-
-solr:QuantityValue.ArgumentOfPerihelion_Observation.19 a sol-ont:QuantityValue .
-
-solr:QuantityValue.ArgumentOfPerihelion_Observation.1943 a sol-ont:QuantityValue .
-
-solr:QuantityValue.ArgumentOfPerihelion_Observation.2 a sol-ont:QuantityValue .
-
-solr:QuantityValue.ArgumentOfPerihelion_Observation.436724 a sol-ont:QuantityValue .
-
-solr:QuantityValue.ArgumentOfPerihelion_Observation.4660 a sol-ont:QuantityValue .
-
-solr:QuantityValue.ArgumentOfPerihelion_Observation.65803 a sol-ont:QuantityValue .
-
-solr:QuantityValue.ArgumentOfPerihelion_Observation.7474 a sol-ont:QuantityValue .
-
-solr:QuantityValue.ArgumentOfPerihelion_Observation.87 a sol-ont:QuantityValue .
-
-solr:QuantityValue.ArgumentOfPerihelion_Observation.98943 a sol-ont:QuantityValue .
-
-solr:QuantityValue.Diameter_Observation.10 a sol-ont:QuantityValue .
-
-solr:QuantityValue.Diameter_Observation.101955 a sol-ont:QuantityValue .
-
-solr:QuantityValue.Diameter_Observation.10302 a sol-ont:QuantityValue .
-
-solr:QuantityValue.Diameter_Observation.13 a sol-ont:QuantityValue .
-
-solr:QuantityValue.Diameter_Observation.16 a sol-ont:QuantityValue .
-
-solr:QuantityValue.Diameter_Observation.162173 a sol-ont:QuantityValue .
-
-solr:QuantityValue.Diameter_Observation.19 a sol-ont:QuantityValue .
-
-solr:QuantityValue.Diameter_Observation.1943 a sol-ont:QuantityValue .
-
-solr:QuantityValue.Diameter_Observation.2 a sol-ont:QuantityValue .
-
-solr:QuantityValue.Diameter_Observation.436724 a sol-ont:QuantityValue .
-
-solr:QuantityValue.Diameter_Observation.4660 a sol-ont:QuantityValue .
-
-solr:QuantityValue.Diameter_Observation.65803 a sol-ont:QuantityValue .
-
-solr:QuantityValue.Diameter_Observation.7474 a sol-ont:QuantityValue .
-
-solr:QuantityValue.Diameter_Observation.87 a sol-ont:QuantityValue .
-
-solr:QuantityValue.Diameter_Observation.98943 a sol-ont:QuantityValue .
-
-solr:QuantityValue.Inclination_Observation.10 a sol-ont:QuantityValue .
-
-solr:QuantityValue.Inclination_Observation.101955 a sol-ont:QuantityValue .
-
-solr:QuantityValue.Inclination_Observation.10302 a sol-ont:QuantityValue .
-
-solr:QuantityValue.Inclination_Observation.13 a sol-ont:QuantityValue .
-
-solr:QuantityValue.Inclination_Observation.16 a sol-ont:QuantityValue .
-
-solr:QuantityValue.Inclination_Observation.162173 a sol-ont:QuantityValue .
-
-solr:QuantityValue.Inclination_Observation.19 a sol-ont:QuantityValue .
-
-solr:QuantityValue.Inclination_Observation.1943 a sol-ont:QuantityValue .
-
-solr:QuantityValue.Inclination_Observation.2 a sol-ont:QuantityValue .
-
-solr:QuantityValue.Inclination_Observation.436724 a sol-ont:QuantityValue .
-
-solr:QuantityValue.Inclination_Observation.4660 a sol-ont:QuantityValue .
-
-solr:QuantityValue.Inclination_Observation.65803 a sol-ont:QuantityValue .
-
-solr:QuantityValue.Inclination_Observation.7474 a sol-ont:QuantityValue .
-
-solr:QuantityValue.Inclination_Observation.87 a sol-ont:QuantityValue .
-
-solr:QuantityValue.Inclination_Observation.98943 a sol-ont:QuantityValue .
-
-solr:QuantityValue.LongitudeOfAscendingNode_Observation.10 a sol-ont:QuantityValue .
-
-solr:QuantityValue.LongitudeOfAscendingNode_Observation.101955 a sol-ont:QuantityValue .
-
-solr:QuantityValue.LongitudeOfAscendingNode_Observation.10302 a sol-ont:QuantityValue .
-
-solr:QuantityValue.LongitudeOfAscendingNode_Observation.13 a sol-ont:QuantityValue .
-
-solr:QuantityValue.LongitudeOfAscendingNode_Observation.16 a sol-ont:QuantityValue .
-
-solr:QuantityValue.LongitudeOfAscendingNode_Observation.162173 a sol-ont:QuantityValue .
-
-solr:QuantityValue.LongitudeOfAscendingNode_Observation.19 a sol-ont:QuantityValue .
-
-solr:QuantityValue.LongitudeOfAscendingNode_Observation.1943 a sol-ont:QuantityValue .
-
-solr:QuantityValue.LongitudeOfAscendingNode_Observation.2 a sol-ont:QuantityValue .
-
-solr:QuantityValue.LongitudeOfAscendingNode_Observation.436724 a sol-ont:QuantityValue .
-
-solr:QuantityValue.LongitudeOfAscendingNode_Observation.4660 a sol-ont:QuantityValue .
-
-solr:QuantityValue.LongitudeOfAscendingNode_Observation.65803 a sol-ont:QuantityValue .
-
-solr:QuantityValue.LongitudeOfAscendingNode_Observation.7474 a sol-ont:QuantityValue .
-
-solr:QuantityValue.LongitudeOfAscendingNode_Observation.87 a sol-ont:QuantityValue .
-
-solr:QuantityValue.LongitudeOfAscendingNode_Observation.98943 a sol-ont:QuantityValue .
-
-solr:QuantityValue.MeanAnomaly_Observation.10 a sol-ont:QuantityValue .
-
-solr:QuantityValue.MeanAnomaly_Observation.101955 a sol-ont:QuantityValue .
-
-solr:QuantityValue.MeanAnomaly_Observation.10302 a sol-ont:QuantityValue .
-
-solr:QuantityValue.MeanAnomaly_Observation.13 a sol-ont:QuantityValue .
-
-solr:QuantityValue.MeanAnomaly_Observation.16 a sol-ont:QuantityValue .
-
-solr:QuantityValue.MeanAnomaly_Observation.162173 a sol-ont:QuantityValue .
-
-solr:QuantityValue.MeanAnomaly_Observation.19 a sol-ont:QuantityValue .
-
-solr:QuantityValue.MeanAnomaly_Observation.1943 a sol-ont:QuantityValue .
-
-solr:QuantityValue.MeanAnomaly_Observation.2 a sol-ont:QuantityValue .
-
-solr:QuantityValue.MeanAnomaly_Observation.436724 a sol-ont:QuantityValue .
-
-solr:QuantityValue.MeanAnomaly_Observation.4660 a sol-ont:QuantityValue .
-
-solr:QuantityValue.MeanAnomaly_Observation.65803 a sol-ont:QuantityValue .
-
-solr:QuantityValue.MeanAnomaly_Observation.7474 a sol-ont:QuantityValue .
-
-solr:QuantityValue.MeanAnomaly_Observation.87 a sol-ont:QuantityValue .
-
-solr:QuantityValue.MeanAnomaly_Observation.98943 a sol-ont:QuantityValue .
-
-solr:QuantityValue.MeanMotion_Observation.10 a sol-ont:QuantityValue .
-
-solr:QuantityValue.MeanMotion_Observation.101955 a sol-ont:QuantityValue .
-
-solr:QuantityValue.MeanMotion_Observation.10302 a sol-ont:QuantityValue .
-
-solr:QuantityValue.MeanMotion_Observation.13 a sol-ont:QuantityValue .
-
-solr:QuantityValue.MeanMotion_Observation.16 a sol-ont:QuantityValue .
-
-solr:QuantityValue.MeanMotion_Observation.162173 a sol-ont:QuantityValue .
-
-solr:QuantityValue.MeanMotion_Observation.19 a sol-ont:QuantityValue .
-
-solr:QuantityValue.MeanMotion_Observation.1943 a sol-ont:QuantityValue .
-
-solr:QuantityValue.MeanMotion_Observation.2 a sol-ont:QuantityValue .
-
-solr:QuantityValue.MeanMotion_Observation.436724 a sol-ont:QuantityValue .
-
-solr:QuantityValue.MeanMotion_Observation.4660 a sol-ont:QuantityValue .
-
-solr:QuantityValue.MeanMotion_Observation.65803 a sol-ont:QuantityValue .
-
-solr:QuantityValue.MeanMotion_Observation.7474 a sol-ont:QuantityValue .
-
-solr:QuantityValue.MeanMotion_Observation.87 a sol-ont:QuantityValue .
-
-solr:QuantityValue.MeanMotion_Observation.98943 a sol-ont:QuantityValue .
-
-solr:QuantityValue.OrbitalEccentricity_Observation.10 a sol-ont:QuantityValue .
-
-solr:QuantityValue.OrbitalEccentricity_Observation.101955 a sol-ont:QuantityValue .
-
-solr:QuantityValue.OrbitalEccentricity_Observation.10302 a sol-ont:QuantityValue .
-
-solr:QuantityValue.OrbitalEccentricity_Observation.13 a sol-ont:QuantityValue .
-
-solr:QuantityValue.OrbitalEccentricity_Observation.16 a sol-ont:QuantityValue .
-
-solr:QuantityValue.OrbitalEccentricity_Observation.162173 a sol-ont:QuantityValue .
-
-solr:QuantityValue.OrbitalEccentricity_Observation.19 a sol-ont:QuantityValue .
-
-solr:QuantityValue.OrbitalEccentricity_Observation.1943 a sol-ont:QuantityValue .
-
-solr:QuantityValue.OrbitalEccentricity_Observation.2 a sol-ont:QuantityValue .
-
-solr:QuantityValue.OrbitalEccentricity_Observation.436724 a sol-ont:QuantityValue .
-
-solr:QuantityValue.OrbitalEccentricity_Observation.4660 a sol-ont:QuantityValue .
-
-solr:QuantityValue.OrbitalEccentricity_Observation.65803 a sol-ont:QuantityValue .
-
-solr:QuantityValue.OrbitalEccentricity_Observation.7474 a sol-ont:QuantityValue .
-
-solr:QuantityValue.OrbitalEccentricity_Observation.87 a sol-ont:QuantityValue .
-
-solr:QuantityValue.OrbitalEccentricity_Observation.98943 a sol-ont:QuantityValue .
-
-solr:QuantityValue.OrbitalPeriod_Observation.10 a sol-ont:QuantityValue .
-
-solr:QuantityValue.OrbitalPeriod_Observation.101955 a sol-ont:QuantityValue .
-
-solr:QuantityValue.OrbitalPeriod_Observation.10302 a sol-ont:QuantityValue .
-
-solr:QuantityValue.OrbitalPeriod_Observation.13 a sol-ont:QuantityValue .
-
-solr:QuantityValue.OrbitalPeriod_Observation.16 a sol-ont:QuantityValue .
-
-solr:QuantityValue.OrbitalPeriod_Observation.162173 a sol-ont:QuantityValue .
-
-solr:QuantityValue.OrbitalPeriod_Observation.19 a sol-ont:QuantityValue .
-
-solr:QuantityValue.OrbitalPeriod_Observation.1943 a sol-ont:QuantityValue .
-
-solr:QuantityValue.OrbitalPeriod_Observation.2 a sol-ont:QuantityValue .
-
-solr:QuantityValue.OrbitalPeriod_Observation.436724 a sol-ont:QuantityValue .
-
-solr:QuantityValue.OrbitalPeriod_Observation.4660 a sol-ont:QuantityValue .
-
-solr:QuantityValue.OrbitalPeriod_Observation.65803 a sol-ont:QuantityValue .
-
-solr:QuantityValue.OrbitalPeriod_Observation.7474 a sol-ont:QuantityValue .
-
-solr:QuantityValue.OrbitalPeriod_Observation.87 a sol-ont:QuantityValue .
-
-solr:QuantityValue.OrbitalPeriod_Observation.98943 a sol-ont:QuantityValue .
-
-solr:QuantityValue.PerihelionDistance_Observation.10 a sol-ont:QuantityValue .
-
-solr:QuantityValue.PerihelionDistance_Observation.101955 a sol-ont:QuantityValue .
-
-solr:QuantityValue.PerihelionDistance_Observation.10302 a sol-ont:QuantityValue .
-
-solr:QuantityValue.PerihelionDistance_Observation.13 a sol-ont:QuantityValue .
-
-solr:QuantityValue.PerihelionDistance_Observation.16 a sol-ont:QuantityValue .
-
-solr:QuantityValue.PerihelionDistance_Observation.162173 a sol-ont:QuantityValue .
-
-solr:QuantityValue.PerihelionDistance_Observation.19 a sol-ont:QuantityValue .
-
-solr:QuantityValue.PerihelionDistance_Observation.1943 a sol-ont:QuantityValue .
-
-solr:QuantityValue.PerihelionDistance_Observation.2 a sol-ont:QuantityValue .
-
-solr:QuantityValue.PerihelionDistance_Observation.436724 a sol-ont:QuantityValue .
-
-solr:QuantityValue.PerihelionDistance_Observation.4660 a sol-ont:QuantityValue .
-
-solr:QuantityValue.PerihelionDistance_Observation.65803 a sol-ont:QuantityValue .
-
-solr:QuantityValue.PerihelionDistance_Observation.7474 a sol-ont:QuantityValue .
-
-solr:QuantityValue.PerihelionDistance_Observation.87 a sol-ont:QuantityValue .
-
-solr:QuantityValue.PerihelionDistance_Observation.98943 a sol-ont:QuantityValue .
-
-solr:QuantityValue.Semi-MajorAxis_Observation.10 a sol-ont:QuantityValue .
-
-solr:QuantityValue.Semi-MajorAxis_Observation.101955 a sol-ont:QuantityValue .
-
-solr:QuantityValue.Semi-MajorAxis_Observation.10302 a sol-ont:QuantityValue .
-
-solr:QuantityValue.Semi-MajorAxis_Observation.13 a sol-ont:QuantityValue .
-
-solr:QuantityValue.Semi-MajorAxis_Observation.16 a sol-ont:QuantityValue .
-
-solr:QuantityValue.Semi-MajorAxis_Observation.162173 a sol-ont:QuantityValue .
-
-solr:QuantityValue.Semi-MajorAxis_Observation.19 a sol-ont:QuantityValue .
-
-solr:QuantityValue.Semi-MajorAxis_Observation.1943 a sol-ont:QuantityValue .
-
-solr:QuantityValue.Semi-MajorAxis_Observation.2 a sol-ont:QuantityValue .
-
-solr:QuantityValue.Semi-MajorAxis_Observation.436724 a sol-ont:QuantityValue .
-
-solr:QuantityValue.Semi-MajorAxis_Observation.4660 a sol-ont:QuantityValue .
-
-solr:QuantityValue.Semi-MajorAxis_Observation.65803 a sol-ont:QuantityValue .
-
-solr:QuantityValue.Semi-MajorAxis_Observation.7474 a sol-ont:QuantityValue .
-
-solr:QuantityValue.Semi-MajorAxis_Observation.87 a sol-ont:QuantityValue .
-
-solr:QuantityValue.Semi-MajorAxis_Observation.98943 a sol-ont:QuantityValue .
-
 solr:Semi-MajorAxis_Observation.10 sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
     sol-ont:generatedBy solr:Semi-MajorAxis_Activity.10 ;
     sol-ont:hasFeatureOfInterest solr:Asteroid.10 ;
@@ -1638,497 +1308,6 @@ solr:MeanMotion_Activity.87 sol-ont:hasDescription "Mean Motion"^^xsd:string ;
 
 solr:MeanMotion_Activity.98943 sol-ont:hasDescription "Mean Motion"^^xsd:string ;
     sol-ont:performedBy sol-ont:Agent.NASA-JPL .
-
-solr:NumericValue.AphelionDistance_Observation.10 sol-ont:hasNumericValue 3.489241e+00 ;
-    sol-ont:hasUnit solr:Unit.AphelionDistance_Observation.10 .
-
-solr:NumericValue.AphelionDistance_Observation.101955 sol-ont:hasNumericValue 1.355888e+00 ;
-    sol-ont:hasUnit solr:Unit.AphelionDistance_Observation.101955 .
-
-solr:NumericValue.AphelionDistance_Observation.10302 sol-ont:hasNumericValue 1.447057e+00 ;
-    sol-ont:hasUnit solr:Unit.AphelionDistance_Observation.10302 .
-
-solr:NumericValue.AphelionDistance_Observation.13 sol-ont:hasNumericValue 2.796073e+00 ;
-    sol-ont:hasUnit solr:Unit.AphelionDistance_Observation.13 .
-
-solr:NumericValue.AphelionDistance_Observation.16 sol-ont:hasNumericValue 3.316324e+00 ;
-    sol-ont:hasUnit solr:Unit.AphelionDistance_Observation.16 .
-
-solr:NumericValue.AphelionDistance_Observation.162173 sol-ont:hasNumericValue 1.418531e+00 ;
-    sol-ont:hasUnit solr:Unit.AphelionDistance_Observation.162173 .
-
-solr:NumericValue.AphelionDistance_Observation.19 sol-ont:hasNumericValue 2.826748e+00 ;
-    sol-ont:hasUnit solr:Unit.AphelionDistance_Observation.19 .
-
-solr:NumericValue.AphelionDistance_Observation.1943 sol-ont:hasNumericValue 1.796616e+00 ;
-    sol-ont:hasUnit solr:Unit.AphelionDistance_Observation.1943 .
-
-solr:NumericValue.AphelionDistance_Observation.2 sol-ont:hasNumericValue 3.406881e+00 ;
-    sol-ont:hasUnit solr:Unit.AphelionDistance_Observation.2 .
-
-solr:NumericValue.AphelionDistance_Observation.436724 sol-ont:hasNumericValue 2.230463e+00 ;
-    sol-ont:hasUnit solr:Unit.AphelionDistance_Observation.436724 .
-
-solr:NumericValue.AphelionDistance_Observation.4660 sol-ont:hasNumericValue 2.017813e+00 ;
-    sol-ont:hasUnit solr:Unit.AphelionDistance_Observation.4660 .
-
-solr:NumericValue.AphelionDistance_Observation.65803 sol-ont:hasNumericValue 2.272102e+00 ;
-    sol-ont:hasUnit solr:Unit.AphelionDistance_Observation.65803 .
-
-solr:NumericValue.AphelionDistance_Observation.7474 sol-ont:hasNumericValue 2.023261e+00 ;
-    sol-ont:hasUnit solr:Unit.AphelionDistance_Observation.7474 .
-
-solr:NumericValue.AphelionDistance_Observation.87 sol-ont:hasNumericValue 3.80449e+00 ;
-    sol-ont:hasUnit solr:Unit.AphelionDistance_Observation.87 .
-
-solr:NumericValue.AphelionDistance_Observation.98943 sol-ont:hasNumericValue 1.258531e+00 ;
-    sol-ont:hasUnit solr:Unit.AphelionDistance_Observation.98943 .
-
-solr:NumericValue.ArgumentOfPerihelion_Observation.10 sol-ont:hasNumericValue 3.124867e+02 ;
-    sol-ont:hasUnit solr:Unit.ArgumentOfPerihelion_Observation.10 .
-
-solr:NumericValue.ArgumentOfPerihelion_Observation.101955 sol-ont:hasNumericValue 6.622306e+01 ;
-    sol-ont:hasUnit solr:Unit.ArgumentOfPerihelion_Observation.101955 .
-
-solr:NumericValue.ArgumentOfPerihelion_Observation.10302 sol-ont:hasNumericValue 1.83624e+02 ;
-    sol-ont:hasUnit solr:Unit.ArgumentOfPerihelion_Observation.10302 .
-
-solr:NumericValue.ArgumentOfPerihelion_Observation.13 sol-ont:hasNumericValue 7.990611e+01 ;
-    sol-ont:hasUnit solr:Unit.ArgumentOfPerihelion_Observation.13 .
-
-solr:NumericValue.ArgumentOfPerihelion_Observation.16 sol-ont:hasNumericValue 2.293282e+02 ;
-    sol-ont:hasUnit solr:Unit.ArgumentOfPerihelion_Observation.16 .
-
-solr:NumericValue.ArgumentOfPerihelion_Observation.162173 sol-ont:hasNumericValue 2.116069e+02 ;
-    sol-ont:hasUnit solr:Unit.ArgumentOfPerihelion_Observation.162173 .
-
-solr:NumericValue.ArgumentOfPerihelion_Observation.19 sol-ont:hasNumericValue 1.825434e+02 ;
-    sol-ont:hasUnit solr:Unit.ArgumentOfPerihelion_Observation.19 .
-
-solr:NumericValue.ArgumentOfPerihelion_Observation.1943 sol-ont:hasNumericValue 3.383586e+02 ;
-    sol-ont:hasUnit solr:Unit.ArgumentOfPerihelion_Observation.1943 .
-
-solr:NumericValue.ArgumentOfPerihelion_Observation.2 sol-ont:hasNumericValue 3.108648e+02 ;
-    sol-ont:hasUnit solr:Unit.ArgumentOfPerihelion_Observation.2 .
-
-solr:NumericValue.ArgumentOfPerihelion_Observation.436724 sol-ont:hasNumericValue 8.795544e+00 ;
-    sol-ont:hasUnit solr:Unit.ArgumentOfPerihelion_Observation.436724 .
-
-solr:NumericValue.ArgumentOfPerihelion_Observation.4660 sol-ont:hasNumericValue 1.6e+02 ;
-    sol-ont:hasUnit solr:Unit.ArgumentOfPerihelion_Observation.4660 .
-
-solr:NumericValue.ArgumentOfPerihelion_Observation.65803 sol-ont:hasNumericValue 3.195616e+02 ;
-    sol-ont:hasUnit solr:Unit.ArgumentOfPerihelion_Observation.65803 .
-
-solr:NumericValue.ArgumentOfPerihelion_Observation.7474 sol-ont:hasNumericValue 2.756459e+02 ;
-    sol-ont:hasUnit solr:Unit.ArgumentOfPerihelion_Observation.7474 .
-
-solr:NumericValue.ArgumentOfPerihelion_Observation.87 sol-ont:hasNumericValue 2.642882e+02 ;
-    sol-ont:hasUnit solr:Unit.ArgumentOfPerihelion_Observation.87 .
-
-solr:NumericValue.ArgumentOfPerihelion_Observation.98943 sol-ont:hasNumericValue 1.794407e+02 ;
-    sol-ont:hasUnit solr:Unit.ArgumentOfPerihelion_Observation.98943 .
-
-solr:NumericValue.Diameter_Observation.10 sol-ont:hasNumericValue 4.0712e+02 ;
-    sol-ont:hasUnit solr:Unit.Diameter_Observation.10 .
-
-solr:NumericValue.Diameter_Observation.101955 sol-ont:hasNumericValue 4.82e-01 ;
-    sol-ont:hasUnit solr:Unit.Diameter_Observation.101955 .
-
-solr:NumericValue.Diameter_Observation.10302 sol-ont:hasUnit solr:Unit.Diameter_Observation.10302 .
-
-solr:NumericValue.Diameter_Observation.13 sol-ont:hasNumericValue 2.02636e+02 ;
-    sol-ont:hasUnit solr:Unit.Diameter_Observation.13 .
-
-solr:NumericValue.Diameter_Observation.16 sol-ont:hasNumericValue 2.26e+02 ;
-    sol-ont:hasUnit solr:Unit.Diameter_Observation.16 .
-
-solr:NumericValue.Diameter_Observation.162173 sol-ont:hasNumericValue 8.96e-01 ;
-    sol-ont:hasUnit solr:Unit.Diameter_Observation.162173 .
-
-solr:NumericValue.Diameter_Observation.19 sol-ont:hasNumericValue 2e+02 ;
-    sol-ont:hasUnit solr:Unit.Diameter_Observation.19 .
-
-solr:NumericValue.Diameter_Observation.1943 sol-ont:hasNumericValue 2.3e+00 ;
-    sol-ont:hasUnit solr:Unit.Diameter_Observation.1943 .
-
-solr:NumericValue.Diameter_Observation.2 sol-ont:hasNumericValue 5.13e+02 ;
-    sol-ont:hasUnit solr:Unit.Diameter_Observation.2 .
-
-solr:NumericValue.Diameter_Observation.436724 sol-ont:hasUnit solr:Unit.Diameter_Observation.436724 .
-
-solr:NumericValue.Diameter_Observation.4660 sol-ont:hasNumericValue 3.3e-01 ;
-    sol-ont:hasUnit solr:Unit.Diameter_Observation.4660 .
-
-solr:NumericValue.Diameter_Observation.65803 sol-ont:hasNumericValue 7.8e-01 ;
-    sol-ont:hasUnit solr:Unit.Diameter_Observation.65803 .
-
-solr:NumericValue.Diameter_Observation.7474 sol-ont:hasUnit solr:Unit.Diameter_Observation.7474 .
-
-solr:NumericValue.Diameter_Observation.87 sol-ont:hasNumericValue 3.80449e+00 ;
-    sol-ont:hasUnit solr:Unit.Diameter_Observation.87 .
-
-solr:NumericValue.Diameter_Observation.98943 sol-ont:hasUnit solr:Unit.Diameter_Observation.98943 .
-
-solr:NumericValue.Inclination_Observation.10 sol-ont:hasNumericValue 3.831728e+00 ;
-    sol-ont:hasUnit solr:Unit.Inclination_Observation.10 .
-
-solr:NumericValue.Inclination_Observation.101955 sol-ont:hasNumericValue 6.034944e+00 ;
-    sol-ont:hasUnit solr:Unit.Inclination_Observation.101955 .
-
-solr:NumericValue.Inclination_Observation.10302 sol-ont:hasNumericValue 4.378652e+00 ;
-    sol-ont:hasUnit solr:Unit.Inclination_Observation.10302 .
-
-solr:NumericValue.Inclination_Observation.13 sol-ont:hasNumericValue 1.653668e+01 ;
-    sol-ont:hasUnit solr:Unit.Inclination_Observation.13 .
-
-solr:NumericValue.Inclination_Observation.16 sol-ont:hasNumericValue 3.096845e+00 ;
-    sol-ont:hasUnit solr:Unit.Inclination_Observation.16 .
-
-solr:NumericValue.Inclination_Observation.162173 sol-ont:hasNumericValue 5.866179e+00 ;
-    sol-ont:hasUnit solr:Unit.Inclination_Observation.162173 .
-
-solr:NumericValue.Inclination_Observation.19 sol-ont:hasNumericValue 1.57341e+00 ;
-    sol-ont:hasUnit solr:Unit.Inclination_Observation.19 .
-
-solr:NumericValue.Inclination_Observation.1943 sol-ont:hasNumericValue 8.706154e+00 ;
-    sol-ont:hasUnit solr:Unit.Inclination_Observation.1943 .
-
-solr:NumericValue.Inclination_Observation.2 sol-ont:hasNumericValue 3.492703e+01 ;
-    sol-ont:hasUnit solr:Unit.Inclination_Observation.2 .
-
-solr:NumericValue.Inclination_Observation.436724 sol-ont:hasNumericValue 4.570993e+00 ;
-    sol-ont:hasUnit solr:Unit.Inclination_Observation.436724 .
-
-solr:NumericValue.Inclination_Observation.4660 sol-ont:hasNumericValue 1.453737e+00 ;
-    sol-ont:hasUnit solr:Unit.Inclination_Observation.4660 .
-
-solr:NumericValue.Inclination_Observation.65803 sol-ont:hasNumericValue 3.414109e+00 ;
-    sol-ont:hasUnit solr:Unit.Inclination_Observation.65803 .
-
-solr:NumericValue.Inclination_Observation.7474 sol-ont:hasNumericValue 7.087578e+00 ;
-    sol-ont:hasUnit solr:Unit.Inclination_Observation.7474 .
-
-solr:NumericValue.Inclination_Observation.87 sol-ont:hasNumericValue 1.087984e+01 ;
-    sol-ont:hasUnit solr:Unit.Inclination_Observation.87 .
-
-solr:NumericValue.Inclination_Observation.98943 sol-ont:hasNumericValue 4.806716e+00 ;
-    sol-ont:hasUnit solr:Unit.Inclination_Observation.98943 .
-
-solr:NumericValue.LongitudeOfAscendingNode_Observation.10 sol-ont:hasNumericValue 2.831732e+02 ;
-    sol-ont:hasUnit solr:Unit.LongitudeOfAscendingNode_Observation.10 .
-
-solr:NumericValue.LongitudeOfAscendingNode_Observation.101955 sol-ont:hasNumericValue 2.060866e+00 ;
-    sol-ont:hasUnit solr:Unit.LongitudeOfAscendingNode_Observation.101955 .
-
-solr:NumericValue.LongitudeOfAscendingNode_Observation.10302 sol-ont:hasNumericValue 1.042814e+02 ;
-    sol-ont:hasUnit solr:Unit.LongitudeOfAscendingNode_Observation.10302 .
-
-solr:NumericValue.LongitudeOfAscendingNode_Observation.13 sol-ont:hasNumericValue 4.320839e+01 ;
-    sol-ont:hasUnit solr:Unit.LongitudeOfAscendingNode_Observation.13 .
-
-solr:NumericValue.LongitudeOfAscendingNode_Observation.16 sol-ont:hasNumericValue 1.500308e+02 ;
-    sol-ont:hasUnit solr:Unit.LongitudeOfAscendingNode_Observation.16 .
-
-solr:NumericValue.LongitudeOfAscendingNode_Observation.162173 sol-ont:hasNumericValue 2.513013e+02 ;
-    sol-ont:hasUnit solr:Unit.LongitudeOfAscendingNode_Observation.162173 .
-
-solr:NumericValue.LongitudeOfAscendingNode_Observation.19 sol-ont:hasNumericValue 2.110343e+02 ;
-    sol-ont:hasUnit solr:Unit.LongitudeOfAscendingNode_Observation.19 .
-
-solr:NumericValue.LongitudeOfAscendingNode_Observation.1943 sol-ont:hasNumericValue 2.463069e+02 ;
-    sol-ont:hasUnit solr:Unit.LongitudeOfAscendingNode_Observation.1943 .
-
-solr:NumericValue.LongitudeOfAscendingNode_Observation.2 sol-ont:hasNumericValue 1.729181e+02 ;
-    sol-ont:hasUnit solr:Unit.LongitudeOfAscendingNode_Observation.2 .
-
-solr:NumericValue.LongitudeOfAscendingNode_Observation.436724 sol-ont:hasNumericValue 2.859766e+02 ;
-    sol-ont:hasUnit solr:Unit.LongitudeOfAscendingNode_Observation.436724 .
-
-solr:NumericValue.LongitudeOfAscendingNode_Observation.4660 sol-ont:hasNumericValue 3.131381e+02 ;
-    sol-ont:hasUnit solr:Unit.LongitudeOfAscendingNode_Observation.4660 .
-
-solr:NumericValue.LongitudeOfAscendingNode_Observation.65803 sol-ont:hasNumericValue 7.299109e+01 ;
-    sol-ont:hasUnit solr:Unit.LongitudeOfAscendingNode_Observation.65803 .
-
-solr:NumericValue.LongitudeOfAscendingNode_Observation.7474 sol-ont:hasNumericValue 8.860908e+01 ;
-    sol-ont:hasUnit solr:Unit.LongitudeOfAscendingNode_Observation.7474 .
-
-solr:NumericValue.LongitudeOfAscendingNode_Observation.87 sol-ont:hasNumericValue 7.301038e+01 ;
-    sol-ont:hasUnit solr:Unit.LongitudeOfAscendingNode_Observation.87 .
-
-solr:NumericValue.LongitudeOfAscendingNode_Observation.98943 sol-ont:hasNumericValue 7.551921e+01 ;
-    sol-ont:hasUnit solr:Unit.LongitudeOfAscendingNode_Observation.98943 .
-
-solr:NumericValue.MeanAnomaly_Observation.10 sol-ont:hasNumericValue 3.973549e+01 ;
-    sol-ont:hasUnit solr:Unit.MeanAnomaly_Observation.10 .
-
-solr:NumericValue.MeanAnomaly_Observation.101955 sol-ont:hasNumericValue 1.01704e+02 ;
-    sol-ont:hasUnit solr:Unit.MeanAnomaly_Observation.101955 .
-
-solr:NumericValue.MeanAnomaly_Observation.10302 sol-ont:hasNumericValue 1.551315e+02 ;
-    sol-ont:hasUnit solr:Unit.MeanAnomaly_Observation.10302 .
-
-solr:NumericValue.MeanAnomaly_Observation.13 sol-ont:hasNumericValue 1.618386e+02 ;
-    sol-ont:hasUnit solr:Unit.MeanAnomaly_Observation.13 .
-
-solr:NumericValue.MeanAnomaly_Observation.16 sol-ont:hasNumericValue 2.038192e+02 ;
-    sol-ont:hasUnit solr:Unit.MeanAnomaly_Observation.16 .
-
-solr:NumericValue.MeanAnomaly_Observation.162173 sol-ont:hasNumericValue 2.323502e+02 ;
-    sol-ont:hasUnit solr:Unit.MeanAnomaly_Observation.162173 .
-
-solr:NumericValue.MeanAnomaly_Observation.19 sol-ont:hasNumericValue 1.982549e+02 ;
-    sol-ont:hasUnit solr:Unit.MeanAnomaly_Observation.19 .
-
-solr:NumericValue.MeanAnomaly_Observation.1943 sol-ont:hasNumericValue 4.43629e+01 ;
-    sol-ont:hasUnit solr:Unit.MeanAnomaly_Observation.1943 .
-
-solr:NumericValue.MeanAnomaly_Observation.2 sol-ont:hasNumericValue 3.578494e+02 ;
-    sol-ont:hasUnit solr:Unit.MeanAnomaly_Observation.2 .
-
-solr:NumericValue.MeanAnomaly_Observation.436724 sol-ont:hasNumericValue 2.475124e+02 ;
-    sol-ont:hasUnit solr:Unit.MeanAnomaly_Observation.436724 .
-
-solr:NumericValue.MeanAnomaly_Observation.4660 sol-ont:hasNumericValue 2.252152e+02 ;
-    sol-ont:hasUnit solr:Unit.MeanAnomaly_Observation.4660 .
-
-solr:NumericValue.MeanAnomaly_Observation.65803 sol-ont:hasNumericValue 5.909022e+01 ;
-    sol-ont:hasUnit solr:Unit.MeanAnomaly_Observation.65803 .
-
-solr:NumericValue.MeanAnomaly_Observation.7474 sol-ont:hasNumericValue 1.876768e+02 ;
-    sol-ont:hasUnit solr:Unit.MeanAnomaly_Observation.7474 .
-
-solr:NumericValue.MeanAnomaly_Observation.87 sol-ont:hasNumericValue 3.045279e+02 ;
-    sol-ont:hasUnit solr:Unit.MeanAnomaly_Observation.87 .
-
-solr:NumericValue.MeanAnomaly_Observation.98943 sol-ont:hasNumericValue 2.808562e+02 ;
-    sol-ont:hasUnit solr:Unit.MeanAnomaly_Observation.98943 .
-
-solr:NumericValue.MeanMotion_Observation.10 sol-ont:hasNumericValue 1.771218e-01 ;
-    sol-ont:hasUnit solr:Unit.MeanMotion_Observation.10 .
-
-solr:NumericValue.MeanMotion_Observation.101955 sol-ont:hasNumericValue 8.244613e-01 ;
-    sol-ont:hasUnit solr:Unit.MeanMotion_Observation.101955 .
-
-solr:NumericValue.MeanMotion_Observation.10302 sol-ont:hasNumericValue 6.863847e-01 ;
-    sol-ont:hasUnit solr:Unit.MeanMotion_Observation.10302 .
-
-solr:NumericValue.MeanMotion_Observation.13 sol-ont:hasNumericValue 2.384474e-01 ;
-    sol-ont:hasUnit solr:Unit.MeanMotion_Observation.13 .
-
-solr:NumericValue.MeanMotion_Observation.16 sol-ont:hasNumericValue 1.971087e-01 ;
-    sol-ont:hasUnit solr:Unit.MeanMotion_Observation.16 .
-
-solr:NumericValue.MeanMotion_Observation.162173 sol-ont:hasNumericValue 7.583378e-01 ;
-    sol-ont:hasUnit solr:Unit.MeanMotion_Observation.162173 .
-
-solr:NumericValue.MeanMotion_Observation.19 sol-ont:hasNumericValue 2.581688e-01 ;
-    sol-ont:hasUnit solr:Unit.MeanMotion_Observation.19 .
-
-solr:NumericValue.MeanMotion_Observation.1943 sol-ont:hasNumericValue 5.761329e-01 ;
-    sol-ont:hasUnit solr:Unit.MeanMotion_Observation.1943 .
-
-solr:NumericValue.MeanMotion_Observation.2 sol-ont:hasNumericValue 2.138312e-01 ;
-    sol-ont:hasUnit solr:Unit.MeanMotion_Observation.2 .
-
-solr:NumericValue.MeanMotion_Observation.436724 sol-ont:hasNumericValue 4.776868e-01 ;
-    sol-ont:hasUnit solr:Unit.MeanMotion_Observation.436724 .
-
-solr:NumericValue.MeanMotion_Observation.4660 sol-ont:hasNumericValue 5.446333e-01 ;
-    sol-ont:hasUnit solr:Unit.MeanMotion_Observation.4660 .
-
-solr:NumericValue.MeanMotion_Observation.65803 sol-ont:hasNumericValue 4.681967e-01 ;
-    sol-ont:hasUnit solr:Unit.MeanMotion_Observation.65803 .
-
-solr:NumericValue.MeanMotion_Observation.7474 sol-ont:hasNumericValue 5.03065e-01 ;
-    sol-ont:hasUnit solr:Unit.MeanMotion_Observation.7474 .
-
-solr:NumericValue.MeanMotion_Observation.87 sol-ont:hasNumericValue 1.519728e-01 ;
-    sol-ont:hasUnit solr:Unit.MeanMotion_Observation.87 .
-
-solr:NumericValue.MeanMotion_Observation.98943 sol-ont:hasNumericValue 9.398134e-01 ;
-    sol-ont:hasUnit solr:Unit.MeanMotion_Observation.98943 .
-
-solr:NumericValue.OrbitalEccentricity_Observation.10 sol-ont:hasNumericValue 1.11159e-01 ;
-    sol-ont:hasUnit solr:Unit.OrbitalEccentricity_Observation.10 .
-
-solr:NumericValue.OrbitalEccentricity_Observation.101955 sol-ont:hasNumericValue 2.037451e-01 ;
-    sol-ont:hasUnit solr:Unit.OrbitalEccentricity_Observation.101955 .
-
-solr:NumericValue.OrbitalEccentricity_Observation.10302 sol-ont:hasNumericValue 1.369146e-01 ;
-    sol-ont:hasUnit solr:Unit.OrbitalEccentricity_Observation.10302 .
-
-solr:NumericValue.OrbitalEccentricity_Observation.13 sol-ont:hasNumericValue 8.561105e-02 ;
-    sol-ont:hasUnit solr:Unit.OrbitalEccentricity_Observation.13 .
-
-solr:NumericValue.OrbitalEccentricity_Observation.16 sol-ont:hasNumericValue 1.341174e-01 ;
-    sol-ont:hasUnit solr:Unit.OrbitalEccentricity_Observation.16 .
-
-solr:NumericValue.OrbitalEccentricity_Observation.162173 sol-ont:hasNumericValue 1.910898e-01 ;
-    sol-ont:hasUnit solr:Unit.OrbitalEccentricity_Observation.162173 .
-
-solr:NumericValue.OrbitalEccentricity_Observation.19 sol-ont:hasNumericValue 1.572313e-01 ;
-    sol-ont:hasUnit solr:Unit.OrbitalEccentricity_Observation.19 .
-
-solr:NumericValue.OrbitalEccentricity_Observation.1943 sol-ont:hasNumericValue 2.560326e-01 ;
-    sol-ont:hasUnit solr:Unit.OrbitalEccentricity_Observation.1943 .
-
-solr:NumericValue.OrbitalEccentricity_Observation.2 sol-ont:hasNumericValue 2.300844e-01 ;
-    sol-ont:hasUnit solr:Unit.OrbitalEccentricity_Observation.2 .
-
-solr:NumericValue.OrbitalEccentricity_Observation.436724 sol-ont:hasNumericValue 3.762201e-01 ;
-    sol-ont:hasUnit solr:Unit.OrbitalEccentricity_Observation.436724 .
-
-solr:NumericValue.OrbitalEccentricity_Observation.4660 sol-ont:hasNumericValue 3.587754e-01 ;
-    sol-ont:hasUnit solr:Unit.OrbitalEccentricity_Observation.4660 .
-
-solr:NumericValue.OrbitalEccentricity_Observation.65803 sol-ont:hasNumericValue 3.832817e-01 ;
-    sol-ont:hasUnit solr:Unit.OrbitalEccentricity_Observation.65803 .
-
-solr:NumericValue.OrbitalEccentricity_Observation.7474 sol-ont:hasNumericValue 2.922064e-01 ;
-    sol-ont:hasUnit solr:Unit.OrbitalEccentricity_Observation.7474 .
-
-solr:NumericValue.OrbitalEccentricity_Observation.87 sol-ont:hasNumericValue 9.396728e-02 ;
-    sol-ont:hasUnit solr:Unit.OrbitalEccentricity_Observation.87 .
-
-solr:NumericValue.OrbitalEccentricity_Observation.98943 sol-ont:hasNumericValue 2.192398e-01 ;
-    sol-ont:hasUnit solr:Unit.OrbitalEccentricity_Observation.98943 .
-
-solr:NumericValue.OrbitalPeriod_Observation.10 sol-ont:hasNumericValue 5.564681e+00 ;
-    sol-ont:hasUnit solr:Unit.OrbitalPeriod_Observation.10 .
-
-solr:NumericValue.OrbitalPeriod_Observation.101955 sol-ont:hasNumericValue 1.195479e+00 ;
-    sol-ont:hasUnit solr:Unit.OrbitalPeriod_Observation.101955 .
-
-solr:NumericValue.OrbitalPeriod_Observation.10302 sol-ont:hasNumericValue 1.435968e+00 ;
-    sol-ont:hasUnit solr:Unit.OrbitalPeriod_Observation.10302 .
-
-solr:NumericValue.OrbitalPeriod_Observation.13 sol-ont:hasNumericValue 4.133516e+00 ;
-    sol-ont:hasUnit solr:Unit.OrbitalPeriod_Observation.13 .
-
-solr:NumericValue.OrbitalPeriod_Observation.16 sol-ont:hasNumericValue 5.000421e+00 ;
-    sol-ont:hasUnit solr:Unit.OrbitalPeriod_Observation.16 .
-
-solr:NumericValue.OrbitalPeriod_Observation.162173 sol-ont:hasNumericValue 1.299719e+00 ;
-    sol-ont:hasUnit solr:Unit.OrbitalPeriod_Observation.162173 .
-
-solr:NumericValue.OrbitalPeriod_Observation.19 sol-ont:hasNumericValue 3.81776e+00 ;
-    sol-ont:hasUnit solr:Unit.OrbitalPeriod_Observation.19 .
-
-solr:NumericValue.OrbitalPeriod_Observation.1943 sol-ont:hasNumericValue 1.710762e+00 ;
-    sol-ont:hasUnit solr:Unit.OrbitalPeriod_Observation.1943 .
-
-solr:NumericValue.OrbitalPeriod_Observation.2 sol-ont:hasNumericValue 4.609366e+00 ;
-    sol-ont:hasUnit solr:Unit.OrbitalPeriod_Observation.2 .
-
-solr:NumericValue.OrbitalPeriod_Observation.436724 sol-ont:hasNumericValue 2.063332e+00 ;
-    sol-ont:hasUnit solr:Unit.OrbitalPeriod_Observation.436724 .
-
-solr:NumericValue.OrbitalPeriod_Observation.4660 sol-ont:hasNumericValue 1.809706e+00 ;
-    sol-ont:hasUnit solr:Unit.OrbitalPeriod_Observation.4660 .
-
-solr:NumericValue.OrbitalPeriod_Observation.65803 sol-ont:hasNumericValue 2.105154e+00 ;
-    sol-ont:hasUnit solr:Unit.OrbitalPeriod_Observation.65803 .
-
-solr:NumericValue.OrbitalPeriod_Observation.7474 sol-ont:hasNumericValue 1.959242e+00 ;
-    sol-ont:hasUnit solr:Unit.OrbitalPeriod_Observation.7474 .
-
-solr:NumericValue.OrbitalPeriod_Observation.87 sol-ont:hasNumericValue 6.485543e+00 ;
-    sol-ont:hasUnit solr:Unit.OrbitalPeriod_Observation.87 .
-
-solr:NumericValue.OrbitalPeriod_Observation.98943 sol-ont:hasNumericValue 1.048747e+00 ;
-    sol-ont:hasUnit solr:Unit.OrbitalPeriod_Observation.98943 .
-
-solr:NumericValue.PerihelionDistance_Observation.10 sol-ont:hasNumericValue 2.791122e+00 ;
-    sol-ont:hasUnit solr:Unit.PerihelionDistance_Observation.10 .
-
-solr:NumericValue.PerihelionDistance_Observation.101955 sol-ont:hasNumericValue 8.968944e-01 ;
-    sol-ont:hasUnit solr:Unit.PerihelionDistance_Observation.101955 .
-
-solr:NumericValue.PerihelionDistance_Observation.10302 sol-ont:hasNumericValue 1.098529e+00 ;
-    sol-ont:hasUnit solr:Unit.PerihelionDistance_Observation.10302 .
-
-solr:NumericValue.PerihelionDistance_Observation.13 sol-ont:hasNumericValue 2.355078e+00 ;
-    sol-ont:hasUnit solr:Unit.PerihelionDistance_Observation.13 .
-
-solr:NumericValue.PerihelionDistance_Observation.16 sol-ont:hasNumericValue 2.531966e+00 ;
-    sol-ont:hasUnit solr:Unit.PerihelionDistance_Observation.16 .
-
-solr:NumericValue.PerihelionDistance_Observation.162173 sol-ont:hasNumericValue 9.633731e-01 ;
-    sol-ont:hasUnit solr:Unit.PerihelionDistance_Observation.162173 .
-
-solr:NumericValue.PerihelionDistance_Observation.19 sol-ont:hasNumericValue 2.058616e+00 ;
-    sol-ont:hasUnit solr:Unit.PerihelionDistance_Observation.19 .
-
-solr:NumericValue.PerihelionDistance_Observation.1943 sol-ont:hasNumericValue 1.064163e+00 ;
-    sol-ont:hasUnit solr:Unit.PerihelionDistance_Observation.1943 .
-
-solr:NumericValue.PerihelionDistance_Observation.2 sol-ont:hasNumericValue 2.132383e+00 ;
-    sol-ont:hasUnit solr:Unit.PerihelionDistance_Observation.2 .
-
-solr:NumericValue.PerihelionDistance_Observation.436724 sol-ont:hasNumericValue 1.010971e+00 ;
-    sol-ont:hasUnit solr:Unit.PerihelionDistance_Observation.436724 .
-
-solr:NumericValue.PerihelionDistance_Observation.4660 sol-ont:hasNumericValue 9.522335e-01 ;
-    sol-ont:hasUnit solr:Unit.PerihelionDistance_Observation.4660 .
-
-solr:NumericValue.PerihelionDistance_Observation.65803 sol-ont:hasNumericValue 1.012987e+00 ;
-    sol-ont:hasUnit solr:Unit.PerihelionDistance_Observation.65803 .
-
-solr:NumericValue.PerihelionDistance_Observation.7474 sol-ont:hasNumericValue 1.108222e+00 ;
-    sol-ont:hasUnit solr:Unit.PerihelionDistance_Observation.7474 .
-
-solr:NumericValue.PerihelionDistance_Observation.87 sol-ont:hasNumericValue 3.15091e+00 ;
-    sol-ont:hasUnit solr:Unit.PerihelionDistance_Observation.87 .
-
-solr:NumericValue.PerihelionDistance_Observation.98943 sol-ont:hasNumericValue 8.059213e-01 ;
-    sol-ont:hasUnit solr:Unit.PerihelionDistance_Observation.98943 .
-
-solr:NumericValue.Semi-MajorAxis_Observation.10 sol-ont:hasNumericValue 3.140181e+00 ;
-    sol-ont:hasUnit solr:Unit.Semi-MajorAxis_Observation.10 .
-
-solr:NumericValue.Semi-MajorAxis_Observation.101955 sol-ont:hasNumericValue 1.126391e+00 ;
-    sol-ont:hasUnit solr:Unit.Semi-MajorAxis_Observation.101955 .
-
-solr:NumericValue.Semi-MajorAxis_Observation.10302 sol-ont:hasNumericValue 1.272793e+00 ;
-    sol-ont:hasUnit solr:Unit.Semi-MajorAxis_Observation.10302 .
-
-solr:NumericValue.Semi-MajorAxis_Observation.13 sol-ont:hasNumericValue 2.575575e+00 ;
-    sol-ont:hasUnit solr:Unit.Semi-MajorAxis_Observation.13 .
-
-solr:NumericValue.Semi-MajorAxis_Observation.16 sol-ont:hasNumericValue 2.924145e+00 ;
-    sol-ont:hasUnit solr:Unit.Semi-MajorAxis_Observation.16 .
-
-solr:NumericValue.Semi-MajorAxis_Observation.162173 sol-ont:hasNumericValue 1.190952e+00 ;
-    sol-ont:hasUnit solr:Unit.Semi-MajorAxis_Observation.162173 .
-
-solr:NumericValue.Semi-MajorAxis_Observation.19 sol-ont:hasNumericValue 2.442682e+00 ;
-    sol-ont:hasUnit solr:Unit.Semi-MajorAxis_Observation.19 .
-
-solr:NumericValue.Semi-MajorAxis_Observation.1943 sol-ont:hasNumericValue 1.430389e+00 ;
-    sol-ont:hasUnit solr:Unit.Semi-MajorAxis_Observation.1943 .
-
-solr:NumericValue.Semi-MajorAxis_Observation.2 sol-ont:hasNumericValue 2.769632e+00 ;
-    sol-ont:hasUnit solr:Unit.Semi-MajorAxis_Observation.2 .
-
-solr:NumericValue.Semi-MajorAxis_Observation.436724 sol-ont:hasNumericValue 1.620717e+00 ;
-    sol-ont:hasUnit solr:Unit.Semi-MajorAxis_Observation.436724 .
-
-solr:NumericValue.Semi-MajorAxis_Observation.4660 sol-ont:hasNumericValue 1.485023e+00 ;
-    sol-ont:hasUnit solr:Unit.Semi-MajorAxis_Observation.4660 .
-
-solr:NumericValue.Semi-MajorAxis_Observation.65803 sol-ont:hasNumericValue 1.642544e+00 ;
-    sol-ont:hasUnit solr:Unit.Semi-MajorAxis_Observation.65803 .
-
-solr:NumericValue.Semi-MajorAxis_Observation.7474 sol-ont:hasNumericValue 1.565741e+00 ;
-    sol-ont:hasUnit solr:Unit.Semi-MajorAxis_Observation.7474 .
-
-solr:NumericValue.Semi-MajorAxis_Observation.87 sol-ont:hasNumericValue 3.4777e+00 ;
-    sol-ont:hasUnit solr:Unit.Semi-MajorAxis_Observation.87 .
-
-solr:NumericValue.Semi-MajorAxis_Observation.98943 sol-ont:hasNumericValue 1.032226e+00 ;
-    sol-ont:hasUnit solr:Unit.Semi-MajorAxis_Observation.98943 .
 
 solr:OrbitalEccentricity_Activity.10 sol-ont:hasDescription "Orbital Eccentricity"^^xsd:string ;
     sol-ont:performedBy sol-ont:Agent.NASA-JPL .
@@ -2596,1159 +1775,1320 @@ solr:PerihelionDistance_Activity.98943 sol-ont:hasDescription "Perihelion Distan
     sol-ont:performedBy sol-ont:Agent.NASA-JPL .
 
 solr:Quantity.AphelionDistance_Observation.10 a sol-ont:Quantity ;
-    sol-ont:hasQuantityKind solr:QuantityKind.AphelionDistance_Observation.10 ;
-    sol-ont:hasQuantityValue solr:NumericValue.AphelionDistance_Observation.10 .
+    sol-ont:hasQuantityKind "AphelionDistance"^^sol-qk:AphelionDistance ;
+    sol-ont:hasQuantityValue solr:QuantityValue.AphelionDistance_Observation.10 .
 
 solr:Quantity.AphelionDistance_Observation.101955 a sol-ont:Quantity ;
-    sol-ont:hasQuantityKind solr:QuantityKind.AphelionDistance_Observation.101955 ;
-    sol-ont:hasQuantityValue solr:NumericValue.AphelionDistance_Observation.101955 .
+    sol-ont:hasQuantityKind "AphelionDistance"^^sol-qk:AphelionDistance ;
+    sol-ont:hasQuantityValue solr:QuantityValue.AphelionDistance_Observation.101955 .
 
 solr:Quantity.AphelionDistance_Observation.10302 a sol-ont:Quantity ;
-    sol-ont:hasQuantityKind solr:QuantityKind.AphelionDistance_Observation.10302 ;
-    sol-ont:hasQuantityValue solr:NumericValue.AphelionDistance_Observation.10302 .
+    sol-ont:hasQuantityKind "AphelionDistance"^^sol-qk:AphelionDistance ;
+    sol-ont:hasQuantityValue solr:QuantityValue.AphelionDistance_Observation.10302 .
 
 solr:Quantity.AphelionDistance_Observation.13 a sol-ont:Quantity ;
-    sol-ont:hasQuantityKind solr:QuantityKind.AphelionDistance_Observation.13 ;
-    sol-ont:hasQuantityValue solr:NumericValue.AphelionDistance_Observation.13 .
+    sol-ont:hasQuantityKind "AphelionDistance"^^sol-qk:AphelionDistance ;
+    sol-ont:hasQuantityValue solr:QuantityValue.AphelionDistance_Observation.13 .
 
 solr:Quantity.AphelionDistance_Observation.16 a sol-ont:Quantity ;
-    sol-ont:hasQuantityKind solr:QuantityKind.AphelionDistance_Observation.16 ;
-    sol-ont:hasQuantityValue solr:NumericValue.AphelionDistance_Observation.16 .
+    sol-ont:hasQuantityKind "AphelionDistance"^^sol-qk:AphelionDistance ;
+    sol-ont:hasQuantityValue solr:QuantityValue.AphelionDistance_Observation.16 .
 
 solr:Quantity.AphelionDistance_Observation.162173 a sol-ont:Quantity ;
-    sol-ont:hasQuantityKind solr:QuantityKind.AphelionDistance_Observation.162173 ;
-    sol-ont:hasQuantityValue solr:NumericValue.AphelionDistance_Observation.162173 .
+    sol-ont:hasQuantityKind "AphelionDistance"^^sol-qk:AphelionDistance ;
+    sol-ont:hasQuantityValue solr:QuantityValue.AphelionDistance_Observation.162173 .
 
 solr:Quantity.AphelionDistance_Observation.19 a sol-ont:Quantity ;
-    sol-ont:hasQuantityKind solr:QuantityKind.AphelionDistance_Observation.19 ;
-    sol-ont:hasQuantityValue solr:NumericValue.AphelionDistance_Observation.19 .
+    sol-ont:hasQuantityKind "AphelionDistance"^^sol-qk:AphelionDistance ;
+    sol-ont:hasQuantityValue solr:QuantityValue.AphelionDistance_Observation.19 .
 
 solr:Quantity.AphelionDistance_Observation.1943 a sol-ont:Quantity ;
-    sol-ont:hasQuantityKind solr:QuantityKind.AphelionDistance_Observation.1943 ;
-    sol-ont:hasQuantityValue solr:NumericValue.AphelionDistance_Observation.1943 .
+    sol-ont:hasQuantityKind "AphelionDistance"^^sol-qk:AphelionDistance ;
+    sol-ont:hasQuantityValue solr:QuantityValue.AphelionDistance_Observation.1943 .
 
 solr:Quantity.AphelionDistance_Observation.2 a sol-ont:Quantity ;
-    sol-ont:hasQuantityKind solr:QuantityKind.AphelionDistance_Observation.2 ;
-    sol-ont:hasQuantityValue solr:NumericValue.AphelionDistance_Observation.2 .
+    sol-ont:hasQuantityKind "AphelionDistance"^^sol-qk:AphelionDistance ;
+    sol-ont:hasQuantityValue solr:QuantityValue.AphelionDistance_Observation.2 .
 
 solr:Quantity.AphelionDistance_Observation.436724 a sol-ont:Quantity ;
-    sol-ont:hasQuantityKind solr:QuantityKind.AphelionDistance_Observation.436724 ;
-    sol-ont:hasQuantityValue solr:NumericValue.AphelionDistance_Observation.436724 .
+    sol-ont:hasQuantityKind "AphelionDistance"^^sol-qk:AphelionDistance ;
+    sol-ont:hasQuantityValue solr:QuantityValue.AphelionDistance_Observation.436724 .
 
 solr:Quantity.AphelionDistance_Observation.4660 a sol-ont:Quantity ;
-    sol-ont:hasQuantityKind solr:QuantityKind.AphelionDistance_Observation.4660 ;
-    sol-ont:hasQuantityValue solr:NumericValue.AphelionDistance_Observation.4660 .
+    sol-ont:hasQuantityKind "AphelionDistance"^^sol-qk:AphelionDistance ;
+    sol-ont:hasQuantityValue solr:QuantityValue.AphelionDistance_Observation.4660 .
 
 solr:Quantity.AphelionDistance_Observation.65803 a sol-ont:Quantity ;
-    sol-ont:hasQuantityKind solr:QuantityKind.AphelionDistance_Observation.65803 ;
-    sol-ont:hasQuantityValue solr:NumericValue.AphelionDistance_Observation.65803 .
+    sol-ont:hasQuantityKind "AphelionDistance"^^sol-qk:AphelionDistance ;
+    sol-ont:hasQuantityValue solr:QuantityValue.AphelionDistance_Observation.65803 .
 
 solr:Quantity.AphelionDistance_Observation.7474 a sol-ont:Quantity ;
-    sol-ont:hasQuantityKind solr:QuantityKind.AphelionDistance_Observation.7474 ;
-    sol-ont:hasQuantityValue solr:NumericValue.AphelionDistance_Observation.7474 .
+    sol-ont:hasQuantityKind "AphelionDistance"^^sol-qk:AphelionDistance ;
+    sol-ont:hasQuantityValue solr:QuantityValue.AphelionDistance_Observation.7474 .
 
 solr:Quantity.AphelionDistance_Observation.87 a sol-ont:Quantity ;
-    sol-ont:hasQuantityKind solr:QuantityKind.AphelionDistance_Observation.87 ;
-    sol-ont:hasQuantityValue solr:NumericValue.AphelionDistance_Observation.87 .
+    sol-ont:hasQuantityKind "AphelionDistance"^^sol-qk:AphelionDistance ;
+    sol-ont:hasQuantityValue solr:QuantityValue.AphelionDistance_Observation.87 .
 
 solr:Quantity.AphelionDistance_Observation.98943 a sol-ont:Quantity ;
-    sol-ont:hasQuantityKind solr:QuantityKind.AphelionDistance_Observation.98943 ;
-    sol-ont:hasQuantityValue solr:NumericValue.AphelionDistance_Observation.98943 .
+    sol-ont:hasQuantityKind "AphelionDistance"^^sol-qk:AphelionDistance ;
+    sol-ont:hasQuantityValue solr:QuantityValue.AphelionDistance_Observation.98943 .
 
 solr:Quantity.ArgumentOfPerihelion_Observation.10 a sol-ont:Quantity ;
-    sol-ont:hasQuantityKind solr:QuantityKind.ArgumentOfPerihelion_Observation.10 ;
-    sol-ont:hasQuantityValue solr:NumericValue.ArgumentOfPerihelion_Observation.10 .
+    sol-ont:hasQuantityKind "ArgumentOfPerihelion"^^sol-qk:ArgumentOfPerihelion ;
+    sol-ont:hasQuantityValue solr:QuantityValue.ArgumentOfPerihelion_Observation.10 .
 
 solr:Quantity.ArgumentOfPerihelion_Observation.101955 a sol-ont:Quantity ;
-    sol-ont:hasQuantityKind solr:QuantityKind.ArgumentOfPerihelion_Observation.101955 ;
-    sol-ont:hasQuantityValue solr:NumericValue.ArgumentOfPerihelion_Observation.101955 .
+    sol-ont:hasQuantityKind "ArgumentOfPerihelion"^^sol-qk:ArgumentOfPerihelion ;
+    sol-ont:hasQuantityValue solr:QuantityValue.ArgumentOfPerihelion_Observation.101955 .
 
 solr:Quantity.ArgumentOfPerihelion_Observation.10302 a sol-ont:Quantity ;
-    sol-ont:hasQuantityKind solr:QuantityKind.ArgumentOfPerihelion_Observation.10302 ;
-    sol-ont:hasQuantityValue solr:NumericValue.ArgumentOfPerihelion_Observation.10302 .
+    sol-ont:hasQuantityKind "ArgumentOfPerihelion"^^sol-qk:ArgumentOfPerihelion ;
+    sol-ont:hasQuantityValue solr:QuantityValue.ArgumentOfPerihelion_Observation.10302 .
 
 solr:Quantity.ArgumentOfPerihelion_Observation.13 a sol-ont:Quantity ;
-    sol-ont:hasQuantityKind solr:QuantityKind.ArgumentOfPerihelion_Observation.13 ;
-    sol-ont:hasQuantityValue solr:NumericValue.ArgumentOfPerihelion_Observation.13 .
+    sol-ont:hasQuantityKind "ArgumentOfPerihelion"^^sol-qk:ArgumentOfPerihelion ;
+    sol-ont:hasQuantityValue solr:QuantityValue.ArgumentOfPerihelion_Observation.13 .
 
 solr:Quantity.ArgumentOfPerihelion_Observation.16 a sol-ont:Quantity ;
-    sol-ont:hasQuantityKind solr:QuantityKind.ArgumentOfPerihelion_Observation.16 ;
-    sol-ont:hasQuantityValue solr:NumericValue.ArgumentOfPerihelion_Observation.16 .
+    sol-ont:hasQuantityKind "ArgumentOfPerihelion"^^sol-qk:ArgumentOfPerihelion ;
+    sol-ont:hasQuantityValue solr:QuantityValue.ArgumentOfPerihelion_Observation.16 .
 
 solr:Quantity.ArgumentOfPerihelion_Observation.162173 a sol-ont:Quantity ;
-    sol-ont:hasQuantityKind solr:QuantityKind.ArgumentOfPerihelion_Observation.162173 ;
-    sol-ont:hasQuantityValue solr:NumericValue.ArgumentOfPerihelion_Observation.162173 .
+    sol-ont:hasQuantityKind "ArgumentOfPerihelion"^^sol-qk:ArgumentOfPerihelion ;
+    sol-ont:hasQuantityValue solr:QuantityValue.ArgumentOfPerihelion_Observation.162173 .
 
 solr:Quantity.ArgumentOfPerihelion_Observation.19 a sol-ont:Quantity ;
-    sol-ont:hasQuantityKind solr:QuantityKind.ArgumentOfPerihelion_Observation.19 ;
-    sol-ont:hasQuantityValue solr:NumericValue.ArgumentOfPerihelion_Observation.19 .
+    sol-ont:hasQuantityKind "ArgumentOfPerihelion"^^sol-qk:ArgumentOfPerihelion ;
+    sol-ont:hasQuantityValue solr:QuantityValue.ArgumentOfPerihelion_Observation.19 .
 
 solr:Quantity.ArgumentOfPerihelion_Observation.1943 a sol-ont:Quantity ;
-    sol-ont:hasQuantityKind solr:QuantityKind.ArgumentOfPerihelion_Observation.1943 ;
-    sol-ont:hasQuantityValue solr:NumericValue.ArgumentOfPerihelion_Observation.1943 .
+    sol-ont:hasQuantityKind "ArgumentOfPerihelion"^^sol-qk:ArgumentOfPerihelion ;
+    sol-ont:hasQuantityValue solr:QuantityValue.ArgumentOfPerihelion_Observation.1943 .
 
 solr:Quantity.ArgumentOfPerihelion_Observation.2 a sol-ont:Quantity ;
-    sol-ont:hasQuantityKind solr:QuantityKind.ArgumentOfPerihelion_Observation.2 ;
-    sol-ont:hasQuantityValue solr:NumericValue.ArgumentOfPerihelion_Observation.2 .
+    sol-ont:hasQuantityKind "ArgumentOfPerihelion"^^sol-qk:ArgumentOfPerihelion ;
+    sol-ont:hasQuantityValue solr:QuantityValue.ArgumentOfPerihelion_Observation.2 .
 
 solr:Quantity.ArgumentOfPerihelion_Observation.436724 a sol-ont:Quantity ;
-    sol-ont:hasQuantityKind solr:QuantityKind.ArgumentOfPerihelion_Observation.436724 ;
-    sol-ont:hasQuantityValue solr:NumericValue.ArgumentOfPerihelion_Observation.436724 .
+    sol-ont:hasQuantityKind "ArgumentOfPerihelion"^^sol-qk:ArgumentOfPerihelion ;
+    sol-ont:hasQuantityValue solr:QuantityValue.ArgumentOfPerihelion_Observation.436724 .
 
 solr:Quantity.ArgumentOfPerihelion_Observation.4660 a sol-ont:Quantity ;
-    sol-ont:hasQuantityKind solr:QuantityKind.ArgumentOfPerihelion_Observation.4660 ;
-    sol-ont:hasQuantityValue solr:NumericValue.ArgumentOfPerihelion_Observation.4660 .
+    sol-ont:hasQuantityKind "ArgumentOfPerihelion"^^sol-qk:ArgumentOfPerihelion ;
+    sol-ont:hasQuantityValue solr:QuantityValue.ArgumentOfPerihelion_Observation.4660 .
 
 solr:Quantity.ArgumentOfPerihelion_Observation.65803 a sol-ont:Quantity ;
-    sol-ont:hasQuantityKind solr:QuantityKind.ArgumentOfPerihelion_Observation.65803 ;
-    sol-ont:hasQuantityValue solr:NumericValue.ArgumentOfPerihelion_Observation.65803 .
+    sol-ont:hasQuantityKind "ArgumentOfPerihelion"^^sol-qk:ArgumentOfPerihelion ;
+    sol-ont:hasQuantityValue solr:QuantityValue.ArgumentOfPerihelion_Observation.65803 .
 
 solr:Quantity.ArgumentOfPerihelion_Observation.7474 a sol-ont:Quantity ;
-    sol-ont:hasQuantityKind solr:QuantityKind.ArgumentOfPerihelion_Observation.7474 ;
-    sol-ont:hasQuantityValue solr:NumericValue.ArgumentOfPerihelion_Observation.7474 .
+    sol-ont:hasQuantityKind "ArgumentOfPerihelion"^^sol-qk:ArgumentOfPerihelion ;
+    sol-ont:hasQuantityValue solr:QuantityValue.ArgumentOfPerihelion_Observation.7474 .
 
 solr:Quantity.ArgumentOfPerihelion_Observation.87 a sol-ont:Quantity ;
-    sol-ont:hasQuantityKind solr:QuantityKind.ArgumentOfPerihelion_Observation.87 ;
-    sol-ont:hasQuantityValue solr:NumericValue.ArgumentOfPerihelion_Observation.87 .
+    sol-ont:hasQuantityKind "ArgumentOfPerihelion"^^sol-qk:ArgumentOfPerihelion ;
+    sol-ont:hasQuantityValue solr:QuantityValue.ArgumentOfPerihelion_Observation.87 .
 
 solr:Quantity.ArgumentOfPerihelion_Observation.98943 a sol-ont:Quantity ;
-    sol-ont:hasQuantityKind solr:QuantityKind.ArgumentOfPerihelion_Observation.98943 ;
-    sol-ont:hasQuantityValue solr:NumericValue.ArgumentOfPerihelion_Observation.98943 .
+    sol-ont:hasQuantityKind "ArgumentOfPerihelion"^^sol-qk:ArgumentOfPerihelion ;
+    sol-ont:hasQuantityValue solr:QuantityValue.ArgumentOfPerihelion_Observation.98943 .
 
 solr:Quantity.Diameter_Observation.10 a sol-ont:Quantity ;
-    sol-ont:hasQuantityKind solr:QuantityKind.Diameter_Observation.10 ;
-    sol-ont:hasQuantityValue solr:NumericValue.Diameter_Observation.10 .
+    sol-ont:hasQuantityKind "Diameter"^^sol-qk:Diameter ;
+    sol-ont:hasQuantityValue solr:QuantityValue.Diameter_Observation.10 .
 
 solr:Quantity.Diameter_Observation.101955 a sol-ont:Quantity ;
-    sol-ont:hasQuantityKind solr:QuantityKind.Diameter_Observation.101955 ;
-    sol-ont:hasQuantityValue solr:NumericValue.Diameter_Observation.101955 .
+    sol-ont:hasQuantityKind "Diameter"^^sol-qk:Diameter ;
+    sol-ont:hasQuantityValue solr:QuantityValue.Diameter_Observation.101955 .
 
 solr:Quantity.Diameter_Observation.10302 a sol-ont:Quantity ;
-    sol-ont:hasQuantityKind solr:QuantityKind.Diameter_Observation.10302 ;
-    sol-ont:hasQuantityValue solr:NumericValue.Diameter_Observation.10302 .
+    sol-ont:hasQuantityKind "Diameter"^^sol-qk:Diameter ;
+    sol-ont:hasQuantityValue solr:QuantityValue.Diameter_Observation.10302 .
 
 solr:Quantity.Diameter_Observation.13 a sol-ont:Quantity ;
-    sol-ont:hasQuantityKind solr:QuantityKind.Diameter_Observation.13 ;
-    sol-ont:hasQuantityValue solr:NumericValue.Diameter_Observation.13 .
+    sol-ont:hasQuantityKind "Diameter"^^sol-qk:Diameter ;
+    sol-ont:hasQuantityValue solr:QuantityValue.Diameter_Observation.13 .
 
 solr:Quantity.Diameter_Observation.16 a sol-ont:Quantity ;
-    sol-ont:hasQuantityKind solr:QuantityKind.Diameter_Observation.16 ;
-    sol-ont:hasQuantityValue solr:NumericValue.Diameter_Observation.16 .
+    sol-ont:hasQuantityKind "Diameter"^^sol-qk:Diameter ;
+    sol-ont:hasQuantityValue solr:QuantityValue.Diameter_Observation.16 .
 
 solr:Quantity.Diameter_Observation.162173 a sol-ont:Quantity ;
-    sol-ont:hasQuantityKind solr:QuantityKind.Diameter_Observation.162173 ;
-    sol-ont:hasQuantityValue solr:NumericValue.Diameter_Observation.162173 .
+    sol-ont:hasQuantityKind "Diameter"^^sol-qk:Diameter ;
+    sol-ont:hasQuantityValue solr:QuantityValue.Diameter_Observation.162173 .
 
 solr:Quantity.Diameter_Observation.19 a sol-ont:Quantity ;
-    sol-ont:hasQuantityKind solr:QuantityKind.Diameter_Observation.19 ;
-    sol-ont:hasQuantityValue solr:NumericValue.Diameter_Observation.19 .
+    sol-ont:hasQuantityKind "Diameter"^^sol-qk:Diameter ;
+    sol-ont:hasQuantityValue solr:QuantityValue.Diameter_Observation.19 .
 
 solr:Quantity.Diameter_Observation.1943 a sol-ont:Quantity ;
-    sol-ont:hasQuantityKind solr:QuantityKind.Diameter_Observation.1943 ;
-    sol-ont:hasQuantityValue solr:NumericValue.Diameter_Observation.1943 .
+    sol-ont:hasQuantityKind "Diameter"^^sol-qk:Diameter ;
+    sol-ont:hasQuantityValue solr:QuantityValue.Diameter_Observation.1943 .
 
 solr:Quantity.Diameter_Observation.2 a sol-ont:Quantity ;
-    sol-ont:hasQuantityKind solr:QuantityKind.Diameter_Observation.2 ;
-    sol-ont:hasQuantityValue solr:NumericValue.Diameter_Observation.2 .
+    sol-ont:hasQuantityKind "Diameter"^^sol-qk:Diameter ;
+    sol-ont:hasQuantityValue solr:QuantityValue.Diameter_Observation.2 .
 
 solr:Quantity.Diameter_Observation.436724 a sol-ont:Quantity ;
-    sol-ont:hasQuantityKind solr:QuantityKind.Diameter_Observation.436724 ;
-    sol-ont:hasQuantityValue solr:NumericValue.Diameter_Observation.436724 .
+    sol-ont:hasQuantityKind "Diameter"^^sol-qk:Diameter ;
+    sol-ont:hasQuantityValue solr:QuantityValue.Diameter_Observation.436724 .
 
 solr:Quantity.Diameter_Observation.4660 a sol-ont:Quantity ;
-    sol-ont:hasQuantityKind solr:QuantityKind.Diameter_Observation.4660 ;
-    sol-ont:hasQuantityValue solr:NumericValue.Diameter_Observation.4660 .
+    sol-ont:hasQuantityKind "Diameter"^^sol-qk:Diameter ;
+    sol-ont:hasQuantityValue solr:QuantityValue.Diameter_Observation.4660 .
 
 solr:Quantity.Diameter_Observation.65803 a sol-ont:Quantity ;
-    sol-ont:hasQuantityKind solr:QuantityKind.Diameter_Observation.65803 ;
-    sol-ont:hasQuantityValue solr:NumericValue.Diameter_Observation.65803 .
+    sol-ont:hasQuantityKind "Diameter"^^sol-qk:Diameter ;
+    sol-ont:hasQuantityValue solr:QuantityValue.Diameter_Observation.65803 .
 
 solr:Quantity.Diameter_Observation.7474 a sol-ont:Quantity ;
-    sol-ont:hasQuantityKind solr:QuantityKind.Diameter_Observation.7474 ;
-    sol-ont:hasQuantityValue solr:NumericValue.Diameter_Observation.7474 .
+    sol-ont:hasQuantityKind "Diameter"^^sol-qk:Diameter ;
+    sol-ont:hasQuantityValue solr:QuantityValue.Diameter_Observation.7474 .
 
 solr:Quantity.Diameter_Observation.87 a sol-ont:Quantity ;
-    sol-ont:hasQuantityKind solr:QuantityKind.Diameter_Observation.87 ;
-    sol-ont:hasQuantityValue solr:NumericValue.Diameter_Observation.87 .
+    sol-ont:hasQuantityKind "Diameter"^^sol-qk:Diameter ;
+    sol-ont:hasQuantityValue solr:QuantityValue.Diameter_Observation.87 .
 
 solr:Quantity.Diameter_Observation.98943 a sol-ont:Quantity ;
-    sol-ont:hasQuantityKind solr:QuantityKind.Diameter_Observation.98943 ;
-    sol-ont:hasQuantityValue solr:NumericValue.Diameter_Observation.98943 .
+    sol-ont:hasQuantityKind "Diameter"^^sol-qk:Diameter ;
+    sol-ont:hasQuantityValue solr:QuantityValue.Diameter_Observation.98943 .
 
 solr:Quantity.Inclination_Observation.10 a sol-ont:Quantity ;
-    sol-ont:hasQuantityKind solr:QuantityKind.Inclination_Observation.10 ;
-    sol-ont:hasQuantityValue solr:NumericValue.Inclination_Observation.10 .
+    sol-ont:hasQuantityKind "Inclination"^^sol-qk:Inclination ;
+    sol-ont:hasQuantityValue solr:QuantityValue.Inclination_Observation.10 .
 
 solr:Quantity.Inclination_Observation.101955 a sol-ont:Quantity ;
-    sol-ont:hasQuantityKind solr:QuantityKind.Inclination_Observation.101955 ;
-    sol-ont:hasQuantityValue solr:NumericValue.Inclination_Observation.101955 .
+    sol-ont:hasQuantityKind "Inclination"^^sol-qk:Inclination ;
+    sol-ont:hasQuantityValue solr:QuantityValue.Inclination_Observation.101955 .
 
 solr:Quantity.Inclination_Observation.10302 a sol-ont:Quantity ;
-    sol-ont:hasQuantityKind solr:QuantityKind.Inclination_Observation.10302 ;
-    sol-ont:hasQuantityValue solr:NumericValue.Inclination_Observation.10302 .
+    sol-ont:hasQuantityKind "Inclination"^^sol-qk:Inclination ;
+    sol-ont:hasQuantityValue solr:QuantityValue.Inclination_Observation.10302 .
 
 solr:Quantity.Inclination_Observation.13 a sol-ont:Quantity ;
-    sol-ont:hasQuantityKind solr:QuantityKind.Inclination_Observation.13 ;
-    sol-ont:hasQuantityValue solr:NumericValue.Inclination_Observation.13 .
+    sol-ont:hasQuantityKind "Inclination"^^sol-qk:Inclination ;
+    sol-ont:hasQuantityValue solr:QuantityValue.Inclination_Observation.13 .
 
 solr:Quantity.Inclination_Observation.16 a sol-ont:Quantity ;
-    sol-ont:hasQuantityKind solr:QuantityKind.Inclination_Observation.16 ;
-    sol-ont:hasQuantityValue solr:NumericValue.Inclination_Observation.16 .
+    sol-ont:hasQuantityKind "Inclination"^^sol-qk:Inclination ;
+    sol-ont:hasQuantityValue solr:QuantityValue.Inclination_Observation.16 .
 
 solr:Quantity.Inclination_Observation.162173 a sol-ont:Quantity ;
-    sol-ont:hasQuantityKind solr:QuantityKind.Inclination_Observation.162173 ;
-    sol-ont:hasQuantityValue solr:NumericValue.Inclination_Observation.162173 .
+    sol-ont:hasQuantityKind "Inclination"^^sol-qk:Inclination ;
+    sol-ont:hasQuantityValue solr:QuantityValue.Inclination_Observation.162173 .
 
 solr:Quantity.Inclination_Observation.19 a sol-ont:Quantity ;
-    sol-ont:hasQuantityKind solr:QuantityKind.Inclination_Observation.19 ;
-    sol-ont:hasQuantityValue solr:NumericValue.Inclination_Observation.19 .
+    sol-ont:hasQuantityKind "Inclination"^^sol-qk:Inclination ;
+    sol-ont:hasQuantityValue solr:QuantityValue.Inclination_Observation.19 .
 
 solr:Quantity.Inclination_Observation.1943 a sol-ont:Quantity ;
-    sol-ont:hasQuantityKind solr:QuantityKind.Inclination_Observation.1943 ;
-    sol-ont:hasQuantityValue solr:NumericValue.Inclination_Observation.1943 .
+    sol-ont:hasQuantityKind "Inclination"^^sol-qk:Inclination ;
+    sol-ont:hasQuantityValue solr:QuantityValue.Inclination_Observation.1943 .
 
 solr:Quantity.Inclination_Observation.2 a sol-ont:Quantity ;
-    sol-ont:hasQuantityKind solr:QuantityKind.Inclination_Observation.2 ;
-    sol-ont:hasQuantityValue solr:NumericValue.Inclination_Observation.2 .
+    sol-ont:hasQuantityKind "Inclination"^^sol-qk:Inclination ;
+    sol-ont:hasQuantityValue solr:QuantityValue.Inclination_Observation.2 .
 
 solr:Quantity.Inclination_Observation.436724 a sol-ont:Quantity ;
-    sol-ont:hasQuantityKind solr:QuantityKind.Inclination_Observation.436724 ;
-    sol-ont:hasQuantityValue solr:NumericValue.Inclination_Observation.436724 .
+    sol-ont:hasQuantityKind "Inclination"^^sol-qk:Inclination ;
+    sol-ont:hasQuantityValue solr:QuantityValue.Inclination_Observation.436724 .
 
 solr:Quantity.Inclination_Observation.4660 a sol-ont:Quantity ;
-    sol-ont:hasQuantityKind solr:QuantityKind.Inclination_Observation.4660 ;
-    sol-ont:hasQuantityValue solr:NumericValue.Inclination_Observation.4660 .
+    sol-ont:hasQuantityKind "Inclination"^^sol-qk:Inclination ;
+    sol-ont:hasQuantityValue solr:QuantityValue.Inclination_Observation.4660 .
 
 solr:Quantity.Inclination_Observation.65803 a sol-ont:Quantity ;
-    sol-ont:hasQuantityKind solr:QuantityKind.Inclination_Observation.65803 ;
-    sol-ont:hasQuantityValue solr:NumericValue.Inclination_Observation.65803 .
+    sol-ont:hasQuantityKind "Inclination"^^sol-qk:Inclination ;
+    sol-ont:hasQuantityValue solr:QuantityValue.Inclination_Observation.65803 .
 
 solr:Quantity.Inclination_Observation.7474 a sol-ont:Quantity ;
-    sol-ont:hasQuantityKind solr:QuantityKind.Inclination_Observation.7474 ;
-    sol-ont:hasQuantityValue solr:NumericValue.Inclination_Observation.7474 .
+    sol-ont:hasQuantityKind "Inclination"^^sol-qk:Inclination ;
+    sol-ont:hasQuantityValue solr:QuantityValue.Inclination_Observation.7474 .
 
 solr:Quantity.Inclination_Observation.87 a sol-ont:Quantity ;
-    sol-ont:hasQuantityKind solr:QuantityKind.Inclination_Observation.87 ;
-    sol-ont:hasQuantityValue solr:NumericValue.Inclination_Observation.87 .
+    sol-ont:hasQuantityKind "Inclination"^^sol-qk:Inclination ;
+    sol-ont:hasQuantityValue solr:QuantityValue.Inclination_Observation.87 .
 
 solr:Quantity.Inclination_Observation.98943 a sol-ont:Quantity ;
-    sol-ont:hasQuantityKind solr:QuantityKind.Inclination_Observation.98943 ;
-    sol-ont:hasQuantityValue solr:NumericValue.Inclination_Observation.98943 .
+    sol-ont:hasQuantityKind "Inclination"^^sol-qk:Inclination ;
+    sol-ont:hasQuantityValue solr:QuantityValue.Inclination_Observation.98943 .
 
 solr:Quantity.LongitudeOfAscendingNode_Observation.10 a sol-ont:Quantity ;
-    sol-ont:hasQuantityKind solr:QuantityKind.LongitudeOfAscendingNode_Observation.10 ;
-    sol-ont:hasQuantityValue solr:NumericValue.LongitudeOfAscendingNode_Observation.10 .
+    sol-ont:hasQuantityKind "LongitudeOfAscendingNode"^^sol-qk:LongitudeOfAscendingNode ;
+    sol-ont:hasQuantityValue solr:QuantityValue.LongitudeOfAscendingNode_Observation.10 .
 
 solr:Quantity.LongitudeOfAscendingNode_Observation.101955 a sol-ont:Quantity ;
-    sol-ont:hasQuantityKind solr:QuantityKind.LongitudeOfAscendingNode_Observation.101955 ;
-    sol-ont:hasQuantityValue solr:NumericValue.LongitudeOfAscendingNode_Observation.101955 .
+    sol-ont:hasQuantityKind "LongitudeOfAscendingNode"^^sol-qk:LongitudeOfAscendingNode ;
+    sol-ont:hasQuantityValue solr:QuantityValue.LongitudeOfAscendingNode_Observation.101955 .
 
 solr:Quantity.LongitudeOfAscendingNode_Observation.10302 a sol-ont:Quantity ;
-    sol-ont:hasQuantityKind solr:QuantityKind.LongitudeOfAscendingNode_Observation.10302 ;
-    sol-ont:hasQuantityValue solr:NumericValue.LongitudeOfAscendingNode_Observation.10302 .
+    sol-ont:hasQuantityKind "LongitudeOfAscendingNode"^^sol-qk:LongitudeOfAscendingNode ;
+    sol-ont:hasQuantityValue solr:QuantityValue.LongitudeOfAscendingNode_Observation.10302 .
 
 solr:Quantity.LongitudeOfAscendingNode_Observation.13 a sol-ont:Quantity ;
-    sol-ont:hasQuantityKind solr:QuantityKind.LongitudeOfAscendingNode_Observation.13 ;
-    sol-ont:hasQuantityValue solr:NumericValue.LongitudeOfAscendingNode_Observation.13 .
+    sol-ont:hasQuantityKind "LongitudeOfAscendingNode"^^sol-qk:LongitudeOfAscendingNode ;
+    sol-ont:hasQuantityValue solr:QuantityValue.LongitudeOfAscendingNode_Observation.13 .
 
 solr:Quantity.LongitudeOfAscendingNode_Observation.16 a sol-ont:Quantity ;
-    sol-ont:hasQuantityKind solr:QuantityKind.LongitudeOfAscendingNode_Observation.16 ;
-    sol-ont:hasQuantityValue solr:NumericValue.LongitudeOfAscendingNode_Observation.16 .
+    sol-ont:hasQuantityKind "LongitudeOfAscendingNode"^^sol-qk:LongitudeOfAscendingNode ;
+    sol-ont:hasQuantityValue solr:QuantityValue.LongitudeOfAscendingNode_Observation.16 .
 
 solr:Quantity.LongitudeOfAscendingNode_Observation.162173 a sol-ont:Quantity ;
-    sol-ont:hasQuantityKind solr:QuantityKind.LongitudeOfAscendingNode_Observation.162173 ;
-    sol-ont:hasQuantityValue solr:NumericValue.LongitudeOfAscendingNode_Observation.162173 .
+    sol-ont:hasQuantityKind "LongitudeOfAscendingNode"^^sol-qk:LongitudeOfAscendingNode ;
+    sol-ont:hasQuantityValue solr:QuantityValue.LongitudeOfAscendingNode_Observation.162173 .
 
 solr:Quantity.LongitudeOfAscendingNode_Observation.19 a sol-ont:Quantity ;
-    sol-ont:hasQuantityKind solr:QuantityKind.LongitudeOfAscendingNode_Observation.19 ;
-    sol-ont:hasQuantityValue solr:NumericValue.LongitudeOfAscendingNode_Observation.19 .
+    sol-ont:hasQuantityKind "LongitudeOfAscendingNode"^^sol-qk:LongitudeOfAscendingNode ;
+    sol-ont:hasQuantityValue solr:QuantityValue.LongitudeOfAscendingNode_Observation.19 .
 
 solr:Quantity.LongitudeOfAscendingNode_Observation.1943 a sol-ont:Quantity ;
-    sol-ont:hasQuantityKind solr:QuantityKind.LongitudeOfAscendingNode_Observation.1943 ;
-    sol-ont:hasQuantityValue solr:NumericValue.LongitudeOfAscendingNode_Observation.1943 .
+    sol-ont:hasQuantityKind "LongitudeOfAscendingNode"^^sol-qk:LongitudeOfAscendingNode ;
+    sol-ont:hasQuantityValue solr:QuantityValue.LongitudeOfAscendingNode_Observation.1943 .
 
 solr:Quantity.LongitudeOfAscendingNode_Observation.2 a sol-ont:Quantity ;
-    sol-ont:hasQuantityKind solr:QuantityKind.LongitudeOfAscendingNode_Observation.2 ;
-    sol-ont:hasQuantityValue solr:NumericValue.LongitudeOfAscendingNode_Observation.2 .
+    sol-ont:hasQuantityKind "LongitudeOfAscendingNode"^^sol-qk:LongitudeOfAscendingNode ;
+    sol-ont:hasQuantityValue solr:QuantityValue.LongitudeOfAscendingNode_Observation.2 .
 
 solr:Quantity.LongitudeOfAscendingNode_Observation.436724 a sol-ont:Quantity ;
-    sol-ont:hasQuantityKind solr:QuantityKind.LongitudeOfAscendingNode_Observation.436724 ;
-    sol-ont:hasQuantityValue solr:NumericValue.LongitudeOfAscendingNode_Observation.436724 .
+    sol-ont:hasQuantityKind "LongitudeOfAscendingNode"^^sol-qk:LongitudeOfAscendingNode ;
+    sol-ont:hasQuantityValue solr:QuantityValue.LongitudeOfAscendingNode_Observation.436724 .
 
 solr:Quantity.LongitudeOfAscendingNode_Observation.4660 a sol-ont:Quantity ;
-    sol-ont:hasQuantityKind solr:QuantityKind.LongitudeOfAscendingNode_Observation.4660 ;
-    sol-ont:hasQuantityValue solr:NumericValue.LongitudeOfAscendingNode_Observation.4660 .
+    sol-ont:hasQuantityKind "LongitudeOfAscendingNode"^^sol-qk:LongitudeOfAscendingNode ;
+    sol-ont:hasQuantityValue solr:QuantityValue.LongitudeOfAscendingNode_Observation.4660 .
 
 solr:Quantity.LongitudeOfAscendingNode_Observation.65803 a sol-ont:Quantity ;
-    sol-ont:hasQuantityKind solr:QuantityKind.LongitudeOfAscendingNode_Observation.65803 ;
-    sol-ont:hasQuantityValue solr:NumericValue.LongitudeOfAscendingNode_Observation.65803 .
+    sol-ont:hasQuantityKind "LongitudeOfAscendingNode"^^sol-qk:LongitudeOfAscendingNode ;
+    sol-ont:hasQuantityValue solr:QuantityValue.LongitudeOfAscendingNode_Observation.65803 .
 
 solr:Quantity.LongitudeOfAscendingNode_Observation.7474 a sol-ont:Quantity ;
-    sol-ont:hasQuantityKind solr:QuantityKind.LongitudeOfAscendingNode_Observation.7474 ;
-    sol-ont:hasQuantityValue solr:NumericValue.LongitudeOfAscendingNode_Observation.7474 .
+    sol-ont:hasQuantityKind "LongitudeOfAscendingNode"^^sol-qk:LongitudeOfAscendingNode ;
+    sol-ont:hasQuantityValue solr:QuantityValue.LongitudeOfAscendingNode_Observation.7474 .
 
 solr:Quantity.LongitudeOfAscendingNode_Observation.87 a sol-ont:Quantity ;
-    sol-ont:hasQuantityKind solr:QuantityKind.LongitudeOfAscendingNode_Observation.87 ;
-    sol-ont:hasQuantityValue solr:NumericValue.LongitudeOfAscendingNode_Observation.87 .
+    sol-ont:hasQuantityKind "LongitudeOfAscendingNode"^^sol-qk:LongitudeOfAscendingNode ;
+    sol-ont:hasQuantityValue solr:QuantityValue.LongitudeOfAscendingNode_Observation.87 .
 
 solr:Quantity.LongitudeOfAscendingNode_Observation.98943 a sol-ont:Quantity ;
-    sol-ont:hasQuantityKind solr:QuantityKind.LongitudeOfAscendingNode_Observation.98943 ;
-    sol-ont:hasQuantityValue solr:NumericValue.LongitudeOfAscendingNode_Observation.98943 .
+    sol-ont:hasQuantityKind "LongitudeOfAscendingNode"^^sol-qk:LongitudeOfAscendingNode ;
+    sol-ont:hasQuantityValue solr:QuantityValue.LongitudeOfAscendingNode_Observation.98943 .
 
 solr:Quantity.MeanAnomaly_Observation.10 a sol-ont:Quantity ;
-    sol-ont:hasQuantityKind solr:QuantityKind.MeanAnomaly_Observation.10 ;
-    sol-ont:hasQuantityValue solr:NumericValue.MeanAnomaly_Observation.10 .
+    sol-ont:hasQuantityKind "MeanAnomaly"^^sol-qk:MeanAnomaly ;
+    sol-ont:hasQuantityValue solr:QuantityValue.MeanAnomaly_Observation.10 .
 
 solr:Quantity.MeanAnomaly_Observation.101955 a sol-ont:Quantity ;
-    sol-ont:hasQuantityKind solr:QuantityKind.MeanAnomaly_Observation.101955 ;
-    sol-ont:hasQuantityValue solr:NumericValue.MeanAnomaly_Observation.101955 .
+    sol-ont:hasQuantityKind "MeanAnomaly"^^sol-qk:MeanAnomaly ;
+    sol-ont:hasQuantityValue solr:QuantityValue.MeanAnomaly_Observation.101955 .
 
 solr:Quantity.MeanAnomaly_Observation.10302 a sol-ont:Quantity ;
-    sol-ont:hasQuantityKind solr:QuantityKind.MeanAnomaly_Observation.10302 ;
-    sol-ont:hasQuantityValue solr:NumericValue.MeanAnomaly_Observation.10302 .
+    sol-ont:hasQuantityKind "MeanAnomaly"^^sol-qk:MeanAnomaly ;
+    sol-ont:hasQuantityValue solr:QuantityValue.MeanAnomaly_Observation.10302 .
 
 solr:Quantity.MeanAnomaly_Observation.13 a sol-ont:Quantity ;
-    sol-ont:hasQuantityKind solr:QuantityKind.MeanAnomaly_Observation.13 ;
-    sol-ont:hasQuantityValue solr:NumericValue.MeanAnomaly_Observation.13 .
+    sol-ont:hasQuantityKind "MeanAnomaly"^^sol-qk:MeanAnomaly ;
+    sol-ont:hasQuantityValue solr:QuantityValue.MeanAnomaly_Observation.13 .
 
 solr:Quantity.MeanAnomaly_Observation.16 a sol-ont:Quantity ;
-    sol-ont:hasQuantityKind solr:QuantityKind.MeanAnomaly_Observation.16 ;
-    sol-ont:hasQuantityValue solr:NumericValue.MeanAnomaly_Observation.16 .
+    sol-ont:hasQuantityKind "MeanAnomaly"^^sol-qk:MeanAnomaly ;
+    sol-ont:hasQuantityValue solr:QuantityValue.MeanAnomaly_Observation.16 .
 
 solr:Quantity.MeanAnomaly_Observation.162173 a sol-ont:Quantity ;
-    sol-ont:hasQuantityKind solr:QuantityKind.MeanAnomaly_Observation.162173 ;
-    sol-ont:hasQuantityValue solr:NumericValue.MeanAnomaly_Observation.162173 .
+    sol-ont:hasQuantityKind "MeanAnomaly"^^sol-qk:MeanAnomaly ;
+    sol-ont:hasQuantityValue solr:QuantityValue.MeanAnomaly_Observation.162173 .
 
 solr:Quantity.MeanAnomaly_Observation.19 a sol-ont:Quantity ;
-    sol-ont:hasQuantityKind solr:QuantityKind.MeanAnomaly_Observation.19 ;
-    sol-ont:hasQuantityValue solr:NumericValue.MeanAnomaly_Observation.19 .
+    sol-ont:hasQuantityKind "MeanAnomaly"^^sol-qk:MeanAnomaly ;
+    sol-ont:hasQuantityValue solr:QuantityValue.MeanAnomaly_Observation.19 .
 
 solr:Quantity.MeanAnomaly_Observation.1943 a sol-ont:Quantity ;
-    sol-ont:hasQuantityKind solr:QuantityKind.MeanAnomaly_Observation.1943 ;
-    sol-ont:hasQuantityValue solr:NumericValue.MeanAnomaly_Observation.1943 .
+    sol-ont:hasQuantityKind "MeanAnomaly"^^sol-qk:MeanAnomaly ;
+    sol-ont:hasQuantityValue solr:QuantityValue.MeanAnomaly_Observation.1943 .
 
 solr:Quantity.MeanAnomaly_Observation.2 a sol-ont:Quantity ;
-    sol-ont:hasQuantityKind solr:QuantityKind.MeanAnomaly_Observation.2 ;
-    sol-ont:hasQuantityValue solr:NumericValue.MeanAnomaly_Observation.2 .
+    sol-ont:hasQuantityKind "MeanAnomaly"^^sol-qk:MeanAnomaly ;
+    sol-ont:hasQuantityValue solr:QuantityValue.MeanAnomaly_Observation.2 .
 
 solr:Quantity.MeanAnomaly_Observation.436724 a sol-ont:Quantity ;
-    sol-ont:hasQuantityKind solr:QuantityKind.MeanAnomaly_Observation.436724 ;
-    sol-ont:hasQuantityValue solr:NumericValue.MeanAnomaly_Observation.436724 .
+    sol-ont:hasQuantityKind "MeanAnomaly"^^sol-qk:MeanAnomaly ;
+    sol-ont:hasQuantityValue solr:QuantityValue.MeanAnomaly_Observation.436724 .
 
 solr:Quantity.MeanAnomaly_Observation.4660 a sol-ont:Quantity ;
-    sol-ont:hasQuantityKind solr:QuantityKind.MeanAnomaly_Observation.4660 ;
-    sol-ont:hasQuantityValue solr:NumericValue.MeanAnomaly_Observation.4660 .
+    sol-ont:hasQuantityKind "MeanAnomaly"^^sol-qk:MeanAnomaly ;
+    sol-ont:hasQuantityValue solr:QuantityValue.MeanAnomaly_Observation.4660 .
 
 solr:Quantity.MeanAnomaly_Observation.65803 a sol-ont:Quantity ;
-    sol-ont:hasQuantityKind solr:QuantityKind.MeanAnomaly_Observation.65803 ;
-    sol-ont:hasQuantityValue solr:NumericValue.MeanAnomaly_Observation.65803 .
+    sol-ont:hasQuantityKind "MeanAnomaly"^^sol-qk:MeanAnomaly ;
+    sol-ont:hasQuantityValue solr:QuantityValue.MeanAnomaly_Observation.65803 .
 
 solr:Quantity.MeanAnomaly_Observation.7474 a sol-ont:Quantity ;
-    sol-ont:hasQuantityKind solr:QuantityKind.MeanAnomaly_Observation.7474 ;
-    sol-ont:hasQuantityValue solr:NumericValue.MeanAnomaly_Observation.7474 .
+    sol-ont:hasQuantityKind "MeanAnomaly"^^sol-qk:MeanAnomaly ;
+    sol-ont:hasQuantityValue solr:QuantityValue.MeanAnomaly_Observation.7474 .
 
 solr:Quantity.MeanAnomaly_Observation.87 a sol-ont:Quantity ;
-    sol-ont:hasQuantityKind solr:QuantityKind.MeanAnomaly_Observation.87 ;
-    sol-ont:hasQuantityValue solr:NumericValue.MeanAnomaly_Observation.87 .
+    sol-ont:hasQuantityKind "MeanAnomaly"^^sol-qk:MeanAnomaly ;
+    sol-ont:hasQuantityValue solr:QuantityValue.MeanAnomaly_Observation.87 .
 
 solr:Quantity.MeanAnomaly_Observation.98943 a sol-ont:Quantity ;
-    sol-ont:hasQuantityKind solr:QuantityKind.MeanAnomaly_Observation.98943 ;
-    sol-ont:hasQuantityValue solr:NumericValue.MeanAnomaly_Observation.98943 .
+    sol-ont:hasQuantityKind "MeanAnomaly"^^sol-qk:MeanAnomaly ;
+    sol-ont:hasQuantityValue solr:QuantityValue.MeanAnomaly_Observation.98943 .
 
 solr:Quantity.MeanMotion_Observation.10 a sol-ont:Quantity ;
-    sol-ont:hasQuantityKind solr:QuantityKind.MeanMotion_Observation.10 ;
-    sol-ont:hasQuantityValue solr:NumericValue.MeanMotion_Observation.10 .
+    sol-ont:hasQuantityKind "MeanMotion"^^sol-qk:MeanMotion ;
+    sol-ont:hasQuantityValue solr:QuantityValue.MeanMotion_Observation.10 .
 
 solr:Quantity.MeanMotion_Observation.101955 a sol-ont:Quantity ;
-    sol-ont:hasQuantityKind solr:QuantityKind.MeanMotion_Observation.101955 ;
-    sol-ont:hasQuantityValue solr:NumericValue.MeanMotion_Observation.101955 .
+    sol-ont:hasQuantityKind "MeanMotion"^^sol-qk:MeanMotion ;
+    sol-ont:hasQuantityValue solr:QuantityValue.MeanMotion_Observation.101955 .
 
 solr:Quantity.MeanMotion_Observation.10302 a sol-ont:Quantity ;
-    sol-ont:hasQuantityKind solr:QuantityKind.MeanMotion_Observation.10302 ;
-    sol-ont:hasQuantityValue solr:NumericValue.MeanMotion_Observation.10302 .
+    sol-ont:hasQuantityKind "MeanMotion"^^sol-qk:MeanMotion ;
+    sol-ont:hasQuantityValue solr:QuantityValue.MeanMotion_Observation.10302 .
 
 solr:Quantity.MeanMotion_Observation.13 a sol-ont:Quantity ;
-    sol-ont:hasQuantityKind solr:QuantityKind.MeanMotion_Observation.13 ;
-    sol-ont:hasQuantityValue solr:NumericValue.MeanMotion_Observation.13 .
+    sol-ont:hasQuantityKind "MeanMotion"^^sol-qk:MeanMotion ;
+    sol-ont:hasQuantityValue solr:QuantityValue.MeanMotion_Observation.13 .
 
 solr:Quantity.MeanMotion_Observation.16 a sol-ont:Quantity ;
-    sol-ont:hasQuantityKind solr:QuantityKind.MeanMotion_Observation.16 ;
-    sol-ont:hasQuantityValue solr:NumericValue.MeanMotion_Observation.16 .
+    sol-ont:hasQuantityKind "MeanMotion"^^sol-qk:MeanMotion ;
+    sol-ont:hasQuantityValue solr:QuantityValue.MeanMotion_Observation.16 .
 
 solr:Quantity.MeanMotion_Observation.162173 a sol-ont:Quantity ;
-    sol-ont:hasQuantityKind solr:QuantityKind.MeanMotion_Observation.162173 ;
-    sol-ont:hasQuantityValue solr:NumericValue.MeanMotion_Observation.162173 .
+    sol-ont:hasQuantityKind "MeanMotion"^^sol-qk:MeanMotion ;
+    sol-ont:hasQuantityValue solr:QuantityValue.MeanMotion_Observation.162173 .
 
 solr:Quantity.MeanMotion_Observation.19 a sol-ont:Quantity ;
-    sol-ont:hasQuantityKind solr:QuantityKind.MeanMotion_Observation.19 ;
-    sol-ont:hasQuantityValue solr:NumericValue.MeanMotion_Observation.19 .
+    sol-ont:hasQuantityKind "MeanMotion"^^sol-qk:MeanMotion ;
+    sol-ont:hasQuantityValue solr:QuantityValue.MeanMotion_Observation.19 .
 
 solr:Quantity.MeanMotion_Observation.1943 a sol-ont:Quantity ;
-    sol-ont:hasQuantityKind solr:QuantityKind.MeanMotion_Observation.1943 ;
-    sol-ont:hasQuantityValue solr:NumericValue.MeanMotion_Observation.1943 .
+    sol-ont:hasQuantityKind "MeanMotion"^^sol-qk:MeanMotion ;
+    sol-ont:hasQuantityValue solr:QuantityValue.MeanMotion_Observation.1943 .
 
 solr:Quantity.MeanMotion_Observation.2 a sol-ont:Quantity ;
-    sol-ont:hasQuantityKind solr:QuantityKind.MeanMotion_Observation.2 ;
-    sol-ont:hasQuantityValue solr:NumericValue.MeanMotion_Observation.2 .
+    sol-ont:hasQuantityKind "MeanMotion"^^sol-qk:MeanMotion ;
+    sol-ont:hasQuantityValue solr:QuantityValue.MeanMotion_Observation.2 .
 
 solr:Quantity.MeanMotion_Observation.436724 a sol-ont:Quantity ;
-    sol-ont:hasQuantityKind solr:QuantityKind.MeanMotion_Observation.436724 ;
-    sol-ont:hasQuantityValue solr:NumericValue.MeanMotion_Observation.436724 .
+    sol-ont:hasQuantityKind "MeanMotion"^^sol-qk:MeanMotion ;
+    sol-ont:hasQuantityValue solr:QuantityValue.MeanMotion_Observation.436724 .
 
 solr:Quantity.MeanMotion_Observation.4660 a sol-ont:Quantity ;
-    sol-ont:hasQuantityKind solr:QuantityKind.MeanMotion_Observation.4660 ;
-    sol-ont:hasQuantityValue solr:NumericValue.MeanMotion_Observation.4660 .
+    sol-ont:hasQuantityKind "MeanMotion"^^sol-qk:MeanMotion ;
+    sol-ont:hasQuantityValue solr:QuantityValue.MeanMotion_Observation.4660 .
 
 solr:Quantity.MeanMotion_Observation.65803 a sol-ont:Quantity ;
-    sol-ont:hasQuantityKind solr:QuantityKind.MeanMotion_Observation.65803 ;
-    sol-ont:hasQuantityValue solr:NumericValue.MeanMotion_Observation.65803 .
+    sol-ont:hasQuantityKind "MeanMotion"^^sol-qk:MeanMotion ;
+    sol-ont:hasQuantityValue solr:QuantityValue.MeanMotion_Observation.65803 .
 
 solr:Quantity.MeanMotion_Observation.7474 a sol-ont:Quantity ;
-    sol-ont:hasQuantityKind solr:QuantityKind.MeanMotion_Observation.7474 ;
-    sol-ont:hasQuantityValue solr:NumericValue.MeanMotion_Observation.7474 .
+    sol-ont:hasQuantityKind "MeanMotion"^^sol-qk:MeanMotion ;
+    sol-ont:hasQuantityValue solr:QuantityValue.MeanMotion_Observation.7474 .
 
 solr:Quantity.MeanMotion_Observation.87 a sol-ont:Quantity ;
-    sol-ont:hasQuantityKind solr:QuantityKind.MeanMotion_Observation.87 ;
-    sol-ont:hasQuantityValue solr:NumericValue.MeanMotion_Observation.87 .
+    sol-ont:hasQuantityKind "MeanMotion"^^sol-qk:MeanMotion ;
+    sol-ont:hasQuantityValue solr:QuantityValue.MeanMotion_Observation.87 .
 
 solr:Quantity.MeanMotion_Observation.98943 a sol-ont:Quantity ;
-    sol-ont:hasQuantityKind solr:QuantityKind.MeanMotion_Observation.98943 ;
-    sol-ont:hasQuantityValue solr:NumericValue.MeanMotion_Observation.98943 .
+    sol-ont:hasQuantityKind "MeanMotion"^^sol-qk:MeanMotion ;
+    sol-ont:hasQuantityValue solr:QuantityValue.MeanMotion_Observation.98943 .
 
 solr:Quantity.OrbitalEccentricity_Observation.10 a sol-ont:Quantity ;
-    sol-ont:hasQuantityKind solr:QuantityKind.OrbitalEccentricity_Observation.10 ;
-    sol-ont:hasQuantityValue solr:NumericValue.OrbitalEccentricity_Observation.10 .
+    sol-ont:hasQuantityKind "OrbitalEccentricity"^^sol-qk:OrbitalEccentricity ;
+    sol-ont:hasQuantityValue solr:QuantityValue.OrbitalEccentricity_Observation.10 .
 
 solr:Quantity.OrbitalEccentricity_Observation.101955 a sol-ont:Quantity ;
-    sol-ont:hasQuantityKind solr:QuantityKind.OrbitalEccentricity_Observation.101955 ;
-    sol-ont:hasQuantityValue solr:NumericValue.OrbitalEccentricity_Observation.101955 .
+    sol-ont:hasQuantityKind "OrbitalEccentricity"^^sol-qk:OrbitalEccentricity ;
+    sol-ont:hasQuantityValue solr:QuantityValue.OrbitalEccentricity_Observation.101955 .
 
 solr:Quantity.OrbitalEccentricity_Observation.10302 a sol-ont:Quantity ;
-    sol-ont:hasQuantityKind solr:QuantityKind.OrbitalEccentricity_Observation.10302 ;
-    sol-ont:hasQuantityValue solr:NumericValue.OrbitalEccentricity_Observation.10302 .
+    sol-ont:hasQuantityKind "OrbitalEccentricity"^^sol-qk:OrbitalEccentricity ;
+    sol-ont:hasQuantityValue solr:QuantityValue.OrbitalEccentricity_Observation.10302 .
 
 solr:Quantity.OrbitalEccentricity_Observation.13 a sol-ont:Quantity ;
-    sol-ont:hasQuantityKind solr:QuantityKind.OrbitalEccentricity_Observation.13 ;
-    sol-ont:hasQuantityValue solr:NumericValue.OrbitalEccentricity_Observation.13 .
+    sol-ont:hasQuantityKind "OrbitalEccentricity"^^sol-qk:OrbitalEccentricity ;
+    sol-ont:hasQuantityValue solr:QuantityValue.OrbitalEccentricity_Observation.13 .
 
 solr:Quantity.OrbitalEccentricity_Observation.16 a sol-ont:Quantity ;
-    sol-ont:hasQuantityKind solr:QuantityKind.OrbitalEccentricity_Observation.16 ;
-    sol-ont:hasQuantityValue solr:NumericValue.OrbitalEccentricity_Observation.16 .
+    sol-ont:hasQuantityKind "OrbitalEccentricity"^^sol-qk:OrbitalEccentricity ;
+    sol-ont:hasQuantityValue solr:QuantityValue.OrbitalEccentricity_Observation.16 .
 
 solr:Quantity.OrbitalEccentricity_Observation.162173 a sol-ont:Quantity ;
-    sol-ont:hasQuantityKind solr:QuantityKind.OrbitalEccentricity_Observation.162173 ;
-    sol-ont:hasQuantityValue solr:NumericValue.OrbitalEccentricity_Observation.162173 .
+    sol-ont:hasQuantityKind "OrbitalEccentricity"^^sol-qk:OrbitalEccentricity ;
+    sol-ont:hasQuantityValue solr:QuantityValue.OrbitalEccentricity_Observation.162173 .
 
 solr:Quantity.OrbitalEccentricity_Observation.19 a sol-ont:Quantity ;
-    sol-ont:hasQuantityKind solr:QuantityKind.OrbitalEccentricity_Observation.19 ;
-    sol-ont:hasQuantityValue solr:NumericValue.OrbitalEccentricity_Observation.19 .
+    sol-ont:hasQuantityKind "OrbitalEccentricity"^^sol-qk:OrbitalEccentricity ;
+    sol-ont:hasQuantityValue solr:QuantityValue.OrbitalEccentricity_Observation.19 .
 
 solr:Quantity.OrbitalEccentricity_Observation.1943 a sol-ont:Quantity ;
-    sol-ont:hasQuantityKind solr:QuantityKind.OrbitalEccentricity_Observation.1943 ;
-    sol-ont:hasQuantityValue solr:NumericValue.OrbitalEccentricity_Observation.1943 .
+    sol-ont:hasQuantityKind "OrbitalEccentricity"^^sol-qk:OrbitalEccentricity ;
+    sol-ont:hasQuantityValue solr:QuantityValue.OrbitalEccentricity_Observation.1943 .
 
 solr:Quantity.OrbitalEccentricity_Observation.2 a sol-ont:Quantity ;
-    sol-ont:hasQuantityKind solr:QuantityKind.OrbitalEccentricity_Observation.2 ;
-    sol-ont:hasQuantityValue solr:NumericValue.OrbitalEccentricity_Observation.2 .
+    sol-ont:hasQuantityKind "OrbitalEccentricity"^^sol-qk:OrbitalEccentricity ;
+    sol-ont:hasQuantityValue solr:QuantityValue.OrbitalEccentricity_Observation.2 .
 
 solr:Quantity.OrbitalEccentricity_Observation.436724 a sol-ont:Quantity ;
-    sol-ont:hasQuantityKind solr:QuantityKind.OrbitalEccentricity_Observation.436724 ;
-    sol-ont:hasQuantityValue solr:NumericValue.OrbitalEccentricity_Observation.436724 .
+    sol-ont:hasQuantityKind "OrbitalEccentricity"^^sol-qk:OrbitalEccentricity ;
+    sol-ont:hasQuantityValue solr:QuantityValue.OrbitalEccentricity_Observation.436724 .
 
 solr:Quantity.OrbitalEccentricity_Observation.4660 a sol-ont:Quantity ;
-    sol-ont:hasQuantityKind solr:QuantityKind.OrbitalEccentricity_Observation.4660 ;
-    sol-ont:hasQuantityValue solr:NumericValue.OrbitalEccentricity_Observation.4660 .
+    sol-ont:hasQuantityKind "OrbitalEccentricity"^^sol-qk:OrbitalEccentricity ;
+    sol-ont:hasQuantityValue solr:QuantityValue.OrbitalEccentricity_Observation.4660 .
 
 solr:Quantity.OrbitalEccentricity_Observation.65803 a sol-ont:Quantity ;
-    sol-ont:hasQuantityKind solr:QuantityKind.OrbitalEccentricity_Observation.65803 ;
-    sol-ont:hasQuantityValue solr:NumericValue.OrbitalEccentricity_Observation.65803 .
+    sol-ont:hasQuantityKind "OrbitalEccentricity"^^sol-qk:OrbitalEccentricity ;
+    sol-ont:hasQuantityValue solr:QuantityValue.OrbitalEccentricity_Observation.65803 .
 
 solr:Quantity.OrbitalEccentricity_Observation.7474 a sol-ont:Quantity ;
-    sol-ont:hasQuantityKind solr:QuantityKind.OrbitalEccentricity_Observation.7474 ;
-    sol-ont:hasQuantityValue solr:NumericValue.OrbitalEccentricity_Observation.7474 .
+    sol-ont:hasQuantityKind "OrbitalEccentricity"^^sol-qk:OrbitalEccentricity ;
+    sol-ont:hasQuantityValue solr:QuantityValue.OrbitalEccentricity_Observation.7474 .
 
 solr:Quantity.OrbitalEccentricity_Observation.87 a sol-ont:Quantity ;
-    sol-ont:hasQuantityKind solr:QuantityKind.OrbitalEccentricity_Observation.87 ;
-    sol-ont:hasQuantityValue solr:NumericValue.OrbitalEccentricity_Observation.87 .
+    sol-ont:hasQuantityKind "OrbitalEccentricity"^^sol-qk:OrbitalEccentricity ;
+    sol-ont:hasQuantityValue solr:QuantityValue.OrbitalEccentricity_Observation.87 .
 
 solr:Quantity.OrbitalEccentricity_Observation.98943 a sol-ont:Quantity ;
-    sol-ont:hasQuantityKind solr:QuantityKind.OrbitalEccentricity_Observation.98943 ;
-    sol-ont:hasQuantityValue solr:NumericValue.OrbitalEccentricity_Observation.98943 .
+    sol-ont:hasQuantityKind "OrbitalEccentricity"^^sol-qk:OrbitalEccentricity ;
+    sol-ont:hasQuantityValue solr:QuantityValue.OrbitalEccentricity_Observation.98943 .
 
 solr:Quantity.OrbitalPeriod_Observation.10 a sol-ont:Quantity ;
-    sol-ont:hasQuantityKind solr:QuantityKind.OrbitalPeriod_Observation.10 ;
-    sol-ont:hasQuantityValue solr:NumericValue.OrbitalPeriod_Observation.10 .
+    sol-ont:hasQuantityKind "OrbitalPeriod"^^sol-qk:OrbitalPeriod ;
+    sol-ont:hasQuantityValue solr:QuantityValue.OrbitalPeriod_Observation.10 .
 
 solr:Quantity.OrbitalPeriod_Observation.101955 a sol-ont:Quantity ;
-    sol-ont:hasQuantityKind solr:QuantityKind.OrbitalPeriod_Observation.101955 ;
-    sol-ont:hasQuantityValue solr:NumericValue.OrbitalPeriod_Observation.101955 .
+    sol-ont:hasQuantityKind "OrbitalPeriod"^^sol-qk:OrbitalPeriod ;
+    sol-ont:hasQuantityValue solr:QuantityValue.OrbitalPeriod_Observation.101955 .
 
 solr:Quantity.OrbitalPeriod_Observation.10302 a sol-ont:Quantity ;
-    sol-ont:hasQuantityKind solr:QuantityKind.OrbitalPeriod_Observation.10302 ;
-    sol-ont:hasQuantityValue solr:NumericValue.OrbitalPeriod_Observation.10302 .
+    sol-ont:hasQuantityKind "OrbitalPeriod"^^sol-qk:OrbitalPeriod ;
+    sol-ont:hasQuantityValue solr:QuantityValue.OrbitalPeriod_Observation.10302 .
 
 solr:Quantity.OrbitalPeriod_Observation.13 a sol-ont:Quantity ;
-    sol-ont:hasQuantityKind solr:QuantityKind.OrbitalPeriod_Observation.13 ;
-    sol-ont:hasQuantityValue solr:NumericValue.OrbitalPeriod_Observation.13 .
+    sol-ont:hasQuantityKind "OrbitalPeriod"^^sol-qk:OrbitalPeriod ;
+    sol-ont:hasQuantityValue solr:QuantityValue.OrbitalPeriod_Observation.13 .
 
 solr:Quantity.OrbitalPeriod_Observation.16 a sol-ont:Quantity ;
-    sol-ont:hasQuantityKind solr:QuantityKind.OrbitalPeriod_Observation.16 ;
-    sol-ont:hasQuantityValue solr:NumericValue.OrbitalPeriod_Observation.16 .
+    sol-ont:hasQuantityKind "OrbitalPeriod"^^sol-qk:OrbitalPeriod ;
+    sol-ont:hasQuantityValue solr:QuantityValue.OrbitalPeriod_Observation.16 .
 
 solr:Quantity.OrbitalPeriod_Observation.162173 a sol-ont:Quantity ;
-    sol-ont:hasQuantityKind solr:QuantityKind.OrbitalPeriod_Observation.162173 ;
-    sol-ont:hasQuantityValue solr:NumericValue.OrbitalPeriod_Observation.162173 .
+    sol-ont:hasQuantityKind "OrbitalPeriod"^^sol-qk:OrbitalPeriod ;
+    sol-ont:hasQuantityValue solr:QuantityValue.OrbitalPeriod_Observation.162173 .
 
 solr:Quantity.OrbitalPeriod_Observation.19 a sol-ont:Quantity ;
-    sol-ont:hasQuantityKind solr:QuantityKind.OrbitalPeriod_Observation.19 ;
-    sol-ont:hasQuantityValue solr:NumericValue.OrbitalPeriod_Observation.19 .
+    sol-ont:hasQuantityKind "OrbitalPeriod"^^sol-qk:OrbitalPeriod ;
+    sol-ont:hasQuantityValue solr:QuantityValue.OrbitalPeriod_Observation.19 .
 
 solr:Quantity.OrbitalPeriod_Observation.1943 a sol-ont:Quantity ;
-    sol-ont:hasQuantityKind solr:QuantityKind.OrbitalPeriod_Observation.1943 ;
-    sol-ont:hasQuantityValue solr:NumericValue.OrbitalPeriod_Observation.1943 .
+    sol-ont:hasQuantityKind "OrbitalPeriod"^^sol-qk:OrbitalPeriod ;
+    sol-ont:hasQuantityValue solr:QuantityValue.OrbitalPeriod_Observation.1943 .
 
 solr:Quantity.OrbitalPeriod_Observation.2 a sol-ont:Quantity ;
-    sol-ont:hasQuantityKind solr:QuantityKind.OrbitalPeriod_Observation.2 ;
-    sol-ont:hasQuantityValue solr:NumericValue.OrbitalPeriod_Observation.2 .
+    sol-ont:hasQuantityKind "OrbitalPeriod"^^sol-qk:OrbitalPeriod ;
+    sol-ont:hasQuantityValue solr:QuantityValue.OrbitalPeriod_Observation.2 .
 
 solr:Quantity.OrbitalPeriod_Observation.436724 a sol-ont:Quantity ;
-    sol-ont:hasQuantityKind solr:QuantityKind.OrbitalPeriod_Observation.436724 ;
-    sol-ont:hasQuantityValue solr:NumericValue.OrbitalPeriod_Observation.436724 .
+    sol-ont:hasQuantityKind "OrbitalPeriod"^^sol-qk:OrbitalPeriod ;
+    sol-ont:hasQuantityValue solr:QuantityValue.OrbitalPeriod_Observation.436724 .
 
 solr:Quantity.OrbitalPeriod_Observation.4660 a sol-ont:Quantity ;
-    sol-ont:hasQuantityKind solr:QuantityKind.OrbitalPeriod_Observation.4660 ;
-    sol-ont:hasQuantityValue solr:NumericValue.OrbitalPeriod_Observation.4660 .
+    sol-ont:hasQuantityKind "OrbitalPeriod"^^sol-qk:OrbitalPeriod ;
+    sol-ont:hasQuantityValue solr:QuantityValue.OrbitalPeriod_Observation.4660 .
 
 solr:Quantity.OrbitalPeriod_Observation.65803 a sol-ont:Quantity ;
-    sol-ont:hasQuantityKind solr:QuantityKind.OrbitalPeriod_Observation.65803 ;
-    sol-ont:hasQuantityValue solr:NumericValue.OrbitalPeriod_Observation.65803 .
+    sol-ont:hasQuantityKind "OrbitalPeriod"^^sol-qk:OrbitalPeriod ;
+    sol-ont:hasQuantityValue solr:QuantityValue.OrbitalPeriod_Observation.65803 .
 
 solr:Quantity.OrbitalPeriod_Observation.7474 a sol-ont:Quantity ;
-    sol-ont:hasQuantityKind solr:QuantityKind.OrbitalPeriod_Observation.7474 ;
-    sol-ont:hasQuantityValue solr:NumericValue.OrbitalPeriod_Observation.7474 .
+    sol-ont:hasQuantityKind "OrbitalPeriod"^^sol-qk:OrbitalPeriod ;
+    sol-ont:hasQuantityValue solr:QuantityValue.OrbitalPeriod_Observation.7474 .
 
 solr:Quantity.OrbitalPeriod_Observation.87 a sol-ont:Quantity ;
-    sol-ont:hasQuantityKind solr:QuantityKind.OrbitalPeriod_Observation.87 ;
-    sol-ont:hasQuantityValue solr:NumericValue.OrbitalPeriod_Observation.87 .
+    sol-ont:hasQuantityKind "OrbitalPeriod"^^sol-qk:OrbitalPeriod ;
+    sol-ont:hasQuantityValue solr:QuantityValue.OrbitalPeriod_Observation.87 .
 
 solr:Quantity.OrbitalPeriod_Observation.98943 a sol-ont:Quantity ;
-    sol-ont:hasQuantityKind solr:QuantityKind.OrbitalPeriod_Observation.98943 ;
-    sol-ont:hasQuantityValue solr:NumericValue.OrbitalPeriod_Observation.98943 .
+    sol-ont:hasQuantityKind "OrbitalPeriod"^^sol-qk:OrbitalPeriod ;
+    sol-ont:hasQuantityValue solr:QuantityValue.OrbitalPeriod_Observation.98943 .
 
 solr:Quantity.PerihelionDistance_Observation.10 a sol-ont:Quantity ;
-    sol-ont:hasQuantityKind solr:QuantityKind.PerihelionDistance_Observation.10 ;
-    sol-ont:hasQuantityValue solr:NumericValue.PerihelionDistance_Observation.10 .
+    sol-ont:hasQuantityKind "PerihelionDistance"^^sol-qk:PerihelionDistance ;
+    sol-ont:hasQuantityValue solr:QuantityValue.PerihelionDistance_Observation.10 .
 
 solr:Quantity.PerihelionDistance_Observation.101955 a sol-ont:Quantity ;
-    sol-ont:hasQuantityKind solr:QuantityKind.PerihelionDistance_Observation.101955 ;
-    sol-ont:hasQuantityValue solr:NumericValue.PerihelionDistance_Observation.101955 .
+    sol-ont:hasQuantityKind "PerihelionDistance"^^sol-qk:PerihelionDistance ;
+    sol-ont:hasQuantityValue solr:QuantityValue.PerihelionDistance_Observation.101955 .
 
 solr:Quantity.PerihelionDistance_Observation.10302 a sol-ont:Quantity ;
-    sol-ont:hasQuantityKind solr:QuantityKind.PerihelionDistance_Observation.10302 ;
-    sol-ont:hasQuantityValue solr:NumericValue.PerihelionDistance_Observation.10302 .
+    sol-ont:hasQuantityKind "PerihelionDistance"^^sol-qk:PerihelionDistance ;
+    sol-ont:hasQuantityValue solr:QuantityValue.PerihelionDistance_Observation.10302 .
 
 solr:Quantity.PerihelionDistance_Observation.13 a sol-ont:Quantity ;
-    sol-ont:hasQuantityKind solr:QuantityKind.PerihelionDistance_Observation.13 ;
-    sol-ont:hasQuantityValue solr:NumericValue.PerihelionDistance_Observation.13 .
+    sol-ont:hasQuantityKind "PerihelionDistance"^^sol-qk:PerihelionDistance ;
+    sol-ont:hasQuantityValue solr:QuantityValue.PerihelionDistance_Observation.13 .
 
 solr:Quantity.PerihelionDistance_Observation.16 a sol-ont:Quantity ;
-    sol-ont:hasQuantityKind solr:QuantityKind.PerihelionDistance_Observation.16 ;
-    sol-ont:hasQuantityValue solr:NumericValue.PerihelionDistance_Observation.16 .
+    sol-ont:hasQuantityKind "PerihelionDistance"^^sol-qk:PerihelionDistance ;
+    sol-ont:hasQuantityValue solr:QuantityValue.PerihelionDistance_Observation.16 .
 
 solr:Quantity.PerihelionDistance_Observation.162173 a sol-ont:Quantity ;
-    sol-ont:hasQuantityKind solr:QuantityKind.PerihelionDistance_Observation.162173 ;
-    sol-ont:hasQuantityValue solr:NumericValue.PerihelionDistance_Observation.162173 .
+    sol-ont:hasQuantityKind "PerihelionDistance"^^sol-qk:PerihelionDistance ;
+    sol-ont:hasQuantityValue solr:QuantityValue.PerihelionDistance_Observation.162173 .
 
 solr:Quantity.PerihelionDistance_Observation.19 a sol-ont:Quantity ;
-    sol-ont:hasQuantityKind solr:QuantityKind.PerihelionDistance_Observation.19 ;
-    sol-ont:hasQuantityValue solr:NumericValue.PerihelionDistance_Observation.19 .
+    sol-ont:hasQuantityKind "PerihelionDistance"^^sol-qk:PerihelionDistance ;
+    sol-ont:hasQuantityValue solr:QuantityValue.PerihelionDistance_Observation.19 .
 
 solr:Quantity.PerihelionDistance_Observation.1943 a sol-ont:Quantity ;
-    sol-ont:hasQuantityKind solr:QuantityKind.PerihelionDistance_Observation.1943 ;
-    sol-ont:hasQuantityValue solr:NumericValue.PerihelionDistance_Observation.1943 .
+    sol-ont:hasQuantityKind "PerihelionDistance"^^sol-qk:PerihelionDistance ;
+    sol-ont:hasQuantityValue solr:QuantityValue.PerihelionDistance_Observation.1943 .
 
 solr:Quantity.PerihelionDistance_Observation.2 a sol-ont:Quantity ;
-    sol-ont:hasQuantityKind solr:QuantityKind.PerihelionDistance_Observation.2 ;
-    sol-ont:hasQuantityValue solr:NumericValue.PerihelionDistance_Observation.2 .
+    sol-ont:hasQuantityKind "PerihelionDistance"^^sol-qk:PerihelionDistance ;
+    sol-ont:hasQuantityValue solr:QuantityValue.PerihelionDistance_Observation.2 .
 
 solr:Quantity.PerihelionDistance_Observation.436724 a sol-ont:Quantity ;
-    sol-ont:hasQuantityKind solr:QuantityKind.PerihelionDistance_Observation.436724 ;
-    sol-ont:hasQuantityValue solr:NumericValue.PerihelionDistance_Observation.436724 .
+    sol-ont:hasQuantityKind "PerihelionDistance"^^sol-qk:PerihelionDistance ;
+    sol-ont:hasQuantityValue solr:QuantityValue.PerihelionDistance_Observation.436724 .
 
 solr:Quantity.PerihelionDistance_Observation.4660 a sol-ont:Quantity ;
-    sol-ont:hasQuantityKind solr:QuantityKind.PerihelionDistance_Observation.4660 ;
-    sol-ont:hasQuantityValue solr:NumericValue.PerihelionDistance_Observation.4660 .
+    sol-ont:hasQuantityKind "PerihelionDistance"^^sol-qk:PerihelionDistance ;
+    sol-ont:hasQuantityValue solr:QuantityValue.PerihelionDistance_Observation.4660 .
 
 solr:Quantity.PerihelionDistance_Observation.65803 a sol-ont:Quantity ;
-    sol-ont:hasQuantityKind solr:QuantityKind.PerihelionDistance_Observation.65803 ;
-    sol-ont:hasQuantityValue solr:NumericValue.PerihelionDistance_Observation.65803 .
+    sol-ont:hasQuantityKind "PerihelionDistance"^^sol-qk:PerihelionDistance ;
+    sol-ont:hasQuantityValue solr:QuantityValue.PerihelionDistance_Observation.65803 .
 
 solr:Quantity.PerihelionDistance_Observation.7474 a sol-ont:Quantity ;
-    sol-ont:hasQuantityKind solr:QuantityKind.PerihelionDistance_Observation.7474 ;
-    sol-ont:hasQuantityValue solr:NumericValue.PerihelionDistance_Observation.7474 .
+    sol-ont:hasQuantityKind "PerihelionDistance"^^sol-qk:PerihelionDistance ;
+    sol-ont:hasQuantityValue solr:QuantityValue.PerihelionDistance_Observation.7474 .
 
 solr:Quantity.PerihelionDistance_Observation.87 a sol-ont:Quantity ;
-    sol-ont:hasQuantityKind solr:QuantityKind.PerihelionDistance_Observation.87 ;
-    sol-ont:hasQuantityValue solr:NumericValue.PerihelionDistance_Observation.87 .
+    sol-ont:hasQuantityKind "PerihelionDistance"^^sol-qk:PerihelionDistance ;
+    sol-ont:hasQuantityValue solr:QuantityValue.PerihelionDistance_Observation.87 .
 
 solr:Quantity.PerihelionDistance_Observation.98943 a sol-ont:Quantity ;
-    sol-ont:hasQuantityKind solr:QuantityKind.PerihelionDistance_Observation.98943 ;
-    sol-ont:hasQuantityValue solr:NumericValue.PerihelionDistance_Observation.98943 .
+    sol-ont:hasQuantityKind "PerihelionDistance"^^sol-qk:PerihelionDistance ;
+    sol-ont:hasQuantityValue solr:QuantityValue.PerihelionDistance_Observation.98943 .
 
 solr:Quantity.Semi-MajorAxis_Observation.10 a sol-ont:Quantity ;
-    sol-ont:hasQuantityKind solr:QuantityKind.Semi-MajorAxis_Observation.10 ;
-    sol-ont:hasQuantityValue solr:NumericValue.Semi-MajorAxis_Observation.10 .
+    sol-ont:hasQuantityKind "Semi-MajorAxis"^^sol-qk:Semi-MajorAxis ;
+    sol-ont:hasQuantityValue solr:QuantityValue.Semi-MajorAxis_Observation.10 .
 
 solr:Quantity.Semi-MajorAxis_Observation.101955 a sol-ont:Quantity ;
-    sol-ont:hasQuantityKind solr:QuantityKind.Semi-MajorAxis_Observation.101955 ;
-    sol-ont:hasQuantityValue solr:NumericValue.Semi-MajorAxis_Observation.101955 .
+    sol-ont:hasQuantityKind "Semi-MajorAxis"^^sol-qk:Semi-MajorAxis ;
+    sol-ont:hasQuantityValue solr:QuantityValue.Semi-MajorAxis_Observation.101955 .
 
 solr:Quantity.Semi-MajorAxis_Observation.10302 a sol-ont:Quantity ;
-    sol-ont:hasQuantityKind solr:QuantityKind.Semi-MajorAxis_Observation.10302 ;
-    sol-ont:hasQuantityValue solr:NumericValue.Semi-MajorAxis_Observation.10302 .
+    sol-ont:hasQuantityKind "Semi-MajorAxis"^^sol-qk:Semi-MajorAxis ;
+    sol-ont:hasQuantityValue solr:QuantityValue.Semi-MajorAxis_Observation.10302 .
 
 solr:Quantity.Semi-MajorAxis_Observation.13 a sol-ont:Quantity ;
-    sol-ont:hasQuantityKind solr:QuantityKind.Semi-MajorAxis_Observation.13 ;
-    sol-ont:hasQuantityValue solr:NumericValue.Semi-MajorAxis_Observation.13 .
+    sol-ont:hasQuantityKind "Semi-MajorAxis"^^sol-qk:Semi-MajorAxis ;
+    sol-ont:hasQuantityValue solr:QuantityValue.Semi-MajorAxis_Observation.13 .
 
 solr:Quantity.Semi-MajorAxis_Observation.16 a sol-ont:Quantity ;
-    sol-ont:hasQuantityKind solr:QuantityKind.Semi-MajorAxis_Observation.16 ;
-    sol-ont:hasQuantityValue solr:NumericValue.Semi-MajorAxis_Observation.16 .
+    sol-ont:hasQuantityKind "Semi-MajorAxis"^^sol-qk:Semi-MajorAxis ;
+    sol-ont:hasQuantityValue solr:QuantityValue.Semi-MajorAxis_Observation.16 .
 
 solr:Quantity.Semi-MajorAxis_Observation.162173 a sol-ont:Quantity ;
-    sol-ont:hasQuantityKind solr:QuantityKind.Semi-MajorAxis_Observation.162173 ;
-    sol-ont:hasQuantityValue solr:NumericValue.Semi-MajorAxis_Observation.162173 .
+    sol-ont:hasQuantityKind "Semi-MajorAxis"^^sol-qk:Semi-MajorAxis ;
+    sol-ont:hasQuantityValue solr:QuantityValue.Semi-MajorAxis_Observation.162173 .
 
 solr:Quantity.Semi-MajorAxis_Observation.19 a sol-ont:Quantity ;
-    sol-ont:hasQuantityKind solr:QuantityKind.Semi-MajorAxis_Observation.19 ;
-    sol-ont:hasQuantityValue solr:NumericValue.Semi-MajorAxis_Observation.19 .
+    sol-ont:hasQuantityKind "Semi-MajorAxis"^^sol-qk:Semi-MajorAxis ;
+    sol-ont:hasQuantityValue solr:QuantityValue.Semi-MajorAxis_Observation.19 .
 
 solr:Quantity.Semi-MajorAxis_Observation.1943 a sol-ont:Quantity ;
-    sol-ont:hasQuantityKind solr:QuantityKind.Semi-MajorAxis_Observation.1943 ;
-    sol-ont:hasQuantityValue solr:NumericValue.Semi-MajorAxis_Observation.1943 .
+    sol-ont:hasQuantityKind "Semi-MajorAxis"^^sol-qk:Semi-MajorAxis ;
+    sol-ont:hasQuantityValue solr:QuantityValue.Semi-MajorAxis_Observation.1943 .
 
 solr:Quantity.Semi-MajorAxis_Observation.2 a sol-ont:Quantity ;
-    sol-ont:hasQuantityKind solr:QuantityKind.Semi-MajorAxis_Observation.2 ;
-    sol-ont:hasQuantityValue solr:NumericValue.Semi-MajorAxis_Observation.2 .
+    sol-ont:hasQuantityKind "Semi-MajorAxis"^^sol-qk:Semi-MajorAxis ;
+    sol-ont:hasQuantityValue solr:QuantityValue.Semi-MajorAxis_Observation.2 .
 
 solr:Quantity.Semi-MajorAxis_Observation.436724 a sol-ont:Quantity ;
-    sol-ont:hasQuantityKind solr:QuantityKind.Semi-MajorAxis_Observation.436724 ;
-    sol-ont:hasQuantityValue solr:NumericValue.Semi-MajorAxis_Observation.436724 .
+    sol-ont:hasQuantityKind "Semi-MajorAxis"^^sol-qk:Semi-MajorAxis ;
+    sol-ont:hasQuantityValue solr:QuantityValue.Semi-MajorAxis_Observation.436724 .
 
 solr:Quantity.Semi-MajorAxis_Observation.4660 a sol-ont:Quantity ;
-    sol-ont:hasQuantityKind solr:QuantityKind.Semi-MajorAxis_Observation.4660 ;
-    sol-ont:hasQuantityValue solr:NumericValue.Semi-MajorAxis_Observation.4660 .
+    sol-ont:hasQuantityKind "Semi-MajorAxis"^^sol-qk:Semi-MajorAxis ;
+    sol-ont:hasQuantityValue solr:QuantityValue.Semi-MajorAxis_Observation.4660 .
 
 solr:Quantity.Semi-MajorAxis_Observation.65803 a sol-ont:Quantity ;
-    sol-ont:hasQuantityKind solr:QuantityKind.Semi-MajorAxis_Observation.65803 ;
-    sol-ont:hasQuantityValue solr:NumericValue.Semi-MajorAxis_Observation.65803 .
+    sol-ont:hasQuantityKind "Semi-MajorAxis"^^sol-qk:Semi-MajorAxis ;
+    sol-ont:hasQuantityValue solr:QuantityValue.Semi-MajorAxis_Observation.65803 .
 
 solr:Quantity.Semi-MajorAxis_Observation.7474 a sol-ont:Quantity ;
-    sol-ont:hasQuantityKind solr:QuantityKind.Semi-MajorAxis_Observation.7474 ;
-    sol-ont:hasQuantityValue solr:NumericValue.Semi-MajorAxis_Observation.7474 .
+    sol-ont:hasQuantityKind "Semi-MajorAxis"^^sol-qk:Semi-MajorAxis ;
+    sol-ont:hasQuantityValue solr:QuantityValue.Semi-MajorAxis_Observation.7474 .
 
 solr:Quantity.Semi-MajorAxis_Observation.87 a sol-ont:Quantity ;
-    sol-ont:hasQuantityKind solr:QuantityKind.Semi-MajorAxis_Observation.87 ;
-    sol-ont:hasQuantityValue solr:NumericValue.Semi-MajorAxis_Observation.87 .
+    sol-ont:hasQuantityKind "Semi-MajorAxis"^^sol-qk:Semi-MajorAxis ;
+    sol-ont:hasQuantityValue solr:QuantityValue.Semi-MajorAxis_Observation.87 .
 
 solr:Quantity.Semi-MajorAxis_Observation.98943 a sol-ont:Quantity ;
-    sol-ont:hasQuantityKind solr:QuantityKind.Semi-MajorAxis_Observation.98943 ;
-    sol-ont:hasQuantityValue solr:NumericValue.Semi-MajorAxis_Observation.98943 .
+    sol-ont:hasQuantityKind "Semi-MajorAxis"^^sol-qk:Semi-MajorAxis ;
+    sol-ont:hasQuantityValue solr:QuantityValue.Semi-MajorAxis_Observation.98943 .
+
+solr:QuantityValue.AphelionDistance_Observation.10 a sol-ont:QuantityValue ;
+    sol-ont:hasNumericValue 3.489241e+00 ;
+    sol-ont:hasUnit "au"^^sol-unit:au .
+
+solr:QuantityValue.AphelionDistance_Observation.101955 a sol-ont:QuantityValue ;
+    sol-ont:hasNumericValue 1.355888e+00 ;
+    sol-ont:hasUnit "au"^^sol-unit:au .
+
+solr:QuantityValue.AphelionDistance_Observation.10302 a sol-ont:QuantityValue ;
+    sol-ont:hasNumericValue 1.447057e+00 ;
+    sol-ont:hasUnit "au"^^sol-unit:au .
+
+solr:QuantityValue.AphelionDistance_Observation.13 a sol-ont:QuantityValue ;
+    sol-ont:hasNumericValue 2.796073e+00 ;
+    sol-ont:hasUnit "au"^^sol-unit:au .
+
+solr:QuantityValue.AphelionDistance_Observation.16 a sol-ont:QuantityValue ;
+    sol-ont:hasNumericValue 3.316324e+00 ;
+    sol-ont:hasUnit "au"^^sol-unit:au .
+
+solr:QuantityValue.AphelionDistance_Observation.162173 a sol-ont:QuantityValue ;
+    sol-ont:hasNumericValue 1.418531e+00 ;
+    sol-ont:hasUnit "au"^^sol-unit:au .
+
+solr:QuantityValue.AphelionDistance_Observation.19 a sol-ont:QuantityValue ;
+    sol-ont:hasNumericValue 2.826748e+00 ;
+    sol-ont:hasUnit "au"^^sol-unit:au .
+
+solr:QuantityValue.AphelionDistance_Observation.1943 a sol-ont:QuantityValue ;
+    sol-ont:hasNumericValue 1.796616e+00 ;
+    sol-ont:hasUnit "au"^^sol-unit:au .
 
-solr:QuantityKind.AphelionDistance_Observation.10 a sol-ont:QuantityKind,
-        "AphelionDistance"^^sol-qk:AphelionDistance .
+solr:QuantityValue.AphelionDistance_Observation.2 a sol-ont:QuantityValue ;
+    sol-ont:hasNumericValue 3.406881e+00 ;
+    sol-ont:hasUnit "au"^^sol-unit:au .
 
-solr:QuantityKind.AphelionDistance_Observation.101955 a sol-ont:QuantityKind,
-        "AphelionDistance"^^sol-qk:AphelionDistance .
+solr:QuantityValue.AphelionDistance_Observation.436724 a sol-ont:QuantityValue ;
+    sol-ont:hasNumericValue 2.230463e+00 ;
+    sol-ont:hasUnit "au"^^sol-unit:au .
 
-solr:QuantityKind.AphelionDistance_Observation.10302 a sol-ont:QuantityKind,
-        "AphelionDistance"^^sol-qk:AphelionDistance .
+solr:QuantityValue.AphelionDistance_Observation.4660 a sol-ont:QuantityValue ;
+    sol-ont:hasNumericValue 2.017813e+00 ;
+    sol-ont:hasUnit "au"^^sol-unit:au .
 
-solr:QuantityKind.AphelionDistance_Observation.13 a sol-ont:QuantityKind,
-        "AphelionDistance"^^sol-qk:AphelionDistance .
+solr:QuantityValue.AphelionDistance_Observation.65803 a sol-ont:QuantityValue ;
+    sol-ont:hasNumericValue 2.272102e+00 ;
+    sol-ont:hasUnit "au"^^sol-unit:au .
 
-solr:QuantityKind.AphelionDistance_Observation.16 a sol-ont:QuantityKind,
-        "AphelionDistance"^^sol-qk:AphelionDistance .
+solr:QuantityValue.AphelionDistance_Observation.7474 a sol-ont:QuantityValue ;
+    sol-ont:hasNumericValue 2.023261e+00 ;
+    sol-ont:hasUnit "au"^^sol-unit:au .
 
-solr:QuantityKind.AphelionDistance_Observation.162173 a sol-ont:QuantityKind,
-        "AphelionDistance"^^sol-qk:AphelionDistance .
+solr:QuantityValue.AphelionDistance_Observation.87 a sol-ont:QuantityValue ;
+    sol-ont:hasNumericValue 3.80449e+00 ;
+    sol-ont:hasUnit "au"^^sol-unit:au .
 
-solr:QuantityKind.AphelionDistance_Observation.19 a sol-ont:QuantityKind,
-        "AphelionDistance"^^sol-qk:AphelionDistance .
+solr:QuantityValue.AphelionDistance_Observation.98943 a sol-ont:QuantityValue ;
+    sol-ont:hasNumericValue 1.258531e+00 ;
+    sol-ont:hasUnit "au"^^sol-unit:au .
 
-solr:QuantityKind.AphelionDistance_Observation.1943 a sol-ont:QuantityKind,
-        "AphelionDistance"^^sol-qk:AphelionDistance .
+solr:QuantityValue.ArgumentOfPerihelion_Observation.10 a sol-ont:QuantityValue ;
+    sol-ont:hasNumericValue 3.124867e+02 ;
+    sol-ont:hasUnit "deg"^^sol-unit:deg .
 
-solr:QuantityKind.AphelionDistance_Observation.2 a sol-ont:QuantityKind,
-        "AphelionDistance"^^sol-qk:AphelionDistance .
+solr:QuantityValue.ArgumentOfPerihelion_Observation.101955 a sol-ont:QuantityValue ;
+    sol-ont:hasNumericValue 6.622306e+01 ;
+    sol-ont:hasUnit "deg"^^sol-unit:deg .
 
-solr:QuantityKind.AphelionDistance_Observation.436724 a sol-ont:QuantityKind,
-        "AphelionDistance"^^sol-qk:AphelionDistance .
+solr:QuantityValue.ArgumentOfPerihelion_Observation.10302 a sol-ont:QuantityValue ;
+    sol-ont:hasNumericValue 1.83624e+02 ;
+    sol-ont:hasUnit "deg"^^sol-unit:deg .
 
-solr:QuantityKind.AphelionDistance_Observation.4660 a sol-ont:QuantityKind,
-        "AphelionDistance"^^sol-qk:AphelionDistance .
+solr:QuantityValue.ArgumentOfPerihelion_Observation.13 a sol-ont:QuantityValue ;
+    sol-ont:hasNumericValue 7.990611e+01 ;
+    sol-ont:hasUnit "deg"^^sol-unit:deg .
 
-solr:QuantityKind.AphelionDistance_Observation.65803 a sol-ont:QuantityKind,
-        "AphelionDistance"^^sol-qk:AphelionDistance .
+solr:QuantityValue.ArgumentOfPerihelion_Observation.16 a sol-ont:QuantityValue ;
+    sol-ont:hasNumericValue 2.293282e+02 ;
+    sol-ont:hasUnit "deg"^^sol-unit:deg .
 
-solr:QuantityKind.AphelionDistance_Observation.7474 a sol-ont:QuantityKind,
-        "AphelionDistance"^^sol-qk:AphelionDistance .
+solr:QuantityValue.ArgumentOfPerihelion_Observation.162173 a sol-ont:QuantityValue ;
+    sol-ont:hasNumericValue 2.116069e+02 ;
+    sol-ont:hasUnit "deg"^^sol-unit:deg .
 
-solr:QuantityKind.AphelionDistance_Observation.87 a sol-ont:QuantityKind,
-        "AphelionDistance"^^sol-qk:AphelionDistance .
+solr:QuantityValue.ArgumentOfPerihelion_Observation.19 a sol-ont:QuantityValue ;
+    sol-ont:hasNumericValue 1.825434e+02 ;
+    sol-ont:hasUnit "deg"^^sol-unit:deg .
 
-solr:QuantityKind.AphelionDistance_Observation.98943 a sol-ont:QuantityKind,
-        "AphelionDistance"^^sol-qk:AphelionDistance .
+solr:QuantityValue.ArgumentOfPerihelion_Observation.1943 a sol-ont:QuantityValue ;
+    sol-ont:hasNumericValue 3.383586e+02 ;
+    sol-ont:hasUnit "deg"^^sol-unit:deg .
 
-solr:QuantityKind.ArgumentOfPerihelion_Observation.10 a sol-ont:QuantityKind,
-        "ArgumentOfPerihelion"^^sol-qk:ArgumentOfPerihelion .
+solr:QuantityValue.ArgumentOfPerihelion_Observation.2 a sol-ont:QuantityValue ;
+    sol-ont:hasNumericValue 3.108648e+02 ;
+    sol-ont:hasUnit "deg"^^sol-unit:deg .
 
-solr:QuantityKind.ArgumentOfPerihelion_Observation.101955 a sol-ont:QuantityKind,
-        "ArgumentOfPerihelion"^^sol-qk:ArgumentOfPerihelion .
+solr:QuantityValue.ArgumentOfPerihelion_Observation.436724 a sol-ont:QuantityValue ;
+    sol-ont:hasNumericValue 8.795544e+00 ;
+    sol-ont:hasUnit "deg"^^sol-unit:deg .
 
-solr:QuantityKind.ArgumentOfPerihelion_Observation.10302 a sol-ont:QuantityKind,
-        "ArgumentOfPerihelion"^^sol-qk:ArgumentOfPerihelion .
+solr:QuantityValue.ArgumentOfPerihelion_Observation.4660 a sol-ont:QuantityValue ;
+    sol-ont:hasNumericValue 1.6e+02 ;
+    sol-ont:hasUnit "deg"^^sol-unit:deg .
 
-solr:QuantityKind.ArgumentOfPerihelion_Observation.13 a sol-ont:QuantityKind,
-        "ArgumentOfPerihelion"^^sol-qk:ArgumentOfPerihelion .
+solr:QuantityValue.ArgumentOfPerihelion_Observation.65803 a sol-ont:QuantityValue ;
+    sol-ont:hasNumericValue 3.195616e+02 ;
+    sol-ont:hasUnit "deg"^^sol-unit:deg .
 
-solr:QuantityKind.ArgumentOfPerihelion_Observation.16 a sol-ont:QuantityKind,
-        "ArgumentOfPerihelion"^^sol-qk:ArgumentOfPerihelion .
+solr:QuantityValue.ArgumentOfPerihelion_Observation.7474 a sol-ont:QuantityValue ;
+    sol-ont:hasNumericValue 2.756459e+02 ;
+    sol-ont:hasUnit "deg"^^sol-unit:deg .
 
-solr:QuantityKind.ArgumentOfPerihelion_Observation.162173 a sol-ont:QuantityKind,
-        "ArgumentOfPerihelion"^^sol-qk:ArgumentOfPerihelion .
+solr:QuantityValue.ArgumentOfPerihelion_Observation.87 a sol-ont:QuantityValue ;
+    sol-ont:hasNumericValue 2.642882e+02 ;
+    sol-ont:hasUnit "deg"^^sol-unit:deg .
 
-solr:QuantityKind.ArgumentOfPerihelion_Observation.19 a sol-ont:QuantityKind,
-        "ArgumentOfPerihelion"^^sol-qk:ArgumentOfPerihelion .
+solr:QuantityValue.ArgumentOfPerihelion_Observation.98943 a sol-ont:QuantityValue ;
+    sol-ont:hasNumericValue 1.794407e+02 ;
+    sol-ont:hasUnit "deg"^^sol-unit:deg .
 
-solr:QuantityKind.ArgumentOfPerihelion_Observation.1943 a sol-ont:QuantityKind,
-        "ArgumentOfPerihelion"^^sol-qk:ArgumentOfPerihelion .
+solr:QuantityValue.Diameter_Observation.10 a sol-ont:QuantityValue ;
+    sol-ont:hasNumericValue 4.0712e+02 ;
+    sol-ont:hasUnit "km"^^sol-unit:km .
 
-solr:QuantityKind.ArgumentOfPerihelion_Observation.2 a sol-ont:QuantityKind,
-        "ArgumentOfPerihelion"^^sol-qk:ArgumentOfPerihelion .
+solr:QuantityValue.Diameter_Observation.101955 a sol-ont:QuantityValue ;
+    sol-ont:hasNumericValue 4.82e-01 ;
+    sol-ont:hasUnit "km"^^sol-unit:km .
 
-solr:QuantityKind.ArgumentOfPerihelion_Observation.436724 a sol-ont:QuantityKind,
-        "ArgumentOfPerihelion"^^sol-qk:ArgumentOfPerihelion .
+solr:QuantityValue.Diameter_Observation.10302 a sol-ont:QuantityValue ;
+    sol-ont:hasUnit "km"^^sol-unit:km .
 
-solr:QuantityKind.ArgumentOfPerihelion_Observation.4660 a sol-ont:QuantityKind,
-        "ArgumentOfPerihelion"^^sol-qk:ArgumentOfPerihelion .
+solr:QuantityValue.Diameter_Observation.13 a sol-ont:QuantityValue ;
+    sol-ont:hasNumericValue 2.02636e+02 ;
+    sol-ont:hasUnit "km"^^sol-unit:km .
 
-solr:QuantityKind.ArgumentOfPerihelion_Observation.65803 a sol-ont:QuantityKind,
-        "ArgumentOfPerihelion"^^sol-qk:ArgumentOfPerihelion .
+solr:QuantityValue.Diameter_Observation.16 a sol-ont:QuantityValue ;
+    sol-ont:hasNumericValue 2.26e+02 ;
+    sol-ont:hasUnit "km"^^sol-unit:km .
 
-solr:QuantityKind.ArgumentOfPerihelion_Observation.7474 a sol-ont:QuantityKind,
-        "ArgumentOfPerihelion"^^sol-qk:ArgumentOfPerihelion .
+solr:QuantityValue.Diameter_Observation.162173 a sol-ont:QuantityValue ;
+    sol-ont:hasNumericValue 8.96e-01 ;
+    sol-ont:hasUnit "km"^^sol-unit:km .
 
-solr:QuantityKind.ArgumentOfPerihelion_Observation.87 a sol-ont:QuantityKind,
-        "ArgumentOfPerihelion"^^sol-qk:ArgumentOfPerihelion .
+solr:QuantityValue.Diameter_Observation.19 a sol-ont:QuantityValue ;
+    sol-ont:hasNumericValue 2e+02 ;
+    sol-ont:hasUnit "km"^^sol-unit:km .
 
-solr:QuantityKind.ArgumentOfPerihelion_Observation.98943 a sol-ont:QuantityKind,
-        "ArgumentOfPerihelion"^^sol-qk:ArgumentOfPerihelion .
+solr:QuantityValue.Diameter_Observation.1943 a sol-ont:QuantityValue ;
+    sol-ont:hasNumericValue 2.3e+00 ;
+    sol-ont:hasUnit "km"^^sol-unit:km .
 
-solr:QuantityKind.Diameter_Observation.10 a sol-ont:QuantityKind,
-        "Diameter"^^sol-qk:Diameter .
+solr:QuantityValue.Diameter_Observation.2 a sol-ont:QuantityValue ;
+    sol-ont:hasNumericValue 5.13e+02 ;
+    sol-ont:hasUnit "km"^^sol-unit:km .
 
-solr:QuantityKind.Diameter_Observation.101955 a sol-ont:QuantityKind,
-        "Diameter"^^sol-qk:Diameter .
+solr:QuantityValue.Diameter_Observation.436724 a sol-ont:QuantityValue ;
+    sol-ont:hasUnit "km"^^sol-unit:km .
 
-solr:QuantityKind.Diameter_Observation.10302 a sol-ont:QuantityKind,
-        "Diameter"^^sol-qk:Diameter .
+solr:QuantityValue.Diameter_Observation.4660 a sol-ont:QuantityValue ;
+    sol-ont:hasNumericValue 3.3e-01 ;
+    sol-ont:hasUnit "km"^^sol-unit:km .
 
-solr:QuantityKind.Diameter_Observation.13 a sol-ont:QuantityKind,
-        "Diameter"^^sol-qk:Diameter .
+solr:QuantityValue.Diameter_Observation.65803 a sol-ont:QuantityValue ;
+    sol-ont:hasNumericValue 7.8e-01 ;
+    sol-ont:hasUnit "km"^^sol-unit:km .
 
-solr:QuantityKind.Diameter_Observation.16 a sol-ont:QuantityKind,
-        "Diameter"^^sol-qk:Diameter .
+solr:QuantityValue.Diameter_Observation.7474 a sol-ont:QuantityValue ;
+    sol-ont:hasUnit "km"^^sol-unit:km .
 
-solr:QuantityKind.Diameter_Observation.162173 a sol-ont:QuantityKind,
-        "Diameter"^^sol-qk:Diameter .
+solr:QuantityValue.Diameter_Observation.87 a sol-ont:QuantityValue ;
+    sol-ont:hasNumericValue 3.80449e+00 ;
+    sol-ont:hasUnit "km"^^sol-unit:km .
 
-solr:QuantityKind.Diameter_Observation.19 a sol-ont:QuantityKind,
-        "Diameter"^^sol-qk:Diameter .
+solr:QuantityValue.Diameter_Observation.98943 a sol-ont:QuantityValue ;
+    sol-ont:hasUnit "km"^^sol-unit:km .
 
-solr:QuantityKind.Diameter_Observation.1943 a sol-ont:QuantityKind,
-        "Diameter"^^sol-qk:Diameter .
+solr:QuantityValue.Inclination_Observation.10 a sol-ont:QuantityValue ;
+    sol-ont:hasNumericValue 3.831728e+00 ;
+    sol-ont:hasUnit "deg"^^sol-unit:deg .
 
-solr:QuantityKind.Diameter_Observation.2 a sol-ont:QuantityKind,
-        "Diameter"^^sol-qk:Diameter .
+solr:QuantityValue.Inclination_Observation.101955 a sol-ont:QuantityValue ;
+    sol-ont:hasNumericValue 6.034944e+00 ;
+    sol-ont:hasUnit "deg"^^sol-unit:deg .
 
-solr:QuantityKind.Diameter_Observation.436724 a sol-ont:QuantityKind,
-        "Diameter"^^sol-qk:Diameter .
+solr:QuantityValue.Inclination_Observation.10302 a sol-ont:QuantityValue ;
+    sol-ont:hasNumericValue 4.378652e+00 ;
+    sol-ont:hasUnit "deg"^^sol-unit:deg .
 
-solr:QuantityKind.Diameter_Observation.4660 a sol-ont:QuantityKind,
-        "Diameter"^^sol-qk:Diameter .
+solr:QuantityValue.Inclination_Observation.13 a sol-ont:QuantityValue ;
+    sol-ont:hasNumericValue 1.653668e+01 ;
+    sol-ont:hasUnit "deg"^^sol-unit:deg .
 
-solr:QuantityKind.Diameter_Observation.65803 a sol-ont:QuantityKind,
-        "Diameter"^^sol-qk:Diameter .
+solr:QuantityValue.Inclination_Observation.16 a sol-ont:QuantityValue ;
+    sol-ont:hasNumericValue 3.096845e+00 ;
+    sol-ont:hasUnit "deg"^^sol-unit:deg .
 
-solr:QuantityKind.Diameter_Observation.7474 a sol-ont:QuantityKind,
-        "Diameter"^^sol-qk:Diameter .
+solr:QuantityValue.Inclination_Observation.162173 a sol-ont:QuantityValue ;
+    sol-ont:hasNumericValue 5.866179e+00 ;
+    sol-ont:hasUnit "deg"^^sol-unit:deg .
 
-solr:QuantityKind.Diameter_Observation.87 a sol-ont:QuantityKind,
-        "Diameter"^^sol-qk:Diameter .
+solr:QuantityValue.Inclination_Observation.19 a sol-ont:QuantityValue ;
+    sol-ont:hasNumericValue 1.57341e+00 ;
+    sol-ont:hasUnit "deg"^^sol-unit:deg .
 
-solr:QuantityKind.Diameter_Observation.98943 a sol-ont:QuantityKind,
-        "Diameter"^^sol-qk:Diameter .
+solr:QuantityValue.Inclination_Observation.1943 a sol-ont:QuantityValue ;
+    sol-ont:hasNumericValue 8.706154e+00 ;
+    sol-ont:hasUnit "deg"^^sol-unit:deg .
 
-solr:QuantityKind.Inclination_Observation.10 a sol-ont:QuantityKind,
-        "Inclination"^^sol-qk:Inclination .
+solr:QuantityValue.Inclination_Observation.2 a sol-ont:QuantityValue ;
+    sol-ont:hasNumericValue 3.492703e+01 ;
+    sol-ont:hasUnit "deg"^^sol-unit:deg .
 
-solr:QuantityKind.Inclination_Observation.101955 a sol-ont:QuantityKind,
-        "Inclination"^^sol-qk:Inclination .
+solr:QuantityValue.Inclination_Observation.436724 a sol-ont:QuantityValue ;
+    sol-ont:hasNumericValue 4.570993e+00 ;
+    sol-ont:hasUnit "deg"^^sol-unit:deg .
 
-solr:QuantityKind.Inclination_Observation.10302 a sol-ont:QuantityKind,
-        "Inclination"^^sol-qk:Inclination .
+solr:QuantityValue.Inclination_Observation.4660 a sol-ont:QuantityValue ;
+    sol-ont:hasNumericValue 1.453737e+00 ;
+    sol-ont:hasUnit "deg"^^sol-unit:deg .
 
-solr:QuantityKind.Inclination_Observation.13 a sol-ont:QuantityKind,
-        "Inclination"^^sol-qk:Inclination .
+solr:QuantityValue.Inclination_Observation.65803 a sol-ont:QuantityValue ;
+    sol-ont:hasNumericValue 3.414109e+00 ;
+    sol-ont:hasUnit "deg"^^sol-unit:deg .
 
-solr:QuantityKind.Inclination_Observation.16 a sol-ont:QuantityKind,
-        "Inclination"^^sol-qk:Inclination .
+solr:QuantityValue.Inclination_Observation.7474 a sol-ont:QuantityValue ;
+    sol-ont:hasNumericValue 7.087578e+00 ;
+    sol-ont:hasUnit "deg"^^sol-unit:deg .
 
-solr:QuantityKind.Inclination_Observation.162173 a sol-ont:QuantityKind,
-        "Inclination"^^sol-qk:Inclination .
+solr:QuantityValue.Inclination_Observation.87 a sol-ont:QuantityValue ;
+    sol-ont:hasNumericValue 1.087984e+01 ;
+    sol-ont:hasUnit "deg"^^sol-unit:deg .
 
-solr:QuantityKind.Inclination_Observation.19 a sol-ont:QuantityKind,
-        "Inclination"^^sol-qk:Inclination .
+solr:QuantityValue.Inclination_Observation.98943 a sol-ont:QuantityValue ;
+    sol-ont:hasNumericValue 4.806716e+00 ;
+    sol-ont:hasUnit "deg"^^sol-unit:deg .
 
-solr:QuantityKind.Inclination_Observation.1943 a sol-ont:QuantityKind,
-        "Inclination"^^sol-qk:Inclination .
+solr:QuantityValue.LongitudeOfAscendingNode_Observation.10 a sol-ont:QuantityValue ;
+    sol-ont:hasNumericValue 2.831732e+02 ;
+    sol-ont:hasUnit "deg"^^sol-unit:deg .
 
-solr:QuantityKind.Inclination_Observation.2 a sol-ont:QuantityKind,
-        "Inclination"^^sol-qk:Inclination .
+solr:QuantityValue.LongitudeOfAscendingNode_Observation.101955 a sol-ont:QuantityValue ;
+    sol-ont:hasNumericValue 2.060866e+00 ;
+    sol-ont:hasUnit "deg"^^sol-unit:deg .
 
-solr:QuantityKind.Inclination_Observation.436724 a sol-ont:QuantityKind,
-        "Inclination"^^sol-qk:Inclination .
+solr:QuantityValue.LongitudeOfAscendingNode_Observation.10302 a sol-ont:QuantityValue ;
+    sol-ont:hasNumericValue 1.042814e+02 ;
+    sol-ont:hasUnit "deg"^^sol-unit:deg .
 
-solr:QuantityKind.Inclination_Observation.4660 a sol-ont:QuantityKind,
-        "Inclination"^^sol-qk:Inclination .
+solr:QuantityValue.LongitudeOfAscendingNode_Observation.13 a sol-ont:QuantityValue ;
+    sol-ont:hasNumericValue 4.320839e+01 ;
+    sol-ont:hasUnit "deg"^^sol-unit:deg .
 
-solr:QuantityKind.Inclination_Observation.65803 a sol-ont:QuantityKind,
-        "Inclination"^^sol-qk:Inclination .
+solr:QuantityValue.LongitudeOfAscendingNode_Observation.16 a sol-ont:QuantityValue ;
+    sol-ont:hasNumericValue 1.500308e+02 ;
+    sol-ont:hasUnit "deg"^^sol-unit:deg .
 
-solr:QuantityKind.Inclination_Observation.7474 a sol-ont:QuantityKind,
-        "Inclination"^^sol-qk:Inclination .
+solr:QuantityValue.LongitudeOfAscendingNode_Observation.162173 a sol-ont:QuantityValue ;
+    sol-ont:hasNumericValue 2.513013e+02 ;
+    sol-ont:hasUnit "deg"^^sol-unit:deg .
 
-solr:QuantityKind.Inclination_Observation.87 a sol-ont:QuantityKind,
-        "Inclination"^^sol-qk:Inclination .
+solr:QuantityValue.LongitudeOfAscendingNode_Observation.19 a sol-ont:QuantityValue ;
+    sol-ont:hasNumericValue 2.110343e+02 ;
+    sol-ont:hasUnit "deg"^^sol-unit:deg .
 
-solr:QuantityKind.Inclination_Observation.98943 a sol-ont:QuantityKind,
-        "Inclination"^^sol-qk:Inclination .
+solr:QuantityValue.LongitudeOfAscendingNode_Observation.1943 a sol-ont:QuantityValue ;
+    sol-ont:hasNumericValue 2.463069e+02 ;
+    sol-ont:hasUnit "deg"^^sol-unit:deg .
 
-solr:QuantityKind.LongitudeOfAscendingNode_Observation.10 a sol-ont:QuantityKind,
-        "LongitudeOfAscendingNode"^^sol-qk:LongitudeOfAscendingNode .
+solr:QuantityValue.LongitudeOfAscendingNode_Observation.2 a sol-ont:QuantityValue ;
+    sol-ont:hasNumericValue 1.729181e+02 ;
+    sol-ont:hasUnit "deg"^^sol-unit:deg .
 
-solr:QuantityKind.LongitudeOfAscendingNode_Observation.101955 a sol-ont:QuantityKind,
-        "LongitudeOfAscendingNode"^^sol-qk:LongitudeOfAscendingNode .
+solr:QuantityValue.LongitudeOfAscendingNode_Observation.436724 a sol-ont:QuantityValue ;
+    sol-ont:hasNumericValue 2.859766e+02 ;
+    sol-ont:hasUnit "deg"^^sol-unit:deg .
 
-solr:QuantityKind.LongitudeOfAscendingNode_Observation.10302 a sol-ont:QuantityKind,
-        "LongitudeOfAscendingNode"^^sol-qk:LongitudeOfAscendingNode .
+solr:QuantityValue.LongitudeOfAscendingNode_Observation.4660 a sol-ont:QuantityValue ;
+    sol-ont:hasNumericValue 3.131381e+02 ;
+    sol-ont:hasUnit "deg"^^sol-unit:deg .
 
-solr:QuantityKind.LongitudeOfAscendingNode_Observation.13 a sol-ont:QuantityKind,
-        "LongitudeOfAscendingNode"^^sol-qk:LongitudeOfAscendingNode .
+solr:QuantityValue.LongitudeOfAscendingNode_Observation.65803 a sol-ont:QuantityValue ;
+    sol-ont:hasNumericValue 7.299109e+01 ;
+    sol-ont:hasUnit "deg"^^sol-unit:deg .
 
-solr:QuantityKind.LongitudeOfAscendingNode_Observation.16 a sol-ont:QuantityKind,
-        "LongitudeOfAscendingNode"^^sol-qk:LongitudeOfAscendingNode .
+solr:QuantityValue.LongitudeOfAscendingNode_Observation.7474 a sol-ont:QuantityValue ;
+    sol-ont:hasNumericValue 8.860908e+01 ;
+    sol-ont:hasUnit "deg"^^sol-unit:deg .
 
-solr:QuantityKind.LongitudeOfAscendingNode_Observation.162173 a sol-ont:QuantityKind,
-        "LongitudeOfAscendingNode"^^sol-qk:LongitudeOfAscendingNode .
+solr:QuantityValue.LongitudeOfAscendingNode_Observation.87 a sol-ont:QuantityValue ;
+    sol-ont:hasNumericValue 7.301038e+01 ;
+    sol-ont:hasUnit "deg"^^sol-unit:deg .
 
-solr:QuantityKind.LongitudeOfAscendingNode_Observation.19 a sol-ont:QuantityKind,
-        "LongitudeOfAscendingNode"^^sol-qk:LongitudeOfAscendingNode .
+solr:QuantityValue.LongitudeOfAscendingNode_Observation.98943 a sol-ont:QuantityValue ;
+    sol-ont:hasNumericValue 7.551921e+01 ;
+    sol-ont:hasUnit "deg"^^sol-unit:deg .
 
-solr:QuantityKind.LongitudeOfAscendingNode_Observation.1943 a sol-ont:QuantityKind,
-        "LongitudeOfAscendingNode"^^sol-qk:LongitudeOfAscendingNode .
+solr:QuantityValue.MeanAnomaly_Observation.10 a sol-ont:QuantityValue ;
+    sol-ont:hasNumericValue 3.973549e+01 ;
+    sol-ont:hasUnit "deg"^^sol-unit:deg .
 
-solr:QuantityKind.LongitudeOfAscendingNode_Observation.2 a sol-ont:QuantityKind,
-        "LongitudeOfAscendingNode"^^sol-qk:LongitudeOfAscendingNode .
+solr:QuantityValue.MeanAnomaly_Observation.101955 a sol-ont:QuantityValue ;
+    sol-ont:hasNumericValue 1.01704e+02 ;
+    sol-ont:hasUnit "deg"^^sol-unit:deg .
 
-solr:QuantityKind.LongitudeOfAscendingNode_Observation.436724 a sol-ont:QuantityKind,
-        "LongitudeOfAscendingNode"^^sol-qk:LongitudeOfAscendingNode .
+solr:QuantityValue.MeanAnomaly_Observation.10302 a sol-ont:QuantityValue ;
+    sol-ont:hasNumericValue 1.551315e+02 ;
+    sol-ont:hasUnit "deg"^^sol-unit:deg .
 
-solr:QuantityKind.LongitudeOfAscendingNode_Observation.4660 a sol-ont:QuantityKind,
-        "LongitudeOfAscendingNode"^^sol-qk:LongitudeOfAscendingNode .
+solr:QuantityValue.MeanAnomaly_Observation.13 a sol-ont:QuantityValue ;
+    sol-ont:hasNumericValue 1.618386e+02 ;
+    sol-ont:hasUnit "deg"^^sol-unit:deg .
 
-solr:QuantityKind.LongitudeOfAscendingNode_Observation.65803 a sol-ont:QuantityKind,
-        "LongitudeOfAscendingNode"^^sol-qk:LongitudeOfAscendingNode .
+solr:QuantityValue.MeanAnomaly_Observation.16 a sol-ont:QuantityValue ;
+    sol-ont:hasNumericValue 2.038192e+02 ;
+    sol-ont:hasUnit "deg"^^sol-unit:deg .
 
-solr:QuantityKind.LongitudeOfAscendingNode_Observation.7474 a sol-ont:QuantityKind,
-        "LongitudeOfAscendingNode"^^sol-qk:LongitudeOfAscendingNode .
+solr:QuantityValue.MeanAnomaly_Observation.162173 a sol-ont:QuantityValue ;
+    sol-ont:hasNumericValue 2.323502e+02 ;
+    sol-ont:hasUnit "deg"^^sol-unit:deg .
 
-solr:QuantityKind.LongitudeOfAscendingNode_Observation.87 a sol-ont:QuantityKind,
-        "LongitudeOfAscendingNode"^^sol-qk:LongitudeOfAscendingNode .
+solr:QuantityValue.MeanAnomaly_Observation.19 a sol-ont:QuantityValue ;
+    sol-ont:hasNumericValue 1.982549e+02 ;
+    sol-ont:hasUnit "deg"^^sol-unit:deg .
 
-solr:QuantityKind.LongitudeOfAscendingNode_Observation.98943 a sol-ont:QuantityKind,
-        "LongitudeOfAscendingNode"^^sol-qk:LongitudeOfAscendingNode .
+solr:QuantityValue.MeanAnomaly_Observation.1943 a sol-ont:QuantityValue ;
+    sol-ont:hasNumericValue 4.43629e+01 ;
+    sol-ont:hasUnit "deg"^^sol-unit:deg .
 
-solr:QuantityKind.MeanAnomaly_Observation.10 a sol-ont:QuantityKind,
-        "MeanAnomaly"^^sol-qk:MeanAnomaly .
+solr:QuantityValue.MeanAnomaly_Observation.2 a sol-ont:QuantityValue ;
+    sol-ont:hasNumericValue 3.578494e+02 ;
+    sol-ont:hasUnit "deg"^^sol-unit:deg .
 
-solr:QuantityKind.MeanAnomaly_Observation.101955 a sol-ont:QuantityKind,
-        "MeanAnomaly"^^sol-qk:MeanAnomaly .
+solr:QuantityValue.MeanAnomaly_Observation.436724 a sol-ont:QuantityValue ;
+    sol-ont:hasNumericValue 2.475124e+02 ;
+    sol-ont:hasUnit "deg"^^sol-unit:deg .
 
-solr:QuantityKind.MeanAnomaly_Observation.10302 a sol-ont:QuantityKind,
-        "MeanAnomaly"^^sol-qk:MeanAnomaly .
+solr:QuantityValue.MeanAnomaly_Observation.4660 a sol-ont:QuantityValue ;
+    sol-ont:hasNumericValue 2.252152e+02 ;
+    sol-ont:hasUnit "deg"^^sol-unit:deg .
 
-solr:QuantityKind.MeanAnomaly_Observation.13 a sol-ont:QuantityKind,
-        "MeanAnomaly"^^sol-qk:MeanAnomaly .
+solr:QuantityValue.MeanAnomaly_Observation.65803 a sol-ont:QuantityValue ;
+    sol-ont:hasNumericValue 5.909022e+01 ;
+    sol-ont:hasUnit "deg"^^sol-unit:deg .
 
-solr:QuantityKind.MeanAnomaly_Observation.16 a sol-ont:QuantityKind,
-        "MeanAnomaly"^^sol-qk:MeanAnomaly .
+solr:QuantityValue.MeanAnomaly_Observation.7474 a sol-ont:QuantityValue ;
+    sol-ont:hasNumericValue 1.876768e+02 ;
+    sol-ont:hasUnit "deg"^^sol-unit:deg .
 
-solr:QuantityKind.MeanAnomaly_Observation.162173 a sol-ont:QuantityKind,
-        "MeanAnomaly"^^sol-qk:MeanAnomaly .
+solr:QuantityValue.MeanAnomaly_Observation.87 a sol-ont:QuantityValue ;
+    sol-ont:hasNumericValue 3.045279e+02 ;
+    sol-ont:hasUnit "deg"^^sol-unit:deg .
 
-solr:QuantityKind.MeanAnomaly_Observation.19 a sol-ont:QuantityKind,
-        "MeanAnomaly"^^sol-qk:MeanAnomaly .
+solr:QuantityValue.MeanAnomaly_Observation.98943 a sol-ont:QuantityValue ;
+    sol-ont:hasNumericValue 2.808562e+02 ;
+    sol-ont:hasUnit "deg"^^sol-unit:deg .
 
-solr:QuantityKind.MeanAnomaly_Observation.1943 a sol-ont:QuantityKind,
-        "MeanAnomaly"^^sol-qk:MeanAnomaly .
+solr:QuantityValue.MeanMotion_Observation.10 a sol-ont:QuantityValue ;
+    sol-ont:hasNumericValue 1.771218e-01 ;
+    sol-ont:hasUnit "None"^^sol-unit:None .
 
-solr:QuantityKind.MeanAnomaly_Observation.2 a sol-ont:QuantityKind,
-        "MeanAnomaly"^^sol-qk:MeanAnomaly .
+solr:QuantityValue.MeanMotion_Observation.101955 a sol-ont:QuantityValue ;
+    sol-ont:hasNumericValue 8.244613e-01 ;
+    sol-ont:hasUnit "None"^^sol-unit:None .
 
-solr:QuantityKind.MeanAnomaly_Observation.436724 a sol-ont:QuantityKind,
-        "MeanAnomaly"^^sol-qk:MeanAnomaly .
+solr:QuantityValue.MeanMotion_Observation.10302 a sol-ont:QuantityValue ;
+    sol-ont:hasNumericValue 6.863847e-01 ;
+    sol-ont:hasUnit "None"^^sol-unit:None .
 
-solr:QuantityKind.MeanAnomaly_Observation.4660 a sol-ont:QuantityKind,
-        "MeanAnomaly"^^sol-qk:MeanAnomaly .
+solr:QuantityValue.MeanMotion_Observation.13 a sol-ont:QuantityValue ;
+    sol-ont:hasNumericValue 2.384474e-01 ;
+    sol-ont:hasUnit "None"^^sol-unit:None .
 
-solr:QuantityKind.MeanAnomaly_Observation.65803 a sol-ont:QuantityKind,
-        "MeanAnomaly"^^sol-qk:MeanAnomaly .
+solr:QuantityValue.MeanMotion_Observation.16 a sol-ont:QuantityValue ;
+    sol-ont:hasNumericValue 1.971087e-01 ;
+    sol-ont:hasUnit "None"^^sol-unit:None .
 
-solr:QuantityKind.MeanAnomaly_Observation.7474 a sol-ont:QuantityKind,
-        "MeanAnomaly"^^sol-qk:MeanAnomaly .
+solr:QuantityValue.MeanMotion_Observation.162173 a sol-ont:QuantityValue ;
+    sol-ont:hasNumericValue 7.583378e-01 ;
+    sol-ont:hasUnit "None"^^sol-unit:None .
 
-solr:QuantityKind.MeanAnomaly_Observation.87 a sol-ont:QuantityKind,
-        "MeanAnomaly"^^sol-qk:MeanAnomaly .
+solr:QuantityValue.MeanMotion_Observation.19 a sol-ont:QuantityValue ;
+    sol-ont:hasNumericValue 2.581688e-01 ;
+    sol-ont:hasUnit "None"^^sol-unit:None .
 
-solr:QuantityKind.MeanAnomaly_Observation.98943 a sol-ont:QuantityKind,
-        "MeanAnomaly"^^sol-qk:MeanAnomaly .
+solr:QuantityValue.MeanMotion_Observation.1943 a sol-ont:QuantityValue ;
+    sol-ont:hasNumericValue 5.761329e-01 ;
+    sol-ont:hasUnit "None"^^sol-unit:None .
 
-solr:QuantityKind.MeanMotion_Observation.10 a sol-ont:QuantityKind,
-        "MeanMotion"^^sol-qk:MeanMotion .
+solr:QuantityValue.MeanMotion_Observation.2 a sol-ont:QuantityValue ;
+    sol-ont:hasNumericValue 2.138312e-01 ;
+    sol-ont:hasUnit "None"^^sol-unit:None .
 
-solr:QuantityKind.MeanMotion_Observation.101955 a sol-ont:QuantityKind,
-        "MeanMotion"^^sol-qk:MeanMotion .
+solr:QuantityValue.MeanMotion_Observation.436724 a sol-ont:QuantityValue ;
+    sol-ont:hasNumericValue 4.776868e-01 ;
+    sol-ont:hasUnit "None"^^sol-unit:None .
 
-solr:QuantityKind.MeanMotion_Observation.10302 a sol-ont:QuantityKind,
-        "MeanMotion"^^sol-qk:MeanMotion .
+solr:QuantityValue.MeanMotion_Observation.4660 a sol-ont:QuantityValue ;
+    sol-ont:hasNumericValue 5.446333e-01 ;
+    sol-ont:hasUnit "None"^^sol-unit:None .
 
-solr:QuantityKind.MeanMotion_Observation.13 a sol-ont:QuantityKind,
-        "MeanMotion"^^sol-qk:MeanMotion .
+solr:QuantityValue.MeanMotion_Observation.65803 a sol-ont:QuantityValue ;
+    sol-ont:hasNumericValue 4.681967e-01 ;
+    sol-ont:hasUnit "None"^^sol-unit:None .
 
-solr:QuantityKind.MeanMotion_Observation.16 a sol-ont:QuantityKind,
-        "MeanMotion"^^sol-qk:MeanMotion .
+solr:QuantityValue.MeanMotion_Observation.7474 a sol-ont:QuantityValue ;
+    sol-ont:hasNumericValue 5.03065e-01 ;
+    sol-ont:hasUnit "None"^^sol-unit:None .
 
-solr:QuantityKind.MeanMotion_Observation.162173 a sol-ont:QuantityKind,
-        "MeanMotion"^^sol-qk:MeanMotion .
+solr:QuantityValue.MeanMotion_Observation.87 a sol-ont:QuantityValue ;
+    sol-ont:hasNumericValue 1.519728e-01 ;
+    sol-ont:hasUnit "None"^^sol-unit:None .
 
-solr:QuantityKind.MeanMotion_Observation.19 a sol-ont:QuantityKind,
-        "MeanMotion"^^sol-qk:MeanMotion .
+solr:QuantityValue.MeanMotion_Observation.98943 a sol-ont:QuantityValue ;
+    sol-ont:hasNumericValue 9.398134e-01 ;
+    sol-ont:hasUnit "None"^^sol-unit:None .
 
-solr:QuantityKind.MeanMotion_Observation.1943 a sol-ont:QuantityKind,
-        "MeanMotion"^^sol-qk:MeanMotion .
+solr:QuantityValue.OrbitalEccentricity_Observation.10 a sol-ont:QuantityValue ;
+    sol-ont:hasNumericValue 1.11159e-01 ;
+    sol-ont:hasUnit "None"^^sol-unit:None .
 
-solr:QuantityKind.MeanMotion_Observation.2 a sol-ont:QuantityKind,
-        "MeanMotion"^^sol-qk:MeanMotion .
+solr:QuantityValue.OrbitalEccentricity_Observation.101955 a sol-ont:QuantityValue ;
+    sol-ont:hasNumericValue 2.037451e-01 ;
+    sol-ont:hasUnit "None"^^sol-unit:None .
 
-solr:QuantityKind.MeanMotion_Observation.436724 a sol-ont:QuantityKind,
-        "MeanMotion"^^sol-qk:MeanMotion .
+solr:QuantityValue.OrbitalEccentricity_Observation.10302 a sol-ont:QuantityValue ;
+    sol-ont:hasNumericValue 1.369146e-01 ;
+    sol-ont:hasUnit "None"^^sol-unit:None .
 
-solr:QuantityKind.MeanMotion_Observation.4660 a sol-ont:QuantityKind,
-        "MeanMotion"^^sol-qk:MeanMotion .
+solr:QuantityValue.OrbitalEccentricity_Observation.13 a sol-ont:QuantityValue ;
+    sol-ont:hasNumericValue 8.561105e-02 ;
+    sol-ont:hasUnit "None"^^sol-unit:None .
 
-solr:QuantityKind.MeanMotion_Observation.65803 a sol-ont:QuantityKind,
-        "MeanMotion"^^sol-qk:MeanMotion .
+solr:QuantityValue.OrbitalEccentricity_Observation.16 a sol-ont:QuantityValue ;
+    sol-ont:hasNumericValue 1.341174e-01 ;
+    sol-ont:hasUnit "None"^^sol-unit:None .
 
-solr:QuantityKind.MeanMotion_Observation.7474 a sol-ont:QuantityKind,
-        "MeanMotion"^^sol-qk:MeanMotion .
+solr:QuantityValue.OrbitalEccentricity_Observation.162173 a sol-ont:QuantityValue ;
+    sol-ont:hasNumericValue 1.910898e-01 ;
+    sol-ont:hasUnit "None"^^sol-unit:None .
 
-solr:QuantityKind.MeanMotion_Observation.87 a sol-ont:QuantityKind,
-        "MeanMotion"^^sol-qk:MeanMotion .
+solr:QuantityValue.OrbitalEccentricity_Observation.19 a sol-ont:QuantityValue ;
+    sol-ont:hasNumericValue 1.572313e-01 ;
+    sol-ont:hasUnit "None"^^sol-unit:None .
 
-solr:QuantityKind.MeanMotion_Observation.98943 a sol-ont:QuantityKind,
-        "MeanMotion"^^sol-qk:MeanMotion .
+solr:QuantityValue.OrbitalEccentricity_Observation.1943 a sol-ont:QuantityValue ;
+    sol-ont:hasNumericValue 2.560326e-01 ;
+    sol-ont:hasUnit "None"^^sol-unit:None .
 
-solr:QuantityKind.OrbitalEccentricity_Observation.10 a sol-ont:QuantityKind,
-        "OrbitalEccentricity"^^sol-qk:OrbitalEccentricity .
+solr:QuantityValue.OrbitalEccentricity_Observation.2 a sol-ont:QuantityValue ;
+    sol-ont:hasNumericValue 2.300844e-01 ;
+    sol-ont:hasUnit "None"^^sol-unit:None .
 
-solr:QuantityKind.OrbitalEccentricity_Observation.101955 a sol-ont:QuantityKind,
-        "OrbitalEccentricity"^^sol-qk:OrbitalEccentricity .
+solr:QuantityValue.OrbitalEccentricity_Observation.436724 a sol-ont:QuantityValue ;
+    sol-ont:hasNumericValue 3.762201e-01 ;
+    sol-ont:hasUnit "None"^^sol-unit:None .
 
-solr:QuantityKind.OrbitalEccentricity_Observation.10302 a sol-ont:QuantityKind,
-        "OrbitalEccentricity"^^sol-qk:OrbitalEccentricity .
+solr:QuantityValue.OrbitalEccentricity_Observation.4660 a sol-ont:QuantityValue ;
+    sol-ont:hasNumericValue 3.587754e-01 ;
+    sol-ont:hasUnit "None"^^sol-unit:None .
 
-solr:QuantityKind.OrbitalEccentricity_Observation.13 a sol-ont:QuantityKind,
-        "OrbitalEccentricity"^^sol-qk:OrbitalEccentricity .
+solr:QuantityValue.OrbitalEccentricity_Observation.65803 a sol-ont:QuantityValue ;
+    sol-ont:hasNumericValue 3.832817e-01 ;
+    sol-ont:hasUnit "None"^^sol-unit:None .
 
-solr:QuantityKind.OrbitalEccentricity_Observation.16 a sol-ont:QuantityKind,
-        "OrbitalEccentricity"^^sol-qk:OrbitalEccentricity .
+solr:QuantityValue.OrbitalEccentricity_Observation.7474 a sol-ont:QuantityValue ;
+    sol-ont:hasNumericValue 2.922064e-01 ;
+    sol-ont:hasUnit "None"^^sol-unit:None .
 
-solr:QuantityKind.OrbitalEccentricity_Observation.162173 a sol-ont:QuantityKind,
-        "OrbitalEccentricity"^^sol-qk:OrbitalEccentricity .
+solr:QuantityValue.OrbitalEccentricity_Observation.87 a sol-ont:QuantityValue ;
+    sol-ont:hasNumericValue 9.396728e-02 ;
+    sol-ont:hasUnit "None"^^sol-unit:None .
 
-solr:QuantityKind.OrbitalEccentricity_Observation.19 a sol-ont:QuantityKind,
-        "OrbitalEccentricity"^^sol-qk:OrbitalEccentricity .
+solr:QuantityValue.OrbitalEccentricity_Observation.98943 a sol-ont:QuantityValue ;
+    sol-ont:hasNumericValue 2.192398e-01 ;
+    sol-ont:hasUnit "None"^^sol-unit:None .
 
-solr:QuantityKind.OrbitalEccentricity_Observation.1943 a sol-ont:QuantityKind,
-        "OrbitalEccentricity"^^sol-qk:OrbitalEccentricity .
+solr:QuantityValue.OrbitalPeriod_Observation.10 a sol-ont:QuantityValue ;
+    sol-ont:hasNumericValue 5.564681e+00 ;
+    sol-ont:hasUnit "y"^^sol-unit:y .
 
-solr:QuantityKind.OrbitalEccentricity_Observation.2 a sol-ont:QuantityKind,
-        "OrbitalEccentricity"^^sol-qk:OrbitalEccentricity .
+solr:QuantityValue.OrbitalPeriod_Observation.101955 a sol-ont:QuantityValue ;
+    sol-ont:hasNumericValue 1.195479e+00 ;
+    sol-ont:hasUnit "y"^^sol-unit:y .
 
-solr:QuantityKind.OrbitalEccentricity_Observation.436724 a sol-ont:QuantityKind,
-        "OrbitalEccentricity"^^sol-qk:OrbitalEccentricity .
+solr:QuantityValue.OrbitalPeriod_Observation.10302 a sol-ont:QuantityValue ;
+    sol-ont:hasNumericValue 1.435968e+00 ;
+    sol-ont:hasUnit "y"^^sol-unit:y .
 
-solr:QuantityKind.OrbitalEccentricity_Observation.4660 a sol-ont:QuantityKind,
-        "OrbitalEccentricity"^^sol-qk:OrbitalEccentricity .
+solr:QuantityValue.OrbitalPeriod_Observation.13 a sol-ont:QuantityValue ;
+    sol-ont:hasNumericValue 4.133516e+00 ;
+    sol-ont:hasUnit "y"^^sol-unit:y .
 
-solr:QuantityKind.OrbitalEccentricity_Observation.65803 a sol-ont:QuantityKind,
-        "OrbitalEccentricity"^^sol-qk:OrbitalEccentricity .
+solr:QuantityValue.OrbitalPeriod_Observation.16 a sol-ont:QuantityValue ;
+    sol-ont:hasNumericValue 5.000421e+00 ;
+    sol-ont:hasUnit "y"^^sol-unit:y .
 
-solr:QuantityKind.OrbitalEccentricity_Observation.7474 a sol-ont:QuantityKind,
-        "OrbitalEccentricity"^^sol-qk:OrbitalEccentricity .
+solr:QuantityValue.OrbitalPeriod_Observation.162173 a sol-ont:QuantityValue ;
+    sol-ont:hasNumericValue 1.299719e+00 ;
+    sol-ont:hasUnit "y"^^sol-unit:y .
 
-solr:QuantityKind.OrbitalEccentricity_Observation.87 a sol-ont:QuantityKind,
-        "OrbitalEccentricity"^^sol-qk:OrbitalEccentricity .
+solr:QuantityValue.OrbitalPeriod_Observation.19 a sol-ont:QuantityValue ;
+    sol-ont:hasNumericValue 3.81776e+00 ;
+    sol-ont:hasUnit "y"^^sol-unit:y .
 
-solr:QuantityKind.OrbitalEccentricity_Observation.98943 a sol-ont:QuantityKind,
-        "OrbitalEccentricity"^^sol-qk:OrbitalEccentricity .
+solr:QuantityValue.OrbitalPeriod_Observation.1943 a sol-ont:QuantityValue ;
+    sol-ont:hasNumericValue 1.710762e+00 ;
+    sol-ont:hasUnit "y"^^sol-unit:y .
 
-solr:QuantityKind.OrbitalPeriod_Observation.10 a sol-ont:QuantityKind,
-        "OrbitalPeriod"^^sol-qk:OrbitalPeriod .
+solr:QuantityValue.OrbitalPeriod_Observation.2 a sol-ont:QuantityValue ;
+    sol-ont:hasNumericValue 4.609366e+00 ;
+    sol-ont:hasUnit "y"^^sol-unit:y .
 
-solr:QuantityKind.OrbitalPeriod_Observation.101955 a sol-ont:QuantityKind,
-        "OrbitalPeriod"^^sol-qk:OrbitalPeriod .
+solr:QuantityValue.OrbitalPeriod_Observation.436724 a sol-ont:QuantityValue ;
+    sol-ont:hasNumericValue 2.063332e+00 ;
+    sol-ont:hasUnit "y"^^sol-unit:y .
 
-solr:QuantityKind.OrbitalPeriod_Observation.10302 a sol-ont:QuantityKind,
-        "OrbitalPeriod"^^sol-qk:OrbitalPeriod .
+solr:QuantityValue.OrbitalPeriod_Observation.4660 a sol-ont:QuantityValue ;
+    sol-ont:hasNumericValue 1.809706e+00 ;
+    sol-ont:hasUnit "y"^^sol-unit:y .
 
-solr:QuantityKind.OrbitalPeriod_Observation.13 a sol-ont:QuantityKind,
-        "OrbitalPeriod"^^sol-qk:OrbitalPeriod .
+solr:QuantityValue.OrbitalPeriod_Observation.65803 a sol-ont:QuantityValue ;
+    sol-ont:hasNumericValue 2.105154e+00 ;
+    sol-ont:hasUnit "y"^^sol-unit:y .
 
-solr:QuantityKind.OrbitalPeriod_Observation.16 a sol-ont:QuantityKind,
-        "OrbitalPeriod"^^sol-qk:OrbitalPeriod .
+solr:QuantityValue.OrbitalPeriod_Observation.7474 a sol-ont:QuantityValue ;
+    sol-ont:hasNumericValue 1.959242e+00 ;
+    sol-ont:hasUnit "y"^^sol-unit:y .
 
-solr:QuantityKind.OrbitalPeriod_Observation.162173 a sol-ont:QuantityKind,
-        "OrbitalPeriod"^^sol-qk:OrbitalPeriod .
+solr:QuantityValue.OrbitalPeriod_Observation.87 a sol-ont:QuantityValue ;
+    sol-ont:hasNumericValue 6.485543e+00 ;
+    sol-ont:hasUnit "y"^^sol-unit:y .
 
-solr:QuantityKind.OrbitalPeriod_Observation.19 a sol-ont:QuantityKind,
-        "OrbitalPeriod"^^sol-qk:OrbitalPeriod .
+solr:QuantityValue.OrbitalPeriod_Observation.98943 a sol-ont:QuantityValue ;
+    sol-ont:hasNumericValue 1.048747e+00 ;
+    sol-ont:hasUnit "y"^^sol-unit:y .
 
-solr:QuantityKind.OrbitalPeriod_Observation.1943 a sol-ont:QuantityKind,
-        "OrbitalPeriod"^^sol-qk:OrbitalPeriod .
+solr:QuantityValue.PerihelionDistance_Observation.10 a sol-ont:QuantityValue ;
+    sol-ont:hasNumericValue 2.791122e+00 ;
+    sol-ont:hasUnit "au"^^sol-unit:au .
 
-solr:QuantityKind.OrbitalPeriod_Observation.2 a sol-ont:QuantityKind,
-        "OrbitalPeriod"^^sol-qk:OrbitalPeriod .
+solr:QuantityValue.PerihelionDistance_Observation.101955 a sol-ont:QuantityValue ;
+    sol-ont:hasNumericValue 8.968944e-01 ;
+    sol-ont:hasUnit "au"^^sol-unit:au .
 
-solr:QuantityKind.OrbitalPeriod_Observation.436724 a sol-ont:QuantityKind,
-        "OrbitalPeriod"^^sol-qk:OrbitalPeriod .
+solr:QuantityValue.PerihelionDistance_Observation.10302 a sol-ont:QuantityValue ;
+    sol-ont:hasNumericValue 1.098529e+00 ;
+    sol-ont:hasUnit "au"^^sol-unit:au .
 
-solr:QuantityKind.OrbitalPeriod_Observation.4660 a sol-ont:QuantityKind,
-        "OrbitalPeriod"^^sol-qk:OrbitalPeriod .
+solr:QuantityValue.PerihelionDistance_Observation.13 a sol-ont:QuantityValue ;
+    sol-ont:hasNumericValue 2.355078e+00 ;
+    sol-ont:hasUnit "au"^^sol-unit:au .
 
-solr:QuantityKind.OrbitalPeriod_Observation.65803 a sol-ont:QuantityKind,
-        "OrbitalPeriod"^^sol-qk:OrbitalPeriod .
+solr:QuantityValue.PerihelionDistance_Observation.16 a sol-ont:QuantityValue ;
+    sol-ont:hasNumericValue 2.531966e+00 ;
+    sol-ont:hasUnit "au"^^sol-unit:au .
 
-solr:QuantityKind.OrbitalPeriod_Observation.7474 a sol-ont:QuantityKind,
-        "OrbitalPeriod"^^sol-qk:OrbitalPeriod .
+solr:QuantityValue.PerihelionDistance_Observation.162173 a sol-ont:QuantityValue ;
+    sol-ont:hasNumericValue 9.633731e-01 ;
+    sol-ont:hasUnit "au"^^sol-unit:au .
 
-solr:QuantityKind.OrbitalPeriod_Observation.87 a sol-ont:QuantityKind,
-        "OrbitalPeriod"^^sol-qk:OrbitalPeriod .
+solr:QuantityValue.PerihelionDistance_Observation.19 a sol-ont:QuantityValue ;
+    sol-ont:hasNumericValue 2.058616e+00 ;
+    sol-ont:hasUnit "au"^^sol-unit:au .
 
-solr:QuantityKind.OrbitalPeriod_Observation.98943 a sol-ont:QuantityKind,
-        "OrbitalPeriod"^^sol-qk:OrbitalPeriod .
+solr:QuantityValue.PerihelionDistance_Observation.1943 a sol-ont:QuantityValue ;
+    sol-ont:hasNumericValue 1.064163e+00 ;
+    sol-ont:hasUnit "au"^^sol-unit:au .
 
-solr:QuantityKind.PerihelionDistance_Observation.10 a sol-ont:QuantityKind,
-        "PerihelionDistance"^^sol-qk:PerihelionDistance .
+solr:QuantityValue.PerihelionDistance_Observation.2 a sol-ont:QuantityValue ;
+    sol-ont:hasNumericValue 2.132383e+00 ;
+    sol-ont:hasUnit "au"^^sol-unit:au .
 
-solr:QuantityKind.PerihelionDistance_Observation.101955 a sol-ont:QuantityKind,
-        "PerihelionDistance"^^sol-qk:PerihelionDistance .
+solr:QuantityValue.PerihelionDistance_Observation.436724 a sol-ont:QuantityValue ;
+    sol-ont:hasNumericValue 1.010971e+00 ;
+    sol-ont:hasUnit "au"^^sol-unit:au .
 
-solr:QuantityKind.PerihelionDistance_Observation.10302 a sol-ont:QuantityKind,
-        "PerihelionDistance"^^sol-qk:PerihelionDistance .
+solr:QuantityValue.PerihelionDistance_Observation.4660 a sol-ont:QuantityValue ;
+    sol-ont:hasNumericValue 9.522335e-01 ;
+    sol-ont:hasUnit "au"^^sol-unit:au .
 
-solr:QuantityKind.PerihelionDistance_Observation.13 a sol-ont:QuantityKind,
-        "PerihelionDistance"^^sol-qk:PerihelionDistance .
+solr:QuantityValue.PerihelionDistance_Observation.65803 a sol-ont:QuantityValue ;
+    sol-ont:hasNumericValue 1.012987e+00 ;
+    sol-ont:hasUnit "au"^^sol-unit:au .
 
-solr:QuantityKind.PerihelionDistance_Observation.16 a sol-ont:QuantityKind,
-        "PerihelionDistance"^^sol-qk:PerihelionDistance .
+solr:QuantityValue.PerihelionDistance_Observation.7474 a sol-ont:QuantityValue ;
+    sol-ont:hasNumericValue 1.108222e+00 ;
+    sol-ont:hasUnit "au"^^sol-unit:au .
 
-solr:QuantityKind.PerihelionDistance_Observation.162173 a sol-ont:QuantityKind,
-        "PerihelionDistance"^^sol-qk:PerihelionDistance .
+solr:QuantityValue.PerihelionDistance_Observation.87 a sol-ont:QuantityValue ;
+    sol-ont:hasNumericValue 3.15091e+00 ;
+    sol-ont:hasUnit "au"^^sol-unit:au .
 
-solr:QuantityKind.PerihelionDistance_Observation.19 a sol-ont:QuantityKind,
-        "PerihelionDistance"^^sol-qk:PerihelionDistance .
+solr:QuantityValue.PerihelionDistance_Observation.98943 a sol-ont:QuantityValue ;
+    sol-ont:hasNumericValue 8.059213e-01 ;
+    sol-ont:hasUnit "au"^^sol-unit:au .
 
-solr:QuantityKind.PerihelionDistance_Observation.1943 a sol-ont:QuantityKind,
-        "PerihelionDistance"^^sol-qk:PerihelionDistance .
+solr:QuantityValue.Semi-MajorAxis_Observation.10 a sol-ont:QuantityValue ;
+    sol-ont:hasNumericValue 3.140181e+00 ;
+    sol-ont:hasUnit "au"^^sol-unit:au .
 
-solr:QuantityKind.PerihelionDistance_Observation.2 a sol-ont:QuantityKind,
-        "PerihelionDistance"^^sol-qk:PerihelionDistance .
+solr:QuantityValue.Semi-MajorAxis_Observation.101955 a sol-ont:QuantityValue ;
+    sol-ont:hasNumericValue 1.126391e+00 ;
+    sol-ont:hasUnit "au"^^sol-unit:au .
 
-solr:QuantityKind.PerihelionDistance_Observation.436724 a sol-ont:QuantityKind,
-        "PerihelionDistance"^^sol-qk:PerihelionDistance .
+solr:QuantityValue.Semi-MajorAxis_Observation.10302 a sol-ont:QuantityValue ;
+    sol-ont:hasNumericValue 1.272793e+00 ;
+    sol-ont:hasUnit "au"^^sol-unit:au .
 
-solr:QuantityKind.PerihelionDistance_Observation.4660 a sol-ont:QuantityKind,
-        "PerihelionDistance"^^sol-qk:PerihelionDistance .
+solr:QuantityValue.Semi-MajorAxis_Observation.13 a sol-ont:QuantityValue ;
+    sol-ont:hasNumericValue 2.575575e+00 ;
+    sol-ont:hasUnit "au"^^sol-unit:au .
 
-solr:QuantityKind.PerihelionDistance_Observation.65803 a sol-ont:QuantityKind,
-        "PerihelionDistance"^^sol-qk:PerihelionDistance .
+solr:QuantityValue.Semi-MajorAxis_Observation.16 a sol-ont:QuantityValue ;
+    sol-ont:hasNumericValue 2.924145e+00 ;
+    sol-ont:hasUnit "au"^^sol-unit:au .
 
-solr:QuantityKind.PerihelionDistance_Observation.7474 a sol-ont:QuantityKind,
-        "PerihelionDistance"^^sol-qk:PerihelionDistance .
+solr:QuantityValue.Semi-MajorAxis_Observation.162173 a sol-ont:QuantityValue ;
+    sol-ont:hasNumericValue 1.190952e+00 ;
+    sol-ont:hasUnit "au"^^sol-unit:au .
 
-solr:QuantityKind.PerihelionDistance_Observation.87 a sol-ont:QuantityKind,
-        "PerihelionDistance"^^sol-qk:PerihelionDistance .
+solr:QuantityValue.Semi-MajorAxis_Observation.19 a sol-ont:QuantityValue ;
+    sol-ont:hasNumericValue 2.442682e+00 ;
+    sol-ont:hasUnit "au"^^sol-unit:au .
 
-solr:QuantityKind.PerihelionDistance_Observation.98943 a sol-ont:QuantityKind,
-        "PerihelionDistance"^^sol-qk:PerihelionDistance .
+solr:QuantityValue.Semi-MajorAxis_Observation.1943 a sol-ont:QuantityValue ;
+    sol-ont:hasNumericValue 1.430389e+00 ;
+    sol-ont:hasUnit "au"^^sol-unit:au .
 
-solr:QuantityKind.Semi-MajorAxis_Observation.10 a sol-ont:QuantityKind,
-        "Semi-MajorAxis"^^sol-qk:Semi-MajorAxis .
+solr:QuantityValue.Semi-MajorAxis_Observation.2 a sol-ont:QuantityValue ;
+    sol-ont:hasNumericValue 2.769632e+00 ;
+    sol-ont:hasUnit "au"^^sol-unit:au .
 
-solr:QuantityKind.Semi-MajorAxis_Observation.101955 a sol-ont:QuantityKind,
-        "Semi-MajorAxis"^^sol-qk:Semi-MajorAxis .
+solr:QuantityValue.Semi-MajorAxis_Observation.436724 a sol-ont:QuantityValue ;
+    sol-ont:hasNumericValue 1.620717e+00 ;
+    sol-ont:hasUnit "au"^^sol-unit:au .
 
-solr:QuantityKind.Semi-MajorAxis_Observation.10302 a sol-ont:QuantityKind,
-        "Semi-MajorAxis"^^sol-qk:Semi-MajorAxis .
+solr:QuantityValue.Semi-MajorAxis_Observation.4660 a sol-ont:QuantityValue ;
+    sol-ont:hasNumericValue 1.485023e+00 ;
+    sol-ont:hasUnit "au"^^sol-unit:au .
 
-solr:QuantityKind.Semi-MajorAxis_Observation.13 a sol-ont:QuantityKind,
-        "Semi-MajorAxis"^^sol-qk:Semi-MajorAxis .
+solr:QuantityValue.Semi-MajorAxis_Observation.65803 a sol-ont:QuantityValue ;
+    sol-ont:hasNumericValue 1.642544e+00 ;
+    sol-ont:hasUnit "au"^^sol-unit:au .
 
-solr:QuantityKind.Semi-MajorAxis_Observation.16 a sol-ont:QuantityKind,
-        "Semi-MajorAxis"^^sol-qk:Semi-MajorAxis .
+solr:QuantityValue.Semi-MajorAxis_Observation.7474 a sol-ont:QuantityValue ;
+    sol-ont:hasNumericValue 1.565741e+00 ;
+    sol-ont:hasUnit "au"^^sol-unit:au .
 
-solr:QuantityKind.Semi-MajorAxis_Observation.162173 a sol-ont:QuantityKind,
-        "Semi-MajorAxis"^^sol-qk:Semi-MajorAxis .
+solr:QuantityValue.Semi-MajorAxis_Observation.87 a sol-ont:QuantityValue ;
+    sol-ont:hasNumericValue 3.4777e+00 ;
+    sol-ont:hasUnit "au"^^sol-unit:au .
 
-solr:QuantityKind.Semi-MajorAxis_Observation.19 a sol-ont:QuantityKind,
-        "Semi-MajorAxis"^^sol-qk:Semi-MajorAxis .
-
-solr:QuantityKind.Semi-MajorAxis_Observation.1943 a sol-ont:QuantityKind,
-        "Semi-MajorAxis"^^sol-qk:Semi-MajorAxis .
-
-solr:QuantityKind.Semi-MajorAxis_Observation.2 a sol-ont:QuantityKind,
-        "Semi-MajorAxis"^^sol-qk:Semi-MajorAxis .
-
-solr:QuantityKind.Semi-MajorAxis_Observation.436724 a sol-ont:QuantityKind,
-        "Semi-MajorAxis"^^sol-qk:Semi-MajorAxis .
-
-solr:QuantityKind.Semi-MajorAxis_Observation.4660 a sol-ont:QuantityKind,
-        "Semi-MajorAxis"^^sol-qk:Semi-MajorAxis .
-
-solr:QuantityKind.Semi-MajorAxis_Observation.65803 a sol-ont:QuantityKind,
-        "Semi-MajorAxis"^^sol-qk:Semi-MajorAxis .
-
-solr:QuantityKind.Semi-MajorAxis_Observation.7474 a sol-ont:QuantityKind,
-        "Semi-MajorAxis"^^sol-qk:Semi-MajorAxis .
-
-solr:QuantityKind.Semi-MajorAxis_Observation.87 a sol-ont:QuantityKind,
-        "Semi-MajorAxis"^^sol-qk:Semi-MajorAxis .
-
-solr:QuantityKind.Semi-MajorAxis_Observation.98943 a sol-ont:QuantityKind,
-        "Semi-MajorAxis"^^sol-qk:Semi-MajorAxis .
+solr:QuantityValue.Semi-MajorAxis_Observation.98943 a sol-ont:QuantityValue ;
+    sol-ont:hasNumericValue 1.032226e+00 ;
+    sol-ont:hasUnit "au"^^sol-unit:au .
 
 solr:Result.AphelionDistance_Observation.10 sol-ont:hasQuantity solr:Quantity.AphelionDistance_Observation.10 .
 
@@ -4124,501 +3464,6 @@ solr:Semi-MajorAxis_Activity.87 sol-ont:hasDescription "Semi-Major Axis"^^xsd:st
 
 solr:Semi-MajorAxis_Activity.98943 sol-ont:hasDescription "Semi-Major Axis"^^xsd:string ;
     sol-ont:performedBy sol-ont:Agent.NASA-JPL .
-
-solr:Unit.AphelionDistance_Observation.10 a sol-ont:Unit,
-        "au"^^sol-unit:au .
-
-solr:Unit.AphelionDistance_Observation.101955 a sol-ont:Unit,
-        "au"^^sol-unit:au .
-
-solr:Unit.AphelionDistance_Observation.10302 a sol-ont:Unit,
-        "au"^^sol-unit:au .
-
-solr:Unit.AphelionDistance_Observation.13 a sol-ont:Unit,
-        "au"^^sol-unit:au .
-
-solr:Unit.AphelionDistance_Observation.16 a sol-ont:Unit,
-        "au"^^sol-unit:au .
-
-solr:Unit.AphelionDistance_Observation.162173 a sol-ont:Unit,
-        "au"^^sol-unit:au .
-
-solr:Unit.AphelionDistance_Observation.19 a sol-ont:Unit,
-        "au"^^sol-unit:au .
-
-solr:Unit.AphelionDistance_Observation.1943 a sol-ont:Unit,
-        "au"^^sol-unit:au .
-
-solr:Unit.AphelionDistance_Observation.2 a sol-ont:Unit,
-        "au"^^sol-unit:au .
-
-solr:Unit.AphelionDistance_Observation.436724 a sol-ont:Unit,
-        "au"^^sol-unit:au .
-
-solr:Unit.AphelionDistance_Observation.4660 a sol-ont:Unit,
-        "au"^^sol-unit:au .
-
-solr:Unit.AphelionDistance_Observation.65803 a sol-ont:Unit,
-        "au"^^sol-unit:au .
-
-solr:Unit.AphelionDistance_Observation.7474 a sol-ont:Unit,
-        "au"^^sol-unit:au .
-
-solr:Unit.AphelionDistance_Observation.87 a sol-ont:Unit,
-        "au"^^sol-unit:au .
-
-solr:Unit.AphelionDistance_Observation.98943 a sol-ont:Unit,
-        "au"^^sol-unit:au .
-
-solr:Unit.ArgumentOfPerihelion_Observation.10 a sol-ont:Unit,
-        "deg"^^sol-unit:deg .
-
-solr:Unit.ArgumentOfPerihelion_Observation.101955 a sol-ont:Unit,
-        "deg"^^sol-unit:deg .
-
-solr:Unit.ArgumentOfPerihelion_Observation.10302 a sol-ont:Unit,
-        "deg"^^sol-unit:deg .
-
-solr:Unit.ArgumentOfPerihelion_Observation.13 a sol-ont:Unit,
-        "deg"^^sol-unit:deg .
-
-solr:Unit.ArgumentOfPerihelion_Observation.16 a sol-ont:Unit,
-        "deg"^^sol-unit:deg .
-
-solr:Unit.ArgumentOfPerihelion_Observation.162173 a sol-ont:Unit,
-        "deg"^^sol-unit:deg .
-
-solr:Unit.ArgumentOfPerihelion_Observation.19 a sol-ont:Unit,
-        "deg"^^sol-unit:deg .
-
-solr:Unit.ArgumentOfPerihelion_Observation.1943 a sol-ont:Unit,
-        "deg"^^sol-unit:deg .
-
-solr:Unit.ArgumentOfPerihelion_Observation.2 a sol-ont:Unit,
-        "deg"^^sol-unit:deg .
-
-solr:Unit.ArgumentOfPerihelion_Observation.436724 a sol-ont:Unit,
-        "deg"^^sol-unit:deg .
-
-solr:Unit.ArgumentOfPerihelion_Observation.4660 a sol-ont:Unit,
-        "deg"^^sol-unit:deg .
-
-solr:Unit.ArgumentOfPerihelion_Observation.65803 a sol-ont:Unit,
-        "deg"^^sol-unit:deg .
-
-solr:Unit.ArgumentOfPerihelion_Observation.7474 a sol-ont:Unit,
-        "deg"^^sol-unit:deg .
-
-solr:Unit.ArgumentOfPerihelion_Observation.87 a sol-ont:Unit,
-        "deg"^^sol-unit:deg .
-
-solr:Unit.ArgumentOfPerihelion_Observation.98943 a sol-ont:Unit,
-        "deg"^^sol-unit:deg .
-
-solr:Unit.Diameter_Observation.10 a sol-ont:Unit,
-        "km"^^sol-unit:km .
-
-solr:Unit.Diameter_Observation.101955 a sol-ont:Unit,
-        "km"^^sol-unit:km .
-
-solr:Unit.Diameter_Observation.10302 a sol-ont:Unit,
-        "km"^^sol-unit:km .
-
-solr:Unit.Diameter_Observation.13 a sol-ont:Unit,
-        "km"^^sol-unit:km .
-
-solr:Unit.Diameter_Observation.16 a sol-ont:Unit,
-        "km"^^sol-unit:km .
-
-solr:Unit.Diameter_Observation.162173 a sol-ont:Unit,
-        "km"^^sol-unit:km .
-
-solr:Unit.Diameter_Observation.19 a sol-ont:Unit,
-        "km"^^sol-unit:km .
-
-solr:Unit.Diameter_Observation.1943 a sol-ont:Unit,
-        "km"^^sol-unit:km .
-
-solr:Unit.Diameter_Observation.2 a sol-ont:Unit,
-        "km"^^sol-unit:km .
-
-solr:Unit.Diameter_Observation.436724 a sol-ont:Unit,
-        "km"^^sol-unit:km .
-
-solr:Unit.Diameter_Observation.4660 a sol-ont:Unit,
-        "km"^^sol-unit:km .
-
-solr:Unit.Diameter_Observation.65803 a sol-ont:Unit,
-        "km"^^sol-unit:km .
-
-solr:Unit.Diameter_Observation.7474 a sol-ont:Unit,
-        "km"^^sol-unit:km .
-
-solr:Unit.Diameter_Observation.87 a sol-ont:Unit,
-        "km"^^sol-unit:km .
-
-solr:Unit.Diameter_Observation.98943 a sol-ont:Unit,
-        "km"^^sol-unit:km .
-
-solr:Unit.Inclination_Observation.10 a sol-ont:Unit,
-        "deg"^^sol-unit:deg .
-
-solr:Unit.Inclination_Observation.101955 a sol-ont:Unit,
-        "deg"^^sol-unit:deg .
-
-solr:Unit.Inclination_Observation.10302 a sol-ont:Unit,
-        "deg"^^sol-unit:deg .
-
-solr:Unit.Inclination_Observation.13 a sol-ont:Unit,
-        "deg"^^sol-unit:deg .
-
-solr:Unit.Inclination_Observation.16 a sol-ont:Unit,
-        "deg"^^sol-unit:deg .
-
-solr:Unit.Inclination_Observation.162173 a sol-ont:Unit,
-        "deg"^^sol-unit:deg .
-
-solr:Unit.Inclination_Observation.19 a sol-ont:Unit,
-        "deg"^^sol-unit:deg .
-
-solr:Unit.Inclination_Observation.1943 a sol-ont:Unit,
-        "deg"^^sol-unit:deg .
-
-solr:Unit.Inclination_Observation.2 a sol-ont:Unit,
-        "deg"^^sol-unit:deg .
-
-solr:Unit.Inclination_Observation.436724 a sol-ont:Unit,
-        "deg"^^sol-unit:deg .
-
-solr:Unit.Inclination_Observation.4660 a sol-ont:Unit,
-        "deg"^^sol-unit:deg .
-
-solr:Unit.Inclination_Observation.65803 a sol-ont:Unit,
-        "deg"^^sol-unit:deg .
-
-solr:Unit.Inclination_Observation.7474 a sol-ont:Unit,
-        "deg"^^sol-unit:deg .
-
-solr:Unit.Inclination_Observation.87 a sol-ont:Unit,
-        "deg"^^sol-unit:deg .
-
-solr:Unit.Inclination_Observation.98943 a sol-ont:Unit,
-        "deg"^^sol-unit:deg .
-
-solr:Unit.LongitudeOfAscendingNode_Observation.10 a sol-ont:Unit,
-        "deg"^^sol-unit:deg .
-
-solr:Unit.LongitudeOfAscendingNode_Observation.101955 a sol-ont:Unit,
-        "deg"^^sol-unit:deg .
-
-solr:Unit.LongitudeOfAscendingNode_Observation.10302 a sol-ont:Unit,
-        "deg"^^sol-unit:deg .
-
-solr:Unit.LongitudeOfAscendingNode_Observation.13 a sol-ont:Unit,
-        "deg"^^sol-unit:deg .
-
-solr:Unit.LongitudeOfAscendingNode_Observation.16 a sol-ont:Unit,
-        "deg"^^sol-unit:deg .
-
-solr:Unit.LongitudeOfAscendingNode_Observation.162173 a sol-ont:Unit,
-        "deg"^^sol-unit:deg .
-
-solr:Unit.LongitudeOfAscendingNode_Observation.19 a sol-ont:Unit,
-        "deg"^^sol-unit:deg .
-
-solr:Unit.LongitudeOfAscendingNode_Observation.1943 a sol-ont:Unit,
-        "deg"^^sol-unit:deg .
-
-solr:Unit.LongitudeOfAscendingNode_Observation.2 a sol-ont:Unit,
-        "deg"^^sol-unit:deg .
-
-solr:Unit.LongitudeOfAscendingNode_Observation.436724 a sol-ont:Unit,
-        "deg"^^sol-unit:deg .
-
-solr:Unit.LongitudeOfAscendingNode_Observation.4660 a sol-ont:Unit,
-        "deg"^^sol-unit:deg .
-
-solr:Unit.LongitudeOfAscendingNode_Observation.65803 a sol-ont:Unit,
-        "deg"^^sol-unit:deg .
-
-solr:Unit.LongitudeOfAscendingNode_Observation.7474 a sol-ont:Unit,
-        "deg"^^sol-unit:deg .
-
-solr:Unit.LongitudeOfAscendingNode_Observation.87 a sol-ont:Unit,
-        "deg"^^sol-unit:deg .
-
-solr:Unit.LongitudeOfAscendingNode_Observation.98943 a sol-ont:Unit,
-        "deg"^^sol-unit:deg .
-
-solr:Unit.MeanAnomaly_Observation.10 a sol-ont:Unit,
-        "deg"^^sol-unit:deg .
-
-solr:Unit.MeanAnomaly_Observation.101955 a sol-ont:Unit,
-        "deg"^^sol-unit:deg .
-
-solr:Unit.MeanAnomaly_Observation.10302 a sol-ont:Unit,
-        "deg"^^sol-unit:deg .
-
-solr:Unit.MeanAnomaly_Observation.13 a sol-ont:Unit,
-        "deg"^^sol-unit:deg .
-
-solr:Unit.MeanAnomaly_Observation.16 a sol-ont:Unit,
-        "deg"^^sol-unit:deg .
-
-solr:Unit.MeanAnomaly_Observation.162173 a sol-ont:Unit,
-        "deg"^^sol-unit:deg .
-
-solr:Unit.MeanAnomaly_Observation.19 a sol-ont:Unit,
-        "deg"^^sol-unit:deg .
-
-solr:Unit.MeanAnomaly_Observation.1943 a sol-ont:Unit,
-        "deg"^^sol-unit:deg .
-
-solr:Unit.MeanAnomaly_Observation.2 a sol-ont:Unit,
-        "deg"^^sol-unit:deg .
-
-solr:Unit.MeanAnomaly_Observation.436724 a sol-ont:Unit,
-        "deg"^^sol-unit:deg .
-
-solr:Unit.MeanAnomaly_Observation.4660 a sol-ont:Unit,
-        "deg"^^sol-unit:deg .
-
-solr:Unit.MeanAnomaly_Observation.65803 a sol-ont:Unit,
-        "deg"^^sol-unit:deg .
-
-solr:Unit.MeanAnomaly_Observation.7474 a sol-ont:Unit,
-        "deg"^^sol-unit:deg .
-
-solr:Unit.MeanAnomaly_Observation.87 a sol-ont:Unit,
-        "deg"^^sol-unit:deg .
-
-solr:Unit.MeanAnomaly_Observation.98943 a sol-ont:Unit,
-        "deg"^^sol-unit:deg .
-
-solr:Unit.MeanMotion_Observation.10 a sol-ont:Unit,
-        "None"^^sol-unit:None .
-
-solr:Unit.MeanMotion_Observation.101955 a sol-ont:Unit,
-        "None"^^sol-unit:None .
-
-solr:Unit.MeanMotion_Observation.10302 a sol-ont:Unit,
-        "None"^^sol-unit:None .
-
-solr:Unit.MeanMotion_Observation.13 a sol-ont:Unit,
-        "None"^^sol-unit:None .
-
-solr:Unit.MeanMotion_Observation.16 a sol-ont:Unit,
-        "None"^^sol-unit:None .
-
-solr:Unit.MeanMotion_Observation.162173 a sol-ont:Unit,
-        "None"^^sol-unit:None .
-
-solr:Unit.MeanMotion_Observation.19 a sol-ont:Unit,
-        "None"^^sol-unit:None .
-
-solr:Unit.MeanMotion_Observation.1943 a sol-ont:Unit,
-        "None"^^sol-unit:None .
-
-solr:Unit.MeanMotion_Observation.2 a sol-ont:Unit,
-        "None"^^sol-unit:None .
-
-solr:Unit.MeanMotion_Observation.436724 a sol-ont:Unit,
-        "None"^^sol-unit:None .
-
-solr:Unit.MeanMotion_Observation.4660 a sol-ont:Unit,
-        "None"^^sol-unit:None .
-
-solr:Unit.MeanMotion_Observation.65803 a sol-ont:Unit,
-        "None"^^sol-unit:None .
-
-solr:Unit.MeanMotion_Observation.7474 a sol-ont:Unit,
-        "None"^^sol-unit:None .
-
-solr:Unit.MeanMotion_Observation.87 a sol-ont:Unit,
-        "None"^^sol-unit:None .
-
-solr:Unit.MeanMotion_Observation.98943 a sol-ont:Unit,
-        "None"^^sol-unit:None .
-
-solr:Unit.OrbitalEccentricity_Observation.10 a sol-ont:Unit,
-        "None"^^sol-unit:None .
-
-solr:Unit.OrbitalEccentricity_Observation.101955 a sol-ont:Unit,
-        "None"^^sol-unit:None .
-
-solr:Unit.OrbitalEccentricity_Observation.10302 a sol-ont:Unit,
-        "None"^^sol-unit:None .
-
-solr:Unit.OrbitalEccentricity_Observation.13 a sol-ont:Unit,
-        "None"^^sol-unit:None .
-
-solr:Unit.OrbitalEccentricity_Observation.16 a sol-ont:Unit,
-        "None"^^sol-unit:None .
-
-solr:Unit.OrbitalEccentricity_Observation.162173 a sol-ont:Unit,
-        "None"^^sol-unit:None .
-
-solr:Unit.OrbitalEccentricity_Observation.19 a sol-ont:Unit,
-        "None"^^sol-unit:None .
-
-solr:Unit.OrbitalEccentricity_Observation.1943 a sol-ont:Unit,
-        "None"^^sol-unit:None .
-
-solr:Unit.OrbitalEccentricity_Observation.2 a sol-ont:Unit,
-        "None"^^sol-unit:None .
-
-solr:Unit.OrbitalEccentricity_Observation.436724 a sol-ont:Unit,
-        "None"^^sol-unit:None .
-
-solr:Unit.OrbitalEccentricity_Observation.4660 a sol-ont:Unit,
-        "None"^^sol-unit:None .
-
-solr:Unit.OrbitalEccentricity_Observation.65803 a sol-ont:Unit,
-        "None"^^sol-unit:None .
-
-solr:Unit.OrbitalEccentricity_Observation.7474 a sol-ont:Unit,
-        "None"^^sol-unit:None .
-
-solr:Unit.OrbitalEccentricity_Observation.87 a sol-ont:Unit,
-        "None"^^sol-unit:None .
-
-solr:Unit.OrbitalEccentricity_Observation.98943 a sol-ont:Unit,
-        "None"^^sol-unit:None .
-
-solr:Unit.OrbitalPeriod_Observation.10 a sol-ont:Unit,
-        "y"^^sol-unit:y .
-
-solr:Unit.OrbitalPeriod_Observation.101955 a sol-ont:Unit,
-        "y"^^sol-unit:y .
-
-solr:Unit.OrbitalPeriod_Observation.10302 a sol-ont:Unit,
-        "y"^^sol-unit:y .
-
-solr:Unit.OrbitalPeriod_Observation.13 a sol-ont:Unit,
-        "y"^^sol-unit:y .
-
-solr:Unit.OrbitalPeriod_Observation.16 a sol-ont:Unit,
-        "y"^^sol-unit:y .
-
-solr:Unit.OrbitalPeriod_Observation.162173 a sol-ont:Unit,
-        "y"^^sol-unit:y .
-
-solr:Unit.OrbitalPeriod_Observation.19 a sol-ont:Unit,
-        "y"^^sol-unit:y .
-
-solr:Unit.OrbitalPeriod_Observation.1943 a sol-ont:Unit,
-        "y"^^sol-unit:y .
-
-solr:Unit.OrbitalPeriod_Observation.2 a sol-ont:Unit,
-        "y"^^sol-unit:y .
-
-solr:Unit.OrbitalPeriod_Observation.436724 a sol-ont:Unit,
-        "y"^^sol-unit:y .
-
-solr:Unit.OrbitalPeriod_Observation.4660 a sol-ont:Unit,
-        "y"^^sol-unit:y .
-
-solr:Unit.OrbitalPeriod_Observation.65803 a sol-ont:Unit,
-        "y"^^sol-unit:y .
-
-solr:Unit.OrbitalPeriod_Observation.7474 a sol-ont:Unit,
-        "y"^^sol-unit:y .
-
-solr:Unit.OrbitalPeriod_Observation.87 a sol-ont:Unit,
-        "y"^^sol-unit:y .
-
-solr:Unit.OrbitalPeriod_Observation.98943 a sol-ont:Unit,
-        "y"^^sol-unit:y .
-
-solr:Unit.PerihelionDistance_Observation.10 a sol-ont:Unit,
-        "au"^^sol-unit:au .
-
-solr:Unit.PerihelionDistance_Observation.101955 a sol-ont:Unit,
-        "au"^^sol-unit:au .
-
-solr:Unit.PerihelionDistance_Observation.10302 a sol-ont:Unit,
-        "au"^^sol-unit:au .
-
-solr:Unit.PerihelionDistance_Observation.13 a sol-ont:Unit,
-        "au"^^sol-unit:au .
-
-solr:Unit.PerihelionDistance_Observation.16 a sol-ont:Unit,
-        "au"^^sol-unit:au .
-
-solr:Unit.PerihelionDistance_Observation.162173 a sol-ont:Unit,
-        "au"^^sol-unit:au .
-
-solr:Unit.PerihelionDistance_Observation.19 a sol-ont:Unit,
-        "au"^^sol-unit:au .
-
-solr:Unit.PerihelionDistance_Observation.1943 a sol-ont:Unit,
-        "au"^^sol-unit:au .
-
-solr:Unit.PerihelionDistance_Observation.2 a sol-ont:Unit,
-        "au"^^sol-unit:au .
-
-solr:Unit.PerihelionDistance_Observation.436724 a sol-ont:Unit,
-        "au"^^sol-unit:au .
-
-solr:Unit.PerihelionDistance_Observation.4660 a sol-ont:Unit,
-        "au"^^sol-unit:au .
-
-solr:Unit.PerihelionDistance_Observation.65803 a sol-ont:Unit,
-        "au"^^sol-unit:au .
-
-solr:Unit.PerihelionDistance_Observation.7474 a sol-ont:Unit,
-        "au"^^sol-unit:au .
-
-solr:Unit.PerihelionDistance_Observation.87 a sol-ont:Unit,
-        "au"^^sol-unit:au .
-
-solr:Unit.PerihelionDistance_Observation.98943 a sol-ont:Unit,
-        "au"^^sol-unit:au .
-
-solr:Unit.Semi-MajorAxis_Observation.10 a sol-ont:Unit,
-        "au"^^sol-unit:au .
-
-solr:Unit.Semi-MajorAxis_Observation.101955 a sol-ont:Unit,
-        "au"^^sol-unit:au .
-
-solr:Unit.Semi-MajorAxis_Observation.10302 a sol-ont:Unit,
-        "au"^^sol-unit:au .
-
-solr:Unit.Semi-MajorAxis_Observation.13 a sol-ont:Unit,
-        "au"^^sol-unit:au .
-
-solr:Unit.Semi-MajorAxis_Observation.16 a sol-ont:Unit,
-        "au"^^sol-unit:au .
-
-solr:Unit.Semi-MajorAxis_Observation.162173 a sol-ont:Unit,
-        "au"^^sol-unit:au .
-
-solr:Unit.Semi-MajorAxis_Observation.19 a sol-ont:Unit,
-        "au"^^sol-unit:au .
-
-solr:Unit.Semi-MajorAxis_Observation.1943 a sol-ont:Unit,
-        "au"^^sol-unit:au .
-
-solr:Unit.Semi-MajorAxis_Observation.2 a sol-ont:Unit,
-        "au"^^sol-unit:au .
-
-solr:Unit.Semi-MajorAxis_Observation.436724 a sol-ont:Unit,
-        "au"^^sol-unit:au .
-
-solr:Unit.Semi-MajorAxis_Observation.4660 a sol-ont:Unit,
-        "au"^^sol-unit:au .
-
-solr:Unit.Semi-MajorAxis_Observation.65803 a sol-ont:Unit,
-        "au"^^sol-unit:au .
-
-solr:Unit.Semi-MajorAxis_Observation.7474 a sol-ont:Unit,
-        "au"^^sol-unit:au .
-
-solr:Unit.Semi-MajorAxis_Observation.87 a sol-ont:Unit,
-        "au"^^sol-unit:au .
-
-solr:Unit.Semi-MajorAxis_Observation.98943 a sol-ont:Unit,
-        "au"^^sol-unit:au .
 
 solr:Asteroid.10 a sol-ont:Asteroid .
 

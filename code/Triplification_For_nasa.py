@@ -101,35 +101,23 @@ for line in lines[1:]:
         result_uri = pfs["solr"][f"Result.{obs_id}.{Asteroid_ID}"]
         quantity_uri = pfs["solr"][f"Quantity.{obs_id}.{Asteroid_ID}"]
         graph.add( (quantity_uri, a, pfs["sol-ont"]["Quantity"]) )
-        
-        qk_uri = pfs["solr"][f"QuantityKind.{obs_id}.{Asteroid_ID}"]
-        graph.add( (qk_uri, a, pfs["sol-ont"]["QuantityKind"]) )
 
         qv_uri = pfs["solr"][f"QuantityValue.{obs_id}.{Asteroid_ID}"]
         graph.add( (qv_uri, a, pfs["sol-ont"]["QuantityValue"]) )
 
-        unit_uri = pfs["solr"][f"Unit.{obs_id}.{Asteroid_ID}"]    
-        graph.add( (unit_uri, a, pfs["sol-ont"]["Unit"]) )
-        
-        value_uri = pfs["solr"][f"NumericValue.{obs_id}.{Asteroid_ID}"]
-
-        #  Declare the Result schema into the SOL Ontology
+        #  Declare the Result schema into the SOL Ontology      
         graph.add( (result_uri, pfs["sol-ont"]["hasQuantity"], quantity_uri) )
-        graph.add( (quantity_uri, pfs["sol-ont"]["hasQuantityKind"], qk_uri) ) 
         
-        ##################################################################
-        # This needs fixed probably, unsure what to use for Quantity Kind  
-        graph.add( (qk_uri, a, Literal(f"{property}", datatype=pfs["sol-qk"][f"{property}"])) )
+        graph.add( (quantity_uri, pfs["sol-ont"]["hasQuantityKind"], Literal(property, datatype=pfs["sol-qk"][property])) )
 
-        graph.add( (quantity_uri, pfs["sol-ont"]["hasQuantityValue"], value_uri) )
-        graph.add( (value_uri, pfs["sol-ont"]["hasUnit"], unit_uri) )
+        graph.add( (quantity_uri, pfs["sol-ont"]["hasQuantityValue"], qv_uri) )     
 
-        unit = units[index]
-        graph.add( (unit_uri, a, Literal(f"{unit}", datatype=pfs["sol-unit"][f"{unit}"])) )
+        graph.add( (qv_uri, pfs["sol-ont"]["hasUnit"], Literal(units[index], datatype=pfs["sol-unit"][units[index]])) )
+
 
         value = tokens[index+3]
         if value != '': 
-            graph.add( (value_uri, pfs["sol-ont"]["hasNumericValue"], Literal(tokens[index+3], datatype=XSD.double)) )             
+            graph.add( (qv_uri, pfs["sol-ont"]["hasNumericValue"], Literal(value, datatype=XSD.double)) )               
         
         #  Connect Observation to EWP Relationships
         graph.add( (observation_uri, pfs["sol-ont"]["attributedTo"], agent_uri) )
