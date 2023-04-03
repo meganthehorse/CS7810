@@ -92,7 +92,7 @@ for line in lines[1:]:  # for each asteroid
         graph.add( (quantity_value_uri, a, pfs["sol-ont"]["QuantityValue"]) )
         # unit_uri = pfs["solr"][f"Unit.{name}.{monthyear}"]
         # graph.add( (unit_uri, a, pfs["sol-ont"]["Unit"]) )
-        value_uri = pfs["solr"][f"NumericValue.{name}.{monthyear}"]
+        #value_uri = pfs["solr"][f"NumericValue.{name}.{monthyear}"]
 
         #  Declare the Result schema into the SOL Ontology      
         graph.add( (result_uri, pfs["sol-ont"]["hasQuantity"], quantity_uri) )
@@ -102,7 +102,7 @@ for line in lines[1:]:  # for each asteroid
         graph.add( (quantity_uri, pfs["sol-ont"]["hasQuantityValue"], quantity_value_uri) )        
         # graph.add( (unit_uri, a, Literal("au", datatype=pfs["sol-unit"]["au"])) )
         graph.add( (quantity_value_uri, pfs["sol-ont"]["hasUnit"], Literal("au", datatype=pfs["sol-unit"]["au"])) )
-        graph.add( (value_uri, pfs["sol-ont"]["hasNumericValue"], Literal(distance, datatype=XSD.double)) ) 
+        graph.add( (quantity_value_uri, pfs["sol-ont"]["hasNumericValue"], Literal(distance, datatype=XSD.double)) ) 
         
         #  Add TemporalExtent Triple to SOL Ontology
         time_uri = pfs["solr"][f"time.{name}.{monthyear}"]
