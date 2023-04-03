@@ -79,21 +79,15 @@ def triple_orbital(graph:Graph, data, index):
 
     qv_uri = pfs["solr"][f"QuantityValue.{activity}.{discovery}"]
     graph.add( (qv_uri, a, pfs["sol-ont"]["QuantityValue"]) )
-
-    unit_uri = pfs["solr"][f"Unit.{activity}.{discovery}"]    
-    graph.add( (unit_uri, a, pfs["sol-ont"]["Unit"]) )
     
     value_uri = pfs["solr"][f"NumericValue.{activity}.{discovery}"]
 
     #  Declare the Result schema into the SOL Ontology
     graph.add( (result_uri, pfs["sol-ont"]["hasQuantity"], quantity_uri) )
-    graph.add( (quantity_uri, pfs["sol-ont"]["hasQuantityKind"], qk_uri) ) 
-    graph.add( (qk_uri, a, Literal(qk, datatype=pfs["sol-qk"][qk])) )
-
+    graph.add( (quantity_uri, pfs["sol-ont"]["hasQuantityKind"], Literal(qk, datatype=pfs["sol-qk"][qk])) ) 
+    
     graph.add( (quantity_uri, pfs["sol-ont"]["hasQuantityValue"], value_uri) )
-    graph.add( (value_uri, pfs["sol-ont"]["hasUnit"], unit_uri) )
-
-    graph.add( (unit_uri, a, Literal(unit, datatype=pfs["sol-unit"][unit])) )
+    graph.add( (value_uri, pfs["sol-ont"]["hasUnit"],  Literal(unit, datatype=pfs["sol-unit"][unit])) )
     graph.add( (value_uri, pfs["sol-ont"]["hasNumericValue"], Literal(data, datatype=XSD.double)) ) 
 
     #  Connect Observation to EWP Relationships
@@ -122,26 +116,17 @@ def triple_economic(graph:Graph, numeric, index):
     quantity_uri = pfs["solr"][f"Quantity.{activity}.{discovery}"]
     graph.add( (quantity_uri, a, pfs["sol-ont"]["Quantity"]) )
         
-    qk_uri = pfs["solr"][f"QuantityKind.{activity}.{discovery}"]
-    graph.add( (qk_uri, a, pfs["sol-ont"]["QuantityKind"]) )
 
     qv_uri = pfs["solr"][f"QuantityValue.{activity}.{discovery}"]
     graph.add( (qv_uri, a, pfs["sol-ont"]["QuantityValue"]) )
-
-    unit_uri = pfs["solr"][f"Unit.{activity}.{discovery}"]    
-    graph.add( (unit_uri, a, pfs["sol-ont"]["Unit"]) )
     
     value_uri = pfs["solr"][f"NumericValue.{activity}.{discovery}"]
 
     #  Declare the Result schema into the SOL Ontology
     graph.add( (result_uri, pfs["sol-ont"]["hasQuantity"], quantity_uri) )
-    graph.add( (quantity_uri, pfs["sol-ont"]["hasQuantityKind"], qk_uri) ) 
-    graph.add( (qk_uri, a, Literal("Currency", datatype=pfs["sol-qk"]["Currency"])) )
+    graph.add( (quantity_uri, pfs["sol-ont"]["hasQuantityKind"], Literal("Currency", datatype=pfs["sol-qk"]["Currency"])) )
 
-    graph.add( (quantity_uri, pfs["sol-ont"]["hasQuantityValue"], value_uri) )
-    graph.add( (value_uri, pfs["sol-ont"]["hasUnit"], unit_uri) )
 
-    graph.add( (unit_uri, a, Literal("USD", datatype=pfs["sol-unit"]["USD"])) )
     split = numeric.split(" ")
     if(split[1] == "million"):
         value=float(split[0])*math.pow(10, 6)
@@ -149,6 +134,9 @@ def triple_economic(graph:Graph, numeric, index):
         value=float(split[0])*math.pow(10, 9)
     elif(split[1] == "trillion"):
         value=float(split[0])*math.pow(10, 12)
+
+    graph.add( (quantity_uri, pfs["sol-ont"]["hasQuantityValue"], value_uri) )
+    graph.add( (value_uri, pfs["sol-ont"]["hasUnit"], Literal("USD", datatype=pfs["sol-unit"]["USD"])) )
     graph.add( (value_uri, pfs["sol-ont"]["hasNumericValue"], Literal(value, datatype=XSD.double)) ) 
 
     #  Connect Observation to EWP Relationships

@@ -35,6 +35,14 @@ solr:ProfitObservation.1999_JU3 sol-ont:attributedTo sol-ont:Agent.Asterank ;
     sol-ont:hasObservableProperty solr:EconomicProperty.Profit.1999_JU3 ;
     sol-ont:hasResult solr:Result.Profit.1999_JU3 .
 
+solr:QuantityKind.Eccentricity.1999_JU3 a sol-ont:QuantityKind .
+
+solr:QuantityKind.MOID.1999_JU3 a sol-ont:QuantityKind .
+
+solr:QuantityKind.Semi-MajorAxis.1999_JU3 a sol-ont:QuantityKind .
+
+solr:QuantityKind.Velocity.1999_JU3 a sol-ont:QuantityKind .
+
 solr:QuantityValue.Eccentricity.1999_JU3 a sol-ont:QuantityValue .
 
 solr:QuantityValue.MOID.1999_JU3 a sol-ont:QuantityValue .
@@ -73,22 +81,22 @@ solr:EconomicProperty.Profit.1999_JU3 a sol-ont:ObservableProperty .
 solr:EconomicProperty.Value.1999_JU3 a sol-ont:ObservableProperty .
 
 solr:NumericValue.Eccentricity.1999_JU3 sol-ont:hasNumericValue 1.9e-01 ;
-    sol-ont:hasUnit solr:Unit.Eccentricity.1999_JU3 .
+    sol-ont:hasUnit "au"^^sol-unit:au .
 
 solr:NumericValue.MOID.1999_JU3 sol-ont:hasNumericValue 6.38e-04 ;
-    sol-ont:hasUnit solr:Unit.MOID.1999_JU3 .
+    sol-ont:hasUnit "au"^^sol-unit:au .
 
 solr:NumericValue.Profit.1999_JU3 sol-ont:hasNumericValue 3.008e+10 ;
-    sol-ont:hasUnit solr:Unit.Profit.1999_JU3 .
+    sol-ont:hasUnit "USD"^^sol-unit:USD .
 
 solr:NumericValue.Semi-MajorAxis.1999_JU3 sol-ont:hasNumericValue 1.19e+00 ;
-    sol-ont:hasUnit solr:Unit.Semi-MajorAxis.1999_JU3 .
+    sol-ont:hasUnit "au"^^sol-unit:au .
 
 solr:NumericValue.Value.1999_JU3 sol-ont:hasNumericValue 8.276e+10 ;
-    sol-ont:hasUnit solr:Unit.Value.1999_JU3 .
+    sol-ont:hasUnit "USD"^^sol-unit:USD .
 
 solr:NumericValue.Velocity.1999_JU3 sol-ont:hasNumericValue 4.663e+00 ;
-    sol-ont:hasUnit solr:Unit.Velocity.1999_JU3 .
+    sol-ont:hasUnit "kms"^^sol-unit:kms .
 
 solr:OrbitalProperty.Eccentricity.1999_JU3 a sol-ont:ObservableProperty .
 
@@ -99,46 +107,28 @@ solr:OrbitalProperty.Semi-MajorAxis.1999_JU3 a sol-ont:ObservableProperty .
 solr:OrbitalProperty.Velocity.1999_JU3 a sol-ont:ObservableProperty .
 
 solr:Quantity.Eccentricity.1999_JU3 a sol-ont:Quantity ;
-    sol-ont:hasQuantityKind solr:QuantityKind.Eccentricity.1999_JU3 ;
+    sol-ont:hasQuantityKind "Eccentricity"^^sol-qk:Eccentricity ;
     sol-ont:hasQuantityValue solr:NumericValue.Eccentricity.1999_JU3 .
 
 solr:Quantity.MOID.1999_JU3 a sol-ont:Quantity ;
-    sol-ont:hasQuantityKind solr:QuantityKind.MOID.1999_JU3 ;
+    sol-ont:hasQuantityKind "MOID"^^sol-qk:MOID ;
     sol-ont:hasQuantityValue solr:NumericValue.MOID.1999_JU3 .
 
 solr:Quantity.Profit.1999_JU3 a sol-ont:Quantity ;
-    sol-ont:hasQuantityKind solr:QuantityKind.Profit.1999_JU3 ;
+    sol-ont:hasQuantityKind "Currency"^^sol-qk:Currency ;
     sol-ont:hasQuantityValue solr:NumericValue.Profit.1999_JU3 .
 
 solr:Quantity.Semi-MajorAxis.1999_JU3 a sol-ont:Quantity ;
-    sol-ont:hasQuantityKind solr:QuantityKind.Semi-MajorAxis.1999_JU3 ;
+    sol-ont:hasQuantityKind "Semi-MajorAxis"^^sol-qk:Semi-MajorAxis ;
     sol-ont:hasQuantityValue solr:NumericValue.Semi-MajorAxis.1999_JU3 .
 
 solr:Quantity.Value.1999_JU3 a sol-ont:Quantity ;
-    sol-ont:hasQuantityKind solr:QuantityKind.Value.1999_JU3 ;
+    sol-ont:hasQuantityKind "Currency"^^sol-qk:Currency ;
     sol-ont:hasQuantityValue solr:NumericValue.Value.1999_JU3 .
 
 solr:Quantity.Velocity.1999_JU3 a sol-ont:Quantity ;
-    sol-ont:hasQuantityKind solr:QuantityKind.Velocity.1999_JU3 ;
+    sol-ont:hasQuantityKind "Velocity"^^sol-qk:Velocity ;
     sol-ont:hasQuantityValue solr:NumericValue.Velocity.1999_JU3 .
-
-solr:QuantityKind.Eccentricity.1999_JU3 a sol-ont:QuantityKind,
-        "Eccentricity"^^sol-qk:Eccentricity .
-
-solr:QuantityKind.MOID.1999_JU3 a sol-ont:QuantityKind,
-        "MOID"^^sol-qk:MOID .
-
-solr:QuantityKind.Profit.1999_JU3 a sol-ont:QuantityKind,
-        "Currency"^^sol-qk:Currency .
-
-solr:QuantityKind.Semi-MajorAxis.1999_JU3 a sol-ont:QuantityKind,
-        "Semi-MajorAxis"^^sol-qk:Semi-MajorAxis .
-
-solr:QuantityKind.Value.1999_JU3 a sol-ont:QuantityKind,
-        "Currency"^^sol-qk:Currency .
-
-solr:QuantityKind.Velocity.1999_JU3 a sol-ont:QuantityKind,
-        "Velocity"^^sol-qk:Velocity .
 
 solr:Result.Eccentricity.1999_JU3 a sol-ont:Result ;
     sol-ont:hasQuantity solr:Quantity.Eccentricity.1999_JU3 .
@@ -165,24 +155,6 @@ solr:Semi-MajorAxis.1999_JU3 a sol-ont:AsteroidClassification ;
     sol-ont:attributedTo sol-ont:Agent.Asterank ;
     sol-ont:generatedBy solr:Activity.Semi-MajorAxis.1999_JU3 ;
     sol-ont:hasSMASSIIClass solr:SMASSII.1999_JU3 .
-
-solr:Unit.Eccentricity.1999_JU3 a sol-ont:Unit,
-        "au"^^sol-unit:au .
-
-solr:Unit.MOID.1999_JU3 a sol-ont:Unit,
-        "au"^^sol-unit:au .
-
-solr:Unit.Profit.1999_JU3 a sol-ont:Unit,
-        "USD"^^sol-unit:USD .
-
-solr:Unit.Semi-MajorAxis.1999_JU3 a sol-ont:Unit,
-        "au"^^sol-unit:au .
-
-solr:Unit.Value.1999_JU3 a sol-ont:Unit,
-        "USD"^^sol-unit:USD .
-
-solr:Unit.Velocity.1999_JU3 a sol-ont:Unit,
-        "kms"^^sol-unit:kms .
 
 solr:Activity.Semi-MajorAxis.1999_JU3 sol-ont:hasDescription "Semi-Major Axis"^^xsd:string ;
     sol-ont:performedBy sol-ont:Agent.Asterank .
