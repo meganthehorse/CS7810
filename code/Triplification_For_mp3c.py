@@ -82,8 +82,8 @@ for line in lines[1:]:
 
     for index, property in enumerate(reference_IDs):
 
-        obs_id = f"{property}_Observation"
-        act_id = f"{property}_Activity"
+        obs_id = f"{property}Observation"
+        act_id = f"{property}MeasurementActivity"
 
         observation_uri = pfs["solr"][f"{obs_id}.{Asteroid_ID}"]
         propertyType = "Orbital"
@@ -100,11 +100,11 @@ for line in lines[1:]:
         graph.add( (activity_uri, pfs["sol-ont"]["performedBy"], agent_uri) )
 
         #  Mint the Result and Quantity Nodes
-        result_uri = pfs["solr"][f"Result.{obs_id}.{Asteroid_ID}"]
-        quantity_uri = pfs["solr"][f"Quantity.{obs_id}.{Asteroid_ID}"]
+        result_uri = pfs["solr"][f"{property}Result.{Asteroid_ID}"]
+        quantity_uri = pfs["solr"][f"{property}Quantity.{Asteroid_ID}"]
         graph.add( (quantity_uri, a, pfs["sol-ont"]["Quantity"]) )
 
-        qv_uri = pfs["solr"][f"QuantityValue.{obs_id}.{Asteroid_ID}"]
+        qv_uri = pfs["solr"][f"{property}QuantityValue.{Asteroid_ID}"]
         graph.add( (qv_uri, a, pfs["sol-ont"]["QuantityValue"]) )
 
         #  Declare the Result schema into the SOL Ontology      
