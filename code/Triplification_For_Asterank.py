@@ -54,33 +54,33 @@ ACTIVITY_DESC = ["Asteroid Classification", "Semi-Major Axis","Eccentricity",
 OBSERVABLE_PROPERTIES = ["PhysicalProperty", "OrbitalProperty", "EconomicProperty"]
 
 def triple_orbital(graph:Graph, data, index):
-    activity = ACTIVITIES[index]
-    description = ACTIVITY_DESC[index]
+    activity = f"{ACTIVITIES[index]}Measurement"
+    description = f"{ACTIVITY_DESC[index]}"
     qk = CV_QK[index]
     unit = CV_UNITS[index]
-    observation_uri = pfs["solr"][f"Observation.{activity}.{discovery}"]
+    observation_uri = pfs["solr"][f"{activity}Observation.{discovery}"]
     observable_property_uri = pfs["solr"][f"OrbitalProperty.{activity}.{discovery}"]
     graph.add( (observation_uri, pfs["sol-ont"][f"hasFeatureOfInterest"], asteroid_uri) )
     graph.add( (observation_uri, pfs["sol-ont"]["hasObservableProperty"], observable_property_uri) )
     graph.add( (observable_property_uri, a, pfs["sol-ont"]["ObservableProperty"]) )
 
-    activity_uri = pfs["solr"][f"Activity.{activity}.{discovery}"]
+    activity_uri = pfs["solr"][f"{activity}Activity.{discovery}"]
     graph.add( (activity_uri, pfs["sol-ont"]["hasDescription"], Literal(f"{description}", datatype=XSD.string)) )
     graph.add( (activity_uri, pfs["sol-ont"]["performedBy"], agent_uri) )
     
     #  Mint the Result and Quantity Nodes
-    result_uri = pfs["solr"][f"Result.{activity}.{discovery}"]
+    result_uri = pfs["solr"][f"{activity}Result.{discovery}"]
     graph.add( (result_uri, a, pfs["sol-ont"]["Result"]) )
     quantity_uri = pfs["solr"][f"Quantity.{activity}.{discovery}"]
     graph.add( (quantity_uri, a, pfs["sol-ont"]["Quantity"]) )
         
-    qk_uri = pfs["solr"][f"QuantityKind.{activity}.{discovery}"]
+    qk_uri = pfs["solr"][f"{activity}QuantityKind.{discovery}"]
     graph.add( (qk_uri, a, pfs["sol-ont"]["QuantityKind"]) )
 
-    qv_uri = pfs["solr"][f"QuantityValue.{activity}.{discovery}"]
+    qv_uri = pfs["solr"][f"{activity}QuantityValue.{discovery}"]
     graph.add( (qv_uri, a, pfs["sol-ont"]["QuantityValue"]) )
     
-    value_uri = pfs["solr"][f"NumericValue.{activity}.{discovery}"]
+    value_uri = pfs["solr"][f"{activity}NumericValue.{discovery}"]
 
     #  Declare the Result schema into the SOL Ontology
     graph.add( (result_uri, pfs["sol-ont"]["hasQuantity"], quantity_uri) )
@@ -97,30 +97,29 @@ def triple_orbital(graph:Graph, data, index):
     #  Connect Result to Observation        
     graph.add( (observation_uri, pfs["sol-ont"]["hasResult"], result_uri) )
 
-
 def triple_economic(graph:Graph, numeric, index):
-    activity = ACTIVITIES[index]
+    activity = f"{ACTIVITIES[index]}Measurement"
     observation_uri = pfs["solr"][f"{activity}Observation.{discovery}"]
     observable_property_uri = pfs["solr"][f"EconomicProperty.{activity}.{discovery}"]
     graph.add( (observation_uri, pfs["sol-ont"][f"hasFeatureOfInterest"], asteroid_uri) )
     graph.add( (observation_uri, pfs["sol-ont"]["hasObservableProperty"], observable_property_uri) )
     graph.add( (observable_property_uri, a, pfs["sol-ont"]["ObservableProperty"]) )
 
-    activity_uri = pfs["solr"][f"Activity.{activity}.{discovery}"]
+    activity_uri = pfs["solr"][f"{activity}Activity.{discovery}"]
     graph.add( (activity_uri, pfs["sol-ont"]["hasDescription"], Literal(f"{ACTIVITY_DESC[index]}", datatype=XSD.string)) )
     graph.add( (activity_uri, pfs["sol-ont"]["performedBy"], agent_uri) )
     
     #  Mint the Result and Quantity Nodes
-    result_uri = pfs["solr"][f"Result.{activity}.{discovery}"]
+    result_uri = pfs["solr"][f"{activity}Result.{discovery}"]
     graph.add( (result_uri, a, pfs["sol-ont"]["Result"]) )
-    quantity_uri = pfs["solr"][f"Quantity.{activity}.{discovery}"]
+    quantity_uri = pfs["solr"][f"{activity}Quantity.{discovery}"]
     graph.add( (quantity_uri, a, pfs["sol-ont"]["Quantity"]) )
         
 
-    qv_uri = pfs["solr"][f"QuantityValue.{activity}.{discovery}"]
+    qv_uri = pfs["solr"][f"{activity}QuantityValue.{discovery}"]
     graph.add( (qv_uri, a, pfs["sol-ont"]["QuantityValue"]) )
     
-    value_uri = pfs["solr"][f"NumericValue.{activity}.{discovery}"]
+    value_uri = pfs["solr"][f"{activity}NumericValue.{discovery}"]
 
     #  Declare the Result schema into the SOL Ontology
     graph.add( (result_uri, pfs["sol-ont"]["hasQuantity"], quantity_uri) )
@@ -147,7 +146,7 @@ def triple_economic(graph:Graph, numeric, index):
     graph.add( (observation_uri, pfs["sol-ont"]["hasResult"], result_uri) )
 
 def triple_type(graph:Graph, type, index=1):
-    activity = ACTIVITIES[index]
+    activity = f"{ACTIVITIES[index]}Measurement"
     #  Mint
     classification_uri = pfs["solr"][f"{activity}.{discovery}"]
     graph.add( (classification_uri, a, pfs["sol-ont"]["AsteroidClassification"]) )
@@ -159,7 +158,7 @@ def triple_type(graph:Graph, type, index=1):
     graph.add( (classification_uri, pfs["sol-ont"]["hasSMASSIIClass"], smassii_uri) )
     graph.add( (smassii_uri, pfs["sol-ont"]["hasLabel"], Literal(type, datatype=RDFS.label)) )
     ##  TODO:  Confirm ElementalComposition link from Triplification of Taxonomy
-    activity_uri = pfs["solr"][f"Activity.{activity}.{discovery}"]
+    activity_uri = pfs["solr"][f"{activity}Activity.{discovery}"]
     graph.add( (activity_uri, pfs["sol-ont"]["hasDescription"], Literal(f"{ACTIVITY_DESC[index]}", datatype=XSD.string)) )
     graph.add( (activity_uri, pfs["sol-ont"]["performedBy"], agent_uri) )
 

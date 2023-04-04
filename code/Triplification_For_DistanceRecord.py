@@ -76,19 +76,19 @@ for line in lines[1:]:  # for each asteroid
             continue # if blank check
         monthyear = header[index]
         #  Mint the individual distance record per asteroid
-        distance_record_uri = pfs["solr"][f"DistanceRecord.{name}.{monthyear}"]
+        distance_record_uri = pfs["solr"][f"{monthyear}DistanceRecord.{name}."]
         #  Declare the individual DR Concept to the SOL Ontology
         graph.add( (distance_record_uri, a, pfs["sol-ont"]["DistanceRecord"]) )
         #  Connect the Asteroid Concept to the DR Concept
         graph.add( (asteroid_uri, pfs["sol-ont"]["hasDistanceRecord"], distance_record_uri) )
 
         #  Mint the Result and Quantity Nodes
-        result_uri = pfs["solr"][f"Result.{name}.{monthyear}"]
-        quantity_uri = pfs["solr"][f"Quantity.{name}.{monthyear}"]
+        result_uri = pfs["solr"][f"{monthyear}Result.{name}"]
+        quantity_uri = pfs["solr"][f"{monthyear}Quantity.{name}"]
         graph.add( (quantity_uri, a, pfs["sol-ont"]["Quantity"]) )
         # quantity_kind_uri = pfs["solr"][f"QuantityKind.{name}.{monthyear}"]
         # graph.add( (quantity_kind_uri, a, pfs["sol-ont"]["QuantityKind"]) )
-        quantity_value_uri = pfs["solr"][f"QuantityValue.{name}.{monthyear}"]
+        quantity_value_uri = pfs["solr"][f"{monthyear}QuantityValue.{name}"]
         graph.add( (quantity_value_uri, a, pfs["sol-ont"]["QuantityValue"]) )
         # unit_uri = pfs["solr"][f"Unit.{name}.{monthyear}"]
         # graph.add( (unit_uri, a, pfs["sol-ont"]["Unit"]) )
@@ -105,7 +105,7 @@ for line in lines[1:]:  # for each asteroid
         graph.add( (quantity_value_uri, pfs["sol-ont"]["hasNumericValue"], Literal(distance, datatype=XSD.double)) ) 
         
         #  Add TemporalExtent Triple to SOL Ontology
-        time_uri = pfs["solr"][f"time.{name}.{monthyear}"]
+        time_uri = pfs["solr"][f"{monthyear}TemporalExtent.{name}"]
         graph.add( (time_uri, pfs["sol-ont"]["recordedAt"], Literal(monthyear, datatype=TIME.MonthOfYear)))
         
         #  Connect Result and Time to DR
