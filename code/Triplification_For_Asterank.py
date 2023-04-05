@@ -153,7 +153,8 @@ def triple_type(graph:Graph, type, index=1):
     #  Mint
     classification_uri = pfs["solr"][f"{activity}.{discovery}"]
     graph.add( (classification_uri, a, pfs["sol-ont"]["AsteroidClassification"]) )
-    smassii_uri = pfs["solr"][f"SMASSII.{discovery}"]
+    # smassii_uri = pfs["solr"][f"SMASSII.{discovery}"]
+    smassii_uri = pfs["solr"][f"{type}"]
     graph.add( (smassii_uri, a, pfs["sol-ont"]["SMASSIIClass"]) )
     graph.add( (asteroid_uri, pfs["sol-ont"][f"hasAsteroidClassification"], classification_uri) )
 
