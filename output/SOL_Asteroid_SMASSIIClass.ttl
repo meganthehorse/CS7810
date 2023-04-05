@@ -1,0 +1,18 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sol-ont: <http://soloflife.org/lod/ontology/> .
+@prefix solr: <http://soloflife.org/lod/resource/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+sol-ont:Agent.Asterank a sol-ont:Agent ;
+    sol-ont:hasName "SkyLive"^^xsd:string .
+
+solr:A a sol-ont:SMASSIIClass ;
+    sol-ont:hasElementalComposition solr:A.magnesium_iron_silicate ;
+    sol-ont:hasLabel "A"^^rdfs:label .
+
+solr:A.magnesium_iron_silicate a sol-ont:ElementalComposition.magnesium_iron_silicate ;
+    sol-ont:hasElement "Fe"^^sol-ont:ChemicalElement,
+        "Mg"^^sol-ont:ChemicalElement,
+        "O"^^sol-ont:ChemicalElement,
+        "Si"^^sol-ont:ChemicalElement .
+
