@@ -73,7 +73,7 @@ graph.add( (agent_uri, pfs["sol-ont"]["hasName"], Literal("MP3C", datatype=XSD.s
 # for line in lines[1:]:  #  for each asteroid
 for line in lines[1:]:  
     tokens = line.split(",")
-    Asteroid_ID = tokens[0]
+    Asteroid_ID = tokens[2].replace(" ", "_")
 
     #  Mint the individual Asteroid
     asteroid_uri = pfs["solr"][f"Asteroid.{Asteroid_ID}"] 
