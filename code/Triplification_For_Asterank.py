@@ -127,13 +127,16 @@ def triple_economic(graph:Graph, numeric, index):
 
 
     split = numeric.split(" ")
+    if('>' in split[0]):
+        split[0] = split[0].replace(">", "")
     if(split[1] == "million"):
         value=float(split[0])*math.pow(10, 6)
     elif(split[1] == "billion"):
         value=float(split[0])*math.pow(10, 9)
     elif(split[1] == "trillion"):
         value=float(split[0])*math.pow(10, 12)
-
+    else:
+        value=0
     graph.add( (quantity_uri, pfs["sol-ont"]["hasQuantityValue"], value_uri) )
     graph.add( (value_uri, pfs["sol-ont"]["hasUnit"], Literal("USD", datatype=pfs["sol-unit"]["USD"])) )
     graph.add( (value_uri, pfs["sol-ont"]["hasNumericValue"], Literal(value, datatype=XSD.double)) ) 
@@ -190,8 +193,8 @@ agent_uri = pfs["sol-ont"]["Agent.Asterank"]
 graph.add( (agent_uri, a, pfs["sol-ont"]["Agent"]) )
 graph.add( (agent_uri, pfs["sol-ont"]["hasName"], Literal("SkyLive", datatype=XSD.string)) )
 
-# for line in lines[1:]:  #  for each asteroid
-for line in lines[1:2]:  
+for line in lines[1:]:  #  for each asteroid
+# for line in lines[1:2]:  
     # Discovery Name,Common Name,Asterank Name,Type,a (AU),e,Value ($),Est. Profit ($),Δv (km/s),MOID (AU),Group
     tokens = line.split(",")
     discovery = tokens[0]
@@ -214,6 +217,9 @@ for line in lines[1:2]:
     orbitIndices = [4, 5, 8, 9]
     for i in orbitIndices:
         data = tokens[i]
+        if(data ==''):
+            print(f"{discovery}'s {ACTIVITIES[i-3]} has no value")
+            continue
         triple_orbital(graph, data, i-3)
     #  Adding Economics to SOL Ontology
     ###  Adding Value[3] to SOL Ontology
