@@ -7,8 +7,8 @@ from rdflib import OWL, RDF, RDFS, XSD, TIME
 
 import math
 #  Directory Path Parameters
-data_path = "./Dataset"
-output_path = "./output"
+data_path = "../Dataset"
+output_path = "../output"
 
 # Prefixes
 name_space = "http://soloflife.org/"
@@ -74,7 +74,7 @@ graph.add( (agent_uri, a, pfs["sol-ont"]["Agent"]) )
 graph.add( (agent_uri, pfs["sol-ont"]["hasName"], Literal("SkyLive", datatype=XSD.string)) )
 
 # for line in lines[1:]:  #  for each asteroid
-for line in lines[1:2]: 
+for line in lines[1:]: 
     # Tholen Class,Albedo,Spectral Features,"SMASSII (Bus Class)",Composition,
     token = line.split("|")
     #  String parse for Classifications

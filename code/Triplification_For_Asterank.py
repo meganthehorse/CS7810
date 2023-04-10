@@ -16,8 +16,8 @@ from rdflib import OWL, RDF, RDFS, XSD, TIME
 
 import math
 #  Directory Path Parameters
-data_path = "./Dataset"
-output_path = "./output"
+data_path = "../Dataset"
+output_path = "../output"
 
 # Prefixes
 name_space = "http://soloflife.org/"
@@ -148,7 +148,7 @@ def triple_economic(graph:Graph, numeric, index):
     #  Connect Result to Observation        
     graph.add( (observation_uri, pfs["sol-ont"]["hasResult"], result_uri) )
 
-def triple_type(graph:Graph, type, index=1):
+def triple_type(graph:Graph, type, index=0):
     activity = f"{ACTIVITIES[index]}Measurement"
     #  Mint
     classification_uri = pfs["solr"][f"{activity}.{discovery}"]
