@@ -98,6 +98,30 @@ SELECT * WHERE {
 
 **Bridged Datasets:** Asteroid_Distances.csv
 
+
+**SPARQL Query:**
+```
+SELECT ?Asteroid ?NumericValue ?Unit
+WHERE {
+      ?Asteroid a sol-ont:Asteroid .
+      ?Asteroid sol-ont:hasCommonName "Ryugu" .   
+      ?Asteroid sol-ont:hasDistanceRecord ?d .
+      ?d sol-ont:hasTemporalExtent ?time .
+      ?time sol-ont:recordedAt "JAN24"^^time:MonthOfYear .
+      ?d sol-ont:hasResult ?r .
+      ?r sol-ont:hasQuantity ?q .
+      ?q sol-ont:hasQuantityValue ?qv .
+      ?qv sol-ont:hasNumericValue ?NumericValue .  
+  		?qv sol-ont:hasUnit ?Unit .
+} 
+LIMIT 10
+```
+**Results:**
+| Asteroid | NumericValue | Unit |
+| :----: | :----: | :----: |
+| <http://soloflife.org/lod/resource/Asteroid.1999_JU3> | "2.06539e0"^^<http://www.w3.org/2001/XMLSchema#double> | "au"^^<http://soloflife.org/lod/unitsau> |
+
+
 ## Planning for Ryugu
 **Competency Question:** "How much time is available until the 162173 Ryugu is within 1au of Earth?"
 
