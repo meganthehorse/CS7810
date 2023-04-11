@@ -7,8 +7,8 @@ from rdflib import OWL, RDF, RDFS, XSD, TIME
 
 import math
 #  Directory Path Parameters
-data_path = "../Dataset"
-output_path = "../output"
+data_path = "./Dataset"
+output_path = "./output"
 
 # Prefixes
 name_space = "http://soloflife.org/"
