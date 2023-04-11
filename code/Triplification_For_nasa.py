@@ -5,8 +5,8 @@ from rdflib import OWL, RDF, RDFS, XSD, TIME
 
 import math
 #  Directory Path Parameters
-data_path = "../Dataset/"
-output_path = "../output/"
+data_path = "./Dataset/"
+output_path = "./output/"
 
 # Prefixes
 name_space = "http://soloflife.org/"
@@ -90,6 +90,7 @@ for line in lines[1:]:
         
         observable_property_uri = pfs["solr"][f"{propertyType}Property.{obs_id}.{Asteroid_ID}"]
         graph.add( (observation_uri, pfs["sol-ont"][f"hasFeatureOfInterest"], asteroid_uri) )
+        graph.add( (asteroid_uri, pfs["sol-ont"]["hasObservation"], observation_uri) )
         graph.add( (observation_uri, pfs["sol-ont"]["hasObservableProperty"], observable_property_uri) )
         graph.add( (observable_property_uri, a, pfs["sol-ont"]["ObservableProperty"]) )
 

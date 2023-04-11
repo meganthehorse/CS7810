@@ -16,8 +16,8 @@ from rdflib import OWL, RDF, RDFS, XSD, TIME
 
 import math
 #  Directory Path Parameters
-data_path = "../Dataset"
-output_path = "../output"
+data_path = "./Dataset"
+output_path = "./output"
 
 # Prefixes
 name_space = "http://soloflife.org/"
@@ -58,8 +58,9 @@ def triple_orbital(graph:Graph, data, index):
     description = f"{ACTIVITY_DESC[index]}"
     qk = CV_QK[index]
     unit = CV_UNITS[index]
-    observation_uri = pfs["solr"][f"{activity}Observation.{discovery}"]
+    observation_uri = pfs["solr"][f"{activity}Observation"]
     observable_property_uri = pfs["solr"][f"OrbitalProperty.{activity}.{discovery}"]
+    graph.add( (asteroid_uri, pfs["sol-ont"]["hasObservation"], observation_uri) )
     graph.add( (observation_uri, pfs["sol-ont"][f"hasFeatureOfInterest"], asteroid_uri) )
     graph.add( (observation_uri, pfs["sol-ont"]["hasObservableProperty"], observable_property_uri) )
     graph.add( (observable_property_uri, a, pfs["sol-ont"]["ObservableProperty"]) )
@@ -102,6 +103,7 @@ def triple_economic(graph:Graph, numeric, index):
     observation_uri = pfs["solr"][f"{activity}Observation.{discovery}"]
     observable_property_uri = pfs["solr"][f"EconomicProperty.{activity}.{discovery}"]
     graph.add( (observation_uri, pfs["sol-ont"][f"hasFeatureOfInterest"], asteroid_uri) )
+    graph.add( (asteroid_uri, pfs["sol-ont"]["hasObservation"], observation_uri) )
     graph.add( (observation_uri, pfs["sol-ont"]["hasObservableProperty"], observable_property_uri) )
     graph.add( (observable_property_uri, a, pfs["sol-ont"]["ObservableProperty"]) )
 
