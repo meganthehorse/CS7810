@@ -36,22 +36,6 @@ pfs = {
 # rdf:type shortcut
 a = pfs["rdf"]["type"] #isA prefix/relationship
 
-ELEMENTS={
-    "nickel":"Ni",
-    "cobalt":"Co",
-    "iron":"Fe",
-    "water":"H2 O",
-    "hydrogen":"H",
-    "nitrogen":"N",
-    "ammonia":"N H3",
-    "magnesium":"Mg",
-    "silicate":"Si O",
-    "platinum":"Pt",
-    "nickel-iron":"Ni Fe",
-    "aluminum":"Al"
-}
-
-
 # Initialization shortcut
 def init_kg(prefixes=pfs):
     kg = Graph()
@@ -80,7 +64,7 @@ for line in lines[1:]:
     #  String parse for Classifications
     classifications = token[3]
     classifications=classifications.replace("\"", "")
-    print("Classifying the following")
+    #print("Classifying the following")
     classifications = classifications.split(", ")
     #  String parse for Elemental Composition
     elements = token[4]
@@ -97,15 +81,9 @@ for line in lines[1:]:
             comp_label = element.replace(" ","_")
             composition_uri = pfs["solr"][f"{classif}.{comp_label}"]
             graph.add( (composition_uri, a, pfs["sol-ont"][f"ElementalComposition.{comp_label}"]) )
-            element = element.split(" ")
-            for e in element:
-                literal=ELEMENTS[e]
-                literal=literal.split(" ")
-                for l in literal:
-                       graph.add( (composition_uri, pfs["sol-ont"]["hasElement"], Literal(l, datatype=pfs["sol-ont"]["ChemicalElement"])) )
+            graph.add( (composition_uri, pfs["sol-ont"]["hasElement"], Literal(element, datatype=pfs["sol-ont"]["ChemicalElement"])) )
             graph.add( (class_uri, pfs["sol-ont"]["hasElementalComposition"], composition_uri) )
-            print(e, end=" ")    
-        print(classif, end=" ")
-    print("")        
+            print(element, end=" ")  
+        print("\n")       
 output_file = os.path.join(output_path, f"SOL_Asteroid_SMASSIIClass.ttl")
 temp = graph.serialize(format="turtle", encoding="utf-8", destination=output_file)
