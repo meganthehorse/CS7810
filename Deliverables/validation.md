@@ -40,7 +40,14 @@ Where{
     ?type sol-ont:hasSMASSIIClass ?class.
     ?class sol-ont:hasElementalComposition ?EC .
     ?EC sol-ont:hasElement ?e .
-    FILTER(?time="JAN24"^^time:MonthOfYear)
+    ?record sol-ont:hasResult ?r. 
+    ?r sol-ont:hasQuantity ?q.
+    ?q sol-ont:hasQuantityValue ?qv .
+    ?qv sol-ont:hasNumericValue ?distance .
+    FILTER(
+      ?time="JAN24"^^time:MonthOfYear
+   	&& ?distance < 1.5
+    )
   } 
 }
 GROUP BY ?e
@@ -50,14 +57,10 @@ ORDERBY DESC (?CountOfElement)
 **Results:**
 | Element | CountOfElement |
 | :----: | :----: |
-| iron | 3 |
-| ammonia | 2 |
-| cobalt | 2 |
-| hydrogen | 2 |
-| nickel | 2 |
-| nitrogen | 2 |
-| water | 1 |
-
+| ammonia | 1 |
+| hydrogen | 1 |
+| iron | 1 |
+| nitrogen | 1 |
 
 ## Top 5 Most Occurring Asteroid Types
 **Competency Question:** "What are the top 5 most occuring asteroid types within 1.5au from Earth on January 2024?"
