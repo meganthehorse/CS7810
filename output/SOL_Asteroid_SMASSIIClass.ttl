@@ -17,15 +17,55 @@ solr:B a sol-ont:SMASSIIClass ;
         solr:B.nitrogen ;
     sol-ont:hasLabel "B"^^rdfs:label .
 
-<http://soloflife.org/lod/resource/C,Cb,Ch,Cg,Chg> a sol-ont:SMASSIIClass ;
-    sol-ont:hasElementalComposition <http://soloflife.org/lod/resource/C,Cb,Ch,Cg,Chg.ammonia>,
-        <http://soloflife.org/lod/resource/C,Cb,Ch,Cg,Chg.cobalt>,
-        <http://soloflife.org/lod/resource/C,Cb,Ch,Cg,Chg.hydrogen>,
-        <http://soloflife.org/lod/resource/C,Cb,Ch,Cg,Chg.iron>,
-        <http://soloflife.org/lod/resource/C,Cb,Ch,Cg,Chg.nickel>,
-        <http://soloflife.org/lod/resource/C,Cb,Ch,Cg,Chg.nitrogen>,
-        <http://soloflife.org/lod/resource/C,Cb,Ch,Cg,Chg.water> ;
-    sol-ont:hasLabel "C,Cb,Ch,Cg,Chg"^^rdfs:label .
+solr:C a sol-ont:SMASSIIClass ;
+    sol-ont:hasElementalComposition solr:C.ammonia,
+        solr:C.cobalt,
+        solr:C.hydrogen,
+        solr:C.iron,
+        solr:C.nickel,
+        solr:C.nitrogen,
+        solr:C.water ;
+    sol-ont:hasLabel "C"^^rdfs:label .
+
+solr:Cb a sol-ont:SMASSIIClass ;
+    sol-ont:hasElementalComposition solr:Cb.ammonia,
+        solr:Cb.cobalt,
+        solr:Cb.hydrogen,
+        solr:Cb.iron,
+        solr:Cb.nickel,
+        solr:Cb.nitrogen,
+        solr:Cb.water ;
+    sol-ont:hasLabel "Cb"^^rdfs:label .
+
+solr:Cg a sol-ont:SMASSIIClass ;
+    sol-ont:hasElementalComposition solr:Cg.ammonia,
+        solr:Cg.cobalt,
+        solr:Cg.hydrogen,
+        solr:Cg.iron,
+        solr:Cg.nickel,
+        solr:Cg.nitrogen,
+        solr:Cg.water ;
+    sol-ont:hasLabel "Cg"^^rdfs:label .
+
+solr:Ch a sol-ont:SMASSIIClass ;
+    sol-ont:hasElementalComposition solr:Ch.ammonia,
+        solr:Ch.cobalt,
+        solr:Ch.hydrogen,
+        solr:Ch.iron,
+        solr:Ch.nickel,
+        solr:Ch.nitrogen,
+        solr:Ch.water ;
+    sol-ont:hasLabel "Ch"^^rdfs:label .
+
+solr:Chg a sol-ont:SMASSIIClass ;
+    sol-ont:hasElementalComposition solr:Chg.ammonia,
+        solr:Chg.cobalt,
+        solr:Chg.hydrogen,
+        solr:Chg.iron,
+        solr:Chg.nickel,
+        solr:Chg.nitrogen,
+        solr:Chg.water ;
+    sol-ont:hasLabel "Chg"^^rdfs:label .
 
 solr:D a sol-ont:SMASSIIClass ;
     sol-ont:hasElementalComposition solr:D.water ;
@@ -141,240 +181,272 @@ solr:Xk a sol-ont:SMASSIIClass ;
     sol-ont:hasLabel "Xk"^^rdfs:label .
 
 solr:A.magnesium_iron_silicate a sol-ont:ElementalComposition.magnesium_iron_silicate ;
-    sol-ont:hasElement "Fe"^^sol-ont:ChemicalElement,
-        "Mg"^^sol-ont:ChemicalElement,
-        "O"^^sol-ont:ChemicalElement,
-        "Si"^^sol-ont:ChemicalElement .
+    sol-ont:hasElement "magnesium iron silicate"^^sol-ont:ChemicalElement .
 
 solr:B.ammonia a sol-ont:ElementalComposition.ammonia ;
-    sol-ont:hasElement "H3"^^sol-ont:ChemicalElement,
-        "N"^^sol-ont:ChemicalElement .
+    sol-ont:hasElement "ammonia"^^sol-ont:ChemicalElement .
 
 solr:B.hydrogen a sol-ont:ElementalComposition.hydrogen ;
-    sol-ont:hasElement "H"^^sol-ont:ChemicalElement .
+    sol-ont:hasElement "hydrogen"^^sol-ont:ChemicalElement .
 
 solr:B.iron a sol-ont:ElementalComposition.iron ;
-    sol-ont:hasElement "Fe"^^sol-ont:ChemicalElement .
+    sol-ont:hasElement "iron"^^sol-ont:ChemicalElement .
 
 solr:B.nitrogen a sol-ont:ElementalComposition.nitrogen ;
-    sol-ont:hasElement "N"^^sol-ont:ChemicalElement .
+    sol-ont:hasElement "nitrogen"^^sol-ont:ChemicalElement .
 
-<http://soloflife.org/lod/resource/C,Cb,Ch,Cg,Chg.ammonia> a sol-ont:ElementalComposition.ammonia ;
-    sol-ont:hasElement "H3"^^sol-ont:ChemicalElement,
-        "N"^^sol-ont:ChemicalElement .
+solr:C.ammonia a sol-ont:ElementalComposition.ammonia ;
+    sol-ont:hasElement "ammonia"^^sol-ont:ChemicalElement .
 
-<http://soloflife.org/lod/resource/C,Cb,Ch,Cg,Chg.cobalt> a sol-ont:ElementalComposition.cobalt ;
-    sol-ont:hasElement "Co"^^sol-ont:ChemicalElement .
+solr:C.cobalt a sol-ont:ElementalComposition.cobalt ;
+    sol-ont:hasElement "cobalt"^^sol-ont:ChemicalElement .
 
-<http://soloflife.org/lod/resource/C,Cb,Ch,Cg,Chg.hydrogen> a sol-ont:ElementalComposition.hydrogen ;
-    sol-ont:hasElement "H"^^sol-ont:ChemicalElement .
+solr:C.hydrogen a sol-ont:ElementalComposition.hydrogen ;
+    sol-ont:hasElement "hydrogen"^^sol-ont:ChemicalElement .
 
-<http://soloflife.org/lod/resource/C,Cb,Ch,Cg,Chg.iron> a sol-ont:ElementalComposition.iron ;
-    sol-ont:hasElement "Fe"^^sol-ont:ChemicalElement .
+solr:C.iron a sol-ont:ElementalComposition.iron ;
+    sol-ont:hasElement "iron"^^sol-ont:ChemicalElement .
 
-<http://soloflife.org/lod/resource/C,Cb,Ch,Cg,Chg.nickel> a sol-ont:ElementalComposition.nickel ;
-    sol-ont:hasElement "Ni"^^sol-ont:ChemicalElement .
+solr:C.nickel a sol-ont:ElementalComposition.nickel ;
+    sol-ont:hasElement "nickel"^^sol-ont:ChemicalElement .
 
-<http://soloflife.org/lod/resource/C,Cb,Ch,Cg,Chg.nitrogen> a sol-ont:ElementalComposition.nitrogen ;
-    sol-ont:hasElement "N"^^sol-ont:ChemicalElement .
+solr:C.nitrogen a sol-ont:ElementalComposition.nitrogen ;
+    sol-ont:hasElement "nitrogen"^^sol-ont:ChemicalElement .
 
-<http://soloflife.org/lod/resource/C,Cb,Ch,Cg,Chg.water> a sol-ont:ElementalComposition.water ;
-    sol-ont:hasElement "H2"^^sol-ont:ChemicalElement,
-        "O"^^sol-ont:ChemicalElement .
+solr:C.water a sol-ont:ElementalComposition.water ;
+    sol-ont:hasElement "water"^^sol-ont:ChemicalElement .
+
+solr:Cb.ammonia a sol-ont:ElementalComposition.ammonia ;
+    sol-ont:hasElement "ammonia"^^sol-ont:ChemicalElement .
+
+solr:Cb.cobalt a sol-ont:ElementalComposition.cobalt ;
+    sol-ont:hasElement "cobalt"^^sol-ont:ChemicalElement .
+
+solr:Cb.hydrogen a sol-ont:ElementalComposition.hydrogen ;
+    sol-ont:hasElement "hydrogen"^^sol-ont:ChemicalElement .
+
+solr:Cb.iron a sol-ont:ElementalComposition.iron ;
+    sol-ont:hasElement "iron"^^sol-ont:ChemicalElement .
+
+solr:Cb.nickel a sol-ont:ElementalComposition.nickel ;
+    sol-ont:hasElement "nickel"^^sol-ont:ChemicalElement .
+
+solr:Cb.nitrogen a sol-ont:ElementalComposition.nitrogen ;
+    sol-ont:hasElement "nitrogen"^^sol-ont:ChemicalElement .
+
+solr:Cb.water a sol-ont:ElementalComposition.water ;
+    sol-ont:hasElement "water"^^sol-ont:ChemicalElement .
+
+solr:Cg.ammonia a sol-ont:ElementalComposition.ammonia ;
+    sol-ont:hasElement "ammonia"^^sol-ont:ChemicalElement .
+
+solr:Cg.cobalt a sol-ont:ElementalComposition.cobalt ;
+    sol-ont:hasElement "cobalt"^^sol-ont:ChemicalElement .
+
+solr:Cg.hydrogen a sol-ont:ElementalComposition.hydrogen ;
+    sol-ont:hasElement "hydrogen"^^sol-ont:ChemicalElement .
+
+solr:Cg.iron a sol-ont:ElementalComposition.iron ;
+    sol-ont:hasElement "iron"^^sol-ont:ChemicalElement .
+
+solr:Cg.nickel a sol-ont:ElementalComposition.nickel ;
+    sol-ont:hasElement "nickel"^^sol-ont:ChemicalElement .
+
+solr:Cg.nitrogen a sol-ont:ElementalComposition.nitrogen ;
+    sol-ont:hasElement "nitrogen"^^sol-ont:ChemicalElement .
+
+solr:Cg.water a sol-ont:ElementalComposition.water ;
+    sol-ont:hasElement "water"^^sol-ont:ChemicalElement .
+
+solr:Ch.ammonia a sol-ont:ElementalComposition.ammonia ;
+    sol-ont:hasElement "ammonia"^^sol-ont:ChemicalElement .
+
+solr:Ch.cobalt a sol-ont:ElementalComposition.cobalt ;
+    sol-ont:hasElement "cobalt"^^sol-ont:ChemicalElement .
+
+solr:Ch.hydrogen a sol-ont:ElementalComposition.hydrogen ;
+    sol-ont:hasElement "hydrogen"^^sol-ont:ChemicalElement .
+
+solr:Ch.iron a sol-ont:ElementalComposition.iron ;
+    sol-ont:hasElement "iron"^^sol-ont:ChemicalElement .
+
+solr:Ch.nickel a sol-ont:ElementalComposition.nickel ;
+    sol-ont:hasElement "nickel"^^sol-ont:ChemicalElement .
+
+solr:Ch.nitrogen a sol-ont:ElementalComposition.nitrogen ;
+    sol-ont:hasElement "nitrogen"^^sol-ont:ChemicalElement .
+
+solr:Ch.water a sol-ont:ElementalComposition.water ;
+    sol-ont:hasElement "water"^^sol-ont:ChemicalElement .
+
+solr:Chg.ammonia a sol-ont:ElementalComposition.ammonia ;
+    sol-ont:hasElement "ammonia"^^sol-ont:ChemicalElement .
+
+solr:Chg.cobalt a sol-ont:ElementalComposition.cobalt ;
+    sol-ont:hasElement "cobalt"^^sol-ont:ChemicalElement .
+
+solr:Chg.hydrogen a sol-ont:ElementalComposition.hydrogen ;
+    sol-ont:hasElement "hydrogen"^^sol-ont:ChemicalElement .
+
+solr:Chg.iron a sol-ont:ElementalComposition.iron ;
+    sol-ont:hasElement "iron"^^sol-ont:ChemicalElement .
+
+solr:Chg.nickel a sol-ont:ElementalComposition.nickel ;
+    sol-ont:hasElement "nickel"^^sol-ont:ChemicalElement .
+
+solr:Chg.nitrogen a sol-ont:ElementalComposition.nitrogen ;
+    sol-ont:hasElement "nitrogen"^^sol-ont:ChemicalElement .
+
+solr:Chg.water a sol-ont:ElementalComposition.water ;
+    sol-ont:hasElement "water"^^sol-ont:ChemicalElement .
 
 solr:D.water a sol-ont:ElementalComposition.water ;
-    sol-ont:hasElement "H2"^^sol-ont:ChemicalElement,
-        "O"^^sol-ont:ChemicalElement .
+    sol-ont:hasElement "water"^^sol-ont:ChemicalElement .
 
 solr:K.ammonia a sol-ont:ElementalComposition.ammonia ;
-    sol-ont:hasElement "H3"^^sol-ont:ChemicalElement,
-        "N"^^sol-ont:ChemicalElement .
+    sol-ont:hasElement "ammonia"^^sol-ont:ChemicalElement .
 
 solr:K.cobalt a sol-ont:ElementalComposition.cobalt ;
-    sol-ont:hasElement "Co"^^sol-ont:ChemicalElement .
+    sol-ont:hasElement "cobalt"^^sol-ont:ChemicalElement .
 
 solr:K.hydrogen a sol-ont:ElementalComposition.hydrogen ;
-    sol-ont:hasElement "H"^^sol-ont:ChemicalElement .
+    sol-ont:hasElement "hydrogen"^^sol-ont:ChemicalElement .
 
 solr:K.iron a sol-ont:ElementalComposition.iron ;
-    sol-ont:hasElement "Fe"^^sol-ont:ChemicalElement .
+    sol-ont:hasElement "iron"^^sol-ont:ChemicalElement .
 
 solr:K.nickel a sol-ont:ElementalComposition.nickel ;
-    sol-ont:hasElement "Ni"^^sol-ont:ChemicalElement .
+    sol-ont:hasElement "nickel"^^sol-ont:ChemicalElement .
 
 solr:K.nitrogen a sol-ont:ElementalComposition.nitrogen ;
-    sol-ont:hasElement "N"^^sol-ont:ChemicalElement .
+    sol-ont:hasElement "nitrogen"^^sol-ont:ChemicalElement .
 
 solr:K.water a sol-ont:ElementalComposition.water ;
-    sol-ont:hasElement "H2"^^sol-ont:ChemicalElement,
-        "O"^^sol-ont:ChemicalElement .
+    sol-ont:hasElement "water"^^sol-ont:ChemicalElement .
 
 solr:L.aluminum a sol-ont:ElementalComposition.aluminum ;
-    sol-ont:hasElement "Al"^^sol-ont:ChemicalElement .
+    sol-ont:hasElement "aluminum"^^sol-ont:ChemicalElement .
 
 solr:L.iron_silicate a sol-ont:ElementalComposition.iron_silicate ;
-    sol-ont:hasElement "Fe"^^sol-ont:ChemicalElement,
-        "O"^^sol-ont:ChemicalElement,
-        "Si"^^sol-ont:ChemicalElement .
+    sol-ont:hasElement "iron silicate"^^sol-ont:ChemicalElement .
 
 solr:L.magnesium_silicate a sol-ont:ElementalComposition.magnesium_silicate ;
-    sol-ont:hasElement "Mg"^^sol-ont:ChemicalElement,
-        "O"^^sol-ont:ChemicalElement,
-        "Si"^^sol-ont:ChemicalElement .
+    sol-ont:hasElement "magnesium silicate"^^sol-ont:ChemicalElement .
 
 solr:Ld.iron_silicate a sol-ont:ElementalComposition.iron_silicate ;
-    sol-ont:hasElement "Fe"^^sol-ont:ChemicalElement,
-        "O"^^sol-ont:ChemicalElement,
-        "Si"^^sol-ont:ChemicalElement .
+    sol-ont:hasElement "iron silicate"^^sol-ont:ChemicalElement .
 
 solr:Ld.magnesium_silicate a sol-ont:ElementalComposition.magnesium_silicate ;
-    sol-ont:hasElement "Mg"^^sol-ont:ChemicalElement,
-        "O"^^sol-ont:ChemicalElement,
-        "Si"^^sol-ont:ChemicalElement .
+    sol-ont:hasElement "magnesium silicate"^^sol-ont:ChemicalElement .
 
 solr:M.cobalt a sol-ont:ElementalComposition.cobalt ;
-    sol-ont:hasElement "Co"^^sol-ont:ChemicalElement .
+    sol-ont:hasElement "cobalt"^^sol-ont:ChemicalElement .
 
 solr:M.iron a sol-ont:ElementalComposition.iron ;
-    sol-ont:hasElement "Fe"^^sol-ont:ChemicalElement .
+    sol-ont:hasElement "iron"^^sol-ont:ChemicalElement .
 
 solr:M.nickel a sol-ont:ElementalComposition.nickel ;
-    sol-ont:hasElement "Ni"^^sol-ont:ChemicalElement .
+    sol-ont:hasElement "nickel"^^sol-ont:ChemicalElement .
 
 solr:O.nickel-iron a sol-ont:ElementalComposition.nickel-iron ;
-    sol-ont:hasElement "Fe"^^sol-ont:ChemicalElement,
-        "Ni"^^sol-ont:ChemicalElement .
+    sol-ont:hasElement "nickel-iron"^^sol-ont:ChemicalElement .
 
 solr:O.platinum a sol-ont:ElementalComposition.platinum ;
-    sol-ont:hasElement "Pt"^^sol-ont:ChemicalElement .
+    sol-ont:hasElement "platinum"^^sol-ont:ChemicalElement .
 
 solr:P.water a sol-ont:ElementalComposition.water ;
-    sol-ont:hasElement "H2"^^sol-ont:ChemicalElement,
-        "O"^^sol-ont:ChemicalElement .
+    sol-ont:hasElement "water"^^sol-ont:ChemicalElement .
 
 solr:Q.nickel-iron a sol-ont:ElementalComposition.nickel-iron ;
-    sol-ont:hasElement "Fe"^^sol-ont:ChemicalElement,
-        "Ni"^^sol-ont:ChemicalElement .
+    sol-ont:hasElement "nickel-iron"^^sol-ont:ChemicalElement .
 
 solr:R.iron_silicate a sol-ont:ElementalComposition.iron_silicate ;
-    sol-ont:hasElement "Fe"^^sol-ont:ChemicalElement,
-        "O"^^sol-ont:ChemicalElement,
-        "Si"^^sol-ont:ChemicalElement .
+    sol-ont:hasElement "iron silicate"^^sol-ont:ChemicalElement .
 
 solr:R.magnesium_silicate a sol-ont:ElementalComposition.magnesium_silicate ;
-    sol-ont:hasElement "Mg"^^sol-ont:ChemicalElement,
-        "O"^^sol-ont:ChemicalElement,
-        "Si"^^sol-ont:ChemicalElement .
+    sol-ont:hasElement "magnesium silicate"^^sol-ont:ChemicalElement .
 
 solr:S.iron_silicate a sol-ont:ElementalComposition.iron_silicate ;
-    sol-ont:hasElement "Fe"^^sol-ont:ChemicalElement,
-        "O"^^sol-ont:ChemicalElement,
-        "Si"^^sol-ont:ChemicalElement .
+    sol-ont:hasElement "iron silicate"^^sol-ont:ChemicalElement .
 
 solr:S.magnesium_silicate a sol-ont:ElementalComposition.magnesium_silicate ;
-    sol-ont:hasElement "Mg"^^sol-ont:ChemicalElement,
-        "O"^^sol-ont:ChemicalElement,
-        "Si"^^sol-ont:ChemicalElement .
+    sol-ont:hasElement "magnesium silicate"^^sol-ont:ChemicalElement .
 
 solr:Sa.iron_silicate a sol-ont:ElementalComposition.iron_silicate ;
-    sol-ont:hasElement "Fe"^^sol-ont:ChemicalElement,
-        "O"^^sol-ont:ChemicalElement,
-        "Si"^^sol-ont:ChemicalElement .
+    sol-ont:hasElement "iron silicate"^^sol-ont:ChemicalElement .
 
 solr:Sa.magnesium_silicate a sol-ont:ElementalComposition.magnesium_silicate ;
-    sol-ont:hasElement "Mg"^^sol-ont:ChemicalElement,
-        "O"^^sol-ont:ChemicalElement,
-        "Si"^^sol-ont:ChemicalElement .
+    sol-ont:hasElement "magnesium silicate"^^sol-ont:ChemicalElement .
 
 solr:Sk.iron_silicate a sol-ont:ElementalComposition.iron_silicate ;
-    sol-ont:hasElement "Fe"^^sol-ont:ChemicalElement,
-        "O"^^sol-ont:ChemicalElement,
-        "Si"^^sol-ont:ChemicalElement .
+    sol-ont:hasElement "iron silicate"^^sol-ont:ChemicalElement .
 
 solr:Sk.magnesium_silicate a sol-ont:ElementalComposition.magnesium_silicate ;
-    sol-ont:hasElement "Mg"^^sol-ont:ChemicalElement,
-        "O"^^sol-ont:ChemicalElement,
-        "Si"^^sol-ont:ChemicalElement .
+    sol-ont:hasElement "magnesium silicate"^^sol-ont:ChemicalElement .
 
 solr:Sl.iron_silicate a sol-ont:ElementalComposition.iron_silicate ;
-    sol-ont:hasElement "Fe"^^sol-ont:ChemicalElement,
-        "O"^^sol-ont:ChemicalElement,
-        "Si"^^sol-ont:ChemicalElement .
+    sol-ont:hasElement "iron silicate"^^sol-ont:ChemicalElement .
 
 solr:Sl.magnesium_silicate a sol-ont:ElementalComposition.magnesium_silicate ;
-    sol-ont:hasElement "Mg"^^sol-ont:ChemicalElement,
-        "O"^^sol-ont:ChemicalElement,
-        "Si"^^sol-ont:ChemicalElement .
+    sol-ont:hasElement "magnesium silicate"^^sol-ont:ChemicalElement .
 
 solr:Sq.iron_silicate a sol-ont:ElementalComposition.iron_silicate ;
-    sol-ont:hasElement "Fe"^^sol-ont:ChemicalElement,
-        "O"^^sol-ont:ChemicalElement,
-        "Si"^^sol-ont:ChemicalElement .
+    sol-ont:hasElement "iron silicate"^^sol-ont:ChemicalElement .
 
 solr:Sq.magnesium_silicate a sol-ont:ElementalComposition.magnesium_silicate ;
-    sol-ont:hasElement "Mg"^^sol-ont:ChemicalElement,
-        "O"^^sol-ont:ChemicalElement,
-        "Si"^^sol-ont:ChemicalElement .
+    sol-ont:hasElement "magnesium silicate"^^sol-ont:ChemicalElement .
 
 solr:Sr.iron_silicate a sol-ont:ElementalComposition.iron_silicate ;
-    sol-ont:hasElement "Fe"^^sol-ont:ChemicalElement,
-        "O"^^sol-ont:ChemicalElement,
-        "Si"^^sol-ont:ChemicalElement .
+    sol-ont:hasElement "iron silicate"^^sol-ont:ChemicalElement .
 
 solr:Sr.magnesium_silicate a sol-ont:ElementalComposition.magnesium_silicate ;
-    sol-ont:hasElement "Mg"^^sol-ont:ChemicalElement,
-        "O"^^sol-ont:ChemicalElement,
-        "Si"^^sol-ont:ChemicalElement .
+    sol-ont:hasElement "magnesium silicate"^^sol-ont:ChemicalElement .
 
 solr:T.iron a sol-ont:ElementalComposition.iron ;
-    sol-ont:hasElement "Fe"^^sol-ont:ChemicalElement .
+    sol-ont:hasElement "iron"^^sol-ont:ChemicalElement .
 
 solr:V.iron_silicate a sol-ont:ElementalComposition.iron_silicate ;
-    sol-ont:hasElement "Fe"^^sol-ont:ChemicalElement,
-        "O"^^sol-ont:ChemicalElement,
-        "Si"^^sol-ont:ChemicalElement .
+    sol-ont:hasElement "iron silicate"^^sol-ont:ChemicalElement .
 
 solr:V.magnesium_silicate a sol-ont:ElementalComposition.magnesium_silicate ;
-    sol-ont:hasElement "Mg"^^sol-ont:ChemicalElement,
-        "O"^^sol-ont:ChemicalElement,
-        "Si"^^sol-ont:ChemicalElement .
+    sol-ont:hasElement "magnesium silicate"^^sol-ont:ChemicalElement .
 
 solr:X.cobalt a sol-ont:ElementalComposition.cobalt ;
-    sol-ont:hasElement "Co"^^sol-ont:ChemicalElement .
+    sol-ont:hasElement "cobalt"^^sol-ont:ChemicalElement .
 
 solr:X.iron a sol-ont:ElementalComposition.iron ;
-    sol-ont:hasElement "Fe"^^sol-ont:ChemicalElement .
+    sol-ont:hasElement "iron"^^sol-ont:ChemicalElement .
 
 solr:X.nickel a sol-ont:ElementalComposition.nickel ;
-    sol-ont:hasElement "Ni"^^sol-ont:ChemicalElement .
+    sol-ont:hasElement "nickel"^^sol-ont:ChemicalElement .
 
 solr:Xc.cobalt a sol-ont:ElementalComposition.cobalt ;
-    sol-ont:hasElement "Co"^^sol-ont:ChemicalElement .
+    sol-ont:hasElement "cobalt"^^sol-ont:ChemicalElement .
 
 solr:Xc.iron a sol-ont:ElementalComposition.iron ;
-    sol-ont:hasElement "Fe"^^sol-ont:ChemicalElement .
+    sol-ont:hasElement "iron"^^sol-ont:ChemicalElement .
 
 solr:Xc.nickel a sol-ont:ElementalComposition.nickel ;
-    sol-ont:hasElement "Ni"^^sol-ont:ChemicalElement .
+    sol-ont:hasElement "nickel"^^sol-ont:ChemicalElement .
 
 solr:Xc.platinum a sol-ont:ElementalComposition.platinum ;
-    sol-ont:hasElement "Pt"^^sol-ont:ChemicalElement .
+    sol-ont:hasElement "platinum"^^sol-ont:ChemicalElement .
 
 solr:Xe.cobalt a sol-ont:ElementalComposition.cobalt ;
-    sol-ont:hasElement "Co"^^sol-ont:ChemicalElement .
+    sol-ont:hasElement "cobalt"^^sol-ont:ChemicalElement .
 
 solr:Xe.iron a sol-ont:ElementalComposition.iron ;
-    sol-ont:hasElement "Fe"^^sol-ont:ChemicalElement .
+    sol-ont:hasElement "iron"^^sol-ont:ChemicalElement .
 
 solr:Xe.nickel a sol-ont:ElementalComposition.nickel ;
-    sol-ont:hasElement "Ni"^^sol-ont:ChemicalElement .
+    sol-ont:hasElement "nickel"^^sol-ont:ChemicalElement .
 
 solr:Xk.cobalt a sol-ont:ElementalComposition.cobalt ;
-    sol-ont:hasElement "Co"^^sol-ont:ChemicalElement .
+    sol-ont:hasElement "cobalt"^^sol-ont:ChemicalElement .
 
 solr:Xk.iron a sol-ont:ElementalComposition.iron ;
-    sol-ont:hasElement "Fe"^^sol-ont:ChemicalElement .
+    sol-ont:hasElement "iron"^^sol-ont:ChemicalElement .
 
 solr:Xk.nickel a sol-ont:ElementalComposition.nickel ;
-    sol-ont:hasElement "Ni"^^sol-ont:ChemicalElement .
+    sol-ont:hasElement "nickel"^^sol-ont:ChemicalElement .
 
