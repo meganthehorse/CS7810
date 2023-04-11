@@ -167,6 +167,32 @@ Where{
 **Competency Question:** "What are the 5 closest asteroids that may contain iron?"
 
 **Bridged Datasets:** Asteroid_Distances.csv, Summary_of_Asteroid_Taxonomic_Classes.csv
+```sql
+Select Distinct ?name
+Where{
+  ?asteroid a sol-ont:Asteroid;
+  	sol-ont:hasCommonName ?name;
+    sol-ont:hasAsteroidClassification ?class;
+  	sol-ont:hasDistanceRecord ?record.
+  ?record sol-ont:hasResult ?r. 
+  ?r sol-ont:hasQuantity ?q.
+  ?q sol-ont:hasQuantityValue ?qv .
+  ?qv sol-ont:hasNumericValue ?distance .
+  ?class a sol-ont:AsteroidClassification;
+    sol-ont:hasSMASSIIClass ?smassii.
+  ?smassii sol-ont:hasElementalComposition ?ec.
+  ?ec sol-ont:hasElement ?e.
+  FILTER(?e = "iron"^^sol-ont:ChemicalElement)
+}
+ORDERBY ASC(?distance)
+```
+
+**Results:**
+| name |  
+| :----: | 
+| Didymos |
+| Ryugu |
+| Bennu |
 
 ## Top 3 Profitable Asteroids in 2024
 **Competency Question:** "What are the 3 most potentially profitable asteroids within 0.75au of Earth on January 2024?"
