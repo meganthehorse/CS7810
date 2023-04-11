@@ -4,6 +4,51 @@
 @prefix solr: <http://soloflife.org/lod/resource/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
+solr:AphelionDistanceMeasurementActivity.1973_EC sol-ont:hasDescription "Aphelion Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.NASA-JPL .
+
+solr:AphelionDistanceMeasurementActivity.1982_DB sol-ont:hasDescription "Aphelion Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.NASA-JPL .
+
+solr:AphelionDistanceMeasurementActivity.1989_ML sol-ont:hasDescription "Aphelion Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.NASA-JPL .
+
+solr:AphelionDistanceMeasurementActivity.1992_TC sol-ont:hasDescription "Aphelion Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.NASA-JPL .
+
+solr:AphelionDistanceMeasurementActivity.1996_GT sol-ont:hasDescription "Aphelion Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.NASA-JPL .
+
+solr:AphelionDistanceMeasurementActivity.1999_JU3 sol-ont:hasDescription "Aphelion Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.NASA-JPL .
+
+solr:AphelionDistanceMeasurementActivity.1999_RQ36 sol-ont:hasDescription "Aphelion Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.NASA-JPL .
+
+solr:AphelionDistanceMeasurementActivity.2001_CC21 sol-ont:hasDescription "Aphelion Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.NASA-JPL .
+
+solr:AphelionDistanceMeasurementActivity.2011_UW158 sol-ont:hasDescription "Aphelion Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.NASA-JPL .
+
+solr:AphelionDistanceMeasurementActivity.A802_FA sol-ont:hasDescription "Aphelion Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.NASA-JPL .
+
+solr:AphelionDistanceMeasurementActivity.A849_GA sol-ont:hasDescription "Aphelion Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.NASA-JPL .
+
+solr:AphelionDistanceMeasurementActivity.A850_VA sol-ont:hasDescription "Aphelion Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.NASA-JPL .
+
+solr:AphelionDistanceMeasurementActivity.A852_FA sol-ont:hasDescription "Aphelion Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.NASA-JPL .
+
+solr:AphelionDistanceMeasurementActivity.A852_QA sol-ont:hasDescription "Aphelion Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.NASA-JPL .
+
+solr:AphelionDistanceMeasurementActivity.A866_KA sol-ont:hasDescription "Aphelion Distance"^^xsd:string ;
+    sol-ont:performedBy sol-ont:Agent.NASA-JPL .
+
 solr:AphelionDistanceObservation.1973_EC sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
     sol-ont:generatedBy solr:AphelionDistanceMeasurementActivity.1973_EC ;
     sol-ont:hasFeatureOfInterest solr:Asteroid.1973_EC ;
@@ -93,951 +138,6 @@ solr:AphelionDistanceObservation.A866_KA sol-ont:attributedTo sol-ont:Agent.NASA
     sol-ont:hasFeatureOfInterest solr:Asteroid.A866_KA ;
     sol-ont:hasObservableProperty solr:OrbitalProperty.AphelionDistanceObservation.A866_KA ;
     sol-ont:hasResult solr:AphelionDistanceResult.A866_KA .
-
-solr:ArgumentOfPerihelionObservation.1973_EC sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
-    sol-ont:generatedBy solr:ArgumentOfPerihelionMeasurementActivity.1973_EC ;
-    sol-ont:hasFeatureOfInterest solr:Asteroid.1973_EC ;
-    sol-ont:hasObservableProperty solr:OrbitalProperty.ArgumentOfPerihelionObservation.1973_EC ;
-    sol-ont:hasResult solr:ArgumentOfPerihelionResult.1973_EC .
-
-solr:ArgumentOfPerihelionObservation.1982_DB sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
-    sol-ont:generatedBy solr:ArgumentOfPerihelionMeasurementActivity.1982_DB ;
-    sol-ont:hasFeatureOfInterest solr:Asteroid.1982_DB ;
-    sol-ont:hasObservableProperty solr:OrbitalProperty.ArgumentOfPerihelionObservation.1982_DB ;
-    sol-ont:hasResult solr:ArgumentOfPerihelionResult.1982_DB .
-
-solr:ArgumentOfPerihelionObservation.1989_ML sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
-    sol-ont:generatedBy solr:ArgumentOfPerihelionMeasurementActivity.1989_ML ;
-    sol-ont:hasFeatureOfInterest solr:Asteroid.1989_ML ;
-    sol-ont:hasObservableProperty solr:OrbitalProperty.ArgumentOfPerihelionObservation.1989_ML ;
-    sol-ont:hasResult solr:ArgumentOfPerihelionResult.1989_ML .
-
-solr:ArgumentOfPerihelionObservation.1992_TC sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
-    sol-ont:generatedBy solr:ArgumentOfPerihelionMeasurementActivity.1992_TC ;
-    sol-ont:hasFeatureOfInterest solr:Asteroid.1992_TC ;
-    sol-ont:hasObservableProperty solr:OrbitalProperty.ArgumentOfPerihelionObservation.1992_TC ;
-    sol-ont:hasResult solr:ArgumentOfPerihelionResult.1992_TC .
-
-solr:ArgumentOfPerihelionObservation.1996_GT sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
-    sol-ont:generatedBy solr:ArgumentOfPerihelionMeasurementActivity.1996_GT ;
-    sol-ont:hasFeatureOfInterest solr:Asteroid.1996_GT ;
-    sol-ont:hasObservableProperty solr:OrbitalProperty.ArgumentOfPerihelionObservation.1996_GT ;
-    sol-ont:hasResult solr:ArgumentOfPerihelionResult.1996_GT .
-
-solr:ArgumentOfPerihelionObservation.1999_JU3 sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
-    sol-ont:generatedBy solr:ArgumentOfPerihelionMeasurementActivity.1999_JU3 ;
-    sol-ont:hasFeatureOfInterest solr:Asteroid.1999_JU3 ;
-    sol-ont:hasObservableProperty solr:OrbitalProperty.ArgumentOfPerihelionObservation.1999_JU3 ;
-    sol-ont:hasResult solr:ArgumentOfPerihelionResult.1999_JU3 .
-
-solr:ArgumentOfPerihelionObservation.1999_RQ36 sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
-    sol-ont:generatedBy solr:ArgumentOfPerihelionMeasurementActivity.1999_RQ36 ;
-    sol-ont:hasFeatureOfInterest solr:Asteroid.1999_RQ36 ;
-    sol-ont:hasObservableProperty solr:OrbitalProperty.ArgumentOfPerihelionObservation.1999_RQ36 ;
-    sol-ont:hasResult solr:ArgumentOfPerihelionResult.1999_RQ36 .
-
-solr:ArgumentOfPerihelionObservation.2001_CC21 sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
-    sol-ont:generatedBy solr:ArgumentOfPerihelionMeasurementActivity.2001_CC21 ;
-    sol-ont:hasFeatureOfInterest solr:Asteroid.2001_CC21 ;
-    sol-ont:hasObservableProperty solr:OrbitalProperty.ArgumentOfPerihelionObservation.2001_CC21 ;
-    sol-ont:hasResult solr:ArgumentOfPerihelionResult.2001_CC21 .
-
-solr:ArgumentOfPerihelionObservation.2011_UW158 sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
-    sol-ont:generatedBy solr:ArgumentOfPerihelionMeasurementActivity.2011_UW158 ;
-    sol-ont:hasFeatureOfInterest solr:Asteroid.2011_UW158 ;
-    sol-ont:hasObservableProperty solr:OrbitalProperty.ArgumentOfPerihelionObservation.2011_UW158 ;
-    sol-ont:hasResult solr:ArgumentOfPerihelionResult.2011_UW158 .
-
-solr:ArgumentOfPerihelionObservation.A802_FA sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
-    sol-ont:generatedBy solr:ArgumentOfPerihelionMeasurementActivity.A802_FA ;
-    sol-ont:hasFeatureOfInterest solr:Asteroid.A802_FA ;
-    sol-ont:hasObservableProperty solr:OrbitalProperty.ArgumentOfPerihelionObservation.A802_FA ;
-    sol-ont:hasResult solr:ArgumentOfPerihelionResult.A802_FA .
-
-solr:ArgumentOfPerihelionObservation.A849_GA sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
-    sol-ont:generatedBy solr:ArgumentOfPerihelionMeasurementActivity.A849_GA ;
-    sol-ont:hasFeatureOfInterest solr:Asteroid.A849_GA ;
-    sol-ont:hasObservableProperty solr:OrbitalProperty.ArgumentOfPerihelionObservation.A849_GA ;
-    sol-ont:hasResult solr:ArgumentOfPerihelionResult.A849_GA .
-
-solr:ArgumentOfPerihelionObservation.A850_VA sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
-    sol-ont:generatedBy solr:ArgumentOfPerihelionMeasurementActivity.A850_VA ;
-    sol-ont:hasFeatureOfInterest solr:Asteroid.A850_VA ;
-    sol-ont:hasObservableProperty solr:OrbitalProperty.ArgumentOfPerihelionObservation.A850_VA ;
-    sol-ont:hasResult solr:ArgumentOfPerihelionResult.A850_VA .
-
-solr:ArgumentOfPerihelionObservation.A852_FA sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
-    sol-ont:generatedBy solr:ArgumentOfPerihelionMeasurementActivity.A852_FA ;
-    sol-ont:hasFeatureOfInterest solr:Asteroid.A852_FA ;
-    sol-ont:hasObservableProperty solr:OrbitalProperty.ArgumentOfPerihelionObservation.A852_FA ;
-    sol-ont:hasResult solr:ArgumentOfPerihelionResult.A852_FA .
-
-solr:ArgumentOfPerihelionObservation.A852_QA sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
-    sol-ont:generatedBy solr:ArgumentOfPerihelionMeasurementActivity.A852_QA ;
-    sol-ont:hasFeatureOfInterest solr:Asteroid.A852_QA ;
-    sol-ont:hasObservableProperty solr:OrbitalProperty.ArgumentOfPerihelionObservation.A852_QA ;
-    sol-ont:hasResult solr:ArgumentOfPerihelionResult.A852_QA .
-
-solr:ArgumentOfPerihelionObservation.A866_KA sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
-    sol-ont:generatedBy solr:ArgumentOfPerihelionMeasurementActivity.A866_KA ;
-    sol-ont:hasFeatureOfInterest solr:Asteroid.A866_KA ;
-    sol-ont:hasObservableProperty solr:OrbitalProperty.ArgumentOfPerihelionObservation.A866_KA ;
-    sol-ont:hasResult solr:ArgumentOfPerihelionResult.A866_KA .
-
-solr:DiameterObservation.1973_EC sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
-    sol-ont:generatedBy solr:DiameterMeasurementActivity.1973_EC ;
-    sol-ont:hasFeatureOfInterest solr:Asteroid.1973_EC ;
-    sol-ont:hasObservableProperty solr:OrbitalProperty.DiameterObservation.1973_EC ;
-    sol-ont:hasResult solr:DiameterResult.1973_EC .
-
-solr:DiameterObservation.1982_DB sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
-    sol-ont:generatedBy solr:DiameterMeasurementActivity.1982_DB ;
-    sol-ont:hasFeatureOfInterest solr:Asteroid.1982_DB ;
-    sol-ont:hasObservableProperty solr:OrbitalProperty.DiameterObservation.1982_DB ;
-    sol-ont:hasResult solr:DiameterResult.1982_DB .
-
-solr:DiameterObservation.1989_ML sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
-    sol-ont:generatedBy solr:DiameterMeasurementActivity.1989_ML ;
-    sol-ont:hasFeatureOfInterest solr:Asteroid.1989_ML ;
-    sol-ont:hasObservableProperty solr:OrbitalProperty.DiameterObservation.1989_ML ;
-    sol-ont:hasResult solr:DiameterResult.1989_ML .
-
-solr:DiameterObservation.1992_TC sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
-    sol-ont:generatedBy solr:DiameterMeasurementActivity.1992_TC ;
-    sol-ont:hasFeatureOfInterest solr:Asteroid.1992_TC ;
-    sol-ont:hasObservableProperty solr:OrbitalProperty.DiameterObservation.1992_TC ;
-    sol-ont:hasResult solr:DiameterResult.1992_TC .
-
-solr:DiameterObservation.1996_GT sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
-    sol-ont:generatedBy solr:DiameterMeasurementActivity.1996_GT ;
-    sol-ont:hasFeatureOfInterest solr:Asteroid.1996_GT ;
-    sol-ont:hasObservableProperty solr:OrbitalProperty.DiameterObservation.1996_GT ;
-    sol-ont:hasResult solr:DiameterResult.1996_GT .
-
-solr:DiameterObservation.1999_JU3 sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
-    sol-ont:generatedBy solr:DiameterMeasurementActivity.1999_JU3 ;
-    sol-ont:hasFeatureOfInterest solr:Asteroid.1999_JU3 ;
-    sol-ont:hasObservableProperty solr:OrbitalProperty.DiameterObservation.1999_JU3 ;
-    sol-ont:hasResult solr:DiameterResult.1999_JU3 .
-
-solr:DiameterObservation.1999_RQ36 sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
-    sol-ont:generatedBy solr:DiameterMeasurementActivity.1999_RQ36 ;
-    sol-ont:hasFeatureOfInterest solr:Asteroid.1999_RQ36 ;
-    sol-ont:hasObservableProperty solr:OrbitalProperty.DiameterObservation.1999_RQ36 ;
-    sol-ont:hasResult solr:DiameterResult.1999_RQ36 .
-
-solr:DiameterObservation.2001_CC21 sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
-    sol-ont:generatedBy solr:DiameterMeasurementActivity.2001_CC21 ;
-    sol-ont:hasFeatureOfInterest solr:Asteroid.2001_CC21 ;
-    sol-ont:hasObservableProperty solr:OrbitalProperty.DiameterObservation.2001_CC21 ;
-    sol-ont:hasResult solr:DiameterResult.2001_CC21 .
-
-solr:DiameterObservation.2011_UW158 sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
-    sol-ont:generatedBy solr:DiameterMeasurementActivity.2011_UW158 ;
-    sol-ont:hasFeatureOfInterest solr:Asteroid.2011_UW158 ;
-    sol-ont:hasObservableProperty solr:OrbitalProperty.DiameterObservation.2011_UW158 ;
-    sol-ont:hasResult solr:DiameterResult.2011_UW158 .
-
-solr:DiameterObservation.A802_FA sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
-    sol-ont:generatedBy solr:DiameterMeasurementActivity.A802_FA ;
-    sol-ont:hasFeatureOfInterest solr:Asteroid.A802_FA ;
-    sol-ont:hasObservableProperty solr:OrbitalProperty.DiameterObservation.A802_FA ;
-    sol-ont:hasResult solr:DiameterResult.A802_FA .
-
-solr:DiameterObservation.A849_GA sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
-    sol-ont:generatedBy solr:DiameterMeasurementActivity.A849_GA ;
-    sol-ont:hasFeatureOfInterest solr:Asteroid.A849_GA ;
-    sol-ont:hasObservableProperty solr:OrbitalProperty.DiameterObservation.A849_GA ;
-    sol-ont:hasResult solr:DiameterResult.A849_GA .
-
-solr:DiameterObservation.A850_VA sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
-    sol-ont:generatedBy solr:DiameterMeasurementActivity.A850_VA ;
-    sol-ont:hasFeatureOfInterest solr:Asteroid.A850_VA ;
-    sol-ont:hasObservableProperty solr:OrbitalProperty.DiameterObservation.A850_VA ;
-    sol-ont:hasResult solr:DiameterResult.A850_VA .
-
-solr:DiameterObservation.A852_FA sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
-    sol-ont:generatedBy solr:DiameterMeasurementActivity.A852_FA ;
-    sol-ont:hasFeatureOfInterest solr:Asteroid.A852_FA ;
-    sol-ont:hasObservableProperty solr:OrbitalProperty.DiameterObservation.A852_FA ;
-    sol-ont:hasResult solr:DiameterResult.A852_FA .
-
-solr:DiameterObservation.A852_QA sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
-    sol-ont:generatedBy solr:DiameterMeasurementActivity.A852_QA ;
-    sol-ont:hasFeatureOfInterest solr:Asteroid.A852_QA ;
-    sol-ont:hasObservableProperty solr:OrbitalProperty.DiameterObservation.A852_QA ;
-    sol-ont:hasResult solr:DiameterResult.A852_QA .
-
-solr:DiameterObservation.A866_KA sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
-    sol-ont:generatedBy solr:DiameterMeasurementActivity.A866_KA ;
-    sol-ont:hasFeatureOfInterest solr:Asteroid.A866_KA ;
-    sol-ont:hasObservableProperty solr:OrbitalProperty.DiameterObservation.A866_KA ;
-    sol-ont:hasResult solr:DiameterResult.A866_KA .
-
-solr:InclinationObservation.1973_EC sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
-    sol-ont:generatedBy solr:InclinationMeasurementActivity.1973_EC ;
-    sol-ont:hasFeatureOfInterest solr:Asteroid.1973_EC ;
-    sol-ont:hasObservableProperty solr:OrbitalProperty.InclinationObservation.1973_EC ;
-    sol-ont:hasResult solr:InclinationResult.1973_EC .
-
-solr:InclinationObservation.1982_DB sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
-    sol-ont:generatedBy solr:InclinationMeasurementActivity.1982_DB ;
-    sol-ont:hasFeatureOfInterest solr:Asteroid.1982_DB ;
-    sol-ont:hasObservableProperty solr:OrbitalProperty.InclinationObservation.1982_DB ;
-    sol-ont:hasResult solr:InclinationResult.1982_DB .
-
-solr:InclinationObservation.1989_ML sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
-    sol-ont:generatedBy solr:InclinationMeasurementActivity.1989_ML ;
-    sol-ont:hasFeatureOfInterest solr:Asteroid.1989_ML ;
-    sol-ont:hasObservableProperty solr:OrbitalProperty.InclinationObservation.1989_ML ;
-    sol-ont:hasResult solr:InclinationResult.1989_ML .
-
-solr:InclinationObservation.1992_TC sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
-    sol-ont:generatedBy solr:InclinationMeasurementActivity.1992_TC ;
-    sol-ont:hasFeatureOfInterest solr:Asteroid.1992_TC ;
-    sol-ont:hasObservableProperty solr:OrbitalProperty.InclinationObservation.1992_TC ;
-    sol-ont:hasResult solr:InclinationResult.1992_TC .
-
-solr:InclinationObservation.1996_GT sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
-    sol-ont:generatedBy solr:InclinationMeasurementActivity.1996_GT ;
-    sol-ont:hasFeatureOfInterest solr:Asteroid.1996_GT ;
-    sol-ont:hasObservableProperty solr:OrbitalProperty.InclinationObservation.1996_GT ;
-    sol-ont:hasResult solr:InclinationResult.1996_GT .
-
-solr:InclinationObservation.1999_JU3 sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
-    sol-ont:generatedBy solr:InclinationMeasurementActivity.1999_JU3 ;
-    sol-ont:hasFeatureOfInterest solr:Asteroid.1999_JU3 ;
-    sol-ont:hasObservableProperty solr:OrbitalProperty.InclinationObservation.1999_JU3 ;
-    sol-ont:hasResult solr:InclinationResult.1999_JU3 .
-
-solr:InclinationObservation.1999_RQ36 sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
-    sol-ont:generatedBy solr:InclinationMeasurementActivity.1999_RQ36 ;
-    sol-ont:hasFeatureOfInterest solr:Asteroid.1999_RQ36 ;
-    sol-ont:hasObservableProperty solr:OrbitalProperty.InclinationObservation.1999_RQ36 ;
-    sol-ont:hasResult solr:InclinationResult.1999_RQ36 .
-
-solr:InclinationObservation.2001_CC21 sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
-    sol-ont:generatedBy solr:InclinationMeasurementActivity.2001_CC21 ;
-    sol-ont:hasFeatureOfInterest solr:Asteroid.2001_CC21 ;
-    sol-ont:hasObservableProperty solr:OrbitalProperty.InclinationObservation.2001_CC21 ;
-    sol-ont:hasResult solr:InclinationResult.2001_CC21 .
-
-solr:InclinationObservation.2011_UW158 sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
-    sol-ont:generatedBy solr:InclinationMeasurementActivity.2011_UW158 ;
-    sol-ont:hasFeatureOfInterest solr:Asteroid.2011_UW158 ;
-    sol-ont:hasObservableProperty solr:OrbitalProperty.InclinationObservation.2011_UW158 ;
-    sol-ont:hasResult solr:InclinationResult.2011_UW158 .
-
-solr:InclinationObservation.A802_FA sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
-    sol-ont:generatedBy solr:InclinationMeasurementActivity.A802_FA ;
-    sol-ont:hasFeatureOfInterest solr:Asteroid.A802_FA ;
-    sol-ont:hasObservableProperty solr:OrbitalProperty.InclinationObservation.A802_FA ;
-    sol-ont:hasResult solr:InclinationResult.A802_FA .
-
-solr:InclinationObservation.A849_GA sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
-    sol-ont:generatedBy solr:InclinationMeasurementActivity.A849_GA ;
-    sol-ont:hasFeatureOfInterest solr:Asteroid.A849_GA ;
-    sol-ont:hasObservableProperty solr:OrbitalProperty.InclinationObservation.A849_GA ;
-    sol-ont:hasResult solr:InclinationResult.A849_GA .
-
-solr:InclinationObservation.A850_VA sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
-    sol-ont:generatedBy solr:InclinationMeasurementActivity.A850_VA ;
-    sol-ont:hasFeatureOfInterest solr:Asteroid.A850_VA ;
-    sol-ont:hasObservableProperty solr:OrbitalProperty.InclinationObservation.A850_VA ;
-    sol-ont:hasResult solr:InclinationResult.A850_VA .
-
-solr:InclinationObservation.A852_FA sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
-    sol-ont:generatedBy solr:InclinationMeasurementActivity.A852_FA ;
-    sol-ont:hasFeatureOfInterest solr:Asteroid.A852_FA ;
-    sol-ont:hasObservableProperty solr:OrbitalProperty.InclinationObservation.A852_FA ;
-    sol-ont:hasResult solr:InclinationResult.A852_FA .
-
-solr:InclinationObservation.A852_QA sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
-    sol-ont:generatedBy solr:InclinationMeasurementActivity.A852_QA ;
-    sol-ont:hasFeatureOfInterest solr:Asteroid.A852_QA ;
-    sol-ont:hasObservableProperty solr:OrbitalProperty.InclinationObservation.A852_QA ;
-    sol-ont:hasResult solr:InclinationResult.A852_QA .
-
-solr:InclinationObservation.A866_KA sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
-    sol-ont:generatedBy solr:InclinationMeasurementActivity.A866_KA ;
-    sol-ont:hasFeatureOfInterest solr:Asteroid.A866_KA ;
-    sol-ont:hasObservableProperty solr:OrbitalProperty.InclinationObservation.A866_KA ;
-    sol-ont:hasResult solr:InclinationResult.A866_KA .
-
-solr:LongitudeOfAscendingNodeObservation.1973_EC sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
-    sol-ont:generatedBy solr:LongitudeOfAscendingNodeMeasurementActivity.1973_EC ;
-    sol-ont:hasFeatureOfInterest solr:Asteroid.1973_EC ;
-    sol-ont:hasObservableProperty solr:OrbitalProperty.LongitudeOfAscendingNodeObservation.1973_EC ;
-    sol-ont:hasResult solr:LongitudeOfAscendingNodeResult.1973_EC .
-
-solr:LongitudeOfAscendingNodeObservation.1982_DB sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
-    sol-ont:generatedBy solr:LongitudeOfAscendingNodeMeasurementActivity.1982_DB ;
-    sol-ont:hasFeatureOfInterest solr:Asteroid.1982_DB ;
-    sol-ont:hasObservableProperty solr:OrbitalProperty.LongitudeOfAscendingNodeObservation.1982_DB ;
-    sol-ont:hasResult solr:LongitudeOfAscendingNodeResult.1982_DB .
-
-solr:LongitudeOfAscendingNodeObservation.1989_ML sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
-    sol-ont:generatedBy solr:LongitudeOfAscendingNodeMeasurementActivity.1989_ML ;
-    sol-ont:hasFeatureOfInterest solr:Asteroid.1989_ML ;
-    sol-ont:hasObservableProperty solr:OrbitalProperty.LongitudeOfAscendingNodeObservation.1989_ML ;
-    sol-ont:hasResult solr:LongitudeOfAscendingNodeResult.1989_ML .
-
-solr:LongitudeOfAscendingNodeObservation.1992_TC sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
-    sol-ont:generatedBy solr:LongitudeOfAscendingNodeMeasurementActivity.1992_TC ;
-    sol-ont:hasFeatureOfInterest solr:Asteroid.1992_TC ;
-    sol-ont:hasObservableProperty solr:OrbitalProperty.LongitudeOfAscendingNodeObservation.1992_TC ;
-    sol-ont:hasResult solr:LongitudeOfAscendingNodeResult.1992_TC .
-
-solr:LongitudeOfAscendingNodeObservation.1996_GT sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
-    sol-ont:generatedBy solr:LongitudeOfAscendingNodeMeasurementActivity.1996_GT ;
-    sol-ont:hasFeatureOfInterest solr:Asteroid.1996_GT ;
-    sol-ont:hasObservableProperty solr:OrbitalProperty.LongitudeOfAscendingNodeObservation.1996_GT ;
-    sol-ont:hasResult solr:LongitudeOfAscendingNodeResult.1996_GT .
-
-solr:LongitudeOfAscendingNodeObservation.1999_JU3 sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
-    sol-ont:generatedBy solr:LongitudeOfAscendingNodeMeasurementActivity.1999_JU3 ;
-    sol-ont:hasFeatureOfInterest solr:Asteroid.1999_JU3 ;
-    sol-ont:hasObservableProperty solr:OrbitalProperty.LongitudeOfAscendingNodeObservation.1999_JU3 ;
-    sol-ont:hasResult solr:LongitudeOfAscendingNodeResult.1999_JU3 .
-
-solr:LongitudeOfAscendingNodeObservation.1999_RQ36 sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
-    sol-ont:generatedBy solr:LongitudeOfAscendingNodeMeasurementActivity.1999_RQ36 ;
-    sol-ont:hasFeatureOfInterest solr:Asteroid.1999_RQ36 ;
-    sol-ont:hasObservableProperty solr:OrbitalProperty.LongitudeOfAscendingNodeObservation.1999_RQ36 ;
-    sol-ont:hasResult solr:LongitudeOfAscendingNodeResult.1999_RQ36 .
-
-solr:LongitudeOfAscendingNodeObservation.2001_CC21 sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
-    sol-ont:generatedBy solr:LongitudeOfAscendingNodeMeasurementActivity.2001_CC21 ;
-    sol-ont:hasFeatureOfInterest solr:Asteroid.2001_CC21 ;
-    sol-ont:hasObservableProperty solr:OrbitalProperty.LongitudeOfAscendingNodeObservation.2001_CC21 ;
-    sol-ont:hasResult solr:LongitudeOfAscendingNodeResult.2001_CC21 .
-
-solr:LongitudeOfAscendingNodeObservation.2011_UW158 sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
-    sol-ont:generatedBy solr:LongitudeOfAscendingNodeMeasurementActivity.2011_UW158 ;
-    sol-ont:hasFeatureOfInterest solr:Asteroid.2011_UW158 ;
-    sol-ont:hasObservableProperty solr:OrbitalProperty.LongitudeOfAscendingNodeObservation.2011_UW158 ;
-    sol-ont:hasResult solr:LongitudeOfAscendingNodeResult.2011_UW158 .
-
-solr:LongitudeOfAscendingNodeObservation.A802_FA sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
-    sol-ont:generatedBy solr:LongitudeOfAscendingNodeMeasurementActivity.A802_FA ;
-    sol-ont:hasFeatureOfInterest solr:Asteroid.A802_FA ;
-    sol-ont:hasObservableProperty solr:OrbitalProperty.LongitudeOfAscendingNodeObservation.A802_FA ;
-    sol-ont:hasResult solr:LongitudeOfAscendingNodeResult.A802_FA .
-
-solr:LongitudeOfAscendingNodeObservation.A849_GA sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
-    sol-ont:generatedBy solr:LongitudeOfAscendingNodeMeasurementActivity.A849_GA ;
-    sol-ont:hasFeatureOfInterest solr:Asteroid.A849_GA ;
-    sol-ont:hasObservableProperty solr:OrbitalProperty.LongitudeOfAscendingNodeObservation.A849_GA ;
-    sol-ont:hasResult solr:LongitudeOfAscendingNodeResult.A849_GA .
-
-solr:LongitudeOfAscendingNodeObservation.A850_VA sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
-    sol-ont:generatedBy solr:LongitudeOfAscendingNodeMeasurementActivity.A850_VA ;
-    sol-ont:hasFeatureOfInterest solr:Asteroid.A850_VA ;
-    sol-ont:hasObservableProperty solr:OrbitalProperty.LongitudeOfAscendingNodeObservation.A850_VA ;
-    sol-ont:hasResult solr:LongitudeOfAscendingNodeResult.A850_VA .
-
-solr:LongitudeOfAscendingNodeObservation.A852_FA sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
-    sol-ont:generatedBy solr:LongitudeOfAscendingNodeMeasurementActivity.A852_FA ;
-    sol-ont:hasFeatureOfInterest solr:Asteroid.A852_FA ;
-    sol-ont:hasObservableProperty solr:OrbitalProperty.LongitudeOfAscendingNodeObservation.A852_FA ;
-    sol-ont:hasResult solr:LongitudeOfAscendingNodeResult.A852_FA .
-
-solr:LongitudeOfAscendingNodeObservation.A852_QA sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
-    sol-ont:generatedBy solr:LongitudeOfAscendingNodeMeasurementActivity.A852_QA ;
-    sol-ont:hasFeatureOfInterest solr:Asteroid.A852_QA ;
-    sol-ont:hasObservableProperty solr:OrbitalProperty.LongitudeOfAscendingNodeObservation.A852_QA ;
-    sol-ont:hasResult solr:LongitudeOfAscendingNodeResult.A852_QA .
-
-solr:LongitudeOfAscendingNodeObservation.A866_KA sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
-    sol-ont:generatedBy solr:LongitudeOfAscendingNodeMeasurementActivity.A866_KA ;
-    sol-ont:hasFeatureOfInterest solr:Asteroid.A866_KA ;
-    sol-ont:hasObservableProperty solr:OrbitalProperty.LongitudeOfAscendingNodeObservation.A866_KA ;
-    sol-ont:hasResult solr:LongitudeOfAscendingNodeResult.A866_KA .
-
-solr:MeanAnomalyObservation.1973_EC sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
-    sol-ont:generatedBy solr:MeanAnomalyMeasurementActivity.1973_EC ;
-    sol-ont:hasFeatureOfInterest solr:Asteroid.1973_EC ;
-    sol-ont:hasObservableProperty solr:OrbitalProperty.MeanAnomalyObservation.1973_EC ;
-    sol-ont:hasResult solr:MeanAnomalyResult.1973_EC .
-
-solr:MeanAnomalyObservation.1982_DB sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
-    sol-ont:generatedBy solr:MeanAnomalyMeasurementActivity.1982_DB ;
-    sol-ont:hasFeatureOfInterest solr:Asteroid.1982_DB ;
-    sol-ont:hasObservableProperty solr:OrbitalProperty.MeanAnomalyObservation.1982_DB ;
-    sol-ont:hasResult solr:MeanAnomalyResult.1982_DB .
-
-solr:MeanAnomalyObservation.1989_ML sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
-    sol-ont:generatedBy solr:MeanAnomalyMeasurementActivity.1989_ML ;
-    sol-ont:hasFeatureOfInterest solr:Asteroid.1989_ML ;
-    sol-ont:hasObservableProperty solr:OrbitalProperty.MeanAnomalyObservation.1989_ML ;
-    sol-ont:hasResult solr:MeanAnomalyResult.1989_ML .
-
-solr:MeanAnomalyObservation.1992_TC sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
-    sol-ont:generatedBy solr:MeanAnomalyMeasurementActivity.1992_TC ;
-    sol-ont:hasFeatureOfInterest solr:Asteroid.1992_TC ;
-    sol-ont:hasObservableProperty solr:OrbitalProperty.MeanAnomalyObservation.1992_TC ;
-    sol-ont:hasResult solr:MeanAnomalyResult.1992_TC .
-
-solr:MeanAnomalyObservation.1996_GT sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
-    sol-ont:generatedBy solr:MeanAnomalyMeasurementActivity.1996_GT ;
-    sol-ont:hasFeatureOfInterest solr:Asteroid.1996_GT ;
-    sol-ont:hasObservableProperty solr:OrbitalProperty.MeanAnomalyObservation.1996_GT ;
-    sol-ont:hasResult solr:MeanAnomalyResult.1996_GT .
-
-solr:MeanAnomalyObservation.1999_JU3 sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
-    sol-ont:generatedBy solr:MeanAnomalyMeasurementActivity.1999_JU3 ;
-    sol-ont:hasFeatureOfInterest solr:Asteroid.1999_JU3 ;
-    sol-ont:hasObservableProperty solr:OrbitalProperty.MeanAnomalyObservation.1999_JU3 ;
-    sol-ont:hasResult solr:MeanAnomalyResult.1999_JU3 .
-
-solr:MeanAnomalyObservation.1999_RQ36 sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
-    sol-ont:generatedBy solr:MeanAnomalyMeasurementActivity.1999_RQ36 ;
-    sol-ont:hasFeatureOfInterest solr:Asteroid.1999_RQ36 ;
-    sol-ont:hasObservableProperty solr:OrbitalProperty.MeanAnomalyObservation.1999_RQ36 ;
-    sol-ont:hasResult solr:MeanAnomalyResult.1999_RQ36 .
-
-solr:MeanAnomalyObservation.2001_CC21 sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
-    sol-ont:generatedBy solr:MeanAnomalyMeasurementActivity.2001_CC21 ;
-    sol-ont:hasFeatureOfInterest solr:Asteroid.2001_CC21 ;
-    sol-ont:hasObservableProperty solr:OrbitalProperty.MeanAnomalyObservation.2001_CC21 ;
-    sol-ont:hasResult solr:MeanAnomalyResult.2001_CC21 .
-
-solr:MeanAnomalyObservation.2011_UW158 sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
-    sol-ont:generatedBy solr:MeanAnomalyMeasurementActivity.2011_UW158 ;
-    sol-ont:hasFeatureOfInterest solr:Asteroid.2011_UW158 ;
-    sol-ont:hasObservableProperty solr:OrbitalProperty.MeanAnomalyObservation.2011_UW158 ;
-    sol-ont:hasResult solr:MeanAnomalyResult.2011_UW158 .
-
-solr:MeanAnomalyObservation.A802_FA sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
-    sol-ont:generatedBy solr:MeanAnomalyMeasurementActivity.A802_FA ;
-    sol-ont:hasFeatureOfInterest solr:Asteroid.A802_FA ;
-    sol-ont:hasObservableProperty solr:OrbitalProperty.MeanAnomalyObservation.A802_FA ;
-    sol-ont:hasResult solr:MeanAnomalyResult.A802_FA .
-
-solr:MeanAnomalyObservation.A849_GA sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
-    sol-ont:generatedBy solr:MeanAnomalyMeasurementActivity.A849_GA ;
-    sol-ont:hasFeatureOfInterest solr:Asteroid.A849_GA ;
-    sol-ont:hasObservableProperty solr:OrbitalProperty.MeanAnomalyObservation.A849_GA ;
-    sol-ont:hasResult solr:MeanAnomalyResult.A849_GA .
-
-solr:MeanAnomalyObservation.A850_VA sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
-    sol-ont:generatedBy solr:MeanAnomalyMeasurementActivity.A850_VA ;
-    sol-ont:hasFeatureOfInterest solr:Asteroid.A850_VA ;
-    sol-ont:hasObservableProperty solr:OrbitalProperty.MeanAnomalyObservation.A850_VA ;
-    sol-ont:hasResult solr:MeanAnomalyResult.A850_VA .
-
-solr:MeanAnomalyObservation.A852_FA sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
-    sol-ont:generatedBy solr:MeanAnomalyMeasurementActivity.A852_FA ;
-    sol-ont:hasFeatureOfInterest solr:Asteroid.A852_FA ;
-    sol-ont:hasObservableProperty solr:OrbitalProperty.MeanAnomalyObservation.A852_FA ;
-    sol-ont:hasResult solr:MeanAnomalyResult.A852_FA .
-
-solr:MeanAnomalyObservation.A852_QA sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
-    sol-ont:generatedBy solr:MeanAnomalyMeasurementActivity.A852_QA ;
-    sol-ont:hasFeatureOfInterest solr:Asteroid.A852_QA ;
-    sol-ont:hasObservableProperty solr:OrbitalProperty.MeanAnomalyObservation.A852_QA ;
-    sol-ont:hasResult solr:MeanAnomalyResult.A852_QA .
-
-solr:MeanAnomalyObservation.A866_KA sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
-    sol-ont:generatedBy solr:MeanAnomalyMeasurementActivity.A866_KA ;
-    sol-ont:hasFeatureOfInterest solr:Asteroid.A866_KA ;
-    sol-ont:hasObservableProperty solr:OrbitalProperty.MeanAnomalyObservation.A866_KA ;
-    sol-ont:hasResult solr:MeanAnomalyResult.A866_KA .
-
-solr:MeanMotionObservation.1973_EC sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
-    sol-ont:generatedBy solr:MeanMotionMeasurementActivity.1973_EC ;
-    sol-ont:hasFeatureOfInterest solr:Asteroid.1973_EC ;
-    sol-ont:hasObservableProperty solr:OrbitalProperty.MeanMotionObservation.1973_EC ;
-    sol-ont:hasResult solr:MeanMotionResult.1973_EC .
-
-solr:MeanMotionObservation.1982_DB sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
-    sol-ont:generatedBy solr:MeanMotionMeasurementActivity.1982_DB ;
-    sol-ont:hasFeatureOfInterest solr:Asteroid.1982_DB ;
-    sol-ont:hasObservableProperty solr:OrbitalProperty.MeanMotionObservation.1982_DB ;
-    sol-ont:hasResult solr:MeanMotionResult.1982_DB .
-
-solr:MeanMotionObservation.1989_ML sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
-    sol-ont:generatedBy solr:MeanMotionMeasurementActivity.1989_ML ;
-    sol-ont:hasFeatureOfInterest solr:Asteroid.1989_ML ;
-    sol-ont:hasObservableProperty solr:OrbitalProperty.MeanMotionObservation.1989_ML ;
-    sol-ont:hasResult solr:MeanMotionResult.1989_ML .
-
-solr:MeanMotionObservation.1992_TC sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
-    sol-ont:generatedBy solr:MeanMotionMeasurementActivity.1992_TC ;
-    sol-ont:hasFeatureOfInterest solr:Asteroid.1992_TC ;
-    sol-ont:hasObservableProperty solr:OrbitalProperty.MeanMotionObservation.1992_TC ;
-    sol-ont:hasResult solr:MeanMotionResult.1992_TC .
-
-solr:MeanMotionObservation.1996_GT sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
-    sol-ont:generatedBy solr:MeanMotionMeasurementActivity.1996_GT ;
-    sol-ont:hasFeatureOfInterest solr:Asteroid.1996_GT ;
-    sol-ont:hasObservableProperty solr:OrbitalProperty.MeanMotionObservation.1996_GT ;
-    sol-ont:hasResult solr:MeanMotionResult.1996_GT .
-
-solr:MeanMotionObservation.1999_JU3 sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
-    sol-ont:generatedBy solr:MeanMotionMeasurementActivity.1999_JU3 ;
-    sol-ont:hasFeatureOfInterest solr:Asteroid.1999_JU3 ;
-    sol-ont:hasObservableProperty solr:OrbitalProperty.MeanMotionObservation.1999_JU3 ;
-    sol-ont:hasResult solr:MeanMotionResult.1999_JU3 .
-
-solr:MeanMotionObservation.1999_RQ36 sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
-    sol-ont:generatedBy solr:MeanMotionMeasurementActivity.1999_RQ36 ;
-    sol-ont:hasFeatureOfInterest solr:Asteroid.1999_RQ36 ;
-    sol-ont:hasObservableProperty solr:OrbitalProperty.MeanMotionObservation.1999_RQ36 ;
-    sol-ont:hasResult solr:MeanMotionResult.1999_RQ36 .
-
-solr:MeanMotionObservation.2001_CC21 sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
-    sol-ont:generatedBy solr:MeanMotionMeasurementActivity.2001_CC21 ;
-    sol-ont:hasFeatureOfInterest solr:Asteroid.2001_CC21 ;
-    sol-ont:hasObservableProperty solr:OrbitalProperty.MeanMotionObservation.2001_CC21 ;
-    sol-ont:hasResult solr:MeanMotionResult.2001_CC21 .
-
-solr:MeanMotionObservation.2011_UW158 sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
-    sol-ont:generatedBy solr:MeanMotionMeasurementActivity.2011_UW158 ;
-    sol-ont:hasFeatureOfInterest solr:Asteroid.2011_UW158 ;
-    sol-ont:hasObservableProperty solr:OrbitalProperty.MeanMotionObservation.2011_UW158 ;
-    sol-ont:hasResult solr:MeanMotionResult.2011_UW158 .
-
-solr:MeanMotionObservation.A802_FA sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
-    sol-ont:generatedBy solr:MeanMotionMeasurementActivity.A802_FA ;
-    sol-ont:hasFeatureOfInterest solr:Asteroid.A802_FA ;
-    sol-ont:hasObservableProperty solr:OrbitalProperty.MeanMotionObservation.A802_FA ;
-    sol-ont:hasResult solr:MeanMotionResult.A802_FA .
-
-solr:MeanMotionObservation.A849_GA sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
-    sol-ont:generatedBy solr:MeanMotionMeasurementActivity.A849_GA ;
-    sol-ont:hasFeatureOfInterest solr:Asteroid.A849_GA ;
-    sol-ont:hasObservableProperty solr:OrbitalProperty.MeanMotionObservation.A849_GA ;
-    sol-ont:hasResult solr:MeanMotionResult.A849_GA .
-
-solr:MeanMotionObservation.A850_VA sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
-    sol-ont:generatedBy solr:MeanMotionMeasurementActivity.A850_VA ;
-    sol-ont:hasFeatureOfInterest solr:Asteroid.A850_VA ;
-    sol-ont:hasObservableProperty solr:OrbitalProperty.MeanMotionObservation.A850_VA ;
-    sol-ont:hasResult solr:MeanMotionResult.A850_VA .
-
-solr:MeanMotionObservation.A852_FA sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
-    sol-ont:generatedBy solr:MeanMotionMeasurementActivity.A852_FA ;
-    sol-ont:hasFeatureOfInterest solr:Asteroid.A852_FA ;
-    sol-ont:hasObservableProperty solr:OrbitalProperty.MeanMotionObservation.A852_FA ;
-    sol-ont:hasResult solr:MeanMotionResult.A852_FA .
-
-solr:MeanMotionObservation.A852_QA sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
-    sol-ont:generatedBy solr:MeanMotionMeasurementActivity.A852_QA ;
-    sol-ont:hasFeatureOfInterest solr:Asteroid.A852_QA ;
-    sol-ont:hasObservableProperty solr:OrbitalProperty.MeanMotionObservation.A852_QA ;
-    sol-ont:hasResult solr:MeanMotionResult.A852_QA .
-
-solr:MeanMotionObservation.A866_KA sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
-    sol-ont:generatedBy solr:MeanMotionMeasurementActivity.A866_KA ;
-    sol-ont:hasFeatureOfInterest solr:Asteroid.A866_KA ;
-    sol-ont:hasObservableProperty solr:OrbitalProperty.MeanMotionObservation.A866_KA ;
-    sol-ont:hasResult solr:MeanMotionResult.A866_KA .
-
-solr:OrbitalEccentricityObservation.1973_EC sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
-    sol-ont:generatedBy solr:OrbitalEccentricityMeasurementActivity.1973_EC ;
-    sol-ont:hasFeatureOfInterest solr:Asteroid.1973_EC ;
-    sol-ont:hasObservableProperty solr:OrbitalProperty.OrbitalEccentricityObservation.1973_EC ;
-    sol-ont:hasResult solr:OrbitalEccentricityResult.1973_EC .
-
-solr:OrbitalEccentricityObservation.1982_DB sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
-    sol-ont:generatedBy solr:OrbitalEccentricityMeasurementActivity.1982_DB ;
-    sol-ont:hasFeatureOfInterest solr:Asteroid.1982_DB ;
-    sol-ont:hasObservableProperty solr:OrbitalProperty.OrbitalEccentricityObservation.1982_DB ;
-    sol-ont:hasResult solr:OrbitalEccentricityResult.1982_DB .
-
-solr:OrbitalEccentricityObservation.1989_ML sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
-    sol-ont:generatedBy solr:OrbitalEccentricityMeasurementActivity.1989_ML ;
-    sol-ont:hasFeatureOfInterest solr:Asteroid.1989_ML ;
-    sol-ont:hasObservableProperty solr:OrbitalProperty.OrbitalEccentricityObservation.1989_ML ;
-    sol-ont:hasResult solr:OrbitalEccentricityResult.1989_ML .
-
-solr:OrbitalEccentricityObservation.1992_TC sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
-    sol-ont:generatedBy solr:OrbitalEccentricityMeasurementActivity.1992_TC ;
-    sol-ont:hasFeatureOfInterest solr:Asteroid.1992_TC ;
-    sol-ont:hasObservableProperty solr:OrbitalProperty.OrbitalEccentricityObservation.1992_TC ;
-    sol-ont:hasResult solr:OrbitalEccentricityResult.1992_TC .
-
-solr:OrbitalEccentricityObservation.1996_GT sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
-    sol-ont:generatedBy solr:OrbitalEccentricityMeasurementActivity.1996_GT ;
-    sol-ont:hasFeatureOfInterest solr:Asteroid.1996_GT ;
-    sol-ont:hasObservableProperty solr:OrbitalProperty.OrbitalEccentricityObservation.1996_GT ;
-    sol-ont:hasResult solr:OrbitalEccentricityResult.1996_GT .
-
-solr:OrbitalEccentricityObservation.1999_JU3 sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
-    sol-ont:generatedBy solr:OrbitalEccentricityMeasurementActivity.1999_JU3 ;
-    sol-ont:hasFeatureOfInterest solr:Asteroid.1999_JU3 ;
-    sol-ont:hasObservableProperty solr:OrbitalProperty.OrbitalEccentricityObservation.1999_JU3 ;
-    sol-ont:hasResult solr:OrbitalEccentricityResult.1999_JU3 .
-
-solr:OrbitalEccentricityObservation.1999_RQ36 sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
-    sol-ont:generatedBy solr:OrbitalEccentricityMeasurementActivity.1999_RQ36 ;
-    sol-ont:hasFeatureOfInterest solr:Asteroid.1999_RQ36 ;
-    sol-ont:hasObservableProperty solr:OrbitalProperty.OrbitalEccentricityObservation.1999_RQ36 ;
-    sol-ont:hasResult solr:OrbitalEccentricityResult.1999_RQ36 .
-
-solr:OrbitalEccentricityObservation.2001_CC21 sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
-    sol-ont:generatedBy solr:OrbitalEccentricityMeasurementActivity.2001_CC21 ;
-    sol-ont:hasFeatureOfInterest solr:Asteroid.2001_CC21 ;
-    sol-ont:hasObservableProperty solr:OrbitalProperty.OrbitalEccentricityObservation.2001_CC21 ;
-    sol-ont:hasResult solr:OrbitalEccentricityResult.2001_CC21 .
-
-solr:OrbitalEccentricityObservation.2011_UW158 sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
-    sol-ont:generatedBy solr:OrbitalEccentricityMeasurementActivity.2011_UW158 ;
-    sol-ont:hasFeatureOfInterest solr:Asteroid.2011_UW158 ;
-    sol-ont:hasObservableProperty solr:OrbitalProperty.OrbitalEccentricityObservation.2011_UW158 ;
-    sol-ont:hasResult solr:OrbitalEccentricityResult.2011_UW158 .
-
-solr:OrbitalEccentricityObservation.A802_FA sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
-    sol-ont:generatedBy solr:OrbitalEccentricityMeasurementActivity.A802_FA ;
-    sol-ont:hasFeatureOfInterest solr:Asteroid.A802_FA ;
-    sol-ont:hasObservableProperty solr:OrbitalProperty.OrbitalEccentricityObservation.A802_FA ;
-    sol-ont:hasResult solr:OrbitalEccentricityResult.A802_FA .
-
-solr:OrbitalEccentricityObservation.A849_GA sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
-    sol-ont:generatedBy solr:OrbitalEccentricityMeasurementActivity.A849_GA ;
-    sol-ont:hasFeatureOfInterest solr:Asteroid.A849_GA ;
-    sol-ont:hasObservableProperty solr:OrbitalProperty.OrbitalEccentricityObservation.A849_GA ;
-    sol-ont:hasResult solr:OrbitalEccentricityResult.A849_GA .
-
-solr:OrbitalEccentricityObservation.A850_VA sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
-    sol-ont:generatedBy solr:OrbitalEccentricityMeasurementActivity.A850_VA ;
-    sol-ont:hasFeatureOfInterest solr:Asteroid.A850_VA ;
-    sol-ont:hasObservableProperty solr:OrbitalProperty.OrbitalEccentricityObservation.A850_VA ;
-    sol-ont:hasResult solr:OrbitalEccentricityResult.A850_VA .
-
-solr:OrbitalEccentricityObservation.A852_FA sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
-    sol-ont:generatedBy solr:OrbitalEccentricityMeasurementActivity.A852_FA ;
-    sol-ont:hasFeatureOfInterest solr:Asteroid.A852_FA ;
-    sol-ont:hasObservableProperty solr:OrbitalProperty.OrbitalEccentricityObservation.A852_FA ;
-    sol-ont:hasResult solr:OrbitalEccentricityResult.A852_FA .
-
-solr:OrbitalEccentricityObservation.A852_QA sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
-    sol-ont:generatedBy solr:OrbitalEccentricityMeasurementActivity.A852_QA ;
-    sol-ont:hasFeatureOfInterest solr:Asteroid.A852_QA ;
-    sol-ont:hasObservableProperty solr:OrbitalProperty.OrbitalEccentricityObservation.A852_QA ;
-    sol-ont:hasResult solr:OrbitalEccentricityResult.A852_QA .
-
-solr:OrbitalEccentricityObservation.A866_KA sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
-    sol-ont:generatedBy solr:OrbitalEccentricityMeasurementActivity.A866_KA ;
-    sol-ont:hasFeatureOfInterest solr:Asteroid.A866_KA ;
-    sol-ont:hasObservableProperty solr:OrbitalProperty.OrbitalEccentricityObservation.A866_KA ;
-    sol-ont:hasResult solr:OrbitalEccentricityResult.A866_KA .
-
-solr:OrbitalPeriodObservation.1973_EC sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
-    sol-ont:generatedBy solr:OrbitalPeriodMeasurementActivity.1973_EC ;
-    sol-ont:hasFeatureOfInterest solr:Asteroid.1973_EC ;
-    sol-ont:hasObservableProperty solr:OrbitalProperty.OrbitalPeriodObservation.1973_EC ;
-    sol-ont:hasResult solr:OrbitalPeriodResult.1973_EC .
-
-solr:OrbitalPeriodObservation.1982_DB sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
-    sol-ont:generatedBy solr:OrbitalPeriodMeasurementActivity.1982_DB ;
-    sol-ont:hasFeatureOfInterest solr:Asteroid.1982_DB ;
-    sol-ont:hasObservableProperty solr:OrbitalProperty.OrbitalPeriodObservation.1982_DB ;
-    sol-ont:hasResult solr:OrbitalPeriodResult.1982_DB .
-
-solr:OrbitalPeriodObservation.1989_ML sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
-    sol-ont:generatedBy solr:OrbitalPeriodMeasurementActivity.1989_ML ;
-    sol-ont:hasFeatureOfInterest solr:Asteroid.1989_ML ;
-    sol-ont:hasObservableProperty solr:OrbitalProperty.OrbitalPeriodObservation.1989_ML ;
-    sol-ont:hasResult solr:OrbitalPeriodResult.1989_ML .
-
-solr:OrbitalPeriodObservation.1992_TC sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
-    sol-ont:generatedBy solr:OrbitalPeriodMeasurementActivity.1992_TC ;
-    sol-ont:hasFeatureOfInterest solr:Asteroid.1992_TC ;
-    sol-ont:hasObservableProperty solr:OrbitalProperty.OrbitalPeriodObservation.1992_TC ;
-    sol-ont:hasResult solr:OrbitalPeriodResult.1992_TC .
-
-solr:OrbitalPeriodObservation.1996_GT sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
-    sol-ont:generatedBy solr:OrbitalPeriodMeasurementActivity.1996_GT ;
-    sol-ont:hasFeatureOfInterest solr:Asteroid.1996_GT ;
-    sol-ont:hasObservableProperty solr:OrbitalProperty.OrbitalPeriodObservation.1996_GT ;
-    sol-ont:hasResult solr:OrbitalPeriodResult.1996_GT .
-
-solr:OrbitalPeriodObservation.1999_JU3 sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
-    sol-ont:generatedBy solr:OrbitalPeriodMeasurementActivity.1999_JU3 ;
-    sol-ont:hasFeatureOfInterest solr:Asteroid.1999_JU3 ;
-    sol-ont:hasObservableProperty solr:OrbitalProperty.OrbitalPeriodObservation.1999_JU3 ;
-    sol-ont:hasResult solr:OrbitalPeriodResult.1999_JU3 .
-
-solr:OrbitalPeriodObservation.1999_RQ36 sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
-    sol-ont:generatedBy solr:OrbitalPeriodMeasurementActivity.1999_RQ36 ;
-    sol-ont:hasFeatureOfInterest solr:Asteroid.1999_RQ36 ;
-    sol-ont:hasObservableProperty solr:OrbitalProperty.OrbitalPeriodObservation.1999_RQ36 ;
-    sol-ont:hasResult solr:OrbitalPeriodResult.1999_RQ36 .
-
-solr:OrbitalPeriodObservation.2001_CC21 sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
-    sol-ont:generatedBy solr:OrbitalPeriodMeasurementActivity.2001_CC21 ;
-    sol-ont:hasFeatureOfInterest solr:Asteroid.2001_CC21 ;
-    sol-ont:hasObservableProperty solr:OrbitalProperty.OrbitalPeriodObservation.2001_CC21 ;
-    sol-ont:hasResult solr:OrbitalPeriodResult.2001_CC21 .
-
-solr:OrbitalPeriodObservation.2011_UW158 sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
-    sol-ont:generatedBy solr:OrbitalPeriodMeasurementActivity.2011_UW158 ;
-    sol-ont:hasFeatureOfInterest solr:Asteroid.2011_UW158 ;
-    sol-ont:hasObservableProperty solr:OrbitalProperty.OrbitalPeriodObservation.2011_UW158 ;
-    sol-ont:hasResult solr:OrbitalPeriodResult.2011_UW158 .
-
-solr:OrbitalPeriodObservation.A802_FA sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
-    sol-ont:generatedBy solr:OrbitalPeriodMeasurementActivity.A802_FA ;
-    sol-ont:hasFeatureOfInterest solr:Asteroid.A802_FA ;
-    sol-ont:hasObservableProperty solr:OrbitalProperty.OrbitalPeriodObservation.A802_FA ;
-    sol-ont:hasResult solr:OrbitalPeriodResult.A802_FA .
-
-solr:OrbitalPeriodObservation.A849_GA sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
-    sol-ont:generatedBy solr:OrbitalPeriodMeasurementActivity.A849_GA ;
-    sol-ont:hasFeatureOfInterest solr:Asteroid.A849_GA ;
-    sol-ont:hasObservableProperty solr:OrbitalProperty.OrbitalPeriodObservation.A849_GA ;
-    sol-ont:hasResult solr:OrbitalPeriodResult.A849_GA .
-
-solr:OrbitalPeriodObservation.A850_VA sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
-    sol-ont:generatedBy solr:OrbitalPeriodMeasurementActivity.A850_VA ;
-    sol-ont:hasFeatureOfInterest solr:Asteroid.A850_VA ;
-    sol-ont:hasObservableProperty solr:OrbitalProperty.OrbitalPeriodObservation.A850_VA ;
-    sol-ont:hasResult solr:OrbitalPeriodResult.A850_VA .
-
-solr:OrbitalPeriodObservation.A852_FA sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
-    sol-ont:generatedBy solr:OrbitalPeriodMeasurementActivity.A852_FA ;
-    sol-ont:hasFeatureOfInterest solr:Asteroid.A852_FA ;
-    sol-ont:hasObservableProperty solr:OrbitalProperty.OrbitalPeriodObservation.A852_FA ;
-    sol-ont:hasResult solr:OrbitalPeriodResult.A852_FA .
-
-solr:OrbitalPeriodObservation.A852_QA sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
-    sol-ont:generatedBy solr:OrbitalPeriodMeasurementActivity.A852_QA ;
-    sol-ont:hasFeatureOfInterest solr:Asteroid.A852_QA ;
-    sol-ont:hasObservableProperty solr:OrbitalProperty.OrbitalPeriodObservation.A852_QA ;
-    sol-ont:hasResult solr:OrbitalPeriodResult.A852_QA .
-
-solr:OrbitalPeriodObservation.A866_KA sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
-    sol-ont:generatedBy solr:OrbitalPeriodMeasurementActivity.A866_KA ;
-    sol-ont:hasFeatureOfInterest solr:Asteroid.A866_KA ;
-    sol-ont:hasObservableProperty solr:OrbitalProperty.OrbitalPeriodObservation.A866_KA ;
-    sol-ont:hasResult solr:OrbitalPeriodResult.A866_KA .
-
-solr:PerihelionDistanceObservation.1973_EC sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
-    sol-ont:generatedBy solr:PerihelionDistanceMeasurementActivity.1973_EC ;
-    sol-ont:hasFeatureOfInterest solr:Asteroid.1973_EC ;
-    sol-ont:hasObservableProperty solr:OrbitalProperty.PerihelionDistanceObservation.1973_EC ;
-    sol-ont:hasResult solr:PerihelionDistanceResult.1973_EC .
-
-solr:PerihelionDistanceObservation.1982_DB sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
-    sol-ont:generatedBy solr:PerihelionDistanceMeasurementActivity.1982_DB ;
-    sol-ont:hasFeatureOfInterest solr:Asteroid.1982_DB ;
-    sol-ont:hasObservableProperty solr:OrbitalProperty.PerihelionDistanceObservation.1982_DB ;
-    sol-ont:hasResult solr:PerihelionDistanceResult.1982_DB .
-
-solr:PerihelionDistanceObservation.1989_ML sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
-    sol-ont:generatedBy solr:PerihelionDistanceMeasurementActivity.1989_ML ;
-    sol-ont:hasFeatureOfInterest solr:Asteroid.1989_ML ;
-    sol-ont:hasObservableProperty solr:OrbitalProperty.PerihelionDistanceObservation.1989_ML ;
-    sol-ont:hasResult solr:PerihelionDistanceResult.1989_ML .
-
-solr:PerihelionDistanceObservation.1992_TC sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
-    sol-ont:generatedBy solr:PerihelionDistanceMeasurementActivity.1992_TC ;
-    sol-ont:hasFeatureOfInterest solr:Asteroid.1992_TC ;
-    sol-ont:hasObservableProperty solr:OrbitalProperty.PerihelionDistanceObservation.1992_TC ;
-    sol-ont:hasResult solr:PerihelionDistanceResult.1992_TC .
-
-solr:PerihelionDistanceObservation.1996_GT sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
-    sol-ont:generatedBy solr:PerihelionDistanceMeasurementActivity.1996_GT ;
-    sol-ont:hasFeatureOfInterest solr:Asteroid.1996_GT ;
-    sol-ont:hasObservableProperty solr:OrbitalProperty.PerihelionDistanceObservation.1996_GT ;
-    sol-ont:hasResult solr:PerihelionDistanceResult.1996_GT .
-
-solr:PerihelionDistanceObservation.1999_JU3 sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
-    sol-ont:generatedBy solr:PerihelionDistanceMeasurementActivity.1999_JU3 ;
-    sol-ont:hasFeatureOfInterest solr:Asteroid.1999_JU3 ;
-    sol-ont:hasObservableProperty solr:OrbitalProperty.PerihelionDistanceObservation.1999_JU3 ;
-    sol-ont:hasResult solr:PerihelionDistanceResult.1999_JU3 .
-
-solr:PerihelionDistanceObservation.1999_RQ36 sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
-    sol-ont:generatedBy solr:PerihelionDistanceMeasurementActivity.1999_RQ36 ;
-    sol-ont:hasFeatureOfInterest solr:Asteroid.1999_RQ36 ;
-    sol-ont:hasObservableProperty solr:OrbitalProperty.PerihelionDistanceObservation.1999_RQ36 ;
-    sol-ont:hasResult solr:PerihelionDistanceResult.1999_RQ36 .
-
-solr:PerihelionDistanceObservation.2001_CC21 sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
-    sol-ont:generatedBy solr:PerihelionDistanceMeasurementActivity.2001_CC21 ;
-    sol-ont:hasFeatureOfInterest solr:Asteroid.2001_CC21 ;
-    sol-ont:hasObservableProperty solr:OrbitalProperty.PerihelionDistanceObservation.2001_CC21 ;
-    sol-ont:hasResult solr:PerihelionDistanceResult.2001_CC21 .
-
-solr:PerihelionDistanceObservation.2011_UW158 sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
-    sol-ont:generatedBy solr:PerihelionDistanceMeasurementActivity.2011_UW158 ;
-    sol-ont:hasFeatureOfInterest solr:Asteroid.2011_UW158 ;
-    sol-ont:hasObservableProperty solr:OrbitalProperty.PerihelionDistanceObservation.2011_UW158 ;
-    sol-ont:hasResult solr:PerihelionDistanceResult.2011_UW158 .
-
-solr:PerihelionDistanceObservation.A802_FA sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
-    sol-ont:generatedBy solr:PerihelionDistanceMeasurementActivity.A802_FA ;
-    sol-ont:hasFeatureOfInterest solr:Asteroid.A802_FA ;
-    sol-ont:hasObservableProperty solr:OrbitalProperty.PerihelionDistanceObservation.A802_FA ;
-    sol-ont:hasResult solr:PerihelionDistanceResult.A802_FA .
-
-solr:PerihelionDistanceObservation.A849_GA sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
-    sol-ont:generatedBy solr:PerihelionDistanceMeasurementActivity.A849_GA ;
-    sol-ont:hasFeatureOfInterest solr:Asteroid.A849_GA ;
-    sol-ont:hasObservableProperty solr:OrbitalProperty.PerihelionDistanceObservation.A849_GA ;
-    sol-ont:hasResult solr:PerihelionDistanceResult.A849_GA .
-
-solr:PerihelionDistanceObservation.A850_VA sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
-    sol-ont:generatedBy solr:PerihelionDistanceMeasurementActivity.A850_VA ;
-    sol-ont:hasFeatureOfInterest solr:Asteroid.A850_VA ;
-    sol-ont:hasObservableProperty solr:OrbitalProperty.PerihelionDistanceObservation.A850_VA ;
-    sol-ont:hasResult solr:PerihelionDistanceResult.A850_VA .
-
-solr:PerihelionDistanceObservation.A852_FA sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
-    sol-ont:generatedBy solr:PerihelionDistanceMeasurementActivity.A852_FA ;
-    sol-ont:hasFeatureOfInterest solr:Asteroid.A852_FA ;
-    sol-ont:hasObservableProperty solr:OrbitalProperty.PerihelionDistanceObservation.A852_FA ;
-    sol-ont:hasResult solr:PerihelionDistanceResult.A852_FA .
-
-solr:PerihelionDistanceObservation.A852_QA sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
-    sol-ont:generatedBy solr:PerihelionDistanceMeasurementActivity.A852_QA ;
-    sol-ont:hasFeatureOfInterest solr:Asteroid.A852_QA ;
-    sol-ont:hasObservableProperty solr:OrbitalProperty.PerihelionDistanceObservation.A852_QA ;
-    sol-ont:hasResult solr:PerihelionDistanceResult.A852_QA .
-
-solr:PerihelionDistanceObservation.A866_KA sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
-    sol-ont:generatedBy solr:PerihelionDistanceMeasurementActivity.A866_KA ;
-    sol-ont:hasFeatureOfInterest solr:Asteroid.A866_KA ;
-    sol-ont:hasObservableProperty solr:OrbitalProperty.PerihelionDistanceObservation.A866_KA ;
-    sol-ont:hasResult solr:PerihelionDistanceResult.A866_KA .
-
-solr:Semi-MajorAxisObservation.1973_EC sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
-    sol-ont:generatedBy solr:Semi-MajorAxisMeasurementActivity.1973_EC ;
-    sol-ont:hasFeatureOfInterest solr:Asteroid.1973_EC ;
-    sol-ont:hasObservableProperty solr:OrbitalProperty.Semi-MajorAxisObservation.1973_EC ;
-    sol-ont:hasResult solr:Semi-MajorAxisResult.1973_EC .
-
-solr:Semi-MajorAxisObservation.1982_DB sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
-    sol-ont:generatedBy solr:Semi-MajorAxisMeasurementActivity.1982_DB ;
-    sol-ont:hasFeatureOfInterest solr:Asteroid.1982_DB ;
-    sol-ont:hasObservableProperty solr:OrbitalProperty.Semi-MajorAxisObservation.1982_DB ;
-    sol-ont:hasResult solr:Semi-MajorAxisResult.1982_DB .
-
-solr:Semi-MajorAxisObservation.1989_ML sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
-    sol-ont:generatedBy solr:Semi-MajorAxisMeasurementActivity.1989_ML ;
-    sol-ont:hasFeatureOfInterest solr:Asteroid.1989_ML ;
-    sol-ont:hasObservableProperty solr:OrbitalProperty.Semi-MajorAxisObservation.1989_ML ;
-    sol-ont:hasResult solr:Semi-MajorAxisResult.1989_ML .
-
-solr:Semi-MajorAxisObservation.1992_TC sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
-    sol-ont:generatedBy solr:Semi-MajorAxisMeasurementActivity.1992_TC ;
-    sol-ont:hasFeatureOfInterest solr:Asteroid.1992_TC ;
-    sol-ont:hasObservableProperty solr:OrbitalProperty.Semi-MajorAxisObservation.1992_TC ;
-    sol-ont:hasResult solr:Semi-MajorAxisResult.1992_TC .
-
-solr:Semi-MajorAxisObservation.1996_GT sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
-    sol-ont:generatedBy solr:Semi-MajorAxisMeasurementActivity.1996_GT ;
-    sol-ont:hasFeatureOfInterest solr:Asteroid.1996_GT ;
-    sol-ont:hasObservableProperty solr:OrbitalProperty.Semi-MajorAxisObservation.1996_GT ;
-    sol-ont:hasResult solr:Semi-MajorAxisResult.1996_GT .
-
-solr:Semi-MajorAxisObservation.1999_JU3 sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
-    sol-ont:generatedBy solr:Semi-MajorAxisMeasurementActivity.1999_JU3 ;
-    sol-ont:hasFeatureOfInterest solr:Asteroid.1999_JU3 ;
-    sol-ont:hasObservableProperty solr:OrbitalProperty.Semi-MajorAxisObservation.1999_JU3 ;
-    sol-ont:hasResult solr:Semi-MajorAxisResult.1999_JU3 .
-
-solr:Semi-MajorAxisObservation.1999_RQ36 sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
-    sol-ont:generatedBy solr:Semi-MajorAxisMeasurementActivity.1999_RQ36 ;
-    sol-ont:hasFeatureOfInterest solr:Asteroid.1999_RQ36 ;
-    sol-ont:hasObservableProperty solr:OrbitalProperty.Semi-MajorAxisObservation.1999_RQ36 ;
-    sol-ont:hasResult solr:Semi-MajorAxisResult.1999_RQ36 .
-
-solr:Semi-MajorAxisObservation.2001_CC21 sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
-    sol-ont:generatedBy solr:Semi-MajorAxisMeasurementActivity.2001_CC21 ;
-    sol-ont:hasFeatureOfInterest solr:Asteroid.2001_CC21 ;
-    sol-ont:hasObservableProperty solr:OrbitalProperty.Semi-MajorAxisObservation.2001_CC21 ;
-    sol-ont:hasResult solr:Semi-MajorAxisResult.2001_CC21 .
-
-solr:Semi-MajorAxisObservation.2011_UW158 sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
-    sol-ont:generatedBy solr:Semi-MajorAxisMeasurementActivity.2011_UW158 ;
-    sol-ont:hasFeatureOfInterest solr:Asteroid.2011_UW158 ;
-    sol-ont:hasObservableProperty solr:OrbitalProperty.Semi-MajorAxisObservation.2011_UW158 ;
-    sol-ont:hasResult solr:Semi-MajorAxisResult.2011_UW158 .
-
-solr:Semi-MajorAxisObservation.A802_FA sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
-    sol-ont:generatedBy solr:Semi-MajorAxisMeasurementActivity.A802_FA ;
-    sol-ont:hasFeatureOfInterest solr:Asteroid.A802_FA ;
-    sol-ont:hasObservableProperty solr:OrbitalProperty.Semi-MajorAxisObservation.A802_FA ;
-    sol-ont:hasResult solr:Semi-MajorAxisResult.A802_FA .
-
-solr:Semi-MajorAxisObservation.A849_GA sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
-    sol-ont:generatedBy solr:Semi-MajorAxisMeasurementActivity.A849_GA ;
-    sol-ont:hasFeatureOfInterest solr:Asteroid.A849_GA ;
-    sol-ont:hasObservableProperty solr:OrbitalProperty.Semi-MajorAxisObservation.A849_GA ;
-    sol-ont:hasResult solr:Semi-MajorAxisResult.A849_GA .
-
-solr:Semi-MajorAxisObservation.A850_VA sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
-    sol-ont:generatedBy solr:Semi-MajorAxisMeasurementActivity.A850_VA ;
-    sol-ont:hasFeatureOfInterest solr:Asteroid.A850_VA ;
-    sol-ont:hasObservableProperty solr:OrbitalProperty.Semi-MajorAxisObservation.A850_VA ;
-    sol-ont:hasResult solr:Semi-MajorAxisResult.A850_VA .
-
-solr:Semi-MajorAxisObservation.A852_FA sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
-    sol-ont:generatedBy solr:Semi-MajorAxisMeasurementActivity.A852_FA ;
-    sol-ont:hasFeatureOfInterest solr:Asteroid.A852_FA ;
-    sol-ont:hasObservableProperty solr:OrbitalProperty.Semi-MajorAxisObservation.A852_FA ;
-    sol-ont:hasResult solr:Semi-MajorAxisResult.A852_FA .
-
-solr:Semi-MajorAxisObservation.A852_QA sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
-    sol-ont:generatedBy solr:Semi-MajorAxisMeasurementActivity.A852_QA ;
-    sol-ont:hasFeatureOfInterest solr:Asteroid.A852_QA ;
-    sol-ont:hasObservableProperty solr:OrbitalProperty.Semi-MajorAxisObservation.A852_QA ;
-    sol-ont:hasResult solr:Semi-MajorAxisResult.A852_QA .
-
-solr:Semi-MajorAxisObservation.A866_KA sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
-    sol-ont:generatedBy solr:Semi-MajorAxisMeasurementActivity.A866_KA ;
-    sol-ont:hasFeatureOfInterest solr:Asteroid.A866_KA ;
-    sol-ont:hasObservableProperty solr:OrbitalProperty.Semi-MajorAxisObservation.A866_KA ;
-    sol-ont:hasResult solr:Semi-MajorAxisResult.A866_KA .
-
-solr:AphelionDistanceMeasurementActivity.1973_EC sol-ont:hasDescription "Aphelion Distance"^^xsd:string ;
-    sol-ont:performedBy sol-ont:Agent.NASA-JPL .
-
-solr:AphelionDistanceMeasurementActivity.1982_DB sol-ont:hasDescription "Aphelion Distance"^^xsd:string ;
-    sol-ont:performedBy sol-ont:Agent.NASA-JPL .
-
-solr:AphelionDistanceMeasurementActivity.1989_ML sol-ont:hasDescription "Aphelion Distance"^^xsd:string ;
-    sol-ont:performedBy sol-ont:Agent.NASA-JPL .
-
-solr:AphelionDistanceMeasurementActivity.1992_TC sol-ont:hasDescription "Aphelion Distance"^^xsd:string ;
-    sol-ont:performedBy sol-ont:Agent.NASA-JPL .
-
-solr:AphelionDistanceMeasurementActivity.1996_GT sol-ont:hasDescription "Aphelion Distance"^^xsd:string ;
-    sol-ont:performedBy sol-ont:Agent.NASA-JPL .
-
-solr:AphelionDistanceMeasurementActivity.1999_JU3 sol-ont:hasDescription "Aphelion Distance"^^xsd:string ;
-    sol-ont:performedBy sol-ont:Agent.NASA-JPL .
-
-solr:AphelionDistanceMeasurementActivity.1999_RQ36 sol-ont:hasDescription "Aphelion Distance"^^xsd:string ;
-    sol-ont:performedBy sol-ont:Agent.NASA-JPL .
-
-solr:AphelionDistanceMeasurementActivity.2001_CC21 sol-ont:hasDescription "Aphelion Distance"^^xsd:string ;
-    sol-ont:performedBy sol-ont:Agent.NASA-JPL .
-
-solr:AphelionDistanceMeasurementActivity.2011_UW158 sol-ont:hasDescription "Aphelion Distance"^^xsd:string ;
-    sol-ont:performedBy sol-ont:Agent.NASA-JPL .
-
-solr:AphelionDistanceMeasurementActivity.A802_FA sol-ont:hasDescription "Aphelion Distance"^^xsd:string ;
-    sol-ont:performedBy sol-ont:Agent.NASA-JPL .
-
-solr:AphelionDistanceMeasurementActivity.A849_GA sol-ont:hasDescription "Aphelion Distance"^^xsd:string ;
-    sol-ont:performedBy sol-ont:Agent.NASA-JPL .
-
-solr:AphelionDistanceMeasurementActivity.A850_VA sol-ont:hasDescription "Aphelion Distance"^^xsd:string ;
-    sol-ont:performedBy sol-ont:Agent.NASA-JPL .
-
-solr:AphelionDistanceMeasurementActivity.A852_FA sol-ont:hasDescription "Aphelion Distance"^^xsd:string ;
-    sol-ont:performedBy sol-ont:Agent.NASA-JPL .
-
-solr:AphelionDistanceMeasurementActivity.A852_QA sol-ont:hasDescription "Aphelion Distance"^^xsd:string ;
-    sol-ont:performedBy sol-ont:Agent.NASA-JPL .
-
-solr:AphelionDistanceMeasurementActivity.A866_KA sol-ont:hasDescription "Aphelion Distance"^^xsd:string ;
-    sol-ont:performedBy sol-ont:Agent.NASA-JPL .
 
 solr:AphelionDistanceQuantity.1973_EC a sol-ont:Quantity ;
     sol-ont:hasQuantityKind "AphelionDistance"^^sol-qk:AphelionDistance ;
@@ -1234,6 +334,96 @@ solr:ArgumentOfPerihelionMeasurementActivity.A852_QA sol-ont:hasDescription "Arg
 solr:ArgumentOfPerihelionMeasurementActivity.A866_KA sol-ont:hasDescription "Argument of Perihelion"^^xsd:string ;
     sol-ont:performedBy sol-ont:Agent.NASA-JPL .
 
+solr:ArgumentOfPerihelionObservation.1973_EC sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:ArgumentOfPerihelionMeasurementActivity.1973_EC ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.1973_EC ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.ArgumentOfPerihelionObservation.1973_EC ;
+    sol-ont:hasResult solr:ArgumentOfPerihelionResult.1973_EC .
+
+solr:ArgumentOfPerihelionObservation.1982_DB sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:ArgumentOfPerihelionMeasurementActivity.1982_DB ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.1982_DB ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.ArgumentOfPerihelionObservation.1982_DB ;
+    sol-ont:hasResult solr:ArgumentOfPerihelionResult.1982_DB .
+
+solr:ArgumentOfPerihelionObservation.1989_ML sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:ArgumentOfPerihelionMeasurementActivity.1989_ML ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.1989_ML ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.ArgumentOfPerihelionObservation.1989_ML ;
+    sol-ont:hasResult solr:ArgumentOfPerihelionResult.1989_ML .
+
+solr:ArgumentOfPerihelionObservation.1992_TC sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:ArgumentOfPerihelionMeasurementActivity.1992_TC ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.1992_TC ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.ArgumentOfPerihelionObservation.1992_TC ;
+    sol-ont:hasResult solr:ArgumentOfPerihelionResult.1992_TC .
+
+solr:ArgumentOfPerihelionObservation.1996_GT sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:ArgumentOfPerihelionMeasurementActivity.1996_GT ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.1996_GT ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.ArgumentOfPerihelionObservation.1996_GT ;
+    sol-ont:hasResult solr:ArgumentOfPerihelionResult.1996_GT .
+
+solr:ArgumentOfPerihelionObservation.1999_JU3 sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:ArgumentOfPerihelionMeasurementActivity.1999_JU3 ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.1999_JU3 ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.ArgumentOfPerihelionObservation.1999_JU3 ;
+    sol-ont:hasResult solr:ArgumentOfPerihelionResult.1999_JU3 .
+
+solr:ArgumentOfPerihelionObservation.1999_RQ36 sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:ArgumentOfPerihelionMeasurementActivity.1999_RQ36 ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.1999_RQ36 ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.ArgumentOfPerihelionObservation.1999_RQ36 ;
+    sol-ont:hasResult solr:ArgumentOfPerihelionResult.1999_RQ36 .
+
+solr:ArgumentOfPerihelionObservation.2001_CC21 sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:ArgumentOfPerihelionMeasurementActivity.2001_CC21 ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.2001_CC21 ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.ArgumentOfPerihelionObservation.2001_CC21 ;
+    sol-ont:hasResult solr:ArgumentOfPerihelionResult.2001_CC21 .
+
+solr:ArgumentOfPerihelionObservation.2011_UW158 sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:ArgumentOfPerihelionMeasurementActivity.2011_UW158 ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.2011_UW158 ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.ArgumentOfPerihelionObservation.2011_UW158 ;
+    sol-ont:hasResult solr:ArgumentOfPerihelionResult.2011_UW158 .
+
+solr:ArgumentOfPerihelionObservation.A802_FA sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:ArgumentOfPerihelionMeasurementActivity.A802_FA ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.A802_FA ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.ArgumentOfPerihelionObservation.A802_FA ;
+    sol-ont:hasResult solr:ArgumentOfPerihelionResult.A802_FA .
+
+solr:ArgumentOfPerihelionObservation.A849_GA sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:ArgumentOfPerihelionMeasurementActivity.A849_GA ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.A849_GA ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.ArgumentOfPerihelionObservation.A849_GA ;
+    sol-ont:hasResult solr:ArgumentOfPerihelionResult.A849_GA .
+
+solr:ArgumentOfPerihelionObservation.A850_VA sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:ArgumentOfPerihelionMeasurementActivity.A850_VA ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.A850_VA ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.ArgumentOfPerihelionObservation.A850_VA ;
+    sol-ont:hasResult solr:ArgumentOfPerihelionResult.A850_VA .
+
+solr:ArgumentOfPerihelionObservation.A852_FA sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:ArgumentOfPerihelionMeasurementActivity.A852_FA ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.A852_FA ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.ArgumentOfPerihelionObservation.A852_FA ;
+    sol-ont:hasResult solr:ArgumentOfPerihelionResult.A852_FA .
+
+solr:ArgumentOfPerihelionObservation.A852_QA sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:ArgumentOfPerihelionMeasurementActivity.A852_QA ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.A852_QA ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.ArgumentOfPerihelionObservation.A852_QA ;
+    sol-ont:hasResult solr:ArgumentOfPerihelionResult.A852_QA .
+
+solr:ArgumentOfPerihelionObservation.A866_KA sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:ArgumentOfPerihelionMeasurementActivity.A866_KA ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.A866_KA ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.ArgumentOfPerihelionObservation.A866_KA ;
+    sol-ont:hasResult solr:ArgumentOfPerihelionResult.A866_KA .
+
 solr:ArgumentOfPerihelionQuantity.1973_EC a sol-ont:Quantity ;
     sol-ont:hasQuantityKind "ArgumentOfPerihelion"^^sol-qk:ArgumentOfPerihelion ;
     sol-ont:hasQuantityValue solr:ArgumentOfPerihelionQuantityValue.1973_EC .
@@ -1429,6 +619,96 @@ solr:DiameterMeasurementActivity.A852_QA sol-ont:hasDescription "Diameter"^^xsd:
 solr:DiameterMeasurementActivity.A866_KA sol-ont:hasDescription "Diameter"^^xsd:string ;
     sol-ont:performedBy sol-ont:Agent.NASA-JPL .
 
+solr:DiameterObservation.1973_EC sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:DiameterMeasurementActivity.1973_EC ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.1973_EC ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.DiameterObservation.1973_EC ;
+    sol-ont:hasResult solr:DiameterResult.1973_EC .
+
+solr:DiameterObservation.1982_DB sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:DiameterMeasurementActivity.1982_DB ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.1982_DB ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.DiameterObservation.1982_DB ;
+    sol-ont:hasResult solr:DiameterResult.1982_DB .
+
+solr:DiameterObservation.1989_ML sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:DiameterMeasurementActivity.1989_ML ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.1989_ML ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.DiameterObservation.1989_ML ;
+    sol-ont:hasResult solr:DiameterResult.1989_ML .
+
+solr:DiameterObservation.1992_TC sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:DiameterMeasurementActivity.1992_TC ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.1992_TC ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.DiameterObservation.1992_TC ;
+    sol-ont:hasResult solr:DiameterResult.1992_TC .
+
+solr:DiameterObservation.1996_GT sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:DiameterMeasurementActivity.1996_GT ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.1996_GT ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.DiameterObservation.1996_GT ;
+    sol-ont:hasResult solr:DiameterResult.1996_GT .
+
+solr:DiameterObservation.1999_JU3 sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:DiameterMeasurementActivity.1999_JU3 ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.1999_JU3 ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.DiameterObservation.1999_JU3 ;
+    sol-ont:hasResult solr:DiameterResult.1999_JU3 .
+
+solr:DiameterObservation.1999_RQ36 sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:DiameterMeasurementActivity.1999_RQ36 ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.1999_RQ36 ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.DiameterObservation.1999_RQ36 ;
+    sol-ont:hasResult solr:DiameterResult.1999_RQ36 .
+
+solr:DiameterObservation.2001_CC21 sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:DiameterMeasurementActivity.2001_CC21 ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.2001_CC21 ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.DiameterObservation.2001_CC21 ;
+    sol-ont:hasResult solr:DiameterResult.2001_CC21 .
+
+solr:DiameterObservation.2011_UW158 sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:DiameterMeasurementActivity.2011_UW158 ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.2011_UW158 ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.DiameterObservation.2011_UW158 ;
+    sol-ont:hasResult solr:DiameterResult.2011_UW158 .
+
+solr:DiameterObservation.A802_FA sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:DiameterMeasurementActivity.A802_FA ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.A802_FA ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.DiameterObservation.A802_FA ;
+    sol-ont:hasResult solr:DiameterResult.A802_FA .
+
+solr:DiameterObservation.A849_GA sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:DiameterMeasurementActivity.A849_GA ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.A849_GA ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.DiameterObservation.A849_GA ;
+    sol-ont:hasResult solr:DiameterResult.A849_GA .
+
+solr:DiameterObservation.A850_VA sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:DiameterMeasurementActivity.A850_VA ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.A850_VA ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.DiameterObservation.A850_VA ;
+    sol-ont:hasResult solr:DiameterResult.A850_VA .
+
+solr:DiameterObservation.A852_FA sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:DiameterMeasurementActivity.A852_FA ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.A852_FA ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.DiameterObservation.A852_FA ;
+    sol-ont:hasResult solr:DiameterResult.A852_FA .
+
+solr:DiameterObservation.A852_QA sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:DiameterMeasurementActivity.A852_QA ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.A852_QA ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.DiameterObservation.A852_QA ;
+    sol-ont:hasResult solr:DiameterResult.A852_QA .
+
+solr:DiameterObservation.A866_KA sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:DiameterMeasurementActivity.A866_KA ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.A866_KA ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.DiameterObservation.A866_KA ;
+    sol-ont:hasResult solr:DiameterResult.A866_KA .
+
 solr:DiameterQuantity.1973_EC a sol-ont:Quantity ;
     sol-ont:hasQuantityKind "Diameter"^^sol-qk:Diameter ;
     sol-ont:hasQuantityValue solr:DiameterQuantityValue.1973_EC .
@@ -1619,6 +899,96 @@ solr:InclinationMeasurementActivity.A852_QA sol-ont:hasDescription "Inclination"
 
 solr:InclinationMeasurementActivity.A866_KA sol-ont:hasDescription "Inclination"^^xsd:string ;
     sol-ont:performedBy sol-ont:Agent.NASA-JPL .
+
+solr:InclinationObservation.1973_EC sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:InclinationMeasurementActivity.1973_EC ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.1973_EC ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.InclinationObservation.1973_EC ;
+    sol-ont:hasResult solr:InclinationResult.1973_EC .
+
+solr:InclinationObservation.1982_DB sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:InclinationMeasurementActivity.1982_DB ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.1982_DB ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.InclinationObservation.1982_DB ;
+    sol-ont:hasResult solr:InclinationResult.1982_DB .
+
+solr:InclinationObservation.1989_ML sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:InclinationMeasurementActivity.1989_ML ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.1989_ML ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.InclinationObservation.1989_ML ;
+    sol-ont:hasResult solr:InclinationResult.1989_ML .
+
+solr:InclinationObservation.1992_TC sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:InclinationMeasurementActivity.1992_TC ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.1992_TC ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.InclinationObservation.1992_TC ;
+    sol-ont:hasResult solr:InclinationResult.1992_TC .
+
+solr:InclinationObservation.1996_GT sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:InclinationMeasurementActivity.1996_GT ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.1996_GT ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.InclinationObservation.1996_GT ;
+    sol-ont:hasResult solr:InclinationResult.1996_GT .
+
+solr:InclinationObservation.1999_JU3 sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:InclinationMeasurementActivity.1999_JU3 ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.1999_JU3 ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.InclinationObservation.1999_JU3 ;
+    sol-ont:hasResult solr:InclinationResult.1999_JU3 .
+
+solr:InclinationObservation.1999_RQ36 sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:InclinationMeasurementActivity.1999_RQ36 ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.1999_RQ36 ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.InclinationObservation.1999_RQ36 ;
+    sol-ont:hasResult solr:InclinationResult.1999_RQ36 .
+
+solr:InclinationObservation.2001_CC21 sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:InclinationMeasurementActivity.2001_CC21 ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.2001_CC21 ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.InclinationObservation.2001_CC21 ;
+    sol-ont:hasResult solr:InclinationResult.2001_CC21 .
+
+solr:InclinationObservation.2011_UW158 sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:InclinationMeasurementActivity.2011_UW158 ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.2011_UW158 ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.InclinationObservation.2011_UW158 ;
+    sol-ont:hasResult solr:InclinationResult.2011_UW158 .
+
+solr:InclinationObservation.A802_FA sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:InclinationMeasurementActivity.A802_FA ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.A802_FA ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.InclinationObservation.A802_FA ;
+    sol-ont:hasResult solr:InclinationResult.A802_FA .
+
+solr:InclinationObservation.A849_GA sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:InclinationMeasurementActivity.A849_GA ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.A849_GA ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.InclinationObservation.A849_GA ;
+    sol-ont:hasResult solr:InclinationResult.A849_GA .
+
+solr:InclinationObservation.A850_VA sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:InclinationMeasurementActivity.A850_VA ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.A850_VA ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.InclinationObservation.A850_VA ;
+    sol-ont:hasResult solr:InclinationResult.A850_VA .
+
+solr:InclinationObservation.A852_FA sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:InclinationMeasurementActivity.A852_FA ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.A852_FA ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.InclinationObservation.A852_FA ;
+    sol-ont:hasResult solr:InclinationResult.A852_FA .
+
+solr:InclinationObservation.A852_QA sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:InclinationMeasurementActivity.A852_QA ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.A852_QA ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.InclinationObservation.A852_QA ;
+    sol-ont:hasResult solr:InclinationResult.A852_QA .
+
+solr:InclinationObservation.A866_KA sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:InclinationMeasurementActivity.A866_KA ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.A866_KA ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.InclinationObservation.A866_KA ;
+    sol-ont:hasResult solr:InclinationResult.A866_KA .
 
 solr:InclinationQuantity.1973_EC a sol-ont:Quantity ;
     sol-ont:hasQuantityKind "Inclination"^^sol-qk:Inclination ;
@@ -1815,6 +1185,96 @@ solr:LongitudeOfAscendingNodeMeasurementActivity.A852_QA sol-ont:hasDescription 
 solr:LongitudeOfAscendingNodeMeasurementActivity.A866_KA sol-ont:hasDescription "Longitude of the Ascending Node"^^xsd:string ;
     sol-ont:performedBy sol-ont:Agent.NASA-JPL .
 
+solr:LongitudeOfAscendingNodeObservation.1973_EC sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:LongitudeOfAscendingNodeMeasurementActivity.1973_EC ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.1973_EC ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.LongitudeOfAscendingNodeObservation.1973_EC ;
+    sol-ont:hasResult solr:LongitudeOfAscendingNodeResult.1973_EC .
+
+solr:LongitudeOfAscendingNodeObservation.1982_DB sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:LongitudeOfAscendingNodeMeasurementActivity.1982_DB ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.1982_DB ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.LongitudeOfAscendingNodeObservation.1982_DB ;
+    sol-ont:hasResult solr:LongitudeOfAscendingNodeResult.1982_DB .
+
+solr:LongitudeOfAscendingNodeObservation.1989_ML sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:LongitudeOfAscendingNodeMeasurementActivity.1989_ML ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.1989_ML ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.LongitudeOfAscendingNodeObservation.1989_ML ;
+    sol-ont:hasResult solr:LongitudeOfAscendingNodeResult.1989_ML .
+
+solr:LongitudeOfAscendingNodeObservation.1992_TC sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:LongitudeOfAscendingNodeMeasurementActivity.1992_TC ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.1992_TC ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.LongitudeOfAscendingNodeObservation.1992_TC ;
+    sol-ont:hasResult solr:LongitudeOfAscendingNodeResult.1992_TC .
+
+solr:LongitudeOfAscendingNodeObservation.1996_GT sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:LongitudeOfAscendingNodeMeasurementActivity.1996_GT ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.1996_GT ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.LongitudeOfAscendingNodeObservation.1996_GT ;
+    sol-ont:hasResult solr:LongitudeOfAscendingNodeResult.1996_GT .
+
+solr:LongitudeOfAscendingNodeObservation.1999_JU3 sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:LongitudeOfAscendingNodeMeasurementActivity.1999_JU3 ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.1999_JU3 ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.LongitudeOfAscendingNodeObservation.1999_JU3 ;
+    sol-ont:hasResult solr:LongitudeOfAscendingNodeResult.1999_JU3 .
+
+solr:LongitudeOfAscendingNodeObservation.1999_RQ36 sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:LongitudeOfAscendingNodeMeasurementActivity.1999_RQ36 ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.1999_RQ36 ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.LongitudeOfAscendingNodeObservation.1999_RQ36 ;
+    sol-ont:hasResult solr:LongitudeOfAscendingNodeResult.1999_RQ36 .
+
+solr:LongitudeOfAscendingNodeObservation.2001_CC21 sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:LongitudeOfAscendingNodeMeasurementActivity.2001_CC21 ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.2001_CC21 ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.LongitudeOfAscendingNodeObservation.2001_CC21 ;
+    sol-ont:hasResult solr:LongitudeOfAscendingNodeResult.2001_CC21 .
+
+solr:LongitudeOfAscendingNodeObservation.2011_UW158 sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:LongitudeOfAscendingNodeMeasurementActivity.2011_UW158 ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.2011_UW158 ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.LongitudeOfAscendingNodeObservation.2011_UW158 ;
+    sol-ont:hasResult solr:LongitudeOfAscendingNodeResult.2011_UW158 .
+
+solr:LongitudeOfAscendingNodeObservation.A802_FA sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:LongitudeOfAscendingNodeMeasurementActivity.A802_FA ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.A802_FA ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.LongitudeOfAscendingNodeObservation.A802_FA ;
+    sol-ont:hasResult solr:LongitudeOfAscendingNodeResult.A802_FA .
+
+solr:LongitudeOfAscendingNodeObservation.A849_GA sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:LongitudeOfAscendingNodeMeasurementActivity.A849_GA ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.A849_GA ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.LongitudeOfAscendingNodeObservation.A849_GA ;
+    sol-ont:hasResult solr:LongitudeOfAscendingNodeResult.A849_GA .
+
+solr:LongitudeOfAscendingNodeObservation.A850_VA sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:LongitudeOfAscendingNodeMeasurementActivity.A850_VA ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.A850_VA ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.LongitudeOfAscendingNodeObservation.A850_VA ;
+    sol-ont:hasResult solr:LongitudeOfAscendingNodeResult.A850_VA .
+
+solr:LongitudeOfAscendingNodeObservation.A852_FA sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:LongitudeOfAscendingNodeMeasurementActivity.A852_FA ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.A852_FA ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.LongitudeOfAscendingNodeObservation.A852_FA ;
+    sol-ont:hasResult solr:LongitudeOfAscendingNodeResult.A852_FA .
+
+solr:LongitudeOfAscendingNodeObservation.A852_QA sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:LongitudeOfAscendingNodeMeasurementActivity.A852_QA ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.A852_QA ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.LongitudeOfAscendingNodeObservation.A852_QA ;
+    sol-ont:hasResult solr:LongitudeOfAscendingNodeResult.A852_QA .
+
+solr:LongitudeOfAscendingNodeObservation.A866_KA sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:LongitudeOfAscendingNodeMeasurementActivity.A866_KA ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.A866_KA ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.LongitudeOfAscendingNodeObservation.A866_KA ;
+    sol-ont:hasResult solr:LongitudeOfAscendingNodeResult.A866_KA .
+
 solr:LongitudeOfAscendingNodeQuantity.1973_EC a sol-ont:Quantity ;
     sol-ont:hasQuantityKind "LongitudeOfAscendingNode"^^sol-qk:LongitudeOfAscendingNode ;
     sol-ont:hasQuantityValue solr:LongitudeOfAscendingNodeQuantityValue.1973_EC .
@@ -2009,6 +1469,96 @@ solr:MeanAnomalyMeasurementActivity.A852_QA sol-ont:hasDescription "Mean Anomaly
 
 solr:MeanAnomalyMeasurementActivity.A866_KA sol-ont:hasDescription "Mean Anomaly"^^xsd:string ;
     sol-ont:performedBy sol-ont:Agent.NASA-JPL .
+
+solr:MeanAnomalyObservation.1973_EC sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:MeanAnomalyMeasurementActivity.1973_EC ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.1973_EC ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.MeanAnomalyObservation.1973_EC ;
+    sol-ont:hasResult solr:MeanAnomalyResult.1973_EC .
+
+solr:MeanAnomalyObservation.1982_DB sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:MeanAnomalyMeasurementActivity.1982_DB ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.1982_DB ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.MeanAnomalyObservation.1982_DB ;
+    sol-ont:hasResult solr:MeanAnomalyResult.1982_DB .
+
+solr:MeanAnomalyObservation.1989_ML sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:MeanAnomalyMeasurementActivity.1989_ML ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.1989_ML ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.MeanAnomalyObservation.1989_ML ;
+    sol-ont:hasResult solr:MeanAnomalyResult.1989_ML .
+
+solr:MeanAnomalyObservation.1992_TC sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:MeanAnomalyMeasurementActivity.1992_TC ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.1992_TC ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.MeanAnomalyObservation.1992_TC ;
+    sol-ont:hasResult solr:MeanAnomalyResult.1992_TC .
+
+solr:MeanAnomalyObservation.1996_GT sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:MeanAnomalyMeasurementActivity.1996_GT ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.1996_GT ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.MeanAnomalyObservation.1996_GT ;
+    sol-ont:hasResult solr:MeanAnomalyResult.1996_GT .
+
+solr:MeanAnomalyObservation.1999_JU3 sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:MeanAnomalyMeasurementActivity.1999_JU3 ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.1999_JU3 ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.MeanAnomalyObservation.1999_JU3 ;
+    sol-ont:hasResult solr:MeanAnomalyResult.1999_JU3 .
+
+solr:MeanAnomalyObservation.1999_RQ36 sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:MeanAnomalyMeasurementActivity.1999_RQ36 ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.1999_RQ36 ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.MeanAnomalyObservation.1999_RQ36 ;
+    sol-ont:hasResult solr:MeanAnomalyResult.1999_RQ36 .
+
+solr:MeanAnomalyObservation.2001_CC21 sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:MeanAnomalyMeasurementActivity.2001_CC21 ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.2001_CC21 ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.MeanAnomalyObservation.2001_CC21 ;
+    sol-ont:hasResult solr:MeanAnomalyResult.2001_CC21 .
+
+solr:MeanAnomalyObservation.2011_UW158 sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:MeanAnomalyMeasurementActivity.2011_UW158 ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.2011_UW158 ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.MeanAnomalyObservation.2011_UW158 ;
+    sol-ont:hasResult solr:MeanAnomalyResult.2011_UW158 .
+
+solr:MeanAnomalyObservation.A802_FA sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:MeanAnomalyMeasurementActivity.A802_FA ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.A802_FA ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.MeanAnomalyObservation.A802_FA ;
+    sol-ont:hasResult solr:MeanAnomalyResult.A802_FA .
+
+solr:MeanAnomalyObservation.A849_GA sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:MeanAnomalyMeasurementActivity.A849_GA ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.A849_GA ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.MeanAnomalyObservation.A849_GA ;
+    sol-ont:hasResult solr:MeanAnomalyResult.A849_GA .
+
+solr:MeanAnomalyObservation.A850_VA sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:MeanAnomalyMeasurementActivity.A850_VA ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.A850_VA ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.MeanAnomalyObservation.A850_VA ;
+    sol-ont:hasResult solr:MeanAnomalyResult.A850_VA .
+
+solr:MeanAnomalyObservation.A852_FA sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:MeanAnomalyMeasurementActivity.A852_FA ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.A852_FA ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.MeanAnomalyObservation.A852_FA ;
+    sol-ont:hasResult solr:MeanAnomalyResult.A852_FA .
+
+solr:MeanAnomalyObservation.A852_QA sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:MeanAnomalyMeasurementActivity.A852_QA ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.A852_QA ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.MeanAnomalyObservation.A852_QA ;
+    sol-ont:hasResult solr:MeanAnomalyResult.A852_QA .
+
+solr:MeanAnomalyObservation.A866_KA sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:MeanAnomalyMeasurementActivity.A866_KA ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.A866_KA ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.MeanAnomalyObservation.A866_KA ;
+    sol-ont:hasResult solr:MeanAnomalyResult.A866_KA .
 
 solr:MeanAnomalyQuantity.1973_EC a sol-ont:Quantity ;
     sol-ont:hasQuantityKind "MeanAnomaly"^^sol-qk:MeanAnomaly ;
@@ -2205,6 +1755,96 @@ solr:MeanMotionMeasurementActivity.A852_QA sol-ont:hasDescription "Mean Motion"^
 solr:MeanMotionMeasurementActivity.A866_KA sol-ont:hasDescription "Mean Motion"^^xsd:string ;
     sol-ont:performedBy sol-ont:Agent.NASA-JPL .
 
+solr:MeanMotionObservation.1973_EC sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:MeanMotionMeasurementActivity.1973_EC ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.1973_EC ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.MeanMotionObservation.1973_EC ;
+    sol-ont:hasResult solr:MeanMotionResult.1973_EC .
+
+solr:MeanMotionObservation.1982_DB sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:MeanMotionMeasurementActivity.1982_DB ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.1982_DB ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.MeanMotionObservation.1982_DB ;
+    sol-ont:hasResult solr:MeanMotionResult.1982_DB .
+
+solr:MeanMotionObservation.1989_ML sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:MeanMotionMeasurementActivity.1989_ML ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.1989_ML ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.MeanMotionObservation.1989_ML ;
+    sol-ont:hasResult solr:MeanMotionResult.1989_ML .
+
+solr:MeanMotionObservation.1992_TC sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:MeanMotionMeasurementActivity.1992_TC ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.1992_TC ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.MeanMotionObservation.1992_TC ;
+    sol-ont:hasResult solr:MeanMotionResult.1992_TC .
+
+solr:MeanMotionObservation.1996_GT sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:MeanMotionMeasurementActivity.1996_GT ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.1996_GT ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.MeanMotionObservation.1996_GT ;
+    sol-ont:hasResult solr:MeanMotionResult.1996_GT .
+
+solr:MeanMotionObservation.1999_JU3 sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:MeanMotionMeasurementActivity.1999_JU3 ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.1999_JU3 ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.MeanMotionObservation.1999_JU3 ;
+    sol-ont:hasResult solr:MeanMotionResult.1999_JU3 .
+
+solr:MeanMotionObservation.1999_RQ36 sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:MeanMotionMeasurementActivity.1999_RQ36 ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.1999_RQ36 ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.MeanMotionObservation.1999_RQ36 ;
+    sol-ont:hasResult solr:MeanMotionResult.1999_RQ36 .
+
+solr:MeanMotionObservation.2001_CC21 sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:MeanMotionMeasurementActivity.2001_CC21 ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.2001_CC21 ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.MeanMotionObservation.2001_CC21 ;
+    sol-ont:hasResult solr:MeanMotionResult.2001_CC21 .
+
+solr:MeanMotionObservation.2011_UW158 sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:MeanMotionMeasurementActivity.2011_UW158 ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.2011_UW158 ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.MeanMotionObservation.2011_UW158 ;
+    sol-ont:hasResult solr:MeanMotionResult.2011_UW158 .
+
+solr:MeanMotionObservation.A802_FA sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:MeanMotionMeasurementActivity.A802_FA ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.A802_FA ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.MeanMotionObservation.A802_FA ;
+    sol-ont:hasResult solr:MeanMotionResult.A802_FA .
+
+solr:MeanMotionObservation.A849_GA sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:MeanMotionMeasurementActivity.A849_GA ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.A849_GA ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.MeanMotionObservation.A849_GA ;
+    sol-ont:hasResult solr:MeanMotionResult.A849_GA .
+
+solr:MeanMotionObservation.A850_VA sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:MeanMotionMeasurementActivity.A850_VA ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.A850_VA ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.MeanMotionObservation.A850_VA ;
+    sol-ont:hasResult solr:MeanMotionResult.A850_VA .
+
+solr:MeanMotionObservation.A852_FA sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:MeanMotionMeasurementActivity.A852_FA ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.A852_FA ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.MeanMotionObservation.A852_FA ;
+    sol-ont:hasResult solr:MeanMotionResult.A852_FA .
+
+solr:MeanMotionObservation.A852_QA sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:MeanMotionMeasurementActivity.A852_QA ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.A852_QA ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.MeanMotionObservation.A852_QA ;
+    sol-ont:hasResult solr:MeanMotionResult.A852_QA .
+
+solr:MeanMotionObservation.A866_KA sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:MeanMotionMeasurementActivity.A866_KA ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.A866_KA ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.MeanMotionObservation.A866_KA ;
+    sol-ont:hasResult solr:MeanMotionResult.A866_KA .
+
 solr:MeanMotionQuantity.1973_EC a sol-ont:Quantity ;
     sol-ont:hasQuantityKind "MeanMotion"^^sol-qk:MeanMotion ;
     sol-ont:hasQuantityValue solr:MeanMotionQuantityValue.1973_EC .
@@ -2400,6 +2040,96 @@ solr:OrbitalEccentricityMeasurementActivity.A852_QA sol-ont:hasDescription "Orbi
 solr:OrbitalEccentricityMeasurementActivity.A866_KA sol-ont:hasDescription "Orbital Eccentricity"^^xsd:string ;
     sol-ont:performedBy sol-ont:Agent.NASA-JPL .
 
+solr:OrbitalEccentricityObservation.1973_EC sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:OrbitalEccentricityMeasurementActivity.1973_EC ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.1973_EC ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.OrbitalEccentricityObservation.1973_EC ;
+    sol-ont:hasResult solr:OrbitalEccentricityResult.1973_EC .
+
+solr:OrbitalEccentricityObservation.1982_DB sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:OrbitalEccentricityMeasurementActivity.1982_DB ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.1982_DB ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.OrbitalEccentricityObservation.1982_DB ;
+    sol-ont:hasResult solr:OrbitalEccentricityResult.1982_DB .
+
+solr:OrbitalEccentricityObservation.1989_ML sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:OrbitalEccentricityMeasurementActivity.1989_ML ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.1989_ML ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.OrbitalEccentricityObservation.1989_ML ;
+    sol-ont:hasResult solr:OrbitalEccentricityResult.1989_ML .
+
+solr:OrbitalEccentricityObservation.1992_TC sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:OrbitalEccentricityMeasurementActivity.1992_TC ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.1992_TC ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.OrbitalEccentricityObservation.1992_TC ;
+    sol-ont:hasResult solr:OrbitalEccentricityResult.1992_TC .
+
+solr:OrbitalEccentricityObservation.1996_GT sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:OrbitalEccentricityMeasurementActivity.1996_GT ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.1996_GT ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.OrbitalEccentricityObservation.1996_GT ;
+    sol-ont:hasResult solr:OrbitalEccentricityResult.1996_GT .
+
+solr:OrbitalEccentricityObservation.1999_JU3 sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:OrbitalEccentricityMeasurementActivity.1999_JU3 ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.1999_JU3 ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.OrbitalEccentricityObservation.1999_JU3 ;
+    sol-ont:hasResult solr:OrbitalEccentricityResult.1999_JU3 .
+
+solr:OrbitalEccentricityObservation.1999_RQ36 sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:OrbitalEccentricityMeasurementActivity.1999_RQ36 ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.1999_RQ36 ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.OrbitalEccentricityObservation.1999_RQ36 ;
+    sol-ont:hasResult solr:OrbitalEccentricityResult.1999_RQ36 .
+
+solr:OrbitalEccentricityObservation.2001_CC21 sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:OrbitalEccentricityMeasurementActivity.2001_CC21 ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.2001_CC21 ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.OrbitalEccentricityObservation.2001_CC21 ;
+    sol-ont:hasResult solr:OrbitalEccentricityResult.2001_CC21 .
+
+solr:OrbitalEccentricityObservation.2011_UW158 sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:OrbitalEccentricityMeasurementActivity.2011_UW158 ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.2011_UW158 ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.OrbitalEccentricityObservation.2011_UW158 ;
+    sol-ont:hasResult solr:OrbitalEccentricityResult.2011_UW158 .
+
+solr:OrbitalEccentricityObservation.A802_FA sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:OrbitalEccentricityMeasurementActivity.A802_FA ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.A802_FA ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.OrbitalEccentricityObservation.A802_FA ;
+    sol-ont:hasResult solr:OrbitalEccentricityResult.A802_FA .
+
+solr:OrbitalEccentricityObservation.A849_GA sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:OrbitalEccentricityMeasurementActivity.A849_GA ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.A849_GA ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.OrbitalEccentricityObservation.A849_GA ;
+    sol-ont:hasResult solr:OrbitalEccentricityResult.A849_GA .
+
+solr:OrbitalEccentricityObservation.A850_VA sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:OrbitalEccentricityMeasurementActivity.A850_VA ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.A850_VA ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.OrbitalEccentricityObservation.A850_VA ;
+    sol-ont:hasResult solr:OrbitalEccentricityResult.A850_VA .
+
+solr:OrbitalEccentricityObservation.A852_FA sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:OrbitalEccentricityMeasurementActivity.A852_FA ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.A852_FA ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.OrbitalEccentricityObservation.A852_FA ;
+    sol-ont:hasResult solr:OrbitalEccentricityResult.A852_FA .
+
+solr:OrbitalEccentricityObservation.A852_QA sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:OrbitalEccentricityMeasurementActivity.A852_QA ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.A852_QA ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.OrbitalEccentricityObservation.A852_QA ;
+    sol-ont:hasResult solr:OrbitalEccentricityResult.A852_QA .
+
+solr:OrbitalEccentricityObservation.A866_KA sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:OrbitalEccentricityMeasurementActivity.A866_KA ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.A866_KA ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.OrbitalEccentricityObservation.A866_KA ;
+    sol-ont:hasResult solr:OrbitalEccentricityResult.A866_KA .
+
 solr:OrbitalEccentricityQuantity.1973_EC a sol-ont:Quantity ;
     sol-ont:hasQuantityKind "OrbitalEccentricity"^^sol-qk:OrbitalEccentricity ;
     sol-ont:hasQuantityValue solr:OrbitalEccentricityQuantityValue.1973_EC .
@@ -2594,6 +2324,96 @@ solr:OrbitalPeriodMeasurementActivity.A852_QA sol-ont:hasDescription "Orbital Pe
 
 solr:OrbitalPeriodMeasurementActivity.A866_KA sol-ont:hasDescription "Orbital Period"^^xsd:string ;
     sol-ont:performedBy sol-ont:Agent.NASA-JPL .
+
+solr:OrbitalPeriodObservation.1973_EC sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:OrbitalPeriodMeasurementActivity.1973_EC ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.1973_EC ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.OrbitalPeriodObservation.1973_EC ;
+    sol-ont:hasResult solr:OrbitalPeriodResult.1973_EC .
+
+solr:OrbitalPeriodObservation.1982_DB sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:OrbitalPeriodMeasurementActivity.1982_DB ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.1982_DB ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.OrbitalPeriodObservation.1982_DB ;
+    sol-ont:hasResult solr:OrbitalPeriodResult.1982_DB .
+
+solr:OrbitalPeriodObservation.1989_ML sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:OrbitalPeriodMeasurementActivity.1989_ML ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.1989_ML ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.OrbitalPeriodObservation.1989_ML ;
+    sol-ont:hasResult solr:OrbitalPeriodResult.1989_ML .
+
+solr:OrbitalPeriodObservation.1992_TC sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:OrbitalPeriodMeasurementActivity.1992_TC ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.1992_TC ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.OrbitalPeriodObservation.1992_TC ;
+    sol-ont:hasResult solr:OrbitalPeriodResult.1992_TC .
+
+solr:OrbitalPeriodObservation.1996_GT sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:OrbitalPeriodMeasurementActivity.1996_GT ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.1996_GT ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.OrbitalPeriodObservation.1996_GT ;
+    sol-ont:hasResult solr:OrbitalPeriodResult.1996_GT .
+
+solr:OrbitalPeriodObservation.1999_JU3 sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:OrbitalPeriodMeasurementActivity.1999_JU3 ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.1999_JU3 ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.OrbitalPeriodObservation.1999_JU3 ;
+    sol-ont:hasResult solr:OrbitalPeriodResult.1999_JU3 .
+
+solr:OrbitalPeriodObservation.1999_RQ36 sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:OrbitalPeriodMeasurementActivity.1999_RQ36 ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.1999_RQ36 ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.OrbitalPeriodObservation.1999_RQ36 ;
+    sol-ont:hasResult solr:OrbitalPeriodResult.1999_RQ36 .
+
+solr:OrbitalPeriodObservation.2001_CC21 sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:OrbitalPeriodMeasurementActivity.2001_CC21 ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.2001_CC21 ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.OrbitalPeriodObservation.2001_CC21 ;
+    sol-ont:hasResult solr:OrbitalPeriodResult.2001_CC21 .
+
+solr:OrbitalPeriodObservation.2011_UW158 sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:OrbitalPeriodMeasurementActivity.2011_UW158 ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.2011_UW158 ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.OrbitalPeriodObservation.2011_UW158 ;
+    sol-ont:hasResult solr:OrbitalPeriodResult.2011_UW158 .
+
+solr:OrbitalPeriodObservation.A802_FA sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:OrbitalPeriodMeasurementActivity.A802_FA ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.A802_FA ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.OrbitalPeriodObservation.A802_FA ;
+    sol-ont:hasResult solr:OrbitalPeriodResult.A802_FA .
+
+solr:OrbitalPeriodObservation.A849_GA sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:OrbitalPeriodMeasurementActivity.A849_GA ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.A849_GA ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.OrbitalPeriodObservation.A849_GA ;
+    sol-ont:hasResult solr:OrbitalPeriodResult.A849_GA .
+
+solr:OrbitalPeriodObservation.A850_VA sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:OrbitalPeriodMeasurementActivity.A850_VA ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.A850_VA ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.OrbitalPeriodObservation.A850_VA ;
+    sol-ont:hasResult solr:OrbitalPeriodResult.A850_VA .
+
+solr:OrbitalPeriodObservation.A852_FA sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:OrbitalPeriodMeasurementActivity.A852_FA ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.A852_FA ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.OrbitalPeriodObservation.A852_FA ;
+    sol-ont:hasResult solr:OrbitalPeriodResult.A852_FA .
+
+solr:OrbitalPeriodObservation.A852_QA sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:OrbitalPeriodMeasurementActivity.A852_QA ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.A852_QA ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.OrbitalPeriodObservation.A852_QA ;
+    sol-ont:hasResult solr:OrbitalPeriodResult.A852_QA .
+
+solr:OrbitalPeriodObservation.A866_KA sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:OrbitalPeriodMeasurementActivity.A866_KA ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.A866_KA ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.OrbitalPeriodObservation.A866_KA ;
+    sol-ont:hasResult solr:OrbitalPeriodResult.A866_KA .
 
 solr:OrbitalPeriodQuantity.1973_EC a sol-ont:Quantity ;
     sol-ont:hasQuantityKind "OrbitalPeriod"^^sol-qk:OrbitalPeriod ;
@@ -3120,6 +2940,96 @@ solr:PerihelionDistanceMeasurementActivity.A852_QA sol-ont:hasDescription "Perih
 solr:PerihelionDistanceMeasurementActivity.A866_KA sol-ont:hasDescription "Perihelion Distance"^^xsd:string ;
     sol-ont:performedBy sol-ont:Agent.NASA-JPL .
 
+solr:PerihelionDistanceObservation.1973_EC sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:PerihelionDistanceMeasurementActivity.1973_EC ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.1973_EC ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.PerihelionDistanceObservation.1973_EC ;
+    sol-ont:hasResult solr:PerihelionDistanceResult.1973_EC .
+
+solr:PerihelionDistanceObservation.1982_DB sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:PerihelionDistanceMeasurementActivity.1982_DB ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.1982_DB ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.PerihelionDistanceObservation.1982_DB ;
+    sol-ont:hasResult solr:PerihelionDistanceResult.1982_DB .
+
+solr:PerihelionDistanceObservation.1989_ML sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:PerihelionDistanceMeasurementActivity.1989_ML ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.1989_ML ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.PerihelionDistanceObservation.1989_ML ;
+    sol-ont:hasResult solr:PerihelionDistanceResult.1989_ML .
+
+solr:PerihelionDistanceObservation.1992_TC sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:PerihelionDistanceMeasurementActivity.1992_TC ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.1992_TC ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.PerihelionDistanceObservation.1992_TC ;
+    sol-ont:hasResult solr:PerihelionDistanceResult.1992_TC .
+
+solr:PerihelionDistanceObservation.1996_GT sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:PerihelionDistanceMeasurementActivity.1996_GT ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.1996_GT ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.PerihelionDistanceObservation.1996_GT ;
+    sol-ont:hasResult solr:PerihelionDistanceResult.1996_GT .
+
+solr:PerihelionDistanceObservation.1999_JU3 sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:PerihelionDistanceMeasurementActivity.1999_JU3 ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.1999_JU3 ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.PerihelionDistanceObservation.1999_JU3 ;
+    sol-ont:hasResult solr:PerihelionDistanceResult.1999_JU3 .
+
+solr:PerihelionDistanceObservation.1999_RQ36 sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:PerihelionDistanceMeasurementActivity.1999_RQ36 ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.1999_RQ36 ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.PerihelionDistanceObservation.1999_RQ36 ;
+    sol-ont:hasResult solr:PerihelionDistanceResult.1999_RQ36 .
+
+solr:PerihelionDistanceObservation.2001_CC21 sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:PerihelionDistanceMeasurementActivity.2001_CC21 ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.2001_CC21 ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.PerihelionDistanceObservation.2001_CC21 ;
+    sol-ont:hasResult solr:PerihelionDistanceResult.2001_CC21 .
+
+solr:PerihelionDistanceObservation.2011_UW158 sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:PerihelionDistanceMeasurementActivity.2011_UW158 ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.2011_UW158 ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.PerihelionDistanceObservation.2011_UW158 ;
+    sol-ont:hasResult solr:PerihelionDistanceResult.2011_UW158 .
+
+solr:PerihelionDistanceObservation.A802_FA sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:PerihelionDistanceMeasurementActivity.A802_FA ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.A802_FA ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.PerihelionDistanceObservation.A802_FA ;
+    sol-ont:hasResult solr:PerihelionDistanceResult.A802_FA .
+
+solr:PerihelionDistanceObservation.A849_GA sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:PerihelionDistanceMeasurementActivity.A849_GA ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.A849_GA ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.PerihelionDistanceObservation.A849_GA ;
+    sol-ont:hasResult solr:PerihelionDistanceResult.A849_GA .
+
+solr:PerihelionDistanceObservation.A850_VA sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:PerihelionDistanceMeasurementActivity.A850_VA ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.A850_VA ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.PerihelionDistanceObservation.A850_VA ;
+    sol-ont:hasResult solr:PerihelionDistanceResult.A850_VA .
+
+solr:PerihelionDistanceObservation.A852_FA sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:PerihelionDistanceMeasurementActivity.A852_FA ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.A852_FA ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.PerihelionDistanceObservation.A852_FA ;
+    sol-ont:hasResult solr:PerihelionDistanceResult.A852_FA .
+
+solr:PerihelionDistanceObservation.A852_QA sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:PerihelionDistanceMeasurementActivity.A852_QA ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.A852_QA ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.PerihelionDistanceObservation.A852_QA ;
+    sol-ont:hasResult solr:PerihelionDistanceResult.A852_QA .
+
+solr:PerihelionDistanceObservation.A866_KA sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:PerihelionDistanceMeasurementActivity.A866_KA ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.A866_KA ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.PerihelionDistanceObservation.A866_KA ;
+    sol-ont:hasResult solr:PerihelionDistanceResult.A866_KA .
+
 solr:PerihelionDistanceQuantity.1973_EC a sol-ont:Quantity ;
     sol-ont:hasQuantityKind "PerihelionDistance"^^sol-qk:PerihelionDistance ;
     sol-ont:hasQuantityValue solr:PerihelionDistanceQuantityValue.1973_EC .
@@ -3315,6 +3225,96 @@ solr:Semi-MajorAxisMeasurementActivity.A852_QA sol-ont:hasDescription "Semi-Majo
 solr:Semi-MajorAxisMeasurementActivity.A866_KA sol-ont:hasDescription "Semi-Major Axis"^^xsd:string ;
     sol-ont:performedBy sol-ont:Agent.NASA-JPL .
 
+solr:Semi-MajorAxisObservation.1973_EC sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:Semi-MajorAxisMeasurementActivity.1973_EC ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.1973_EC ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.Semi-MajorAxisObservation.1973_EC ;
+    sol-ont:hasResult solr:Semi-MajorAxisResult.1973_EC .
+
+solr:Semi-MajorAxisObservation.1982_DB sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:Semi-MajorAxisMeasurementActivity.1982_DB ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.1982_DB ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.Semi-MajorAxisObservation.1982_DB ;
+    sol-ont:hasResult solr:Semi-MajorAxisResult.1982_DB .
+
+solr:Semi-MajorAxisObservation.1989_ML sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:Semi-MajorAxisMeasurementActivity.1989_ML ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.1989_ML ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.Semi-MajorAxisObservation.1989_ML ;
+    sol-ont:hasResult solr:Semi-MajorAxisResult.1989_ML .
+
+solr:Semi-MajorAxisObservation.1992_TC sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:Semi-MajorAxisMeasurementActivity.1992_TC ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.1992_TC ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.Semi-MajorAxisObservation.1992_TC ;
+    sol-ont:hasResult solr:Semi-MajorAxisResult.1992_TC .
+
+solr:Semi-MajorAxisObservation.1996_GT sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:Semi-MajorAxisMeasurementActivity.1996_GT ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.1996_GT ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.Semi-MajorAxisObservation.1996_GT ;
+    sol-ont:hasResult solr:Semi-MajorAxisResult.1996_GT .
+
+solr:Semi-MajorAxisObservation.1999_JU3 sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:Semi-MajorAxisMeasurementActivity.1999_JU3 ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.1999_JU3 ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.Semi-MajorAxisObservation.1999_JU3 ;
+    sol-ont:hasResult solr:Semi-MajorAxisResult.1999_JU3 .
+
+solr:Semi-MajorAxisObservation.1999_RQ36 sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:Semi-MajorAxisMeasurementActivity.1999_RQ36 ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.1999_RQ36 ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.Semi-MajorAxisObservation.1999_RQ36 ;
+    sol-ont:hasResult solr:Semi-MajorAxisResult.1999_RQ36 .
+
+solr:Semi-MajorAxisObservation.2001_CC21 sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:Semi-MajorAxisMeasurementActivity.2001_CC21 ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.2001_CC21 ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.Semi-MajorAxisObservation.2001_CC21 ;
+    sol-ont:hasResult solr:Semi-MajorAxisResult.2001_CC21 .
+
+solr:Semi-MajorAxisObservation.2011_UW158 sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:Semi-MajorAxisMeasurementActivity.2011_UW158 ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.2011_UW158 ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.Semi-MajorAxisObservation.2011_UW158 ;
+    sol-ont:hasResult solr:Semi-MajorAxisResult.2011_UW158 .
+
+solr:Semi-MajorAxisObservation.A802_FA sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:Semi-MajorAxisMeasurementActivity.A802_FA ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.A802_FA ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.Semi-MajorAxisObservation.A802_FA ;
+    sol-ont:hasResult solr:Semi-MajorAxisResult.A802_FA .
+
+solr:Semi-MajorAxisObservation.A849_GA sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:Semi-MajorAxisMeasurementActivity.A849_GA ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.A849_GA ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.Semi-MajorAxisObservation.A849_GA ;
+    sol-ont:hasResult solr:Semi-MajorAxisResult.A849_GA .
+
+solr:Semi-MajorAxisObservation.A850_VA sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:Semi-MajorAxisMeasurementActivity.A850_VA ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.A850_VA ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.Semi-MajorAxisObservation.A850_VA ;
+    sol-ont:hasResult solr:Semi-MajorAxisResult.A850_VA .
+
+solr:Semi-MajorAxisObservation.A852_FA sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:Semi-MajorAxisMeasurementActivity.A852_FA ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.A852_FA ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.Semi-MajorAxisObservation.A852_FA ;
+    sol-ont:hasResult solr:Semi-MajorAxisResult.A852_FA .
+
+solr:Semi-MajorAxisObservation.A852_QA sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:Semi-MajorAxisMeasurementActivity.A852_QA ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.A852_QA ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.Semi-MajorAxisObservation.A852_QA ;
+    sol-ont:hasResult solr:Semi-MajorAxisResult.A852_QA .
+
+solr:Semi-MajorAxisObservation.A866_KA sol-ont:attributedTo sol-ont:Agent.NASA-JPL ;
+    sol-ont:generatedBy solr:Semi-MajorAxisMeasurementActivity.A866_KA ;
+    sol-ont:hasFeatureOfInterest solr:Asteroid.A866_KA ;
+    sol-ont:hasObservableProperty solr:OrbitalProperty.Semi-MajorAxisObservation.A866_KA ;
+    sol-ont:hasResult solr:Semi-MajorAxisResult.A866_KA .
+
 solr:Semi-MajorAxisQuantity.1973_EC a sol-ont:Quantity ;
     sol-ont:hasQuantityKind "Semi-MajorAxis"^^sol-qk:Semi-MajorAxis ;
     sol-ont:hasQuantityValue solr:Semi-MajorAxisQuantityValue.1973_EC .
@@ -3465,35 +3465,200 @@ solr:Semi-MajorAxisResult.A852_QA sol-ont:hasQuantity solr:Semi-MajorAxisQuantit
 
 solr:Semi-MajorAxisResult.A866_KA sol-ont:hasQuantity solr:Semi-MajorAxisQuantity.A866_KA .
 
-solr:Asteroid.1973_EC a sol-ont:Asteroid .
+solr:Asteroid.1973_EC a sol-ont:Asteroid ;
+    sol-ont:hasObservation solr:AphelionDistanceObservation.1973_EC,
+        solr:ArgumentOfPerihelionObservation.1973_EC,
+        solr:DiameterObservation.1973_EC,
+        solr:InclinationObservation.1973_EC,
+        solr:LongitudeOfAscendingNodeObservation.1973_EC,
+        solr:MeanAnomalyObservation.1973_EC,
+        solr:MeanMotionObservation.1973_EC,
+        solr:OrbitalEccentricityObservation.1973_EC,
+        solr:OrbitalPeriodObservation.1973_EC,
+        solr:PerihelionDistanceObservation.1973_EC,
+        solr:Semi-MajorAxisObservation.1973_EC .
 
-solr:Asteroid.1982_DB a sol-ont:Asteroid .
+solr:Asteroid.1982_DB a sol-ont:Asteroid ;
+    sol-ont:hasObservation solr:AphelionDistanceObservation.1982_DB,
+        solr:ArgumentOfPerihelionObservation.1982_DB,
+        solr:DiameterObservation.1982_DB,
+        solr:InclinationObservation.1982_DB,
+        solr:LongitudeOfAscendingNodeObservation.1982_DB,
+        solr:MeanAnomalyObservation.1982_DB,
+        solr:MeanMotionObservation.1982_DB,
+        solr:OrbitalEccentricityObservation.1982_DB,
+        solr:OrbitalPeriodObservation.1982_DB,
+        solr:PerihelionDistanceObservation.1982_DB,
+        solr:Semi-MajorAxisObservation.1982_DB .
 
-solr:Asteroid.1989_ML a sol-ont:Asteroid .
+solr:Asteroid.1989_ML a sol-ont:Asteroid ;
+    sol-ont:hasObservation solr:AphelionDistanceObservation.1989_ML,
+        solr:ArgumentOfPerihelionObservation.1989_ML,
+        solr:DiameterObservation.1989_ML,
+        solr:InclinationObservation.1989_ML,
+        solr:LongitudeOfAscendingNodeObservation.1989_ML,
+        solr:MeanAnomalyObservation.1989_ML,
+        solr:MeanMotionObservation.1989_ML,
+        solr:OrbitalEccentricityObservation.1989_ML,
+        solr:OrbitalPeriodObservation.1989_ML,
+        solr:PerihelionDistanceObservation.1989_ML,
+        solr:Semi-MajorAxisObservation.1989_ML .
 
-solr:Asteroid.1992_TC a sol-ont:Asteroid .
+solr:Asteroid.1992_TC a sol-ont:Asteroid ;
+    sol-ont:hasObservation solr:AphelionDistanceObservation.1992_TC,
+        solr:ArgumentOfPerihelionObservation.1992_TC,
+        solr:DiameterObservation.1992_TC,
+        solr:InclinationObservation.1992_TC,
+        solr:LongitudeOfAscendingNodeObservation.1992_TC,
+        solr:MeanAnomalyObservation.1992_TC,
+        solr:MeanMotionObservation.1992_TC,
+        solr:OrbitalEccentricityObservation.1992_TC,
+        solr:OrbitalPeriodObservation.1992_TC,
+        solr:PerihelionDistanceObservation.1992_TC,
+        solr:Semi-MajorAxisObservation.1992_TC .
 
-solr:Asteroid.1996_GT a sol-ont:Asteroid .
+solr:Asteroid.1996_GT a sol-ont:Asteroid ;
+    sol-ont:hasObservation solr:AphelionDistanceObservation.1996_GT,
+        solr:ArgumentOfPerihelionObservation.1996_GT,
+        solr:DiameterObservation.1996_GT,
+        solr:InclinationObservation.1996_GT,
+        solr:LongitudeOfAscendingNodeObservation.1996_GT,
+        solr:MeanAnomalyObservation.1996_GT,
+        solr:MeanMotionObservation.1996_GT,
+        solr:OrbitalEccentricityObservation.1996_GT,
+        solr:OrbitalPeriodObservation.1996_GT,
+        solr:PerihelionDistanceObservation.1996_GT,
+        solr:Semi-MajorAxisObservation.1996_GT .
 
-solr:Asteroid.1999_JU3 a sol-ont:Asteroid .
+solr:Asteroid.1999_JU3 a sol-ont:Asteroid ;
+    sol-ont:hasObservation solr:AphelionDistanceObservation.1999_JU3,
+        solr:ArgumentOfPerihelionObservation.1999_JU3,
+        solr:DiameterObservation.1999_JU3,
+        solr:InclinationObservation.1999_JU3,
+        solr:LongitudeOfAscendingNodeObservation.1999_JU3,
+        solr:MeanAnomalyObservation.1999_JU3,
+        solr:MeanMotionObservation.1999_JU3,
+        solr:OrbitalEccentricityObservation.1999_JU3,
+        solr:OrbitalPeriodObservation.1999_JU3,
+        solr:PerihelionDistanceObservation.1999_JU3,
+        solr:Semi-MajorAxisObservation.1999_JU3 .
 
-solr:Asteroid.1999_RQ36 a sol-ont:Asteroid .
+solr:Asteroid.1999_RQ36 a sol-ont:Asteroid ;
+    sol-ont:hasObservation solr:AphelionDistanceObservation.1999_RQ36,
+        solr:ArgumentOfPerihelionObservation.1999_RQ36,
+        solr:DiameterObservation.1999_RQ36,
+        solr:InclinationObservation.1999_RQ36,
+        solr:LongitudeOfAscendingNodeObservation.1999_RQ36,
+        solr:MeanAnomalyObservation.1999_RQ36,
+        solr:MeanMotionObservation.1999_RQ36,
+        solr:OrbitalEccentricityObservation.1999_RQ36,
+        solr:OrbitalPeriodObservation.1999_RQ36,
+        solr:PerihelionDistanceObservation.1999_RQ36,
+        solr:Semi-MajorAxisObservation.1999_RQ36 .
 
-solr:Asteroid.2001_CC21 a sol-ont:Asteroid .
+solr:Asteroid.2001_CC21 a sol-ont:Asteroid ;
+    sol-ont:hasObservation solr:AphelionDistanceObservation.2001_CC21,
+        solr:ArgumentOfPerihelionObservation.2001_CC21,
+        solr:DiameterObservation.2001_CC21,
+        solr:InclinationObservation.2001_CC21,
+        solr:LongitudeOfAscendingNodeObservation.2001_CC21,
+        solr:MeanAnomalyObservation.2001_CC21,
+        solr:MeanMotionObservation.2001_CC21,
+        solr:OrbitalEccentricityObservation.2001_CC21,
+        solr:OrbitalPeriodObservation.2001_CC21,
+        solr:PerihelionDistanceObservation.2001_CC21,
+        solr:Semi-MajorAxisObservation.2001_CC21 .
 
-solr:Asteroid.2011_UW158 a sol-ont:Asteroid .
+solr:Asteroid.2011_UW158 a sol-ont:Asteroid ;
+    sol-ont:hasObservation solr:AphelionDistanceObservation.2011_UW158,
+        solr:ArgumentOfPerihelionObservation.2011_UW158,
+        solr:DiameterObservation.2011_UW158,
+        solr:InclinationObservation.2011_UW158,
+        solr:LongitudeOfAscendingNodeObservation.2011_UW158,
+        solr:MeanAnomalyObservation.2011_UW158,
+        solr:MeanMotionObservation.2011_UW158,
+        solr:OrbitalEccentricityObservation.2011_UW158,
+        solr:OrbitalPeriodObservation.2011_UW158,
+        solr:PerihelionDistanceObservation.2011_UW158,
+        solr:Semi-MajorAxisObservation.2011_UW158 .
 
-solr:Asteroid.A802_FA a sol-ont:Asteroid .
+solr:Asteroid.A802_FA a sol-ont:Asteroid ;
+    sol-ont:hasObservation solr:AphelionDistanceObservation.A802_FA,
+        solr:ArgumentOfPerihelionObservation.A802_FA,
+        solr:DiameterObservation.A802_FA,
+        solr:InclinationObservation.A802_FA,
+        solr:LongitudeOfAscendingNodeObservation.A802_FA,
+        solr:MeanAnomalyObservation.A802_FA,
+        solr:MeanMotionObservation.A802_FA,
+        solr:OrbitalEccentricityObservation.A802_FA,
+        solr:OrbitalPeriodObservation.A802_FA,
+        solr:PerihelionDistanceObservation.A802_FA,
+        solr:Semi-MajorAxisObservation.A802_FA .
 
-solr:Asteroid.A849_GA a sol-ont:Asteroid .
+solr:Asteroid.A849_GA a sol-ont:Asteroid ;
+    sol-ont:hasObservation solr:AphelionDistanceObservation.A849_GA,
+        solr:ArgumentOfPerihelionObservation.A849_GA,
+        solr:DiameterObservation.A849_GA,
+        solr:InclinationObservation.A849_GA,
+        solr:LongitudeOfAscendingNodeObservation.A849_GA,
+        solr:MeanAnomalyObservation.A849_GA,
+        solr:MeanMotionObservation.A849_GA,
+        solr:OrbitalEccentricityObservation.A849_GA,
+        solr:OrbitalPeriodObservation.A849_GA,
+        solr:PerihelionDistanceObservation.A849_GA,
+        solr:Semi-MajorAxisObservation.A849_GA .
 
-solr:Asteroid.A850_VA a sol-ont:Asteroid .
+solr:Asteroid.A850_VA a sol-ont:Asteroid ;
+    sol-ont:hasObservation solr:AphelionDistanceObservation.A850_VA,
+        solr:ArgumentOfPerihelionObservation.A850_VA,
+        solr:DiameterObservation.A850_VA,
+        solr:InclinationObservation.A850_VA,
+        solr:LongitudeOfAscendingNodeObservation.A850_VA,
+        solr:MeanAnomalyObservation.A850_VA,
+        solr:MeanMotionObservation.A850_VA,
+        solr:OrbitalEccentricityObservation.A850_VA,
+        solr:OrbitalPeriodObservation.A850_VA,
+        solr:PerihelionDistanceObservation.A850_VA,
+        solr:Semi-MajorAxisObservation.A850_VA .
 
-solr:Asteroid.A852_FA a sol-ont:Asteroid .
+solr:Asteroid.A852_FA a sol-ont:Asteroid ;
+    sol-ont:hasObservation solr:AphelionDistanceObservation.A852_FA,
+        solr:ArgumentOfPerihelionObservation.A852_FA,
+        solr:DiameterObservation.A852_FA,
+        solr:InclinationObservation.A852_FA,
+        solr:LongitudeOfAscendingNodeObservation.A852_FA,
+        solr:MeanAnomalyObservation.A852_FA,
+        solr:MeanMotionObservation.A852_FA,
+        solr:OrbitalEccentricityObservation.A852_FA,
+        solr:OrbitalPeriodObservation.A852_FA,
+        solr:PerihelionDistanceObservation.A852_FA,
+        solr:Semi-MajorAxisObservation.A852_FA .
 
-solr:Asteroid.A852_QA a sol-ont:Asteroid .
+solr:Asteroid.A852_QA a sol-ont:Asteroid ;
+    sol-ont:hasObservation solr:AphelionDistanceObservation.A852_QA,
+        solr:ArgumentOfPerihelionObservation.A852_QA,
+        solr:DiameterObservation.A852_QA,
+        solr:InclinationObservation.A852_QA,
+        solr:LongitudeOfAscendingNodeObservation.A852_QA,
+        solr:MeanAnomalyObservation.A852_QA,
+        solr:MeanMotionObservation.A852_QA,
+        solr:OrbitalEccentricityObservation.A852_QA,
+        solr:OrbitalPeriodObservation.A852_QA,
+        solr:PerihelionDistanceObservation.A852_QA,
+        solr:Semi-MajorAxisObservation.A852_QA .
 
-solr:Asteroid.A866_KA a sol-ont:Asteroid .
+solr:Asteroid.A866_KA a sol-ont:Asteroid ;
+    sol-ont:hasObservation solr:AphelionDistanceObservation.A866_KA,
+        solr:ArgumentOfPerihelionObservation.A866_KA,
+        solr:DiameterObservation.A866_KA,
+        solr:InclinationObservation.A866_KA,
+        solr:LongitudeOfAscendingNodeObservation.A866_KA,
+        solr:MeanAnomalyObservation.A866_KA,
+        solr:MeanMotionObservation.A866_KA,
+        solr:OrbitalEccentricityObservation.A866_KA,
+        solr:OrbitalPeriodObservation.A866_KA,
+        solr:PerihelionDistanceObservation.A866_KA,
+        solr:Semi-MajorAxisObservation.A866_KA .
 
 sol-ont:Agent.NASA-JPL a sol-ont:Agent ;
     sol-ont:hasName "NASA-JPL"^^xsd:string .
