@@ -100,7 +100,7 @@ def triple_orbital(graph:Graph, data, index):
 
 def triple_economic(graph:Graph, numeric, index):
     activity = f"{ACTIVITIES[index]}Measurement"
-    observation_uri = pfs["solr"][f"{activity}Observation.{discovery}"]
+    observation_uri = pfs["solr"][f"{activity}Observation."]
     observable_property_uri = pfs["solr"][f"EconomicProperty.{activity}.{discovery}"]
     graph.add( (observation_uri, pfs["sol-ont"][f"hasFeatureOfInterest"], asteroid_uri) )
     graph.add( (asteroid_uri, pfs["sol-ont"]["hasObservation"], observation_uri) )
