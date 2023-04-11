@@ -65,11 +65,34 @@ ORDERBY DESC (?CountOfElement)
 **Bridged Datasets:** dataset 1, dataset 2, ...
 
 **SPARQL Query:**
-```
-SELECT * WHERE {
-	?s ?p ?o .
+```sql
+Select (?class as ?AsteroidType) (count(?class) as ?CountOfTypes)
+Where{
+  {
+    ?asteroid a sol-ont:Asteroid ;
+  				sol-ont:hasCommonName ?name.
+    ?asteroid sol-ont:hasAsteroidClassification ?type .
+    ?type sol-ont:hasSMASSIIClass ?class.
+    ?asteroid sol-ont:hasDistanceRecord ?record .
+    ?record sol-ont:hasTemporalExtent ?te .
+    ?te sol-ont:recordedAt ?time .
+    ?record sol-ont:hasResult ?r. 
+    ?r sol-ont:hasQuantity ?q.
+    ?q sol-ont:hasQuantityValue ?qv .
+    ?qv sol-ont:hasNumericValue ?distance .
+    FILTER(
+      ?time="JAN24"^^time:MonthOfYear
+   	&& ?distance < 1.5
+    )
+  } 
 }
+GROUP BY ?class
+ORDERBY DESC (?CountOfTypes)
 ```
+**Results:**
+| AsteroidType | CountofTypes |
+| :----: | :----: |
+| B | 1 |
 
 ## Closest Asteroids In 2 Years Window
 **Competency Question:** "Which is the closest asteroid to Earth in the next 24 months and when does that occur?"
