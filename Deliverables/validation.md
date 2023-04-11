@@ -6,7 +6,7 @@
 **Bridged Datasets:** dataset 1, dataset 2, ...
 
 **SPARQL Query:**
-```
+```sql
 SELECT * WHERE {
 	?s ?p ?o .
 }
@@ -54,19 +54,71 @@ SELECT * WHERE {
 }
 ```
 
-**Results:**
-| Header |
-| :----: |
-| Result |
-| Result |
-| Result |
-| Result |
-| Result |
-
 ## Closest Asteroids In 2 Years Window
 **Competency Question:** "Which is the closest asteroid to Earth in the next 24 months and when does that occur?"
 
-**Bridged Datasets:** Asteroid_Distances.csv 
+**Bridged Datasets:** SOL_Asteroid_Names*, Asteroid_Distances.csv 
+
+**SPARQL Query:**
+```sql
+Select ?name ?time ?distance ?unit
+Where{
+  {
+    Select *
+    Where {
+    ?asteroid a sol-ont:Asteroid .
+    ?asteroid sol-ont:hasCommonName ?name .
+    ?asteroid sol-ont:hasDistanceRecord ?record
+    }
+  } . 
+  {
+    Select *
+    Where {
+      ?record a sol-ont:DistanceRecord .
+      ?record sol-ont:hasTemporalExtent ?te .
+      ?te sol-ont:recordedAt ?time .
+      ?record sol-ont:hasResult ?r .
+      ?r sol-ont:hasQuantity ?q .
+      ?q sol-ont:hasQuantityValue ?qv .
+      ?qv a sol-ont:QuantityValue;
+         sol-ont:hasNumericValue ?distance;
+         sol-ont:hasUnit ?unit .
+      FILTER( 
+        ?time = "JAN23"^^time:MonthOfYear ||
+        ?time = "MAY23"^^time:MonthOfYear ||
+        ?time = "AUG23"^^time:MonthOfYear ||
+        ?time = "NOV23"^^time:MonthOfYear ||
+        ?time = "JAN24"^^time:MonthOfYear ||
+        ?time = "MAY24"^^time:MonthOfYear ||
+        ?time = "AUG24"^^time:MonthOfYear ||
+        ?time = "NOV24"^^time:MonthOfYear ||
+        ?time = "JAN25"^^time:MonthOfYear ||
+        ?time = "MAY25"^^time:MonthOfYear
+      )
+    }
+    ORDERBY ASC(?distance)
+  }
+}
+```
+**Results:**
+| name | time | distance | unit | 
+| :----: | :----: | :----: | :----: |
+| Didymos | JAN23 | 0.27677 | au |
+| Bennu | MAY24 | 0.42804 | au |
+| Ryugu | MAY25 | 0.44189 | au |
+| Bennu | JAN25 | 0.52983 | au |
+| Bennu | AUG23 | 0.5301 | au |
+| Bennu | AUG24 | 0.54087 | au |
+| Ryugu | NOV24 | 0.55874 | au |
+| Didymos | JAN25 | 0.56544 | au |
+| Didymos | AUG24 | 0.61461 | au |
+| Bennu | MAY25 | 0.64079 | au |
+| Didymos | NOV24 | 0.64674 | au |
+| Ryugu | JAN25 | 0.66498 | au |
+| Bennu | NOV24 | 0.7039 | au |
+| Bennu | NOV23 | 0.71025 | au |
+| Ryugu | AUG24 | 0.8274 | au |
+| Bennu | JAN24 | 0.85044 | au |
 
 ## Top 5 Closest Iron Asteroids
 **Competency Question:** "What are the 5 closest asteroids that may contain iron?"
@@ -100,7 +152,7 @@ SELECT * WHERE {
 
 
 **SPARQL Query:**
-```
+```sql
 SELECT ?Asteroid ?NumericValue ?Unit
 WHERE {
       ?Asteroid a sol-ont:Asteroid .
