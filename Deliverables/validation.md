@@ -247,20 +247,20 @@ WHERE {
     (?asteroid=<http://soloflife.org/lod/resource/Asteroid.1996_GT> && ?q=<http://soloflife.org/lod/resource/ProfitMeasurementQuantity.1996_GT>))
   }
   
-} ORDERBY ASC(?profit)
+} ORDERBY DESC(?profit)
 ```
 **Results:** 
 |name   |distance |time |profit  |
 |-------|---------|-----|--------|
+|Ryugu  |         |     |3.008E10|
+|Didymos|         |     |1.641E10|
+|Bennu  |         |     |1.85E8  |
 |Didymos|0.61461e0|AUG24|        |
 |Didymos|0.64674e0|NOV24|        |
 |Ryugu  |0.55874e0|NOV24|        |
 |Bennu  |0.42804e0|MAY24|        |
 |Bennu  |0.54087e0|AUG24|        |
 |Bennu  |0.7039e0 |NOV24|        |
-|Bennu  |         |     |1.85E8  |
-|Didymos|         |     |1.641E10|
-|Ryugu  |         |     |3.008E10|
 
 
 ## 6. Ryugu Arriving
