@@ -24,8 +24,8 @@ name_space = "http://soloflife.org/"
 pfs = {
 "solr": Namespace(f"{name_space}lod/resource/"),
 "sol-ont": Namespace(f"{name_space}lod/ontology/"),
-"sol-qk": Namespace(f"{name_space}lod/quantitykinds"),
-"sol-unit": Namespace(f"{name_space}lod/units"),
+"sol-qk": Namespace(f"{name_space}lod/quantitykinds/"),
+"sol-unit": Namespace(f"{name_space}lod/units/"),
 "dbo": Namespace("http://dbpedia.org/ontology/"),
 "time": Namespace("http://www.w3.org/2006/time#"),
 "ssn": Namespace("http://www.w3.org/ns/ssn/"),
@@ -58,7 +58,7 @@ def triple_orbital(graph:Graph, data, index):
     description = f"{ACTIVITY_DESC[index]}"
     qk = CV_QK[index]
     unit = CV_UNITS[index]
-    observation_uri = pfs["solr"][f"{activity}Observation"]
+    observation_uri = pfs["solr"][f"{activity}Observation.{discovery}"]
     observable_property_uri = pfs["solr"][f"OrbitalProperty.{activity}.{discovery}"]
     graph.add( (asteroid_uri, pfs["sol-ont"]["hasObservation"], observation_uri) )
     graph.add( (observation_uri, pfs["sol-ont"][f"hasFeatureOfInterest"], asteroid_uri) )
@@ -100,7 +100,7 @@ def triple_orbital(graph:Graph, data, index):
 
 def triple_economic(graph:Graph, numeric, index):
     activity = f"{ACTIVITIES[index]}"
-    observation_uri = pfs["solr"][f"{activity}Observation"]
+    observation_uri = pfs["solr"][f"{activity}Observation.{discovery}"]
     observable_property_uri = pfs["solr"][f"EconomicProperty.{activity}.{discovery}"]
     graph.add( (observation_uri, pfs["sol-ont"][f"hasFeatureOfInterest"], asteroid_uri) )
     graph.add( (asteroid_uri, pfs["sol-ont"]["hasObservation"], observation_uri) )

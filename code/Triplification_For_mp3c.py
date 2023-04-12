@@ -13,8 +13,8 @@ name_space = "http://soloflife.org/"
 pfs = {
 "solr": Namespace(f"{name_space}lod/resource/"),
 "sol-ont": Namespace(f"{name_space}lod/ontology/"),
-"sol-qk": Namespace(f"{name_space}lod/quantitykinds"),
-"sol-unit": Namespace(f"{name_space}lod/units"),
+"sol-qk": Namespace(f"{name_space}lod/quantitykinds/"),
+"sol-unit": Namespace(f"{name_space}lod/units/"),
 "dbo": Namespace("http://dbpedia.org/ontology/"),
 "time": Namespace("http://www.w3.org/2006/time#"),
 "ssn": Namespace("http://www.w3.org/ns/ssn/"),
