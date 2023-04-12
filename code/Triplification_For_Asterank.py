@@ -54,7 +54,7 @@ ACTIVITY_DESC = ["Asteroid Classification", "Semi-Major Axis","Eccentricity",
 OBSERVABLE_PROPERTIES = ["PhysicalProperty", "OrbitalProperty", "EconomicProperty"]
 
 def triple_orbital(graph:Graph, data, index):
-    activity = f"{ACTIVITIES[index]}Measurement"
+    activity = f"{ACTIVITIES[index]}"
     description = f"{ACTIVITY_DESC[index]}"
     qk = CV_QK[index]
     unit = CV_UNITS[index]
@@ -65,7 +65,7 @@ def triple_orbital(graph:Graph, data, index):
     graph.add( (observation_uri, pfs["sol-ont"]["hasObservableProperty"], observable_property_uri) )
     graph.add( (observable_property_uri, a, pfs["sol-ont"]["ObservableProperty"]) )
 
-    activity_uri = pfs["solr"][f"{activity}Activity.{discovery}"]
+    activity_uri = pfs["solr"][f"{activity}MeasurementActivity.{discovery}"]
     graph.add( (activity_uri, pfs["sol-ont"]["hasDescription"], Literal(f"{description}", datatype=XSD.string)) )
     graph.add( (activity_uri, pfs["sol-ont"]["performedBy"], agent_uri) )
     
@@ -99,7 +99,7 @@ def triple_orbital(graph:Graph, data, index):
     graph.add( (observation_uri, pfs["sol-ont"]["hasResult"], result_uri) )
 
 def triple_economic(graph:Graph, numeric, index):
-    activity = f"{ACTIVITIES[index]}Measurement"
+    activity = f"{ACTIVITIES[index]}"
     observation_uri = pfs["solr"][f"{activity}Observation"]
     observable_property_uri = pfs["solr"][f"EconomicProperty.{activity}.{discovery}"]
     graph.add( (observation_uri, pfs["sol-ont"][f"hasFeatureOfInterest"], asteroid_uri) )
@@ -107,7 +107,7 @@ def triple_economic(graph:Graph, numeric, index):
     graph.add( (observation_uri, pfs["sol-ont"]["hasObservableProperty"], observable_property_uri) )
     graph.add( (observable_property_uri, a, pfs["sol-ont"]["ObservableProperty"]) )
 
-    activity_uri = pfs["solr"][f"{activity}Activity.{discovery}"]
+    activity_uri = pfs["solr"][f"{activity}MeasurementActivity.{discovery}"]
     graph.add( (activity_uri, pfs["sol-ont"]["hasDescription"], Literal(f"{ACTIVITY_DESC[index]}", datatype=XSD.string)) )
     graph.add( (activity_uri, pfs["sol-ont"]["performedBy"], agent_uri) )
     
@@ -151,7 +151,7 @@ def triple_economic(graph:Graph, numeric, index):
     graph.add( (observation_uri, pfs["sol-ont"]["hasResult"], result_uri) )
 
 def triple_type(graph:Graph, type, index=0):
-    activity = f"{ACTIVITIES[index]}Measurement"
+    activity = f"{ACTIVITIES[index]}"
     #  Mint
     classification_uri = pfs["solr"][f"{activity}.{discovery}"]
     graph.add( (classification_uri, a, pfs["sol-ont"]["AsteroidClassification"]) )
