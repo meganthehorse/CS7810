@@ -21,16 +21,16 @@ SELECT * WHERE {
 | Result |
 | Result |
 
-## 1. Top 3 Most Frequent Occurring Mineral
-**Competency Question:** "What are the top 3 most frequently occuring minerals within 1.5 astronomical units from Earth on January 2024?"
+## 1. Top 3 Most Frequently Occurring Minerals
+**Competency Question:** "What are the top 5 most frequently occuring minerals within 1.5 astronomical units from Earth in 2024?"
 
 **Bridged Datasets:** 
 sbdb_jpl_asteroids_with_constraints.csv, Asterank.csv, Summary_of_Asteroid_Taxonomic_Classes.csv
 
 **SPARQL Query:**
 ```sql
-Select (?e as ?Element) (count(?e) as ?CountOfElement)
-Where{
+SELECT (?e as ?Element) (count(?e) as ?CountOfElement)
+WHERE {
   {
     ?asteroid a sol-ont:Asteroid .
     ?asteroid sol-ont:hasCommonName ?name .
@@ -46,22 +46,27 @@ Where{
     ?q sol-ont:hasQuantityValue ?qv .
     ?qv sol-ont:hasNumericValue ?distance .
     FILTER(
-      ?time="JAN24"^^time:MonthOfYear
-   	&& ?distance < 1.5
+      (?time="JAN24"^^time:MonthOfYear ||
+       ?time="MAY24"^^time:MonthOfYear ||
+       ?time="AUG24"^^time:MonthOfYear ||
+        ?time="NOV24"^^time:MonthOfYear ) &&
+      ?distance < 1.5
     )
   } 
 }
 GROUP BY ?e
 ORDERBY DESC (?CountOfElement)
+LIMIT 5
 ```
 
 **Results:**
-| Element | CountOfElement |
-| :----: | :----: |
-| ammonia | 1 |
-| hydrogen | 1 |
-| iron | 1 |
-| nitrogen | 1 |
+|Element |CountOfElement|
+|--------|--------------|
+|iron    |10            |
+|ammonia |7             |
+|hydrogen|7             |
+|nitrogen|7             |
+|cobalt  |6             |
 
 ## Top 5 Most Occurring Asteroid Types
 **Competency Question:** "What are the top 5 most occuring asteroid types within 1.5au from Earth on January 2024?"
