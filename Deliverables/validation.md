@@ -200,8 +200,61 @@ ORDERBY ASC(?distance)
 **Bridged Datasets:** Asteroid_Distances.csv, Asterank_Dataset.csv
 
 ```sql
-
+Select ?name ?distance ?time ?profit
+Where{
+  {
+    ?asteroid a sol-ont:Asteroid ;
+  				sol-ont:hasCommonName ?name.
+    ?asteroid sol-ont:hasDistanceRecord ?record .
+    ?record sol-ont:hasTemporalExtent ?te .
+    ?te sol-ont:recordedAt ?time .
+    ?record sol-ont:hasResult ?r. 
+    ?r sol-ont:hasQuantity ?q.
+    ?q sol-ont:hasQuantityValue ?qv .
+    ?qv sol-ont:hasNumericValue ?distance .
+    
+    FILTER(
+        (?time = "JAN24"^^time:MonthOfYear ||
+        ?time = "MAY24"^^time:MonthOfYear ||
+        ?time = "AUG24"^^time:MonthOfYear ||
+        ?time = "NOV24"^^time:MonthOfYear) &&
+      	?distance < .75	
+    )
+  }
+  union 
+  {
+    ?asteroid a sol-ont:Asteroid ;
+  				sol-ont:hasCommonName ?name.
+  	?asteroid sol-ont:hasObservation ?obs . 
+      ?obs sol-ont:hasResult ?or .
+      ?or sol-ont:hasQuantity ?oq .
+      ?oq sol-ont:hasQuantityKind ?oqk .
+      ?oq sol-ont:hasQuantityValue ?oqv .
+      ?oqv sol-ont:hasNumericValue ?profit .
+  FILTER (
+  	?oqk = "Profit"^^sol-qk:Profit &&
+    (
+    (?asteroid=<http://soloflife.org/lod/resource/Asteroid.1999_JU3> && ?oq=<http://soloflife.org/lod/resource/ProfitMeasurementQuantity.1999_JU3>) ||
+    (?asteroid=<http://soloflife.org/lod/resource/Asteroid.1999_RQ36> && ?oq=<http://soloflife.org/lod/resource/ProfitMeasurementQuantity.1999_RQ36>) ||
+    (?asteroid=<http://soloflife.org/lod/resource/Asteroid.1996_GT> && ?oq=<http://soloflife.org/lod/resource/ProfitMeasurementQuantity.1996_GT>)))
+  }
+  
+} ORDERBY ASC(?profit)
 ```
+**Results:** 
+|name   |distance |time |profit  |
+|-------|---------|-----|--------|
+|Didymos|0.61461e0|AUG24|        |
+|Didymos|0.64674e0|NOV24|        |
+|Ryugu  |0.55874e0|NOV24|        |
+|Bennu  |0.42804e0|MAY24|        |
+|Bennu  |0.54087e0|AUG24|        |
+|Bennu  |0.7039e0 |NOV24|        |
+|Bennu  |         |     |1.85E8  |
+|Didymos|         |     |1.641E10|
+|Ryugu  |         |     |3.008E10|
+
+
 ## Ryugu Arriving
 **Competency Question:** "When will 162173 Ryugu enter within 1au of Earth?"
 
