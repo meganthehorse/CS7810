@@ -175,13 +175,13 @@ WHERE {
 | Ryugu | AUG24 | 0.8274 | au |
 | Bennu | JAN24 | 0.85044 | au |
 
-## Top 5 Closest Iron Asteroids
+## 4. Top 5 Closest Iron Asteroids
 **Competency Question:** "What are the 5 closest asteroids that may contain iron?"
 
 **Bridged Datasets:** sbdb_jpl_asteroids_with_constraints.csv, Asteroid_Distances.csv, Summary_of_Asteroid_Taxonomic_Classes.csv
 ```sql
-Select Distinct ?name
-Where{
+SELECT Distinct ?name
+WHERE {
   ?asteroid a sol-ont:Asteroid;
   	sol-ont:hasCommonName ?name;
     sol-ont:hasAsteroidClassification ?class;
@@ -206,7 +206,7 @@ ORDERBY ASC(?distance)
 | Ryugu |
 | Bennu |
 
-## Top 3 Profitable Asteroids in 2024
+## 5. Top 3 Profitable Asteroids in 2024
 **Competency Question:** "What are the 3 most potentially profitable asteroids within 0.75au of Earth in 2024?"
 
 **Bridged Datasets:** Asteroid_Distances.csv, Asterank_Dataset.csv
@@ -263,7 +263,7 @@ WHERE {
 |Ryugu  |         |     |3.008E10|
 
 
-## Ryugu Arriving
+## 6. Ryugu Arriving
 **Competency Question:** "When will 162173 Ryugu enter within 1au of Earth?"
 
 **Bridged Datasets:** sbdb_jpl_asteroids_with_constraints.csv, Asteroid_Distances.csv
@@ -303,7 +303,7 @@ WHERE {
 
 
 
-## Ryugu Length of Stay
+## 7. Ryugu Length of Stay
 **Competency Question:** "How long will 162173 Ryugu be within 1au of Earth?"
 
 **Bridged Datasets:** sbdb_jpl_asteroids_with_constraints.csv, Asteroid_Distances.csv
@@ -313,7 +313,7 @@ WHERE {
 
 ```
 
-## Ryugu Departing
+## 8. Ryugu Departing
 **Competency Question:** "When will a 162173 Ryugu exit a 1au range from Earth?"
 
 **Bridged Datasets:** sbdb_jpl_asteroids_with_constraints.csv, Asteroid_Distances.csv
@@ -323,7 +323,7 @@ WHERE {
 
 ```
 
-## Ryugu Distance After Range
+## 9. Ryugu Distance After Range
 **Competency Question:** "Based on current trajectory of 162173 Ryugu, how far from Earth will 162173 Ryugu be in 8 months?"
 
 **Bridged Datasets:** Asteroid_Distances.csv
@@ -344,28 +344,27 @@ WHERE {
       ?qv sol-ont:hasNumericValue ?NumericValue .  
   		?qv sol-ont:hasUnit ?Unit .
 } 
-LIMIT 10
 ```
 **Results:**
 | Asteroid | NumericValue | Unit |
 | :----: | :----: | :----: |
-| <http://soloflife.org/lod/resource/Asteroid.1999_JU3> | "2.06539e0"^^<http://www.w3.org/2001/XMLSchema#double> | "au"^^<http://soloflife.org/lod/unitsau> |
+| Ryugu | 2.06539e0 | au |
 
 
-## Planning for Ryugu
+## 10. Planning for Ryugu
 **Competency Question:** "How much time is available until the 162173 Ryugu is within 1au of Earth?"
 
 **Bridged Datasets:** Asteroid_Distances.csv
 
-## Iron Arrival
+## 11. Iron Arrival
 **Competency Question:** "Which asteroid is the first to come within 0.5au of Earth that contains iron?"
 
 **Bridged Datasets:** sbdb_jpl_asteroids_with_constraints.csv, Asteroid_Distances.csv, Summary_of_Asteroid_Taxonomic_Classes.csv
 
 **SPARQL Query:**
 ```sql
-Select ?name ?distance ?time
-Where{
+SELECT ?name ?distance ?time
+WHERE {
   ?asteroid a sol-ont:Asteroid;
   	sol-ont:hasCommonName ?name;
     sol-ont:hasAsteroidClassification ?class;
