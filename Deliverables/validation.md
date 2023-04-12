@@ -200,8 +200,8 @@ ORDERBY ASC(?distance)
 **Bridged Datasets:** Asteroid_Distances.csv, Asterank_Dataset.csv
 
 ```sql
-Select ?name ?distance ?time ?profit
-Where{
+SELECT ?name ?distance ?time ?profit
+WHERE {
   {
     ?asteroid a sol-ont:Asteroid ;
   				sol-ont:hasCommonName ?name.
@@ -212,31 +212,27 @@ Where{
     ?r sol-ont:hasQuantity ?q.
     ?q sol-ont:hasQuantityValue ?qv .
     ?qv sol-ont:hasNumericValue ?distance .
-    
     FILTER(
         (?time = "JAN24"^^time:MonthOfYear ||
         ?time = "MAY24"^^time:MonthOfYear ||
         ?time = "AUG24"^^time:MonthOfYear ||
         ?time = "NOV24"^^time:MonthOfYear) &&
-      	?distance < .75	
-    )
+      	?distance < .75)
   }
   union 
   {
     ?asteroid a sol-ont:Asteroid ;
   				sol-ont:hasCommonName ?name.
   	?asteroid sol-ont:hasObservation ?obs . 
-      ?obs sol-ont:hasResult ?or .
-      ?or sol-ont:hasQuantity ?oq .
-      ?oq sol-ont:hasQuantityKind ?oqk .
-      ?oq sol-ont:hasQuantityValue ?oqv .
-      ?oqv sol-ont:hasNumericValue ?profit .
+    ?obs sol-ont:hasResult ?or .
+    ?or sol-ont:hasQuantity ?oq .
+    ?oq sol-ont:hasQuantityKind "Profit"^^sol-qk:Profit .
+    ?oq sol-ont:hasQuantityValue ?oqv .
+    ?oqv sol-ont:hasNumericValue ?profit .
   FILTER (
-  	?oqk = "Profit"^^sol-qk:Profit &&
-    (
     (?asteroid=<http://soloflife.org/lod/resource/Asteroid.1999_JU3> && ?oq=<http://soloflife.org/lod/resource/ProfitMeasurementQuantity.1999_JU3>) ||
     (?asteroid=<http://soloflife.org/lod/resource/Asteroid.1999_RQ36> && ?oq=<http://soloflife.org/lod/resource/ProfitMeasurementQuantity.1999_RQ36>) ||
-    (?asteroid=<http://soloflife.org/lod/resource/Asteroid.1996_GT> && ?oq=<http://soloflife.org/lod/resource/ProfitMeasurementQuantity.1996_GT>)))
+    (?asteroid=<http://soloflife.org/lod/resource/Asteroid.1996_GT> && ?oq=<http://soloflife.org/lod/resource/ProfitMeasurementQuantity.1996_GT>))
   }
   
 } ORDERBY ASC(?profit)
