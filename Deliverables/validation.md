@@ -21,10 +21,11 @@ SELECT * WHERE {
 | Result |
 | Result |
 
-## Top 3 Most Frequent Occurring Mineral
+## 1. Top 3 Most Frequent Occurring Mineral
 **Competency Question:** "What are the top 3 most frequently occuring minerals within 1.5 astronomical units from Earth on January 2024?"
 
 **Bridged Datasets:** 
+SOL_Asteroid_Names*, Asterank.csv, Summary_of_Asteroid_Taxonomic_Classes.csv
 
 **SPARQL Query:**
 ```sql
@@ -195,7 +196,7 @@ ORDERBY ASC(?distance)
 | Bennu |
 
 ## Top 3 Profitable Asteroids in 2024
-**Competency Question:** "What are the 3 most potentially profitable asteroids within 0.75au of Earth on January 2024?"
+**Competency Question:** "What are the 3 most potentially profitable asteroids within 0.75au of Earth in 2024?"
 
 **Bridged Datasets:** Asteroid_Distances.csv, Asterank_Dataset.csv
 
@@ -396,6 +397,7 @@ ORDERBY ASC(?time)
 ### Remarks
 - `Asterank_Dataset.csv`:  refers to the `JPL_SBDB` dataset with Asterank's evaluation on Asteroid value and profitability
 - `Asteroid_Distances.csv`:  refers to a subset of available Asteroids from `SkyLive`
+- `sbdb_jpl_asteroids_with_constraints.csv`: refers to large set of sbdb_jpl dataset 
 - `Summary_of_Asteroid_Taxonomic_Classes.csv`:  refers to the [Asteroid Spectral Types](https://en.wikipedia.org/wiki/Asteroid_spectral_types)
 - `mp3c_dataset.csv`:  refers to a subset of MP3c's dataset of Asteroids
 - `nasajpl_sbdl.csv`:  refers to a subset of NASA's JPL_SBDB dataset of Asteroids
