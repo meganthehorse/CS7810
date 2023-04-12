@@ -258,8 +258,38 @@ WHERE {
 
 **SPARQL Query:**
 ```sql
-
+SELECT ?distance ?time
+WHERE {
+  {
+    ?asteroid a sol-ont:Asteroid ;
+  				sol-ont:hasCommonName "Ryugu".
+    ?asteroid sol-ont:hasDistanceRecord ?record .
+    ?record sol-ont:hasTemporalExtent ?te .
+    ?te sol-ont:recordedAt ?time .
+    ?record sol-ont:hasResult ?r. 
+    ?r sol-ont:hasQuantity ?q.
+    ?q sol-ont:hasQuantityValue ?qv .
+    ?qv sol-ont:hasNumericValue ?distance .
+    FILTER(
+      ?distance < 1)
+  }}
 ```
+
+**Results:**
+|distance|time     |
+|--------|---------|
+|0.8274e0|AUG24    |
+|0.6127e0|AUG25    |
+|0.3926e0|AUG29    |
+|0.66498e0|JAN25    |
+|0.69894e0|JAN30    |
+|0.44189e0|MAY25    |
+|0.83492e0|MAY29    |
+|0.66023e0|MAY30    |
+|0.55874e0|NOV24    |
+|0.67229e0|NOV29    |
+
+
 
 ## Ryugu Length of Stay
 **Competency Question:** "How long will 162173 Ryugu be within 1au of Earth?"
