@@ -25,7 +25,7 @@ SELECT * WHERE {
 **Competency Question:** "What are the top 3 most frequently occuring minerals within 1.5 astronomical units from Earth on January 2024?"
 
 **Bridged Datasets:** 
-SOL_Asteroid_Names*, Asterank.csv, Summary_of_Asteroid_Taxonomic_Classes.csv
+sbdb_jpl_asteroids_with_constraints.csv, Asterank.csv, Summary_of_Asteroid_Taxonomic_Classes.csv
 
 **SPARQL Query:**
 ```sql
@@ -66,7 +66,7 @@ ORDERBY DESC (?CountOfElement)
 ## Top 5 Most Occurring Asteroid Types
 **Competency Question:** "What are the top 5 most occuring asteroid types within 1.5au from Earth on January 2024?"
 
-**Bridged Datasets:** SOL_Asteroid_Names*, Asterank.csv, Summary_of_Asteroid_Taxonomic_Classes.csv
+**Bridged Datasets:** sbdb_jpl_asteroids_with_constraints.csv, Asterank.csv, Summary_of_Asteroid_Taxonomic_Classes.csv
 
 **SPARQL Query:**
 ```sql
@@ -101,7 +101,7 @@ ORDERBY DESC (?CountOfTypes)
 ## Closest Asteroids In 2 Years Window
 **Competency Question:** "Which is the closest asteroid to Earth in the next 24 months and when does that occur?"
 
-**Bridged Datasets:** SOL_Asteroid_Names*, Asteroid_Distances.csv 
+**Bridged Datasets:** sbdb_jpl_asteroids_with_constraints.csv, Asteroid_Distances.csv 
 
 **SPARQL Query:**
 ```sql
@@ -167,7 +167,7 @@ Where{
 ## Top 5 Closest Iron Asteroids
 **Competency Question:** "What are the 5 closest asteroids that may contain iron?"
 
-**Bridged Datasets:** SOL_Asteroid_Names*, Asteroid_Distances.csv, Summary_of_Asteroid_Taxonomic_Classes.csv
+**Bridged Datasets:** sbdb_jpl_asteroids_with_constraints.csv, Asteroid_Distances.csv, Summary_of_Asteroid_Taxonomic_Classes.csv
 ```sql
 Select Distinct ?name
 Where{
@@ -255,7 +255,7 @@ WHERE {
 ## Ryugu Arriving
 **Competency Question:** "When will 162173 Ryugu enter within 1au of Earth?"
 
-**Bridged Datasets:** SOL_Asteroid_Names*, Asteroid_Distances.csv
+**Bridged Datasets:** sbdb_jpl_asteroids_with_constraints.csv, Asteroid_Distances.csv
 
 **SPARQL Query:**
 ```sql
@@ -295,7 +295,7 @@ WHERE {
 ## Ryugu Length of Stay
 **Competency Question:** "How long will 162173 Ryugu be within 1au of Earth?"
 
-**Bridged Datasets:** SOL_Asteroid_Names*, Asteroid_Distances.csv
+**Bridged Datasets:** sbdb_jpl_asteroids_with_constraints.csv, Asteroid_Distances.csv
 
 **SPARQL Query:**
 ```sql
@@ -305,7 +305,7 @@ WHERE {
 ## Ryugu Departing
 **Competency Question:** "When will a 162173 Ryugu exit a 1au range from Earth?"
 
-**Bridged Datasets:** SOL_Asteroid_Names*, Asteroid_Distances.csv
+**Bridged Datasets:** sbdb_jpl_asteroids_with_constraints.csv, Asteroid_Distances.csv
 
 **SPARQL Query:**
 ```sql
@@ -349,7 +349,7 @@ LIMIT 10
 ## Iron Arrival
 **Competency Question:** "Which asteroid is the first to come within 0.5au of Earth that contains iron?"
 
-**Bridged Datasets:** SOL_Asteroid_Names*, Asteroid_Distances.csv, Summary_of_Asteroid_Taxonomic_Classes.csv
+**Bridged Datasets:** sbdb_jpl_asteroids_with_constraints.csv, Asteroid_Distances.csv, Summary_of_Asteroid_Taxonomic_Classes.csv
 
 **SPARQL Query:**
 ```sql
