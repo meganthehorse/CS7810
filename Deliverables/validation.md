@@ -24,7 +24,7 @@ SELECT * WHERE {
 ## Top 3 Most Frequent Occurring Mineral
 **Competency Question:** "What are the top 3 most frequently occuring minerals within 1.5 astronomical units from Earth on January 2024?"
 
-**Bridged Datasets:** dataset 1, dataset 2, ...
+**Bridged Datasets:** 
 
 **SPARQL Query:**
 ```sql
@@ -65,7 +65,7 @@ ORDERBY DESC (?CountOfElement)
 ## Top 5 Most Occurring Asteroid Types
 **Competency Question:** "What are the top 5 most occuring asteroid types within 1.5au from Earth on January 2024?"
 
-**Bridged Datasets:** dataset 1, dataset 2, ...
+**Bridged Datasets:** SOL_Asteroid_Names*, Asterank.csv, Summary_of_Asteroid_Taxonomic_Classes.csv
 
 **SPARQL Query:**
 ```sql
@@ -166,7 +166,7 @@ Where{
 ## Top 5 Closest Iron Asteroids
 **Competency Question:** "What are the 5 closest asteroids that may contain iron?"
 
-**Bridged Datasets:** Asteroid_Distances.csv, Summary_of_Asteroid_Taxonomic_Classes.csv
+**Bridged Datasets:** SOL_Asteroid_Names*, Asteroid_Distances.csv, Summary_of_Asteroid_Taxonomic_Classes.csv
 ```sql
 Select Distinct ?name
 Where{
@@ -199,20 +199,38 @@ ORDERBY ASC(?distance)
 
 **Bridged Datasets:** Asteroid_Distances.csv, Asterank_Dataset.csv
 
+```sql
+
+```
 ## Ryugu Arriving
 **Competency Question:** "When will 162173 Ryugu enter within 1au of Earth?"
 
-**Bridged Datasets:** Asteroid_Distances.csv
+**Bridged Datasets:** SOL_Asteroid_Names*, Asteroid_Distances.csv
+
+**SPARQL Query:**
+```sql
+
+```
 
 ## Ryugu Length of Stay
 **Competency Question:** "How long will 162173 Ryugu be within 1au of Earth?"
 
-**Bridged Datasets:** Asteroid_Distances.csv
+**Bridged Datasets:** SOL_Asteroid_Names*, Asteroid_Distances.csv
+
+**SPARQL Query:**
+```sql
+
+```
 
 ## Ryugu Departing
 **Competency Question:** "When will a 162173 Ryugu exit a 1au range from Earth?"
 
-**Bridged Datasets:** Asteroid_Distances.csv
+**Bridged Datasets:** SOL_Asteroid_Names*, Asteroid_Distances.csv
+
+**SPARQL Query:**
+```sql
+
+```
 
 ## Ryugu Distance After Range
 **Competency Question:** "Based on current trajectory of 162173 Ryugu, how far from Earth will 162173 Ryugu be in 8 months?"
@@ -251,7 +269,50 @@ LIMIT 10
 ## Iron Arrival
 **Competency Question:** "Which asteroid is the first to come within 0.5au of Earth that contains iron?"
 
-**Bridged Datasets:** Asteroid_Distances.csv, Summary_of_Asteroid_Taxonomic_Classes.csv
+**Bridged Datasets:** SOL_Asteroid_Names*, Asteroid_Distances.csv, Summary_of_Asteroid_Taxonomic_Classes.csv
+
+**SPARQL Query:**
+```sql
+Select ?name ?distance ?time
+Where{
+  ?asteroid a sol-ont:Asteroid;
+  	sol-ont:hasCommonName ?name;
+    sol-ont:hasAsteroidClassification ?class;
+  	sol-ont:hasDistanceRecord ?record.
+  ?record sol-ont:hasResult ?r. 
+  ?record sol-ont:hasTemporalExtent ?te .
+  ?te sol-ont:recordedAt ?time .
+  ?r sol-ont:hasQuantity ?q.
+  ?q sol-ont:hasQuantityValue ?qv .
+  ?qv sol-ont:hasNumericValue ?distance .
+  ?class a sol-ont:AsteroidClassification;
+    sol-ont:hasSMASSIIClass ?smassii.
+  ?smassii sol-ont:hasElementalComposition ?ec.
+  ?ec sol-ont:hasElement ?e.
+  FILTER(
+    ?e = "iron"^^sol-ont:ChemicalElement
+  &&?distance < 1
+  )
+}
+ORDERBY ASC(?time)
+```
+**Results:**
+| name    | distance | time  |
+|---------|----------|-------|
+| Bennu   | 0.5301   | AUG23 |
+| Didymos | 0.61461  | AUG24 |
+| Ryugu   | 0.8274   | AUG24 |
+| Bennu   | 0.54087  | AUG24 |
+| Ryugu   | 0.6127   | AUG25 |
+| Ryugu   | 0.3926   | AUG29 |
+| Bennu   | 0.66601  | AUG29 |
+| Bennu   | 0.43106  | AUG30 |
+| Didymos | 0.27677  | JAN23 |
+| Bennu   | 0.85044  | JAN24 |
+| Didymos | 0.56544  | JAN25 |
+| Ryugu   | 0.66498  | JAN25 |
+| Bennu   | 0.52983  | JAN25 |
+| Ryugu   | 0.69894  | JAN30 |
 
 ### Remarks
 - `Asterank_Dataset.csv`:  refers to the `JPL_SBDB` dataset with Asterank's evaluation on Asteroid value and profitability
