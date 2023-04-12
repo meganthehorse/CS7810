@@ -21,7 +21,7 @@ SELECT * WHERE {
 | Result |
 | Result |
 
-## 1. Top 3 Most Frequently Occurring Minerals
+## 1. Top 5 Most Frequently Occurring Minerals
 **Competency Question:** "What are the top 5 most frequently occuring minerals within 1.5 astronomical units from Earth in 2024?"
 
 **Bridged Datasets:** 
@@ -68,18 +68,18 @@ LIMIT 5
 |nitrogen|7             |
 |cobalt  |6             |
 
-## Top 5 Most Occurring Asteroid Types
-**Competency Question:** "What are the top 5 most occuring asteroid types within 1.5au from Earth on January 2024?"
+## 2. Top 3 Most Occurring Asteroid Types
+**Competency Question:** "What are the top 3 most occuring asteroid types within 1.5au from Earth in 2025?"
 
 **Bridged Datasets:** sbdb_jpl_asteroids_with_constraints.csv, Asterank.csv, Summary_of_Asteroid_Taxonomic_Classes.csv
 
 **SPARQL Query:**
 ```sql
-Select (?class as ?AsteroidType) (count(?class) as ?CountOfTypes)
-Where{
+SELECT (?class as ?AsteroidType) (count(?class) as ?CountOfTypes)
+WHERE {
   {
     ?asteroid a sol-ont:Asteroid ;
-  				sol-ont:hasCommonName ?name.
+		sol-ont:hasCommonName ?name.
     ?asteroid sol-ont:hasAsteroidClassification ?type .
     ?type sol-ont:hasSMASSIIClass ?class.
     ?asteroid sol-ont:hasDistanceRecord ?record .
@@ -90,18 +90,24 @@ Where{
     ?q sol-ont:hasQuantityValue ?qv .
     ?qv sol-ont:hasNumericValue ?distance .
     FILTER(
-      ?time="JAN24"^^time:MonthOfYear
-   	&& ?distance < 1.5
+      (?time="JAN25"^^time:MonthOfYear ||
+       ?time="MAY25"^^time:MonthOfYear ||
+       ?time="AUG25"^^time:MonthOfYear ||
+        ?time="NOV25"^^time:MonthOfYear ) &&
+      ?distance < 1.5
     )
   } 
 }
 GROUP BY ?class
 ORDERBY DESC (?CountOfTypes)
+LIMIT 3
 ```
 **Results:**
-| AsteroidType | CountofTypes |
-| :----: | :----: |
-| B | 1 |
+|AsteroidType|CountOfTypes|
+|------------|------------|
+|< http://soloflife.org/lod/resource/Cg >|4           |
+|< http://soloflife.org/lod/resource/B >|3           |
+|< http://soloflife.org/lod/resource/Xk >|1           |
 
 ## Closest Asteroids In 2 Years Window
 **Competency Question:** "Which is the closest asteroid to Earth in the next 24 months and when does that occur?"
