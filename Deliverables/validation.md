@@ -219,20 +219,20 @@ WHERE {
         ?time = "NOV24"^^time:MonthOfYear) &&
       	?distance < .75)
   }
-  union 
+  UNION 
   {
     ?asteroid a sol-ont:Asteroid ;
   				sol-ont:hasCommonName ?name.
   	?asteroid sol-ont:hasObservation ?obs . 
-    ?obs sol-ont:hasResult ?or .
-    ?or sol-ont:hasQuantity ?oq .
-    ?oq sol-ont:hasQuantityKind "Profit"^^sol-qk:Profit .
-    ?oq sol-ont:hasQuantityValue ?oqv .
-    ?oqv sol-ont:hasNumericValue ?profit .
+    ?obs sol-ont:hasResult ?r .
+    ?r sol-ont:hasQuantity ?q .
+    ?q sol-ont:hasQuantityKind "Profit"^^sol-qk:Profit .
+    ?q sol-ont:hasQuantityValue ?qv .
+    ?qv sol-ont:hasNumericValue ?profit .
   FILTER (
-    (?asteroid=<http://soloflife.org/lod/resource/Asteroid.1999_JU3> && ?oq=<http://soloflife.org/lod/resource/ProfitMeasurementQuantity.1999_JU3>) ||
-    (?asteroid=<http://soloflife.org/lod/resource/Asteroid.1999_RQ36> && ?oq=<http://soloflife.org/lod/resource/ProfitMeasurementQuantity.1999_RQ36>) ||
-    (?asteroid=<http://soloflife.org/lod/resource/Asteroid.1996_GT> && ?oq=<http://soloflife.org/lod/resource/ProfitMeasurementQuantity.1996_GT>))
+    (?asteroid=<http://soloflife.org/lod/resource/Asteroid.1999_JU3> && ?q=<http://soloflife.org/lod/resource/ProfitMeasurementQuantity.1999_JU3>) ||
+    (?asteroid=<http://soloflife.org/lod/resource/Asteroid.1999_RQ36> && ?q=<http://soloflife.org/lod/resource/ProfitMeasurementQuantity.1999_RQ36>) ||
+    (?asteroid=<http://soloflife.org/lod/resource/Asteroid.1996_GT> && ?q=<http://soloflife.org/lod/resource/ProfitMeasurementQuantity.1996_GT>))
   }
   
 } ORDERBY ASC(?profit)
