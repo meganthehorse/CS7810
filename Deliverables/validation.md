@@ -109,26 +109,26 @@ LIMIT 3
 |< http://soloflife.org/lod/resource/B >|3           |
 |< http://soloflife.org/lod/resource/Xk >|1           |
 
-## Closest Asteroids In 2 Years Window
+## 3. Closest Asteroids In 2 Years Window
 **Competency Question:** "Which is the closest asteroid to Earth in the next 24 months and when does that occur?"
 
 **Bridged Datasets:** sbdb_jpl_asteroids_with_constraints.csv, Asteroid_Distances.csv 
 
 **SPARQL Query:**
 ```sql
-Select ?name ?time ?distance ?unit
-Where{
+SELECT ?name ?time ?distance ?unit
+WHERE {
   {
-    Select *
-    Where {
+    SELECT *
+    WHERE {
     ?asteroid a sol-ont:Asteroid .
     ?asteroid sol-ont:hasCommonName ?name .
     ?asteroid sol-ont:hasDistanceRecord ?record
     }
   } . 
   {
-    Select *
-    Where {
+    SELECT *
+    WHERE {
       ?record a sol-ont:DistanceRecord .
       ?record sol-ont:hasTemporalExtent ?te .
       ?te sol-ont:recordedAt ?time .
