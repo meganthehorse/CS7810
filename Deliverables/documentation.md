@@ -187,7 +187,7 @@ Every PhysicalProperty is an Observable Property.
 **Source Data:** Asterank, MP3C, NASA_JPL
 
 #### Description
-A Result pattern is used to describe the quantifiable values in the properties of an Asteroid. In our case, the Result notion has a Quantity associated with it, which is a pattern in MODL. A Quantity consists of a Quantity Kind, which is the description indicating the Result's usage, along with the quantifiable value and unit of measurement. Similarly to how controlled vocabularies are used in the Enslaved Ontology, we implement them as a means of scalability of our ontology. They are considered to be separate from the actual ontology yet complement it. A Quantity Kind as controlled vocabulary can consist of, but is not limited to mass, distance from Earth, and velocity. A Unit as controlled vocabulary can consist of, but is not limited to km/s, kg, and AU. 
+A Result pattern is used to describe the quantifiable values in the properties of an Asteroid. In our case, the Result notion has a Quantity associated with it, which is a pattern in MODL. A Quantity consists of a Quantity Kind, which is the description indicating the Result's usage, along with the quantifiable value and unit of measurement. Similarly to how controlled vocabularies are used in the Enslaved Ontology, we implement them as a means of scalability of our ontology. They are considered to be separate from the actual ontology yet complement it. A Quantity Kind as controlled vocabulary can consist of, but is not limited to mass, distance from Earth, and velocity. A Unit as controlled vocabulary can consist of, but is not limited to km/s, kg, and AU.  
 ![Result](../schema-diagrams/result/result.jpg)
 
 #### Axioms
@@ -211,7 +211,7 @@ Every QuantityValue has exactly 1 Numeric Value.
 The scoped range of hasUnit, scoped by QuantityValue, is Unit.
 10. *  `QuantityValue SubClassOf hasUnit exactly 1 Unit` <br />
 Every QuantityValue has exactly 1 Unit.
-11. *  `Result SubClassOf  inverse (hasResult) exactly 1 (Observation or DistanceRecord)`
+11. *  `Result SubClassOf  inverse (hasResult) exactly 1 (Observation or DistanceRecord)` <br />
 Every Result belongs to exactly 1 Observation or DistanceRecord.
 
 #### Remarks
