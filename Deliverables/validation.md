@@ -29,6 +29,16 @@ sbdb_jpl_asteroids_with_constraints.csv, Asterank.csv, Summary_of_Asteroid_Taxon
 
 **SPARQL Query:**
 ```sql
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX dbo: <http://dbpedia.org/ontology/>
+PREFIX so: <http://schema.org/>
+PREFIX time: <http://www.w3.org/2006/time#>
+PREFIX sol-ont: <http://soloflife.org/lod/ontology/>
+PREFIX solr: <http://soloflife.org/lod/resource/>
+
 SELECT (?e as ?Element) (count(?e) as ?CountOfElement)
 WHERE {
   {
@@ -46,11 +56,9 @@ WHERE {
     ?q sol-ont:hasQuantityValue ?qv .
     ?qv sol-ont:hasNumericValue ?distance .
     FILTER(
-      (?time="JAN24"^^time:MonthOfYear ||
-       ?time="MAY24"^^time:MonthOfYear ||
-       ?time="AUG24"^^time:MonthOfYear ||
-        ?time="NOV24"^^time:MonthOfYear ) &&
-      ?distance < 1.5
+      ?distance < 1.5 &&
+      (?time >= "2024-01"^^xsd:gYearMonth &&
+      ?time < "2025-01"^^xsd:gYearMonth)
     )
   } 
 }
@@ -90,10 +98,8 @@ WHERE {
     ?q sol-ont:hasQuantityValue ?qv .
     ?qv sol-ont:hasNumericValue ?distance .
     FILTER(
-      (?time="JAN25"^^time:MonthOfYear ||
-       ?time="MAY25"^^time:MonthOfYear ||
-       ?time="AUG25"^^time:MonthOfYear ||
-        ?time="NOV25"^^time:MonthOfYear ) &&
+      (?time >= "2025-01"^^xsd:gYearMonth &&
+      ?time < "2026-01"^^xsd:gYearMonth) &&
       ?distance < 1.5
     )
   } 
@@ -139,16 +145,8 @@ WHERE {
          sol-ont:hasNumericValue ?distance;
          sol-ont:hasUnit ?unit .
       FILTER( 
-        ?time = "JAN23"^^time:MonthOfYear ||
-        ?time = "MAY23"^^time:MonthOfYear ||
-        ?time = "AUG23"^^time:MonthOfYear ||
-        ?time = "NOV23"^^time:MonthOfYear ||
-        ?time = "JAN24"^^time:MonthOfYear ||
-        ?time = "MAY24"^^time:MonthOfYear ||
-        ?time = "AUG24"^^time:MonthOfYear ||
-        ?time = "NOV24"^^time:MonthOfYear ||
-        ?time = "JAN25"^^time:MonthOfYear ||
-        ?time = "MAY25"^^time:MonthOfYear
+        ?time >= "2023-01"^^xsd:gYearMonth &&
+        ?time <= "2025-05"^^xsd:gYearMonth
       )
     }
     ORDERBY ASC(?distance)
@@ -225,11 +223,10 @@ WHERE {
     ?q sol-ont:hasQuantityValue ?qv .
     ?qv sol-ont:hasNumericValue ?distance .
     FILTER(
-        (?time = "JAN24"^^time:MonthOfYear ||
-        ?time = "MAY24"^^time:MonthOfYear ||
-        ?time = "AUG24"^^time:MonthOfYear ||
-        ?time = "NOV24"^^time:MonthOfYear) &&
-      	?distance < .75)
+        (?time >= "2024-01"^^xsd:gYearMonth &&
+        ?time <= "2024-11"^^xsd:gYearMonth) &&
+        ?distance < .75
+    )
   }
   UNION 
   {
@@ -387,22 +384,23 @@ WHERE {
 ORDERBY ASC(?time)
 ```
 **Results:**
-| name    | distance | time  |
-|---------|----------|-------|
-| Bennu   | 0.5301   | AUG23 |
-| Didymos | 0.61461  | AUG24 |
-| Ryugu   | 0.8274   | AUG24 |
-| Bennu   | 0.54087  | AUG24 |
-| Ryugu   | 0.6127   | AUG25 |
-| Ryugu   | 0.3926   | AUG29 |
-| Bennu   | 0.66601  | AUG29 |
-| Bennu   | 0.43106  | AUG30 |
-| Didymos | 0.27677  | JAN23 |
-| Bennu   | 0.85044  | JAN24 |
-| Didymos | 0.56544  | JAN25 |
-| Ryugu   | 0.66498  | JAN25 |
-| Bennu   | 0.52983  | JAN25 |
-| Ryugu   | 0.69894  | JAN30 |
+| name    | distance | time    |
+|---------|----------|---------|
+| Didymos | 0.27677  | 2023-01 |
+| Bennu   | 0.5301   | 2023-08 |
+| Bennu   | 0.71025  | 2023-11 |
+| Bennu   | 0.85044  | 2024-01 |
+| Bennu   | 0.42804  | 2024-05 |
+| Didymos | 0.61461  | 2024-08 |
+| Ryugu   | 0.8274   | 2024-08 |
+| Bennu   | 0.54087  | 2024-08 |
+| Didymos | 0.64674  | 2024-11 |
+| Ryugu   | 0.55874  | 2024-11 |
+| Bennu   | 0.7039   | 2024-11 |
+| Didymos | 0.56544  | 2025-01 |
+| Ryugu   | 0.66498  | 2025-01 |
+| Bennu   | 0.52983  | 2025-01 |
+| Ryugu   | 0.44189  | 2025-05 |
 
 ### Remarks
 - `Asterank_Dataset.csv`:  refers to the `JPL_SBDB` dataset with Asterank's evaluation on Asteroid value and profitability
