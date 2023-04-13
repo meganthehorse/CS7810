@@ -125,7 +125,7 @@ Every TemporalExtent has exactly 1 xsd:date.
 
 ### EntityWithProvenance
 **Source Pattern:** MODL's Entity With Provenance  
-**Source Data:** Asterank, MP3C, NASA_JPL  
+**Source Data:** Asterank, MP3C, NASA_JPL, Skylive
 
 #### Description
 Attributes of asteroids can fit into the Entity With Provenance pattern provided by MODL. Most of our data is gathered by experts in astronomy, such as NASA and MP3C. Using this pattern allows for our end users to trace our data back to a source and the agent or organization that performed the data collection.  
