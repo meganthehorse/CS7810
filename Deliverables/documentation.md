@@ -12,12 +12,12 @@ Our focus is on asteroids that can be found within approximately 2AU of Earth be
 Open source data provided by researchers and institutions such as Neil deGrasse Tyson, NASA, and Space Force, can be re-purposed into a knowledge graph to provide insight into excavation missions. With all of the data gathered together, the knowledge graph helps to filter the information into a readable state. Data that includes celestial body mineralogy predicted from infrared readings combined with data of the body’s trajectory path could be used together for humans to plan space missions in order to send out spacecrafts for mining expeditions. We also hope to serve humans of Planet Earth against celestial bodies that may be on a course for impact into the planet.  
 
 ### Competency Questions
-1. What are the top 3 most frequently occuring minerals within 1.5 astronomical units from Earth on January 2024?
-2. What are the top 5 most occuring asteroid types within 1.5au from Earth on January 2024? 
+1. What are the top 5 most frequently occuring minerals within 1.5 astronomical units from Earth in 2024?
+2. What are the top 3 most occuring asteroid types within 1.5au from Earth in 2025?
 3. Which is the closest asteroid to Earth in the next 24 months and when does that occur?
 4. What are the 5 closest asteroids that may contain iron?
-5. What are the 3 most potentially profitable asteroids within 0.75au of Earth on January 2024?  
-6. When will 162173 Ryugu enter within 1au of Earth?
+5. What are the 3 most potentially profitable asteroids within 0.75au of Earth in 2024?  
+6. When will 162173 Ryugu be within 1au of Earth?
 7. How long will 162173 Ryugu be within 1au of Earth?
 8. Based on current trajectory of 162173 Ryugu, how far from Earth will 162173 Ryugu be in 8 months?
 9. How much time is available until the 162173 Ryugu is within 1au of Earth?
