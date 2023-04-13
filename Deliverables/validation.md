@@ -209,55 +209,39 @@ ORDERBY ASC(?distance)
 **Bridged Datasets:** Asteroid_Distances.csv, Asterank_Dataset.csv
 
 ```sql
-SELECT ?name ?distance ?time ?profit
-WHERE {
+SELECT distinct ?name 
+WHERE{
   {
-    ?asteroid a sol-ont:Asteroid ;
-  				sol-ont:hasCommonName ?name.
-    ?asteroid sol-ont:hasDistanceRecord ?record .
-    ?record sol-ont:hasTemporalExtent ?te .
-    ?te sol-ont:recordedAt ?time .
-    ?record sol-ont:hasResult ?r. 
-    ?r sol-ont:hasQuantity ?q.
-    ?q sol-ont:hasQuantityValue ?qv .
-    ?qv sol-ont:hasNumericValue ?distance .
-    FILTER(
-        (?time >= "2024-01"^^xsd:gYearMonth &&
-        ?time <= "2024-11"^^xsd:gYearMonth) &&
-        ?distance < .75
-    )
-  }
-  UNION 
-  {
-    ?asteroid a sol-ont:Asteroid ;
-  				sol-ont:hasCommonName ?name.
-  	?asteroid sol-ont:hasObservation ?obs . 
-    ?obs sol-ont:hasResult ?r .
-    ?r sol-ont:hasQuantity ?q .
-    ?q sol-ont:hasQuantityKind "Profit"^^sol-qk:Profit .
+	?asteroid sol-ont:hasCommonName ?name ;
+    	sol-ont:hasDistanceRecord ?record ;
+    	sol-ont:hasObservation ?obs .
+    ?obs sol-ont:generatedBy ?activity .
+    ?obs sol-ont:hasResult ?result .
+    ?result sol-ont:hasQuantity ?q .
     ?q sol-ont:hasQuantityValue ?qv .
     ?qv sol-ont:hasNumericValue ?profit .
-  FILTER (
-    (?asteroid=<http://soloflife.org/lod/resource/Asteroid.1999_JU3> && ?q=<http://soloflife.org/lod/resource/ProfitMeasurementQuantity.1999_JU3>) ||
-    (?asteroid=<http://soloflife.org/lod/resource/Asteroid.1999_RQ36> && ?q=<http://soloflife.org/lod/resource/ProfitMeasurementQuantity.1999_RQ36>) ||
-    (?asteroid=<http://soloflife.org/lod/resource/Asteroid.1996_GT> && ?q=<http://soloflife.org/lod/resource/ProfitMeasurementQuantity.1996_GT>))
-  }
-  
-} ORDERBY DESC(?profit)
+    ?record sol-ont:hasResult ?recordResult .
+    ?record sol-ont:hasTemporalExtent ?te .
+    ?te sol-ont:recordedAt ?time .
+  	?recordResult sol-ont:hasQuantity ?recQ .
+    ?recQ sol-ont:hasQuantityValue ?recQV .
+    ?recQV sol-ont:hasNumericValue ?distance .
+  }  
+FILTER(
+    ?activity=<http://soloflife.org/lod/resource/ProfitMeasurementActivity> &&
+    (?time >= "2024-01"^^xsd:gYearMonth &&
+      ?time <= "2024-11"^^xsd:gYearMonth)&&
+    ?distance < 0.75
+)
+}
+ORDERBY DESC(?profit)
 ```
 **Results:** 
-|name   |distance |time |profit  |
-|-------|---------|-----|--------|
-|Ryugu  |         |     |3.008E10|
-|Didymos|         |     |1.641E10|
-|Bennu  |         |     |1.85E8  |
-|Didymos|0.61461e0|AUG24|        |
-|Didymos|0.64674e0|NOV24|        |
-|Ryugu  |0.55874e0|NOV24|        |
-|Bennu  |0.42804e0|MAY24|        |
-|Bennu  |0.54087e0|AUG24|        |
-|Bennu  |0.7039e0 |NOV24|        |
-
+|name   |
+|-------|
+|Ryugu  |
+|Didymos|
+|Bennu  |
 
 ## 6. Ryugu Arriving
 **Competency Question:** "When will 162173 Ryugu enter within 1au of Earth?"
@@ -284,20 +268,18 @@ WHERE {
 ```
 
 **Results:**
-|distance|time     |
-|--------|---------|
-|0.8274e0|AUG24    |
-|0.6127e0|AUG25    |
-|0.3926e0|AUG29    |
-|0.66498e0|JAN25    |
-|0.69894e0|JAN30    |
-|0.44189e0|MAY25    |
-|0.83492e0|MAY29    |
-|0.66023e0|MAY30    |
-|0.55874e0|NOV24    |
-|0.67229e0|NOV29    |
-
-
+| distance | time    |
+|----------|---------|
+| 0.8274   | 2024-08 |
+| 0.55874  | 2024-11 |
+| 0.66498  | 2025-01 |
+| 0.44189  | 2025-05 |
+| 0.6127   | 2025-08 |
+| 0.83492  | 2029-05 |
+| 0.3926   | 2029-08 |
+| 0.67229  | 2029-11 |
+| 0.69894  | 2030-01 |
+| 0.66023  | 2030-05 |
 
 ## 7. Ryugu Length of Stay
 **Competency Question:** "How long will 162173 Ryugu be within 1au of Earth?"

@@ -96,7 +96,7 @@ for line in lines[1:]:
         graph.add( (observation_uri, pfs["sol-ont"]["hasObservableProperty"], observable_property_uri) )
         graph.add( (observable_property_uri, a, pfs["sol-ont"]["ObservableProperty"]) )
 
-        activity_uri = pfs["solr"][f"{act_id}.{Asteroid_ID}"]
+        activity_uri = pfs["solr"][f"{act_id}"]
         graph.add( (activity_uri, pfs["sol-ont"]["hasDescription"], Literal(f"{reference_descriptions[index]}", datatype=XSD.string)) )
         graph.add( (activity_uri, pfs["sol-ont"]["performedBy"], agent_uri) )
 

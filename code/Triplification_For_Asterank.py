@@ -65,7 +65,7 @@ def triple_orbital(graph:Graph, data, index):
     graph.add( (observation_uri, pfs["sol-ont"]["hasObservableProperty"], observable_property_uri) )
     graph.add( (observable_property_uri, a, pfs["sol-ont"]["ObservableProperty"]) )
 
-    activity_uri = pfs["solr"][f"{activity}MeasurementActivity.{discovery}"]
+    activity_uri = pfs["solr"][f"{activity}MeasurementActivity"]
     graph.add( (activity_uri, pfs["sol-ont"]["hasDescription"], Literal(f"{description}", datatype=XSD.string)) )
     graph.add( (activity_uri, pfs["sol-ont"]["performedBy"], agent_uri) )
     
@@ -107,7 +107,7 @@ def triple_economic(graph:Graph, numeric, index):
     graph.add( (observation_uri, pfs["sol-ont"]["hasObservableProperty"], observable_property_uri) )
     graph.add( (observable_property_uri, a, pfs["sol-ont"]["ObservableProperty"]) )
 
-    activity_uri = pfs["solr"][f"{activity}MeasurementActivity.{discovery}"]
+    activity_uri = pfs["solr"][f"{activity}MeasurementActivity"]
     graph.add( (activity_uri, pfs["sol-ont"]["hasDescription"], Literal(f"{ACTIVITY_DESC[index]}", datatype=XSD.string)) )
     graph.add( (activity_uri, pfs["sol-ont"]["performedBy"], agent_uri) )
     
@@ -164,7 +164,7 @@ def triple_type(graph:Graph, type, index=0):
     graph.add( (classification_uri, pfs["sol-ont"]["hasSMASSIIClass"], smassii_uri) )
     graph.add( (smassii_uri, pfs["sol-ont"]["hasLabel"], Literal(type, datatype=RDFS.label)) )
     ##  TODO:  Confirm ElementalComposition link from Triplification of Taxonomy
-    activity_uri = pfs["solr"][f"{activity}Activity.{discovery}"]
+    activity_uri = pfs["solr"][f"{activity}Activity"]
     graph.add( (activity_uri, pfs["sol-ont"]["hasDescription"], Literal(f"{ACTIVITY_DESC[index]}", datatype=XSD.string)) )
     graph.add( (activity_uri, pfs["sol-ont"]["performedBy"], agent_uri) )
 
