@@ -34,7 +34,7 @@ Open source data provided by researchers and institutions such as Neil deGrasse 
 <!-- There should be one module section per module (essentially per key-notion) -->
 
 ### Asteroid
-**Source Pattern:** Feature of Interest  
+**Source Pattern:** SOSA Feature of Interest  
 **Source Data:** Asterank, MP3C, NASA_JPL  
 
 #### Description
