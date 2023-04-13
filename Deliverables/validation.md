@@ -154,24 +154,23 @@ WHERE {
 }
 ```
 **Results:**
-| name | time | distance | unit | 
-| :----: | :----: | :----: | :----: |
-| Didymos | JAN23 | 0.27677 | au |
-| Bennu | MAY24 | 0.42804 | au |
-| Ryugu | MAY25 | 0.44189 | au |
-| Bennu | JAN25 | 0.52983 | au |
-| Bennu | AUG23 | 0.5301 | au |
-| Bennu | AUG24 | 0.54087 | au |
-| Ryugu | NOV24 | 0.55874 | au |
-| Didymos | JAN25 | 0.56544 | au |
-| Didymos | AUG24 | 0.61461 | au |
-| Bennu | MAY25 | 0.64079 | au |
-| Didymos | NOV24 | 0.64674 | au |
-| Ryugu | JAN25 | 0.66498 | au |
-| Bennu | NOV24 | 0.7039 | au |
-| Bennu | NOV23 | 0.71025 | au |
-| Ryugu | AUG24 | 0.8274 | au |
-| Bennu | JAN24 | 0.85044 | au |
+| name    | time    | distance | unit |
+|---------|---------|----------|------|
+| Didymos | 2023-01 | 0.27677  | au   |
+| Bennu   | 2024-05 | 0.42804  | au   |
+| Ryugu   | 2025-05 | 0.44189  | au   |
+| Bennu   | 2025-01 | 0.52983  | au   |
+| Bennu   | 2023-08 | 0.5301   | au   |
+| Bennu   | 2024-08 | 0.54087  | au   |
+| Ryugu   | 2024-11 | 0.55874  | au   |
+| Didymos | 2025-01 | 0.56544  | au   |
+| Didymos | 2024-08 | 0.61461  | au   |
+| Bennu   | 2025-05 | 0.64079  | au   |
+| Didymos | 2024-11 | 0.64674  | au   |
+| Ryugu   | 2025-01 | 0.66498  | au   |
+| Bennu   | 2024-11 | 0.7039   | au   |
+| Bennu   | 2023-11 | 0.71025  | au   |
+| Ryugu   | 0.44189 | 2025-05  |      |
 
 ## 4. Top 5 Closest Iron Asteroids
 **Competency Question:** "What are the 5 closest asteroids that may contain iron?"
@@ -334,7 +333,7 @@ WHERE {
       ?Asteroid sol-ont:hasCommonName "Ryugu" .   
       ?Asteroid sol-ont:hasDistanceRecord ?d .
       ?d sol-ont:hasTemporalExtent ?time .
-      ?time sol-ont:recordedAt "JAN24"^^time:MonthOfYear .
+      ?time sol-ont:recordedAt "2024-01"^^time:MonthOfYear .
       ?d sol-ont:hasResult ?r .
       ?r sol-ont:hasQuantity ?q .
       ?q sol-ont:hasQuantityValue ?qv .
