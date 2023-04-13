@@ -222,7 +222,7 @@ ORDERBY DESC(?profit)
 |Bennu  |
 
 ## 6. Ryugu Arriving
-**Competency Question:** "When will 162173 Ryugu will be within 1au of Earth?"
+**Competency Question:** "When will 162173 Ryugu be within 1au of Earth?"
 
 **Bridged Datasets:** sbdb_jpl_asteroids_with_constraints.csv, Asteroid_Distances.csv
 
