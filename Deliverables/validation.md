@@ -318,17 +318,7 @@ WHERE {
 |-----------|---------|------------------|
 | 2024-08   | 2025-11 | P457DT0H0M0.000S |
 
-## 8. Ryugu Departing
-**Competency Question:** "When will a 162173 Ryugu exit a 1au range from Earth?"
-
-**Bridged Datasets:** sbdb_jpl_asteroids_with_constraints.csv, Asteroid_Distances.csv
-
-**SPARQL Query:**
-```sql
-
-```
-
-## 9. Ryugu Distance After Range
+## 8. Ryugu Distance After Range
 **Competency Question:** "Based on current trajectory of 162173 Ryugu, how far from Earth will 162173 Ryugu be in 8 months?"
 
 **Bridged Datasets:** Asteroid_Distances.csv
@@ -356,7 +346,7 @@ WHERE {
 | Ryugu | 2.06539e0 | au |
 
 
-## 10. Planning for Ryugu
+## 9. Planning for Ryugu
 **Competency Question:** "How much time is available until the 162173 Ryugu is within 1au of Earth?"
 
 **Bridged Datasets:** Asteroid_Distances.csv
@@ -413,7 +403,7 @@ WHERE {
 |-----------|-----------|------------|-----------|-------------------|
 | 2023-01   | 2.38984e0 | 2024-08    | 0.8274e0  | P577DT23H0M0.000S |
 
-## 11. Iron Arrival
+## 10. Iron Arrival
 **Competency Question:** "Which asteroid is the first to come within 0.5au of Earth that contains iron?"
 
 **Bridged Datasets:** sbdb_jpl_asteroids_with_constraints.csv, Asteroid_Distances.csv, Summary_of_Asteroid_Taxonomic_Classes.csv

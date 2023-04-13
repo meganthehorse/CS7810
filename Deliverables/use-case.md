@@ -15,10 +15,9 @@ Open source data provided by researchers and institutions such as Neil deGrasse 
 5. What are the 3 most potentially profitable asteroids within 0.75au of Earth in 2024?  
 6. When will 162173 Ryugu enter within 1au of Earth?
 7. How long will 162173 Ryugu be within 1au of Earth?
-8. When will a 162173 Ryugu exit a 1au range from Earth?
-9. Based on current trajectory of 162173 Ryugu, how far from Earth will 162173 Ryugu be in 8 months?
-10. How much time is available until the 162173 Ryugu is within 1au of Earth?
-11. Which asteroid is the first to come within 0.5au of Earth that contains iron?
+8. Based on current trajectory of 162173 Ryugu, how far from Earth will 162173 Ryugu be in 8 months?
+9. How much time is available until the 162173 Ryugu is within 1au of Earth?
+10. Which asteroid is the first to come within 0.5au of Earth that contains iron?
 
 ~~8. What is the estimated travel time to 162173 Ryugu assuming a travel speed of 26,000kph?~~
 
