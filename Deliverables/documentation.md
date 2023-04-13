@@ -24,11 +24,21 @@ Open source data provided by researchers and institutions such as Neil deGrasse 
 10. Which asteroid is the first to come within 0.5au of Earth that contains iron?
 
 ### Integrated Datasets
-1. Asterank: https://www.asterank.com/
-2. NASA Small Body Database: https://ssd.jpl.nasa.gov/tools/sbdb_lookup.html#/  
-3. MP3C Asteroid Database: https://mp3c.oca.eu/
-4. SkyLive: https://theskylive.com/
-5. Asteroid Spectral Types:  https://en.wikipedia.org/wiki/Asteroid_spectral_types
+Source: [Asterrank](https://www.asterank.com/)
+- Asterank is built atop Nasa's Small Body Database to provide asteroid orbital data as well as estimates for asteroid value and distance metrics.  SOL of Life will contain a subset of Asterrank's data focusing on asteroid worth and distance metrics.
+
+Source:  [Asteroid Spectral Types](https://en.wikipedia.org/wiki/Asteroid_spectral_types)
+- Overview of the various Asteroid SMASSII classes and their properties
+
+Source: [MP3C](https://mp3c.oca.eu/)
+- Similar to the Nasa-JPL Small Body Database, MP3C Asteroid Database also serves as a source for physcial and orbital data on asteroids.  MP3C's database is maintained by the Observatoire de la Côte d'Azur and includes measurements and observations on the orbital and physical properties of asteroids.  SOL of Life will utilize the MP3C's database as a secondary source for orbital data on asteroids.  
+
+Source:  [Nasa-JPL: SBDB](https://ssd.jpl.nasa.gov/tools/sbdb_query.html)  
+- Nasa-JPL Small Body Database (SBDB) serves as a well established and primary source for data on asteroids as well as other "small bodies".  The SBDB includes extensive information on orbital, physical, and historical properties.  SOL of Life will utilize the SBDB for data relating to orbital properties for asteroids.  
+
+Source:  [Sky Live](https://theskylive.com/)
+- Historical and Predictive measurements of celestial bodies given their orbital trajectory can be recorded from the Sky Live tool.
+
 
 ## Modules
 <!-- There should be one module section per module (essentially per key-notion) -->
