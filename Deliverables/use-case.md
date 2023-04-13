@@ -13,7 +13,7 @@ Open source data provided by researchers and institutions such as Neil deGrasse 
 3. Which is the closest asteroid to Earth in the next 24 months and when does that occur?
 4. What are the 5 closest asteroids that may contain iron?
 5. What are the 3 most potentially profitable asteroids within 0.75au of Earth in 2024?  
-6. When will 162173 Ryugu enter within 1au of Earth?
+6. When will 162173 Ryugu be within 1au of Earth?
 7. How long will 162173 Ryugu be within 1au of Earth?
 8. Based on current trajectory of 162173 Ryugu, how far from Earth will 162173 Ryugu be in 8 months?
 9. How much time is available until the 162173 Ryugu is within 1au of Earth?
