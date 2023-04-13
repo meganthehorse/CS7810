@@ -325,22 +325,22 @@ WHERE {
 
 **SPARQL Query:**
 ```sql
-SELECT ?Asteroid ?NumericValue ?Unit
+SELECT ?Asteroid ?distance ?Unit
 WHERE {
       ?Asteroid a sol-ont:Asteroid .
       ?Asteroid sol-ont:hasCommonName "Ryugu" .   
       ?Asteroid sol-ont:hasDistanceRecord ?d .
       ?d sol-ont:hasTemporalExtent ?time .
-      ?time sol-ont:recordedAt "2024-01"^^time:MonthOfYear .
+      ?time sol-ont:recordedAt "2024-01"^^xsd:gYearMonth .
       ?d sol-ont:hasResult ?r .
       ?r sol-ont:hasQuantity ?q .
       ?q sol-ont:hasQuantityValue ?qv .
-      ?qv sol-ont:hasNumericValue ?NumericValue .  
+      ?qv sol-ont:hasNumericValue ?distance .  
   		?qv sol-ont:hasUnit ?Unit .
 } 
 ```
 **Results:**
-| Asteroid | NumericValue | Unit |
+| Asteroid | distance | Unit |
 | :----: | :----: | :----: |
 | Ryugu | 2.06539e0 | au |
 
