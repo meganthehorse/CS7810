@@ -106,7 +106,7 @@ for line in lines[1:]:  # for each asteroid
         
         #  Add TemporalExtent Triple to SOL Ontology
         time_uri = pfs["solr"][f"{monthyear}TemporalExtent.{name}"]
-        graph.add( (time_uri, pfs["sol-ont"]["recordedAt"], Literal(monthyear, datatype=TIME.MonthOfYear)))
+        graph.add( (time_uri, pfs["sol-ont"]["recordedAt"], Literal(monthyear, datatype=XSD.gYearMonth)))
         
         #  Connect Result and Time to DR
         graph.add( (distance_record_uri, pfs["sol-ont"]["hasResult"], result_uri) )
