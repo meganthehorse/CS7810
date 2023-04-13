@@ -267,7 +267,7 @@ WHERE {
 
 **SPARQL Query:**
 ```sql
-SELECT ?timeStart ?timeEnd ?TimeRemaining
+SELECT ?timeStart ?timeEnd ?duration
 WHERE {  
   {
     SELECT ?timeStart 
@@ -309,12 +309,12 @@ WHERE {
       } 
   }
   FILTER(?timeEnd>?timeStart)
-  BIND((?timeEnd-?timeStart) as ?TimeRemaining)
+  BIND((?timeEnd-?timeStart) as ?duration)
 } LIMIT 1
 ```
 
 **Results:**
-| timeStart | timeEnd | timeRemaining    |
+| timeStart | timeEnd | duration         |
 |-----------|---------|------------------|
 | 2024-08   | 2025-11 | P457DT0H0M0.000S |
 
