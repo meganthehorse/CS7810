@@ -19,10 +19,6 @@ Open source data provided by researchers and institutions such as Neil deGrasse 
 9. How much time is available until the 162173 Ryugu is within 1au of Earth?
 10. Which asteroid is the first to come within 0.5au of Earth that contains iron?
 
-~~8. What is the estimated travel time to 162173 Ryugu assuming a travel speed of 26,000kph?~~
-
-~~9. Which 5 asteroids have the highest confidence of an accurate trajectory and are within 2au of Earth?~~
-
 #  Potential Datasets & Existing Ontologies
 1. The Orbital Debris Ontology: https://rrovetto.github.io/The-Orbital-Debris-Ontology/  
 2. NASA Namespaces: https://pds.nasa.gov/datastandards/training/documents/Namespaces%20in%20PDS4.pdf, https://pds.nasa.gov/
