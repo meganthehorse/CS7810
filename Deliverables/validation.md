@@ -149,7 +149,6 @@ WHERE {
 | Ryugu   | 2025-01 | 0.66498  | au   |
 | Bennu   | 2024-11 | 0.7039   | au   |
 | Bennu   | 2023-11 | 0.71025  | au   |
-| Ryugu   | 0.44189 | 2025-05  |      |
 
 ## 4. Top 5 Closest Iron Asteroids
 **Competency Question:** "What are the 5 closest asteroids that may contain iron?"
