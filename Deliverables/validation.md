@@ -1,26 +1,5 @@
 # Validation
 
-## Template Copy Me
-**Competency Question:** "What am I?"
-
-**Bridged Datasets:** dataset 1, dataset 2, ...
-
-**SPARQL Query:**
-```sql
-SELECT * WHERE {
-	?s ?p ?o .
-}
-```
-
-**Results:**
-| Header |
-| :----: |
-| Result |
-| Result |
-| Result |
-| Result |
-| Result |
-
 ## 1. Top 5 Most Frequently Occurring Minerals
 **Competency Question:** "What are the top 5 most frequently occuring minerals within 1.5 astronomical units from Earth in 2024?"
 
@@ -288,8 +267,56 @@ WHERE {
 
 **SPARQL Query:**
 ```sql
-
+SELECT ?timeStart ?timeEnd ?TimeRemaining
+WHERE {  
+  {
+    SELECT ?timeStart 
+    WHERE{
+        ?asteroid sol-ont:hasCommonName ?name ;
+              sol-ont:hasDistanceRecord ?record .
+        ?record sol-ont:hasTemporalExtent ?te .
+        ?te sol-ont:recordedAt ?timeStart .
+        ?record sol-ont:hasResult ?r .
+        ?r sol-ont:hasQuantity ?q .
+        ?q sol-ont:hasQuantityValue ?qv .
+        ?qv a sol-ont:QuantityValue;
+        sol-ont:hasNumericValue ?distance;
+        sol-ont:hasUnit ?unit .      
+        Filter(
+            ?name="Ryugu"
+            && ?distance < 1
+        ) 
+      }ORDERBY(?timeStart) LIMIT 1
+  }
+  .
+  {
+    SELECT ?timeEnd
+    WHERE{
+        ?asteroid sol-ont:hasCommonName ?name ;
+                sol-ont:hasDistanceRecord ?record .
+        ?record sol-ont:hasTemporalExtent ?te .
+        ?te sol-ont:recordedAt ?timeEnd .
+        ?record sol-ont:hasResult ?r .
+        ?r sol-ont:hasQuantity ?q .
+        ?q sol-ont:hasQuantityValue ?qv .
+        ?qv a sol-ont:QuantityValue;
+        sol-ont:hasNumericValue ?distance;
+        sol-ont:hasUnit ?unit .      
+        Filter(
+            ?name="Ryugu"
+            && ?distance > 1
+        )
+      } 
+  }
+  FILTER(?timeEnd>?timeStart)
+  BIND((?timeEnd-?timeStart) as ?TimeRemaining)
+} LIMIT 1
 ```
+
+**Results:**
+| timeStart | timeEnd | timeRemaining    |
+|-----------|---------|------------------|
+| 2024-08   | 2025-11 | P457DT0H0M0.000S |
 
 ## 8. Ryugu Departing
 **Competency Question:** "When will a 162173 Ryugu exit a 1au range from Earth?"
