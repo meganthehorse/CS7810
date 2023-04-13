@@ -1,5 +1,5 @@
-# Name of the Knowledge Graph
-**Authors:** authors/contributors alphabetized.
+# SOL of Life
+**Authors:** Dave, Brandon Daniel, Miller, Ryan E., Noble, Megan T.
 
 ## Use Case Scenario
 ### Narrative 
