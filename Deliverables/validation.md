@@ -361,6 +361,58 @@ WHERE {
 
 **Bridged Datasets:** Asteroid_Distances.csv
 
+**SPARQL Query:**
+```sql
+SELECT ?timeEnter ?distance1 ?timeArrive ?distance2 ?TimeRemaining
+WHERE {  
+  {
+    SELECT ?timeEnter ?distance1
+    WHERE{
+        ?asteroid sol-ont:hasCommonName ?name ;
+              sol-ont:hasDistanceRecord ?record .
+        ?record sol-ont:hasTemporalExtent ?te .
+        ?te sol-ont:recordedAt ?timeEnter .
+        ?record sol-ont:hasResult ?r .
+        ?r sol-ont:hasQuantity ?q .
+        ?q sol-ont:hasQuantityValue ?qv .
+        ?qv a sol-ont:QuantityValue;
+        sol-ont:hasNumericValue ?distance1;
+        sol-ont:hasUnit ?unit .      
+        Filter(
+            ?name="Ryugu"
+            && ?distance1 > 1
+        ) 
+      }ORDERBY(?timeEnter) LIMIT 1
+  }
+  .
+  {
+    SELECT ?timeArrive ?distance2
+    WHERE{
+        ?asteroid sol-ont:hasCommonName ?name ;
+                sol-ont:hasDistanceRecord ?record .
+        ?record sol-ont:hasTemporalExtent ?te .
+        ?te sol-ont:recordedAt ?timeArrive .
+        ?record sol-ont:hasResult ?r .
+        ?r sol-ont:hasQuantity ?q .
+        ?q sol-ont:hasQuantityValue ?qv .
+        ?qv a sol-ont:QuantityValue;
+        sol-ont:hasNumericValue ?distance2;
+        sol-ont:hasUnit ?unit .      
+        Filter(
+            ?name="Ryugu"
+            && ?distance2 < 1
+        )
+      } LIMIT 1
+  }
+  FILTER(?timeArrive>?timeEnter)
+  BIND((?timeArrive-?timeEnter) as ?TimeRemaining)
+}  
+```
+**Results:**
+| timeEnter | distance1 | timeArrive | distance2 | timeRemaining     |
+|-----------|-----------|------------|-----------|-------------------|
+| 2023-01   | 2.38984e0 | 2024-08    | 0.8274e0  | P577DT23H0M0.000S |
+
 ## 11. Iron Arrival
 **Competency Question:** "Which asteroid is the first to come within 0.5au of Earth that contains iron?"
 
