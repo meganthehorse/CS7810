@@ -28,7 +28,7 @@ Source: [Asterrank](https://www.asterank.com/)
 - Asterank is built atop Nasa's Small Body Database to provide asteroid orbital data as well as estimates for asteroid value and distance metrics.  SOL of Life will contain a subset of Asterrank's data focusing on asteroid worth and distance metrics.
 
 Source:  [Asteroid Spectral Types](https://en.wikipedia.org/wiki/Asteroid_spectral_types)
-- Overview of the various Asteroid SMASSII classes and their properties
+- Overview of the various Asteroid SMASSII classes and their properties.
 
 Source: [MP3C](https://mp3c.oca.eu/)
 - Similar to the Nasa-JPL Small Body Database, MP3C Asteroid Database also serves as a source for physcial and orbital data on asteroids.  MP3C's database is maintained by the Observatoire de la Côte d'Azur and includes measurements and observations on the orbital and physical properties of asteroids.  SOL of Life will utilize the MP3C's database as a secondary source for orbital data on asteroids.  
@@ -81,7 +81,7 @@ The scoped range of hasObservation, scoped by Asteroid, is Observation
 14. * `Asteroid SubClassOf hasObservation min 1 Observation` <br />
 Every Asteroid has at minimum 1 Observation.
 
-### AsteroidClassification
+### Asteroid Classification
 **Source Pattern:** No Source Pattern  
 **Source Data:** Asterank, Asteroid Spectral Types  
 
@@ -111,7 +111,7 @@ The scoped range of hasLabel, scoped by SMASSIIClass, is an rdfs:Literal.
 10. * `SMASSIIClass SubClassOf hasLabel exactly 1 rdfs:Literal` <br />
 Every SMASSIIClass has exactly 1 Label.
 
-### DistanceRecord
+### Distance Record
 **Source Pattern:** MODL's Record  
 **Source Data:** SkyLive  
 
@@ -133,7 +133,7 @@ The scoped range of recordedAt, scoped by TemporalExtent, is an xsd:date.
 6. * `TemporalExtent SubClassOf recordedAt exactly 1 xsd:dateTime` <br />
 Every TemporalExtent has exactly 1 xsd:date.  
 
-### EntityWithProvenance
+### Entity With Provenance
 **Source Pattern:** MODL's Entity With Provenance  
 **Source Data:** Asterank, MP3C, NASA_JPL, Skylive
 
