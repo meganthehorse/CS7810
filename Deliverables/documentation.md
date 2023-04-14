@@ -237,6 +237,11 @@ Every Result belongs to exactly 1 Observation or DistanceRecord.
 ### All-Together
 ![image](../schema-diagrams/all-together/all-together.jpg)
 
+# Materialization
+The following directory contains all scripts used throughout the triplification of datasets and the materialization of the knowledge graph.  Triplification is done separately for each dataset used.
+
+[Scripts for Triplification and Materialization](../code/)
+
 # Validation
 
 ## 1. Top 5 Most Frequently Occurring Minerals
