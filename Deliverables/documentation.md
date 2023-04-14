@@ -394,6 +394,9 @@ WHERE {
 | Bennu   | 2024-11 | 0.7039   | au   |
 | Bennu   | 2023-11 | 0.71025  | au   |
 
+* Remarks:  
+Additional results are listed to better represent a query on our knowledge graph.  The appropriate answer for the above question would be the first result with `Didymos` with distance at 0.27677.  A Limit can be added to only show the `Didymos` result.  
+
 ## 4. Top 5 Closest Iron Asteroids
 **Competency Question:** "What are the 5 closest asteroids that may contain iron?"
 
@@ -564,7 +567,7 @@ WHERE {
 ## 8. Ryugu Distance After Range
 **Competency Question:** "Based on current trajectory of 162173 Ryugu, how far from Earth will 162173 Ryugu be in 8 months?"
 
-**Bridged Datasets:** Asteroid_Distances.csv
+**Bridged Datasets:** sbdb_jpl_asteroids_with_constraints.csv, Asteroid_Distances.csv
 
 
 **SPARQL Query:**
@@ -592,7 +595,7 @@ WHERE {
 ## 9. Planning for Ryugu
 **Competency Question:** "How much time is available until the 162173 Ryugu is within 1au of Earth?"
 
-**Bridged Datasets:** Asteroid_Distances.csv
+**Bridged Datasets:** sbdb_jpl_asteroids_with_constraints.csv, Asteroid_Distances.csv
 
 **SPARQL Query:**
 ```sql
@@ -646,6 +649,9 @@ WHERE {
 |-----------|-----------|------------|-----------|-------------------|
 | 2023-01   | 2.38984e0 | 2024-08    | 0.8274e0  | P577DT23H0M0.000S |
 
+* Remarks:  
+An improvement for the query would include additional results that included differing time ranges and the respective time remaining durations for an Asteroid's orbital length of stay within 1au of Earth.  
+
 ## 10. Iron Arrival
 **Competency Question:** "Which asteroid is the first to come within 0.5au of Earth that contains iron?"
 
@@ -694,6 +700,9 @@ ORDERBY ASC(?time)
 | Ryugu   | 0.66498  | 2025-01 |
 | Bennu   | 0.52983  | 2025-01 |
 | Ryugu   | 0.44189  | 2025-05 |
+
+* Remarks:  
+Additional results are listed to better represent a query on our knowledge graph.  The appropriate answer for the above question would be the second result with `Bennu` with distance at 0.5301.  A Filter can be included to limit the time range from only showing dates after the current MonthYear (2023-04), and a Limit can be added to only show the `Bennu` result.
 
 ### Remarks
 - `Asterank_Dataset.csv`:  refers to the `JPL_SBDB` dataset with Asterank's evaluation on Asteroid value and profitability
