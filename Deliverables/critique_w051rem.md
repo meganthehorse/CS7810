@@ -14,7 +14,7 @@
 
 ### Weaknesses
 - There wasn't a clear use of existing key notion patterns in their schema designs, which lead to some of the key notions coming across as unclear or too modular.
-- Use case and background was a bit ambigous, it wasn't clear if there was more to it than just a database on information related to airplanes.  
+- Use case and background was a bit ambiguous, it wasn't clear if there was more to it than just a database on information related to airplanes.  
 - With the lack of available data, the actual format of expected data and how it would be used was left unclear.
 
 ## Driving KG
@@ -23,10 +23,10 @@
 - Provide a knowledge graph framework for rules and regulations related to driving, that assists in automated driving decisions based on rules and relationships in the environment.
 
 ### Strengths
-- Great set up of background and motivation, it was clearly explained why the knowledge graph is different from exisiting automated driving research and how it differs from exisiting self-driving reasoning techniques.
+- Great set up of background and motivation, it was clearly explained why the knowledge graph is different from existing automated driving research and how it differs from existing self-driving reasoning techniques.
 - Good explanation of the available data, how it was used, how it could be used.
-  - Documentation of limitations realted to data availability.
-- Scehma design was very thourough, relationships and notions were well thought out and edge cases were covered extensively along with comprehensive axioms for the relationships.
+  - Documentation of limitations related to data availability.
+- Schema design was very thorough, relationships and notions were well thought out and edge cases were covered extensively along with comprehensive axioms for the relationships.
 
 ### Weaknesses 
 - Converting an AI/ML + Sensors based problem area into a knowledge graph made for competency questions that did not showcase well how exactly the knowledge graph could be used.
